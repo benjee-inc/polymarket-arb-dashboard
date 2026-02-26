@@ -10,7 +10,7 @@
       "thesis": "Trump nominated Warsh on Jan 30, 2026. Confirmed by multiple sources. Senate confirmation pending but nomination is fact.",
       "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
       "status": "open",
-      "currentPrice": 0.94
+      "currentPrice": 0.939
     },
     {
       "conditionId": "0xdb1ae961e30733e7857ebb425b5f6449fa8032de13f32c1c6e447a0c3801ca04",
@@ -24,8 +24,8 @@
       "currentPrice": 0.0005
     }
   ],
-  "scannedAt": "2026-02-26T22:00:00Z",
-  "scanCount": 11,
+  "scannedAt": "2026-02-26T22:05:00Z",
+  "scanCount": 12,
   "totalBet": 0.75,
   "totalReturn": 0,
   "bankroll": 0.25,
@@ -35,37 +35,37 @@
       {
         "market": "Kevin Warsh Fed Chair nomination",
         "side": "YES",
-        "price": 0.94,
-        "edge": "6%",
+        "price": 0.939,
+        "edge": "6.1%",
         "status": "already_bet",
         "newsConfirmed": true,
-        "note": "Warsh at 94%. Senate hearings scheduled March. Confirmation widely expected. Our $0.50 position still has edge."
+        "note": "Warsh at 93.9%. Senate hearings scheduled March. Confirmation widely expected. Our $0.50 position still has edge."
       }
     ],
     "considered": [
       {
-        "market": "Largest Company End of February",
-        "note": "NVIDIA at 99.7%. No edge.",
+        "market": "MicroStrategy sells Bitcoin by June 30, 2026",
+        "note": "NO at 94.5% (5.5% edge). Can't confirm a negative — no way to verify they WON'T sell. Skip.",
         "skipped": true
       },
       {
-        "market": "2nd Largest Company End of February",
-        "note": "Apple at 99%. No edge.",
+        "market": "MicroStrategy sells Bitcoin by March 31, 2026",
+        "note": "NO at 98.5%. Not enough edge.",
         "skipped": true
       },
       {
-        "market": "COIN Up or Down Feb 27",
-        "note": "50/50 odds, no confirmed directional news. No edge.",
+        "market": "Bitcoin $1M before GTA VI",
+        "note": "50/50 odds. No edge.",
         "skipped": true
       }
     ],
     "lotteryTickets": []
   },
   "issues": [
-    "Gamma API returning 404 Not Found on most market searches — possible endpoint change or outage",
+    "Gamma API returning empty for binance/SEC queries — possible endpoint or indexing issue",
     "x-api CLI broken - twitter-api-v2 npm install fails (SIGTERM/timeout)",
     "Bessent YES position ($0.25) is losing - Warsh was nominated instead",
-    "Limited to web_search for market discovery until Gamma API restored"
+    "Limited to web_search for news verification until x-api restored"
   ],
-  "lastScanNotes": "Scan #11: Gamma API still mostly 404 (SEC/binance returned empty). x-api still broken. Used web_search. No new opportunities in 90-97% range. All near-resolution markets either priced at 99%+ or 50/50. Warsh position holding at 94% with 6% edge. No bets placed."
+  "lastScanNotes": "Scan #12: Gamma API still empty for binance/SEC. Warsh holding at 93.9% (was 94.0%). MicroStrategy NO at 94.5% considered but can't confirm negative events. No new actionable opportunities. No bets placed."
 }
