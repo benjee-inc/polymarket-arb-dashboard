@@ -24,8 +24,8 @@
       "currentPrice": 0.0005
     }
   ],
-  "scannedAt": "2026-02-26T21:45:00Z",
-  "scanCount": 8,
+  "scannedAt": "2026-02-26T21:50:00Z",
+  "scanCount": 9,
   "totalBet": 0.75,
   "totalReturn": 0,
   "bankroll": 0.25,
@@ -42,27 +42,15 @@
         "note": "Nomination confirmed Jan 30. Senate confirmation pending—market won't resolve until confirmed or end date. Price stuck at 0.939 reflects confirmation uncertainty."
       }
     ],
-    "considered": [
-      {
-        "market": "Judy Shelton Fed Chair nomination NO",
-        "price": 0.9635,
-        "edge": "3.65%",
-        "reason": "SKIPPED — Warsh was nominated but market end date is Dec 2026. If Warsh fails Senate confirmation, Trump could nominate Shelton. Not a confirmed NO yet."
-      },
-      {
-        "market": "MicroStrategy sells BTC by June 30 NO",
-        "price": 0.945,
-        "edge": "5.5%",
-        "reason": "SKIPPED — Time-value play, not news arb. Capital locked 4 months for 5.5%. Also API 401 issue prevents betting."
-      }
-    ],
+    "considered": [],
     "lotteryTickets": []
   },
   "issues": [
+    "Gamma API returning 404 Not Found on all market searches — possible endpoint change or outage",
     "API key 401 Unauthorized - cannot place new bets or check balance",
     "x-api CLI broken - missing twitter-api-v2 package",
     "Bessent YES position ($0.25) is losing - Warsh was nominated instead",
     "Polymarket liquidity attacks ongoing (Feb 2026) - design flaw being exploited"
   ],
-  "lastScanNotes": "Scan #8: No new arb opportunities. Same 3 candidates as before (Warsh YES 0.939 already bet, Shelton NO 0.9635, MSTR NO 0.945). Binance/SEC searches still return 0 markets. x-api still broken (missing twitter-api-v2). No bets placed."
+  "lastScanNotes": "Scan #9: Gamma API 404 on all 5 search queries. Cannot scan markets. No bets placed. Need to investigate API endpoint change."
 }
