@@ -10,7 +10,7 @@
       "thesis": "Trump nominated Warsh on Jan 30, 2026. Confirmed by multiple sources. Senate confirmation pending but nomination is fact.",
       "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
       "status": "open",
-      "currentPrice": 0.939
+      "currentPrice": 0.94
     },
     {
       "conditionId": "0xdb1ae961e30733e7857ebb425b5f6449fa8032de13f32c1c6e447a0c3801ca04",
@@ -24,8 +24,8 @@
       "currentPrice": 0.0005
     }
   ],
-  "scannedAt": "2026-02-26T21:50:00Z",
-  "scanCount": 9,
+  "scannedAt": "2026-02-26T21:55:00Z",
+  "scanCount": 10,
   "totalBet": 0.75,
   "totalReturn": 0,
   "bankroll": 0.25,
@@ -35,22 +35,33 @@
       {
         "market": "Kevin Warsh Fed Chair nomination",
         "side": "YES",
-        "price": 0.939,
-        "edge": "6.1%",
+        "price": 0.94,
+        "edge": "6%",
         "status": "already_bet",
         "newsConfirmed": true,
-        "note": "Nomination confirmed Jan 30. Senate confirmation pending—market won't resolve until confirmed or end date. Price stuck at 0.939 reflects confirmation uncertainty."
+        "note": "Warsh at 94%. Senate hearings scheduled March. Confirmation expected. Our $0.50 position still has edge."
       }
     ],
-    "considered": [],
+    "considered": [
+      {
+        "market": "Largest Company End of February",
+        "note": "NVIDIA at 100%, Apple at 99% for 2nd. No edge.",
+        "skipped": true
+      },
+      {
+        "market": "Clarity Act signed into law 2026",
+        "note": "YES at 69%. Not in 90-97% range and outcome uncertain.",
+        "skipped": true
+      }
+    ],
     "lotteryTickets": []
   },
   "issues": [
     "Gamma API returning 404 Not Found on all market searches — possible endpoint change or outage",
     "API key 401 Unauthorized - cannot place new bets or check balance",
-    "x-api CLI broken - missing twitter-api-v2 package",
+    "x-api CLI broken - twitter-api-v2 npm install fails (SIGTERM/timeout)",
     "Bessent YES position ($0.25) is losing - Warsh was nominated instead",
-    "Polymarket liquidity attacks ongoing (Feb 2026) - design flaw being exploited"
+    "Limited to web_search for market discovery until Gamma API restored"
   ],
-  "lastScanNotes": "Scan #9: Gamma API 404 on all 5 search queries. Cannot scan markets. No bets placed. Need to investigate API endpoint change."
+  "lastScanNotes": "Scan #10: Gamma API still 404. x-api still broken (npm install timed out). Used web_search for market discovery. No new opportunities in 90-97% range with confirmed news. Warsh position holding at 94%. No bets placed."
 }
