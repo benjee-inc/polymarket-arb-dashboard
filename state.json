@@ -24,8 +24,8 @@
       "currentPrice": 0.0005
     }
   ],
-  "scannedAt": "2026-02-26T21:20:00Z",
-  "scanCount": 3,
+  "scannedAt": "2026-02-26T21:25:00Z",
+  "scanCount": 4,
   "totalBet": 0.75,
   "totalReturn": 0,
   "bankroll": 0.25,
@@ -64,5 +64,5 @@
     "Bessent YES position ($0.25) is losing - Warsh was nominated instead",
     "Polymarket liquidity attacks ongoing (Feb 2026) - design flaw being exploited"
   ],
-  "lastScanNotes": "Scan #3: No new arb opportunities. Warsh YES still 0.939 (unchanged). MicroStrategy NO by June 30 @ 0.945 considered but skipped — time-value play not news arb. SEC/Binance searches returned 0 markets. x-api still broken. No breaking news found via web search. Bankroll $0.25 remaining."
+  "lastScanNotes": "Scan #4: No new arb opportunities. Same markets as before — Warsh YES still 0.939, Shelton NO 0.9625, MSTR NO 0.945. Binance/SEC searches returned 0 markets. Bitcoin search showed no new 0.90-0.97 candidates. No bets placed."
 }
