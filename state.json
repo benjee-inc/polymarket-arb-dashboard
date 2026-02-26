@@ -1,31 +1,35 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-26T16:28:00Z",
+  "scannedAt": "2026-02-26T17:10:00Z",
   "scanCount": 19,
   "totalBet": 0,
   "totalReturn": 0,
-  "bankroll": 0,
-  "opportunities": [
-    {
-      "timestamp": "2026-02-26T16:18:00Z",
-      "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
-      "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
-      "side": "yes",
-      "price": 0.937,
-      "potentialEdge": "6.3%",
-      "status": "not_verified",
-      "reason": "No formal Senate nomination letter after 27+ days."
-    },
-    {
-      "timestamp": "2026-02-26T16:18:00Z",
-      "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
-      "question": "Will Trump nominate Judy Shelton as the next Fed chair?",
-      "side": "no",
-      "price": 0.963,
-      "potentialEdge": "3.7%",
-      "status": "not_verified",
-      "reason": "No formal Fed Chair nomination confirmed"
-    }
-  ],
-  "issues": ["Zero bankroll", "Web search unavailable", "No formal Senate nomination letter after 27+ days"]
+  "bankroll": 11.19,
+  "proxyWallet": "0x9034984537d7dd1376aE6FbdE63a7363cb6EBE6E",
+  "opportunities": {
+    "newsArbitrage": [
+      {
+        "timestamp": "2026-02-26T16:18:00Z",
+        "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
+        "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+        "side": "yes",
+        "price": 0.937,
+        "potentialEdge": "6.3%",
+        "status": "not_verified",
+        "reason": "No formal Senate nomination letter after 27+ days."
+      },
+      {
+        "timestamp": "2026-02-26T16:18:00Z",
+        "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
+        "question": "Will Trump nominate Judy Shelton as the next Fed chair?",
+        "side": "no",
+        "price": 0.963,
+        "potentialEdge": "3.7%",
+        "status": "not_verified",
+        "reason": "No formal Fed Chair nomination confirmed"
+      }
+    ],
+    "lotteryTickets": []
+  },
+  "issues": ["Bankroll: $11.19 USDC.e in proxy", "Web search unavailable"]
 }
