@@ -1,31 +1,31 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-26T14:48:00Z",
-  "scanCount": 1,
+  "scannedAt": "2026-02-26T14:53:00Z",
+  "scanCount": 2,
   "totalBet": 0,
   "totalReturn": 0,
   "opportunities": [
     {
-      "timestamp": "2026-02-26T14:48:00Z",
+      "timestamp": "2026-02-26T14:53:00Z",
       "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
       "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
       "side": "yes",
       "price": 0.9375,
       "potentialEdge": "6.25%",
-      "volume": 43328496.26658,
+      "volume": 43328635.942484,
       "status": "not_verified",
-      "reason": "Cannot verify news - missing Brave API key"
+      "reason": "X/Twitter shows speculative discussion but no official confirmation from credible sources"
     },
     {
-      "timestamp": "2026-02-26T14:48:00Z", 
+      "timestamp": "2026-02-26T14:53:00Z", 
       "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
       "question": "Will Trump nominate Judy Shelton as the next Fed chair?",
       "side": "no",
       "price": 0.9625,
       "potentialEdge": "3.75%",
-      "volume": 96348905.275055,
+      "volume": 96356302.451946,
       "status": "not_verified", 
-      "reason": "Cannot verify news - missing Brave API key"
+      "reason": "X/Twitter shows speculative discussion but no official confirmation from credible sources"
     }
   ]
 }
