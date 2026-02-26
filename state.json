@@ -1,35 +1,53 @@
 {
-  "bets": [],
-  "scannedAt": "2026-02-26T17:10:00Z",
-  "scanCount": 19,
-  "totalBet": 0,
+  "bets": [
+    {
+      "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
+      "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+      "side": "YES",
+      "amount": 0.50,
+      "entryPrice": 0.9395,
+      "placedAt": "2026-02-26T17:26:00Z",
+      "thesis": "Trump nominated Warsh on Feb 24, 2026. Confirmed by multiple sources. Market should resolve YES.",
+      "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
+      "status": "open",
+      "currentPrice": 0.939
+    },
+    {
+      "conditionId": "0xdb1ae961e30733e7857ebb425b5f6449fa8032de13f32c1c6e447a0c3801ca04",
+      "question": "Will Trump nominate Scott Bessent as the next Fed chair?",
+      "side": "YES",
+      "amount": 0.25,
+      "entryPrice": 0.0005,
+      "placedAt": "2026-02-26T17:30:00Z",
+      "thesis": "Lottery ticket — placed before Warsh nomination confirmed. Now a losing position.",
+      "status": "losing",
+      "currentPrice": 0.0005
+    }
+  ],
+  "scannedAt": "2026-02-26T21:10:00Z",
+  "scanCount": 1,
+  "totalBet": 0.75,
   "totalReturn": 0,
-  "bankroll": 11.19,
-  "proxyWallet": "0x9034984537d7dd1376aE6FbdE63a7363cb6EBE6E",
+  "bankroll": 0.25,
+  "proxyWallet": "0x3b0d0696033643d52C5B6D95d6c1A7d924Ffb9fb",
   "opportunities": {
     "newsArbitrage": [
       {
-        "timestamp": "2026-02-26T16:18:00Z",
-        "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
-        "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
-        "side": "yes",
-        "price": 0.937,
-        "potentialEdge": "6.3%",
-        "status": "not_verified",
-        "reason": "No formal Senate nomination letter after 27+ days."
-      },
-      {
-        "timestamp": "2026-02-26T16:18:00Z",
-        "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
-        "question": "Will Trump nominate Judy Shelton as the next Fed chair?",
-        "side": "no",
-        "price": 0.963,
-        "potentialEdge": "3.7%",
-        "status": "not_verified",
-        "reason": "No formal Fed Chair nomination confirmed"
+        "market": "Kevin Warsh Fed Chair nomination",
+        "side": "YES",
+        "price": 0.939,
+        "edge": "6.1%",
+        "status": "already_bet",
+        "newsConfirmed": true,
+        "source": "Multiple sources confirm Feb 24 nomination"
       }
     ],
     "lotteryTickets": []
   },
-  "issues": ["Bankroll: $11.19 USDC.e in proxy", "Web search unavailable"]
+  "issues": [
+    "API key 401 Unauthorized - cannot place new bets or check balance",
+    "x-api CLI broken - missing twitter-api-v2 package",
+    "Bessent YES positions ($0.25) are losing - Warsh was nominated instead"
+  ],
+  "lastScanNotes": "Scan #1: Warsh nomination confirmed (Feb 24). Already have $0.50 YES position. No new opportunities in 0.90-0.97 range with confirmed news. Binance/SEC searches returned 0 markets. API auth broken, cannot trade."
 }
