@@ -7,7 +7,7 @@
       "amount": 0.50,
       "entryPrice": 0.9395,
       "placedAt": "2026-02-26T17:26:00Z",
-      "thesis": "Trump nominated Warsh on Feb 24, 2026. Confirmed by multiple sources. Market should resolve YES.",
+      "thesis": "Trump nominated Warsh on Jan 30, 2026. Confirmed by multiple sources. Senate confirmation pending but nomination is fact.",
       "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
       "status": "open",
       "currentPrice": 0.939
@@ -24,8 +24,8 @@
       "currentPrice": 0.0005
     }
   ],
-  "scannedAt": "2026-02-26T21:10:00Z",
-  "scanCount": 1,
+  "scannedAt": "2026-02-26T21:15:00Z",
+  "scanCount": 2,
   "totalBet": 0.75,
   "totalReturn": 0,
   "bankroll": 0.25,
@@ -39,7 +39,15 @@
         "edge": "6.1%",
         "status": "already_bet",
         "newsConfirmed": true,
-        "source": "Multiple sources confirm Feb 24 nomination"
+        "note": "Nomination confirmed Jan 30. Senate confirmation pending—market won't resolve until confirmed or end date. Price stuck at 0.939 reflects confirmation uncertainty."
+      }
+    ],
+    "considered": [
+      {
+        "market": "Judy Shelton Fed Chair nomination NO",
+        "price": 0.9625,
+        "edge": "3.75%",
+        "reason": "SKIPPED — Warsh was nominated but market end date is Dec 2026. If Warsh fails Senate confirmation, Trump could nominate Shelton. Not a confirmed NO yet."
       }
     ],
     "lotteryTickets": []
@@ -47,7 +55,8 @@
   "issues": [
     "API key 401 Unauthorized - cannot place new bets or check balance",
     "x-api CLI broken - missing twitter-api-v2 package",
-    "Bessent YES positions ($0.25) are losing - Warsh was nominated instead"
+    "Bessent YES position ($0.25) is losing - Warsh was nominated instead",
+    "Polymarket liquidity attacks ongoing (Feb 2026) - design flaw being exploited"
   ],
-  "lastScanNotes": "Scan #1: Warsh nomination confirmed (Feb 24). Already have $0.50 YES position. No new opportunities in 0.90-0.97 range with confirmed news. Binance/SEC searches returned 0 markets. API auth broken, cannot trade."
+  "lastScanNotes": "Scan #2: No new opportunities. Warsh YES still at 0.939 (unchanged). Nomination confirmed but Senate confirmation pending — explains why market hasn't moved to 0.97+. Shelton NO at 0.9625 considered but skipped (not confirmed NO yet). Binance/SEC/listing searches returned 0 markets. x-api still broken. No breaking news found via web search."
 }
