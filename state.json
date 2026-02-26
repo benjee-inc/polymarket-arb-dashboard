@@ -1,37 +1,37 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-26T15:38:00Z",
-  "scanCount": 8,
+  "scannedAt": "2026-02-26T15:43:00Z",
+  "scanCount": 9,
   "totalBet": 0,
   "totalReturn": 0,
   "bankroll": 0,
   "opportunities": [
     {
-      "timestamp": "2026-02-26T15:38:00Z",
+      "timestamp": "2026-02-26T15:43:00Z",
       "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
       "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
       "side": "yes",
       "price": 0.9375,
       "potentialEdge": "6.25%",
-      "volume": 43343990.414891,
+      "volume": 43348401.439542,
       "status": "not_verified",
-      "reason": "STRONG counter-evidence: Latest tweets (within 1 hour) confirm '27 days since announcement, formal nomination letter to Senate doesn't exist'. Analysis suggests announcement was strategic delay, not formal nomination."
+      "reason": "PERSISTENT counter-evidence: Latest tweets continue confirming '27 days since announcement, formal nomination letter to Senate doesn't exist'. One trader celebrates odds crashed from 70% to 8% based on prediction no formal nomination in February."
     },
     {
-      "timestamp": "2026-02-26T15:38:00Z", 
+      "timestamp": "2026-02-26T15:43:00Z", 
       "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
       "question": "Will Trump nominate Judy Shelton as the next Fed chair?",
       "side": "no",
-      "price": 0.963,
-      "potentialEdge": "3.7%",
-      "volume": 96378229.787079,
+      "price": 0.9635,
+      "potentialEdge": "3.65%",
+      "volume": 96378323.682342,
       "status": "not_verified", 
-      "reason": "No formal Fed Chair nomination confirmed; Warsh counter-evidence reinforces that no nominations have been formalized through Senate"
+      "reason": "No formal Fed Chair nomination process confirmed; Warsh counter-evidence suggests all nominations remain speculative announcements"
     }
   ],
   "issues": [
     "Zero bankroll - cannot place bets",
     "Web search API unavailable for verification",
-    "Strong counter-evidence: No formal Senate nomination letter after 27 days per latest Twitter analysis"
+    "Strong persistent counter-evidence: No formal Senate nomination letter after 27+ days"
   ]
 }
