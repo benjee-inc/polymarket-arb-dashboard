@@ -1,37 +1,31 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-26T16:03:00Z",
-  "scanCount": 13,
+  "scannedAt": "2026-02-26T16:08:00Z",
+  "scanCount": 14,
   "totalBet": 0,
   "totalReturn": 0,
   "bankroll": 0,
   "opportunities": [
     {
-      "timestamp": "2026-02-26T16:03:00Z",
+      "timestamp": "2026-02-26T16:08:00Z",
       "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
       "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
       "side": "yes",
-      "price": 0.9365,
-      "potentialEdge": "6.35%",
-      "volume": 43361557.564157,
+      "price": 0.9375,
+      "potentialEdge": "6.25%",
       "status": "not_verified",
-      "reason": "No change: counter-evidence still dominates Twitter feed. No formal Senate nomination letter after 27 days."
+      "reason": "No change. Counter-evidence persists. No formal Senate nomination letter after 27+ days."
     },
     {
-      "timestamp": "2026-02-26T16:03:00Z",
+      "timestamp": "2026-02-26T16:08:00Z",
       "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
       "question": "Will Trump nominate Judy Shelton as the next Fed chair?",
       "side": "no",
       "price": 0.963,
       "potentialEdge": "3.7%",
-      "volume": 96393324.767236,
       "status": "not_verified",
       "reason": "No formal Fed Chair nomination confirmed"
     }
   ],
-  "issues": [
-    "Zero bankroll - cannot place bets",
-    "Web search API unavailable",
-    "No formal Senate nomination letter after 27+ days"
-  ]
+  "issues": ["Zero bankroll", "Web search unavailable", "No formal Senate nomination letter after 27+ days"]
 }
