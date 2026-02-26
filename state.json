@@ -24,8 +24,8 @@
       "currentPrice": 0.0005
     }
   ],
-  "scannedAt": "2026-02-26T21:55:00Z",
-  "scanCount": 10,
+  "scannedAt": "2026-02-26T22:00:00Z",
+  "scanCount": 11,
   "totalBet": 0.75,
   "totalReturn": 0,
   "bankroll": 0.25,
@@ -39,29 +39,33 @@
         "edge": "6%",
         "status": "already_bet",
         "newsConfirmed": true,
-        "note": "Warsh at 94%. Senate hearings scheduled March. Confirmation expected. Our $0.50 position still has edge."
+        "note": "Warsh at 94%. Senate hearings scheduled March. Confirmation widely expected. Our $0.50 position still has edge."
       }
     ],
     "considered": [
       {
         "market": "Largest Company End of February",
-        "note": "NVIDIA at 100%, Apple at 99% for 2nd. No edge.",
+        "note": "NVIDIA at 99.7%. No edge.",
         "skipped": true
       },
       {
-        "market": "Clarity Act signed into law 2026",
-        "note": "YES at 69%. Not in 90-97% range and outcome uncertain.",
+        "market": "2nd Largest Company End of February",
+        "note": "Apple at 99%. No edge.",
+        "skipped": true
+      },
+      {
+        "market": "COIN Up or Down Feb 27",
+        "note": "50/50 odds, no confirmed directional news. No edge.",
         "skipped": true
       }
     ],
     "lotteryTickets": []
   },
   "issues": [
-    "Gamma API returning 404 Not Found on all market searches — possible endpoint change or outage",
-    "API key 401 Unauthorized - cannot place new bets or check balance",
+    "Gamma API returning 404 Not Found on most market searches — possible endpoint change or outage",
     "x-api CLI broken - twitter-api-v2 npm install fails (SIGTERM/timeout)",
     "Bessent YES position ($0.25) is losing - Warsh was nominated instead",
     "Limited to web_search for market discovery until Gamma API restored"
   ],
-  "lastScanNotes": "Scan #10: Gamma API still 404. x-api still broken (npm install timed out). Used web_search for market discovery. No new opportunities in 90-97% range with confirmed news. Warsh position holding at 94%. No bets placed."
+  "lastScanNotes": "Scan #11: Gamma API still mostly 404 (SEC/binance returned empty). x-api still broken. Used web_search. No new opportunities in 90-97% range. All near-resolution markets either priced at 99%+ or 50/50. Warsh position holding at 94% with 6% edge. No bets placed."
 }
