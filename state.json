@@ -24,8 +24,8 @@
       "currentPrice": 0.0005
     }
   ],
-  "scannedAt": "2026-02-26T21:15:00Z",
-  "scanCount": 2,
+  "scannedAt": "2026-02-26T21:20:00Z",
+  "scanCount": 3,
   "totalBet": 0.75,
   "totalReturn": 0,
   "bankroll": 0.25,
@@ -48,6 +48,12 @@
         "price": 0.9625,
         "edge": "3.75%",
         "reason": "SKIPPED — Warsh was nominated but market end date is Dec 2026. If Warsh fails Senate confirmation, Trump could nominate Shelton. Not a confirmed NO yet."
+      },
+      {
+        "market": "MicroStrategy sells BTC by June 30 NO",
+        "price": 0.945,
+        "edge": "5.5%",
+        "reason": "SKIPPED — Saylor explicitly says no plans to sell, 717k+ BTC held. But this is a time-value play (resolves June 30), not a news arb. Capital locked 4 months for 5.5%. Also API 401 issue prevents betting."
       }
     ],
     "lotteryTickets": []
@@ -58,5 +64,5 @@
     "Bessent YES position ($0.25) is losing - Warsh was nominated instead",
     "Polymarket liquidity attacks ongoing (Feb 2026) - design flaw being exploited"
   ],
-  "lastScanNotes": "Scan #2: No new opportunities. Warsh YES still at 0.939 (unchanged). Nomination confirmed but Senate confirmation pending — explains why market hasn't moved to 0.97+. Shelton NO at 0.9625 considered but skipped (not confirmed NO yet). Binance/SEC/listing searches returned 0 markets. x-api still broken. No breaking news found via web search."
+  "lastScanNotes": "Scan #3: No new arb opportunities. Warsh YES still 0.939 (unchanged). MicroStrategy NO by June 30 @ 0.945 considered but skipped — time-value play not news arb. SEC/Binance searches returned 0 markets. x-api still broken. No breaking news found via web search. Bankroll $0.25 remaining."
 }
