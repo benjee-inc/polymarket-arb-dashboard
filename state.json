@@ -24,8 +24,8 @@
       "currentPrice": 0.0005
     }
   ],
-  "scannedAt": "2026-02-26T21:40:00Z",
-  "scanCount": 7,
+  "scannedAt": "2026-02-26T21:45:00Z",
+  "scanCount": 8,
   "totalBet": 0.75,
   "totalReturn": 0,
   "bankroll": 0.25,
@@ -64,5 +64,5 @@
     "Bessent YES position ($0.25) is losing - Warsh was nominated instead",
     "Polymarket liquidity attacks ongoing (Feb 2026) - design flaw being exploited"
   ],
-  "lastScanNotes": "Scan #7: No new arb opportunities. Warsh YES still at 0.939 (already bet). Shelton NO 0.9635, MSTR NO 0.945 still same. Binance/SEC searches return 0 markets. No breaking news found. x-api still broken. No bets placed."
+  "lastScanNotes": "Scan #8: No new arb opportunities. Same 3 candidates as before (Warsh YES 0.939 already bet, Shelton NO 0.9635, MSTR NO 0.945). Binance/SEC searches still return 0 markets. x-api still broken (missing twitter-api-v2). No bets placed."
 }
