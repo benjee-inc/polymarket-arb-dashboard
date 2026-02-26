@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎯 Polymarket Arb Bot</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0f; color: #e0e0e0; font-family: 'SF Mono', 'Fira Code', monospace; padding: 20px; }
+  h1 { color: #00ff88; font-size: 1.5rem; margin-bottom: 5px; }
+  .subtitle { color: #666; font-size: 0.85rem; margin-bottom: 20px; }
+  .stats { display: flex; gap: 15px; margin-bottom: 25px; flex-wrap: wrap; }
+  .stat { background: #111118; border: 1px solid #222; border-radius: 8px; padding: 15px 20px; min-width: 140px; }
+  .stat-label { color: #666; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
+  .stat-value { color: #00ff88; font-size: 1.4rem; font-weight: bold; margin-top: 4px; }
+  .stat-value.negative { color: #ff4444; }
+  .stat-value.neutral { color: #ffaa00; }
+  .section-title { color: #888; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; margin: 25px 0 12px; border-bottom: 1px solid #222; padding-bottom: 5px; }
+  .bet-card { background: #111118; border: 1px solid #222; border-radius: 8px; padding: 16px; margin-bottom: 10px; transition: border-color 0.2s; }
+  .bet-card:hover { border-color: #00ff88; }
+  .bet-card.pending { border-left: 3px solid #ffaa00; }
+  .bet-card.won { border-left: 3px solid #00ff88; }
+  .bet-card.lost { border-left: 3px solid #ff4444; }
+  .bet-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+  .bet-question { color: #fff; font-size: 0.95rem; font-weight: 600; flex: 1; }
+  .bet-side { padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; }
+  .bet-side.yes { background: #00ff8822; color: #00ff88; }
+  .bet-side.no { background: #ff444422; color: #ff4444; }
+  .bet-meta { display: flex; gap: 20px; font-size: 0.8rem; color: #888; margin-bottom: 8px; }
+  .bet-thesis { color: #aaa; font-size: 0.85rem; padding: 8px; background: #0a0a12; border-radius: 4px; margin-bottom: 8px; }
+  .bet-source { color: #4488ff; font-size: 0.8rem; }
+  .bet-source a { color: #4488ff; text-decoration: none; }
+  .bet-source a:hover { text-decoration: underline; }
+  .opp-card { background: #111118; border: 1px solid #333; border-radius: 8px; padding: 14px; margin-bottom: 8px; }
+  .opp-question { color: #ccc; font-size: 0.9rem; margin-bottom: 6px; }
+  .opp-meta { font-size: 0.8rem; color: #666; }
+  .edge { color: #00ff88; font-weight: bold; }
+  .no-data { color: #444; text-align: center; padding: 40px; font-style: italic; }
+  .last-scan { color: #444; font-size: 0.75rem; position: fixed; bottom: 10px; right: 20px; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+  .live-dot { display: inline-block; width: 8px; height: 8px; background: #00ff88; border-radius: 50%; animation: pulse 2s infinite; margin-right: 8px; }
+</style>
+</head>
+<body>
+  <h1><span class="live-dot"></span>Polymarket Arb Bot</h1>
+  <p class="subtitle">News-confirmed arbitrage scanner • Auto-betting enabled</p>
+
+  <div class="stats" id="stats">
+    <div class="stat"><div class="stat-label">Bankroll</div><div class="stat-value" id="bankroll">$0.00</div></div>
+    <div class="stat"><div class="stat-label">Total Bet</div><div class="stat-value neutral" id="totalBet">$0.00</div></div>
+    <div class="stat"><div class="stat-label">P&L</div><div class="stat-value" id="pnl">$0.00</div></div>
+    <div class="stat"><div class="stat-label">Active Bets</div><div class="stat-value neutral" id="activeBets">0</div></div>
+    <div class="stat"><div class="stat-label">Win Rate</div><div class="stat-value" id="winRate">-</div></div>
+    <div class="stat"><div class="stat-label">Scans</div><div class="stat-value neutral" id="scanCount">0</div></div>
+  </div>
+
+  <div class="section-title">📡 Recent Opportunities</div>
+  <div id="opportunities"><div class="no-data">Scanning for opportunities...</div></div>
+
+  <div class="section-title">💰 Active Bets</div>
+  <div id="activeBetsList"><div class="no-data">No bets placed yet</div></div>
+
+  <div class="section-title">📜 Bet History</div>
+  <div id="betHistory"><div class="no-data">No history yet</div></div>
+
+  <div class="last-scan" id="lastScan">Last scan: never</div>
+
+<script>
+// State will be injected by the bot via canvas eval
+window.ARB_STATE = null;
+
+function render(state) {
+  if (!state) return;
+  document.getElementById('bankroll').textContent = '$' + (state.bankroll || 0).toFixed(2);
+  document.getElementById('totalBet').textContent = '$' + (state.totalBet || 0).toFixed(2);
+  const pnl = state.totalReturn - state.totalBet;
+  const pnlEl = document.getElementById('pnl');
+  pnlEl.textContent = (pnl >= 0 ? '+$' : '-$') + Math.abs(pnl).toFixed(2);
+  pnlEl.className = 'stat-value ' + (pnl >= 0 ? '' : 'negative');
+
+  const active = (state.bets || []).filter(b => b.status === 'pending');
+  const closed = (state.bets || []).filter(b => b.status !== 'pending');
+  document.getElementById('activeBets').textContent = active.length;
+  document.getElementById('scanCount').textContent = state.scanCount || 0;
+
+  const wins = closed.filter(b => b.status === 'won').length;
+  document.getElementById('winRate').textContent = closed.length > 0 ? Math.round(wins/closed.length*100) + '%' : '-';
+
+  // Opportunities
+  const oppEl = document.getElementById('opportunities');
+  if (state.opportunities && state.opportunities.length > 0) {
+    oppEl.innerHTML = state.opportunities.slice(0, 10).map(o => `
+      <div class="opp-card">
+        <div class="opp-question">${esc(o.question)}</div>
+        <div class="opp-meta">
+          ${o.side} @ ${o.price} • Edge: <span class="edge">${o.edge}%</span>
+          • Confidence: ${o.confidence} • ${esc(o.reason || '')}
+        </div>
+      </div>
+    `).join('');
+  } else {
+    oppEl.innerHTML = '<div class="no-data">No opportunities found yet</div>';
+  }
+
+  // Active bets
+  const abEl = document.getElementById('activeBetsList');
+  if (active.length > 0) {
+    abEl.innerHTML = active.map(renderBet).join('');
+  } else {
+    abEl.innerHTML = '<div class="no-data">No active bets</div>';
+  }
+
+  // History
+  const bhEl = document.getElementById('betHistory');
+  if (closed.length > 0) {
+    bhEl.innerHTML = closed.map(renderBet).join('');
+  } else {
+    bhEl.innerHTML = '<div class="no-data">No closed bets</div>';
+  }
+
+  document.getElementById('lastScan').textContent = 'Last scan: ' + (state.scannedAt || 'never');
+}
+
+function renderBet(b) {
+  return `
+    <div class="bet-card ${b.status}">
+      <div class="bet-header">
+        <div class="bet-question">${esc(b.question)}</div>
+        <span class="bet-side ${b.side.toLowerCase()}">${b.side.toUpperCase()}</span>
+      </div>
+      <div class="bet-meta">
+        <span>💵 $${b.amount.toFixed(2)} @ ${b.entryPrice}</span>
+        <span>📊 Edge: ${b.edge}%</span>
+        <span>🕐 ${b.timestamp}</span>
+      </div>
+      <div class="bet-thesis">💡 ${esc(b.thesis)}</div>
+      <div class="bet-source">📰 Source: <a href="${esc(b.sourceUrl || '#')}" target="_blank">${esc(b.source)}</a></div>
+    </div>
+  `;
+}
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+
+// Fetch state from same directory
+async function fetchState() {
+  try {
+    const r = await fetch('./state.json?t=' + Date.now());
+    if (r.ok) { window.ARB_STATE = await r.json(); render(window.ARB_STATE); }
+  } catch(e) { console.log('fetch error', e); }
+}
+fetchState();
+setInterval(fetchState, 30000); // refresh every 30s
+</script>
+</body>
+</html>
