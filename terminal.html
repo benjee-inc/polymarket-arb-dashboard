@@ -27,9 +27,27 @@ body {
   z-index: 100;
 }
 
+.tab-bar {
+  background: #111;
+  padding: 0 20px;
+  border-bottom: 1px solid #00ff00;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.tab {
+  padding: 8px 16px;
+  cursor: pointer;
+  border-right: 1px solid #00ff00;
+  transition: background 0.2s;
+}
+
+.tab:hover { background: #222; }
+.tab.active { background: #00ff00; color: #000; }
+
 .terminal {
   padding: 20px;
-  height: calc(100vh - 40px);
+  height: calc(100vh - 80px);
   overflow-y: auto;
   background: #0a0a0a;
 }
@@ -48,6 +66,34 @@ body {
   margin-right: 12px;
   user-select: none;
 }
+
+.position-card {
+  background: #111;
+  border: 1px solid #00ff00;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.pos-question { font-weight: bold; color: #00ff00; margin-bottom: 8px; }
+.pos-details { display: flex; flex-wrap: wrap; gap: 20px; font-size: 0.8rem; }
+.pos-detail { color: #aaa; }
+.pos-detail span { color: #00ff00; font-weight: bold; }
+.pos-thesis { margin-top: 10px; font-size: 0.75rem; color: #888; }
+
+.wallet-card {
+  background: #111;
+  border: 1px solid #00ff00;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.wallet-header { font-size: 1.2rem; font-weight: bold; color: #00ff00; margin-bottom: 15px; }
+.wallet-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+.wallet-item { text-align: center; }
+.wallet-label { font-size: 0.75rem; color: #888; margin-bottom: 5px; }
+.wallet-value { font-size: 1.5rem; font-weight: bold; color: #00ff00; }
 
 .log-type-scan { color: #00ff00; }
 .log-type-think { color: #00aaff; }
@@ -83,93 +129,164 @@ body {
 }
 
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-
-.filter-controls {
-  position: absolute;
-  right: 20px;
-  top: 40px;
-  background: #111;
-  padding: 10px;
-  border: 1px solid #00ff00;
-  border-radius: 4px;
-  font-size: 0.7rem;
-}
-
-.filter-controls label {
-  margin-left: 8px;
-  cursor: pointer;
-}
 </style>
 </head>
 <body>
   <div class="header">
-    <div>🤖 Polymarket Alpha Terminal v1.0</div>
+    <div>🤖 Polymarket Alpha Terminal v2.0</div>
     <div id="status">Connecting<span class="connection-status" id="connStatus"></span></div>
   </div>
   
+  <div class="tab-bar">
+    <div class="tab active" data-tab="logs">📊 Logs</div>
+    <div class="tab" data-tab="positions">📈 Positions (<span id="posCount">0</span>)</div>
+    <div class="tab" data-tab="wallet">💰 Wallet</div>
+  </div>
+  
   <div class="terminal" id="terminal">
-    <div class="log-entry">
-      <span class="log-timestamp">--:--:--</span>
-      <span>🔄 Connecting to bot session logs...</span>
-      <span class="cursor"></span>
-    </div>
+    <!-- Content will be populated by JavaScript -->
   </div>
 
 <script>
 const terminal = document.getElementById('terminal');
 const status = document.getElementById('status');
 const connStatus = document.getElementById('connStatus');
-let lastTimestamp = '';
+const posCount = document.getElementById('posCount');
+let currentTab = 'logs';
 
 function formatTime(date) {
   const d = new Date(date);
   return d.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
 }
 
-function addLog(timestamp, message, type = 'scan') {
-  const entry = document.createElement('div');
-  entry.className = "log-entry log-type-" + type;
-  
-  const timeSpan = document.createElement('span');
-  timeSpan.className = 'log-timestamp';
-  timeSpan.textContent = formatTime(timestamp);
-  
-  const msgSpan = document.createElement('span');
-  msgSpan.textContent = message;
-  
-  entry.appendChild(timeSpan);
-  entry.appendChild(msgSpan);
-  
-  terminal.insertBefore(entry, terminal.firstChild);
-  
-  while (terminal.children.length > 500) {
-    terminal.removeChild(terminal.lastChild);
-  }
+function formatCurrency(value) {
+  return '$' + parseFloat(value || 0).toFixed(2);
 }
 
-async function fetchLogs() {
+function showLogs(logs) {
+  terminal.innerHTML = '';
+  if (logs.length === 0) {
+    terminal.innerHTML = '<div class="log-entry"><span>No logs yet</span></div>';
+    return;
+  }
+  
+  logs.reverse().forEach(log => {
+    const entry = document.createElement('div');
+    entry.className = "log-entry log-type-" + (log.type || 'scan');
+    
+    const timeSpan = document.createElement('span');
+    timeSpan.className = 'log-timestamp';
+    timeSpan.textContent = formatTime(log.timestamp);
+    
+    const msgSpan = document.createElement('span');
+    msgSpan.textContent = log.message || JSON.stringify(log);
+    
+    entry.appendChild(timeSpan);
+    entry.appendChild(msgSpan);
+    terminal.appendChild(entry);
+  });
+}
+
+function showPositions(state) {
+  terminal.innerHTML = '';
+  
+  if (!state || !state.activeBets || state.activeBets.length === 0) {
+    terminal.innerHTML = '<div class="log-entry"><span>No open positions</span></div>';
+    posCount.textContent = '0';
+    return;
+  }
+  
+  posCount.textContent = state.activeBets.length;
+  
+  state.activeBets.forEach(bet => {
+    const card = document.createElement('div');
+    card.className = 'position-card';
+    
+    const pnl = 0; // TODO: Calculate P&L from current price
+    const pnlColor = pnl >= 0 ? '#00ff00' : '#ff0044';
+    
+    card.innerHTML = `
+      <div class="pos-question">${bet.question}</div>
+      <div class="pos-details">
+        <div class="pos-detail">Side: <span>${bet.side.toUpperCase()}</span></div>
+        <div class="pos-detail">Entry: <span>${(bet.price * 100).toFixed(1)}¢</span></div>
+        <div class="pos-detail">Amount: <span>${formatCurrency(bet.amount)}</span></div>
+        <div class="pos-detail">Strategy: <span>${bet.strategy}</span></div>
+        <div class="pos-detail">P&L: <span style="color: ${pnlColor}">${formatCurrency(pnl)}</span></div>
+      </div>
+      <div class="pos-thesis">Thesis: ${bet.thesis}</div>
+    `;
+    
+    terminal.appendChild(card);
+  });
+}
+
+function showWallet(state) {
+  terminal.innerHTML = '';
+  
+  const card = document.createElement('div');
+  card.className = 'wallet-card';
+  
+  card.innerHTML = `
+    <div class="wallet-header">Portfolio Overview</div>
+    <div class="wallet-grid">
+      <div class="wallet-item">
+        <div class="wallet-label">Bankroll</div>
+        <div class="wallet-value">${formatCurrency(state.bankroll || 0)}</div>
+      </div>
+      <div class="wallet-item">
+        <div class="wallet-label">Deployed</div>
+        <div class="wallet-value">${formatCurrency(state.activeBets ? state.activeBets.reduce((sum, bet) => sum + bet.amount, 0) : 0)}</div>
+      </div>
+      <div class="wallet-item">
+        <div class="wallet-label">Total Trades</div>
+        <div class="wallet-value">${state.totalTrades || 0}</div>
+      </div>
+      <div class="wallet-item">
+        <div class="wallet-label">Open Positions</div>
+        <div class="wallet-value">${state.activeBets ? state.activeBets.length : 0}</div>
+      </div>
+    </div>
+  `;
+  
+  terminal.appendChild(card);
+}
+
+async function fetchData() {
   try {
-    const response = await fetch('./logs/terminal.jsonl?t=' + Date.now());
-    if (!response.ok) {
-      throw new Error('No logs yet');
+    // Fetch logs
+    const logsResponse = await fetch('./logs/terminal.jsonl?t=' + Date.now());
+    let logs = [];
+    if (logsResponse.ok) {
+      const text = await logsResponse.text();
+      const lines = text.trim().split('\n').filter(l => l);
+      logs = lines.map(line => {
+        try {
+          return JSON.parse(line);
+        } catch { return null; }
+      }).filter(Boolean);
     }
     
-    const text = await response.text();
-    const lines = text.trim().split('\n').filter(l => l);
-    const logs = lines.slice(-50).map(line => {
-      try {
-        return JSON.parse(line);
-      } catch { return null; }
-    }).filter(Boolean);
+    // Fetch state
+    const stateResponse = await fetch('./state.json?t=' + Date.now());
+    let state = null;
+    if (stateResponse.ok) {
+      state = await stateResponse.json();
+    }
     
+    // Update UI based on current tab
+    if (currentTab === 'logs') {
+      showLogs(logs);
+    } else if (currentTab === 'positions') {
+      showPositions(state);
+    } else if (currentTab === 'wallet') {
+      showWallet(state);
+    }
+    
+    // Update status
     if (logs.length > 0) {
       status.textContent = 'Live Feed';
       connStatus.style.background = '#00ff00';
-      
-      terminal.innerHTML = '';
-      logs.reverse().forEach(log => {
-        addLog(log.timestamp, log.message, log.type || 'scan');
-      });
     }
     
   } catch (err) {
@@ -178,19 +295,21 @@ async function fetchLogs() {
   }
 }
 
-// Auto-refresh logs
-setInterval(fetchLogs, 5000);
+// Tab switching
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    currentTab = tab.dataset.tab;
+    fetchData();
+  });
+});
 
-// Load initial
-fetchLogs();
+// Auto-refresh
+setInterval(fetchData, 5000);
 
-// Display connection timestamp
-addLog(Date.now(), '📡 Terminal connected successfully', 'scan');
-
-setTimeout(() => {
-  addLog(Date.now(), '📊 Dashboard and terminal are live', 'decision');
-  addLog(Date.now(), '🌐 Proxy: Amsterdam (geoblock bypass active)', 'think');
-}, 1000);
+// Initial load
+fetchData();
 
 </script>
 </body>
