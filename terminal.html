@@ -5,128 +5,60 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Polymarket Alpha Terminal</title>
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { 
-  background: #0a0a0a; 
-  color: #00ff00; 
-  font-family: 'SF Mono', 'Consolas', 'Monaco', monospace; 
-  padding: 0;
-  height: 100vh;
-  overflow: hidden;
-}
-.header {
-  background: #111;
-  padding: 10px 20px;
-  border-bottom: 1px solid #333;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.85rem;
-}
-.header-left { display: flex; align-items: center; gap: 15px; }
-.bankroll { color: #00ff00; font-weight: bold; font-size: 1.1rem; }
-.scan-count { color: #888; font-size: 0.75rem; }
-.tab-bar {
-  background: #0d0d0d;
-  padding: 0 20px;
-  border-bottom: 1px solid #333;
-  display: flex;
-  font-size: 0.8rem;
-}
-.tab {
-  padding: 8px 20px;
-  cursor: pointer;
-  border-right: 1px solid #222;
-  color: #888;
-  transition: all 0.2s;
-}
-.tab:hover { background: #1a1a1a; color: #00ff00; }
-.tab.active { background: #00ff00; color: #000; font-weight: bold; }
-.content {
-  padding: 15px 20px;
-  height: calc(100vh - 82px);
-  overflow-y: auto;
-  background: #0a0a0a;
-}
-.log-entry {
-  margin-bottom: 4px;
-  line-height: 1.5;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  font-size: 0.8rem;
-  padding: 2px 0;
-  border-bottom: 1px solid #111;
-}
-.log-timestamp { color: #555; margin-right: 10px; }
-.log-type-scan { color: #00ff00; }
-.log-type-think { color: #00aaff; }
-.log-type-decision { color: #ffaa00; font-weight: bold; }
-.log-type-trade { color: #ff00ff; font-weight: bold; }
-.log-type-error { color: #ff0044; }
-.position-card {
-  background: #111;
-  border: 1px solid #333;
-  border-left: 3px solid #00ff00;
-  padding: 12px 15px;
-  margin-bottom: 8px;
-  border-radius: 2px;
-}
-.pos-question { font-weight: bold; color: #00ff00; margin-bottom: 6px; font-size: 0.85rem; }
-.pos-row { display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.8rem; color: #aaa; }
-.pos-row span { color: #00ff00; }
-.pos-thesis { margin-top: 8px; font-size: 0.7rem; color: #666; font-style: italic; }
-.wallet-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 15px;
-  margin-bottom: 20px;
-}
-.wallet-box {
-  background: #111;
-  border: 1px solid #333;
-  padding: 15px;
-  text-align: center;
-  border-radius: 4px;
-}
-.wallet-label { font-size: 0.7rem; color: #666; margin-bottom: 5px; text-transform: uppercase; }
-.wallet-value { font-size: 1.8rem; font-weight: bold; color: #00ff00; }
-.wallet-value.warn { color: #ffaa00; }
-.dot {
-  display: inline-block; width: 8px; height: 8px;
-  background: #00ff00; border-radius: 50%; margin-left: 6px;
-  animation: pulse 2s infinite;
-}
-@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.4; } }
-.empty { color: #555; padding: 40px; text-align: center; }
-.opp-card {
-  background: #111;
-  border: 1px solid #333;
-  border-left: 3px solid #ffaa00;
-  padding: 12px 15px;
-  margin-bottom: 8px;
-}
-.opp-market { font-weight: bold; color: #ffaa00; margin-bottom: 4px; }
-.opp-details { font-size: 0.8rem; color: #aaa; }
-.opp-details span { color: #00ff00; }
-.opp-status { font-size: 0.75rem; color: #ff0044; margin-top: 4px; }
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #0a0a0a; }
-::-webkit-scrollbar-thumb { background: #333; }
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#00ff00;font-family:'SF Mono','Consolas','Monaco',monospace;height:100vh;overflow:hidden}
+.header{background:#111;padding:8px 20px;border-bottom:1px solid #333;display:flex;justify-content:space-between;align-items:center;font-size:0.85rem}
+.header-left{display:flex;align-items:center;gap:12px}
+.pnl-bar{display:flex;gap:20px;align-items:center}
+.pnl-item{text-align:center}
+.pnl-label{font-size:0.6rem;color:#666;text-transform:uppercase}
+.pnl-value{font-size:1.1rem;font-weight:bold}
+.pnl-pos{color:#00ff00}.pnl-neg{color:#ff0044}.pnl-neutral{color:#888}
+.tab-bar{background:#0d0d0d;padding:0 20px;border-bottom:1px solid #333;display:flex;font-size:0.8rem}
+.tab{padding:8px 20px;cursor:pointer;border-right:1px solid #222;color:#888;transition:all 0.2s}
+.tab:hover{background:#1a1a1a;color:#00ff00}
+.tab.active{background:#00ff00;color:#000;font-weight:bold}
+.content{padding:15px 20px;height:calc(100vh - 90px);overflow-y:auto;background:#0a0a0a}
+.log-entry{margin-bottom:3px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word;font-size:0.8rem;padding:2px 0;border-bottom:1px solid #111}
+.log-timestamp{color:#555;margin-right:10px}
+.log-type-scan{color:#00ff00}.log-type-think{color:#00aaff}.log-type-decision{color:#ffaa00;font-weight:bold}.log-type-trade{color:#ff00ff;font-weight:bold}.log-type-error{color:#ff0044}
+.pos-card{background:#111;border:1px solid #222;margin-bottom:6px;padding:10px 14px;border-radius:3px;display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center}
+.pos-card.profit{border-left:3px solid #00ff00}.pos-card.loss{border-left:3px solid #ff0044}.pos-card.flat{border-left:3px solid #555}
+.pos-q{font-size:0.8rem;color:#ccc;font-weight:bold}
+.pos-meta{font-size:0.75rem;color:#888;margin-top:4px;display:flex;flex-wrap:wrap;gap:12px}
+.pos-meta span{color:#00ff00}
+.pos-pnl{text-align:right;min-width:100px}
+.pos-pnl-val{font-size:1.2rem;font-weight:bold}
+.pos-pnl-pct{font-size:0.7rem;color:#888}
+.pos-thesis{font-size:0.65rem;color:#555;margin-top:4px;font-style:italic;grid-column:1/-1}
+.wallet-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:20px}
+.w-box{background:#111;border:1px solid #333;padding:12px;text-align:center;border-radius:4px}
+.w-label{font-size:0.65rem;color:#666;text-transform:uppercase;margin-bottom:4px}
+.w-val{font-size:1.5rem;font-weight:bold;color:#00ff00}
+.closed-card{background:#0d0d0d;border:1px solid #222;padding:8px 12px;margin-bottom:4px;font-size:0.75rem;color:#888;border-radius:2px}
+.dot{display:inline-block;width:8px;height:8px;background:#00ff00;border-radius:50%;margin-left:6px;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+.empty{color:#555;padding:40px;text-align:center}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:#0a0a0a}::-webkit-scrollbar-thumb{background:#333}
 </style>
 </head>
 <body>
 <div class="header">
   <div class="header-left">
-    <span>POLYMARKET ALPHA TERMINAL</span>
-    <span class="bankroll" id="bankroll">$--</span>
-    <span class="scan-count" id="scanInfo">--</span>
+    <span style="color:#888">POLYMARKET ALPHA</span>
+    <div class="pnl-bar">
+      <div class="pnl-item"><div class="pnl-label">Balance</div><div class="pnl-value pnl-neutral" id="hBal">--</div></div>
+      <div class="pnl-item"><div class="pnl-label">Deployed</div><div class="pnl-value pnl-neutral" id="hDep">--</div></div>
+      <div class="pnl-item"><div class="pnl-label">Unrealized P&L</div><div class="pnl-value" id="hPnl">--</div></div>
+      <div class="pnl-item"><div class="pnl-label">Realized P&L</div><div class="pnl-value" id="hReal">--</div></div>
+      <div class="pnl-item"><div class="pnl-label">Positions</div><div class="pnl-value pnl-neutral" id="hPos">--</div></div>
+    </div>
   </div>
-  <div><span id="statusText">connecting</span><span class="dot" id="dot"></span></div>
+  <div><span id="statusText" style="color:#888;font-size:0.75rem">connecting</span><span class="dot" id="dot"></span></div>
 </div>
 <div class="tab-bar">
   <div class="tab active" data-tab="logs">LOGS</div>
-  <div class="tab" data-tab="positions">POSITIONS <span id="posCount"></span></div>
-  <div class="tab" data-tab="opportunities">OPPORTUNITIES</div>
+  <div class="tab" data-tab="positions">POSITIONS</div>
   <div class="tab" data-tab="wallet">WALLET</div>
 </div>
 <div class="content" id="content"></div>
@@ -134,68 +66,74 @@ body {
 <script>
 const content = document.getElementById('content');
 let currentTab = 'logs';
-let cachedLogs = [];
-let cachedState = {};
+let cachedLogs = [], cachedState = {}, livePnl = {};
 
-function fmt(v) { return '$' + parseFloat(v||0).toFixed(2); }
-function ts(d) { return new Date(d).toLocaleTimeString('en-US',{hour12:false,hour:'2-digit',minute:'2-digit',second:'2-digit'}); }
+function fmt(v){return '$'+parseFloat(v||0).toFixed(2)}
+function ts(d){return new Date(d).toLocaleTimeString('en-US',{hour12:false,hour:'2-digit',minute:'2-digit',second:'2-digit'})}
+function esc(s){const d=document.createElement('div');d.textContent=s||'';return d.innerHTML}
+function pnlClass(v){return v>0.001?'pnl-pos':v<-0.001?'pnl-neg':'pnl-neutral'}
+function pnlSign(v){return v>=0?'+$'+v.toFixed(3):'-$'+Math.abs(v).toFixed(3)}
+
+// Extract live P&L from log entries (the position monitor writes these)
+function extractLivePnl(logs) {
+  const pnl = {};
+  // Scan logs for position monitor entries like: "📈 Market... | YES @ 94.0¢ → 93.5¢ | P&L: -$0.010 (-0.5%) | 3.0h held"
+  for (const log of logs) {
+    if (!log.message || !log.message.includes('📈')) continue;
+    const m = log.message.match(/📈\s*(.+?)\s*\|\s*(\w+)\s*@\s*([\d.]+)¢\s*→\s*([\d.]+)¢\s*\|\s*P&L:\s*([+-]?\$?[\d.]+)\s*\(([+-]?[\d.]+)%\)\s*\|\s*([\d.]+)h/);
+    if (!m) continue;
+    const key = m[1].trim();
+    pnl[key] = {
+      side: m[2], entry: parseFloat(m[3]), current: parseFloat(m[4]),
+      pnlDollar: parseFloat(m[5].replace('$','')), pnlPct: parseFloat(m[6]), hoursHeld: parseFloat(m[7]),
+      timestamp: log.timestamp
+    };
+  }
+  return pnl;
+}
 
 function renderLogs() {
-  if (!cachedLogs.length) { content.innerHTML = '<div class="empty">Waiting for scan data...</div>'; return; }
-  // Sort newest first by timestamp
-  const sorted = [...cachedLogs].sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
+  if (!cachedLogs.length){content.innerHTML='<div class="empty">Waiting for scan data...</div>';return}
+  const sorted = [...cachedLogs].sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp));
   let html = '';
-  for (const log of sorted) {
-    const cls = 'log-type-' + (log.type || 'scan');
-    const msg = log.message || JSON.stringify(log);
-    html += '<div class="log-entry ' + cls + '"><span class="log-timestamp">' + ts(log.timestamp) + '</span>' + escHtml(msg) + '</div>';
+  for (const log of sorted.slice(0, 200)) {
+    const cls = 'log-type-'+(log.type||'scan');
+    html += '<div class="log-entry '+cls+'"><span class="log-timestamp">'+ts(log.timestamp)+'</span>'+esc(log.message||JSON.stringify(log))+'</div>';
   }
   content.innerHTML = html;
 }
 
 function renderPositions() {
-  const state = cachedState;
-  const bets = state.bets || state.activeBets || [];
-  if (!bets.length) {
-    content.innerHTML = '<div class="empty">No open positions</div>';
-    return;
-  }
+  const bets = cachedState.bets || [];
+  if (!bets.length){content.innerHTML='<div class="empty">No open positions</div>';return}
+  
   let html = '';
   for (const b of bets) {
-    html += '<div class="position-card">'
-      + '<div class="pos-question">' + escHtml(b.question || b.market || '?') + '</div>'
-      + '<div class="pos-row">'
-      + 'Side: <span>' + (b.side||'?').toUpperCase() + '</span> &nbsp; '
-      + 'Entry: <span>' + ((b.price||0)*100).toFixed(1) + '¢</span> &nbsp; '
-      + 'Amount: <span>' + fmt(b.amount||b.cost||0) + '</span> &nbsp; '
-      + 'Strategy: <span>' + (b.strategy||'--') + '</span>'
+    const key = (b.market||'').slice(0,50).trim();
+    const live = livePnl[key] || {};
+    const currentPrice = live.current || b.price;
+    const pnlDollar = live.pnlDollar || 0;
+    const pnlPct = live.pnlPct || 0;
+    const hours = live.hoursHeld || ((Date.now()-new Date(b.timestamp).getTime())/3600000);
+    const cls = pnlDollar > 0.001 ? 'profit' : pnlDollar < -0.001 ? 'loss' : 'flat';
+    
+    html += '<div class="pos-card '+cls+'">'
+      + '<div>'
+      + '<div class="pos-q">'+esc(b.market||'?')+'</div>'
+      + '<div class="pos-meta">'
+      + '<div>'+b.side+' <span>@ '+(b.price*100).toFixed(1)+'¢</span></div>'
+      + '<div>Now <span>'+(currentPrice*100).toFixed(1)+'¢</span></div>'
+      + '<div>Cost <span>'+fmt(b.amount)+'</span></div>'
+      + '<div>Shares <span>'+(b.shares||0).toFixed(1)+'</span></div>'
+      + '<div>'+b.strategy+'</div>'
+      + '<div>'+hours.toFixed(1)+'h held</div>'
       + '</div>'
-      + (b.thesis ? '<div class="pos-thesis">' + escHtml(b.thesis) + '</div>' : '')
-      + '</div>';
-  }
-  content.innerHTML = html;
-}
-
-function renderOpportunities() {
-  const opps = cachedState.opportunities || {};
-  const arbs = opps.newsArbitrage || [];
-  const lotto = opps.lotteryTickets || [];
-  const all = [...arbs, ...lotto];
-  if (!all.length) {
-    content.innerHTML = '<div class="empty">No opportunities found yet</div>';
-    return;
-  }
-  let html = '<div style="color:#888;font-size:0.75rem;margin-bottom:10px">' + all.length + ' opportunities identified</div>';
-  for (const o of all) {
-    html += '<div class="opp-card">'
-      + '<div class="opp-market">' + escHtml(o.market || o.question || '?') + '</div>'
-      + '<div class="opp-details">'
-      + 'Side: <span>' + (o.side||'?') + '</span> &nbsp; '
-      + 'Price: <span>' + ((o.price||0)*100).toFixed(1) + '¢</span> &nbsp; '
-      + 'Edge: <span>' + (o.edge||'?') + '</span>'
       + '</div>'
-      + (o.thesis ? '<div class="opp-details" style="margin-top:4px">' + escHtml(o.thesis) + '</div>' : '')
-      + (o.status ? '<div class="opp-status">' + escHtml(o.status) + '</div>' : '')
+      + '<div class="pos-pnl">'
+      + '<div class="pos-pnl-val '+pnlClass(pnlDollar)+'">'+(pnlDollar>=0?'+':'')+pnlDollar.toFixed(3)+'</div>'
+      + '<div class="pos-pnl-pct '+pnlClass(pnlPct)+'">'+(pnlPct>=0?'+':'')+pnlPct.toFixed(1)+'%</div>'
+      + '</div>'
+      + (b.thesis ? '<div class="pos-thesis">'+esc(b.thesis)+'</div>' : '')
       + '</div>';
   }
   content.innerHTML = html;
@@ -203,80 +141,103 @@ function renderOpportunities() {
 
 function renderWallet() {
   const s = cachedState;
-  const bets = s.bets || s.activeBets || [];
-  const deployed = bets.reduce((sum,b) => sum + (b.amount||b.cost||0), 0);
-  content.innerHTML = '<div class="wallet-grid">'
-    + box('Bankroll', fmt(s.bankroll||0))
-    + box('Deployed', fmt(deployed))
-    + box('Available', fmt((s.bankroll||0) - deployed))
-    + box('Total Trades', s.totalTrades || s.scanCount || 0)
-    + box('Open Positions', bets.length)
-    + box('Total Return', fmt(s.totalReturn||0))
-    + box('Wallet', shortAddr(s.proxyWallet||''))
-    + box('Last Scan', s.scannedAt ? ts(s.scannedAt) : s.lastScan ? ts(s.lastScan) : '--')
-    + '</div>'
-    + (s.issues && s.issues.length ? '<div style="margin-top:10px"><div style="color:#ff0044;font-size:0.8rem;margin-bottom:5px">ISSUES:</div>' + s.issues.map(i => '<div style="color:#ff6666;font-size:0.75rem;margin-bottom:3px">• ' + escHtml(i) + '</div>').join('') + '</div>' : '')
-    + (s.lastScanNotes ? '<div style="margin-top:10px;color:#888;font-size:0.75rem">' + escHtml(s.lastScanNotes) + '</div>' : '');
+  const bets = s.bets || [];
+  const closed = s.closedBets || [];
+  const deployed = bets.reduce((sum,b)=>sum+(b.amount||0),0);
+  const unrealized = Object.values(livePnl).reduce((sum,p)=>sum+p.pnlDollar,0);
+  const realized = closed.reduce((sum,b)=>sum+(b.pnl||0),0);
+  
+  let html = '<div class="wallet-grid">'
+    + wbox('Balance',fmt(s.bankroll||0))
+    + wbox('Deployed',fmt(deployed))
+    + wbox('Unrealized P&L',(unrealized>=0?'+':'')+unrealized.toFixed(3),unrealized)
+    + wbox('Realized P&L',(realized>=0?'+':'')+realized.toFixed(3),realized)
+    + wbox('Total Trades',bets.length+closed.length)
+    + wbox('Open / Closed',bets.length+' / '+closed.length)
+    + wbox('Win Rate',closed.length?((closed.filter(b=>b.pnl>0).length/closed.length*100).toFixed(0)+'%'):'--')
+    + wbox('Last Scan',s.scannedAt?ts(s.scannedAt):'--')
+    + '</div>';
+  
+  if (closed.length) {
+    html += '<div style="color:#888;font-size:0.8rem;margin:15px 0 8px">CLOSED POSITIONS</div>';
+    for (const b of closed.slice().reverse()) {
+      const color = (b.pnl||0)>=0?'#00ff00':'#ff0044';
+      html += '<div class="closed-card">'
+        + '<span style="color:'+color+'">'+(b.pnl>=0?'+':'')+b.pnl?.toFixed(3)+'</span> '
+        + esc((b.market||'').slice(0,60))
+        + ' | '+b.side+' @ '+(b.price*100).toFixed(1)+'¢ → '+(b.exitPrice*100).toFixed(1)+'¢'
+        + ' | '+b.exitReason
+        + '</div>';
+    }
+  }
+  content.innerHTML = html;
 }
 
-function box(label, value) {
-  return '<div class="wallet-box"><div class="wallet-label">' + label + '</div><div class="wallet-value">' + value + '</div></div>';
-}
-
-function shortAddr(a) { return a ? a.slice(0,6)+'...'+a.slice(-4) : '--'; }
-
-function escHtml(s) {
-  const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML;
+function wbox(label,value,pnlVal) {
+  const cls = pnlVal!==undefined?(pnlVal>0.001?'pnl-pos':pnlVal<-0.001?'pnl-neg':'pnl-neutral'):'';
+  return '<div class="w-box"><div class="w-label">'+label+'</div><div class="w-val '+cls+'">'+value+'</div></div>';
 }
 
 function render() {
-  if (currentTab === 'logs') renderLogs();
-  else if (currentTab === 'positions') renderPositions();
-  else if (currentTab === 'opportunities') renderOpportunities();
-  else if (currentTab === 'wallet') renderWallet();
+  if (currentTab==='logs') renderLogs();
+  else if (currentTab==='positions') renderPositions();
+  else if (currentTab==='wallet') renderWallet();
+}
+
+function updateHeader() {
+  const s = cachedState;
+  const bets = s.bets || [];
+  const closed = s.closedBets || [];
+  const deployed = bets.reduce((sum,b)=>sum+(b.amount||0),0);
+  const unrealized = Object.values(livePnl).reduce((sum,p)=>sum+p.pnlDollar,0);
+  const realized = closed.reduce((sum,b)=>sum+(b.pnl||0),0);
+  
+  document.getElementById('hBal').textContent = fmt(s.bankroll||0);
+  document.getElementById('hDep').textContent = fmt(deployed);
+  
+  const hPnl = document.getElementById('hPnl');
+  hPnl.textContent = (unrealized>=0?'+':'')+unrealized.toFixed(3);
+  hPnl.className = 'pnl-value '+pnlClass(unrealized);
+  
+  const hReal = document.getElementById('hReal');
+  hReal.textContent = (realized>=0?'+':'')+realized.toFixed(3);
+  hReal.className = 'pnl-value '+pnlClass(realized);
+  
+  document.getElementById('hPos').textContent = bets.length;
+  document.getElementById('statusText').textContent = cachedLogs.length ? 'live · scan #'+(s.scanCount||'?') : 'waiting';
+  document.getElementById('dot').style.background = cachedLogs.length ? '#00ff00' : '#ffaa00';
 }
 
 async function fetchData() {
   try {
-    const [logsRes, stateRes] = await Promise.all([
-      fetch('./logs/terminal.jsonl?t=' + Date.now()),
-      fetch('./state.json?t=' + Date.now())
+    const [logsRes,stateRes] = await Promise.all([
+      fetch('./logs/terminal.jsonl?t='+Date.now()),
+      fetch('./state.json?t='+Date.now())
     ]);
-    
     if (logsRes.ok) {
       const text = await logsRes.text();
-      cachedLogs = text.trim().split('\n').filter(l=>l).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+      cachedLogs = text.trim().split('\n').filter(l=>l).map(l=>{try{return JSON.parse(l)}catch{return null}}).filter(Boolean);
+      livePnl = extractLivePnl(cachedLogs);
     }
-    
-    if (stateRes.ok) {
-      cachedState = await stateRes.json();
-    }
-    
-    // Update header
-    document.getElementById('bankroll').textContent = fmt(cachedState.bankroll || 0);
-    document.getElementById('scanInfo').textContent = 'Scans: ' + (cachedState.scanCount || 0) + ' | Logs: ' + cachedLogs.length;
-    const bets = cachedState.bets || cachedState.activeBets || [];
-    document.getElementById('posCount').textContent = bets.length ? '(' + bets.length + ')' : '';
-    document.getElementById('statusText').textContent = cachedLogs.length ? 'live' : 'waiting';
-    document.getElementById('dot').style.background = cachedLogs.length ? '#00ff00' : '#ffaa00';
-    
+    if (stateRes.ok) cachedState = await stateRes.json();
+    updateHeader();
     render();
-  } catch (err) {
+  } catch(err) {
     document.getElementById('statusText').textContent = 'error';
     document.getElementById('dot').style.background = '#ff0044';
   }
 }
 
-document.querySelectorAll('.tab').forEach(tab => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+document.querySelectorAll('.tab').forEach(tab=>{
+  tab.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
     tab.classList.add('active');
-    currentTab = tab.dataset.tab;
+    currentTab=tab.dataset.tab;
     render();
   });
 });
 
-setInterval(fetchData, 5000);
+setInterval(fetchData,5000);
 fetchData();
 </script>
 </body>

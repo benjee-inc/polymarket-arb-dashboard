@@ -113,8 +113,8 @@
       "status": "live"
     }
   ],
-  "scannedAt": "2026-02-27T19:48:20.477Z",
-  "scanCount": 48,
+  "scannedAt": "2026-02-27T19:58:09.891Z",
+  "scanCount": 51,
   "totalBet": 7.23,
   "totalReturn": 0,
   "bankroll": 12.047503,
@@ -158,5 +158,6 @@
     "lotteryTickets": []
   },
   "issues": [],
-  "lastScanNotes": "All 3 confirmed opportunities executed. Auth fixed, USDC.e swapped to USDC via Paraswap. Total deployed: $5.98."
+  "lastScanNotes": "All 3 confirmed opportunities executed. Auth fixed, USDC.e swapped to USDC via Paraswap. Total deployed: $5.98.",
+  "closedBets": []
 }
