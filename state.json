@@ -18,14 +18,26 @@
       "potentialProfit": 0.12
     }
   ],
-  "scannedAt": "2026-02-27T03:45:00Z",
-  "scanCount": 2,
+  "scannedAt": "2026-02-27T09:20:00Z",
+  "scanCount": 3,
   "totalBet": 1.88,
   "totalReturn": 0,
   "bankroll": 9.12,
   "proxyWallet": "0x3b0d0696033643d52C5B6D95d6c1A7d924Ffb9fb",
   "opportunities": {
-    "newsArbitrage": [],
+    "newsArbitrage": [
+      {
+        "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
+        "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
+        "side": "NO",
+        "price": 0.9595,
+        "edge": "4.05%",
+        "thesis": "Trump nominated Warsh on ~Feb 24, not Shelton. Market resolves on announcement. NO is confirmed outcome.",
+        "source": "https://www.whitehouse.gov/articles/2026/01/wide-acclaim-for-president-trumps-nomination-of-kevin-warsh-as-fed-chair/",
+        "status": "BLOCKED — API key unauthorized, cannot place bet",
+        "scannedAt": "2026-02-27T09:20:00Z"
+      }
+    ],
     "lotteryTickets": [],
     "considered": [
       {
@@ -38,7 +50,8 @@
     ]
   },
   "issues": [
-    "x-api CLI broken — missing twitter-api-v2 package. Cannot scan X/Twitter for breaking news."
+    "x-api CLI broken — missing twitter-api-v2 package. Cannot scan X/Twitter for breaking news.",
+    "Polymarket API key returning 401 Unauthorized — cannot place bets or check balance. Needs re-auth."
   ],
-  "lastScanNotes": "Scan #2. No new opportunities. Warsh YES holding at 93.95¢ (entry 94¢). x-api broken, relying on web_search only."
+  "lastScanNotes": "Scan #3. Found Shelton NO opportunity (4% edge, news confirmed) but BLOCKED by API auth failure. Warsh YES holding at 93.95¢. No new bets placed."
 }
