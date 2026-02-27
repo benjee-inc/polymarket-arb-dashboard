@@ -1,7 +1,7 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-27T10:55:00Z",
-  "scanCount": 16,
+  "scannedAt": "2026-02-27T11:00:00Z",
+  "scanCount": 17,
   "totalBet": 0.0,
   "totalReturn": 0,
   "bankroll": 11.00,
@@ -12,8 +12,8 @@
         "market": "Will Trump nominate Kevin Warsh as the next Fed chair?",
         "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
         "side": "YES",
-        "price": 0.9395,
-        "edge": "6.05%",
+        "price": 0.939,
+        "edge": "6.1%",
         "newsConfirmed": true,
         "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
         "thesis": "Trump nominated Warsh on Feb 24, 2026. Market asks about nomination (not confirmation). Should resolve YES. Senate hearings expected March 2026.",
@@ -49,5 +49,5 @@
     "x-api broken: missing twitter-api-v2 npm package",
     "Three confirmed opportunities with 4-6% edge remain unbet due to auth block"
   ],
-  "lastScanNotes": "Scan #16: Prices stable. Warsh YES@0.9395, MSTR NO@0.945, Shelton NO@0.9595. All BLOCKED by 401 auth. No new markets found in target range. No bets placed."
+  "lastScanNotes": "Scan #17: Prices stable. Warsh YES@0.939 (was 0.9395), MSTR NO@0.945, Shelton NO@0.9595. All BLOCKED by 401 auth. x-api still broken. No new markets in target range. No bets placed."
 }
