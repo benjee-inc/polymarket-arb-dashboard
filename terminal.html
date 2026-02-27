@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🤖 Polymarket Alpha Terminal</title>
+<title>Polymarket Alpha Terminal</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { 
@@ -14,303 +14,270 @@ body {
   height: 100vh;
   overflow: hidden;
 }
-
 .header {
   background: #111;
   padding: 10px 20px;
-  border-bottom: 1px solid #00ff00;
+  border-bottom: 1px solid #333;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 0.85rem;
-  position: sticky;
-  top: 0;
-  z-index: 100;
 }
-
+.header-left { display: flex; align-items: center; gap: 15px; }
+.bankroll { color: #00ff00; font-weight: bold; font-size: 1.1rem; }
+.scan-count { color: #888; font-size: 0.75rem; }
 .tab-bar {
-  background: #111;
+  background: #0d0d0d;
   padding: 0 20px;
-  border-bottom: 1px solid #00ff00;
+  border-bottom: 1px solid #333;
   display: flex;
   font-size: 0.8rem;
 }
-
 .tab {
-  padding: 8px 16px;
+  padding: 8px 20px;
   cursor: pointer;
-  border-right: 1px solid #00ff00;
-  transition: background 0.2s;
+  border-right: 1px solid #222;
+  color: #888;
+  transition: all 0.2s;
 }
-
-.tab:hover { background: #222; }
-.tab.active { background: #00ff00; color: #000; }
-
-.terminal {
-  padding: 20px;
-  height: calc(100vh - 80px);
+.tab:hover { background: #1a1a1a; color: #00ff00; }
+.tab.active { background: #00ff00; color: #000; font-weight: bold; }
+.content {
+  padding: 15px 20px;
+  height: calc(100vh - 82px);
   overflow-y: auto;
   background: #0a0a0a;
 }
-
 .log-entry {
-  margin-bottom: 8px;
-  line-height: 1.4;
+  margin-bottom: 4px;
+  line-height: 1.5;
   white-space: pre-wrap;
   word-wrap: break-word;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  padding: 2px 0;
+  border-bottom: 1px solid #111;
 }
-
-.log-timestamp {
-  color: #666;
-  font-size: 0.7rem;
-  margin-right: 12px;
-  user-select: none;
-}
-
-.position-card {
-  background: #111;
-  border: 1px solid #00ff00;
-  padding: 15px;
-  margin-bottom: 10px;
-  border-radius: 4px;
-}
-
-.pos-question { font-weight: bold; color: #00ff00; margin-bottom: 8px; }
-.pos-details { display: flex; flex-wrap: wrap; gap: 20px; font-size: 0.8rem; }
-.pos-detail { color: #aaa; }
-.pos-detail span { color: #00ff00; font-weight: bold; }
-.pos-thesis { margin-top: 10px; font-size: 0.75rem; color: #888; }
-
-.wallet-card {
-  background: #111;
-  border: 1px solid #00ff00;
-  padding: 20px;
-  margin-bottom: 15px;
-  border-radius: 4px;
-}
-
-.wallet-header { font-size: 1.2rem; font-weight: bold; color: #00ff00; margin-bottom: 15px; }
-.wallet-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
-.wallet-item { text-align: center; }
-.wallet-label { font-size: 0.75rem; color: #888; margin-bottom: 5px; }
-.wallet-value { font-size: 1.5rem; font-weight: bold; color: #00ff00; }
-
+.log-timestamp { color: #555; margin-right: 10px; }
 .log-type-scan { color: #00ff00; }
 .log-type-think { color: #00aaff; }
 .log-type-decision { color: #ffaa00; font-weight: bold; }
-.log-type-trade { color: #ff00ff; }
+.log-type-trade { color: #ff00ff; font-weight: bold; }
 .log-type-error { color: #ff0044; }
-
-.cursor {
-  display: inline-block;
-  width: 8px;
-  height: 16px;
-  background: #00ff00;
-  animation: blink 1s infinite;
-  vertical-align: text-bottom;
-  margin-left: 4px;
+.position-card {
+  background: #111;
+  border: 1px solid #333;
+  border-left: 3px solid #00ff00;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 2px;
 }
-
-@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-
-::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: #111; }
-::-webkit-scrollbar-thumb { background: #00ff00; }
-::-webkit-scrollbar-thumb:hover { background: #00aa00; }
-
-.connection-status {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  background: #00ff00;
-  border-radius: 50%;
-  margin-left: 8px;
+.pos-question { font-weight: bold; color: #00ff00; margin-bottom: 6px; font-size: 0.85rem; }
+.pos-row { display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.8rem; color: #aaa; }
+.pos-row span { color: #00ff00; }
+.pos-thesis { margin-top: 8px; font-size: 0.7rem; color: #666; font-style: italic; }
+.wallet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.wallet-box {
+  background: #111;
+  border: 1px solid #333;
+  padding: 15px;
+  text-align: center;
+  border-radius: 4px;
+}
+.wallet-label { font-size: 0.7rem; color: #666; margin-bottom: 5px; text-transform: uppercase; }
+.wallet-value { font-size: 1.8rem; font-weight: bold; color: #00ff00; }
+.wallet-value.warn { color: #ffaa00; }
+.dot {
+  display: inline-block; width: 8px; height: 8px;
+  background: #00ff00; border-radius: 50%; margin-left: 6px;
   animation: pulse 2s infinite;
 }
-
-@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.4; } }
+.empty { color: #555; padding: 40px; text-align: center; }
+.opp-card {
+  background: #111;
+  border: 1px solid #333;
+  border-left: 3px solid #ffaa00;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+}
+.opp-market { font-weight: bold; color: #ffaa00; margin-bottom: 4px; }
+.opp-details { font-size: 0.8rem; color: #aaa; }
+.opp-details span { color: #00ff00; }
+.opp-status { font-size: 0.75rem; color: #ff0044; margin-top: 4px; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: #333; }
 </style>
 </head>
 <body>
-  <div class="header">
-    <div>🤖 Polymarket Alpha Terminal v2.0</div>
-    <div id="status">Connecting<span class="connection-status" id="connStatus"></span></div>
+<div class="header">
+  <div class="header-left">
+    <span>POLYMARKET ALPHA TERMINAL</span>
+    <span class="bankroll" id="bankroll">$--</span>
+    <span class="scan-count" id="scanInfo">--</span>
   </div>
-  
-  <div class="tab-bar">
-    <div class="tab active" data-tab="logs">📊 Logs</div>
-    <div class="tab" data-tab="positions">📈 Positions (<span id="posCount">0</span>)</div>
-    <div class="tab" data-tab="wallet">💰 Wallet</div>
-  </div>
-  
-  <div class="terminal" id="terminal">
-    <!-- Content will be populated by JavaScript -->
-  </div>
+  <div><span id="statusText">connecting</span><span class="dot" id="dot"></span></div>
+</div>
+<div class="tab-bar">
+  <div class="tab active" data-tab="logs">LOGS</div>
+  <div class="tab" data-tab="positions">POSITIONS <span id="posCount"></span></div>
+  <div class="tab" data-tab="opportunities">OPPORTUNITIES</div>
+  <div class="tab" data-tab="wallet">WALLET</div>
+</div>
+<div class="content" id="content"></div>
 
 <script>
-const terminal = document.getElementById('terminal');
-const status = document.getElementById('status');
-const connStatus = document.getElementById('connStatus');
-const posCount = document.getElementById('posCount');
+const content = document.getElementById('content');
 let currentTab = 'logs';
+let cachedLogs = [];
+let cachedState = {};
 
-function formatTime(date) {
-  const d = new Date(date);
-  return d.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+function fmt(v) { return '$' + parseFloat(v||0).toFixed(2); }
+function ts(d) { return new Date(d).toLocaleTimeString('en-US',{hour12:false,hour:'2-digit',minute:'2-digit',second:'2-digit'}); }
+
+function renderLogs() {
+  if (!cachedLogs.length) { content.innerHTML = '<div class="empty">Waiting for scan data...</div>'; return; }
+  // Sort newest first by timestamp
+  const sorted = [...cachedLogs].sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
+  let html = '';
+  for (const log of sorted) {
+    const cls = 'log-type-' + (log.type || 'scan');
+    const msg = log.message || JSON.stringify(log);
+    html += '<div class="log-entry ' + cls + '"><span class="log-timestamp">' + ts(log.timestamp) + '</span>' + escHtml(msg) + '</div>';
+  }
+  content.innerHTML = html;
 }
 
-function formatCurrency(value) {
-  return '$' + parseFloat(value || 0).toFixed(2);
-}
-
-function showLogs(logs) {
-  terminal.innerHTML = '';
-  if (logs.length === 0) {
-    terminal.innerHTML = '<div class="log-entry"><span>No logs yet</span></div>';
+function renderPositions() {
+  const state = cachedState;
+  const bets = state.bets || state.activeBets || [];
+  if (!bets.length) {
+    content.innerHTML = '<div class="empty">No open positions</div>';
     return;
   }
-  
-  logs.reverse().forEach(log => {
-    const entry = document.createElement('div');
-    entry.className = "log-entry log-type-" + (log.type || 'scan');
-    
-    const timeSpan = document.createElement('span');
-    timeSpan.className = 'log-timestamp';
-    timeSpan.textContent = formatTime(log.timestamp);
-    
-    const msgSpan = document.createElement('span');
-    msgSpan.textContent = log.message || JSON.stringify(log);
-    
-    entry.appendChild(timeSpan);
-    entry.appendChild(msgSpan);
-    terminal.appendChild(entry);
-  });
+  let html = '';
+  for (const b of bets) {
+    html += '<div class="position-card">'
+      + '<div class="pos-question">' + escHtml(b.question || b.market || '?') + '</div>'
+      + '<div class="pos-row">'
+      + 'Side: <span>' + (b.side||'?').toUpperCase() + '</span> &nbsp; '
+      + 'Entry: <span>' + ((b.price||0)*100).toFixed(1) + '¢</span> &nbsp; '
+      + 'Amount: <span>' + fmt(b.amount||b.cost||0) + '</span> &nbsp; '
+      + 'Strategy: <span>' + (b.strategy||'--') + '</span>'
+      + '</div>'
+      + (b.thesis ? '<div class="pos-thesis">' + escHtml(b.thesis) + '</div>' : '')
+      + '</div>';
+  }
+  content.innerHTML = html;
 }
 
-function showPositions(state) {
-  terminal.innerHTML = '';
-  
-  if (!state || !state.activeBets || state.activeBets.length === 0) {
-    terminal.innerHTML = '<div class="log-entry"><span>No open positions</span></div>';
-    posCount.textContent = '0';
+function renderOpportunities() {
+  const opps = cachedState.opportunities || {};
+  const arbs = opps.newsArbitrage || [];
+  const lotto = opps.lotteryTickets || [];
+  const all = [...arbs, ...lotto];
+  if (!all.length) {
+    content.innerHTML = '<div class="empty">No opportunities found yet</div>';
     return;
   }
-  
-  posCount.textContent = state.activeBets.length;
-  
-  state.activeBets.forEach(bet => {
-    const card = document.createElement('div');
-    card.className = 'position-card';
-    
-    const pnl = 0; // TODO: Calculate P&L from current price
-    const pnlColor = pnl >= 0 ? '#00ff00' : '#ff0044';
-    
-    card.innerHTML = `
-      <div class="pos-question">${bet.question}</div>
-      <div class="pos-details">
-        <div class="pos-detail">Side: <span>${bet.side.toUpperCase()}</span></div>
-        <div class="pos-detail">Entry: <span>${(bet.price * 100).toFixed(1)}¢</span></div>
-        <div class="pos-detail">Amount: <span>${formatCurrency(bet.amount)}</span></div>
-        <div class="pos-detail">Strategy: <span>${bet.strategy}</span></div>
-        <div class="pos-detail">P&L: <span style="color: ${pnlColor}">${formatCurrency(pnl)}</span></div>
-      </div>
-      <div class="pos-thesis">Thesis: ${bet.thesis}</div>
-    `;
-    
-    terminal.appendChild(card);
-  });
+  let html = '<div style="color:#888;font-size:0.75rem;margin-bottom:10px">' + all.length + ' opportunities identified</div>';
+  for (const o of all) {
+    html += '<div class="opp-card">'
+      + '<div class="opp-market">' + escHtml(o.market || o.question || '?') + '</div>'
+      + '<div class="opp-details">'
+      + 'Side: <span>' + (o.side||'?') + '</span> &nbsp; '
+      + 'Price: <span>' + ((o.price||0)*100).toFixed(1) + '¢</span> &nbsp; '
+      + 'Edge: <span>' + (o.edge||'?') + '</span>'
+      + '</div>'
+      + (o.thesis ? '<div class="opp-details" style="margin-top:4px">' + escHtml(o.thesis) + '</div>' : '')
+      + (o.status ? '<div class="opp-status">' + escHtml(o.status) + '</div>' : '')
+      + '</div>';
+  }
+  content.innerHTML = html;
 }
 
-function showWallet(state) {
-  terminal.innerHTML = '';
-  
-  const card = document.createElement('div');
-  card.className = 'wallet-card';
-  
-  card.innerHTML = `
-    <div class="wallet-header">Portfolio Overview</div>
-    <div class="wallet-grid">
-      <div class="wallet-item">
-        <div class="wallet-label">Bankroll</div>
-        <div class="wallet-value">${formatCurrency(state.bankroll || 0)}</div>
-      </div>
-      <div class="wallet-item">
-        <div class="wallet-label">Deployed</div>
-        <div class="wallet-value">${formatCurrency(state.activeBets ? state.activeBets.reduce((sum, bet) => sum + bet.amount, 0) : 0)}</div>
-      </div>
-      <div class="wallet-item">
-        <div class="wallet-label">Total Trades</div>
-        <div class="wallet-value">${state.totalTrades || 0}</div>
-      </div>
-      <div class="wallet-item">
-        <div class="wallet-label">Open Positions</div>
-        <div class="wallet-value">${state.activeBets ? state.activeBets.length : 0}</div>
-      </div>
-    </div>
-  `;
-  
-  terminal.appendChild(card);
+function renderWallet() {
+  const s = cachedState;
+  const bets = s.bets || s.activeBets || [];
+  const deployed = bets.reduce((sum,b) => sum + (b.amount||b.cost||0), 0);
+  content.innerHTML = '<div class="wallet-grid">'
+    + box('Bankroll', fmt(s.bankroll||0))
+    + box('Deployed', fmt(deployed))
+    + box('Available', fmt((s.bankroll||0) - deployed))
+    + box('Total Trades', s.totalTrades || s.scanCount || 0)
+    + box('Open Positions', bets.length)
+    + box('Total Return', fmt(s.totalReturn||0))
+    + box('Wallet', shortAddr(s.proxyWallet||''))
+    + box('Last Scan', s.scannedAt ? ts(s.scannedAt) : s.lastScan ? ts(s.lastScan) : '--')
+    + '</div>'
+    + (s.issues && s.issues.length ? '<div style="margin-top:10px"><div style="color:#ff0044;font-size:0.8rem;margin-bottom:5px">ISSUES:</div>' + s.issues.map(i => '<div style="color:#ff6666;font-size:0.75rem;margin-bottom:3px">• ' + escHtml(i) + '</div>').join('') + '</div>' : '')
+    + (s.lastScanNotes ? '<div style="margin-top:10px;color:#888;font-size:0.75rem">' + escHtml(s.lastScanNotes) + '</div>' : '');
+}
+
+function box(label, value) {
+  return '<div class="wallet-box"><div class="wallet-label">' + label + '</div><div class="wallet-value">' + value + '</div></div>';
+}
+
+function shortAddr(a) { return a ? a.slice(0,6)+'...'+a.slice(-4) : '--'; }
+
+function escHtml(s) {
+  const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML;
+}
+
+function render() {
+  if (currentTab === 'logs') renderLogs();
+  else if (currentTab === 'positions') renderPositions();
+  else if (currentTab === 'opportunities') renderOpportunities();
+  else if (currentTab === 'wallet') renderWallet();
 }
 
 async function fetchData() {
   try {
-    // Fetch logs
-    const logsResponse = await fetch('./logs/terminal.jsonl?t=' + Date.now());
-    let logs = [];
-    if (logsResponse.ok) {
-      const text = await logsResponse.text();
-      const lines = text.trim().split('\n').filter(l => l);
-      logs = lines.map(line => {
-        try {
-          return JSON.parse(line);
-        } catch { return null; }
-      }).filter(Boolean);
+    const [logsRes, stateRes] = await Promise.all([
+      fetch('./logs/terminal.jsonl?t=' + Date.now()),
+      fetch('./state.json?t=' + Date.now())
+    ]);
+    
+    if (logsRes.ok) {
+      const text = await logsRes.text();
+      cachedLogs = text.trim().split('\n').filter(l=>l).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
     }
     
-    // Fetch state
-    const stateResponse = await fetch('./state.json?t=' + Date.now());
-    let state = null;
-    if (stateResponse.ok) {
-      state = await stateResponse.json();
+    if (stateRes.ok) {
+      cachedState = await stateRes.json();
     }
     
-    // Update UI based on current tab
-    if (currentTab === 'logs') {
-      showLogs(logs);
-    } else if (currentTab === 'positions') {
-      showPositions(state);
-    } else if (currentTab === 'wallet') {
-      showWallet(state);
-    }
+    // Update header
+    document.getElementById('bankroll').textContent = fmt(cachedState.bankroll || 0);
+    document.getElementById('scanInfo').textContent = 'Scans: ' + (cachedState.scanCount || 0) + ' | Logs: ' + cachedLogs.length;
+    const bets = cachedState.bets || cachedState.activeBets || [];
+    document.getElementById('posCount').textContent = bets.length ? '(' + bets.length + ')' : '';
+    document.getElementById('statusText').textContent = cachedLogs.length ? 'live' : 'waiting';
+    document.getElementById('dot').style.background = cachedLogs.length ? '#00ff00' : '#ffaa00';
     
-    // Update status
-    if (logs.length > 0) {
-      status.textContent = 'Live Feed';
-      connStatus.style.background = '#00ff00';
-    }
-    
+    render();
   } catch (err) {
-    status.textContent = 'No Data';
-    connStatus.style.background = '#ffaa00';
+    document.getElementById('statusText').textContent = 'error';
+    document.getElementById('dot').style.background = '#ff0044';
   }
 }
 
-// Tab switching
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
     currentTab = tab.dataset.tab;
-    fetchData();
+    render();
   });
 });
 
-// Auto-refresh
 setInterval(fetchData, 5000);
-
-// Initial load
 fetchData();
-
 </script>
 </body>
 </html>
