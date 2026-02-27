@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-27T19:43:11.238Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Arthur Laffer as the next Fed chair?..."}
-{"timestamp":"2026-02-27T19:43:11.979Z","type":"think","message":"📊 AI verdict: SKIP (10%) — There is no credible evidence to suggest Arthur Laffer is a serious contender for Fed chair, and the \"lottery ticket\" strategy is not appropriate for a market with such low probability."}
-{"timestamp":"2026-02-27T19:43:11.979Z","type":"think","message":"📰 Evidence: none found"}
-{"timestamp":"2026-02-27T19:43:11.979Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Arthur Laffer as the next Fed chair? — AI says SKIP (10%)"}
-{"timestamp":"2026-02-27T19:43:11.979Z","type":"think","message":"🧠 Analyzing: Will John Thune win the 2028 Republican presidential nominat..."}
-{"timestamp":"2026-02-27T19:43:12.889Z","type":"think","message":"📊 AI verdict: SKIP (5%) — The extremely low price and high implied probability of failure make this a poor lottery ticket, despite the large volume."}
 {"timestamp":"2026-02-27T19:43:12.889Z","type":"think","message":"📰 Evidence: None found. John Thune has not announced a 2028 presidential bid, and there is no credible public evidence suggesting he is a confirmed or very likely nominee."}
 {"timestamp":"2026-02-27T19:43:12.889Z","type":"decision","message":"⏭️ SKIP: Will John Thune win the 2028 Republican presidential nominat — AI says SKIP (5%)"}
 {"timestamp":"2026-02-27T19:43:12.889Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Barron Trump as the next Fed chair?..."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-27T19:53:23.914Z","type":"think","message":"Tight race: \"Will Luiz Inácio Lula da Silva win the 2026 Brazilian …\" — 48.5% YES, 24h vol $423.1K"}
 {"timestamp":"2026-02-27T19:53:23.915Z","type":"think","message":"↑ Daily mover: \"Will Drake release Iceman before GTA VI?\" ↑4.9% today, ↑2.9% 1w, 24h vol $192.0K"}
 {"timestamp":"2026-02-27T19:53:23.915Z","type":"decision","message":"Flow signal: \"Will Meta (META) close above $670 on February 27?\" — buyers dominating ($6.2K net), 1 traders, 1m ago"}
+{"timestamp":"2026-02-27T19:58:24.177Z","type":"scan","message":"Cycle #49 — 767 markets | 13 active events | $47.8K recent flow"}
+{"timestamp":"2026-02-27T19:58:24.177Z","type":"think","message":"Live flow: \"Will S&P 500 (SPX) hit $7,040 (HIGH) in February 2026?\" — $6.0K in 1 trades, NET BUY (strong bias), biggest $6.0K, 5m ago"}
+{"timestamp":"2026-02-27T19:58:24.177Z","type":"think","message":"↑ Price shift: \"Will Luis Gilberto Murillo win the 1st round of the 20…\" moved 1.5% since last scan (0.3% → 1.8%)"}
+{"timestamp":"2026-02-27T19:58:24.177Z","type":"think","message":"↓ Daily mover: \"Will Trump visit China by March 31?\" ↓5.3% today, ↑67.0% 1w, 24h vol $63.6K"}
+{"timestamp":"2026-02-27T19:58:24.177Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 14.5%), 24h vol $9.3K"}
+{"timestamp":"2026-02-27T19:58:24.177Z","type":"decision","message":"Flow signal: \"Will Netflix close Warner Bros. acquisition by end of …\" — buyers dominating ($3.9K net), 1 traders, 5m ago"}
