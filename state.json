@@ -1,7 +1,7 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-27T09:50:00Z",
-  "scanCount": 3,
+  "scannedAt": "2026-02-27T09:55:00Z",
+  "scanCount": 4,
   "totalBet": 0.0,
   "totalReturn": 0,
   "bankroll": 11.00,
@@ -18,6 +18,17 @@
         "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
         "thesis": "Trump nominated Warsh on Feb 24, 2026. Market asks about nomination (not confirmation). Should resolve YES.",
         "status": "BLOCKED - API key unauthorized (401), cannot place orders"
+      },
+      {
+        "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+        "conditionId": "0x8e7a03cb1970e2ad6533b01892403516b6b3f5b5fa90ed7d104c28b27e40ba00",
+        "side": "NO",
+        "price": 0.945,
+        "edge": "5.5%",
+        "newsConfirmed": true,
+        "source": "https://www.morningstar.com/news/marketwatch/20260223124/strategy-shows-no-fear-it-keeps-adding-to-a-losing-bitcoin-position-as-prices-drop",
+        "thesis": "MicroStrategy continues buying BTC aggressively, Saylor says 'won't sell'. NO on selling by June 30 is strong.",
+        "status": "BLOCKED - API key unauthorized (401), cannot place orders"
       }
     ],
     "lotteryTickets": []
@@ -26,8 +37,8 @@
     "x-api broken: missing twitter-api-v2 package",
     "Polymarket CLOB API returns 401 Unauthorized — API key invalid or expired, cannot place any orders",
     "Warsh nomination confirmed (Feb 24) YES@0.939 = 6.1% edge but BLOCKED by auth",
-    "No binance or SEC markets found",
-    "MicroStrategy has NOT sold any BTC — no edge on those markets"
+    "MicroStrategy NO@0.945 = 5.5% edge, news-confirmed but BLOCKED by auth",
+    "No binance or SEC markets found"
   ],
-  "lastScanNotes": "Scan #3: Warsh Fed Chair YES@0.939 remains best opportunity (6.1% edge, news-confirmed nomination Feb 24). Attempted bet but CLOB API returns 401 Unauthorized. x-api still broken. No new markets found. No bets placed."
+  "lastScanNotes": "Scan #4: Two confirmed opportunities (Warsh YES@0.939, MSTR NO sell@0.945) but BLOCKED by 401 API auth. x-api still broken. No bets placed."
 }
