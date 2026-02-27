@@ -11,15 +11,15 @@
       "thesis": "Trump already nominated Warsh on Jan 30, 2026. Senate confirmation pending but nomination is confirmed fact. 6% edge at 94¢.",
       "source": "Multiple news sources confirm Warsh nomination",
       "status": "open",
-      "currentPrice": 0.9385,
+      "currentPrice": 0.939,
       "orderId": "0x2babea585015e7bee4bc8d6f82a39e1d3856851acb52cfab74efa0aa15d78fe7",
       "txHash": "0x8f5da8bd507962bcc078f3593cf076c9d569d661580767d7423d550d866ecac2",
       "potentialReturn": 2.00,
       "potentialProfit": 0.12
     }
   ],
-  "scannedAt": "2026-02-27T09:30:00Z",
-  "scanCount": 5,
+  "scannedAt": "2026-02-27T09:35:00Z",
+  "scanCount": 6,
   "totalBet": 1.88,
   "totalReturn": 0,
   "bankroll": 9.12,
@@ -45,7 +45,7 @@
         "side": "NO",
         "price": 0.945,
         "reason": "Skipped — no definitive resolution yet, market runs until June 30. MicroStrategy hasn't sold and Saylor pledges not to, but outcome not confirmed.",
-        "scannedAt": "2026-02-27T09:30:00Z"
+        "scannedAt": "2026-02-27T09:35:00Z"
       }
     ]
   },
@@ -53,5 +53,5 @@
     "x-api CLI broken — missing twitter-api-v2 package. Cannot scan X/Twitter for breaking news.",
     "Polymarket API key returning 401 Unauthorized — cannot place bets or check balance. Needs re-auth."
   ],
-  "lastScanNotes": "Scan #5. No new opportunities. Warsh YES dipped to 93.85¢ (entry 94¢). Shelton NO still blocked by API auth. No binance/SEC/bitcoin arb markets. MicroStrategy NO at 94.5¢ but unresolved until June."
+  "lastScanNotes": "Scan #6. No new arb opportunities. Warsh YES stable at 93.9¢ (entry 94¢). Shelton NO still blocked by API auth. No binance/SEC/bitcoin listing arb markets found. MicroStrategy NO at 94.5¢ but unresolved until June. No new markets in 90-97¢ range."
 }
