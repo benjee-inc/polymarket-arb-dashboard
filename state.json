@@ -1,7 +1,7 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-27T10:45:00Z",
-  "scanCount": 14,
+  "scannedAt": "2026-02-27T10:50:00Z",
+  "scanCount": 15,
   "totalBet": 0.0,
   "totalReturn": 0,
   "bankroll": 11.00,
@@ -49,5 +49,5 @@
     "x-api broken: missing twitter-api-v2 npm package",
     "Three confirmed opportunities with 4-6% edge remain unbet due to auth block"
   ],
-  "lastScanNotes": "Scan #14: Prices stable. Warsh YES@0.939 (6.1%), MSTR NO@0.945 (5.5%), Shelton NO@0.9595 (4.05%). All still BLOCKED by 401 auth. No new markets found. x-api still broken. No bets placed."
+  "lastScanNotes": "Scan #15: Prices unchanged. Warsh YES@0.939, MSTR NO@0.945, Shelton NO@0.9595. All BLOCKED by 401 auth. No new markets in 0.90-0.97 range found. No bets placed."
 }
