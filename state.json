@@ -1,7 +1,7 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-27T10:40:00Z",
-  "scanCount": 13,
+  "scannedAt": "2026-02-27T10:45:00Z",
+  "scanCount": 14,
   "totalBet": 0.0,
   "totalReturn": 0,
   "bankroll": 11.00,
@@ -12,8 +12,8 @@
         "market": "Will Trump nominate Kevin Warsh as the next Fed chair?",
         "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
         "side": "YES",
-        "price": 0.94,
-        "edge": "6.0%",
+        "price": 0.939,
+        "edge": "6.1%",
         "newsConfirmed": true,
         "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
         "thesis": "Trump nominated Warsh on Feb 24, 2026. Market asks about nomination (not confirmation). Should resolve YES. Senate hearings expected March 2026.",
@@ -27,7 +27,7 @@
         "edge": "5.5%",
         "newsConfirmed": true,
         "source": "https://www.strategy.com/purchases",
-        "thesis": "Strategy continues buying BTC aggressively (717,722 BTC held). Saylor keynote Feb 25 promotes BTC treasuries. NO on selling by June 30 is strong.",
+        "thesis": "Strategy continues buying BTC aggressively. Saylor keynote Feb 25 promotes BTC treasuries. NO on selling by June 30 is strong.",
         "status": "BLOCKED - API key unauthorized (401), cannot place orders"
       },
       {
@@ -38,7 +38,7 @@
         "edge": "4.05%",
         "newsConfirmed": true,
         "source": "Warsh already nominated Feb 24 — Shelton nomination impossible",
-        "thesis": "Trump nominated Warsh, not Shelton. This should resolve NO. Edge is small at 4% and market end is Dec 31 2026 so capital locked a long time.",
+        "thesis": "Trump nominated Warsh, not Shelton. This should resolve NO.",
         "status": "BLOCKED - API key unauthorized (401), cannot place orders"
       }
     ],
@@ -49,5 +49,5 @@
     "x-api broken: missing twitter-api-v2 npm package",
     "Three confirmed opportunities with 4-6% edge remain unbet due to auth block"
   ],
-  "lastScanNotes": "Scan #13: Same 3 opportunities, prices unchanged. Warsh YES@0.94 (6%), MSTR NO@0.945 (5.5%), Shelton NO@0.9595 (4.05%). All BLOCKED by 401 auth. No new markets found. No bets placed."
+  "lastScanNotes": "Scan #14: Prices stable. Warsh YES@0.939 (6.1%), MSTR NO@0.945 (5.5%), Shelton NO@0.9595 (4.05%). All still BLOCKED by 401 auth. No new markets found. x-api still broken. No bets placed."
 }
