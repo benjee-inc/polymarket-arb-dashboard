@@ -76,8 +76,24 @@ function pnlSign(v){return v>=0?'+$'+v.toFixed(3):'-$'+Math.abs(v).toFixed(3)}
 
 // Extract live P&L from log entries (the position monitor writes these)
 function extractLivePnl(logs) {
+  // Prefer live P&L from state.json if available, fall back to logs
+  if (cachedState.livePositions && cachedState.livePositions.length) {
+    const pnl = {};
+    for (const pos of cachedState.livePositions) {
+      const key = (pos.market || '').slice(0,50).trim();
+      pnl[key] = {
+        side: pos.side,
+        entry: pos.price * 100,
+        current: (pos.livePrice || pos.price) * 100,
+        pnlDollar: pos.livePnl || 0,
+        pnlPct: pos.livePnlPct || 0,
+        hoursHeld: pos.hoursHeld || 0
+      };
+    }
+    return pnl;
+  }
+  // Fallback: parse logs
   const pnl = {};
-  // Scan logs for position monitor entries like: "📈 Market... | YES @ 94.0¢ → 93.5¢ | P&L: -$0.010 (-0.5%) | 3.0h held"
   for (const log of logs) {
     if (!log.message || !log.message.includes('📈')) continue;
     const m = log.message.match(/📈\s*(.+?)\s*\|\s*(\w+)\s*@\s*([\d.]+)¢\s*→\s*([\d.]+)¢\s*\|\s*P&L:\s*([+-]?\$?[\d.]+)\s*\(([+-]?[\d.]+)%\)\s*\|\s*([\d.]+)h/);

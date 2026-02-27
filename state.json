@@ -12,7 +12,11 @@
       "orderId": "0xe4b9068a2e5a7105a845d2f387cc781b5564e505c96c7ec09ac1ab3138863d41",
       "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
       "timestamp": "2026-02-27T16:47:15.085Z",
-      "status": "FILLED"
+      "status": "FILLED",
+      "livePrice": 0.936,
+      "livePnl": -0.008479999999999772,
+      "livePnlPct": -0.42553191489360653,
+      "hoursHeld": 4.809195833333333
     },
     {
       "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
@@ -26,7 +30,11 @@
       "orderId": "0x78667d89edf228cd21e70edc1bf521b81392ceddf28d422169b6e00b01165eff",
       "txHash": "0xcc8df2b1a7b599be8c5f92d42c11bb301d3ac9cf1904befc751e34fbed690f1f",
       "timestamp": "2026-02-27T16:47:15.086Z",
-      "status": "FILLED"
+      "status": "FILLED",
+      "livePrice": 0.945,
+      "livePnl": -0.01050000000000001,
+      "livePnlPct": -0.5263157894736858,
+      "hoursHeld": 4.809297777777778
     },
     {
       "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
@@ -40,7 +48,11 @@
       "orderId": "0xa7330940368f528e5257b61ce99ddaeefe4769f9a87b5ea9245d9b11e1ea78ba",
       "txHash": "0x4374700a2af291e7609633acc14f600bceac92e38725e90179346154c0f31313",
       "timestamp": "2026-02-27T16:47:15.086Z",
-      "status": "FILLED"
+      "status": "FILLED",
+      "livePrice": 0.957,
+      "livePnl": -0.006240000000000006,
+      "livePnlPct": -0.31250000000000444,
+      "hoursHeld": 4.8093997222222225
     },
     {
       "market": "Will Trump nominate Kevin Hassett as the next Fed chair?",
@@ -54,7 +66,11 @@
       "orderId": "0xa633b2cd5b8b362f5ce5c30880601835231e950991ca6effda6cf3ef0315ebe7",
       "txHash": null,
       "timestamp": "2026-02-27T17:53:55.689Z",
-      "status": "live"
+      "status": "live",
+      "livePrice": 0.0035,
+      "livePnl": 0.041665,
+      "livePnlPct": 16.666666666666675,
+      "hoursHeld": 3.6981780555555557
     },
     {
       "market": "Will Trump nominate Christopher Waller as the next Fed chair?",
@@ -68,7 +84,11 @@
       "orderId": "0xc2ee30037a2915219ecce15a394695efd16691e29f37de1b533abea3fd85bc9c",
       "txHash": null,
       "timestamp": "2026-02-27T17:53:58.030Z",
-      "status": "live"
+      "status": "live",
+      "livePrice": 0.0035,
+      "livePnl": 0.041665,
+      "livePnlPct": 16.666666666666675,
+      "hoursHeld": 3.6975830555555556
     },
     {
       "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
@@ -82,7 +102,11 @@
       "orderId": "0x693771f634ef46fb3ddd62b4b322e0cec52d416781b8cd575a2601a5034f61b7",
       "txHash": null,
       "timestamp": "2026-02-27T17:54:02.273Z",
-      "status": "live"
+      "status": "live",
+      "livePrice": 0.003,
+      "livePnl": 0,
+      "livePnlPct": 0,
+      "hoursHeld": 3.6964633333333334
     },
     {
       "market": "Will Trump nominate no one before 2027?",
@@ -96,7 +120,11 @@
       "orderId": "0x8ca7abe1d14895cf729e88256389648571d5722e7633e128258da33681ce01f9",
       "txHash": null,
       "timestamp": "2026-02-27T17:54:03.294Z",
-      "status": "live"
+      "status": "live",
+      "livePrice": 0.0045,
+      "livePnl": -0.025000000000000022,
+      "livePnlPct": -10.000000000000009,
+      "hoursHeld": 3.6962366666666666
     },
     {
       "market": "Russia x Ukraine ceasefire by March 31, 2026?",
@@ -110,7 +138,11 @@
       "orderId": "0xfdf48d3855cd363b992a59ccbd1972547f2bf7b5a84d01240a0f08104160ad41",
       "txHash": null,
       "timestamp": "2026-02-27T17:54:04.270Z",
-      "status": "live"
+      "status": "live",
+      "livePrice": 0.0265,
+      "livePnl": 0.0048100000000000035,
+      "livePnlPct": 1.9230769230769162,
+      "hoursHeld": 3.6960241666666667
     },
     {
       "market": "MegaETH market cap (FDV) >$6B one day after launch?",
@@ -126,11 +158,15 @@
       "orderId": "0x3b391753e07917102ba7e4ddd2b2cba28decce013b0f3892b4b3c2204b8fc498",
       "txHash": null,
       "timestamp": "2026-02-27T20:16:07.329Z",
-      "status": "FILLED"
+      "status": "FILLED",
+      "livePrice": 0.0155,
+      "livePnl": 0.06896999999999993,
+      "livePnlPct": 6.896551724137923,
+      "hoursHeld": 1.3285652777777779
     }
   ],
-  "scannedAt": "2026-02-27T21:33:13.058Z",
-  "scanCount": 74,
+  "scannedAt": "2026-02-27T21:36:26.138Z",
+  "scanCount": 75,
   "totalBet": 8.23,
   "totalReturn": 0,
   "bankroll": 12.047503,
@@ -175,5 +211,171 @@
   },
   "issues": [],
   "lastScanNotes": "All 3 confirmed opportunities executed. Auth fixed, USDC.e swapped to USDC via Paraswap. Total deployed: $5.98.",
-  "closedBets": []
+  "closedBets": [],
+  "livePositions": [
+    {
+      "market": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+      "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
+      "side": "YES",
+      "price": 0.94,
+      "amount": 1.99,
+      "shares": 2.12,
+      "strategy": "strategy_a",
+      "thesis": "Trump nominated Warsh on Feb 24. Market asks about nomination (not confirmation). Should resolve YES.",
+      "orderId": "0xe4b9068a2e5a7105a845d2f387cc781b5564e505c96c7ec09ac1ab3138863d41",
+      "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
+      "timestamp": "2026-02-27T16:47:15.085Z",
+      "status": "FILLED",
+      "livePrice": 0.936,
+      "livePnl": -0.008479999999999772,
+      "livePnlPct": -0.42553191489360653,
+      "hoursHeld": 4.809195833333333
+    },
+    {
+      "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+      "conditionId": "0x8e7a03cb1970e2ad6533b01892403516b6b3f5b5fa90ed7d104c28b27e40ba00",
+      "side": "NO",
+      "price": 0.95,
+      "amount": 2,
+      "shares": 2.1,
+      "strategy": "strategy_a",
+      "thesis": "Strategy continues buying BTC aggressively. Saylor keynote Feb 25 promotes BTC treasuries. NO on selling by June 30 is strong.",
+      "orderId": "0x78667d89edf228cd21e70edc1bf521b81392ceddf28d422169b6e00b01165eff",
+      "txHash": "0xcc8df2b1a7b599be8c5f92d42c11bb301d3ac9cf1904befc751e34fbed690f1f",
+      "timestamp": "2026-02-27T16:47:15.086Z",
+      "status": "FILLED",
+      "livePrice": 0.945,
+      "livePnl": -0.01050000000000001,
+      "livePnlPct": -0.5263157894736858,
+      "hoursHeld": 4.809297777777778
+    },
+    {
+      "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
+      "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
+      "side": "NO",
+      "price": 0.96,
+      "amount": 1.99,
+      "shares": 2.08,
+      "strategy": "strategy_a",
+      "thesis": "Trump nominated Warsh, not Shelton. This should resolve NO.",
+      "orderId": "0xa7330940368f528e5257b61ce99ddaeefe4769f9a87b5ea9245d9b11e1ea78ba",
+      "txHash": "0x4374700a2af291e7609633acc14f600bceac92e38725e90179346154c0f31313",
+      "timestamp": "2026-02-27T16:47:15.086Z",
+      "status": "FILLED",
+      "livePrice": 0.957,
+      "livePnl": -0.006240000000000006,
+      "livePnlPct": -0.31250000000000444,
+      "hoursHeld": 4.8093997222222225
+    },
+    {
+      "market": "Will Trump nominate Kevin Hassett as the next Fed chair?",
+      "conditionId": "0xdcc87b9ca36015e396bd0eebca29e854a136ed2b0b701049d1ee9da6bee3eb35",
+      "side": "YES",
+      "price": 0.003,
+      "amount": 0.25,
+      "shares": 83.33,
+      "strategy": "strategy_b",
+      "thesis": "Lottery: YES @ 0.3¢, edge 99.7%",
+      "orderId": "0xa633b2cd5b8b362f5ce5c30880601835231e950991ca6effda6cf3ef0315ebe7",
+      "txHash": null,
+      "timestamp": "2026-02-27T17:53:55.689Z",
+      "status": "live",
+      "livePrice": 0.0035,
+      "livePnl": 0.041665,
+      "livePnlPct": 16.666666666666675,
+      "hoursHeld": 3.6981780555555557
+    },
+    {
+      "market": "Will Trump nominate Christopher Waller as the next Fed chair?",
+      "conditionId": "0x705371444684d676041d1010a94cae3a657340fa4809b4307de3c173a35e0957",
+      "side": "YES",
+      "price": 0.003,
+      "amount": 0.25,
+      "shares": 83.33,
+      "strategy": "strategy_b",
+      "thesis": "Lottery: YES @ 0.3¢, edge 99.7%",
+      "orderId": "0xc2ee30037a2915219ecce15a394695efd16691e29f37de1b533abea3fd85bc9c",
+      "txHash": null,
+      "timestamp": "2026-02-27T17:53:58.030Z",
+      "status": "live",
+      "livePrice": 0.0035,
+      "livePnl": 0.041665,
+      "livePnlPct": 16.666666666666675,
+      "hoursHeld": 3.6975830555555556
+    },
+    {
+      "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
+      "conditionId": "0x94947a23e965124fa382e3ff89827b7bb00c2e2f3f9c0b92137e639d4cbfb080",
+      "side": "YES",
+      "price": 0.003,
+      "amount": 0.25,
+      "shares": 83.33,
+      "strategy": "strategy_b",
+      "thesis": "Lottery: YES @ 0.3¢, edge 99.7%",
+      "orderId": "0x693771f634ef46fb3ddd62b4b322e0cec52d416781b8cd575a2601a5034f61b7",
+      "txHash": null,
+      "timestamp": "2026-02-27T17:54:02.273Z",
+      "status": "live",
+      "livePrice": 0.003,
+      "livePnl": 0,
+      "livePnlPct": 0,
+      "hoursHeld": 3.6964633333333334
+    },
+    {
+      "market": "Will Trump nominate no one before 2027?",
+      "conditionId": "0xc830d19ead001f5378792cc0df36004ddb1b312bb26fbd5c4226aa698c41f808",
+      "side": "YES",
+      "price": 0.005,
+      "amount": 0.25,
+      "shares": 50,
+      "strategy": "strategy_b",
+      "thesis": "Lottery: YES @ 0.5¢, edge 99.5%",
+      "orderId": "0x8ca7abe1d14895cf729e88256389648571d5722e7633e128258da33681ce01f9",
+      "txHash": null,
+      "timestamp": "2026-02-27T17:54:03.294Z",
+      "status": "live",
+      "livePrice": 0.0045,
+      "livePnl": -0.025000000000000022,
+      "livePnlPct": -10.000000000000009,
+      "hoursHeld": 3.6962366666666666
+    },
+    {
+      "market": "Russia x Ukraine ceasefire by March 31, 2026?",
+      "conditionId": "0x1d54eb5eac2cee8f595f3097c65da7d07f8ab5dee63d7c0c6883eb70e1e9af30",
+      "side": "YES",
+      "price": 0.026,
+      "amount": 0.25,
+      "shares": 9.62,
+      "strategy": "strategy_b",
+      "thesis": "Lottery: YES @ 2.6¢, edge 97.4%",
+      "orderId": "0xfdf48d3855cd363b992a59ccbd1972547f2bf7b5a84d01240a0f08104160ad41",
+      "txHash": null,
+      "timestamp": "2026-02-27T17:54:04.270Z",
+      "status": "live",
+      "livePrice": 0.0265,
+      "livePnl": 0.0048100000000000035,
+      "livePnlPct": 1.9230769230769162,
+      "hoursHeld": 3.6960241666666667
+    },
+    {
+      "market": "MegaETH market cap (FDV) >$6B one day after launch?",
+      "conditionId": "0xdb68062324c27327e9cd4b21b1dd0deadbc4b860abb8c076b9ba3ed4652ced13",
+      "side": "YES",
+      "price": 0.0145,
+      "amount": 1,
+      "shares": 68.97,
+      "strategy": "strategy_b",
+      "thesis": "The extremely low price of the YES option makes it a high-reward, low-risk lottery ticket, despite the high implied probability of failure.",
+      "news": "none found",
+      "confidence": 80,
+      "orderId": "0x3b391753e07917102ba7e4ddd2b2cba28decce013b0f3892b4b3c2204b8fc498",
+      "txHash": null,
+      "timestamp": "2026-02-27T20:16:07.329Z",
+      "status": "FILLED",
+      "livePrice": 0.0155,
+      "livePnl": 0.06896999999999993,
+      "livePnlPct": 6.896551724137923,
+      "hoursHeld": 1.3285652777777779
+    }
+  ]
 }
