@@ -1,7 +1,7 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-27T10:01:00Z",
-  "scanCount": 5,
+  "scannedAt": "2026-02-27T10:05:00Z",
+  "scanCount": 6,
   "totalBet": 0.0,
   "totalReturn": 0,
   "bankroll": 11.00,
@@ -12,8 +12,8 @@
         "market": "Will Trump nominate Kevin Warsh as the next Fed chair?",
         "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
         "side": "YES",
-        "price": 0.939,
-        "edge": "6.1%",
+        "price": 0.94,
+        "edge": "6.0%",
         "newsConfirmed": true,
         "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
         "thesis": "Trump nominated Warsh on Feb 24, 2026. Market asks about nomination (not confirmation). Should resolve YES.",
@@ -34,11 +34,10 @@
     "lotteryTickets": []
   },
   "issues": [
-    "x-api broken: missing twitter-api-v2 package",
     "Polymarket CLOB API returns 401 Unauthorized — API key invalid or expired, cannot place any orders",
-    "Warsh nomination confirmed (Feb 24) YES@0.939 = 6.1% edge but BLOCKED by auth",
-    "MicroStrategy NO@0.945 = 5.5% edge, news-confirmed but BLOCKED by auth",
-    "No binance or SEC markets found"
+    "Two confirmed opportunities with 5.5-6% edge remain unbet due to auth block",
+    "No binance or SEC markets found",
+    "x-api broken: missing twitter-api-v2 package"
   ],
-  "lastScanNotes": "Scan #5: Same two confirmed opportunities still open. Warsh YES@0.939 (6.1%), MSTR NO@0.945 (5.5%). Both BLOCKED by 401 auth. x-api still broken. No new markets found. No bets placed."
+  "lastScanNotes": "Scan #6: Same two confirmed opportunities. Warsh YES@0.94 (6.0%), MSTR NO@0.945 (5.5%). Both still BLOCKED by 401 auth. No new high-confidence markets found. No bets placed."
 }
