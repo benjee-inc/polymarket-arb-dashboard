@@ -424,3 +424,231 @@
 {"timestamp":"2026-02-27T18:02:44.303Z","type":"think","message":"🧠 Analyzing: Will Chelsea Clinton win the 2028 Democratic presidential no..."}
 {"timestamp":"2026-02-27T18:02:44.497Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.2632), min size: $1"}
 {"timestamp":"2026-02-27T18:02:44.498Z","type":"scan","message":"✅ Scan #26 complete — 0 trades, 35 candidates, $1.99 remaining"}
+{"timestamp":"2026-02-27T18:02:45.166Z","type":"think","message":"📊 AI verdict: SKIP (100%) — There is no credible evidence to suggest Chelsea Clinton is a likely or even plausible candidate for the 2028 Democratic presidential nomination, making the \"YES\" side at 0.9¢ a near-certain loss."}
+{"timestamp":"2026-02-27T18:02:45.166Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:02:45.166Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Chelsea Clinton win the 2028 Democratic presidential no\" YES @ 0.9¢ (edge: 99.1%)"}
+{"timestamp":"2026-02-27T18:02:46.282Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.2632), min size: $1"}
+{"timestamp":"2026-02-27T18:02:46.282Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Scott Bessent as the next Fed chair?..."}
+{"timestamp":"2026-02-27T18:02:47.393Z","type":"think","message":"📊 AI verdict: SKIP (10%) — There is no credible public evidence to suggest Trump will nominate Scott Bessent as the next Fed chair, and the market price, while low, doesn't justify a bet without any supporting information."}
+{"timestamp":"2026-02-27T18:02:47.393Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:02:47.393Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Scott Bessent as the next Fed chair? — AI says skip"}
+{"timestamp":"2026-02-27T18:02:47.393Z","type":"think","message":"🧠 Analyzing: Will Oprah Winfrey win the 2028 Democratic presidential nomi..."}
+{"timestamp":"2026-02-27T18:02:48.222Z","type":"think","message":"📊 AI verdict: SKIP (95%) — There is no credible evidence suggesting Oprah Winfrey will run for or win the 2028 Democratic presidential nomination, making the \"YES\" side at 0.9¢ an extremely overpriced lottery ticket."}
+{"timestamp":"2026-02-27T18:02:48.223Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:02:48.225Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Oprah Winfrey win the 2028 Democratic presidential nomi\" YES @ 0.9¢ (edge: 99.2%)"}
+{"timestamp":"2026-02-27T18:02:49.348Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26469), min size: $1"}
+{"timestamp":"2026-02-27T18:02:49.348Z","type":"think","message":"🧠 Analyzing: Will Tim Walz win the 2028 US Presidential Election?..."}
+{"timestamp":"2026-02-27T18:02:50.076Z","type":"think","message":"📊 AI verdict: SKIP (95%) — The market price of 0.9¢ for Tim Walz to win the 2028 US Presidential Election is extremely low, indicating an almost zero probability, and there is no credible evidence to suggest this outcome is confirmed or very likely."}
+{"timestamp":"2026-02-27T18:02:50.076Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:02:50.076Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Tim Walz win the 2028 US Presidential Election?\" YES @ 0.9¢ (edge: 99.2%)"}
+{"timestamp":"2026-02-27T18:02:50.901Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26469), min size: $1"}
+{"timestamp":"2026-02-27T18:02:50.902Z","type":"think","message":"🧠 Analyzing: Will Andrew Yang win the 2028 Democratic presidential nomina..."}
+{"timestamp":"2026-02-27T18:02:51.940Z","type":"think","message":"📊 AI verdict: SKIP (10%) — Andrew Yang has no significant political momentum or clear path to the 2028 Democratic nomination, making a 0.9¢ bet on him winning an extremely low-probability wager."}
+{"timestamp":"2026-02-27T18:02:51.940Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:02:51.942Z","type":"decision","message":"⏭️ SKIP: Will Andrew Yang win the 2028 Democratic presidential nomina — AI says skip"}
+{"timestamp":"2026-02-27T18:02:51.943Z","type":"think","message":"🧠 Analyzing: Will George Clooney win the 2028 Democratic presidential nom..."}
+{"timestamp":"2026-02-27T18:02:52.742Z","type":"think","message":"📊 AI verdict: SKIP (100%) — The market price of 0.9¢ indicates an extremely low probability of George Clooney winning the 2028 Democratic presidential nomination, and there is no credible evidence to suggest otherwise."}
+{"timestamp":"2026-02-27T18:02:52.742Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:02:52.742Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will George Clooney win the 2028 Democratic presidential nom\" YES @ 0.9¢ (edge: 99.2%)"}
+{"timestamp":"2026-02-27T18:02:53.648Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26469), min size: $1"}
+{"timestamp":"2026-02-27T18:02:53.648Z","type":"think","message":"🧠 Analyzing: Will LeBron James win the 2028 US Presidential Election?..."}
+{"timestamp":"2026-02-27T18:02:54.530Z","type":"think","message":"📊 AI verdict: SKIP (100%) — There is no credible evidence or even a remote possibility that LeBron James will win the 2028 US Presidential Election, making this market a clear scam or joke."}
+{"timestamp":"2026-02-27T18:02:54.530Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:02:54.530Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will LeBron James win the 2028 US Presidential Election?\" YES @ 0.9¢ (edge: 99.1%)"}
+{"timestamp":"2026-02-27T18:02:55.320Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.2632), min size: $1"}
+{"timestamp":"2026-02-27T18:02:55.321Z","type":"think","message":"🧠 Analyzing: Will Hillary Clinton win the 2028 Democratic presidential no..."}
+{"timestamp":"2026-02-27T18:02:55.979Z","type":"think","message":"📊 AI verdict: SKIP (95%) — The price of 0.9¢ indicates an extremely low probability, and there is no credible evidence to suggest Hillary Clinton is a serious contender for the 2028 Democratic nomination."}
+{"timestamp":"2026-02-27T18:02:55.980Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:02:55.980Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Hillary Clinton win the 2028 Democratic presidential no\" YES @ 0.9¢ (edge: 99.2%)"}
+{"timestamp":"2026-02-27T18:02:56.764Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26469), min size: $1"}
+{"timestamp":"2026-02-27T18:02:56.764Z","type":"think","message":"🧠 Analyzing: Will MrBeast win the 2028 Democratic presidential nomination..."}
+{"timestamp":"2026-02-27T18:02:57.449Z","type":"think","message":"📊 AI verdict: SKIP (100%) — MrBeast is not eligible to run for President in 2028 and has given no indication of political aspirations."}
+{"timestamp":"2026-02-27T18:02:57.450Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:02:57.450Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will MrBeast win the 2028 Democratic presidential nomination\" YES @ 0.9¢ (edge: 99.1%)"}
+{"timestamp":"2026-02-27T18:02:58.237Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.2632), min size: $1"}
+{"timestamp":"2026-02-27T18:02:58.237Z","type":"think","message":"🧠 Analyzing: Will Zohran Mamdani win the 2028 Democratic presidential nom..."}
+{"timestamp":"2026-02-27T18:02:59.170Z","type":"think","message":"📊 AI verdict: SKIP (100%) — Zohran Mamdani is a relatively unknown state assemblyman with no national profile, making a presidential nomination highly improbable."}
+{"timestamp":"2026-02-27T18:02:59.170Z","type":"think","message":"📰 Evidence: None found."}
+{"timestamp":"2026-02-27T18:02:59.170Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Zohran Mamdani win the 2028 Democratic presidential nom\" YES @ 1.3¢ (edge: 98.8%)"}
+{"timestamp":"2026-02-27T18:02:59.955Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26), min size: $1"}
+{"timestamp":"2026-02-27T18:02:59.955Z","type":"think","message":"🧠 Analyzing: Will Bernie Sanders win the 2028 Democratic presidential nom..."}
+{"timestamp":"2026-02-27T18:03:01.623Z","type":"think","message":"📊 AI verdict: SKIP (100%) — The market price of 0.9¢ for Bernie Sanders to win the 2028 Democratic nomination is so low that it indicates an almost certain loss, making it a poor lottery ticket despite the high implied edge."}
+{"timestamp":"2026-02-27T18:03:01.623Z","type":"think","message":"📰 Evidence: None found. Bernie Sanders would be 87 years old in 2028, and has not indicated any intention to run for president again."}
+{"timestamp":"2026-02-27T18:03:01.623Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Bernie Sanders win the 2028 Democratic presidential nom\" YES @ 0.9¢ (edge: 99.2%)"}
+{"timestamp":"2026-02-27T18:03:02.637Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26469), min size: $1"}
+{"timestamp":"2026-02-27T18:03:02.637Z","type":"think","message":"🧠 Analyzing: Will LeBron James win the 2028 Democratic presidential nomin..."}
+{"timestamp":"2026-02-27T18:03:03.395Z","type":"think","message":"📊 AI verdict: SKIP (100%) — There is no credible evidence or even a remote possibility that LeBron James will win the 2028 Democratic presidential nomination, making the \"YES\" side a guaranteed loss despite the low price."}
+{"timestamp":"2026-02-27T18:03:03.395Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:03.395Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will LeBron James win the 2028 Democratic presidential nomin\" YES @ 0.9¢ (edge: 99.1%)"}
+{"timestamp":"2026-02-27T18:03:04.191Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.2632), min size: $1"}
+{"timestamp":"2026-02-27T18:03:04.191Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Rick Rieder as the next Fed chair?..."}
+{"timestamp":"2026-02-27T18:03:05.055Z","type":"think","message":"📊 AI verdict: SKIP (10%) — There is no credible public evidence to suggest Rick Rieder is a likely candidate for Fed Chair, and the extremely low price indicates a near-zero probability."}
+{"timestamp":"2026-02-27T18:03:05.055Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:05.055Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Rick Rieder as the next Fed chair? — AI says skip"}
+{"timestamp":"2026-02-27T18:03:05.055Z","type":"think","message":"🧠 Analyzing: Will Greg Abbott win the 2028 US Presidential Election?..."}
+{"timestamp":"2026-02-27T18:03:06.089Z","type":"think","message":"📊 AI verdict: SKIP (10%) — While the price is attractive for a lottery ticket, there is no credible evidence to suggest Greg Abbott is a serious contender for the 2028 US Presidential Election, making the 99% edge highly speculative."}
+{"timestamp":"2026-02-27T18:03:06.089Z","type":"think","message":"📰 Evidence: None found. Greg Abbott has not announced a presidential bid, nor has he been widely discussed as a potential candidate for 2028."}
+{"timestamp":"2026-02-27T18:03:06.089Z","type":"decision","message":"⏭️ SKIP: Will Greg Abbott win the 2028 US Presidential Election? — AI says skip"}
+{"timestamp":"2026-02-27T18:03:06.089Z","type":"think","message":"🧠 Analyzing: Will Phil Murphy win the 2028 Democratic presidential nomina..."}
+{"timestamp":"2026-02-27T18:03:06.794Z","type":"think","message":"📊 AI verdict: SKIP (10%) — The extremely low price and high edge suggest this market is effectively closed, and there is no credible evidence supporting Phil Murphy winning the 2028 Democratic nomination."}
+{"timestamp":"2026-02-27T18:03:06.794Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:06.794Z","type":"decision","message":"⏭️ SKIP: Will Phil Murphy win the 2028 Democratic presidential nomina — AI says skip"}
+{"timestamp":"2026-02-27T18:03:06.794Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Jerome Powell as the next Fed chair?..."}
+{"timestamp":"2026-02-27T18:03:07.557Z","type":"think","message":"📊 AI verdict: SKIP (10%) — While a lottery ticket strategy is appropriate for such a low price, there is no credible public evidence suggesting Trump would renominate Jerome Powell, making this an extremely unlikely outcome."}
+{"timestamp":"2026-02-27T18:03:07.557Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:07.557Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Jerome Powell as the next Fed chair? — AI says skip"}
+{"timestamp":"2026-02-27T18:03:07.557Z","type":"think","message":"🧠 Analyzing: Will Liz Cheney win the 2028 Democratic presidential nominat..."}
+{"timestamp":"2026-02-27T18:03:08.152Z","type":"think","message":"📊 AI verdict: SKIP (100%) — Liz Cheney is a Republican and has no credible path to the Democratic presidential nomination, making the \"YES\" outcome virtually impossible."}
+{"timestamp":"2026-02-27T18:03:08.152Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:08.152Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Liz Cheney win the 2028 Democratic presidential nominat\" YES @ 0.9¢ (edge: 99.1%)"}
+{"timestamp":"2026-02-27T18:03:08.965Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.2632), min size: $1"}
+{"timestamp":"2026-02-27T18:03:08.965Z","type":"think","message":"🧠 Analyzing: Will Tim Walz win the 2028 Democratic presidential nominatio..."}
+{"timestamp":"2026-02-27T18:03:09.963Z","type":"think","message":"📊 AI verdict: SKIP (100%) — The price of 0.9¢ for Tim Walz to win the 2028 Democratic nomination is extremely low, indicating a near-zero probability, and there is no credible evidence to suggest this outcome is confirmed or even very likely."}
+{"timestamp":"2026-02-27T18:03:09.964Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:09.964Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Tim Walz win the 2028 Democratic presidential nominatio\" YES @ 0.9¢ (edge: 99.2%)"}
+{"timestamp":"2026-02-27T18:03:10.762Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26469), min size: $1"}
+{"timestamp":"2026-02-27T18:03:10.762Z","type":"think","message":"🧠 Analyzing: Will Hunter Biden win the 2028 Democratic presidential nomin..."}
+{"timestamp":"2026-02-27T18:03:11.923Z","type":"think","message":"📊 AI verdict: SKIP (100%) — Hunter Biden has no credible path to the Democratic presidential nomination in 2028, making a \"YES\" bet at 0.9¢ a near-certain loss."}
+{"timestamp":"2026-02-27T18:03:11.924Z","type":"think","message":"📰 Evidence: None found. There is no public evidence or news suggesting Hunter Biden is running for, let alone likely to win, the 2028 Democratic presidential nomination. His public profile is primarily associated with legal issues and controversies, not political aspirations."}
+{"timestamp":"2026-02-27T18:03:11.925Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Hunter Biden win the 2028 Democratic presidential nomin\" YES @ 0.9¢ (edge: 99.1%)"}
+{"timestamp":"2026-02-27T18:03:12.878Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.2632), min size: $1"}
+{"timestamp":"2026-02-27T18:03:12.878Z","type":"think","message":"🧠 Analyzing: Will Mike Pence win the 2028 Republican presidential nominat..."}
+{"timestamp":"2026-02-27T18:03:14.450Z","type":"think","message":"📊 AI verdict: SKIP (95%) — The extremely low price and high implied probability of \"NO\" indicate that Mike Pence is highly unlikely to win the 2028 Republican nomination, making a \"YES\" bet a poor investment even as a lottery ticket."}
+{"timestamp":"2026-02-27T18:03:14.451Z","type":"think","message":"📰 Evidence: None found that suggests Mike Pence is a credible contender for the 2028 Republican nomination. His political standing has significantly diminished since his vice presidency, and he has not indicated strong intentions to run in 2028."}
+{"timestamp":"2026-02-27T18:03:14.451Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Mike Pence win the 2028 Republican presidential nominat\" YES @ 1.1¢ (edge: 98.9%)"}
+{"timestamp":"2026-02-27T18:03:15.400Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26088), min size: $1"}
+{"timestamp":"2026-02-27T18:03:15.400Z","type":"think","message":"🧠 Analyzing: Will Tulsi Gabbard win the 2028 US Presidential Election?..."}
+{"timestamp":"2026-02-27T18:03:16.154Z","type":"think","message":"📊 AI verdict: SKIP (100%) — Tulsi Gabbard has no credible path to winning the 2028 US Presidential Election, making a \"YES\" bet at 1.1¢ a near-certain loss despite the low price."}
+{"timestamp":"2026-02-27T18:03:16.155Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:16.155Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Tulsi Gabbard win the 2028 US Presidential Election?\" YES @ 1.1¢ (edge: 99.0%)"}
+{"timestamp":"2026-02-27T18:03:17.106Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26191), min size: $1"}
+{"timestamp":"2026-02-27T18:03:17.106Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Bill Pulte as the next Fed chair?..."}
+{"timestamp":"2026-02-27T18:03:17.919Z","type":"think","message":"📊 AI verdict: SKIP (10%) — There is no credible public evidence or even a plausible rumor suggesting Bill Pulte would be nominated as Fed chair, making this an extremely unlikely outcome."}
+{"timestamp":"2026-02-27T18:03:17.920Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:17.920Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Bill Pulte as the next Fed chair? — AI says skip"}
+{"timestamp":"2026-02-27T18:03:17.920Z","type":"think","message":"🧠 Analyzing: Will Kim Kardashian win the 2028 Democratic presidential nom..."}
+{"timestamp":"2026-02-27T18:03:18.781Z","type":"think","message":"📊 AI verdict: SKIP (100%) — There is no credible evidence or even a remote possibility that Kim Kardashian will win the 2028 Democratic presidential nomination."}
+{"timestamp":"2026-02-27T18:03:18.782Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:18.782Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Kim Kardashian win the 2028 Democratic presidential nom\" YES @ 0.9¢ (edge: 99.2%)"}
+{"timestamp":"2026-02-27T18:03:19.572Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26469), min size: $1"}
+{"timestamp":"2026-02-27T18:03:19.572Z","type":"think","message":"🧠 Analyzing: Will Trump nominate himself as the next Fed chair?..."}
+{"timestamp":"2026-02-27T18:03:20.375Z","type":"scan","message":"🧠 AI-powered scan #27 starting..."}
+{"timestamp":"2026-02-27T18:03:20.550Z","type":"think","message":"📊 AI verdict: SKIP (95%) — While a lottery ticket strategy is appropriate for such a low price, there is no credible evidence or even plausible speculation that Trump would nominate himself as Fed Chair, making this an extremely unlikely outcome."}
+{"timestamp":"2026-02-27T18:03:20.550Z","type":"think","message":"📰 Evidence: None found. Trump has never indicated such an intention, and the role of Fed Chair is typically filled by individuals with extensive economic and financial backgrounds, not former presidents."}
+{"timestamp":"2026-02-27T18:03:20.551Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Trump nominate himself as the next Fed chair?\" YES @ 0.1¢ (edge: 100.0%)"}
+{"timestamp":"2026-02-27T18:03:20.934Z","type":"error","message":"❌ Trade error: invalid price (0.0005), min: 0.001 - max: 0.999"}
+{"timestamp":"2026-02-27T18:03:20.935Z","type":"think","message":"🧠 Analyzing: Will Gina Raimondo win the 2028 Democratic presidential nomi..."}
+{"timestamp":"2026-02-27T18:03:21.942Z","type":"think","message":"📊 AI verdict: SKIP (10%) — The \"YES @ 0.9¢\" indicates a price of $0.009, which is extremely low, and the 99.1% edge suggests the market believes the outcome is highly unlikely, making it a poor lottery ticket bet."}
+{"timestamp":"2026-02-27T18:03:21.943Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:21.943Z","type":"decision","message":"⏭️ SKIP: Will Gina Raimondo win the 2028 Democratic presidential nomi — AI says skip"}
+{"timestamp":"2026-02-27T18:03:21.943Z","type":"think","message":"🧠 Analyzing: Will Beto O’Rourke win the 2028 Democratic presidential nomi..."}
+{"timestamp":"2026-02-27T18:03:21.961Z","type":"scan","message":"Fetched 50 markets from Polymarket"}
+{"timestamp":"2026-02-27T18:03:22.513Z","type":"scan","message":"💰 Balance: $1.74 USDC"}
+{"timestamp":"2026-02-27T18:03:22.514Z","type":"think","message":"🤖 Classifying markets with AI..."}
+{"timestamp":"2026-02-27T18:03:22.801Z","type":"think","message":"📊 AI verdict: SKIP (100%) — The market price of 0.9¢ for Beto O'Rourke to win the 2028 Democratic nomination is extremely low, indicating a near-zero probability, and there is no credible evidence to suggest this outcome is confirmed or even very likely."}
+{"timestamp":"2026-02-27T18:03:22.801Z","type":"think","message":"📰 Evidence: None found"}
+{"timestamp":"2026-02-27T18:03:22.801Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Beto O’Rourke win the 2028 Democratic presidential nomi\" YES @ 0.9¢ (edge: 99.1%)"}
+{"timestamp":"2026-02-27T18:03:23.612Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.2632), min size: $1"}
+{"timestamp":"2026-02-27T18:03:23.612Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Michelle Bowman as the next Fed chair?..."}
+{"timestamp":"2026-02-27T18:03:24.480Z","type":"think","message":"🚫 sports: Will the Indiana Pacers win the 2026 NBA Finals?"}
+{"timestamp":"2026-02-27T18:03:24.480Z","type":"think","message":"🚫 sports: Will Leeds win the 2025–26 English Premier League?"}
+{"timestamp":"2026-02-27T18:03:24.480Z","type":"think","message":"🚫 sports: Will the Memphis Grizzlies win the 2026 NBA Finals?"}
+{"timestamp":"2026-02-27T18:03:24.480Z","type":"think","message":"🚫 sports: Will Tottenham win the 2025–26 English Premier League?"}
+{"timestamp":"2026-02-27T18:03:24.481Z","type":"think","message":"🚫 sports: Will Slavia Pragu win the 2025–26 Champions League?"}
+{"timestamp":"2026-02-27T18:03:24.481Z","type":"think","message":"🚫 sports: Will Olympiakos win the 2025–26 Champions League?"}
+{"timestamp":"2026-02-27T18:03:24.481Z","type":"think","message":"🚫 sports: Will Uzbekistan win the 2026 FIFA World Cup?"}
+{"timestamp":"2026-02-27T18:03:24.481Z","type":"think","message":"🚫 sports: Will the Chicago Bulls win the 2026 NBA Finals?"}
+{"timestamp":"2026-02-27T18:03:24.481Z","type":"scan","message":"AI filtered: 42/50 markets kept (politics/economics/crypto)"}
+{"timestamp":"2026-02-27T18:03:24.481Z","type":"scan","message":"Found 35 trade candidates"}
+{"timestamp":"2026-02-27T18:03:24.481Z","type":"think","message":"🧠 Analyzing: Will Chelsea Clinton win the 2028 Democratic presidential no..."}
+{"timestamp":"2026-02-27T18:03:24.506Z","type":"think","message":"📊 AI verdict: SKIP (95%) — There is no credible public evidence suggesting Trump would nominate Michelle Bowman as the next Fed chair, and the current price reflects an extremely low probability."}
+{"timestamp":"2026-02-27T18:03:24.507Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:24.507Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Trump nominate Michelle Bowman as the next Fed chair?\" YES @ 0.3¢ (edge: 99.8%)"}
+{"timestamp":"2026-02-27T18:03:25.285Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.3), min size: $1"}
+{"timestamp":"2026-02-27T18:03:25.285Z","type":"think","message":"🧠 Analyzing: Will Vivek Ramaswamy win the 2028 US Presidential Election?..."}
+{"timestamp":"2026-02-27T18:03:25.737Z","type":"think","message":"📊 AI verdict: SKIP (100%) — There is no credible evidence to suggest Chelsea Clinton is a likely or even plausible candidate for the 2028 Democratic presidential nomination, making the \"YES\" side at 0.9¢ a near-certain loss."}
+{"timestamp":"2026-02-27T18:03:25.738Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:25.738Z","type":"decision","message":"⏭️ SKIP: Will Chelsea Clinton win the 2028 Democratic presidential no — AI says SKIP (100%)"}
+{"timestamp":"2026-02-27T18:03:25.738Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Scott Bessent as the next Fed chair?..."}
+{"timestamp":"2026-02-27T18:03:26.139Z","type":"think","message":"📊 AI verdict: SKIP (95%) — The implied probability of 0.011% for Vivek Ramaswamy to win the 2028 US Presidential Election is extremely low, and there is no credible evidence to suggest this outcome is confirmed or very likely."}
+{"timestamp":"2026-02-27T18:03:26.139Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:26.139Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Vivek Ramaswamy win the 2028 US Presidential Election?\" YES @ 1.1¢ (edge: 99.0%)"}
+{"timestamp":"2026-02-27T18:03:26.650Z","type":"think","message":"📊 AI verdict: SKIP (10%) — There is no credible public evidence to suggest Scott Bessent is a likely candidate for Fed chair, and the market price is too low to justify even a lottery ticket bet given the lack of information."}
+{"timestamp":"2026-02-27T18:03:26.650Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:26.650Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Scott Bessent as the next Fed chair? — AI says SKIP (10%)"}
+{"timestamp":"2026-02-27T18:03:26.650Z","type":"think","message":"🧠 Analyzing: Will Oprah Winfrey win the 2028 Democratic presidential nomi..."}
+{"timestamp":"2026-02-27T18:03:27.086Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26191), min size: $1"}
+{"timestamp":"2026-02-27T18:03:27.086Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Janet Yellen as the next Fed chair?..."}
+{"timestamp":"2026-02-27T18:03:27.499Z","type":"think","message":"📊 AI verdict: SKIP (95%) — There is no credible evidence suggesting Oprah Winfrey will run for or win the 2028 Democratic presidential nomination, making this a highly improbable outcome despite the low price."}
+{"timestamp":"2026-02-27T18:03:27.499Z","type":"think","message":"📰 Evidence: None found"}
+{"timestamp":"2026-02-27T18:03:27.499Z","type":"decision","message":"⏭️ SKIP: Will Oprah Winfrey win the 2028 Democratic presidential nomi — AI says SKIP (95%)"}
+{"timestamp":"2026-02-27T18:03:27.499Z","type":"think","message":"🧠 Analyzing: Will Tim Walz win the 2028 US Presidential Election?..."}
+{"timestamp":"2026-02-27T18:03:27.874Z","type":"think","message":"📊 AI verdict: SKIP (95%) — There is no credible evidence to suggest Trump would nominate Janet Yellen, and it's highly improbable given their past relationship and differing political ideologies."}
+{"timestamp":"2026-02-27T18:03:27.875Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:27.875Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Trump nominate Janet Yellen as the next Fed chair?\" YES @ 0.1¢ (edge: 100.0%)"}
+{"timestamp":"2026-02-27T18:03:28.256Z","type":"think","message":"📊 AI verdict: SKIP (95%) — The price of 0.9¢ for Tim Walz to win the 2028 US Presidential Election is extremely low, indicating a near-zero probability, and there is no credible evidence to suggest this outcome is confirmed or very likely."}
+{"timestamp":"2026-02-27T18:03:28.257Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:28.257Z","type":"decision","message":"⏭️ SKIP: Will Tim Walz win the 2028 US Presidential Election? — AI says SKIP (95%)"}
+{"timestamp":"2026-02-27T18:03:28.257Z","type":"think","message":"🧠 Analyzing: Will Andrew Yang win the 2028 Democratic presidential nomina..."}
+{"timestamp":"2026-02-27T18:03:28.266Z","type":"error","message":"❌ Trade error: invalid price (0.0005), min: 0.001 - max: 0.999"}
+{"timestamp":"2026-02-27T18:03:28.266Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Arthur Laffer as the next Fed chair?..."}
+{"timestamp":"2026-02-27T18:03:29.163Z","type":"think","message":"📊 AI verdict: SKIP (10%) — There is no credible evidence to suggest Arthur Laffer is a serious contender for Fed chair, and the \"lottery ticket\" strategy is not applicable here due to the extremely low probability."}
+{"timestamp":"2026-02-27T18:03:29.164Z","type":"think","message":"📰 Evidence: None found."}
+{"timestamp":"2026-02-27T18:03:29.164Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Arthur Laffer as the next Fed chair? — AI says skip"}
+{"timestamp":"2026-02-27T18:03:29.164Z","type":"think","message":"🧠 Analyzing: Will John Thune win the 2028 Republican presidential nominat..."}
+{"timestamp":"2026-02-27T18:03:29.607Z","type":"think","message":"📊 AI verdict: SKIP (10%) — The price of 0.9¢ indicates an extremely low probability of Andrew Yang winning the 2028 Democratic nomination, making it a poor lottery ticket despite the high edge."}
+{"timestamp":"2026-02-27T18:03:29.607Z","type":"think","message":"📰 Evidence: None found."}
+{"timestamp":"2026-02-27T18:03:29.607Z","type":"decision","message":"⏭️ SKIP: Will Andrew Yang win the 2028 Democratic presidential nomina — AI says SKIP (10%)"}
+{"timestamp":"2026-02-27T18:03:29.607Z","type":"think","message":"🧠 Analyzing: Will George Clooney win the 2028 Democratic presidential nom..."}
+{"timestamp":"2026-02-27T18:03:29.864Z","type":"think","message":"📊 AI verdict: SKIP (10%) — The extremely low price and high implied edge suggest a mispriced market, but there is no credible evidence to support John Thune winning the 2028 Republican nomination, making it a highly speculative bet."}
+{"timestamp":"2026-02-27T18:03:29.865Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:29.868Z","type":"decision","message":"⏭️ SKIP: Will John Thune win the 2028 Republican presidential nominat — AI says skip"}
+{"timestamp":"2026-02-27T18:03:29.868Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Barron Trump as the next Fed chair?..."}
+{"timestamp":"2026-02-27T18:03:30.827Z","type":"think","message":"📊 AI verdict: SKIP (100%) — The market price of 0.9¢ indicates an extremely low probability of George Clooney winning the 2028 Democratic presidential nomination, and there is no credible evidence to suggest otherwise."}
+{"timestamp":"2026-02-27T18:03:30.827Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:30.827Z","type":"decision","message":"⏭️ SKIP: Will George Clooney win the 2028 Democratic presidential nom — AI says SKIP (100%)"}
+{"timestamp":"2026-02-27T18:03:30.828Z","type":"think","message":"🧠 Analyzing: Will LeBron James win the 2028 US Presidential Election?..."}
+{"timestamp":"2026-02-27T18:03:30.848Z","type":"think","message":"📊 AI verdict: SKIP (100%) — There is no credible evidence to suggest Barron Trump would be nominated as Fed Chair, and the role requires specific qualifications he does not possess."}
+{"timestamp":"2026-02-27T18:03:30.849Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:30.850Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Trump nominate Barron Trump as the next Fed chair?\" YES @ 0.1¢ (edge: 100.0%)"}
+{"timestamp":"2026-02-27T18:03:31.241Z","type":"error","message":"❌ Trade error: invalid price (0.0005), min: 0.001 - max: 0.999"}
+{"timestamp":"2026-02-27T18:03:31.241Z","type":"think","message":"🧠 Analyzing: Will Roy Cooper win the 2028 Democratic presidential nominat..."}
+{"timestamp":"2026-02-27T18:03:31.708Z","type":"think","message":"📊 AI verdict: SKIP (100%) — There is no credible evidence or plausible scenario in which LeBron James would win the 2028 US Presidential Election, making the \"YES\" side a near-certain loss despite the low price."}
+{"timestamp":"2026-02-27T18:03:31.708Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:31.708Z","type":"decision","message":"⏭️ SKIP: Will LeBron James win the 2028 US Presidential Election? — AI says SKIP (100%)"}
+{"timestamp":"2026-02-27T18:03:31.708Z","type":"think","message":"🧠 Analyzing: Will Hillary Clinton win the 2028 Democratic presidential no..."}
+{"timestamp":"2026-02-27T18:03:32.055Z","type":"think","message":"📊 AI verdict: SKIP (95%) — While the price is low, there is no credible evidence supporting Roy Cooper winning the 2028 Democratic nomination, making it an extremely unlikely outcome even as a lottery ticket."}
+{"timestamp":"2026-02-27T18:03:32.055Z","type":"think","message":"📰 Evidence: None found"}
+{"timestamp":"2026-02-27T18:03:32.055Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Roy Cooper win the 2028 Democratic presidential nominat\" YES @ 1.1¢ (edge: 98.9%)"}
+{"timestamp":"2026-02-27T18:03:32.731Z","type":"think","message":"📊 AI verdict: SKIP (95%) — The price of 0.9¢ indicates an extremely low probability of Hillary Clinton winning the 2028 Democratic nomination, making it a poor bet even as a lottery ticket."}
+{"timestamp":"2026-02-27T18:03:32.733Z","type":"think","message":"📰 Evidence: None found. Hillary Clinton has not indicated any intention to run for president in 2028, and her age would make a run highly improbable."}
+{"timestamp":"2026-02-27T18:03:32.733Z","type":"decision","message":"⏭️ SKIP: Will Hillary Clinton win the 2028 Democratic presidential no — AI says SKIP (95%)"}
+{"timestamp":"2026-02-27T18:03:32.733Z","type":"think","message":"🧠 Analyzing: Will MrBeast win the 2028 Democratic presidential nomination..."}
+{"timestamp":"2026-02-27T18:03:32.864Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26088), min size: $1"}
+{"timestamp":"2026-02-27T18:03:32.864Z","type":"think","message":"🧠 Analyzing: Will Tom Brady win the 2028 Republican presidential nominati..."}
+{"timestamp":"2026-02-27T18:03:33.526Z","type":"think","message":"📊 AI verdict: SKIP (100%) — MrBeast is a YouTuber with no political experience or stated intention to run for president, making his Democratic nomination in 2028 virtually impossible."}
+{"timestamp":"2026-02-27T18:03:33.526Z","type":"think","message":"📰 Evidence: None found."}
+{"timestamp":"2026-02-27T18:03:33.526Z","type":"decision","message":"⏭️ SKIP: Will MrBeast win the 2028 Democratic presidential nomination — AI says SKIP (100%)"}
+{"timestamp":"2026-02-27T18:03:33.526Z","type":"think","message":"🧠 Analyzing: Will Zohran Mamdani win the 2028 Democratic presidential nom..."}
+{"timestamp":"2026-02-27T18:03:33.754Z","type":"think","message":"📊 AI verdict: SKIP (100%) — Tom Brady has shown no credible interest in a political career, making a 2028 presidential nomination highly improbable, and the current price reflects an extremely low probability."}
+{"timestamp":"2026-02-27T18:03:33.757Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:33.757Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Tom Brady win the 2028 Republican presidential nominati\" YES @ 1.3¢ (edge: 98.8%)"}
+{"timestamp":"2026-02-27T18:03:34.542Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.26), min size: $1"}
+{"timestamp":"2026-02-27T18:03:34.542Z","type":"think","message":"🧠 Analyzing: Will Kim Kardashian win the 2028 US Presidential Election?..."}
+{"timestamp":"2026-02-27T18:03:34.707Z","type":"think","message":"📊 AI verdict: SKIP (100%) — Zohran Mamdani is a relatively unknown state assemblyman with no national profile, making a presidential nomination highly improbable, and the \"YES\" side at 1.3¢ is still overpriced for such an extreme long shot."}
+{"timestamp":"2026-02-27T18:03:34.708Z","type":"think","message":"📰 Evidence: None found. Zohran Mamdani is a New York State Assemblyman and has not announced any intention to run for president, nor is there any credible public discussion or speculation about him seeking the 2028 Democratic presidential nomination."}
+{"timestamp":"2026-02-27T18:03:34.708Z","type":"decision","message":"⏭️ SKIP: Will Zohran Mamdani win the 2028 Democratic presidential nom — AI says SKIP (100%)"}
+{"timestamp":"2026-02-27T18:03:34.708Z","type":"think","message":"🧠 Analyzing: Will Bernie Sanders win the 2028 Democratic presidential nom..."}
+{"timestamp":"2026-02-27T18:03:35.506Z","type":"think","message":"📊 AI verdict: SKIP (100%) — There is no credible evidence or plausible scenario suggesting Kim Kardashian will win the 2028 US Presidential Election, making this a pure lottery ticket with virtually no chance of payout."}
+{"timestamp":"2026-02-27T18:03:35.507Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:35.507Z","type":"trade","message":"🎯 PLACING: $0.25 on \"Will Kim Kardashian win the 2028 US Presidential Election?\" YES @ 0.9¢ (edge: 99.1%)"}
+{"timestamp":"2026-02-27T18:03:35.817Z","type":"think","message":"📊 AI verdict: SKIP (100%) — The market price of 0.9¢ indicates an extremely low probability, and Bernie Sanders will be 87 years old in 2028, making a presidential nomination highly improbable."}
+{"timestamp":"2026-02-27T18:03:35.817Z","type":"think","message":"📰 Evidence: None found."}
+{"timestamp":"2026-02-27T18:03:35.817Z","type":"decision","message":"⏭️ SKIP: Will Bernie Sanders win the 2028 Democratic presidential nom — AI says SKIP (100%)"}
+{"timestamp":"2026-02-27T18:03:35.818Z","type":"think","message":"🧠 Analyzing: Will LeBron James win the 2028 Democratic presidential nomin..."}
+{"timestamp":"2026-02-27T18:03:36.296Z","type":"error","message":"❌ Order rejected: invalid amount for a marketable BUY order ($0.2632), min size: $1"}
+{"timestamp":"2026-02-27T18:03:36.297Z","type":"scan","message":"✅ Scan #26 complete — 0 trades, 35 candidates, $1.74 remaining"}
+{"timestamp":"2026-02-27T18:03:36.555Z","type":"think","message":"📊 AI verdict: SKIP (100%) — There is no credible evidence or even a remote possibility that LeBron James will win the 2028 Democratic presidential nomination, making the \"YES\" side a guaranteed loss despite the low price."}
+{"timestamp":"2026-02-27T18:03:36.555Z","type":"think","message":"📰 Evidence: none found"}
+{"timestamp":"2026-02-27T18:03:36.555Z","type":"decision","message":"⏭️ SKIP: Will LeBron James win the 2028 Democratic presidential nomin — AI says SKIP (100%)"}
+{"timestamp":"2026-02-27T18:03:36.555Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Rick Rieder as the next Fed chair?..."}
