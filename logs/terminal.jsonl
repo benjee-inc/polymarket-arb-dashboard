@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-27T19:43:10.570Z","type":"think","message":"📰 Evidence: None found. There is no credible public evidence or news suggesting Vivek Ramaswamy is confirmed or very likely to win the 2028 US Presidential Election."}
-{"timestamp":"2026-02-27T19:43:10.570Z","type":"decision","message":"⏭️ SKIP: Will Vivek Ramaswamy win the 2028 US Presidential Election? — AI says SKIP (95%)"}
-{"timestamp":"2026-02-27T19:43:10.570Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Janet Yellen as the next Fed chair?..."}
-{"timestamp":"2026-02-27T19:43:11.238Z","type":"think","message":"📊 AI verdict: SKIP (95%) — There is no credible evidence to suggest Trump would nominate Janet Yellen, and it's highly improbable given their past relationship and differing political ideologies."}
-{"timestamp":"2026-02-27T19:43:11.238Z","type":"think","message":"📰 Evidence: none found"}
-{"timestamp":"2026-02-27T19:43:11.238Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Janet Yellen as the next Fed chair? — AI says SKIP (95%)"}
 {"timestamp":"2026-02-27T19:43:11.238Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Arthur Laffer as the next Fed chair?..."}
 {"timestamp":"2026-02-27T19:43:11.979Z","type":"think","message":"📊 AI verdict: SKIP (10%) — There is no credible evidence to suggest Arthur Laffer is a serious contender for Fed chair, and the \"lottery ticket\" strategy is not appropriate for a market with such low probability."}
 {"timestamp":"2026-02-27T19:43:11.979Z","type":"think","message":"📰 Evidence: none found"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-27T19:48:24.031Z","type":"think","message":"Deep value: \"Will Jasmine Crockett win the 2028 Democratic presiden…\" — Yes @ 0.8¢, liq $39.4M, 24h vol $4.8M"}
 {"timestamp":"2026-02-27T19:48:24.031Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 42.1% YES, 24h vol $1.9M"}
 {"timestamp":"2026-02-27T19:48:24.031Z","type":"decision","message":"Flow signal: \"Will the Fed increase interest rates by 25+ bps after …\" — buyers dominating ($4.3K net), 1 traders, 5m ago"}
+{"timestamp":"2026-02-27T19:53:23.914Z","type":"scan","message":"Cycle #48 — 767 markets | 13 active events | $47.8K recent flow"}
+{"timestamp":"2026-02-27T19:53:23.914Z","type":"think","message":"Live flow: \"Will the price of Bitcoin be above $76,000 on February…\" — $12.0K in 4 trades, NET BUY (strong bias), biggest $8.9K, 40s ago"}
+{"timestamp":"2026-02-27T19:53:23.914Z","type":"think","message":"↑ Price shift: \"Will Ivan Cepeda Castro win the 2026 Colombian preside…\" moved 1.0% since last scan (42.0% → 43.0%)"}
+{"timestamp":"2026-02-27T19:53:23.914Z","type":"think","message":"Tight race: \"Will Luiz Inácio Lula da Silva win the 2026 Brazilian …\" — 48.5% YES, 24h vol $423.1K"}
+{"timestamp":"2026-02-27T19:53:23.915Z","type":"think","message":"↑ Daily mover: \"Will Drake release Iceman before GTA VI?\" ↑4.9% today, ↑2.9% 1w, 24h vol $192.0K"}
+{"timestamp":"2026-02-27T19:53:23.915Z","type":"decision","message":"Flow signal: \"Will Meta (META) close above $670 on February 27?\" — buyers dominating ($6.2K net), 1 traders, 1m ago"}
