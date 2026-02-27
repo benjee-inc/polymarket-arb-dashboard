@@ -1,71 +1,35 @@
 {
-  "bets": [
-    {
-      "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
-      "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
-      "side": "YES",
-      "amount": 0.50,
-      "entryPrice": 0.9395,
-      "placedAt": "2026-02-26T17:26:00Z",
-      "thesis": "Trump nominated Warsh on Jan 30, 2026. Confirmed by multiple sources. Senate confirmation pending but nomination is fact.",
-      "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
-      "status": "open",
-      "currentPrice": 0.939
-    },
-    {
-      "conditionId": "0xdb1ae961e30733e7857ebb425b5f6449fa8032de13f32c1c6e447a0c3801ca04",
-      "question": "Will Trump nominate Scott Bessent as the next Fed chair?",
-      "side": "YES",
-      "amount": 0.25,
-      "entryPrice": 0.0005,
-      "placedAt": "2026-02-26T17:30:00Z",
-      "thesis": "Lottery ticket — placed before Warsh nomination confirmed. Now a losing position.",
-      "status": "losing",
-      "currentPrice": 0.0005
-    }
-  ],
-  "scannedAt": "2026-02-26T22:05:00Z",
-  "scanCount": 12,
-  "totalBet": 0.75,
+  "bets": [],
+  "scannedAt": "2026-02-27T03:40:00Z",
+  "scanCount": 1,
+  "totalBet": 0,
   "totalReturn": 0,
-  "bankroll": 0.25,
+  "bankroll": 1.00,
   "proxyWallet": "0x3b0d0696033643d52C5B6D95d6c1A7d924Ffb9fb",
   "opportunities": {
-    "newsArbitrage": [
-      {
-        "market": "Kevin Warsh Fed Chair nomination",
-        "side": "YES",
-        "price": 0.939,
-        "edge": "6.1%",
-        "status": "already_bet",
-        "newsConfirmed": true,
-        "note": "Warsh at 93.9%. Senate hearings scheduled March. Confirmation widely expected. Our $0.50 position still has edge."
-      }
-    ],
+    "newsArbitrage": [],
+    "lotteryTickets": [],
     "considered": [
       {
-        "market": "MicroStrategy sells Bitcoin by June 30, 2026",
-        "note": "NO at 94.5% (5.5% edge). Can't confirm a negative — no way to verify they WON'T sell. Skip.",
-        "skipped": true
+        "market": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+        "side": "YES",
+        "price": 0.9395,
+        "edge": "6%",
+        "verdict": "SKIP - nomination confirmed Feb 24 but already priced in at 94%. No fresh edge.",
+        "timestamp": "2026-02-27T03:40:00Z"
       },
       {
-        "market": "MicroStrategy sells Bitcoin by March 31, 2026",
-        "note": "NO at 98.5%. Not enough edge.",
-        "skipped": true
-      },
-      {
-        "market": "Bitcoin $1M before GTA VI",
-        "note": "50/50 odds. No edge.",
-        "skipped": true
+        "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+        "side": "NO",
+        "price": 0.945,
+        "edge": "5.5%",
+        "verdict": "SKIP - outcome not yet determined. Months remaining. Saylor says never but not confirmed.",
+        "timestamp": "2026-02-27T03:40:00Z"
       }
-    ],
-    "lotteryTickets": []
+    ]
   },
   "issues": [
-    "Gamma API returning empty for binance/SEC queries — possible endpoint or indexing issue",
-    "x-api CLI broken - twitter-api-v2 npm install fails (SIGTERM/timeout)",
-    "Bessent YES position ($0.25) is losing - Warsh was nominated instead",
-    "Limited to web_search for news verification until x-api restored"
+    "x-api broken - twitter-api-v2 package missing. Cannot do Twitter news verification."
   ],
-  "lastScanNotes": "Scan #12: Gamma API still empty for binance/SEC. Warsh holding at 93.9% (was 94.0%). MicroStrategy NO at 94.5% considered but can't confirm negative events. No new actionable opportunities. No bets placed."
+  "lastScanNotes": "Scan #1: No fresh arb opportunities. Warsh nomination already priced in. MicroStrategy outcome unresolved. x-api tool broken, relying on web_search only."
 }
