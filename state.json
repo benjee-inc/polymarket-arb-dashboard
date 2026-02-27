@@ -1,7 +1,7 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-27T09:45:00Z",
-  "scanCount": 2,
+  "scannedAt": "2026-02-27T09:50:00Z",
+  "scanCount": 3,
   "totalBet": 0.0,
   "totalReturn": 0,
   "bankroll": 11.00,
@@ -16,18 +16,18 @@
         "edge": "6.1%",
         "newsConfirmed": true,
         "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
-        "thesis": "Trump nominated Warsh on Feb 24, 2026 — confirmed by multiple sources. Market should resolve YES.",
-        "status": "UNTRADEABLE - order book 404, massive spreads, illiquid"
+        "thesis": "Trump nominated Warsh on Feb 24, 2026. Market asks about nomination (not confirmation). Should resolve YES.",
+        "status": "BLOCKED - API key unauthorized (401), cannot place orders"
       }
     ],
     "lotteryTickets": []
   },
   "issues": [
     "x-api broken: missing twitter-api-v2 package",
-    "Order book API returns 404 for neg-risk markets — cannot verify liquidity or place orders",
-    "Warsh nomination confirmed 3 days ago but YES still at 0.939 — likely stale/illiquid",
+    "Polymarket CLOB API returns 401 Unauthorized — API key invalid or expired, cannot place any orders",
+    "Warsh nomination confirmed (Feb 24) YES@0.939 = 6.1% edge but BLOCKED by auth",
     "No binance or SEC markets found",
-    "MicroStrategy BTC sell by June NO@0.945 — no confirming news, skip"
+    "MicroStrategy has NOT sold any BTC — no edge on those markets"
   ],
-  "lastScanNotes": "Scan #2: Warsh Fed Chair YES@0.939 is news-confirmed (nominated Feb 24) with 6.1% edge, but order book API returns 404 and previous scan confirmed 0.998 spreads. Untradeable. No bets placed."
+  "lastScanNotes": "Scan #3: Warsh Fed Chair YES@0.939 remains best opportunity (6.1% edge, news-confirmed nomination Feb 24). Attempted bet but CLOB API returns 401 Unauthorized. x-api still broken. No new markets found. No bets placed."
 }
