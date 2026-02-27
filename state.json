@@ -13,10 +13,10 @@
       "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
       "timestamp": "2026-02-27T16:47:15.085Z",
       "status": "FILLED",
-      "livePrice": 0.936,
-      "livePnl": -0.008479999999999772,
-      "livePnlPct": -0.42553191489360653,
-      "hoursHeld": 4.809195833333333
+      "livePrice": 0.9355,
+      "livePnl": -0.00953999999999989,
+      "livePnlPct": -0.4787234042553101,
+      "hoursHeld": 4.8405933333333335
     },
     {
       "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
@@ -34,7 +34,7 @@
       "livePrice": 0.945,
       "livePnl": -0.01050000000000001,
       "livePnlPct": -0.5263157894736858,
-      "hoursHeld": 4.809297777777778
+      "hoursHeld": 4.8406513888888885
     },
     {
       "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
@@ -49,10 +49,10 @@
       "txHash": "0x4374700a2af291e7609633acc14f600bceac92e38725e90179346154c0f31313",
       "timestamp": "2026-02-27T16:47:15.086Z",
       "status": "FILLED",
-      "livePrice": 0.957,
-      "livePnl": -0.006240000000000006,
-      "livePnlPct": -0.31250000000000444,
-      "hoursHeld": 4.8093997222222225
+      "livePrice": 0.9575,
+      "livePnl": -0.00519999999999989,
+      "livePnlPct": -0.26041666666666297,
+      "hoursHeld": 4.840756944444444
     },
     {
       "market": "Will Trump nominate Kevin Hassett as the next Fed chair?",
@@ -70,7 +70,7 @@
       "livePrice": 0.0035,
       "livePnl": 0.041665,
       "livePnlPct": 16.666666666666675,
-      "hoursHeld": 3.6981780555555557
+      "hoursHeld": 3.729537222222222
     },
     {
       "market": "Will Trump nominate Christopher Waller as the next Fed chair?",
@@ -88,7 +88,7 @@
       "livePrice": 0.0035,
       "livePnl": 0.041665,
       "livePnlPct": 16.666666666666675,
-      "hoursHeld": 3.6975830555555556
+      "hoursHeld": 3.7289463888888887
     },
     {
       "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
@@ -106,7 +106,7 @@
       "livePrice": 0.003,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 3.6964633333333334
+      "hoursHeld": 3.7278669444444446
     },
     {
       "market": "Will Trump nominate no one before 2027?",
@@ -124,7 +124,7 @@
       "livePrice": 0.0045,
       "livePnl": -0.025000000000000022,
       "livePnlPct": -10.000000000000009,
-      "hoursHeld": 3.6962366666666666
+      "hoursHeld": 3.7276422222222223
     },
     {
       "market": "Russia x Ukraine ceasefire by March 31, 2026?",
@@ -142,7 +142,7 @@
       "livePrice": 0.0265,
       "livePnl": 0.0048100000000000035,
       "livePnlPct": 1.9230769230769162,
-      "hoursHeld": 3.6960241666666667
+      "hoursHeld": 3.72743
     },
     {
       "market": "MegaETH market cap (FDV) >$6B one day after launch?",
@@ -162,11 +162,11 @@
       "livePrice": 0.0155,
       "livePnl": 0.06896999999999993,
       "livePnlPct": 6.896551724137923,
-      "hoursHeld": 1.3285652777777779
+      "hoursHeld": 1.3599738888888888
     }
   ],
-  "scannedAt": "2026-02-27T21:36:26.138Z",
-  "scanCount": 75,
+  "scannedAt": "2026-02-27T21:38:09.815Z",
+  "scanCount": 76,
   "totalBet": 8.23,
   "totalReturn": 0,
   "bankroll": 12.047503,
@@ -226,10 +226,10 @@
       "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
       "timestamp": "2026-02-27T16:47:15.085Z",
       "status": "FILLED",
-      "livePrice": 0.936,
-      "livePnl": -0.008479999999999772,
-      "livePnlPct": -0.42553191489360653,
-      "hoursHeld": 4.809195833333333
+      "livePrice": 0.9355,
+      "livePnl": -0.00953999999999989,
+      "livePnlPct": -0.4787234042553101,
+      "hoursHeld": 4.8405933333333335
     },
     {
       "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
@@ -247,7 +247,7 @@
       "livePrice": 0.945,
       "livePnl": -0.01050000000000001,
       "livePnlPct": -0.5263157894736858,
-      "hoursHeld": 4.809297777777778
+      "hoursHeld": 4.8406513888888885
     },
     {
       "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
@@ -262,10 +262,10 @@
       "txHash": "0x4374700a2af291e7609633acc14f600bceac92e38725e90179346154c0f31313",
       "timestamp": "2026-02-27T16:47:15.086Z",
       "status": "FILLED",
-      "livePrice": 0.957,
-      "livePnl": -0.006240000000000006,
-      "livePnlPct": -0.31250000000000444,
-      "hoursHeld": 4.8093997222222225
+      "livePrice": 0.9575,
+      "livePnl": -0.00519999999999989,
+      "livePnlPct": -0.26041666666666297,
+      "hoursHeld": 4.840756944444444
     },
     {
       "market": "Will Trump nominate Kevin Hassett as the next Fed chair?",
@@ -283,7 +283,7 @@
       "livePrice": 0.0035,
       "livePnl": 0.041665,
       "livePnlPct": 16.666666666666675,
-      "hoursHeld": 3.6981780555555557
+      "hoursHeld": 3.729537222222222
     },
     {
       "market": "Will Trump nominate Christopher Waller as the next Fed chair?",
@@ -301,7 +301,7 @@
       "livePrice": 0.0035,
       "livePnl": 0.041665,
       "livePnlPct": 16.666666666666675,
-      "hoursHeld": 3.6975830555555556
+      "hoursHeld": 3.7289463888888887
     },
     {
       "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
@@ -319,7 +319,7 @@
       "livePrice": 0.003,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 3.6964633333333334
+      "hoursHeld": 3.7278669444444446
     },
     {
       "market": "Will Trump nominate no one before 2027?",
@@ -337,7 +337,7 @@
       "livePrice": 0.0045,
       "livePnl": -0.025000000000000022,
       "livePnlPct": -10.000000000000009,
-      "hoursHeld": 3.6962366666666666
+      "hoursHeld": 3.7276422222222223
     },
     {
       "market": "Russia x Ukraine ceasefire by March 31, 2026?",
@@ -355,7 +355,7 @@
       "livePrice": 0.0265,
       "livePnl": 0.0048100000000000035,
       "livePnlPct": 1.9230769230769162,
-      "hoursHeld": 3.6960241666666667
+      "hoursHeld": 3.72743
     },
     {
       "market": "MegaETH market cap (FDV) >$6B one day after launch?",
@@ -375,7 +375,7 @@
       "livePrice": 0.0155,
       "livePnl": 0.06896999999999993,
       "livePnlPct": 6.896551724137923,
-      "hoursHeld": 1.3285652777777779
+      "hoursHeld": 1.3599738888888888
     }
   ]
 }
