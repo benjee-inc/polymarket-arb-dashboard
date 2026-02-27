@@ -1,0 +1,6 @@
+{"timestamp":"2026-02-27T10:20:00Z","type":"scan","message":"Terminal initialized - bot session logs active"}
+{"timestamp":"2026-02-27T10:20:01Z","type":"think","message":"Wallet balance: $11.00 USDC.e available for trading"}
+{"timestamp":"2026-02-27T10:20:02Z","type":"decision","message":"No active positions - ready for next opportunity","reason":"On-chain scan confirmed empty orders"}
+{"timestamp":"2026-02-27T10:20:03Z","type":"scan","message":"Scanning for 20x lottery tickets under 5¢"}
+{"timestamp":"2026-02-27T10:20:04Z","type":"think","message":"Proxy bypass active via Amsterdam Fly.io deployment"}
+{"timestamp":"2026-02-27T10:20:05Z","type":"trade","message":"No trades executed - waiting for high confidence setup","orderId":"none","amount":0}
