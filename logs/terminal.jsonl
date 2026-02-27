@@ -1,1 +1,6 @@
 {"timestamp":"2026-02-27T15:47:30.625Z","type":"scan","message":"Scanner v5 — real-time trade flow + CLOB midpoints + cooldown dedup"}
+{"timestamp":"2026-02-27T15:47:33.547Z","type":"scan","message":"Cycle #1 — 1385 markets | 24 active events | $91.1K recent flow"}
+{"timestamp":"2026-02-27T15:47:33.547Z","type":"think","message":"Live flow: \"US strikes Iran by March 3, 2026?\" — $40.0K in 12 trades, NET BUY, biggest $17.8K, 16s ago"}
+{"timestamp":"2026-02-27T15:47:33.547Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 20.5%), 24h vol $18.5K"}
+{"timestamp":"2026-02-27T15:47:33.547Z","type":"think","message":"Volume surge: \"Will Fred Couples win the 2026 Masters tournament?\" — $2.7M in 24h (22890% of lifetime), price 0.3%"}
+{"timestamp":"2026-02-27T15:47:33.547Z","type":"decision","message":"Flow signal: \"Will Aston Villa FC win on 2026-02-27?\" — buyers dominating ($6.0K net), 2 traders, 44s ago"}
