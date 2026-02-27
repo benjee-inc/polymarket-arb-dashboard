@@ -38,3 +38,7 @@
 {"timestamp":"2026-02-27T14:14:13.996Z","type":"think","message":"918 markets with spread >10%."}
 {"timestamp":"2026-02-27T14:14:13.996Z","type":"think","message":"High volume: \"Will Trump nominate Judy Shelton as the next Fed chair?\" ($97.6M), \"Will the Indiana Pacers win the 2026 NBA Finals?\" ($47.8M), \"Will Trump nominate Kevin Warsh as the next Fed chair?\" ($43.6M)"}
 {"timestamp":"2026-02-27T14:14:13.996Z","type":"decision","message":"Top opportunity: \"Will the U.S. collect between $500b and $1t in revenue in 2025?\" — Yes at $0.00, volume $2.6M"}
+{"timestamp":"2026-02-27T14:16:20.333Z","type":"scan","message":"Cycle #1 — scanning 1490 active markets..."}
+{"timestamp":"2026-02-27T14:16:20.351Z","type":"think","message":"485 lottery tickets under 5¢ — \"Will the New Orleans Pelicans win the 2026 NBA Finals?\" (Yes @ 0.1¢, vol $14.0M) | \"Will GTA 6 cost $100+?\" (Yes @ 0.1¢, vol $6.9M) | \"Will the Brooklyn Nets win the 2026 NBA Finals?\" (Yes @ 0.1¢, vol $17.0M)"}
+{"timestamp":"2026-02-27T14:16:20.351Z","type":"think","message":"Expiring soon: \"Will GTA 6 cost $100+?\" (21.7h left, vol $6.9M) | \"Rojas guilty in Texas illegal abortion case?\" (21.7h left, vol $60.8K) | \"Will the U.S. collect less than $100b in revenue in 2025?\" (21.7h left, vol $2.0M)"}
+{"timestamp":"2026-02-27T14:16:20.351Z","type":"decision","message":"Top pick [NEW]: \"Will Everton finish in 2nd place in the 2025-26 English Premier League?\" — Yes @ 0.1¢, volume $122.2K"}
