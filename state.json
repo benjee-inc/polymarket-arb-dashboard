@@ -1,19 +1,33 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-27T09:40:00Z",
-  "scanCount": 1,
+  "scannedAt": "2026-02-27T09:45:00Z",
+  "scanCount": 2,
   "totalBet": 0.0,
   "totalReturn": 0,
   "bankroll": 11.00,
   "proxyWallet": "0x3b0d0696033643d52C5B6D95d6c1A7d924Ffb9fb",
   "opportunities": {
-    "newsArbitrage": [],
+    "newsArbitrage": [
+      {
+        "market": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+        "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
+        "side": "YES",
+        "price": 0.939,
+        "edge": "6.1%",
+        "newsConfirmed": true,
+        "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
+        "thesis": "Trump nominated Warsh on Feb 24, 2026 — confirmed by multiple sources. Market should resolve YES.",
+        "status": "UNTRADEABLE - order book 404, massive spreads, illiquid"
+      }
+    ],
     "lotteryTickets": []
   },
   "issues": [
     "x-api broken: missing twitter-api-v2 package",
-    "Markets in 0.90-0.97 range (Warsh Fed Chair YES@0.939, MicroStrategy NO@0.945) have massive spreads (0.998) - completely illiquid order books, not tradeable",
-    "No binance or SEC markets found"
+    "Order book API returns 404 for neg-risk markets — cannot verify liquidity or place orders",
+    "Warsh nomination confirmed 3 days ago but YES still at 0.939 — likely stale/illiquid",
+    "No binance or SEC markets found",
+    "MicroStrategy BTC sell by June NO@0.945 — no confirming news, skip"
   ],
-  "lastScanNotes": "Scan #1: Searched will/binance/SEC/trump/bitcoin. Found 2 candidates in price range but both had 0.998 spreads (no real liquidity). X API unavailable for news verification. No bets placed."
+  "lastScanNotes": "Scan #2: Warsh Fed Chair YES@0.939 is news-confirmed (nominated Feb 24) with 6.1% edge, but order book API returns 404 and previous scan confirmed 0.998 spreads. Untradeable. No bets placed."
 }
