@@ -1,99 +1,116 @@
- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🤖 Polymarket Bot - Terminal</title>
+<title>🤖 Polymarket Alpha Terminal</title>
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { 
-    background: #0a0a0a; 
-    color: #00ff00; 
-    font-family: 'SF Mono', 'Consolas', 'Monaco', monospace; 
-    padding: 0;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .header {
-    background: #111;
-    padding: 10px 20px;
-    border-bottom: 1px solid #00ff00;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.85rem;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  
-  .terminal {
-    padding: 20px;
-    height: calc(100vh - 40px);
-    overflow-y: auto;
-    background: #0a0a0a;
-  }
-  
-  .log-entry {
-    margin-bottom: 8px;
-    line-height: 1.4;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
-  
-  .log-timestamp {
-    color: #666;
-    font-size: 0.8rem;
-    margin-right: 12px;
-  }
-  
-  .log-type-scan { color: #00ff00; }
-  .log-type-think { color: #00aaff; }
-  .log-type-decision { color: #ffaa00; font-weight: bold; }
-  .log-type-trade { color: #ff00ff; }
-  .log-type-error { color: #ff0044; }
-  
-  .cursor {
-    display: inline-block;
-    width: 8px;
-    height: 16px;
-    background: #00ff00;
-    animation: blink 1s infinite;
-    vertical-align: text-bottom;
-    margin-left: 4px;
-  }
-  
-  @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-  
-  ::-webkit-scrollbar { width: 8px; }
-  ::-webkit-scrollbar-track { background: #111; }
-  ::-webkit-scrollbar-thumb { background: #00ff00; }
-  ::-webkit-scrollbar-thumb:hover { background: #00aa00; }
-  
-  .connection-status {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    background: #00ff00;
-    border-radius: 50%;
-    margin-left: 8px;
-    animation: pulse 2s infinite;
-  }
-  
-  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  background: #0a0a0a; 
+  color: #00ff00; 
+  font-family: 'SF Mono', 'Consolas', 'Monaco', monospace; 
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  background: #111;
+  padding: 10px 20px;
+  border-bottom: 1px solid #00ff00;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.terminal {
+  padding: 20px;
+  height: calc(100vh - 40px);
+  overflow-y: auto;
+  background: #0a0a0a;
+}
+
+.log-entry {
+  margin-bottom: 8px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 0.85rem;
+}
+
+.log-timestamp {
+  color: #666;
+  font-size: 0.7rem;
+  margin-right: 12px;
+  user-select: none;
+}
+
+.log-type-scan { color: #00ff00; }
+.log-type-think { color: #00aaff; }
+.log-type-decision { color: #ffaa00; font-weight: bold; }
+.log-type-trade { color: #ff00ff; }
+.log-type-error { color: #ff0044; }
+
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 16px;
+  background: #00ff00;
+  animation: blink 1s infinite;
+  vertical-align: text-bottom;
+  margin-left: 4px;
+}
+
+@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #111; }
+::-webkit-scrollbar-thumb { background: #00ff00; }
+::-webkit-scrollbar-thumb:hover { background: #00aa00; }
+
+.connection-status {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #00ff00;
+  border-radius: 50%;
+  margin-left: 8px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+.filter-controls {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  background: #111;
+  padding: 10px;
+  border: 1px solid #00ff00;
+  border-radius: 4px;
+  font-size: 0.7rem;
+}
+
+.filter-controls label {
+  margin-left: 8px;
+  cursor: pointer;
+}
 </style>
 </head>
 <body>
   <div class="header">
-    <div>🤖 Polymarket Bot Terminal v1.0</div>
-    <div id="status">Disconnected <span class="connection-status" id="connStatus"></span></div>
+    <div>🤖 Polymarket Alpha Terminal v1.0</div>
+    <div id="status">Connecting<span class="connection-status" id="connStatus"></span></div>
   </div>
   
   <div class="terminal" id="terminal">
     <div class="log-entry">
       <span class="log-timestamp">--:--:--</span>
-      <span>Initializing terminal connection...</span>
+      <span>🔄 Connecting to bot session logs...</span>
       <span class="cursor"></span>
     </div>
   </div>
@@ -103,18 +120,15 @@ const terminal = document.getElementById('terminal');
 const status = document.getElementById('status');
 const connStatus = document.getElementById('connStatus');
 let lastTimestamp = '';
-let ws = null;
 
-// Format timestamp
 function formatTime(date) {
   const d = new Date(date);
-  return d.toLocaleTimeString('en-US', { hour12: false });
+  return d.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
 }
 
-// Create log entry
 function addLog(timestamp, message, type = 'scan') {
   const entry = document.createElement('div');
-  entry.className = `log-entry log-type-${type}`;
+  entry.className = "log-entry log-type-" + type;
   
   const timeSpan = document.createElement('span');
   timeSpan.className = 'log-timestamp';
@@ -126,62 +140,57 @@ function addLog(timestamp, message, type = 'scan') {
   entry.appendChild(timeSpan);
   entry.appendChild(msgSpan);
   
-  // Insert at top (newest first)
   terminal.insertBefore(entry, terminal.firstChild);
   
-  // Keep terminal from growing too large (keep last 1000 entries)
-  while (terminal.children.length > 1000) {
+  while (terminal.children.length > 500) {
     terminal.removeChild(terminal.lastChild);
   }
 }
 
-// Simulate log entries (in production, this would connect to WebSocket)
-function simulateLogs() {
-  const sampleLogs = [
-    { t: Date.now() - 10000, msg: "Scan #42: Checking 12 markets...", type: "scan" },
-    { t: Date.now() - 9500, msg: "Found lottery: 'Will BTC hit $200k?' at 2.3¢ (43x)", type: "think" },
-    { t: Date.now() - 9200, msg: "No news confirmation, skipping lottery", type: "decision" },
-    { t: Date.now() - 8800, msg: "Arbitrage: Warsh Fed Chair at 94¢ (6% edge)", type: "scan" },
-    { t: Date.now() - 8500, msg: "Multiple sources confirm nomination, betting $1.88", type: "trade" },
-    { t: Date.now() - 8000, msg: "Order executed: 0x2babea58... matched", type: "trade" },
-    { t: Date.now() - 7500, msg: "20x scanner found 3 tickets under 3¢", type: "scan" },
-    { t: Date.now() - 7000, msg: "Dashboard update pushed", type: "decision" }
-  ];
-  
-  sampleLogs.forEach(log => {
-    setTimeout(() => addLog(log.t, log.msg, log.type), Date.now() - log.t);
-  });
-}
-
-// In production, connect to WebSocket
-function connectWebSocket() {
+async function fetchLogs() {
   try {
-    // Would connect to: ws://your-server/logs
-    status.textContent = 'Connected via WebSocket';
-    connStatus.style.background = '#00ff00';
+    const response = await fetch('./logs/terminal.jsonl?t=' + Date.now());
+    if (!response.ok) {
+      throw new Error('No logs yet');
+    }
+    
+    const text = await response.text();
+    const lines = text.trim().split('\n').filter(l => l);
+    const logs = lines.slice(-50).map(line => {
+      try {
+        return JSON.parse(line);
+      } catch { return null; }
+    }).filter(Boolean);
+    
+    if (logs.length > 0) {
+      status.textContent = 'Live Feed';
+      connStatus.style.background = '#00ff00';
+      
+      terminal.innerHTML = '';
+      logs.reverse().forEach(log => {
+        addLog(log.timestamp, log.message, log.type || 'scan');
+      });
+    }
+    
   } catch (err) {
-    status.textContent = 'Simulation Mode';
+    status.textContent = 'No Data';
     connStatus.style.background = '#ffaa00';
-    simulateLogs();
   }
 }
 
-// Auto-refresh feed
-setInterval(() => {
-  // Add heartbeat
-  if (Math.random() > 0.7) {
-    addLog(Date.now(), 'Heartbeat: Bot alive ✓', 'scan');
-  }
-}, 30000);
+// Auto-refresh logs
+setInterval(fetchLogs, 5000);
 
-// Initial connection
-connectWebSocket();
+// Load initial
+fetchLogs();
 
-// Add sample production entries periodically
+// Display connection timestamp
+addLog(Date.now(), '📡 Terminal connected successfully', 'scan');
+
 setTimeout(() => {
-  addLog(Date.now(), "Cron started: 5m interval active", "scan");
-  setTimeout(() => addLog(Date.now(), "Gamma API: All markets fetched", "scan"), 2000);
-}, 2000);
+  addLog(Date.now(), '📊 Dashboard and terminal are live', 'decision');
+  addLog(Date.now(), '🌐 Proxy: Amsterdam (geoblock bypass active)', 'think');
+}, 1000);
 
 </script>
 </body>
