@@ -1,1 +1,6 @@
 {"timestamp":"2026-02-27T15:22:40.296Z","type":"scan","message":"Scanner v4 — cooldown dedup active"}
+{"timestamp":"2026-02-27T15:22:42.189Z","type":"scan","message":"Cycle #1 — 1385 live markets | signals: 18 movers, 539 volumeSpikes, 5 catalysts, 445 deepValue, 35 tightRaces"}
+{"timestamp":"2026-02-27T15:22:42.189Z","type":"think","message":"↑ Mover: \"Will Russia capture Rodynske by March 31?\" ↑23.5% today (now 52.0%), 24h vol $5.2K"}
+{"timestamp":"2026-02-27T15:22:42.189Z","type":"think","message":"Volume spike: \"Will Fred Couples win the 2026 Masters tournament?\" — $2.7M in 24h (22890% of all-time vol), price 0.3%"}
+{"timestamp":"2026-02-27T15:22:42.189Z","type":"think","message":"Catalyst: \"Will GTA 6 cost $100+?\" expires in 21h — 0.1% YES, ↓0.3% today, vol $469.0K"}
+{"timestamp":"2026-02-27T15:22:42.189Z","type":"decision","message":"Momentum: \"Will Trump visit China by March 31?\" ↓5.3% today, ↑67.0% this week, 24h vol $81.6K"}
