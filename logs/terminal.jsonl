@@ -115,3 +115,67 @@
 {"timestamp":"2026-02-27T16:43:23.324Z","type":"think","message":"Catalyst: \"Will the U.S. collect less than $100b in revenue in 20…\" — 19h to resolution, 99.0% YES, vol $228.5K"}
 {"timestamp":"2026-02-27T16:43:23.324Z","type":"think","message":"Wide spread: \"Will Chad Bianco win the California Governor Election …\" — bid 2.0% / ask 10.5% (8.5% spread), liq $427.1K"}
 {"timestamp":"2026-02-27T16:43:23.324Z","type":"decision","message":"Flow signal: \"Will Russia capture all of Pokrovsk by March 31?\" — buyers dominating ($5.6K net), 1 traders, 1m ago"}
+{"timestamp":"2026-02-27T17:53:51.761Z","type":"scan","message":"Auto-trader scan #24 starting..."}
+{"timestamp":"2026-02-27T17:53:53.387Z","type":"scan","message":"Found 50 markets"}
+{"timestamp":"2026-02-27T17:53:54.079Z","type":"scan","message":"Available balance: $2.49 USDC"}
+{"timestamp":"2026-02-27T17:53:54.079Z","type":"decision","message":"SKIP (sports/ent): Will the Indiana Pacers win the 2026 NBA Finals?"}
+{"timestamp":"2026-02-27T17:53:54.079Z","type":"decision","message":"SKIP (sports/ent): Will Chelsea Clinton win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:54.080Z","type":"decision","message":"SKIP (sports/ent): Will Leeds win the 2025–26 English Premier League?"}
+{"timestamp":"2026-02-27T17:53:54.080Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Scott Bessent as the next Fed chair?\" YES @ 0.1¢ (edge: 100.0%)"}
+{"timestamp":"2026-02-27T17:53:54.724Z","type":"error","message":"Trade error: invalid price (0.0005), min: 0.001 - max: 0.999"}
+{"timestamp":"2026-02-27T17:53:54.724Z","type":"decision","message":"SKIP (sports/ent): Will Oprah Winfrey win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:54.724Z","type":"decision","message":"SKIP (sports/ent): Will Tim Walz win the 2028 US Presidential Election?"}
+{"timestamp":"2026-02-27T17:53:54.724Z","type":"decision","message":"SKIP (sports/ent): Will Andrew Yang win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:54.724Z","type":"decision","message":"SKIP (sports/ent): Will George Clooney win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:54.724Z","type":"decision","message":"SKIP (sports/ent): Will LeBron James win the 2028 US Presidential Election?"}
+{"timestamp":"2026-02-27T17:53:54.724Z","type":"decision","message":"SKIP (sports/ent): Will the Memphis Grizzlies win the 2026 NBA Finals?"}
+{"timestamp":"2026-02-27T17:53:54.724Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Kevin Hassett as the next Fed chair?\" YES @ 0.3¢ (edge: 99.7%)"}
+{"timestamp":"2026-02-27T17:53:55.689Z","type":"trade","message":"✅ FILLED: 0xa633b2cd5b8b36... — YES @ 0.3¢"}
+{"timestamp":"2026-02-27T17:53:55.690Z","type":"decision","message":"SKIP (sports/ent): Will Hillary Clinton win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:55.690Z","type":"decision","message":"SKIP (sports/ent): Will MrBeast win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:55.690Z","type":"decision","message":"SKIP (sports/ent): Will Tottenham win the 2025–26 English Premier League?"}
+{"timestamp":"2026-02-27T17:53:55.690Z","type":"decision","message":"SKIP (sports/ent): Will Zohran Mamdani win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:55.690Z","type":"decision","message":"SKIP (sports/ent): Will Bernie Sanders win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:55.690Z","type":"decision","message":"SKIP (sports/ent): Will LeBron James win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:55.690Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Rick Rieder as the next Fed chair?\" YES @ 0.3¢ (edge: 99.8%)"}
+{"timestamp":"2026-02-27T17:53:56.628Z","type":"error","message":"Order failed: invalid amount for a marketable BUY order ($0.3), min size: $1"}
+{"timestamp":"2026-02-27T17:53:56.628Z","type":"decision","message":"SKIP (sports/ent): Will Greg Abbott win the 2028 US Presidential Election?"}
+{"timestamp":"2026-02-27T17:53:56.628Z","type":"decision","message":"SKIP (sports/ent): Will Phil Murphy win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:56.628Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Jerome Powell as the next Fed chair?\" YES @ 0.1¢ (edge: 100.0%)"}
+{"timestamp":"2026-02-27T17:53:57.075Z","type":"error","message":"Trade error: invalid price (0.0005), min: 0.001 - max: 0.999"}
+{"timestamp":"2026-02-27T17:53:57.076Z","type":"decision","message":"SKIP (sports/ent): Will Liz Cheney win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:57.076Z","type":"decision","message":"SKIP (sports/ent): Will Tim Walz win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:57.076Z","type":"decision","message":"SKIP (sports/ent): Will Hunter Biden win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:57.076Z","type":"decision","message":"SKIP (sports/ent): Will Mike Pence win the 2028 Republican presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:57.076Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Christopher Waller as the next Fed chair\" YES @ 0.3¢ (edge: 99.7%)"}
+{"timestamp":"2026-02-27T17:53:58.029Z","type":"trade","message":"✅ FILLED: 0xc2ee30037a2915... — YES @ 0.3¢"}
+{"timestamp":"2026-02-27T17:53:58.030Z","type":"decision","message":"SKIP (sports/ent): Will Tulsi Gabbard win the 2028 US Presidential Election?"}
+{"timestamp":"2026-02-27T17:53:58.030Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Bill Pulte as the next Fed chair?\" YES @ 0.1¢ (edge: 100.0%)"}
+{"timestamp":"2026-02-27T17:53:58.494Z","type":"error","message":"Trade error: invalid price (0.0005), min: 0.001 - max: 0.999"}
+{"timestamp":"2026-02-27T17:53:58.494Z","type":"decision","message":"SKIP (sports/ent): Will Kim Kardashian win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:58.494Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate himself as the next Fed chair?\" YES @ 0.1¢ (edge: 100.0%)"}
+{"timestamp":"2026-02-27T17:53:58.950Z","type":"error","message":"Trade error: invalid price (0.0005), min: 0.001 - max: 0.999"}
+{"timestamp":"2026-02-27T17:53:58.951Z","type":"decision","message":"SKIP (sports/ent): Will Gina Raimondo win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:58.951Z","type":"decision","message":"SKIP (sports/ent): Will Beto O’Rourke win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:53:58.951Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Michelle Bowman as the next Fed chair?\" YES @ 0.3¢ (edge: 99.8%)"}
+{"timestamp":"2026-02-27T17:53:59.879Z","type":"error","message":"Order failed: invalid amount for a marketable BUY order ($0.3), min size: $1"}
+{"timestamp":"2026-02-27T17:53:59.879Z","type":"decision","message":"SKIP (sports/ent): Will Vivek Ramaswamy win the 2028 US Presidential Election?"}
+{"timestamp":"2026-02-27T17:53:59.879Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Janet Yellen as the next Fed chair?\" YES @ 0.1¢ (edge: 100.0%)"}
+{"timestamp":"2026-02-27T17:54:00.353Z","type":"error","message":"Trade error: invalid price (0.0005), min: 0.001 - max: 0.999"}
+{"timestamp":"2026-02-27T17:54:00.353Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Arthur Laffer as the next Fed chair?\" YES @ 0.1¢ (edge: 100.0%)"}
+{"timestamp":"2026-02-27T17:54:00.806Z","type":"error","message":"Trade error: invalid price (0.0005), min: 0.001 - max: 0.999"}
+{"timestamp":"2026-02-27T17:54:00.807Z","type":"decision","message":"SKIP (sports/ent): Will Uzbekistan win the 2026 FIFA World Cup?"}
+{"timestamp":"2026-02-27T17:54:00.807Z","type":"decision","message":"SKIP (sports/ent): Will John Thune win the 2028 Republican presidential nomination?"}
+{"timestamp":"2026-02-27T17:54:00.807Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Barron Trump as the next Fed chair?\" YES @ 0.1¢ (edge: 100.0%)"}
+{"timestamp":"2026-02-27T17:54:01.272Z","type":"error","message":"Trade error: invalid price (0.0005), min: 0.001 - max: 0.999"}
+{"timestamp":"2026-02-27T17:54:01.277Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate Stephen Miran as the next Fed chair?\" YES @ 0.3¢ (edge: 99.7%)"}
+{"timestamp":"2026-02-27T17:54:02.273Z","type":"trade","message":"✅ FILLED: 0x693771f634ef46... — YES @ 0.3¢"}
+{"timestamp":"2026-02-27T17:54:02.273Z","type":"decision","message":"SKIP (sports/ent): Will Roy Cooper win the 2028 Democratic presidential nomination?"}
+{"timestamp":"2026-02-27T17:54:02.273Z","type":"decision","message":"SKIP (sports/ent): Will Tom Brady win the 2028 Republican presidential nomination?"}
+{"timestamp":"2026-02-27T17:54:02.273Z","type":"decision","message":"SKIP (sports/ent): Will the Chicago Bulls win the 2026 NBA Finals?"}
+{"timestamp":"2026-02-27T17:54:02.273Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Will Trump nominate no one before 2027?\" YES @ 0.5¢ (edge: 99.5%)"}
+{"timestamp":"2026-02-27T17:54:03.294Z","type":"trade","message":"✅ FILLED: 0x8ca7abe1d14895... — YES @ 0.5¢"}
+{"timestamp":"2026-02-27T17:54:03.294Z","type":"decision","message":"SKIP (sports/ent): Will Kim Kardashian win the 2028 US Presidential Election?"}
+{"timestamp":"2026-02-27T17:54:03.294Z","type":"trade","message":"PLACING: strategy_b — $0.25 on \"Russia x Ukraine ceasefire by March 31, 2026?\" YES @ 2.6¢ (edge: 97.4%)"}
+{"timestamp":"2026-02-27T17:54:04.269Z","type":"trade","message":"✅ FILLED: 0xfdf48d3855cd36... — YES @ 2.6¢"}
+{"timestamp":"2026-02-27T17:54:04.270Z","type":"scan","message":"Scan #24 complete. 5 trades placed. Balance: $2.49"}
