@@ -1,7 +1,7 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-27T09:55:00Z",
-  "scanCount": 4,
+  "scannedAt": "2026-02-27T10:01:00Z",
+  "scanCount": 5,
   "totalBet": 0.0,
   "totalReturn": 0,
   "bankroll": 11.00,
@@ -40,5 +40,5 @@
     "MicroStrategy NO@0.945 = 5.5% edge, news-confirmed but BLOCKED by auth",
     "No binance or SEC markets found"
   ],
-  "lastScanNotes": "Scan #4: Two confirmed opportunities (Warsh YES@0.939, MSTR NO sell@0.945) but BLOCKED by 401 API auth. x-api still broken. No bets placed."
+  "lastScanNotes": "Scan #5: Same two confirmed opportunities still open. Warsh YES@0.939 (6.1%), MSTR NO@0.945 (5.5%). Both BLOCKED by 401 auth. x-api still broken. No new markets found. No bets placed."
 }
