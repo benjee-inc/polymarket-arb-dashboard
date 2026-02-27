@@ -1,10 +1,53 @@
 {
-  "bets": [],
-  "scannedAt": "2026-02-27T11:25:00Z",
-  "scanCount": 22,
-  "totalBet": 0.0,
+  "bets": [
+    {
+      "market": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+      "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
+      "side": "YES",
+      "price": 0.94,
+      "amount": 1.99,
+      "shares": 2.12,
+      "strategy": "strategy_a",
+      "thesis": "Trump nominated Warsh on Feb 24. Market asks about nomination (not confirmation). Should resolve YES.",
+      "orderId": "0xe4b9068a2e5a7105a845d2f387cc781b5564e505c96c7ec09ac1ab3138863d41",
+      "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
+      "timestamp": "2026-02-27T16:47:15.085Z",
+      "status": "FILLED"
+    },
+    {
+      "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+      "conditionId": "0x8e7a03cb1970e2ad6533b01892403516b6b3f5b5fa90ed7d104c28b27e40ba00",
+      "side": "NO",
+      "price": 0.95,
+      "amount": 2,
+      "shares": 2.1,
+      "strategy": "strategy_a",
+      "thesis": "Strategy continues buying BTC aggressively. Saylor keynote Feb 25 promotes BTC treasuries. NO on selling by June 30 is strong.",
+      "orderId": "0x78667d89edf228cd21e70edc1bf521b81392ceddf28d422169b6e00b01165eff",
+      "txHash": "0xcc8df2b1a7b599be8c5f92d42c11bb301d3ac9cf1904befc751e34fbed690f1f",
+      "timestamp": "2026-02-27T16:47:15.086Z",
+      "status": "FILLED"
+    },
+    {
+      "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
+      "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
+      "side": "NO",
+      "price": 0.96,
+      "amount": 1.99,
+      "shares": 2.08,
+      "strategy": "strategy_a",
+      "thesis": "Trump nominated Warsh, not Shelton. This should resolve NO.",
+      "orderId": "0xa7330940368f528e5257b61ce99ddaeefe4769f9a87b5ea9245d9b11e1ea78ba",
+      "txHash": "0x4374700a2af291e7609633acc14f600bceac92e38725e90179346154c0f31313",
+      "timestamp": "2026-02-27T16:47:15.086Z",
+      "status": "FILLED"
+    }
+  ],
+  "scannedAt": "2026-02-27T16:47:15.086Z",
+  "scanCount": 23,
+  "totalBet": 5.98,
   "totalReturn": 0,
-  "bankroll": 11.00,
+  "bankroll": 8.46,
   "proxyWallet": "0x3b0d0696033643d52C5B6D95d6c1A7d924Ffb9fb",
   "opportunities": {
     "newsArbitrage": [
@@ -17,7 +60,7 @@
         "newsConfirmed": true,
         "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
         "thesis": "Trump nominated Warsh on Feb 24, 2026. Market asks about nomination (not confirmation). Should resolve YES. Senate hearings expected March 2026.",
-        "status": "BLOCKED - API key unauthorized (401), cannot place orders"
+        "status": "FILLED"
       },
       {
         "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
@@ -28,7 +71,7 @@
         "newsConfirmed": true,
         "source": "https://www.strategy.com/purchases",
         "thesis": "Strategy continues buying BTC aggressively. Saylor keynote Feb 25 promotes BTC treasuries. NO on selling by June 30 is strong.",
-        "status": "BLOCKED - API key unauthorized (401), cannot place orders"
+        "status": "FILLED"
       },
       {
         "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
@@ -39,15 +82,11 @@
         "newsConfirmed": true,
         "source": "Warsh already nominated Feb 24 — Shelton nomination impossible",
         "thesis": "Trump nominated Warsh, not Shelton. This should resolve NO.",
-        "status": "BLOCKED - API key unauthorized (401), cannot place orders"
+        "status": "FILLED"
       }
     ],
     "lotteryTickets": []
   },
-  "issues": [
-    "Polymarket CLOB API returns 401 Unauthorized — API key invalid or expired, cannot place any orders",
-    "x-api broken: missing twitter-api-v2 npm package",
-    "Three confirmed opportunities with 4-6% edge remain unbet due to auth block"
-  ],
-  "lastScanNotes": "Scan #22: No new markets in 0.90-0.97 range. Prices unchanged: Warsh YES@0.939, MSTR NO@0.945, Shelton NO@0.9595. All still BLOCKED by 401 auth. No bets placed."
+  "issues": [],
+  "lastScanNotes": "All 3 confirmed opportunities executed. Auth fixed, USDC.e swapped to USDC via Paraswap. Total deployed: $5.98."
 }
