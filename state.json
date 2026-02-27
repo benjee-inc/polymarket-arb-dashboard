@@ -11,15 +11,15 @@
       "thesis": "Trump already nominated Warsh on Jan 30, 2026. Senate confirmation pending but nomination is confirmed fact. 6% edge at 94¢.",
       "source": "Multiple news sources confirm Warsh nomination",
       "status": "open",
-      "currentPrice": 0.94,
+      "currentPrice": 0.9395,
       "orderId": "0x2babea585015e7bee4bc8d6f82a39e1d3856851acb52cfab74efa0aa15d78fe7",
       "txHash": "0x8f5da8bd507962bcc078f3593cf076c9d569d661580767d7423d550d866ecac2",
       "potentialReturn": 2.00,
       "potentialProfit": 0.12
     }
   ],
-  "scannedAt": "2026-02-27T03:55:00Z",
-  "scanCount": 1,
+  "scannedAt": "2026-02-27T03:45:00Z",
+  "scanCount": 2,
   "totalBet": 1.88,
   "totalReturn": 0,
   "bankroll": 9.12,
@@ -27,8 +27,18 @@
   "opportunities": {
     "newsArbitrage": [],
     "lotteryTickets": [],
-    "considered": []
+    "considered": [
+      {
+        "market": "MicroStrategy sells BTC by June 30 2026",
+        "side": "NO",
+        "price": 0.945,
+        "reason": "Skipped — no definitive resolution yet, market runs until June 30. MicroStrategy hasn't sold and Saylor pledges not to, but outcome not confirmed.",
+        "scannedAt": "2026-02-27T03:45:00Z"
+      }
+    ]
   },
-  "issues": [],
-  "lastScanNotes": "First live bet! Warsh YES at 94¢, 2 shares for $1.88. Geoblock bypassed via Fly.io Amsterdam proxy."
+  "issues": [
+    "x-api CLI broken — missing twitter-api-v2 package. Cannot scan X/Twitter for breaking news."
+  ],
+  "lastScanNotes": "Scan #2. No new opportunities. Warsh YES holding at 93.95¢ (entry 94¢). x-api broken, relying on web_search only."
 }
