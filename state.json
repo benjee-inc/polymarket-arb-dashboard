@@ -1,57 +1,19 @@
 {
-  "bets": [
-    {
-      "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
-      "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
-      "side": "YES",
-      "shares": 2,
-      "cost": 1.88,
-      "entryPrice": 0.94,
-      "placedAt": "2026-02-27T03:55:00Z",
-      "thesis": "Trump already nominated Warsh on Jan 30, 2026. Senate confirmation pending but nomination is confirmed fact. 6% edge at 94¢.",
-      "source": "Multiple news sources confirm Warsh nomination",
-      "status": "open",
-      "currentPrice": 0.939,
-      "orderId": "0x2babea585015e7bee4bc8d6f82a39e1d3856851acb52cfab74efa0aa15d78fe7",
-      "txHash": "0x8f5da8bd507962bcc078f3593cf076c9d569d661580767d7423d550d866ecac2",
-      "potentialReturn": 2.00,
-      "potentialProfit": 0.12
-    }
-  ],
-  "scannedAt": "2026-02-27T09:35:00Z",
-  "scanCount": 6,
-  "totalBet": 1.88,
+  "bets": [],
+  "scannedAt": "2026-02-27T09:40:00Z",
+  "scanCount": 1,
+  "totalBet": 0.0,
   "totalReturn": 0,
-  "bankroll": 9.12,
+  "bankroll": 11.00,
   "proxyWallet": "0x3b0d0696033643d52C5B6D95d6c1A7d924Ffb9fb",
   "opportunities": {
-    "newsArbitrage": [
-      {
-        "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
-        "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
-        "side": "NO",
-        "price": 0.9595,
-        "edge": "4.05%",
-        "thesis": "Trump nominated Warsh on ~Feb 24, not Shelton. Market resolves on announcement. NO is confirmed outcome.",
-        "source": "https://www.whitehouse.gov/articles/2026/01/wide-acclaim-for-president-trumps-nomination-of-kevin-warsh-as-fed-chair/",
-        "status": "BLOCKED — API key unauthorized, cannot place bet",
-        "scannedAt": "2026-02-27T09:20:00Z"
-      }
-    ],
-    "lotteryTickets": [],
-    "considered": [
-      {
-        "market": "MicroStrategy sells BTC by June 30 2026",
-        "side": "NO",
-        "price": 0.945,
-        "reason": "Skipped — no definitive resolution yet, market runs until June 30. MicroStrategy hasn't sold and Saylor pledges not to, but outcome not confirmed.",
-        "scannedAt": "2026-02-27T09:35:00Z"
-      }
-    ]
+    "newsArbitrage": [],
+    "lotteryTickets": []
   },
   "issues": [
-    "x-api CLI broken — missing twitter-api-v2 package. Cannot scan X/Twitter for breaking news.",
-    "Polymarket API key returning 401 Unauthorized — cannot place bets or check balance. Needs re-auth."
+    "x-api broken: missing twitter-api-v2 package",
+    "Markets in 0.90-0.97 range (Warsh Fed Chair YES@0.939, MicroStrategy NO@0.945) have massive spreads (0.998) - completely illiquid order books, not tradeable",
+    "No binance or SEC markets found"
   ],
-  "lastScanNotes": "Scan #6. No new arb opportunities. Warsh YES stable at 93.9¢ (entry 94¢). Shelton NO still blocked by API auth. No binance/SEC/bitcoin listing arb markets found. MicroStrategy NO at 94.5¢ but unresolved until June. No new markets in 90-97¢ range."
+  "lastScanNotes": "Scan #1: Searched will/binance/SEC/trump/bitcoin. Found 2 candidates in price range but both had 0.998 spreads (no real liquidity). X API unavailable for news verification. No bets placed."
 }
