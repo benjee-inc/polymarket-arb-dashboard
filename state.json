@@ -1,7 +1,7 @@
 {
   "bets": [],
-  "scannedAt": "2026-02-27T10:10:00Z",
-  "scanCount": 7,
+  "scannedAt": "2026-02-27T10:15:00Z",
+  "scanCount": 8,
   "totalBet": 0.0,
   "totalReturn": 0,
   "bankroll": 11.00,
@@ -16,7 +16,7 @@
         "edge": "6.0%",
         "newsConfirmed": true,
         "source": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-24-the-warsh-shock-nomination-of-kevin-warsh-as-fed-chair-signals-aggressive-balance-sheet-pivot-and-2026-rate-normalization",
-        "thesis": "Trump nominated Warsh on Feb 24, 2026. Market asks about nomination (not confirmation). Should resolve YES.",
+        "thesis": "Trump nominated Warsh on Feb 24, 2026. Market asks about nomination (not confirmation). Should resolve YES. Senate hearings expected March 2026.",
         "status": "BLOCKED - API key unauthorized (401), cannot place orders"
       },
       {
@@ -27,7 +27,7 @@
         "edge": "5.5%",
         "newsConfirmed": true,
         "source": "https://www.morningstar.com/news/marketwatch/20260223124/strategy-shows-no-fear-it-keeps-adding-to-a-losing-bitcoin-position-as-prices-drop",
-        "thesis": "MicroStrategy continues buying BTC aggressively, Saylor says 'won't sell'. NO on selling by June 30 is strong.",
+        "thesis": "Strategy continues buying BTC aggressively (717,722 BTC held), Saylor says will buy 'forever'. NO on selling by June 30 is strong.",
         "status": "BLOCKED - API key unauthorized (401), cannot place orders"
       }
     ],
@@ -35,8 +35,9 @@
   },
   "issues": [
     "Polymarket CLOB API returns 401 Unauthorized — API key invalid or expired, cannot place any orders",
+    "x-api broken — missing twitter-api-v2 package dependency",
     "Two confirmed opportunities with 5.5-6% edge remain unbet due to auth block",
     "No binance or SEC markets found"
   ],
-  "lastScanNotes": "Scan #7: Same two confirmed opportunities. Warsh YES@0.94 (6.0%), MSTR NO@0.945 (5.5%). Both still BLOCKED by 401 auth. No new high-confidence markets found. No bets placed."
+  "lastScanNotes": "Scan #8: Same two confirmed opportunities. Warsh YES@0.94 (6.0%), MSTR NO@0.945 (5.5%). Both still BLOCKED by 401 auth. x-api also broken (missing dep). No new high-confidence markets found. No bets placed."
 }
