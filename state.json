@@ -1,14 +1,57 @@
 {
-  "bankroll": 559.33,
-  "bets": [],
+  "bankroll": 550.9300000000001,
+  "bets": [
+    {
+      "conditionId": "0x8b5c13c96dbc470ffc5b4c0f008488f5e75f950e807fda96fddcc8b6780a76c6",
+      "market": "Will Ken Paxton win the 2026 Texas Republican Primary?",
+      "side": "YES",
+      "price": 0.01,
+      "amount": 2.8,
+      "shares": 280,
+      "strategy": "strategy_d",
+      "confidence": 90,
+      "reasoning": "High volume primary market",
+      "source": "flow",
+      "timestamp": "2026-02-28T20:29:51.471Z",
+      "endDate": "2026-03-02T23:59:00Z"
+    },
+    {
+      "conditionId": "0xddf7c47f8414b7a1aad4a10e5a1663b8f7f6e7e5e7e5e7e5e7e5e7e5e7e5e7e5e",
+      "market": "Will John Cornyn win the 2026 Texas Republican Primary?",
+      "side": "YES",
+      "price": 0.01,
+      "amount": 2.8,
+      "shares": 280,
+      "strategy": "strategy_d",
+      "confidence": 90,
+      "reasoning": "High volume primary market",
+      "source": "flow",
+      "timestamp": "2026-02-28T20:29:53.861Z",
+      "endDate": "2026-03-02T23:59:00Z"
+    },
+    {
+      "conditionId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "market": "Will Wesley Hunt win the 2026 Texas Republican Primary?",
+      "side": "YES",
+      "price": 0.001,
+      "amount": 2.8,
+      "shares": 2800,
+      "strategy": "strategy_d",
+      "confidence": 90,
+      "reasoning": "High volume primary market",
+      "source": "flow",
+      "timestamp": "2026-02-28T20:29:56.253Z",
+      "endDate": "2026-03-02T23:59:00Z"
+    }
+  ],
   "closedBets": [],
-  "scanCount": 295,
+  "scanCount": 313,
   "totalBet": 2225.9,
   "totalReturn": 518.1,
   "realizedPnl": 68.77,
   "scannedAt": "2026-02-28T17:10:00.434Z",
   "_rebuilt": "2026-02-28T15:07:22.394Z",
   "_scanSpent": 0,
-  "lastUpdate": "2026-02-28T16:49:33.506Z",
+  "lastUpdate": "2026-02-28T21:41:41.146Z",
   "lastScan": "2026-02-28T16:49:33.506Z"
 }
