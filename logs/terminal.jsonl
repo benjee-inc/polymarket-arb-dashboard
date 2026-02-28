@@ -16901,3 +16901,89 @@
 {"timestamp":"2026-02-28T12:42:50.444Z","type":"scan","message":"Fetched 100 markets from 200 events"}
 {"timestamp":"2026-02-28T12:42:50.445Z","type":"decision","message":"Balance $0.33 below $1.00 minimum — scan only, no new trades"}
 {"timestamp":"2026-02-28T12:42:55.802Z","type":"scan","message":"📡 Dashboard pushed to GitHub"}
+{"timestamp":"2026-02-28T12:47:41.647Z","type":"scan","message":"🧠 AI-powered scan #258 starting..."}
+{"timestamp":"2026-02-28T12:47:42.399Z","type":"scan","message":"💰 Balance: $11.52 USDC | 0 open positions"}
+{"timestamp":"2026-02-28T12:47:46.347Z","type":"scan","message":"Fetched 100 markets from 200 events"}
+{"timestamp":"2026-02-28T12:47:46.348Z","type":"think","message":"🤖 Classifying markets with AI..."}
+{"timestamp":"2026-02-28T12:47:49.924Z","type":"scan","message":"AI filtered: 69/100 kept"}
+{"timestamp":"2026-02-28T12:47:49.925Z","type":"scan","message":"26 trade candidates found"}
+{"timestamp":"2026-02-28T12:47:49.925Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Kevin Warsh as the next Fed chair?..."}
+{"timestamp":"2026-02-28T12:47:51.453Z","type":"think","message":"📊 AI: SKIP (20%) — The market price is too high for a news-confirmed arbitrage strategy, and there's no definitive news confirming Warsh's nomination."}
+{"timestamp":"2026-02-28T12:47:51.453Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Kevin Warsh as the next Fed chair? — SKIP (20%)"}
+{"timestamp":"2026-02-28T12:47:51.453Z","type":"think","message":"🧠 Analyzing: Will Oprah Winfrey win the 2028 Democratic presidential nomi..."}
+{"timestamp":"2026-02-28T12:47:52.688Z","type":"think","message":"📊 AI: SKIP (95%) — The extremely low price and high volume suggest this market is being used for speculative purposes rather than reflecting a genuine belief in Oprah's nomination."}
+{"timestamp":"2026-02-28T12:47:52.688Z","type":"decision","message":"⏭️ SKIP: Will Oprah Winfrey win the 2028 Democratic presidential nomi — SKIP (95%)"}
+{"timestamp":"2026-02-28T12:47:52.688Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Kevin Hassett as the next Fed chair?..."}
+{"timestamp":"2026-02-28T12:47:53.444Z","type":"think","message":"📊 AI: SKIP (10%) — The extremely low price and high volume suggest this market is effectively resolved as \"No,\" making a \"Yes\" bet a lottery ticket with almost no chance of payout."}
+{"timestamp":"2026-02-28T12:47:53.444Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Kevin Hassett as the next Fed chair? — SKIP (10%)"}
+{"timestamp":"2026-02-28T12:47:53.444Z","type":"think","message":"🧠 Analyzing: Will Trump nominate Christopher Waller as the next Fed chair..."}
+{"timestamp":"2026-02-28T12:47:54.134Z","type":"think","message":"📊 AI: SKIP (90%) — The extremely low price and high implied probability of \"NO\" suggest this market is effectively resolved, making a \"YES\" bet a lottery ticket with almost no chance of payout."}
+{"timestamp":"2026-02-28T12:47:54.134Z","type":"decision","message":"⏭️ SKIP: Will Trump nominate Christopher Waller as the next Fed chair — SKIP (90%)"}
+{"timestamp":"2026-02-28T12:47:54.134Z","type":"think","message":"🧠 Analyzing: Russia x Ukraine ceasefire by March 31, 2026?..."}
+{"timestamp":"2026-02-28T12:47:54.770Z","type":"think","message":"📊 AI: SKIP (70%) — While a ceasefire is unlikely, the \"news-confirmed arbitrage\" strategy is not clearly defined or supported by the provided information, making it difficult to assess the trade's validity."}
+{"timestamp":"2026-02-28T12:47:54.771Z","type":"decision","message":"⏭️ SKIP: Russia x Ukraine ceasefire by March 31, 2026? — SKIP (70%)"}
+{"timestamp":"2026-02-28T12:47:54.771Z","type":"think","message":"🧠 Analyzing: Will Stephen A. Smith win the 2028 Democratic presidential n..."}
+{"timestamp":"2026-02-28T12:47:55.595Z","type":"think","message":"📊 AI: SKIP (100%) — Stephen A. Smith has no political experience, has not indicated any intention to run for president, and is a sports commentator, making a presidential nomination extremely improbable."}
+{"timestamp":"2026-02-28T12:47:55.596Z","type":"decision","message":"⏭️ SKIP: Will Stephen A. Smith win the 2028 Democratic presidential n — SKIP (100%)"}
+{"timestamp":"2026-02-28T12:47:55.597Z","type":"think","message":"🧠 Analyzing: Will Trump deport 250,000-500,000 people?..."}
+{"timestamp":"2026-02-28T12:47:56.337Z","type":"think","message":"📊 AI: SKIP (60%) — While Trump has expressed strong anti-immigration stances, the specific number of 250,000-500,000 deportations is not yet confirmed as a definite policy or a highly probable outcome, making the \"news-confirmed arbitrage\" strategy premature."}
+{"timestamp":"2026-02-28T12:47:56.337Z","type":"decision","message":"⏭️ SKIP: Will Trump deport 250,000-500,000 people? — SKIP (60%)"}
+{"timestamp":"2026-02-28T12:47:56.337Z","type":"think","message":"🧠 Analyzing: Xi Jinping out before 2027?..."}
+{"timestamp":"2026-02-28T12:47:57.413Z","type":"think","message":"📊 AI: SKIP (60%) — While the \"NO\" side seems highly probable, the arbitrage strategy is flawed due to the lack of a confirmed news event that would guarantee a 97¢ payout."}
+{"timestamp":"2026-02-28T12:47:57.413Z","type":"decision","message":"⏭️ SKIP: Xi Jinping out before 2027? — SKIP (60%)"}
+{"timestamp":"2026-02-28T12:47:57.413Z","type":"think","message":"🧠 Analyzing: Will Gretchen Whitmer win the 2028 Democratic presidential n..."}
+{"timestamp":"2026-02-28T12:47:58.132Z","type":"think","message":"📊 AI: SKIP (10%) — The market price is extremely low, indicating a near-zero probability, and there is no current credible evidence or upcoming catalysts to suggest a significant shift in her prospects for the 2028 nomination."}
+{"timestamp":"2026-02-28T12:47:58.133Z","type":"decision","message":"⏭️ SKIP: Will Gretchen Whitmer win the 2028 Democratic presidential n — SKIP (10%)"}
+{"timestamp":"2026-02-28T12:47:58.133Z","type":"think","message":"🧠 Analyzing: Will Donald Trump win the 2028 Republican presidential nomin..."}
+{"timestamp":"2026-02-28T12:47:59.452Z","type":"think","message":"📊 AI: BET (80%) — The extremely low price of 2.4¢ makes this a high-reward, low-risk lottery ticket on a plausible long-shot outcome, especially given Trump's past influence and potential for a late entry or unexpected shift in the political landscape."}
+{"timestamp":"2026-02-28T12:47:59.453Z","type":"trade","message":"🎯 PLACING: $1.00 YES @ 2.4¢ on \"Will Donald Trump win the 2028 Republican presiden\""}
+{"timestamp":"2026-02-28T12:48:00.870Z","type":"trade","message":"✅ FILLED: $1.02 — The extremely low price of 2.4¢ makes this a high-reward, low-risk lottery ticket on a plausible long-shot outcome, especially given Trump's past influence and potential for a late entry or unexpected shift in the political landscape."}
+{"timestamp":"2026-02-28T12:48:00.871Z","type":"think","message":"🧠 Analyzing: Will Tarcisio de Freitas win the 2026 Brazilian presidential..."}
+{"timestamp":"2026-02-28T12:48:01.600Z","type":"think","message":"📊 AI: SKIP (20%) — While the low price makes it a lottery ticket, the extremely high implied edge suggests a significant mispricing or a very illiquid market, making it too risky without further information."}
+{"timestamp":"2026-02-28T12:48:01.600Z","type":"decision","message":"⏭️ SKIP: Will Tarcisio de Freitas win the 2026 Brazilian presidential — SKIP (20%)"}
+{"timestamp":"2026-02-28T12:48:01.600Z","type":"think","message":"🧠 Analyzing: Will the U.S. invade Venezuela by March 31, 2026?..."}
+{"timestamp":"2026-02-28T12:48:02.405Z","type":"think","message":"📊 AI: SKIP (70%) — While the \"NO\" side is highly probable, the arbitrage strategy is flawed as there's no confirmed news to justify a 90-97¢ range, and the edge is too small for a long-shot."}
+{"timestamp":"2026-02-28T12:48:02.406Z","type":"decision","message":"⏭️ SKIP: Will the U.S. invade Venezuela by March 31, 2026? — SKIP (70%)"}
+{"timestamp":"2026-02-28T12:48:02.406Z","type":"think","message":"🧠 Analyzing: Will the U.S. collect less than $100b in revenue in 2025?..."}
+{"timestamp":"2026-02-28T12:48:03.472Z","type":"think","message":"📊 AI: SKIP (90%) — The market is for \"less than $100b in revenue in 2025,\" and the US government's revenue is orders of magnitude higher than that, making the \"NO\" side a near certainty."}
+{"timestamp":"2026-02-28T12:48:03.472Z","type":"decision","message":"⏭️ SKIP: Will the U.S. collect less than $100b in revenue in 2025? — SKIP (90%)"}
+{"timestamp":"2026-02-28T12:48:03.473Z","type":"think","message":"🧠 Analyzing: MegaETH market cap (FDV) >$6B one day after launch?..."}
+{"timestamp":"2026-02-28T12:48:04.142Z","type":"think","message":"📊 AI: SKIP (20%) — The \"lottery ticket\" strategy is misapplied here as the implied probability of the YES outcome is extremely high, making it a poor value bet for a long-shot strategy."}
+{"timestamp":"2026-02-28T12:48:04.142Z","type":"decision","message":"⏭️ SKIP: MegaETH market cap (FDV) >$6B one day after launch? — SKIP (20%)"}
+{"timestamp":"2026-02-28T12:48:04.142Z","type":"think","message":"🧠 Analyzing: Will Russia invade a NATO country by June 30, 2026?..."}
+{"timestamp":"2026-02-28T12:48:04.846Z","type":"think","message":"📊 AI: SKIP (60%) — While the \"NO\" side is highly probable, the arbitrage strategy's narrow window and the lack of confirmed news make it risky for a definitive \"BET.\""}
+{"timestamp":"2026-02-28T12:48:04.847Z","type":"decision","message":"⏭️ SKIP: Will Russia invade a NATO country by June 30, 2026? — SKIP (60%)"}
+{"timestamp":"2026-02-28T12:48:04.847Z","type":"think","message":"🧠 Analyzing: Will Eric Trump win the 2028 US Presidential Election?..."}
+{"timestamp":"2026-02-28T12:48:05.533Z","type":"think","message":"📊 AI: SKIP (10%) — The probability of Eric Trump winning the 2028 US Presidential Election is astronomically low, making even a lottery ticket strategy a poor investment."}
+{"timestamp":"2026-02-28T12:48:05.533Z","type":"decision","message":"⏭️ SKIP: Will Eric Trump win the 2028 US Presidential Election? — SKIP (10%)"}
+{"timestamp":"2026-02-28T12:48:05.533Z","type":"think","message":"🧠 Analyzing: MicroStrategy sells any Bitcoin by March 31, 2026?..."}
+{"timestamp":"2026-02-28T12:48:06.433Z","type":"think","message":"📊 AI: SKIP (10%) — MicroStrategy's stated strategy is to acquire and hold Bitcoin, making a sale by 2026 highly improbable."}
+{"timestamp":"2026-02-28T12:48:06.434Z","type":"decision","message":"⏭️ SKIP: MicroStrategy sells any Bitcoin by March 31, 2026? — SKIP (10%)"}
+{"timestamp":"2026-02-28T12:48:06.434Z","type":"think","message":"🧠 Analyzing: Will Jair Bolsonaro win the 2026 Brazilian presidential elec..."}
+{"timestamp":"2026-02-28T12:48:07.249Z","type":"think","message":"📊 AI: SKIP (10%) — The price of 0.9¢ for a \"YES\" bet on Bolsonaro winning in 2026 indicates an extremely low probability, making it a poor lottery ticket even with a high edge."}
+{"timestamp":"2026-02-28T12:48:07.249Z","type":"decision","message":"⏭️ SKIP: Will Jair Bolsonaro win the 2026 Brazilian presidential elec — SKIP (10%)"}
+{"timestamp":"2026-02-28T12:48:07.250Z","type":"think","message":"🧠 Analyzing: Will the U.S. collect between $100b and $200b in revenue in ..."}
+{"timestamp":"2026-02-28T12:48:08.066Z","type":"think","message":"📊 AI: SKIP (10%) — The market price of 0.2¢ for \"YES\" indicates an extremely low probability, making it a poor lottery ticket, and there's no credible evidence to suggest this outcome is confirmed or very likely."}
+{"timestamp":"2026-02-28T12:48:08.067Z","type":"decision","message":"⏭️ SKIP: Will the U.S. collect between $100b and $200b in revenue in  — SKIP (10%)"}
+{"timestamp":"2026-02-28T12:48:08.067Z","type":"think","message":"🧠 Analyzing: Will no Fed rate cuts happen in 2026?..."}
+{"timestamp":"2026-02-28T12:48:08.856Z","type":"think","message":"📊 AI: SKIP (40%) — While a \"no cuts\" scenario in 2026 is plausible, the current market price of 90.7¢ for \"NO\" is too high for a news-confirmed arbitrage strategy, as there's no definitive news confirming this outcome."}
+{"timestamp":"2026-02-28T12:48:08.856Z","type":"decision","message":"⏭️ SKIP: Will no Fed rate cuts happen in 2026? — SKIP (40%)"}
+{"timestamp":"2026-02-28T12:48:08.856Z","type":"think","message":"🧠 Analyzing: Russian strike on a NATO member by March 31?..."}
+{"timestamp":"2026-02-28T12:48:09.470Z","type":"think","message":"📊 AI: SKIP (70%) — While the \"NO\" side is highly probable, the arbitrage window is too small to justify the risk of a sudden, unexpected escalation."}
+{"timestamp":"2026-02-28T12:48:09.470Z","type":"decision","message":"⏭️ SKIP: Russian strike on a NATO member by March 31? — SKIP (70%)"}
+{"timestamp":"2026-02-28T12:48:09.470Z","type":"think","message":"🧠 Analyzing: Will tariffs generate >$250b in 2025?..."}
+{"timestamp":"2026-02-28T12:48:10.077Z","type":"think","message":"📊 AI: SKIP (90%) — The extremely low price and high volume suggest this market is effectively resolved as \"No,\" making a \"Yes\" bet a near-certain loss."}
+{"timestamp":"2026-02-28T12:48:10.077Z","type":"decision","message":"⏭️ SKIP: Will tariffs generate >$250b in 2025? — SKIP (90%)"}
+{"timestamp":"2026-02-28T12:48:10.077Z","type":"think","message":"🧠 Analyzing: MegaETH market cap (FDV) >$4B one day after launch?..."}
+{"timestamp":"2026-02-28T12:48:10.844Z","type":"think","message":"📊 AI: SKIP (60%) — The \"news-confirmed arbitrage\" strategy is unclear and the market's high volume and low price suggest a strong consensus against the \"YES\" outcome, making a long-shot bet risky without clear catalysts."}
+{"timestamp":"2026-02-28T12:48:10.844Z","type":"decision","message":"⏭️ SKIP: MegaETH market cap (FDV) >$4B one day after launch? — SKIP (60%)"}
+{"timestamp":"2026-02-28T12:48:10.844Z","type":"think","message":"🧠 Analyzing: Will Trump deport less than 250,000?..."}
+{"timestamp":"2026-02-28T12:48:11.604Z","type":"think","message":"📊 AI: SKIP (20%) — While the price is attractive for a lottery ticket, the \"YES\" outcome (Trump deporting less than 250,000) is highly improbable given his past rhetoric and policy proposals, making it a poor long-shot bet."}
+{"timestamp":"2026-02-28T12:48:11.604Z","type":"decision","message":"⏭️ SKIP: Will Trump deport less than 250,000? — SKIP (20%)"}
+{"timestamp":"2026-02-28T12:48:11.604Z","type":"think","message":"🧠 Analyzing: Will the U.S. collect between $200b and $500b in revenue in ..."}
+{"timestamp":"2026-02-28T12:48:12.438Z","type":"think","message":"📊 AI: SKIP (90%) — The market price of 0.4¢ for \"YES\" indicates an extremely low probability, making it a poor \"lottery ticket\" even with a high edge, as the implied probability of the event occurring is almost zero."}
+{"timestamp":"2026-02-28T12:48:12.438Z","type":"decision","message":"⏭️ SKIP: Will the U.S. collect between $200b and $500b in revenue in  — SKIP (90%)"}
+{"timestamp":"2026-02-28T12:48:12.439Z","type":"think","message":"🧠 Analyzing: Will Trump deport 750,000 or more people in 2025?..."}
+{"timestamp":"2026-02-28T12:48:13.311Z","type":"think","message":"📊 AI: SKIP (20%) — While Trump has expressed strong anti-immigration stances, the logistical and political hurdles to deporting 750,000 people in a single year are immense, making this outcome highly improbable despite the low price."}
+{"timestamp":"2026-02-28T12:48:13.312Z","type":"decision","message":"⏭️ SKIP: Will Trump deport 750,000 or more people in 2025? — SKIP (20%)"}
+{"timestamp":"2026-02-28T12:48:13.312Z","type":"scan","message":"✅ Scan #258 done — 1 trades, $10.49 left, 1 positions"}
