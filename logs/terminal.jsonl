@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Tom Brady win the 2028 Republican presidentia — Already 76% deployed (max 50%)"}
-{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Kim Kardashian win the 2028 US Presidential E — Already 76% deployed (max 50%)"}
-{"timestamp":"2026-02-28T15:10:25.234Z","type":"scan","message":"═══ Scan #277 complete: 0 trades, $557.13 remaining ═══"}
-{"timestamp":"2026-02-28T15:10:25.730Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --allow-empty && git push 2>&1"}
-{"timestamp":"2026-02-28T15:12:27.540Z","type":"scan","message":"═══ Scan #278 starting ═══"}
-{"timestamp":"2026-02-28T15:12:28.311Z","type":"monitor","message":"Checking 11 open positions..."}
 {"timestamp":"2026-02-28T15:12:28.776Z","type":"exit_signal","message":"stop_loss: Will Chelsea Clinton win the 2028 Democratic presi — Stop loss triggered: 1.0¢ (entry: 62.7¢, stop: -3%)"}
 {"timestamp":"2026-02-28T15:12:30.580Z","type":"exit_signal","message":"stop_loss: Will the U.S. collect between $200b and $500b in r — Stop loss triggered: 0.7¢ (entry: 95.9¢, stop: -3%)"}
 {"timestamp":"2026-02-28T15:12:30.808Z","type":"exit_signal","message":"stop_loss: Will Tarcisio de Freitas win the 2026 Brazilian pr — Stop loss triggered: 2.5¢ (entry: 98.5¢, stop: -3%)"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T17:35:54.635Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 2d to resolution, 1.7% YES, ↑0.1% this hour, vol $320.1K"}
 {"timestamp":"2026-02-28T17:35:54.635Z","type":"think","message":"Wide spread: \"New Playboi Carti Album before GTA VI?\" — bid 54.0% / ask 59.0% (5.0% spread), liq $2.3M"}
 {"timestamp":"2026-02-28T17:35:54.635Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h, now 19.0%, vol $15.5K"}
+{"timestamp":"2026-02-28T17:40:54.655Z","type":"scan","message":"Cycle #39 — 763 markets | 10 active events | $88.9K recent flow"}
+{"timestamp":"2026-02-28T17:40:54.655Z","type":"think","message":"Live flow: \"Will the US strike Cuba next?\" — $2.1K in 2 trades, NET BUY (strong bias), biggest $1.1K, 11s ago"}
+{"timestamp":"2026-02-28T17:40:54.655Z","type":"think","message":"↑ Price shift: \"Israel x Syria security agreement by June 30?\" moved 2.0% since last scan (29.0% → 31.0%)"}
+{"timestamp":"2026-02-28T17:40:54.655Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 89.9% / ask 94.7% (4.8% spread), liq $2.3M"}
+{"timestamp":"2026-02-28T17:40:54.655Z","type":"think","message":"Deep value: \"Will Trump nominate Stephen Miran as the next Fed chai…\" — Yes @ 0.6¢, liq $50.1M, 24h vol $4.0M"}
+{"timestamp":"2026-02-28T17:40:54.656Z","type":"decision","message":"Flow signal: \"Will the US officially declare war on Iran by March 31…\" — buyers dominating ($2.0K net), 1 traders, 7s ago"}
