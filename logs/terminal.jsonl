@@ -180,6 +180,10 @@
 {"timestamp":"2026-02-28T16:45:54.474Z","type":"think","message":"↑ Hourly mover: \"Will Chad Bianco win the California Governor Election …\" ↑2.4% in 1h (now 3.4%), 24h vol $4.2K"}
 {"timestamp":"2026-02-28T16:45:54.475Z","type":"decision","message":"Hourly momentum: \"Israel x Hamas Ceasefire Phase II by March 31?\" ↓2.0% in 1h, now 8.5%, vol $5.8K"}
 {"timestamp":"2026-02-28T16:50:20.613Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
+<<<<<<< HEAD
+{"timestamp":"2026-02-28T16:55:05.824Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
+{"timestamp":"2026-02-28T16:55:06.316Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git push 2>&1"}
+=======
 {"timestamp":"2026-02-28T16:50:54.301Z","type":"scan","message":"Cycle #29 — 762 markets | 9 active events | $59.2K recent flow"}
 {"timestamp":"2026-02-28T16:50:54.301Z","type":"think","message":"Live flow: \"Will Solana dip to $60 in February?\" — $11.2K in 1 trades, NET BUY (strong bias), biggest $11.2K, 37s ago"}
 {"timestamp":"2026-02-28T16:50:54.301Z","type":"think","message":"↓ Price shift: \"Starmer out by March 31, 2026?\" moved 3.0% since last scan (9.5% → 6.5%)"}
@@ -198,3 +202,4 @@
 {"timestamp":"2026-02-28T17:00:54.328Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 2d to resolution, 0.9% YES, ↑0.1% this hour, vol $320.1K"}
 {"timestamp":"2026-02-28T17:00:54.328Z","type":"think","message":"Wide spread: \"New Playboi Carti Album before GTA VI?\" — bid 54.0% / ask 59.0% (5.0% spread), liq $2.3M"}
 {"timestamp":"2026-02-28T17:00:54.328Z","type":"decision","message":"Flow signal: \"Will the price of Ethereum be above $1,900 on February…\" — buyers dominating ($2.3K net), 2 traders, 15s ago"}
+>>>>>>> 07165d0fba4d73942475bca294457006e16a1b03
