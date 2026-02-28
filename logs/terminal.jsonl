@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T14:10:01.095Z","type":"skip","message":"⏭️ RESOLUTION: \"Will the U.S. invade Venezuela by March 31, 2026?\" resolves in 31d (max: 30d)"}
-{"timestamp":"2026-02-28T14:10:01.095Z","type":"skip","message":"⏭️ RESOLUTION: \"Will the Democratic Party control the House after \" resolves in 248d (max: 30d)"}
-{"timestamp":"2026-02-28T14:10:01.095Z","type":"skip","message":"⏭️ RESOLUTION: \"Will the Republican Party control the House after \" resolves in 248d (max: 30d)"}
-{"timestamp":"2026-02-28T14:10:01.095Z","type":"skip","message":"⏭️ RESOLUTION: \"Will no Fed rate cuts happen in 2026?\" resolves in 306d (max: 30d)"}
-{"timestamp":"2026-02-28T14:10:01.095Z","type":"skip","message":"⏭️ RESOLUTION: \"Russian strike on a NATO member by March 31?\" resolves in 31d (max: 30d)"}
-{"timestamp":"2026-02-28T14:10:01.095Z","type":"scan","message":"18 trade candidates found"}
 {"timestamp":"2026-02-28T14:10:01.095Z","type":"think","message":"🧠 Analyzing: Will Oprah Winfrey win the 2028 Democratic presidential nomi..."}
 {"timestamp":"2026-02-28T14:10:01.970Z","type":"think","message":"📊 AI: SKIP (100%) — The extremely low price and high volume indicate this is a joke market or a market where the \"YES\" outcome is virtually impossible, making it a poor investment even as a lottery ticket."}
 {"timestamp":"2026-02-28T14:10:01.971Z","type":"decision","message":"⏭️ SKIP: Will Oprah Winfrey win the 2028 Democratic presidential nomi — SKIP (100%)"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T15:00:54.497Z","type":"think","message":"↓ Daily mover: \"Will Trump visit China by March 31?\" ↓5.3% today, ↑67.0% 1w, 24h vol $63.7K"}
 {"timestamp":"2026-02-28T15:00:54.497Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 20.0%), 24h vol $16.1K"}
 {"timestamp":"2026-02-28T15:00:54.497Z","type":"decision","message":"Hourly momentum: \"Will Chad Bianco win the California Governor Election …\" ↑2.4% in 1h, now 3.4%, vol $3.3K"}
+{"timestamp":"2026-02-28T15:05:53.842Z","type":"scan","message":"Cycle #8 — 765 markets | 11 active events | $48.3K recent flow"}
+{"timestamp":"2026-02-28T15:05:53.842Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $17.0K in 6 trades, NET BUY (strong bias), biggest $5.0K, 5m ago"}
+{"timestamp":"2026-02-28T15:05:53.842Z","type":"think","message":"↓ Price shift: \"Will Russia capture Kostyantynivka by March 31?\" moved 3.0% since last scan (31.0% → 28.0%)"}
+{"timestamp":"2026-02-28T15:05:53.842Z","type":"think","message":"↓ Hourly mover: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h (now 45.5%), 24h vol $3.5K"}
+{"timestamp":"2026-02-28T15:05:53.842Z","type":"think","message":"Volume surge: \"Will Trump and Putin meet next in another country?\" — $116.7K in 24h (644% of lifetime), ↓0.1% this hour"}
+{"timestamp":"2026-02-28T15:05:53.842Z","type":"decision","message":"Hourly momentum: \"Israel x Hamas Ceasefire Phase II by March 31?\" ↓2.0% in 1h, now 8.5%, vol $9.2K"}
