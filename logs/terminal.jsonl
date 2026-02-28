@@ -1,12 +1,3 @@
-{"timestamp":"2026-02-28T15:10:18.063Z","type":"exit_signal","message":"stop_loss: Will the U.S. collect between $200b and $500b in r — Stop loss triggered: 0.7¢ (entry: 95.9¢, stop: -3%)"}
-{"timestamp":"2026-02-28T15:10:18.299Z","type":"exit_signal","message":"stop_loss: Will Tarcisio de Freitas win the 2026 Brazilian pr — Stop loss triggered: 2.5¢ (entry: 98.5¢, stop: -3%)"}
-{"timestamp":"2026-02-28T15:10:18.519Z","type":"exit_signal","message":"stop_loss: MegaETH market cap (FDV) >$6B one day after launch — Stop loss triggered: 1.8¢ (entry: 100.2¢, stop: -3%)"}
-{"timestamp":"2026-02-28T15:10:18.756Z","type":"exit_signal","message":"stop_loss: Russia x Ukraine ceasefire by March 31, 2026? — Stop loss triggered: 3.5¢ (entry: 98.2¢, stop: -3%)"}
-{"timestamp":"2026-02-28T15:10:18.982Z","type":"exit_signal","message":"stop_loss: Will Trump nominate Stephen Miran as the next Fed  — Stop loss triggered: 0.5¢ (entry: 99.9¢, stop: -3%)"}
-{"timestamp":"2026-02-28T15:10:19.203Z","type":"exit_signal","message":"partial_sell: Will Hibernian FC vs. Motherwell FC end in a draw? — Price hit 94¢ — selling 25%"}
-{"timestamp":"2026-02-28T15:10:19.204Z","type":"exit_signal","message":"partial_sell: Will Hibernian FC vs. Motherwell FC end in a draw? — Price hit 96¢ — selling 50%"}
-{"timestamp":"2026-02-28T15:10:19.204Z","type":"exit_signal","message":"take_profit: Will Hibernian FC vs. Motherwell FC end in a draw? — Take profit at 97¢"}
-{"timestamp":"2026-02-28T15:10:19.662Z","type":"exit_signal","message":"stop_loss: Will Motherwell FC win on 2026-01-10? — Stop loss triggered: 0.0¢ (entry: 61.0¢, stop: -3%)"}
 {"timestamp":"2026-02-28T15:10:19.662Z","type":"balance","message":"Bankroll: $2335.13 (cash: $557.13, deployed: $1778.00)"}
 {"timestamp":"2026-02-28T15:10:23.397Z","type":"scan","message":"Fetched 50 unique markets from 200 events"}
 {"timestamp":"2026-02-28T15:10:25.231Z","type":"scan","message":"AI filtered: 42/50 kept"}
@@ -180,10 +171,8 @@
 {"timestamp":"2026-02-28T16:45:54.474Z","type":"think","message":"↑ Hourly mover: \"Will Chad Bianco win the California Governor Election …\" ↑2.4% in 1h (now 3.4%), 24h vol $4.2K"}
 {"timestamp":"2026-02-28T16:45:54.475Z","type":"decision","message":"Hourly momentum: \"Israel x Hamas Ceasefire Phase II by March 31?\" ↓2.0% in 1h, now 8.5%, vol $5.8K"}
 {"timestamp":"2026-02-28T16:50:20.613Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
-<<<<<<< HEAD
 {"timestamp":"2026-02-28T16:55:05.824Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
 {"timestamp":"2026-02-28T16:55:06.316Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git push 2>&1"}
-=======
 {"timestamp":"2026-02-28T16:50:54.301Z","type":"scan","message":"Cycle #29 — 762 markets | 9 active events | $59.2K recent flow"}
 {"timestamp":"2026-02-28T16:50:54.301Z","type":"think","message":"Live flow: \"Will Solana dip to $60 in February?\" — $11.2K in 1 trades, NET BUY (strong bias), biggest $11.2K, 37s ago"}
 {"timestamp":"2026-02-28T16:50:54.301Z","type":"think","message":"↓ Price shift: \"Starmer out by March 31, 2026?\" moved 3.0% since last scan (9.5% → 6.5%)"}
@@ -203,3 +192,9 @@
 {"timestamp":"2026-02-28T17:00:54.328Z","type":"think","message":"Wide spread: \"New Playboi Carti Album before GTA VI?\" — bid 54.0% / ask 59.0% (5.0% spread), liq $2.3M"}
 {"timestamp":"2026-02-28T17:00:54.328Z","type":"decision","message":"Flow signal: \"Will the price of Ethereum be above $1,900 on February…\" — buyers dominating ($2.3K net), 2 traders, 15s ago"}
 {"timestamp":"2026-02-28T17:05:07.677Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
+{"timestamp":"2026-02-28T17:05:54.355Z","type":"scan","message":"Cycle #32 — 762 markets | 10 active events | $31.2K recent flow"}
+{"timestamp":"2026-02-28T17:05:54.356Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $7.3K in 3 trades, NET BUY (strong bias), biggest $5.0K, 5m ago"}
+{"timestamp":"2026-02-28T17:05:54.356Z","type":"think","message":"↓ Price shift: \"Will Ivan Cepeda Castro win the 2026 Colombian preside…\" moved 4.5% since last scan (47.5% → 43.0%)"}
+{"timestamp":"2026-02-28T17:05:54.356Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 89.8% / ask 94.7% (4.9% spread), liq $2.3M"}
+{"timestamp":"2026-02-28T17:05:54.356Z","type":"think","message":"Deep value: \"Will Trump nominate Stephen Miran as the next Fed chai…\" — Yes @ 0.6¢, liq $50.1M, 24h vol $4.0M"}
+{"timestamp":"2026-02-28T17:05:54.356Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h, now 19.0%, vol $15.5K"}
