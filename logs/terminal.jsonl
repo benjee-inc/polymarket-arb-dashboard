@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T15:30:07.539Z","type":"scan","message":"═══ Scan #280 starting ═══"}
-{"timestamp":"2026-02-28T15:30:08.946Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
-{"timestamp":"2026-02-28T15:30:08.946Z","type":"news","message":"Scanning for breaking news..."}
-{"timestamp":"2026-02-28T15:30:11.788Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price experienced a significant dip foll | Reports indicate that negotiations for a ceasefire"}
-{"timestamp":"2026-02-28T15:30:16.176Z","type":"scan","message":"22 markets after hard filters"}
-{"timestamp":"2026-02-28T15:30:17.910Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
 {"timestamp":"2026-02-28T15:30:18.395Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
 {"timestamp":"2026-02-28T15:36:21.910Z","type":"scan","message":"═══ Scan #281 starting ═══"}
 {"timestamp":"2026-02-28T15:36:23.504Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T18:04:34.324Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 19.0%), 24h vol $15.5K"}
 {"timestamp":"2026-02-28T18:04:34.324Z","type":"think","message":"Volume surge: \"Will Leeds finish in the top 4 of the EPL 2025–26 stan…\" — $14.9K in 24h (6871% of lifetime), ↓0.1% this hour"}
 {"timestamp":"2026-02-28T18:04:34.325Z","type":"decision","message":"Flow signal: \"US forces enter Iran by February 28?\" — sellers dominating ($6.5K net), 1 traders, 4m ago"}
+{"timestamp":"2026-02-28T18:09:34.293Z","type":"scan","message":"Cycle #2 — 763 markets | 8 active events | $38.8K recent flow"}
+{"timestamp":"2026-02-28T18:09:34.293Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $25.6K in 9 trades, NET BUY (strong bias), biggest $8.6K, 23s ago"}
+{"timestamp":"2026-02-28T18:09:34.294Z","type":"think","message":"↑ Price shift: \"Will Paloma Valencia win the 2026 Colombian presidenti…\" moved 2.2% since last scan (7.6% → 9.8%)"}
+{"timestamp":"2026-02-28T18:09:34.294Z","type":"think","message":"Volume surge: \"Will Fulham finish in the top 4 of the EPL 2025–26 sta…\" — $14.9K in 24h (6803% of lifetime), ↓0.1% this hour"}
+{"timestamp":"2026-02-28T18:09:34.294Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 2d to resolution, 77.0% YES, ↑0.5% this hour, vol $320.1K"}
+{"timestamp":"2026-02-28T18:09:34.294Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 52.5%, vol $5.2K"}
