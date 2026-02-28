@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T14:00:09.075Z","type":"think","message":"📊 AI: SKIP (95%) — The extremely low price and high volume suggest this market is being used for purposes other than genuine prediction, making it a poor investment for a lottery ticket strategy."}
-{"timestamp":"2026-02-28T14:00:09.076Z","type":"decision","message":"⏭️ SKIP: Will Eric Trump win the 2028 US Presidential Election? — SKIP (95%)"}
-{"timestamp":"2026-02-28T14:00:09.076Z","type":"think","message":"🧠 Analyzing: MicroStrategy sells any Bitcoin by March 31, 2026?..."}
-{"timestamp":"2026-02-28T14:00:09.818Z","type":"think","message":"📊 AI: SKIP (10%) — The market price is too low to justify a \"lottery ticket\" strategy given the unlikelihood of MicroStrategy selling Bitcoin by the deadline."}
-{"timestamp":"2026-02-28T14:00:09.819Z","type":"decision","message":"⏭️ SKIP: MicroStrategy sells any Bitcoin by March 31, 2026? — SKIP (10%)"}
-{"timestamp":"2026-02-28T14:00:09.819Z","type":"think","message":"🧠 Analyzing: Will Jair Bolsonaro win the 2026 Brazilian presidential elec..."}
 {"timestamp":"2026-02-28T14:00:10.755Z","type":"think","message":"📊 AI: SKIP (95%) — The price of 0.9¢ for a \"YES\" bet indicates an extremely low probability of Bolsonaro winning, making it a poor investment even as a lottery ticket."}
 {"timestamp":"2026-02-28T14:00:10.762Z","type":"decision","message":"⏭️ SKIP: Will Jair Bolsonaro win the 2026 Brazilian presidential elec — SKIP (95%)"}
 {"timestamp":"2026-02-28T14:00:10.763Z","type":"think","message":"🧠 Analyzing: Will the U.S. collect between $100b and $200b in revenue in ..."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T14:30:53.675Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 20.0%), 24h vol $16.1K"}
 {"timestamp":"2026-02-28T14:30:53.675Z","type":"think","message":"Volume surge: \"Will Trump and Putin meet next in another country?\" — $116.7K in 24h (644% of lifetime), ↓0.1% this hour"}
 {"timestamp":"2026-02-28T14:30:53.675Z","type":"decision","message":"Flow signal: \"Spread: Pelicans (-6.5)\" — buyers dominating ($2.5K net), 2 traders, 36s ago"}
+{"timestamp":"2026-02-28T14:35:53.460Z","type":"scan","message":"Cycle #2 — 765 markets | 9 active events | $11.6K recent flow"}
+{"timestamp":"2026-02-28T14:35:53.460Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $1.5K in 1 trades, NET BUY (strong bias), biggest $1.5K, 5m ago"}
+{"timestamp":"2026-02-28T14:35:53.460Z","type":"think","message":"↓ Price shift: \"Nuclear weapon detonation by March 31?\" moved 1.6% since last scan (10.8% → 9.2%)"}
+{"timestamp":"2026-02-28T14:35:53.460Z","type":"think","message":"Volume surge: \"Will Carlos Felipe Córdoba win the 2026 Colombian pres…\" — $37.2K in 24h (668% of lifetime), price 0.4%"}
+{"timestamp":"2026-02-28T14:35:53.460Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 2d to resolution, 77.5% YES, ↑0.5% this hour, vol $276.3K"}
+{"timestamp":"2026-02-28T14:35:53.461Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 45.5%, vol $3.5K"}
