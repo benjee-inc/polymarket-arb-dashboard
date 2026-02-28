@@ -1404,3 +1404,21 @@
 {"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Tom Brady win the 2028 Republican presidentia — Already 76% deployed (max 50%)"}
 {"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Kim Kardashian win the 2028 US Presidential E — Already 76% deployed (max 50%)"}
 {"timestamp":"2026-02-28T15:10:25.234Z","type":"scan","message":"═══ Scan #277 complete: 0 trades, $557.13 remaining ═══"}
+{"timestamp":"2026-02-28T15:10:25.730Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --allow-empty && git push 2>&1"}
+{"timestamp":"2026-02-28T15:12:27.540Z","type":"scan","message":"═══ Scan #278 starting ═══"}
+{"timestamp":"2026-02-28T15:12:28.311Z","type":"monitor","message":"Checking 11 open positions..."}
+{"timestamp":"2026-02-28T15:12:28.776Z","type":"exit_signal","message":"stop_loss: Will Chelsea Clinton win the 2028 Democratic presi — Stop loss triggered: 1.0¢ (entry: 62.7¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:12:30.580Z","type":"exit_signal","message":"stop_loss: Will the U.S. collect between $200b and $500b in r — Stop loss triggered: 0.7¢ (entry: 95.9¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:12:30.808Z","type":"exit_signal","message":"stop_loss: Will Tarcisio de Freitas win the 2026 Brazilian pr — Stop loss triggered: 2.5¢ (entry: 98.5¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:12:31.036Z","type":"exit_signal","message":"stop_loss: MegaETH market cap (FDV) >$6B one day after launch — Stop loss triggered: 1.8¢ (entry: 100.2¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:12:31.842Z","type":"exit_signal","message":"stop_loss: Russia x Ukraine ceasefire by March 31, 2026? — Stop loss triggered: 3.5¢ (entry: 98.2¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:12:32.060Z","type":"exit_signal","message":"stop_loss: Will Trump nominate Stephen Miran as the next Fed  — Stop loss triggered: 0.5¢ (entry: 99.9¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:12:32.289Z","type":"exit_signal","message":"partial_sell: Will Hibernian FC vs. Motherwell FC end in a draw? — Price hit 94¢ — selling 25%"}
+{"timestamp":"2026-02-28T15:12:32.290Z","type":"exit_signal","message":"partial_sell: Will Hibernian FC vs. Motherwell FC end in a draw? — Price hit 96¢ — selling 50%"}
+{"timestamp":"2026-02-28T15:12:32.291Z","type":"exit_signal","message":"take_profit: Will Hibernian FC vs. Motherwell FC end in a draw? — Take profit at 97¢"}
+{"timestamp":"2026-02-28T15:12:32.724Z","type":"exit_signal","message":"stop_loss: Will Motherwell FC win on 2026-01-10? — Stop loss triggered: 0.0¢ (entry: 61.0¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:12:32.724Z","type":"balance","message":"Bankroll: $2335.13 (cash: $557.13, deployed: $1778.00)"}
+{"timestamp":"2026-02-28T15:12:32.724Z","type":"news","message":"Scanning for breaking news..."}
+{"timestamp":"2026-02-28T15:12:35.923Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price briefly dipped below $68,000 after | Reports indicate that negotiations for a Gaza ceas"}
+{"timestamp":"2026-02-28T15:12:39.910Z","type":"scan","message":"20 markets after hard filters"}
+{"timestamp":"2026-02-28T15:12:41.655Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
