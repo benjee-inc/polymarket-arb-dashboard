@@ -1,8 +1,3 @@
-{"timestamp":"2026-02-28T15:20:47.738Z","type":"news","message":"Scanning for breaking news..."}
-{"timestamp":"2026-02-28T15:20:50.987Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Reports indicate that Israel is preparing for a po | The latest US jobless claims data showed a slight "}
-{"timestamp":"2026-02-28T15:20:55.332Z","type":"scan","message":"22 markets after hard filters"}
-{"timestamp":"2026-02-28T15:20:55.763Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
-{"timestamp":"2026-02-28T15:20:56.228Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
 {"timestamp":"2026-02-28T15:30:07.539Z","type":"scan","message":"═══ Scan #280 starting ═══"}
 {"timestamp":"2026-02-28T15:30:08.946Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
 {"timestamp":"2026-02-28T15:30:08.946Z","type":"news","message":"Scanning for breaking news..."}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-02-28T18:00:54.755Z","type":"think","message":"↑ Hourly mover: \"Will Chad Bianco win the California Governor Election …\" ↑2.4% in 1h (now 7.2%), 24h vol $4.2K"}
 {"timestamp":"2026-02-28T18:00:54.756Z","type":"think","message":"Volume surge: \"Will Leeds finish in the top 4 of the EPL 2025–26 stan…\" — $14.9K in 24h (6871% of lifetime), ↓0.1% this hour"}
 {"timestamp":"2026-02-28T18:00:54.756Z","type":"decision","message":"Flow signal: \"US forces enter Iran by February 28?\" — sellers dominating ($6.5K net), 1 traders, 43s ago"}
+{"timestamp":"2026-02-28T18:04:34.324Z","type":"scan","message":"Cycle #1 — 763 markets | 12 active events | $43.0K recent flow"}
+{"timestamp":"2026-02-28T18:04:34.324Z","type":"think","message":"Live flow: \"Russia x Ukraine ceasefire by February 28, 2026?\" — $11.4K in 1 trades, NET SELL (strong bias), biggest $11.4K, 3m ago"}
+{"timestamp":"2026-02-28T18:04:34.324Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 19.0%), 24h vol $15.5K"}
+{"timestamp":"2026-02-28T18:04:34.324Z","type":"think","message":"Volume surge: \"Will Leeds finish in the top 4 of the EPL 2025–26 stan…\" — $14.9K in 24h (6871% of lifetime), ↓0.1% this hour"}
+{"timestamp":"2026-02-28T18:04:34.325Z","type":"decision","message":"Flow signal: \"US forces enter Iran by February 28?\" — sellers dominating ($6.5K net), 1 traders, 4m ago"}
