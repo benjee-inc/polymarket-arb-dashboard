@@ -12,11 +12,14 @@
       "orderId": "0xe4b9068a2e5a7105a845d2f387cc781b5564e505c96c7ec09ac1ab3138863d41",
       "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
       "timestamp": "2026-02-27T16:47:15.085Z",
-      "status": "FILLED",
-      "livePrice": 0.931,
-      "livePnl": -0.01907999999999978,
-      "livePnlPct": -0.9574468085106314,
-      "hoursHeld": 19.757726944444446
+      "status": "closed",
+      "livePrice": 0.93,
+      "livePnl": -0.021199999999999785,
+      "livePnlPct": -1.0638297872340274,
+      "hoursHeld": 19.840912777777778,
+      "exitPrice": 0.93,
+      "exitTimestamp": "2026-02-28T12:36:22.166Z",
+      "realizedPnl": -0.01839999999999975
     },
     {
       "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
@@ -30,11 +33,14 @@
       "orderId": "0x78667d89edf228cd21e70edc1bf521b81392ceddf28d422169b6e00b01165eff",
       "txHash": "0xcc8df2b1a7b599be8c5f92d42c11bb301d3ac9cf1904befc751e34fbed690f1f",
       "timestamp": "2026-02-27T16:47:15.086Z",
-      "status": "FILLED",
+      "status": "closed",
       "livePrice": 0.945,
       "livePnl": -0.01050000000000001,
       "livePnlPct": -0.5263157894736858,
-      "hoursHeld": 19.757828333333332
+      "hoursHeld": 19.841015,
+      "exitPrice": 0.945,
+      "exitTimestamp": "2026-02-28T12:36:24.181Z",
+      "realizedPnl": -0.01550000000000007
     },
     {
       "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
@@ -48,11 +54,14 @@
       "orderId": "0xa7330940368f528e5257b61ce99ddaeefe4769f9a87b5ea9245d9b11e1ea78ba",
       "txHash": "0x4374700a2af291e7609633acc14f600bceac92e38725e90179346154c0f31313",
       "timestamp": "2026-02-27T16:47:15.086Z",
-      "status": "FILLED",
-      "livePrice": 0.9545,
-      "livePnl": -0.011439999999999895,
-      "livePnlPct": -0.5729166666666563,
-      "hoursHeld": 19.7578875
+      "status": "closed",
+      "livePrice": 0.9535,
+      "livePnl": -0.013519999999999897,
+      "livePnlPct": -0.6770833333333282,
+      "hoursHeld": 19.84107722222222,
+      "exitPrice": 0.9545,
+      "exitTimestamp": "2026-02-28T12:36:26.187Z",
+      "realizedPnl": -0.0046399999999999775
     },
     {
       "market": "Will Trump nominate Kevin Hassett as the next Fed chair?",
@@ -66,11 +75,14 @@
       "orderId": "0xa633b2cd5b8b362f5ce5c30880601835231e950991ca6effda6cf3ef0315ebe7",
       "txHash": null,
       "timestamp": "2026-02-27T17:53:55.689Z",
-      "status": "live",
+      "status": "closed",
       "livePrice": 0.0035,
       "livePnl": 0.041665,
       "livePnlPct": 16.666666666666675,
-      "hoursHeld": 18.646668055555555
+      "hoursHeld": 18.729858888888888,
+      "exitPrice": 0.0035,
+      "exitTimestamp": "2026-02-28T12:36:28.216Z",
+      "realizedPnl": 0.041655
     },
     {
       "market": "Will Trump nominate Christopher Waller as the next Fed chair?",
@@ -84,11 +96,14 @@
       "orderId": "0xc2ee30037a2915219ecce15a394695efd16691e29f37de1b533abea3fd85bc9c",
       "txHash": null,
       "timestamp": "2026-02-27T17:53:58.030Z",
-      "status": "live",
+      "status": "closed",
       "livePrice": 0.0035,
       "livePnl": 0.041665,
       "livePnlPct": 16.666666666666675,
-      "hoursHeld": 18.646119166666665
+      "hoursHeld": 18.72927138888889,
+      "exitPrice": 0.0035,
+      "exitTimestamp": "2026-02-28T12:36:30.246Z",
+      "realizedPnl": 0.041655
     },
     {
       "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
@@ -102,11 +117,14 @@
       "orderId": "0x693771f634ef46fb3ddd62b4b322e0cec52d416781b8cd575a2601a5034f61b7",
       "txHash": null,
       "timestamp": "2026-02-27T17:54:02.273Z",
-      "status": "live",
-      "livePrice": 0.0055,
-      "livePnl": 0.20832499999999995,
-      "livePnlPct": 83.33333333333333,
-      "hoursHeld": 18.64499777777778
+      "status": "closed",
+      "livePrice": 0.006,
+      "livePnl": 0.24999,
+      "livePnlPct": 100,
+      "hoursHeld": 18.728196944444445,
+      "exitPrice": 0.0055,
+      "exitTimestamp": "2026-02-28T12:36:32.256Z",
+      "realizedPnl": 0.20831499999999997
     },
     {
       "market": "Will Trump nominate no one before 2027?",
@@ -120,11 +138,14 @@
       "orderId": "0x8ca7abe1d14895cf729e88256389648571d5722e7633e128258da33681ce01f9",
       "txHash": null,
       "timestamp": "2026-02-27T17:54:03.294Z",
-      "status": "live",
+      "status": "closed",
       "livePrice": 0.0065,
       "livePnl": 0.07499999999999998,
       "livePnlPct": 29.999999999999982,
-      "hoursHeld": 18.644773333333333
+      "hoursHeld": 18.727971944444445,
+      "exitPrice": 0.0065,
+      "exitTimestamp": "2026-02-28T12:36:34.280Z",
+      "realizedPnl": 0.07500000000000001
     },
     {
       "market": "Russia x Ukraine ceasefire by March 31, 2026?",
@@ -138,11 +159,14 @@
       "orderId": "0xfdf48d3855cd363b992a59ccbd1972547f2bf7b5a84d01240a0f08104160ad41",
       "txHash": null,
       "timestamp": "2026-02-27T17:54:04.270Z",
-      "status": "live",
+      "status": "closed",
       "livePrice": 0.029,
       "livePnl": 0.028860000000000025,
       "livePnlPct": 11.538461538461542,
-      "hoursHeld": 18.64456138888889
+      "hoursHeld": 18.727761944444445,
+      "exitPrice": 0.029,
+      "exitTimestamp": "2026-02-28T12:36:36.293Z",
+      "realizedPnl": 0.028980000000000006
     },
     {
       "market": "MegaETH market cap (FDV) >$6B one day after launch?",
@@ -158,11 +182,14 @@
       "orderId": "0x3b391753e07917102ba7e4ddd2b2cba28decce013b0f3892b4b3c2204b8fc498",
       "txHash": null,
       "timestamp": "2026-02-27T20:16:07.329Z",
-      "status": "FILLED",
-      "livePrice": 0.0195,
-      "livePnl": 0.34484999999999993,
-      "livePnlPct": 34.48275862068966,
-      "hoursHeld": 16.277150555555554
+      "status": "closed",
+      "livePrice": 0.019,
+      "livePnl": 0.3103649999999999,
+      "livePnlPct": 31.034482758620683,
+      "hoursHeld": 16.360302222222224,
+      "exitPrice": 0.019,
+      "exitTimestamp": "2026-02-28T12:36:38.288Z",
+      "realizedPnl": 0.31043
     },
     {
       "market": "Will Donald Trump win the 2028 Republican presidential nomination?",
@@ -178,11 +205,14 @@
       "orderId": "0x71059dc806086f94e19904de375dd79bcf4a26192ac14f8105480ce27ae470cb",
       "txHash": "0xf226e22a434a842f81b0e447bfa157d590b2007245a681ec995b006235124be6",
       "timestamp": "2026-02-27T22:32:59.376Z",
-      "status": "FILLED",
+      "status": "closed",
       "livePrice": 0.0235,
       "livePnl": -0.040000000000000036,
       "livePnlPct": -4.081632653061229,
-      "hoursHeld": 13.996085
+      "hoursHeld": 14.07923888888889,
+      "exitPrice": 0.0235,
+      "exitTimestamp": "2026-02-28T12:36:40.376Z",
+      "realizedPnl": -0.06000000000000005
     },
     {
       "market": "Xi Jinping out before 2027?",
@@ -198,11 +228,14 @@
       "orderId": "0x3db987267279ecf5af9b522dd6bd152612b5040c932afbd54caa13828d8ec7ed",
       "txHash": "0x3169ea4765c0ab74fb4e15a4bac813faacc875ea9f9971f450bf480f25a6b3c2",
       "timestamp": "2026-02-28T01:17:57.438Z",
-      "status": "FILLED",
-      "livePrice": 0.914,
-      "livePnl": -0.005449999999999885,
-      "livePnlPct": -0.27277686852154037,
-      "hoursHeld": 11.246679722222222
+      "status": "closed",
+      "livePrice": 0.9145,
+      "livePnl": -0.0043600000000000045,
+      "livePnlPct": -0.21822149481723896,
+      "hoursHeld": 11.32983638888889,
+      "exitPrice": 0.914,
+      "exitTimestamp": "2026-02-28T12:36:42.382Z",
+      "realizedPnl": -0.006539999999999768
     },
     {
       "market": "Will China invade Taiwan by end of 2026?",
@@ -218,11 +251,14 @@
       "orderId": "0x21604e4a7546a0c983e0808ed0ad6a08f4ab6c3caa1fc03709f3a80ab83a7833",
       "txHash": "0x6c5c3dcbbe345720b866262d9bd37df768621435c88c25fc131152025b254d0b",
       "timestamp": "2026-02-28T01:27:55.597Z",
-      "status": "FILLED",
+      "status": "closed",
       "livePrice": 0.8835,
       "livePnl": -0.04641000000000004,
       "livePnlPct": -2.321724709784412,
-      "hoursHeld": 11.080587777777778
+      "hoursHeld": 11.16374,
+      "exitPrice": 0.8835,
+      "exitTimestamp": "2026-02-28T12:36:44.397Z",
+      "realizedPnl": -0.047514999999999974
     },
     {
       "market": "Will Trump deport less than 250,000?",
@@ -238,11 +274,14 @@
       "orderId": "0xe3e6ce490a27cbeb88f5e08056099876467dab5d58255386268bd1fe7465a692",
       "txHash": null,
       "timestamp": "2026-02-28T02:03:10.031Z",
-      "status": "FILLED",
-      "livePrice": 0.021,
-      "livePnl": -0.0666599999999999,
-      "livePnlPct": -6.666666666666654,
-      "hoursHeld": 10.493303888888889
+      "status": "closed",
+      "livePrice": 0.019,
+      "livePnl": -0.15553999999999998,
+      "livePnlPct": -15.555555555555555,
+      "hoursHeld": 10.576455833333334,
+      "exitPrice": 0.019,
+      "exitTimestamp": "2026-02-28T12:36:46.390Z",
+      "realizedPnl": -0.1556400000000001
     },
     {
       "market": "Will Tarcisio de Freitas win the 2026 Brazilian presidential election?",
@@ -258,11 +297,14 @@
       "orderId": "0xb059ef82b44f0f255e95355963cf39b45fb848ab9a2011eb2ed84f5d52045e02",
       "txHash": null,
       "timestamp": "2026-02-28T04:27:58.801Z",
-      "status": "FILLED",
+      "status": "closed",
       "livePrice": 0.0265,
       "livePnl": 0.019230000000000018,
       "livePnlPct": 1.9230769230769162,
-      "hoursHeld": 8.079812777777779
+      "hoursHeld": 8.1629675,
+      "exitPrice": 0.0265,
+      "exitTimestamp": "2026-02-28T12:36:48.385Z",
+      "realizedPnl": 0.01919000000000004
     },
     {
       "market": "Will the U.S. collect between $200b and $500b in revenue in 2025?",
@@ -278,11 +320,14 @@
       "orderId": "0x618a19ccdfed99bda8ade5df2a66d51f4ba9a004404fdd51ff318d05f80b74b3",
       "txHash": "0xdab1b84e8984000f93dd4c39463f6209e1b20b45077b333844d58bd84d666d3f",
       "timestamp": "2026-02-28T04:28:08.462Z",
-      "status": "FILLED",
-      "livePrice": 0.0095,
-      "livePnl": 0.24,
-      "livePnlPct": 533.3333333333333,
-      "hoursHeld": 8.07718888888889
+      "status": "closed",
+      "livePrice": 0.0065,
+      "livePnl": 0.14999999999999997,
+      "livePnlPct": 333.3333333333333,
+      "hoursHeld": 8.160343055555556,
+      "exitPrice": 0.007,
+      "exitTimestamp": "2026-02-28T12:36:50.425Z",
+      "realizedPnl": 0.15
     },
     {
       "market": "MegaETH market cap (FDV) >$4B one day after launch?",
@@ -298,11 +343,14 @@
       "orderId": "0xedc7789199e67cdafed3ab0d60edd48bc2acc545a59ceed9df9342420c5a97fd",
       "txHash": "0x728766c31f3e39b39b84e4086eb169f0aca1243957b874972d5e470c3543631f",
       "timestamp": "2026-02-28T06:08:07.351Z",
-      "status": "FILLED",
-      "livePrice": 0.0545,
-      "livePnl": 0.275,
-      "livePnlPct": 84.74576271186443,
-      "hoursHeld": 6.410886666666666
+      "status": "closed",
+      "livePrice": 0.054,
+      "livePnl": 0.2695,
+      "livePnlPct": 83.05084745762711,
+      "hoursHeld": 6.4940452777777775,
+      "exitPrice": 0.054,
+      "exitTimestamp": "2026-02-28T12:36:52.490Z",
+      "realizedPnl": 0.26399999999999996
     },
     {
       "market": "Will the U.S. invade Venezuela by March 31, 2026?",
@@ -318,15 +366,18 @@
       "orderId": "0xcfb7d2c7c15ba43cf7d2f653005ac956911d7ebb0bb3f6088d3e006999732bd9",
       "txHash": "0xf2f19cd7a24e4b5f1a7ffefbf3c3eaeed8fcd18a445f47c649243a605d889e9c",
       "timestamp": "2026-02-28T07:52:59.879Z",
-      "status": "FILLED",
+      "status": "closed",
       "livePrice": 0.9695,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 4.663046944444444
+      "hoursHeld": 4.7461786111111115,
+      "exitPrice": 0.9695,
+      "exitTimestamp": "2026-02-28T12:36:54.496Z",
+      "realizedPnl": -0.0010299999999998644
     }
   ],
-  "scannedAt": "2026-02-28T12:32:50.425Z",
-  "scanCount": 255,
+  "scannedAt": "2026-02-28T12:37:49.703Z",
+  "scanCount": 256,
   "totalBet": 17.61731,
   "totalReturn": 0,
   "bankroll": 0.330398,
@@ -385,11 +436,14 @@
       "orderId": "0xe4b9068a2e5a7105a845d2f387cc781b5564e505c96c7ec09ac1ab3138863d41",
       "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
       "timestamp": "2026-02-27T16:47:15.085Z",
-      "status": "FILLED",
-      "livePrice": 0.931,
-      "livePnl": -0.01907999999999978,
-      "livePnlPct": -0.9574468085106314,
-      "hoursHeld": 19.757726944444446
+      "status": "closed",
+      "livePrice": 0.93,
+      "livePnl": -0.021199999999999785,
+      "livePnlPct": -1.0638297872340274,
+      "hoursHeld": 19.840912777777778,
+      "exitPrice": 0.93,
+      "exitTimestamp": "2026-02-28T12:36:22.166Z",
+      "realizedPnl": -0.01839999999999975
     },
     {
       "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
@@ -403,11 +457,14 @@
       "orderId": "0x78667d89edf228cd21e70edc1bf521b81392ceddf28d422169b6e00b01165eff",
       "txHash": "0xcc8df2b1a7b599be8c5f92d42c11bb301d3ac9cf1904befc751e34fbed690f1f",
       "timestamp": "2026-02-27T16:47:15.086Z",
-      "status": "FILLED",
+      "status": "closed",
       "livePrice": 0.945,
       "livePnl": -0.01050000000000001,
       "livePnlPct": -0.5263157894736858,
-      "hoursHeld": 19.757828333333332
+      "hoursHeld": 19.841015,
+      "exitPrice": 0.945,
+      "exitTimestamp": "2026-02-28T12:36:24.181Z",
+      "realizedPnl": -0.01550000000000007
     },
     {
       "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
@@ -421,11 +478,14 @@
       "orderId": "0xa7330940368f528e5257b61ce99ddaeefe4769f9a87b5ea9245d9b11e1ea78ba",
       "txHash": "0x4374700a2af291e7609633acc14f600bceac92e38725e90179346154c0f31313",
       "timestamp": "2026-02-27T16:47:15.086Z",
-      "status": "FILLED",
-      "livePrice": 0.9545,
-      "livePnl": -0.011439999999999895,
-      "livePnlPct": -0.5729166666666563,
-      "hoursHeld": 19.7578875
+      "status": "closed",
+      "livePrice": 0.9535,
+      "livePnl": -0.013519999999999897,
+      "livePnlPct": -0.6770833333333282,
+      "hoursHeld": 19.84107722222222,
+      "exitPrice": 0.9545,
+      "exitTimestamp": "2026-02-28T12:36:26.187Z",
+      "realizedPnl": -0.0046399999999999775
     },
     {
       "market": "Will Trump nominate Kevin Hassett as the next Fed chair?",
@@ -439,11 +499,14 @@
       "orderId": "0xa633b2cd5b8b362f5ce5c30880601835231e950991ca6effda6cf3ef0315ebe7",
       "txHash": null,
       "timestamp": "2026-02-27T17:53:55.689Z",
-      "status": "live",
+      "status": "closed",
       "livePrice": 0.0035,
       "livePnl": 0.041665,
       "livePnlPct": 16.666666666666675,
-      "hoursHeld": 18.646668055555555
+      "hoursHeld": 18.729858888888888,
+      "exitPrice": 0.0035,
+      "exitTimestamp": "2026-02-28T12:36:28.216Z",
+      "realizedPnl": 0.041655
     },
     {
       "market": "Will Trump nominate Christopher Waller as the next Fed chair?",
@@ -457,11 +520,14 @@
       "orderId": "0xc2ee30037a2915219ecce15a394695efd16691e29f37de1b533abea3fd85bc9c",
       "txHash": null,
       "timestamp": "2026-02-27T17:53:58.030Z",
-      "status": "live",
+      "status": "closed",
       "livePrice": 0.0035,
       "livePnl": 0.041665,
       "livePnlPct": 16.666666666666675,
-      "hoursHeld": 18.646119166666665
+      "hoursHeld": 18.72927138888889,
+      "exitPrice": 0.0035,
+      "exitTimestamp": "2026-02-28T12:36:30.246Z",
+      "realizedPnl": 0.041655
     },
     {
       "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
@@ -475,11 +541,14 @@
       "orderId": "0x693771f634ef46fb3ddd62b4b322e0cec52d416781b8cd575a2601a5034f61b7",
       "txHash": null,
       "timestamp": "2026-02-27T17:54:02.273Z",
-      "status": "live",
-      "livePrice": 0.0055,
-      "livePnl": 0.20832499999999995,
-      "livePnlPct": 83.33333333333333,
-      "hoursHeld": 18.64499777777778
+      "status": "closed",
+      "livePrice": 0.006,
+      "livePnl": 0.24999,
+      "livePnlPct": 100,
+      "hoursHeld": 18.728196944444445,
+      "exitPrice": 0.0055,
+      "exitTimestamp": "2026-02-28T12:36:32.256Z",
+      "realizedPnl": 0.20831499999999997
     },
     {
       "market": "Will Trump nominate no one before 2027?",
@@ -493,11 +562,14 @@
       "orderId": "0x8ca7abe1d14895cf729e88256389648571d5722e7633e128258da33681ce01f9",
       "txHash": null,
       "timestamp": "2026-02-27T17:54:03.294Z",
-      "status": "live",
+      "status": "closed",
       "livePrice": 0.0065,
       "livePnl": 0.07499999999999998,
       "livePnlPct": 29.999999999999982,
-      "hoursHeld": 18.644773333333333
+      "hoursHeld": 18.727971944444445,
+      "exitPrice": 0.0065,
+      "exitTimestamp": "2026-02-28T12:36:34.280Z",
+      "realizedPnl": 0.07500000000000001
     },
     {
       "market": "Russia x Ukraine ceasefire by March 31, 2026?",
@@ -511,11 +583,14 @@
       "orderId": "0xfdf48d3855cd363b992a59ccbd1972547f2bf7b5a84d01240a0f08104160ad41",
       "txHash": null,
       "timestamp": "2026-02-27T17:54:04.270Z",
-      "status": "live",
+      "status": "closed",
       "livePrice": 0.029,
       "livePnl": 0.028860000000000025,
       "livePnlPct": 11.538461538461542,
-      "hoursHeld": 18.64456138888889
+      "hoursHeld": 18.727761944444445,
+      "exitPrice": 0.029,
+      "exitTimestamp": "2026-02-28T12:36:36.293Z",
+      "realizedPnl": 0.028980000000000006
     },
     {
       "market": "MegaETH market cap (FDV) >$6B one day after launch?",
@@ -531,11 +606,14 @@
       "orderId": "0x3b391753e07917102ba7e4ddd2b2cba28decce013b0f3892b4b3c2204b8fc498",
       "txHash": null,
       "timestamp": "2026-02-27T20:16:07.329Z",
-      "status": "FILLED",
-      "livePrice": 0.0195,
-      "livePnl": 0.34484999999999993,
-      "livePnlPct": 34.48275862068966,
-      "hoursHeld": 16.277150555555554
+      "status": "closed",
+      "livePrice": 0.019,
+      "livePnl": 0.3103649999999999,
+      "livePnlPct": 31.034482758620683,
+      "hoursHeld": 16.360302222222224,
+      "exitPrice": 0.019,
+      "exitTimestamp": "2026-02-28T12:36:38.288Z",
+      "realizedPnl": 0.31043
     },
     {
       "market": "Will Donald Trump win the 2028 Republican presidential nomination?",
@@ -551,11 +629,14 @@
       "orderId": "0x71059dc806086f94e19904de375dd79bcf4a26192ac14f8105480ce27ae470cb",
       "txHash": "0xf226e22a434a842f81b0e447bfa157d590b2007245a681ec995b006235124be6",
       "timestamp": "2026-02-27T22:32:59.376Z",
-      "status": "FILLED",
+      "status": "closed",
       "livePrice": 0.0235,
       "livePnl": -0.040000000000000036,
       "livePnlPct": -4.081632653061229,
-      "hoursHeld": 13.996085
+      "hoursHeld": 14.07923888888889,
+      "exitPrice": 0.0235,
+      "exitTimestamp": "2026-02-28T12:36:40.376Z",
+      "realizedPnl": -0.06000000000000005
     },
     {
       "market": "Xi Jinping out before 2027?",
@@ -571,11 +652,14 @@
       "orderId": "0x3db987267279ecf5af9b522dd6bd152612b5040c932afbd54caa13828d8ec7ed",
       "txHash": "0x3169ea4765c0ab74fb4e15a4bac813faacc875ea9f9971f450bf480f25a6b3c2",
       "timestamp": "2026-02-28T01:17:57.438Z",
-      "status": "FILLED",
-      "livePrice": 0.914,
-      "livePnl": -0.005449999999999885,
-      "livePnlPct": -0.27277686852154037,
-      "hoursHeld": 11.246679722222222
+      "status": "closed",
+      "livePrice": 0.9145,
+      "livePnl": -0.0043600000000000045,
+      "livePnlPct": -0.21822149481723896,
+      "hoursHeld": 11.32983638888889,
+      "exitPrice": 0.914,
+      "exitTimestamp": "2026-02-28T12:36:42.382Z",
+      "realizedPnl": -0.006539999999999768
     },
     {
       "market": "Will China invade Taiwan by end of 2026?",
@@ -591,11 +675,14 @@
       "orderId": "0x21604e4a7546a0c983e0808ed0ad6a08f4ab6c3caa1fc03709f3a80ab83a7833",
       "txHash": "0x6c5c3dcbbe345720b866262d9bd37df768621435c88c25fc131152025b254d0b",
       "timestamp": "2026-02-28T01:27:55.597Z",
-      "status": "FILLED",
+      "status": "closed",
       "livePrice": 0.8835,
       "livePnl": -0.04641000000000004,
       "livePnlPct": -2.321724709784412,
-      "hoursHeld": 11.080587777777778
+      "hoursHeld": 11.16374,
+      "exitPrice": 0.8835,
+      "exitTimestamp": "2026-02-28T12:36:44.397Z",
+      "realizedPnl": -0.047514999999999974
     },
     {
       "market": "Will Trump deport less than 250,000?",
@@ -611,11 +698,14 @@
       "orderId": "0xe3e6ce490a27cbeb88f5e08056099876467dab5d58255386268bd1fe7465a692",
       "txHash": null,
       "timestamp": "2026-02-28T02:03:10.031Z",
-      "status": "FILLED",
-      "livePrice": 0.021,
-      "livePnl": -0.0666599999999999,
-      "livePnlPct": -6.666666666666654,
-      "hoursHeld": 10.493303888888889
+      "status": "closed",
+      "livePrice": 0.019,
+      "livePnl": -0.15553999999999998,
+      "livePnlPct": -15.555555555555555,
+      "hoursHeld": 10.576455833333334,
+      "exitPrice": 0.019,
+      "exitTimestamp": "2026-02-28T12:36:46.390Z",
+      "realizedPnl": -0.1556400000000001
     },
     {
       "market": "Will Tarcisio de Freitas win the 2026 Brazilian presidential election?",
@@ -631,11 +721,14 @@
       "orderId": "0xb059ef82b44f0f255e95355963cf39b45fb848ab9a2011eb2ed84f5d52045e02",
       "txHash": null,
       "timestamp": "2026-02-28T04:27:58.801Z",
-      "status": "FILLED",
+      "status": "closed",
       "livePrice": 0.0265,
       "livePnl": 0.019230000000000018,
       "livePnlPct": 1.9230769230769162,
-      "hoursHeld": 8.079812777777779
+      "hoursHeld": 8.1629675,
+      "exitPrice": 0.0265,
+      "exitTimestamp": "2026-02-28T12:36:48.385Z",
+      "realizedPnl": 0.01919000000000004
     },
     {
       "market": "Will the U.S. collect between $200b and $500b in revenue in 2025?",
@@ -651,11 +744,14 @@
       "orderId": "0x618a19ccdfed99bda8ade5df2a66d51f4ba9a004404fdd51ff318d05f80b74b3",
       "txHash": "0xdab1b84e8984000f93dd4c39463f6209e1b20b45077b333844d58bd84d666d3f",
       "timestamp": "2026-02-28T04:28:08.462Z",
-      "status": "FILLED",
-      "livePrice": 0.0095,
-      "livePnl": 0.24,
-      "livePnlPct": 533.3333333333333,
-      "hoursHeld": 8.07718888888889
+      "status": "closed",
+      "livePrice": 0.0065,
+      "livePnl": 0.14999999999999997,
+      "livePnlPct": 333.3333333333333,
+      "hoursHeld": 8.160343055555556,
+      "exitPrice": 0.007,
+      "exitTimestamp": "2026-02-28T12:36:50.425Z",
+      "realizedPnl": 0.15
     },
     {
       "market": "MegaETH market cap (FDV) >$4B one day after launch?",
@@ -671,11 +767,14 @@
       "orderId": "0xedc7789199e67cdafed3ab0d60edd48bc2acc545a59ceed9df9342420c5a97fd",
       "txHash": "0x728766c31f3e39b39b84e4086eb169f0aca1243957b874972d5e470c3543631f",
       "timestamp": "2026-02-28T06:08:07.351Z",
-      "status": "FILLED",
-      "livePrice": 0.0545,
-      "livePnl": 0.275,
-      "livePnlPct": 84.74576271186443,
-      "hoursHeld": 6.410886666666666
+      "status": "closed",
+      "livePrice": 0.054,
+      "livePnl": 0.2695,
+      "livePnlPct": 83.05084745762711,
+      "hoursHeld": 6.4940452777777775,
+      "exitPrice": 0.054,
+      "exitTimestamp": "2026-02-28T12:36:52.490Z",
+      "realizedPnl": 0.26399999999999996
     },
     {
       "market": "Will the U.S. invade Venezuela by March 31, 2026?",
@@ -691,11 +790,14 @@
       "orderId": "0xcfb7d2c7c15ba43cf7d2f653005ac956911d7ebb0bb3f6088d3e006999732bd9",
       "txHash": "0xf2f19cd7a24e4b5f1a7ffefbf3c3eaeed8fcd18a445f47c649243a605d889e9c",
       "timestamp": "2026-02-28T07:52:59.879Z",
-      "status": "FILLED",
+      "status": "closed",
       "livePrice": 0.9695,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 4.663046944444444
+      "hoursHeld": 4.7461786111111115,
+      "exitPrice": 0.9695,
+      "exitTimestamp": "2026-02-28T12:36:54.496Z",
+      "realizedPnl": -0.0010299999999998644
     }
   ]
 }
