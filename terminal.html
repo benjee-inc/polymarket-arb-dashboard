@@ -199,9 +199,9 @@ function renderWallet() {
       + '</div></details>';
   }
   
-  if (closed.length) {
+  if (botClosed.length) {
     html += '<div style="color:#888;font-size:0.8rem;margin:15px 0 8px">CLOSED POSITIONS</div>';
-    for (const b of closed.slice().reverse()) {
+    for (const b of botClosed.slice().reverse()) {
       const color = (b.pnl||0)>=0?'#00ff00':'#ff0044';
       html += '<div class="closed-card">'
         + '<span style="color:'+color+'">'+(b.pnl>=0?'+':'')+b.pnl?.toFixed(3)+'</span> '
