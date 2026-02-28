@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T16:35:04.734Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
-{"timestamp":"2026-02-28T16:35:04.735Z","type":"news","message":"Scanning for breaking news..."}
-{"timestamp":"2026-02-28T16:35:07.653Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price experienced a significant dip foll | Reports indicate that negotiations for a ceasefire"}
-{"timestamp":"2026-02-28T16:35:12.432Z","type":"scan","message":"22 markets after hard filters"}
-{"timestamp":"2026-02-28T16:35:13.583Z","type":"scan","message":"1 potential opportunities found"}
-{"timestamp":"2026-02-28T16:35:14.884Z","type":"verify","message":"Will Trump nominate Kevin Warsh as the next Fed ch → PASS (75%): The news about Bitcoin is entirely irrelevant to the market question about Trump's Fed chair nomination. The claimed fair price of 90.0¢ is likely overstated given the current price of 92.6¢ and the long resolution date, which introduces significant uncertainty. While liquidity is sufficient, the lack of relevant news and the high current price make this a poor value trade. The 2.6% edge is based on an unrealistic fair price. A more realistic fair price would be lower, making the current price even less attractive."}
 {"timestamp":"2026-02-28T16:35:14.884Z","type":"scan","message":"═══ Scan #290 complete: 0 trades, $0.00 spent ═══"}
 {"timestamp":"2026-02-28T16:35:15.396Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
 {"timestamp":"2026-02-28T16:39:56.839Z","type":"scan","message":"═══ Scan #291 starting ═══"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T19:06:22.442Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.6¢, liq $50.3M, 24h vol $4.0M"}
 {"timestamp":"2026-02-28T19:06:22.442Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.3% YES, 24h vol $3.0M"}
 {"timestamp":"2026-02-28T19:06:22.443Z","type":"decision","message":"Flow signal: \"Will Khamenei leave Iran by February 28, 2026?\" — sellers dominating ($3.9K net), 1 traders, 19s ago"}
+{"timestamp":"2026-02-28T19:11:22.314Z","type":"scan","message":"Cycle #13 — 762 markets | 7 active events | $81.2K recent flow"}
+{"timestamp":"2026-02-28T19:11:22.314Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $50.9K in 16 trades, NET BUY, biggest $7.4K, 5m ago"}
+{"timestamp":"2026-02-28T19:11:22.315Z","type":"think","message":"↑ Price shift: \"MegaETH market cap (FDV) >$3B one day after launch?\" moved 1.7% since last scan (5.7% → 7.3%)"}
+{"timestamp":"2026-02-28T19:11:22.315Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Viktor Orbá…\" — 35.5% YES, 24h vol $299.9K"}
+{"timestamp":"2026-02-28T19:11:22.315Z","type":"think","message":"↑ Daily mover: \"Will Russia capture Rodynske by March 31?\" ↑23.5% today, ↑18.0% 1w, 24h vol $5.2K"}
+{"timestamp":"2026-02-28T19:11:22.315Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h, now 19.0%, vol $15.5K"}
