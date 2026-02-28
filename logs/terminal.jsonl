@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T17:00:54.328Z","type":"scan","message":"Cycle #31 — 762 markets | 10 active events | $31.2K recent flow"}
-{"timestamp":"2026-02-28T17:00:54.328Z","type":"think","message":"Live flow: \"Bitcoin Up or Down on February 28?\" — $12.0K in 1 trades, NET BUY (strong bias), biggest $12.0K, 27s ago"}
-{"timestamp":"2026-02-28T17:00:54.328Z","type":"think","message":"↓ Price shift: \"Will Discord not IPO by June 30, 2026?\" moved 10.0% since last scan (28.5% → 18.5%)"}
-{"timestamp":"2026-02-28T17:00:54.328Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 2d to resolution, 0.9% YES, ↑0.1% this hour, vol $320.1K"}
-{"timestamp":"2026-02-28T17:00:54.328Z","type":"think","message":"Wide spread: \"New Playboi Carti Album before GTA VI?\" — bid 54.0% / ask 59.0% (5.0% spread), liq $2.3M"}
-{"timestamp":"2026-02-28T17:00:54.328Z","type":"decision","message":"Flow signal: \"Will the price of Ethereum be above $1,900 on February…\" — buyers dominating ($2.3K net), 2 traders, 15s ago"}
 {"timestamp":"2026-02-28T17:05:07.677Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
 {"timestamp":"2026-02-28T17:07:24.892Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
 {"timestamp":"2026-02-28T17:08:53.083Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T19:41:22.589Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.6¢, liq $50.3M, 24h vol $4.0M"}
 {"timestamp":"2026-02-28T19:41:22.589Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.3% YES, 24h vol $3.0M"}
 {"timestamp":"2026-02-28T19:41:22.589Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h, now 19.0%, vol $15.5K"}
+{"timestamp":"2026-02-28T19:46:22.686Z","type":"scan","message":"Cycle #20 — 761 markets | 15 active events | $167.1K recent flow"}
+{"timestamp":"2026-02-28T19:46:22.686Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by March 31?\" — $20.8K in 6 trades, NET SELL, biggest $10.2K, 9s ago"}
+{"timestamp":"2026-02-28T19:46:22.686Z","type":"think","message":"↓ Price shift: \"Will Discord’s market cap be less than $15B at market …\" moved 4.0% since last scan (36.0% → 32.0%)"}
+{"timestamp":"2026-02-28T19:46:22.686Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Viktor Orbá…\" — 35.5% YES, 24h vol $299.9K"}
+{"timestamp":"2026-02-28T19:46:22.686Z","type":"think","message":"↑ Daily mover: \"Will Russia capture Rodynske by March 31?\" ↑23.5% today, ↑18.0% 1w, 24h vol $5.2K"}
+{"timestamp":"2026-02-28T19:46:22.686Z","type":"decision","message":"Flow signal: \"Will the Iranian regime fall before 2027?\" — buyers dominating ($3.2K net), 1 traders, 5s ago"}
