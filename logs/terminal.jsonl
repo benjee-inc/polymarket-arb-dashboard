@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T16:40:06.095Z","type":"scan","message":"22 markets after hard filters"}
-{"timestamp":"2026-02-28T16:40:07.682Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
-{"timestamp":"2026-02-28T16:40:08.201Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
-{"timestamp":"2026-02-28T16:44:58.699Z","type":"scan","message":"═══ Scan #292 starting ═══"}
-{"timestamp":"2026-02-28T16:45:00.193Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
-{"timestamp":"2026-02-28T16:45:00.193Z","type":"news","message":"Scanning for breaking news..."}
 {"timestamp":"2026-02-28T16:45:03.515Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price experienced a significant dip foll | Reports indicate that negotiations for a ceasefire"}
 {"timestamp":"2026-02-28T16:45:07.713Z","type":"scan","message":"22 markets after hard filters"}
 {"timestamp":"2026-02-28T16:45:08.118Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T19:16:22.556Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $14.9K"}
 {"timestamp":"2026-02-28T19:16:22.556Z","type":"think","message":"↓ Hourly mover: \"Kraken IPO by December 31, 2026?\" ↓3.0% in 1h (now 72.5%), 24h vol $10.8K"}
 {"timestamp":"2026-02-28T19:16:22.556Z","type":"decision","message":"Flow signal: \"Will China invade Taiwan by March 31, 2026?\" — buyers dominating ($3.0K net), 1 traders, 27s ago"}
+{"timestamp":"2026-02-28T19:21:22.515Z","type":"scan","message":"Cycle #15 — 762 markets | 9 active events | $38.3K recent flow"}
+{"timestamp":"2026-02-28T19:21:22.515Z","type":"think","message":"Live flow: \"Khamenei seen in public by February 28?\" — $1.6K in 1 trades, NET BUY (strong bias), biggest $1.6K, 6m ago"}
+{"timestamp":"2026-02-28T19:21:22.515Z","type":"think","message":"↑ Price shift: \"Will Trump visit China by March 31?\" moved 3.9% since last scan (62.4% → 66.3%)"}
+{"timestamp":"2026-02-28T19:21:22.515Z","type":"think","message":"↑ Hourly mover: \"Will Chad Bianco win the California Governor Election …\" ↑2.4% in 1h (now 7.2%), 24h vol $4.2K"}
+{"timestamp":"2026-02-28T19:21:22.516Z","type":"think","message":"Volume surge: \"Will Leeds finish in the top 4 of the EPL 2025–26 stan…\" — $14.9K in 24h (6871% of lifetime), ↓0.1% this hour"}
+{"timestamp":"2026-02-28T19:21:22.516Z","type":"decision","message":"Hourly momentum: \"Israel x Hamas Ceasefire Phase II by March 31?\" ↓2.0% in 1h, now 8.5%, vol $5.8K"}
