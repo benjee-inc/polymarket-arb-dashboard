@@ -211,3 +211,12 @@
 {"timestamp":"2026-02-28T15:30:11.788Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price experienced a significant dip foll | Reports indicate that negotiations for a ceasefire"}
 {"timestamp":"2026-02-28T15:30:16.176Z","type":"scan","message":"22 markets after hard filters"}
 {"timestamp":"2026-02-28T15:30:17.910Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
+{"timestamp":"2026-02-28T15:30:18.395Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
+{"timestamp":"2026-02-28T15:36:21.910Z","type":"scan","message":"═══ Scan #281 starting ═══"}
+{"timestamp":"2026-02-28T15:36:23.504Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
+{"timestamp":"2026-02-28T15:36:23.504Z","type":"news","message":"Scanning for breaking news..."}
+{"timestamp":"2026-02-28T15:36:26.794Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price experienced a significant dip foll | Reports indicate that negotiations for a ceasefire"}
+{"timestamp":"2026-02-28T15:36:27.571Z","type":"scan","message":"22 markets after hard filters"}
+{"timestamp":"2026-02-28T15:36:28.814Z","type":"scan","message":"1 potential opportunities found"}
+{"timestamp":"2026-02-28T15:36:30.214Z","type":"verify","message":"Will Trump nominate Kevin Warsh as the next Fed ch → PASS (85%): The news about Bitcoin's price dip is entirely irrelevant to the question of Trump nominating Kevin Warsh as Fed chair. The claimed fair price of 5.0¢ is likely realistic given the unlikelihood of Warsh being nominated, but the current market price of 93.0¢ is absurdly high and clearly a mispricing. While liquidity is sufficient, the fundamental disconnect between the news and the market question makes this a non-actionable trade based on the provided information. The market price is almost certainly a data entry error or a highly illiquid market with a single large, incorrect bet."}
+{"timestamp":"2026-02-28T15:36:30.214Z","type":"scan","message":"═══ Scan #281 complete: 0 trades, $0.00 spent ═══"}
