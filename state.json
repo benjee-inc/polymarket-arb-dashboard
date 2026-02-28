@@ -13,10 +13,10 @@
       "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
       "timestamp": "2026-02-27T16:47:15.085Z",
       "status": "FILLED",
-      "livePrice": 0.934,
-      "livePnl": -0.012719999999999777,
-      "livePnlPct": -0.6382978723404098,
-      "hoursHeld": 8.42443361111111
+      "livePrice": 0.933,
+      "livePnl": -0.014839999999999779,
+      "livePnlPct": -0.744680851063817,
+      "hoursHeld": 8.507369444444445
     },
     {
       "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
@@ -34,7 +34,7 @@
       "livePrice": 0.945,
       "livePnl": -0.01050000000000001,
       "livePnlPct": -0.5263157894736858,
-      "hoursHeld": 8.424490277777778
+      "hoursHeld": 8.507469444444444
     },
     {
       "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
@@ -52,7 +52,7 @@
       "livePrice": 0.9595,
       "livePnl": -0.0010399999999998854,
       "livePnlPct": -0.05208333333333037,
-      "hoursHeld": 8.424549444444445
+      "hoursHeld": 8.507527222222222
     },
     {
       "market": "Will Trump nominate Kevin Hassett as the next Fed chair?",
@@ -70,7 +70,7 @@
       "livePrice": 0.003,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 7.3133725
+      "hoursHeld": 7.396308055555555
     },
     {
       "market": "Will Trump nominate Christopher Waller as the next Fed chair?",
@@ -88,7 +88,7 @@
       "livePrice": 0.004,
       "livePnl": 0.08333,
       "livePnlPct": 33.33333333333333,
-      "hoursHeld": 7.312779444444445
+      "hoursHeld": 7.395761666666667
     },
     {
       "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
@@ -106,7 +106,7 @@
       "livePrice": 0.0025,
       "livePnl": -0.041665,
       "livePnlPct": -16.666666666666664,
-      "hoursHeld": 7.311656388888889
+      "hoursHeld": 7.394643611111111
     },
     {
       "market": "Will Trump nominate no one before 2027?",
@@ -124,7 +124,7 @@
       "livePrice": 0.0045,
       "livePnl": -0.025000000000000022,
       "livePnlPct": -10.000000000000009,
-      "hoursHeld": 7.311429166666667
+      "hoursHeld": 7.39442
     },
     {
       "market": "Russia x Ukraine ceasefire by March 31, 2026?",
@@ -142,7 +142,7 @@
       "livePrice": 0.0255,
       "livePnl": -0.0048100000000000035,
       "livePnlPct": -1.9230769230769273,
-      "hoursHeld": 7.3112594444444445
+      "hoursHeld": 7.394208333333333
     },
     {
       "market": "MegaETH market cap (FDV) >$6B one day after launch?",
@@ -162,7 +162,7 @@
       "livePrice": 0.0155,
       "livePnl": 0.06896999999999993,
       "livePnlPct": 6.896551724137923,
-      "hoursHeld": 4.943800555555556
+      "hoursHeld": 5.026755277777778
     },
     {
       "market": "Will Donald Trump win the 2028 Republican presidential nomination?",
@@ -182,14 +182,30 @@
       "livePrice": 0.024,
       "livePnl": -0.020000000000000018,
       "livePnlPct": -2.0408163265306145,
-      "hoursHeld": 2.662732222222222
+      "hoursHeld": 2.745688888888889
+    },
+    {
+      "market": "Xi Jinping out before 2027?",
+      "conditionId": "0xa467b14d51f01b957109d9cbb1d6c124fab2a089d52ed8f471d23c2812e743b7",
+      "side": "NO",
+      "price": 0.9165,
+      "amount": 1.99906,
+      "shares": 2.18,
+      "strategy": "strategy_a",
+      "thesis": "The \"NO\" side, predicting Xi Jinping will remain in power, is a strong bet given the current political landscape in China and the high probability of him serving a full term.",
+      "news": "Xi Jinping secured an unprecedented third term as General Secretary of the Chinese Communist Party in October 2022, solidifying his position as the most powerful leader since Mao Zedong. There are no credible reports or indications of any internal or external challenges that would lead to his removal before 2027.",
+      "confidence": 85,
+      "orderId": "0x3db987267279ecf5af9b522dd6bd152612b5040c932afbd54caa13828d8ec7ed",
+      "txHash": "0x3169ea4765c0ab74fb4e15a4bac813faacc875ea9f9971f450bf480f25a6b3c2",
+      "timestamp": "2026-02-28T01:17:57.438Z",
+      "status": "FILLED"
     }
   ],
-  "scannedAt": "2026-02-28T01:13:08.245Z",
-  "scanCount": 119,
-  "totalBet": 9.23,
+  "scannedAt": "2026-02-28T01:18:07.840Z",
+  "scanCount": 120,
+  "totalBet": 11.22906,
   "totalReturn": 0,
-  "bankroll": 11.029229,
+  "bankroll": 9.030169,
   "proxyWallet": "0x3b0d0696033643d52C5B6D95d6c1A7d924Ffb9fb",
   "opportunities": {
     "newsArbitrage": [
@@ -246,10 +262,10 @@
       "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
       "timestamp": "2026-02-27T16:47:15.085Z",
       "status": "FILLED",
-      "livePrice": 0.934,
-      "livePnl": -0.012719999999999777,
-      "livePnlPct": -0.6382978723404098,
-      "hoursHeld": 8.42443361111111
+      "livePrice": 0.933,
+      "livePnl": -0.014839999999999779,
+      "livePnlPct": -0.744680851063817,
+      "hoursHeld": 8.507369444444445
     },
     {
       "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
@@ -267,7 +283,7 @@
       "livePrice": 0.945,
       "livePnl": -0.01050000000000001,
       "livePnlPct": -0.5263157894736858,
-      "hoursHeld": 8.424490277777778
+      "hoursHeld": 8.507469444444444
     },
     {
       "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
@@ -285,7 +301,7 @@
       "livePrice": 0.9595,
       "livePnl": -0.0010399999999998854,
       "livePnlPct": -0.05208333333333037,
-      "hoursHeld": 8.424549444444445
+      "hoursHeld": 8.507527222222222
     },
     {
       "market": "Will Trump nominate Kevin Hassett as the next Fed chair?",
@@ -303,7 +319,7 @@
       "livePrice": 0.003,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 7.3133725
+      "hoursHeld": 7.396308055555555
     },
     {
       "market": "Will Trump nominate Christopher Waller as the next Fed chair?",
@@ -321,7 +337,7 @@
       "livePrice": 0.004,
       "livePnl": 0.08333,
       "livePnlPct": 33.33333333333333,
-      "hoursHeld": 7.312779444444445
+      "hoursHeld": 7.395761666666667
     },
     {
       "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
@@ -339,7 +355,7 @@
       "livePrice": 0.0025,
       "livePnl": -0.041665,
       "livePnlPct": -16.666666666666664,
-      "hoursHeld": 7.311656388888889
+      "hoursHeld": 7.394643611111111
     },
     {
       "market": "Will Trump nominate no one before 2027?",
@@ -357,7 +373,7 @@
       "livePrice": 0.0045,
       "livePnl": -0.025000000000000022,
       "livePnlPct": -10.000000000000009,
-      "hoursHeld": 7.311429166666667
+      "hoursHeld": 7.39442
     },
     {
       "market": "Russia x Ukraine ceasefire by March 31, 2026?",
@@ -375,7 +391,7 @@
       "livePrice": 0.0255,
       "livePnl": -0.0048100000000000035,
       "livePnlPct": -1.9230769230769273,
-      "hoursHeld": 7.3112594444444445
+      "hoursHeld": 7.394208333333333
     },
     {
       "market": "MegaETH market cap (FDV) >$6B one day after launch?",
@@ -395,7 +411,7 @@
       "livePrice": 0.0155,
       "livePnl": 0.06896999999999993,
       "livePnlPct": 6.896551724137923,
-      "hoursHeld": 4.943800555555556
+      "hoursHeld": 5.026755277777778
     },
     {
       "market": "Will Donald Trump win the 2028 Republican presidential nomination?",
@@ -415,7 +431,7 @@
       "livePrice": 0.024,
       "livePnl": -0.020000000000000018,
       "livePnlPct": -2.0408163265306145,
-      "hoursHeld": 2.662732222222222
+      "hoursHeld": 2.745688888888889
     }
   ]
 }
