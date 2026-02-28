@@ -173,3 +173,5 @@
 {"timestamp":"2026-02-28T13:08:09.295Z","type":"think","message":"📊 AI: SKIP (20%) — While Trump has expressed strong anti-immigration stances, the logistical and political hurdles to deporting 750,000 people in a single year are immense, making this outcome highly unlikely despite the low price."}
 {"timestamp":"2026-02-28T13:08:09.295Z","type":"decision","message":"⏭️ SKIP: Will Trump deport 750,000 or more people in 2025? — SKIP (20%)"}
 {"timestamp":"2026-02-28T13:08:09.295Z","type":"scan","message":"✅ Scan #262 done — 0 trades, $606.00 left, 1 positions"}
+{"timestamp":"2026-02-28T13:08:15.987Z","type":"scan","message":"📡 Dashboard pushed to GitHub"}
+{"timestamp":"2026-02-28T13:09:31.315Z","type":"scan_complete","activeMarkets":48,"totalMarkets":50,"candidates":48,"message":"Found 48 candidates from 48 active markets"}
