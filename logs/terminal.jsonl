@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T15:50:08.815Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
-{"timestamp":"2026-02-28T15:50:09.286Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
-{"timestamp":"2026-02-28T15:55:16.469Z","type":"scan","message":"═══ Scan #285 starting ═══"}
-{"timestamp":"2026-02-28T15:55:17.889Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
-{"timestamp":"2026-02-28T15:55:17.890Z","type":"news","message":"Scanning for breaking news..."}
-{"timestamp":"2026-02-28T15:55:20.748Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Reports indicate that Israel is preparing for a po | Bitcoin's price experienced a significant dip, fal"}
 {"timestamp":"2026-02-28T15:55:25.594Z","type":"scan","message":"22 markets after hard filters"}
 {"timestamp":"2026-02-28T15:55:27.093Z","type":"scan","message":"2 potential opportunities found"}
 {"timestamp":"2026-02-28T15:55:28.545Z","type":"verify","message":"Will Trump nominate Judy Shelton as the next Fed c → PASS (70%): The news about Israel and Rafah is completely unrelated to the question of Trump nominating Judy Shelton as Fed chair. Therefore, it has no impact on the probability of this market resolving 'NO'. The claimed fair price of 99.0¢ is likely overstated as there's no new information to justify a shift from the current market price. The market is already heavily skewed towards 'NO', indicating a strong consensus that Shelton will not be nominated. While liquidity is sufficient, there's no edge to exploit based on the provided news."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T18:31:22.224Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.6¢, liq $50.2M, 24h vol $4.0M"}
 {"timestamp":"2026-02-28T18:31:22.224Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.3% YES, 24h vol $3.0M"}
 {"timestamp":"2026-02-28T18:31:22.225Z","type":"decision","message":"Hourly momentum: \"Israel x Hamas Ceasefire Phase II by March 31?\" ↓2.0% in 1h, now 8.5%, vol $5.8K"}
+{"timestamp":"2026-02-28T18:36:22.350Z","type":"scan","message":"Cycle #6 — 763 markets | 12 active events | $30.5K recent flow"}
+{"timestamp":"2026-02-28T18:36:22.350Z","type":"think","message":"Live flow: \"Will GTA 6 cost $100+?\" — $3.7K in 1 trades, NET SELL (strong bias), biggest $3.7K, 1m ago"}
+{"timestamp":"2026-02-28T18:36:22.350Z","type":"think","message":"↑ Price shift: \"Israeli parliament dissolved by March 31?\" moved 3.5% since last scan (20.5% → 24.0%)"}
+{"timestamp":"2026-02-28T18:36:22.350Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Viktor Orbá…\" — 35.5% YES, 24h vol $299.9K"}
+{"timestamp":"2026-02-28T18:36:22.351Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $14.9K"}
+{"timestamp":"2026-02-28T18:36:22.351Z","type":"decision","message":"Flow signal: \"Will the highest temperature in New York City be 31°F …\" — buyers dominating ($2.8K net), 1 traders, 9s ago"}
