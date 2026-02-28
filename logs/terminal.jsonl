@@ -1,8 +1,3 @@
-{"timestamp":"2026-02-28T16:20:20.423Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Reports indicate that Israel is preparing for a po | Bitcoin's price experienced a significant dip, fal"}
-{"timestamp":"2026-02-28T16:20:21.110Z","type":"scan","message":"22 markets after hard filters"}
-{"timestamp":"2026-02-28T16:20:21.559Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
-{"timestamp":"2026-02-28T16:20:21.985Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
-{"timestamp":"2026-02-28T16:35:03.546Z","type":"scan","message":"═══ Scan #290 starting ═══"}
 {"timestamp":"2026-02-28T16:35:04.734Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
 {"timestamp":"2026-02-28T16:35:04.735Z","type":"news","message":"Scanning for breaking news..."}
 {"timestamp":"2026-02-28T16:35:07.653Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price experienced a significant dip foll | Reports indicate that negotiations for a ceasefire"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-02-28T19:01:22.400Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 89.9% / ask 94.7% (4.8% spread), liq $2.3M"}
 {"timestamp":"2026-02-28T19:01:22.400Z","type":"think","message":"Deep value: \"Will Trump nominate Michelle Bowman as the next Fed ch…\" — Yes @ 0.5¢, liq $50.3M, 24h vol $4.0M"}
 {"timestamp":"2026-02-28T19:01:22.400Z","type":"decision","message":"Flow signal: \"Will the highest temperature in Dallas be between 78-7…\" — buyers dominating ($2.4K net), 1 traders, 5m ago"}
+{"timestamp":"2026-02-28T19:06:22.442Z","type":"scan","message":"Cycle #12 — 762 markets | 7 active events | $81.2K recent flow"}
+{"timestamp":"2026-02-28T19:06:22.442Z","type":"think","message":"Live flow: \"Will Paramount close Warner Bros acquisition?\" — $4.0K in 1 trades, NET SELL (strong bias), biggest $4.0K, 31s ago"}
+{"timestamp":"2026-02-28T19:06:22.442Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.6¢, liq $50.3M, 24h vol $4.0M"}
+{"timestamp":"2026-02-28T19:06:22.442Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.3% YES, 24h vol $3.0M"}
+{"timestamp":"2026-02-28T19:06:22.443Z","type":"decision","message":"Flow signal: \"Will Khamenei leave Iran by February 28, 2026?\" — sellers dominating ($3.9K net), 1 traders, 19s ago"}
