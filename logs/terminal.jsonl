@@ -227,3 +227,10 @@
 {"timestamp":"2026-02-28T15:39:59.215Z","type":"news","message":"Found 3 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price experienced a significant dip, fal"}
 {"timestamp":"2026-02-28T15:40:03.155Z","type":"scan","message":"22 markets after hard filters"}
 {"timestamp":"2026-02-28T15:40:03.491Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
+{"timestamp":"2026-02-28T15:40:04.020Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
+{"timestamp":"2026-02-28T15:45:30.257Z","type":"scan","message":"═══ Scan #283 starting ═══"}
+{"timestamp":"2026-02-28T15:45:31.614Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
+{"timestamp":"2026-02-28T15:45:31.614Z","type":"news","message":"Scanning for breaking news..."}
+{"timestamp":"2026-02-28T15:45:34.534Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Reports indicate that Israel is preparing for a po | Bitcoin's price experienced a significant dip, fal"}
+{"timestamp":"2026-02-28T15:45:40.250Z","type":"scan","message":"22 markets after hard filters"}
+{"timestamp":"2026-02-28T15:45:40.792Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
