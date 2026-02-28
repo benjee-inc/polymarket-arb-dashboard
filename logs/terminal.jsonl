@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T17:05:07.677Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
-{"timestamp":"2026-02-28T17:07:24.892Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
-{"timestamp":"2026-02-28T17:08:53.083Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
-{"timestamp":"2026-02-28T17:08:53.585Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git push 2>&1"}
-{"timestamp":"2026-02-28T17:10:11.968Z","type":"warning","message":"Conflict resolution failed: Command failed: cd /data/workspace/polymarket-arb "}
-{"timestamp":"2026-02-28T17:10:54.479Z","type":"scan","message":"Cycle #33 — 762 markets | 11 active events | $23.1K recent flow"}
 {"timestamp":"2026-02-28T17:10:54.480Z","type":"think","message":"Live flow: \"Will the Iranian regime fall by June 30?\" — $3.2K in 1 trades, NET SELL (strong bias), biggest $3.2K, 23s ago"}
 {"timestamp":"2026-02-28T17:10:54.480Z","type":"think","message":"↓ Price shift: \"Will Burnley finish in the top 4 of the EPL 2025–26 st…\" moved 14.6% since last scan (19.4% → 4.9%)"}
 {"timestamp":"2026-02-28T17:10:54.480Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.7¢, liq $50.1M, 24h vol $4.0M"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T19:46:22.686Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Viktor Orbá…\" — 35.5% YES, 24h vol $299.9K"}
 {"timestamp":"2026-02-28T19:46:22.686Z","type":"think","message":"↑ Daily mover: \"Will Russia capture Rodynske by March 31?\" ↑23.5% today, ↑18.0% 1w, 24h vol $5.2K"}
 {"timestamp":"2026-02-28T19:46:22.686Z","type":"decision","message":"Flow signal: \"Will the Iranian regime fall before 2027?\" — buyers dominating ($3.2K net), 1 traders, 5s ago"}
+{"timestamp":"2026-02-28T19:51:22.675Z","type":"scan","message":"Cycle #21 — 762 markets | 15 active events | $167.1K recent flow"}
+{"timestamp":"2026-02-28T19:51:22.675Z","type":"think","message":"Live flow: \"Will the Iranian regime fall by March 31?\" — $7.3K in 5 trades, NET BUY, biggest $2.5K, 5m ago"}
+{"timestamp":"2026-02-28T19:51:22.675Z","type":"think","message":"↓ Price shift: \"Will Brighton finish in the top 4 of the EPL 2025–26 s…\" moved 1.9% since last scan (35.1% → 33.2%)"}
+{"timestamp":"2026-02-28T19:51:22.675Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $14.9K"}
+{"timestamp":"2026-02-28T19:51:22.675Z","type":"think","message":"↓ Hourly mover: \"Kraken IPO by December 31, 2026?\" ↓3.0% in 1h (now 72.5%), 24h vol $10.8K"}
+{"timestamp":"2026-02-28T19:51:22.675Z","type":"decision","message":"Flow signal: \"Will Bitcoin dip to $50,000 in February?\" — sellers dominating ($2.1K net), 1 traders, 5m ago"}
