@@ -1422,3 +1422,4 @@
 {"timestamp":"2026-02-28T15:12:35.923Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price briefly dipped below $68,000 after | Reports indicate that negotiations for a Gaza ceas"}
 {"timestamp":"2026-02-28T15:12:39.910Z","type":"scan","message":"20 markets after hard filters"}
 {"timestamp":"2026-02-28T15:12:41.655Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
+{"timestamp":"2026-02-28T15:12:42.124Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
