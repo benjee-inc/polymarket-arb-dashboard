@@ -1,0 +1,329 @@
+{
+  "note": "Legacy trades from before bot v3 (manual and broken auto-trader)",
+  "count": 46,
+  "trades": [
+    {
+      "conditionId": "0x705371444684d676041d1010a94cae3a657340fa4809b4307de3c173a35e0957",
+      "market": "Unknown",
+      "amount": 89.15,
+      "pnl": -84.35,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xe06a7e94cf2fa8dc2085b7610fe16e9be1cde6654f34d365c13da1149b276c61",
+      "market": "Unknown",
+      "amount": 36.42,
+      "pnl": -4.05,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xae70ab9bf1c3726fe430a2ba8b517697ae24e0f0ab554b876a5b521153068882",
+      "market": "Unknown",
+      "amount": 36.42,
+      "pnl": -4.05,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x450810ae738a0ff820d3248f2b24937f63fb8c8cf422ed2a915125adb4d9d3c8",
+      "market": "Unknown",
+      "amount": 36.42,
+      "pnl": -3.64,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x822e61527476cabf98927e3aad385c5ecdae7086f945535f2c1fd9ae8dbfa46e",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.68,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x836b850fc838195374862551a36f1c8691d96ff01e58b0a071f0fc1a0e357fb1",
+      "market": "Unknown",
+      "amount": 36.42,
+      "pnl": -3.64,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xdcc87b9ca36015e396bd0eebca29e854a136ed2b0b701049d1ee9da6bee3eb35",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -1.91,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x663b88d3a8f2341bb8d878709dc78632bcaf7512e577bd15521e5d8ed933efbc",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.68,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xc44edcfdedb422bae8ff1803e2178d1ee025fc41efd81400ccbede709e018841",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.61,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x30cfb887558b20373a984da60c372fe5a90c0296aa6d8bb413a8aa7543846da2",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.68,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xbd603617895e199d4042781ee55a7a9614af3130ca8e90d257424ca246f66197",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -1.52,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x8b203037c7c0e21b500314f8398d2a8ea294b7ce1f4f9185f426425a3505bc45",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.61,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x01dffa7abae7e5d9b7fb44b06d537c5ac932e2ca422ab4b53366672f5e2dc7d6",
+      "market": "Unknown",
+      "amount": 12.14,
+      "pnl": -1.11,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x29283b56d3eec6d1d89fff51793d9d2e01579d2379b1d3e9ebda175d3561e809",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.56,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x46dbd48d6bde5b81edb480e0f676a2cdda6c6b592c4d86a9367c7ad5a9870195",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.61,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x3265b10daeb30dbcc3214bd02e488551d0a5d3028392f4152e4750b943fbfc91",
+      "market": "Unknown",
+      "amount": 12.14,
+      "pnl": -1.36,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x41c6341dd79903aca4bb0c29f5a7976946c3774d2fd72f38cbb7de7092144520",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.51,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x8fc141205ebce5adf437bfdf4d0c5ff58ff24293b79c9431991346c208bb48ed",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.56,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x0f8ef3cc906ba7ba94a44724738df44bdd5f73e59e40c9c8b4ff8569e349643c",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.68,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xcb239105ed21a2420ba4d85090b9bc32755c56601ffdc528afd17fd6282fe930",
+      "market": "Unknown",
+      "amount": 12.14,
+      "pnl": -1.21,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x8ecd1d15e521b7d1020ad5596cc981c8764e9dcfbc3648f582e1a5138aee7185",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.61,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xfc6eace32f283eda179c15d447fe61f0426846bace5c583a967ddeaba58c2f93",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -2.02,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x64396449b471b10b006285fa49dd9a5df535694de7b4c703fdeb0d88d5c4cd33",
+      "market": "Unknown",
+      "amount": 12.14,
+      "pnl": -0.87,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x7190eccbd0677d5d0ae8cdf598b37e945a346915c666dda11468dc9970657a56",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.56,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x939eeb2dea216749bd409bedde483c3f2bfb0e24d4f2d34461c0b21c6e91f010",
+      "market": "Unknown",
+      "amount": 12.14,
+      "pnl": -1.21,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xf8dbde8b6e038775a673947e59da2de15a2127272b50b9877400fdbf7cfc3026",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.48,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x7f695758278e6d4d9e63df862afa88d664d3402a3d26e4d32ae05121cdbddba6",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": -0.61,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xc830d19ead001f5378792cc0df36004ddb1b312bb26fbd5c4226aa698c41f808",
+      "market": "Unknown",
+      "amount": 6.07,
+      "pnl": 7.07,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xa467b14d51f01b957109d9cbb1d6c124fab2a089d52ed8f471d23c2812e743b7",
+      "market": "Unknown",
+      "amount": 2,
+      "pnl": 181.93,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x139bc939a90e0414f2446ef09b30e3c5a14cc0fa8496c11bb6822954ad674a17",
+      "market": "Unknown",
+      "amount": 2,
+      "pnl": -0.07,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0xd9fb1184af0064e5e34b129f5b79afa5a17b7e32f2953ab05efed82315fee6d4",
+      "market": "Unknown",
+      "amount": 2,
+      "pnl": -0.27,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
+      "market": "Unknown",
+      "amount": 1.99,
+      "pnl": -0.1,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x8e7a03cb1970e2ad6533b01892403516b6b3f5b5fa90ed7d104c28b27e40ba00",
+      "market": "Unknown",
+      "amount": 1.99,
+      "pnl": -0.13,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
+      "market": "Unknown",
+      "amount": 1.99,
+      "pnl": -0.15,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x49686d26fb712515cd5e12c23f0a1c7e10214c7faa3cb0a730aabe0c33694082",
+      "market": "Unknown",
+      "amount": 5.81,
+      "pnl": -0.11,
+      "timestamp": ""
+    },
+    {
+      "conditionId": "0x895e01dbf3e6a33cd9a44ca0f8cdb5df1bd2b0b6ebed5300d28f8da7145145e4",
+      "market": "Will Donald Trump win the 2028 Republican presidential nomination?",
+      "amount": 2,
+      "pnl": -0.137,
+      "timestamp": "2026-02-28T15:07:20.514Z"
+    },
+    {
+      "conditionId": "0xb2abfc4e48334d87681240cd6a7e63c728e13973fbd68951b45bc86d6c4491e4",
+      "market": "MegaETH market cap (FDV) >$4B one day after launch?",
+      "amount": 0.3,
+      "pnl": 0.03721000000000002,
+      "timestamp": "2026-02-28T15:07:20.726Z"
+    },
+    {
+      "conditionId": "0xf2e51acfbb6d0414dc2ace81b7dc2af7c165e443dcb91f6caa7aab6d6ab4f06d",
+      "market": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+      "amount": 6.15,
+      "pnl": -6.15,
+      "timestamp": "2026-02-28T15:07:20.302Z"
+    },
+    {
+      "conditionId": "0x7130b8d9bb59393ede189911ba57783debc1900dffb8143c3cb0027952e2f7df",
+      "market": "Will the U.S. collect between $200b and $500b in revenue in 2025?",
+      "amount": 687.09,
+      "pnl": -687.09,
+      "timestamp": "2026-02-28T15:07:20.947Z"
+    },
+    {
+      "conditionId": "0x81a537b379a35e4e17c286d3b37394e94bd74c1779bbe9a13670eb991b201a3a",
+      "market": "Will Tarcisio de Freitas win the 2026 Brazilian presidential election?",
+      "amount": 89.2,
+      "pnl": -89.2,
+      "timestamp": "2026-02-28T15:07:21.155Z"
+    },
+    {
+      "conditionId": "0xdb68062324c27327e9cd4b21b1dd0deadbc4b860abb8c076b9ba3ed4652ced13",
+      "market": "MegaETH market cap (FDV) >$6B one day after launch?",
+      "amount": 75.63,
+      "pnl": -75.63,
+      "timestamp": "2026-02-28T15:07:21.358Z"
+    },
+    {
+      "conditionId": "0x1d54eb5eac2cee8f595f3097c65da7d07f8ab5dee63d7c0c6883eb70e1e9af30",
+      "market": "Russia x Ukraine ceasefire by March 31, 2026?",
+      "amount": 33.98,
+      "pnl": -33.98,
+      "timestamp": "2026-02-28T15:07:21.565Z"
+    },
+    {
+      "conditionId": "0x94947a23e965124fa382e3ff89827b7bb00c2e2f3f9c0b92137e639d4cbfb080",
+      "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
+      "amount": 873.44,
+      "pnl": -873.44,
+      "timestamp": "2026-02-28T15:07:21.776Z"
+    },
+    {
+      "conditionId": "0xb81bc42ebe439b9c1c7b13a6c3ed36f2ac5f70f4385286e552fec734ed126ee0",
+      "market": "Will Hibernian FC vs. Motherwell FC end in a draw?",
+      "amount": 2.3,
+      "pnl": -2.3,
+      "timestamp": "2026-02-28T15:07:21.983Z"
+    },
+    {
+      "conditionId": "0xb867a8daad6ce355fae60fa0870f3122fc9fb5adba7e06b9fd8cadfe2443d884",
+      "market": "Will Celtic FC vs. Dundee United FC end in a draw?",
+      "amount": 1.75,
+      "pnl": -1.75,
+      "timestamp": "2026-02-28T15:07:22.192Z"
+    },
+    {
+      "conditionId": "0x53edf2e7bd4238af99755ccf89538140ae9e238640c2a40548c1b04228869e82",
+      "market": "Will Motherwell FC win on 2026-01-10?",
+      "amount": 6.16,
+      "pnl": -6.16,
+      "timestamp": "2026-02-28T15:07:22.392Z"
+    }
+  ],
+  "totalPnl": -1707.00979
+}
