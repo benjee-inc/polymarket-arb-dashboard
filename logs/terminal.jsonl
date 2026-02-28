@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T16:09:53.907Z","type":"scan","message":"═══ Scan #286 starting ═══"}
-{"timestamp":"2026-02-28T16:09:55.303Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
-{"timestamp":"2026-02-28T16:09:55.303Z","type":"news","message":"Scanning for breaking news..."}
-{"timestamp":"2026-02-28T16:09:58.264Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price experienced a significant dip foll | Reports indicate that negotiations for a ceasefire"}
-{"timestamp":"2026-02-28T16:10:02.650Z","type":"scan","message":"22 markets after hard filters"}
-{"timestamp":"2026-02-28T16:10:02.951Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
 {"timestamp":"2026-02-28T16:10:03.451Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
 {"timestamp":"2026-02-28T16:14:52.682Z","type":"scan","message":"═══ Scan #287 starting ═══"}
 {"timestamp":"2026-02-28T16:14:53.350Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T18:41:22.432Z","type":"think","message":"↑ Daily mover: \"Will Russia capture Rodynske by March 31?\" ↑23.5% today, ↑18.0% 1w, 24h vol $5.2K"}
 {"timestamp":"2026-02-28T18:41:22.432Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 18.5%), 24h vol $15.5K"}
 {"timestamp":"2026-02-28T18:41:22.432Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Kostyantynivka by December 31, 202…\" ↓1.5% in 1h, now 88.5%, vol $61.1K"}
+{"timestamp":"2026-02-28T18:46:22.264Z","type":"scan","message":"Cycle #8 — 762 markets | 17 active events | $62.6K recent flow"}
+{"timestamp":"2026-02-28T18:46:22.265Z","type":"think","message":"Live flow: \"Will Elon Musk post 20-39 tweets from February 27 to M…\" — $3.4K in 1 trades, NET BUY (strong bias), biggest $3.4K, 7s ago"}
+{"timestamp":"2026-02-28T18:46:22.265Z","type":"think","message":"↓ Price shift: \"Will MetaMask launch a token by September 30, 2026?\" moved 1.5% since last scan (25.5% → 24.0%)"}
+{"timestamp":"2026-02-28T18:46:22.265Z","type":"think","message":"↓ Hourly mover: \"Kraken IPO by December 31, 2026?\" ↓3.0% in 1h (now 70.0%), 24h vol $10.8K"}
+{"timestamp":"2026-02-28T18:46:22.265Z","type":"think","message":"Volume surge: \"Will Leeds finish in the top 4 of the EPL 2025–26 stan…\" — $14.9K in 24h (6871% of lifetime), ↓0.1% this hour"}
+{"timestamp":"2026-02-28T18:46:22.265Z","type":"decision","message":"Flow signal: \"Will XRP dip to $1.30 February 23-March 1?\" — buyers dominating ($2.5K net), 1 traders, 1m ago"}
