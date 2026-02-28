@@ -288,3 +288,10 @@
 {"timestamp":"2026-02-28T16:35:13.583Z","type":"scan","message":"1 potential opportunities found"}
 {"timestamp":"2026-02-28T16:35:14.884Z","type":"verify","message":"Will Trump nominate Kevin Warsh as the next Fed ch → PASS (75%): The news about Bitcoin is entirely irrelevant to the market question about Trump's Fed chair nomination. The claimed fair price of 90.0¢ is likely overstated given the current price of 92.6¢ and the long resolution date, which introduces significant uncertainty. While liquidity is sufficient, the lack of relevant news and the high current price make this a poor value trade. The 2.6% edge is based on an unrealistic fair price. A more realistic fair price would be lower, making the current price even less attractive."}
 {"timestamp":"2026-02-28T16:35:14.884Z","type":"scan","message":"═══ Scan #290 complete: 0 trades, $0.00 spent ═══"}
+{"timestamp":"2026-02-28T16:35:15.396Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
+{"timestamp":"2026-02-28T16:39:56.839Z","type":"scan","message":"═══ Scan #291 starting ═══"}
+{"timestamp":"2026-02-28T16:39:57.591Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
+{"timestamp":"2026-02-28T16:39:57.591Z","type":"news","message":"Scanning for breaking news..."}
+{"timestamp":"2026-02-28T16:40:00.951Z","type":"news","message":"Found 4 news events: The US House of Representatives passed a bill that | The European Central Bank (ECB) held its key inter | Bitcoin's price surged past $73,000, setting a new | New data showed US producer prices rose more than "}
+{"timestamp":"2026-02-28T16:40:06.095Z","type":"scan","message":"22 markets after hard filters"}
+{"timestamp":"2026-02-28T16:40:07.682Z","type":"scan","message":"No markets are clearly mispriced by current news. No trades."}
