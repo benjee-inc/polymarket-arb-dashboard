@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T14:56:45.865Z","type":"error","message":"Trade failed: {\n  \"action\": \"bet\",\n  \"conditionId\": \"0xf8dbde8b6e038775a673947e59da2de15a2127272b50b9877400fdbf7cfc3026\",\n  \"question\": \"Will Tom Brady win the 2028 Republican presidential nomination?\",\n  \"outcome\""}
-{"timestamp":"2026-02-28T14:56:46.733Z","type":"analysis","message":"Will Kim Kardashian win the 2028 US Presidential Election? → BUY (60%): Kim Kardashian is a well-known public figure with a massive platform and some past involvement in political advocacy, making her candidacy remotely plausible, even if highly unlikely. The 'lottery ticket' strategy encourages buying cheap, asymmetric bets on such figures."}
-{"timestamp":"2026-02-28T14:56:46.733Z","type":"trade","message":"🎯 BUY YES Will Kim Kardashian win the 2028 US Presidential E @ 0.9¢ — $6.07 (50-80%)"}
-{"timestamp":"2026-02-28T14:56:49.060Z","type":"error","message":"Trade failed: {\n  \"action\": \"bet\",\n  \"conditionId\": \"0x7f695758278e6d4d9e63df862afa88d664d3402a3d26e4d32ae05121cdbddba6\",\n  \"question\": \"Will Kim Kardashian win the 2028 US Presidential Election?\",\n  \"outcome\": \"YE"}
-{"timestamp":"2026-02-28T14:56:49.061Z","type":"scan","message":"═══ Scan #275 complete: 0 trades, $605.00 remaining ═══"}
-{"timestamp":"2026-02-28T14:56:49.588Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --allow-empty && git push 2>&1"}
 {"timestamp":"2026-02-28T14:59:55.144Z","type":"scan","message":"═══ Scan #276 starting ═══"}
 {"timestamp":"2026-02-28T14:59:55.146Z","type":"monitor","message":"Checking 2 open positions..."}
 {"timestamp":"2026-02-28T14:59:56.151Z","type":"balance","message":"Bankroll: $607.02 (cash: $605.00, deployed: $2.02)"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T15:45:54.112Z","type":"think","message":"Volume surge: \"Will Trump and Putin meet next in Switzerland?\" — $116.7K in 24h (591% of lifetime), ↓0.1% this hour"}
 {"timestamp":"2026-02-28T15:45:54.112Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 2d to resolution, 77.0% YES, ↑0.5% this hour, vol $276.3K"}
 {"timestamp":"2026-02-28T15:45:54.113Z","type":"decision","message":"Flow signal: \"Will the price of Ethereum be above $2,100 on February…\" — buyers dominating ($3.0K net), 1 traders, 5m ago"}
+{"timestamp":"2026-02-28T15:50:54.073Z","type":"scan","message":"Cycle #17 — 764 markets | 14 active events | $85.7K recent flow"}
+{"timestamp":"2026-02-28T15:50:54.074Z","type":"think","message":"Live flow: \"Will the price of Ethereum be above $1,800 on February…\" — $6.5K in 2 trades, NET BUY (strong bias), biggest $5.6K, 17s ago"}
+{"timestamp":"2026-02-28T15:50:54.074Z","type":"think","message":"↑ Price shift: \"Will Brighton finish in the top 4 of the EPL 2025–26 s…\" moved 2.0% since last scan (32.2% → 34.2%)"}
+{"timestamp":"2026-02-28T15:50:54.074Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 2d to resolution, 1.1% YES, ↑0.1% this hour, vol $276.3K"}
+{"timestamp":"2026-02-28T15:50:54.074Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 87.2% / ask 92.5% (5.3% spread), liq $2.3M"}
+{"timestamp":"2026-02-28T15:50:54.074Z","type":"decision","message":"Flow signal: \"Will Iran close the Strait of Hormuz by June 30?\" — sellers dominating ($3.3K net), 3 traders, 17s ago"}
