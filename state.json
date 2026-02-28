@@ -13,10 +13,10 @@
       "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
       "timestamp": "2026-02-27T16:47:15.085Z",
       "status": "FILLED",
-      "livePrice": 0.933,
-      "livePnl": -0.014839999999999779,
-      "livePnlPct": -0.744680851063817,
-      "hoursHeld": 9.257681944444444
+      "livePrice": 0.9335,
+      "livePnl": -0.013779999999999895,
+      "livePnlPct": -0.6914893617021245,
+      "hoursHeld": 9.340606944444444
     },
     {
       "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
@@ -34,7 +34,7 @@
       "livePrice": 0.945,
       "livePnl": -0.01050000000000001,
       "livePnlPct": -0.5263157894736858,
-      "hoursHeld": 9.257743055555556
+      "hoursHeld": 9.340666944444445
     },
     {
       "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
@@ -49,10 +49,10 @@
       "txHash": "0x4374700a2af291e7609633acc14f600bceac92e38725e90179346154c0f31313",
       "timestamp": "2026-02-27T16:47:15.086Z",
       "status": "FILLED",
-      "livePrice": 0.9595,
-      "livePnl": -0.0010399999999998854,
-      "livePnlPct": -0.05208333333333037,
-      "hoursHeld": 9.257844722222222
+      "livePrice": 0.9585,
+      "livePnl": -0.0031199999999998876,
+      "livePnlPct": -0.15624999999999112,
+      "hoursHeld": 9.340725833333334
     },
     {
       "market": "Will Trump nominate Kevin Hassett as the next Fed chair?",
@@ -70,7 +70,7 @@
       "livePrice": 0.003,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 8.146668333333333
+      "hoursHeld": 8.22950638888889
     },
     {
       "market": "Will Trump nominate Christopher Waller as the next Fed chair?",
@@ -88,7 +88,7 @@
       "livePrice": 0.004,
       "livePnl": 0.08333,
       "livePnlPct": 33.33333333333333,
-      "hoursHeld": 8.146078055555556
+      "hoursHeld": 8.228915555555556
     },
     {
       "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
@@ -106,7 +106,7 @@
       "livePrice": 0.0025,
       "livePnl": -0.041665,
       "livePnlPct": -16.666666666666664,
-      "hoursHeld": 8.14496138888889
+      "hoursHeld": 8.227795833333333
     },
     {
       "market": "Will Trump nominate no one before 2027?",
@@ -124,7 +124,7 @@
       "livePrice": 0.0045,
       "livePnl": -0.025000000000000022,
       "livePnlPct": -10.000000000000009,
-      "hoursHeld": 8.144735
+      "hoursHeld": 8.227573333333334
     },
     {
       "market": "Russia x Ukraine ceasefire by March 31, 2026?",
@@ -142,7 +142,7 @@
       "livePrice": 0.0245,
       "livePnl": -0.014429999999999978,
       "livePnlPct": -5.769230769230759,
-      "hoursHeld": 8.144524166666667
+      "hoursHeld": 8.227363888888888
     },
     {
       "market": "MegaETH market cap (FDV) >$6B one day after launch?",
@@ -162,7 +162,7 @@
       "livePrice": 0.0155,
       "livePnl": 0.06896999999999993,
       "livePnlPct": 6.896551724137923,
-      "hoursHeld": 5.777066944444444
+      "hoursHeld": 5.859906388888889
     },
     {
       "market": "Will Donald Trump win the 2028 Republican presidential nomination?",
@@ -182,7 +182,7 @@
       "livePrice": 0.024,
       "livePnl": -0.020000000000000018,
       "livePnlPct": -2.0408163265306145,
-      "hoursHeld": 3.4960016666666665
+      "hoursHeld": 3.578838888888889
     },
     {
       "market": "Xi Jinping out before 2027?",
@@ -202,7 +202,7 @@
       "livePrice": 0.9165,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 0.7466025
+      "hoursHeld": 0.8294352777777778
     },
     {
       "market": "Will China invade Taiwan by end of 2026?",
@@ -222,7 +222,7 @@
       "livePrice": 0.9045,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 0.5805072222222222
+      "hoursHeld": 0.6633380555555556
     },
     {
       "market": "Will Trump deport less than 250,000?",
@@ -238,14 +238,18 @@
       "orderId": "0xe3e6ce490a27cbeb88f5e08056099876467dab5d58255386268bd1fe7465a692",
       "txHash": null,
       "timestamp": "2026-02-28T02:03:10.031Z",
-      "status": "FILLED"
+      "status": "FILLED",
+      "livePrice": 0.024,
+      "livePnl": 0.06666000000000005,
+      "livePnlPct": 6.666666666666665,
+      "hoursHeld": 0.07605333333333333
     }
   ],
-  "scannedAt": "2026-02-28T02:03:11.486Z",
-  "scanCount": 129,
+  "scannedAt": "2026-02-28T02:08:05.446Z",
+  "scanCount": 130,
   "totalBet": 14.22911,
   "totalReturn": 0,
-  "bankroll": 6.030119,
+  "bankroll": 7.030119,
   "proxyWallet": "0x3b0d0696033643d52C5B6D95d6c1A7d924Ffb9fb",
   "opportunities": {
     "newsArbitrage": [
@@ -302,10 +306,10 @@
       "txHash": "0xc670a9038820d78857c5a6906ee88f125ee20f00e822b618d678c082d19388ab",
       "timestamp": "2026-02-27T16:47:15.085Z",
       "status": "FILLED",
-      "livePrice": 0.933,
-      "livePnl": -0.014839999999999779,
-      "livePnlPct": -0.744680851063817,
-      "hoursHeld": 9.257681944444444
+      "livePrice": 0.9335,
+      "livePnl": -0.013779999999999895,
+      "livePnlPct": -0.6914893617021245,
+      "hoursHeld": 9.340606944444444
     },
     {
       "market": "MicroStrategy sells any Bitcoin by June 30, 2026?",
@@ -323,7 +327,7 @@
       "livePrice": 0.945,
       "livePnl": -0.01050000000000001,
       "livePnlPct": -0.5263157894736858,
-      "hoursHeld": 9.257743055555556
+      "hoursHeld": 9.340666944444445
     },
     {
       "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
@@ -338,10 +342,10 @@
       "txHash": "0x4374700a2af291e7609633acc14f600bceac92e38725e90179346154c0f31313",
       "timestamp": "2026-02-27T16:47:15.086Z",
       "status": "FILLED",
-      "livePrice": 0.9595,
-      "livePnl": -0.0010399999999998854,
-      "livePnlPct": -0.05208333333333037,
-      "hoursHeld": 9.257844722222222
+      "livePrice": 0.9585,
+      "livePnl": -0.0031199999999998876,
+      "livePnlPct": -0.15624999999999112,
+      "hoursHeld": 9.340725833333334
     },
     {
       "market": "Will Trump nominate Kevin Hassett as the next Fed chair?",
@@ -359,7 +363,7 @@
       "livePrice": 0.003,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 8.146668333333333
+      "hoursHeld": 8.22950638888889
     },
     {
       "market": "Will Trump nominate Christopher Waller as the next Fed chair?",
@@ -377,7 +381,7 @@
       "livePrice": 0.004,
       "livePnl": 0.08333,
       "livePnlPct": 33.33333333333333,
-      "hoursHeld": 8.146078055555556
+      "hoursHeld": 8.228915555555556
     },
     {
       "market": "Will Trump nominate Stephen Miran as the next Fed chair?",
@@ -395,7 +399,7 @@
       "livePrice": 0.0025,
       "livePnl": -0.041665,
       "livePnlPct": -16.666666666666664,
-      "hoursHeld": 8.14496138888889
+      "hoursHeld": 8.227795833333333
     },
     {
       "market": "Will Trump nominate no one before 2027?",
@@ -413,7 +417,7 @@
       "livePrice": 0.0045,
       "livePnl": -0.025000000000000022,
       "livePnlPct": -10.000000000000009,
-      "hoursHeld": 8.144735
+      "hoursHeld": 8.227573333333334
     },
     {
       "market": "Russia x Ukraine ceasefire by March 31, 2026?",
@@ -431,7 +435,7 @@
       "livePrice": 0.0245,
       "livePnl": -0.014429999999999978,
       "livePnlPct": -5.769230769230759,
-      "hoursHeld": 8.144524166666667
+      "hoursHeld": 8.227363888888888
     },
     {
       "market": "MegaETH market cap (FDV) >$6B one day after launch?",
@@ -451,7 +455,7 @@
       "livePrice": 0.0155,
       "livePnl": 0.06896999999999993,
       "livePnlPct": 6.896551724137923,
-      "hoursHeld": 5.777066944444444
+      "hoursHeld": 5.859906388888889
     },
     {
       "market": "Will Donald Trump win the 2028 Republican presidential nomination?",
@@ -471,7 +475,7 @@
       "livePrice": 0.024,
       "livePnl": -0.020000000000000018,
       "livePnlPct": -2.0408163265306145,
-      "hoursHeld": 3.4960016666666665
+      "hoursHeld": 3.578838888888889
     },
     {
       "market": "Xi Jinping out before 2027?",
@@ -491,7 +495,7 @@
       "livePrice": 0.9165,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 0.7466025
+      "hoursHeld": 0.8294352777777778
     },
     {
       "market": "Will China invade Taiwan by end of 2026?",
@@ -511,7 +515,27 @@
       "livePrice": 0.9045,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 0.5805072222222222
+      "hoursHeld": 0.6633380555555556
+    },
+    {
+      "market": "Will Trump deport less than 250,000?",
+      "conditionId": "0xaf9d0e448129a9f657f851d49495ba4742055d80e0ef1166ba0ee81d4d594214",
+      "side": "YES",
+      "price": 0.0225,
+      "amount": 1,
+      "shares": 44.44,
+      "strategy": "strategy_b",
+      "thesis": "The \"YES\" side at 2.3¢ represents a lottery ticket with a high implied probability of failure, but the underlying premise of Trump deporting less than 250,000 people is a plausible long-shot given historical context and the difficulty of such a large-scale operation.",
+      "news": "While Trump's rhetoric often suggests aggressive deportation, his previous administration's highest annual deportation figure was around 267,000 in 2019, and achieving a number significantly lower than 250,000 would require a substantial shift in policy or significant operational hurdles. Upcoming catalysts would be any official policy announcements or executive orders regarding immigration enforcement, or reports on actual deportation numbers if he were to take office.",
+      "confidence": 85,
+      "orderId": "0xe3e6ce490a27cbeb88f5e08056099876467dab5d58255386268bd1fe7465a692",
+      "txHash": null,
+      "timestamp": "2026-02-28T02:03:10.031Z",
+      "status": "FILLED",
+      "livePrice": 0.024,
+      "livePnl": 0.06666000000000005,
+      "livePnlPct": 6.666666666666665,
+      "hoursHeld": 0.07605333333333333
     }
   ]
 }
