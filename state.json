@@ -18,14 +18,30 @@
       "livePrice": 0.0235,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 0.4633177777777778
+      "hoursHeld": 0.5464786111111111
+    },
+    {
+      "market": "Xi Jinping out before 2027?",
+      "conditionId": "0xa467b14d51f01b957109d9cbb1d6c124fab2a089d52ed8f471d23c2812e743b7",
+      "side": "NO",
+      "price": 0.914,
+      "amount": 91.05,
+      "shares": 99.62,
+      "strategy": "strategy_a",
+      "thesis": "Xi Jinping's continued leadership is highly probable given his consolidation of power and the lack of clear succession challenges, making the \"NO\" side a strong bet.",
+      "news": "Xi Jinping secured an unprecedented third term as General Secretary of the Communist Party of China in October 2022, and there have been no credible reports or indications of any internal or external challenges that would lead to his departure before 2027.",
+      "confidence": 90,
+      "orderId": "0x2acdbf4a9d44012daa4c783edd5dcf10f1164e69bce7b3a18742f727de01ff25",
+      "txHash": null,
+      "timestamp": "2026-02-28T13:21:05.416Z",
+      "status": "FILLED"
     }
   ],
-  "scannedAt": "2026-02-28T13:16:19.539Z",
-  "scanCount": 264,
-  "totalBet": 18.63851,
+  "scannedAt": "2026-02-28T13:21:20.698Z",
+  "scanCount": 265,
+  "totalBet": 109.68851,
   "totalReturn": 0,
-  "bankroll": 606.000284,
+  "bankroll": 514.950284,
   "proxyWallet": "0x3b0d0696033643d52C5B6D95d6c1A7d924Ffb9fb",
   "opportunities": {
     "newsArbitrage": [
@@ -497,7 +513,7 @@
       "livePrice": 0.0235,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 0.4633177777777778
+      "hoursHeld": 0.5464786111111111
     }
   ],
   "lastScan": {
