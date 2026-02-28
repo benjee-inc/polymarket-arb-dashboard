@@ -157,22 +157,47 @@ function renderPositions() {
 
 function renderWallet() {
   const s = cachedState;
-  const bets = s.bets || [];
-  const closed = s.closedBets || [];
-  const deployed = bets.reduce((sum,b)=>sum+(b.amount||0),0);
-  const unrealized = Object.values(livePnl).reduce((sum,p)=>sum+p.pnlDollar,0);
-  const realized = closed.reduce((sum,b)=>sum+(b.pnl||0),0);
   
-  let html = '<div class="wallet-grid">'
+  // Separate bot trades from all trades
+  const botBets = (s.bets || []).filter(b => b.source === "bot");
+  const botClosed = (s.closedBets || []).filter(b => b.source === "bot");
+  const allBets = s.bets || [];
+  const allClosed = s.closedBets || [];
+  
+  const botDeployed = botBets.reduce((sum,b)=>sum+(b.amount||0),0);
+  const allDeployed = allBets.reduce((sum,b)=>sum+(b.amount||0),0);
+  const unrealized = Object.values(livePnl).reduce((sum,p)=>sum+p.pnlDollar,0);
+  const botRealized = botClosed.reduce((sum,b)=>sum+(b.pnl||0),0);
+  const allRealized = allClosed.reduce((sum,b)=>sum+(b.pnl||0),0);
+  
+  // Bot-only metrics (the important ones)
+  let html = '<div style="margin-bottom:15px;padding-bottom:15px;border-bottom:2px solid #00ff00;">';
+  html += '<div style="color:#00ff00;font-size:0.9rem;margin-bottom:8px;font-weight:bold">🤖 BOT PERFORMANCE</div>';
+  html += '<div class="wallet-grid">'
     + wbox('Balance',fmt(s.bankroll||0))
-    + wbox('Deployed',fmt(deployed))
+    + wbox('Deployed',fmt(botDeployed))
     + wbox('Unrealized P&L',(unrealized>=0?'+':'')+unrealized.toFixed(3),unrealized)
-    + wbox('Realized P&L',(realized>=0?'+':'')+realized.toFixed(3),realized)
-    + wbox('Total Trades',bets.length+closed.length)
-    + wbox('Open / Closed',bets.length+' / '+closed.length)
-    + wbox('Win Rate',closed.length?((closed.filter(b=>b.pnl>0).length/closed.length*100).toFixed(0)+'%'):'--')
+    + wbox('Realized P&L',(botRealized>=0?'+':'')+botRealized.toFixed(3),botRealized)
+    + wbox('Total Trades',botBets.length+botClosed.length)
+    + wbox('Open / Closed',botBets.length+' / '+botClosed.length)
+    + wbox('Win Rate',botClosed.length?((botClosed.filter(b=>b.pnl>0).length/botClosed.length*100).toFixed(0)+'%'):'--')
     + wbox('Last Scan',s.scannedAt?ts(s.scannedAt):'--')
-    + '</div>';
+    + '</div></div>';
+  
+  // Hidden section for all trades (legacy + manual)
+  if (allDeployed > 0 || allRealized !== 0) {
+    html += '<details style="margin-top:10px"><summary style="color:#ffaa00;cursor:pointer;font-size:0.8rem">Show Legacy Metrics (all trades)</summary>';
+    html += '<div style="color:#ffaa00;font-size:0.8rem;margin:10px 0 8px">📊 ALL TRADES (including legacy)</div>';
+    html += '<div class="wallet-grid">'
+      + wbox('Balance',fmt(s.bankroll||0))
+      + wbox('Deployed',fmt(allDeployed))
+      + wbox('Unrealized P&L',(unrealized>=0?'+':'')+unrealized.toFixed(3),unrealized)
+      + wbox('Realized P&L',(allRealized>=0?'+':'')+allRealized.toFixed(3),allRealized)
+      + wbox('Total Trades',allBets.length+allClosed.length)
+      + wbox('Open / Closed',allBets.length+' / '+allClosed.length)
+      + wbox('Win Rate',allClosed.length?((allClosed.filter(b=>b.pnl>0).length/allClosed.length*100).toFixed(0)+'%'):'--')
+      + '</div></details>';
+  }
   
   if (closed.length) {
     html += '<div style="color:#888;font-size:0.8rem;margin:15px 0 8px">CLOSED POSITIONS</div>';
@@ -202,11 +227,18 @@ function render() {
 
 function updateHeader() {
   const s = cachedState;
-  const bets = s.bets || [];
-  const closed = s.closedBets || [];
-  const deployed = bets.reduce((sum,b)=>sum+(b.amount||0),0);
+  // Filter to bot-executed trades only (source === "bot")
+  const botBets = (s.bets || []).filter(b => b.source === "bot");
+  const botClosed = (s.closedBets || []).filter(b => b.source === "bot");
+  
+  const allBets = s.bets || [];
+  const allClosed = s.closedBets || [];
+  
+  const deployed = botBets.reduce((sum,b)=>sum+(b.amount||0),0);
+  const allDeployed = allBets.reduce((sum,b)=>sum+(b.amount||0),0);
   const unrealized = Object.values(livePnl).reduce((sum,p)=>sum+p.pnlDollar,0);
-  const realized = closed.reduce((sum,b)=>sum+(b.pnl||0),0);
+  const realized = botClosed.reduce((sum,b)=>sum+(b.pnl||0),0);
+  const allRealized = allClosed.reduce((sum,b)=>sum+(b.pnl||0),0);
   
   document.getElementById('hBal').textContent = fmt(s.bankroll||0);
   document.getElementById('hDep').textContent = fmt(deployed);
