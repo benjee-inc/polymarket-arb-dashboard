@@ -1354,3 +1354,53 @@
 {"timestamp":"2026-02-28T15:05:32.608Z","type":"analysis","message":"Will Tom Brady win the 2028 Republican presidential nominati → SKIP (85%): There is no specific signal, news, rumor, or event suggesting Tom Brady is considering a 2028 presidential run, nor any upcoming catalyst. This appears to be a generic 'famous person' long-shot with no current edge."}
 {"timestamp":"2026-02-28T15:05:33.673Z","type":"analysis","message":"Will Kim Kardashian win the 2028 US Presidential Election? → SKIP (95%): There is no specific signal, news, rumor, or upcoming catalyst suggesting Kim Kardashian will run for or win the 2028 US Presidential Election; it's a generic long-shot based solely on her fame with no current edge."}
 {"timestamp":"2026-02-28T15:05:33.673Z","type":"scan","message":"═══ Scan #277 complete: 0 trades, $605.00 remaining ═══"}
+{"timestamp":"2026-02-28T15:05:34.188Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --allow-empty && git push 2>&1"}
+{"timestamp":"2026-02-28T15:10:16.338Z","type":"scan","message":"═══ Scan #277 starting ═══"}
+{"timestamp":"2026-02-28T15:10:16.919Z","type":"monitor","message":"Checking 11 open positions..."}
+{"timestamp":"2026-02-28T15:10:17.207Z","type":"exit_signal","message":"stop_loss: Will Chelsea Clinton win the 2028 Democratic presi — Stop loss triggered: 1.0¢ (entry: 62.7¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:10:18.063Z","type":"exit_signal","message":"stop_loss: Will the U.S. collect between $200b and $500b in r — Stop loss triggered: 0.7¢ (entry: 95.9¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:10:18.299Z","type":"exit_signal","message":"stop_loss: Will Tarcisio de Freitas win the 2026 Brazilian pr — Stop loss triggered: 2.5¢ (entry: 98.5¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:10:18.519Z","type":"exit_signal","message":"stop_loss: MegaETH market cap (FDV) >$6B one day after launch — Stop loss triggered: 1.8¢ (entry: 100.2¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:10:18.756Z","type":"exit_signal","message":"stop_loss: Russia x Ukraine ceasefire by March 31, 2026? — Stop loss triggered: 3.5¢ (entry: 98.2¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:10:18.982Z","type":"exit_signal","message":"stop_loss: Will Trump nominate Stephen Miran as the next Fed  — Stop loss triggered: 0.5¢ (entry: 99.9¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:10:19.203Z","type":"exit_signal","message":"partial_sell: Will Hibernian FC vs. Motherwell FC end in a draw? — Price hit 94¢ — selling 25%"}
+{"timestamp":"2026-02-28T15:10:19.204Z","type":"exit_signal","message":"partial_sell: Will Hibernian FC vs. Motherwell FC end in a draw? — Price hit 96¢ — selling 50%"}
+{"timestamp":"2026-02-28T15:10:19.204Z","type":"exit_signal","message":"take_profit: Will Hibernian FC vs. Motherwell FC end in a draw? — Take profit at 97¢"}
+{"timestamp":"2026-02-28T15:10:19.662Z","type":"exit_signal","message":"stop_loss: Will Motherwell FC win on 2026-01-10? — Stop loss triggered: 0.0¢ (entry: 61.0¢, stop: -3%)"}
+{"timestamp":"2026-02-28T15:10:19.662Z","type":"balance","message":"Bankroll: $2335.13 (cash: $557.13, deployed: $1778.00)"}
+{"timestamp":"2026-02-28T15:10:23.397Z","type":"scan","message":"Fetched 50 unique markets from 200 events"}
+{"timestamp":"2026-02-28T15:10:25.231Z","type":"scan","message":"AI filtered: 42/50 kept"}
+{"timestamp":"2026-02-28T15:10:25.232Z","type":"scan","message":"32 trade candidates found"}
+{"timestamp":"2026-02-28T15:10:25.232Z","type":"decision","message":"⏭️ RISK: Will Trump nominate Judy Shelton as the next Fed c — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.232Z","type":"decision","message":"⏭️ RISK: Will Trump nominate Kevin Warsh as the next Fed ch — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.232Z","type":"decision","message":"⏭️ RISK: Will Oprah Winfrey win the 2028 Democratic preside — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.232Z","type":"decision","message":"⏭️ RISK: Will Tim Walz win the 2028 US Presidential Electio — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.232Z","type":"decision","message":"⏭️ RISK: Will Andrew Yang win the 2028 Democratic president — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.232Z","type":"decision","message":"⏭️ RISK: Will George Clooney win the 2028 Democratic presid — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.232Z","type":"decision","message":"⏭️ RISK: Will LeBron James win the 2028 US Presidential Ele — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.232Z","type":"decision","message":"⏭️ RISK: Will Trump nominate Kevin Hassett as the next Fed  — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Hillary Clinton win the 2028 Democratic presi — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will MrBeast win the 2028 Democratic presidential  — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Zohran Mamdani win the 2028 Democratic presid — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Bernie Sanders win the 2028 Democratic presid — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Trump nominate Rick Rieder as the next Fed ch — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will LeBron James win the 2028 Democratic presiden — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Greg Abbott win the 2028 US Presidential Elec — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Phil Murphy win the 2028 Democratic president — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Liz Cheney win the 2028 Democratic presidenti — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Tim Walz win the 2028 Democratic presidential — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Hunter Biden win the 2028 Democratic presiden — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Mike Pence win the 2028 Republican presidenti — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Trump nominate Christopher Waller as the next — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Tulsi Gabbard win the 2028 US Presidential El — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Kim Kardashian win the 2028 Democratic presid — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Gina Raimondo win the 2028 Democratic preside — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Beto O’Rourke win the 2028 Democratic preside — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Trump nominate Michelle Bowman as the next Fe — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Vivek Ramaswamy win the 2028 US Presidential  — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will John Thune win the 2028 Republican presidenti — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Roy Cooper win the 2028 Democratic presidenti — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Trump nominate no one before 2027? — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Tom Brady win the 2028 Republican presidentia — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.233Z","type":"decision","message":"⏭️ RISK: Will Kim Kardashian win the 2028 US Presidential E — Already 76% deployed (max 50%)"}
+{"timestamp":"2026-02-28T15:10:25.234Z","type":"scan","message":"═══ Scan #277 complete: 0 trades, $557.13 remaining ═══"}
