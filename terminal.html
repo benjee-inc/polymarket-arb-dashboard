@@ -226,9 +226,11 @@ function updateHeader() {
 
 async function fetchData() {
   try {
+    // Use raw.githubusercontent.com to bypass GitHub Pages CDN cache
+    const RAW = 'https://raw.githubusercontent.com/benjee-inc/polymarket-arb-dashboard/main';
     const [logsRes,stateRes] = await Promise.all([
-      fetch('./logs/terminal.jsonl?t='+Date.now()),
-      fetch('./state.json?t='+Date.now())
+      fetch(RAW+'/logs/terminal.jsonl?t='+Date.now()),
+      fetch(RAW+'/state.json?t='+Date.now())
     ]);
     if (logsRes.ok) {
       const text = await logsRes.text();
