@@ -251,7 +251,7 @@ function updateHeader() {
   hReal.textContent = (realized>=0?'+':'')+realized.toFixed(3);
   hReal.className = 'pnl-value '+pnlClass(realized);
   
-  document.getElementById('hPos').textContent = bets.length;
+  document.getElementById('hPos').textContent = botBets.length;
   document.getElementById('statusText').textContent = cachedLogs.length ? 'live · scan #'+(s.scanCount||'?') : 'waiting';
   document.getElementById('dot').style.background = cachedLogs.length ? '#00ff00' : '#ffaa00';
 }
