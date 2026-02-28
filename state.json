@@ -16,16 +16,33 @@
       "timestamp": "2026-02-28T12:48:00.871Z",
       "status": "FILLED",
       "livePrice": 0.0235,
-      "livePnl": 0,
+      "livePnl": "0.0",
       "livePnlPct": 0,
       "hoursHeld": 1.4477205555555555
+    },
+    {
+      "conditionId": "0xf2e51acfbb6d0414dc2ace81b7dc2af7c165e443dcb91f6caa7aab6d6ab4f06d",
+      "market": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+      "side": "YES",
+      "price": 0.01,
+      "amount": 1,
+      "shares": 100,
+      "strategy": "strategy_b",
+      "confidence": 80,
+      "reasoning": "Well-known public figure, remotely plausible",
+      "timestamp": "2026-02-28T14:54:10.717Z",
+      "tokenId": null,
+      "partialSells": [],
+      "endDate": null,
+      "livePrice": 0.01,
+      "livePnl": "0.0"
     }
   ],
-  "scannedAt": "2026-02-28T14:15:13.976Z",
-  "scanCount": 274,
-  "totalBet": 109.68851,
+  "scannedAt": "2026-02-28T14:55:05.970Z",
+  "scanCount": 275,
+  "totalBet": 110.68851,
   "totalReturn": 0,
-  "bankroll": 606.000284,
+  "bankroll": 605.000284,
   "proxyWallet": "0x3b0d0696033643d52C5B6D95d6c1A7d924Ffb9fb",
   "opportunities": {
     "newsArbitrage": [
