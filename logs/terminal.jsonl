@@ -1,9 +1,3 @@
-{"timestamp":"2026-02-28T15:55:25.594Z","type":"scan","message":"22 markets after hard filters"}
-{"timestamp":"2026-02-28T15:55:27.093Z","type":"scan","message":"2 potential opportunities found"}
-{"timestamp":"2026-02-28T15:55:28.545Z","type":"verify","message":"Will Trump nominate Judy Shelton as the next Fed c → PASS (70%): The news about Israel and Rafah is completely unrelated to the question of Trump nominating Judy Shelton as Fed chair. Therefore, it has no impact on the probability of this market resolving 'NO'. The claimed fair price of 99.0¢ is likely overstated as there's no new information to justify a shift from the current market price. The market is already heavily skewed towards 'NO', indicating a strong consensus that Shelton will not be nominated. While liquidity is sufficient, there's no edge to exploit based on the provided news."}
-{"timestamp":"2026-02-28T15:55:30.206Z","type":"verify","message":"Will Trump nominate Kevin Warsh as the next Fed ch → PASS (80%): The news about Rafah is entirely unrelated to Trump's potential Fed chair nomination and therefore has no impact on the probability. The claimed fair price of 85.0¢ is significantly lower than the current market price of 92.7¢, suggesting the market is overpricing 'YES'. However, the resolution date is far in the future (2026), making any current fair price highly speculative and subject to numerous unforeseen political developments. While the edge is attractive, the long timeframe and the inherent uncertainty of political predictions make this a high-risk trade based on a potentially unrealistic 'fair price' that cannot be reliably estimated so far out. Liquidity is sufficient, but the fundamental uncertainty outweighs this."}
-{"timestamp":"2026-02-28T15:55:30.206Z","type":"scan","message":"═══ Scan #285 complete: 0 trades, $0.00 spent ═══"}
-{"timestamp":"2026-02-28T15:55:30.684Z","type":"error","message":"Dashboard push failed: Command failed: cd /data/workspace/polymarket-arb && git add -A && git commit -m 'auto-update' --all"}
 {"timestamp":"2026-02-28T16:09:53.907Z","type":"scan","message":"═══ Scan #286 starting ═══"}
 {"timestamp":"2026-02-28T16:09:55.303Z","type":"balance","message":"Bankroll: $559.33 (cash: $559.33, deployed: $0.00)"}
 {"timestamp":"2026-02-28T16:09:55.303Z","type":"news","message":"Scanning for breaking news..."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-02-28T18:36:22.350Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Viktor Orbá…\" — 35.5% YES, 24h vol $299.9K"}
 {"timestamp":"2026-02-28T18:36:22.351Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $14.9K"}
 {"timestamp":"2026-02-28T18:36:22.351Z","type":"decision","message":"Flow signal: \"Will the highest temperature in New York City be 31°F …\" — buyers dominating ($2.8K net), 1 traders, 9s ago"}
+{"timestamp":"2026-02-28T18:41:22.432Z","type":"scan","message":"Cycle #7 — 762 markets | 12 active events | $30.5K recent flow"}
+{"timestamp":"2026-02-28T18:41:22.432Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $13.4K in 7 trades, NET BUY, biggest $5.6K, 5m ago"}
+{"timestamp":"2026-02-28T18:41:22.432Z","type":"think","message":"↑ Price shift: \"Will Discord not IPO by June 30, 2026?\" moved 1.5% since last scan (20.0% → 21.5%)"}
+{"timestamp":"2026-02-28T18:41:22.432Z","type":"think","message":"↑ Daily mover: \"Will Russia capture Rodynske by March 31?\" ↑23.5% today, ↑18.0% 1w, 24h vol $5.2K"}
+{"timestamp":"2026-02-28T18:41:22.432Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 18.5%), 24h vol $15.5K"}
+{"timestamp":"2026-02-28T18:41:22.432Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Kostyantynivka by December 31, 202…\" ↓1.5% in 1h, now 88.5%, vol $61.1K"}
