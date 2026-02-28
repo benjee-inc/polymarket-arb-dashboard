@@ -46,11 +46,13 @@ for (const bet of bets) {
     console.log(`   Result: ${JSON.stringify(result).slice(0,200)}\n`);
     results.push({ market: bet.market, shares, currentPrice, sellValue, ...result });
 
-    // Update state
-    bet.status = 'closed';
-    bet.exitPrice = currentPrice;
-    bet.exitTimestamp = new Date().toISOString();
-    bet.realizedPnl = sellValue - bet.amount;
+    // Only update state on actual success (not 403/error)
+    if (result.success && !result.error && result.status !== 403) {
+      bet.status = 'closed';
+      bet.exitPrice = currentPrice;
+      bet.exitTimestamp = new Date().toISOString();
+      bet.realizedPnl = sellValue - bet.amount;
+    }
 
     // Small delay to avoid rate limits
     await new Promise(r => setTimeout(r, 1500));
