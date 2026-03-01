@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T12:21:36.073Z","type":"scan","message":"Cycle #4 — 751 markets | 13 active events | $28.0K recent flow"}
-{"timestamp":"2026-03-01T12:21:36.073Z","type":"think","message":"Live flow: \"Will Elon Musk post 500-519 tweets from February 27 to…\" — $3.0K in 1 trades, NET BUY (strong bias), biggest $3.0K, 2m ago"}
-{"timestamp":"2026-03-01T12:21:36.073Z","type":"think","message":"↓ Price shift: \"No one announced as next James Bond?\" moved 5.0% since last scan (57.5% → 52.5%)"}
-{"timestamp":"2026-03-01T12:21:36.073Z","type":"think","message":"Wide spread: \"Will Matt Mahan win the California Governor Election i…\" — bid 14.0% / ask 21.0% (7.0% spread), liq $424.4K"}
-{"timestamp":"2026-03-01T12:21:36.073Z","type":"think","message":"Deep value: \"Will Trump nominate Stephen Miran as the next Fed chai…\" — Yes @ 0.6¢, liq $50.4M, 24h vol $7.2M"}
-{"timestamp":"2026-03-01T12:21:36.073Z","type":"decision","message":"Flow signal: \"Extended FDV above $2B one day after launch?\" — buyers dominating ($2.8K net), 2 traders, 9s ago"}
 {"timestamp":"2026-03-01T12:22:27.512Z","type":"scan","message":"Cycle #1 — 751 markets | 13 active events | $28.0K recent flow"}
 {"timestamp":"2026-03-01T12:22:27.513Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by March 31?\" — $9.1K in 2 trades, NET SELL (strong bias), biggest $8.5K, 2m ago"}
 {"timestamp":"2026-03-01T12:22:27.513Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.0%), 24h vol $6.9K"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T14:08:25.631Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
 {"timestamp":"2026-03-01T14:08:25.631Z","type":"palpha","message":"[network] 382 structural violations across 789 markets."}
 {"timestamp":"2026-03-01T14:08:25.631Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
+{"timestamp":"2026-03-01T14:10:41.929Z","type":"scan","message":"Cycle #20 — 753 markets | 10 active events | $22.4K recent flow"}
+{"timestamp":"2026-03-01T14:10:41.929Z","type":"think","message":"Live flow: \"Will Iran name a successor to Khamenei by March 1?\" — $3.2K in 2 trades, NET BUY (strong bias), biggest $2.2K, 5m ago"}
+{"timestamp":"2026-03-01T14:10:41.929Z","type":"think","message":"↑ Price shift: \"Will Aston Villa finish in the top 4 of the EPL 2025–2…\" moved 1.8% since last scan (37.9% → 39.6%)"}
+{"timestamp":"2026-03-01T14:10:41.929Z","type":"think","message":"Tight race: \"Starmer out by June 30, 2026?\" — 49.5% YES, 24h vol $482.7K, ↑0.5% 1h"}
+{"timestamp":"2026-03-01T14:10:41.929Z","type":"think","message":"↑ Daily mover: \"Will Russia capture Rodynske by March 31?\" ↑23.5% today, ↑18.0% 1w, 24h vol $9.4K"}
+{"timestamp":"2026-03-01T14:10:41.929Z","type":"decision","message":"Flow signal: \"Will Iran close the Strait of Hormuz by March 31?\" — buyers dominating ($2.5K net), 2 traders, 5m ago"}
