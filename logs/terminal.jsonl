@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T13:50:41.888Z","type":"scan","message":"Cycle #16 — 753 markets | 11 active events | $27.4K recent flow"}
-{"timestamp":"2026-03-01T13:50:41.888Z","type":"think","message":"Live flow: \"Will the US strike Nigeria next?\" — $4.1K in 3 trades, NET BUY (strong bias), biggest $2.0K, 5m ago"}
-{"timestamp":"2026-03-01T13:50:41.888Z","type":"think","message":"↓ Price shift: \"Will Discord’s market cap be less than $15B at market …\" moved 6.5% since last scan (40.5% → 34.0%)"}
-{"timestamp":"2026-03-01T13:50:41.888Z","type":"think","message":"Volume surge: \"Will the Seattle Kraken win the Pacific Division?\" — $36.3K in 24h (1051% of lifetime), price 1.1%"}
-{"timestamp":"2026-03-01T13:50:41.888Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 34h to resolution, 77.5% YES, ↑0.5% this hour, vol $111.3K"}
-{"timestamp":"2026-03-01T13:50:41.888Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Kostyantynivka by December 31, 202…\" ↓1.5% in 1h, now 88.5%, vol $29.0K"}
 {"timestamp":"2026-03-01T13:53:23.549Z","type":"palpha","message":"Evaluated 24 raw opportunities from scanner signals"}
 {"timestamp":"2026-03-01T13:53:23.549Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
 {"timestamp":"2026-03-01T13:53:23.549Z","type":"palpha","message":"[network] 379 structural violations across 789 markets."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T16:01:49.392Z","type":"think","message":"Volume surge: \"Will the Seattle Kraken win the Pacific Division?\" — $36.3K in 24h (1051% of lifetime), price 2.5%"}
 {"timestamp":"2026-03-01T16:01:49.393Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 32h to resolution, 78.0% YES, ↑0.5% this hour, vol $111.3K"}
 {"timestamp":"2026-03-01T16:01:49.393Z","type":"decision","message":"Hourly momentum: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h, now 2.5%, vol $6.9K"}
+{"timestamp":"2026-03-01T16:06:49.251Z","type":"scan","message":"Cycle #10 — 753 markets | 7 active events | $21.9K recent flow"}
+{"timestamp":"2026-03-01T16:06:49.251Z","type":"think","message":"Live flow: \"S&P 500 (SPX) Opens Up or Down on March 2?\" — $8.5K in 1 trades, NET BUY (strong bias), biggest $8.5K, 1m ago"}
+{"timestamp":"2026-03-01T16:06:49.251Z","type":"think","message":"↓ Price shift: \"Israel x Hamas ceasefire cancelled by June 30?\" moved 0.5% since last scan (54.5% → 54.0%)"}
+{"timestamp":"2026-03-01T16:06:49.252Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 32h to resolution, 1.0% YES, ↑0.1% this hour, vol $111.3K"}
+{"timestamp":"2026-03-01T16:06:49.252Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 91.1% / ask 96.2% (5.1% spread), liq $1.8M"}
+{"timestamp":"2026-03-01T16:06:49.252Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Kostyantynivka by December 31, 202…\" ↓1.5% in 1h, now 88.5%, vol $29.0K"}
