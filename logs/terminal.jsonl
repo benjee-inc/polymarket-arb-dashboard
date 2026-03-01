@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-01T13:33:29.340Z","type":"palpha","message":"Evaluated 25 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T13:33:29.340Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
-{"timestamp":"2026-03-01T13:33:29.340Z","type":"palpha","message":"[network] 380 structural violations across 789 markets."}
-{"timestamp":"2026-03-01T13:33:29.341Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
 {"timestamp":"2026-03-01T13:35:41.905Z","type":"scan","message":"Cycle #13 — 753 markets | 11 active events | $19.9K recent flow"}
 {"timestamp":"2026-03-01T13:35:41.905Z","type":"think","message":"Live flow: \"Will Elon Musk post <40 tweets from March 2 to March 4…\" — $3.5K in 1 trades, NET BUY (strong bias), biggest $3.5K, 58s ago"}
 {"timestamp":"2026-03-01T13:35:41.905Z","type":"think","message":"↑ Price shift: \"Israel x Syria security agreement by June 30?\" moved 1.0% since last scan (35.5% → 36.5%)"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-01T15:36:49.232Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 88.1% / ask 94.1% (6.0% spread), liq $1.8M"}
 {"timestamp":"2026-03-01T15:36:49.232Z","type":"think","message":"Deep value: \"Will Trump nominate Stephen Miran as the next Fed chai…\" — Yes @ 0.5¢, liq $50.3M, 24h vol $7.2M"}
 {"timestamp":"2026-03-01T15:36:49.232Z","type":"decision","message":"Flow signal: \"Will Wes Moore win the 2028 Democratic presidential no…\" — sellers dominating ($3.8K net), 4 traders, 50s ago"}
+{"timestamp":"2026-03-01T15:41:25.374Z","type":"palpha","message":"Evaluated 34 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-01T15:41:25.374Z","type":"palpha","message":"[palpha] Timeout after 15s. Proceeding with raw scores."}
+{"timestamp":"2026-03-01T15:41:25.374Z","type":"palpha","message":"[network] 381 structural violations across 789 markets."}
+{"timestamp":"2026-03-01T15:41:25.374Z","type":"trade","message":"[auto-trade] EXECUTED: YES $5 on \"Will Drake release Iceman before GTA VI?\" @ 91.1% | Wide spread: 6.0% spread (bid 88.1% / ask 94.1%), limit @ 91.1% | order=0x5b011857634bb444c0fab6253af66a1a611164a6421286ec783fe8e39d29b685"}
