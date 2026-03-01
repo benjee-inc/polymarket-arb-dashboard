@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-01T12:22:27.513Z","type":"decision","message":"Flow signal: \"Will Elon Musk post 500-519 tweets from February 27 to…\" — buyers dominating ($3.0K net), 1 traders, 3m ago"}
-{"timestamp":"2026-03-01T12:27:27.582Z","type":"scan","message":"Cycle #2 — 751 markets | 16 active events | $98.2K recent flow"}
-{"timestamp":"2026-03-01T12:27:27.582Z","type":"think","message":"Live flow: \"Will the Republican Party control the House after the …\" — $20.8K in 2 trades, NET SELL (strong bias), biggest $10.7K, 6s ago"}
-{"timestamp":"2026-03-01T12:27:27.582Z","type":"think","message":"↑ Price shift: \"Israel x Hamas ceasefire cancelled by June 30?\" moved 3.5% since last scan (59.0% → 62.5%)"}
-{"timestamp":"2026-03-01T12:27:27.582Z","type":"think","message":"Volume surge: \"Will the Seattle Kraken win the Pacific Division?\" — $36.3K in 24h (1051% of lifetime), price 1.9%"}
 {"timestamp":"2026-03-01T12:27:27.582Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 36h to resolution, 78.0% YES, ↑0.5% this hour, vol $111.3K"}
 {"timestamp":"2026-03-01T12:27:27.582Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $72,000 on March 1?\" — sellers dominating ($13.0K net), 1 traders, 8s ago"}
 {"timestamp":"2026-03-01T12:32:27.476Z","type":"scan","message":"Cycle #3 — 751 markets | 16 active events | $98.2K recent flow"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-01T14:13:23.254Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
 {"timestamp":"2026-03-01T14:13:23.254Z","type":"palpha","message":"[network] 381 structural violations across 789 markets."}
 {"timestamp":"2026-03-01T14:13:23.254Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
+{"timestamp":"2026-03-01T14:14:43.492Z","type":"scan","message":"Cycle #1 — 753 markets | 4 active events | $34.0K recent flow"}
+{"timestamp":"2026-03-01T14:14:43.492Z","type":"think","message":"Live flow: \"Will the Fed increase interest rates by 25+ bps after …\" — $25.7K in 17 trades, NET BUY (strong bias), biggest $3.1K, 6s ago"}
+{"timestamp":"2026-03-01T14:14:43.492Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.0%), 24h vol $6.9K"}
+{"timestamp":"2026-03-01T14:14:43.492Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 1.4%"}
+{"timestamp":"2026-03-01T14:14:43.493Z","type":"decision","message":"Flow signal: \"Will Iran close the Strait of Hormuz by March 31?\" — buyers dominating ($7.3K net), 2 traders, 14s ago"}
