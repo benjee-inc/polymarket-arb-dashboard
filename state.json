@@ -1,5 +1,5 @@
 {
-  "bankroll": 395.70315,
+  "bankroll": 348.589184,
   "bets": [
     {
       "conditionId": "0x3d83f444f62b2afe0cb28485073cbf3617400d58813cd351cd4d242560ac47f2",
@@ -10,7 +10,7 @@
       "amount": 15,
       "shares": 15000,
       "source": "bot",
-      "timestamp": "2026-03-01T20:59:56.472Z"
+      "timestamp": "2026-03-01T21:04:56.455Z"
     },
     {
       "conditionId": "0x7130b8d9bb59393ede189911ba57783debc1900dffb8143c3cb0027952e2f7df",
@@ -21,7 +21,7 @@
       "amount": 1.33,
       "shares": 666.49,
       "source": "bot",
-      "timestamp": "2026-03-01T20:59:56.472Z"
+      "timestamp": "2026-03-01T21:04:56.456Z"
     },
     {
       "conditionId": "0xaf9d0e448129a9f657f851d49495ba4742055d80e0ef1166ba0ee81d4d594214",
@@ -32,7 +32,7 @@
       "amount": 1,
       "shares": 43.58,
       "source": "bot",
-      "timestamp": "2026-03-01T20:59:56.472Z"
+      "timestamp": "2026-03-01T21:04:56.456Z"
     },
     {
       "conditionId": "0xb867a8daad6ce355fae60fa0870f3122fc9fb5adba7e06b9fd8cadfe2443d884",
@@ -43,7 +43,7 @@
       "amount": 1.75,
       "shares": 27.27,
       "source": "bot",
-      "timestamp": "2026-03-01T20:59:56.472Z"
+      "timestamp": "2026-03-01T21:04:56.456Z"
     },
     {
       "conditionId": "0x53edf2e7bd4238af99755ccf89538140ae9e238640c2a40548c1b04228869e82",
@@ -54,7 +54,7 @@
       "amount": 6.16,
       "shares": 10.1,
       "source": "bot",
-      "timestamp": "2026-03-01T20:59:56.472Z"
+      "timestamp": "2026-03-01T21:04:56.456Z"
     },
     {
       "conditionId": "0xb81bc42ebe439b9c1c7b13a6c3ed36f2ac5f70f4385286e552fec734ed126ee0",
@@ -65,7 +65,7 @@
       "amount": 2.3,
       "shares": 4.04,
       "source": "bot",
-      "timestamp": "2026-03-01T20:59:56.472Z"
+      "timestamp": "2026-03-01T21:04:56.456Z"
     }
   ],
   "closedBets": [
@@ -683,6 +683,6 @@
   ],
   "deployed": 27.54,
   "realizedPnl": 119.051,
-  "scanCount": 3,
-  "lastUpdate": "2026-03-01T20:59:56.473Z"
+  "scanCount": 4,
+  "lastUpdate": "2026-03-01T21:04:56.456Z"
 }
