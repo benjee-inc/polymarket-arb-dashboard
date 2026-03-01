@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T13:45:41.927Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 1.4%"}
-{"timestamp":"2026-03-01T13:45:41.927Z","type":"decision","message":"Flow signal: \"Iran strike on Qatar by March 31, 2026?\" — buyers dominating ($6.7K net), 1 traders, 14s ago"}
-{"timestamp":"2026-03-01T13:48:34.683Z","type":"palpha","message":"Evaluated 24 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T13:48:34.683Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
-{"timestamp":"2026-03-01T13:48:34.683Z","type":"palpha","message":"[network] 380 structural violations across 789 markets."}
-{"timestamp":"2026-03-01T13:48:34.683Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
 {"timestamp":"2026-03-01T13:50:41.888Z","type":"scan","message":"Cycle #16 — 753 markets | 11 active events | $27.4K recent flow"}
 {"timestamp":"2026-03-01T13:50:41.888Z","type":"think","message":"Live flow: \"Will the US strike Nigeria next?\" — $4.1K in 3 trades, NET BUY (strong bias), biggest $2.0K, 5m ago"}
 {"timestamp":"2026-03-01T13:50:41.888Z","type":"think","message":"↓ Price shift: \"Will Discord’s market cap be less than $15B at market …\" moved 6.5% since last scan (40.5% → 34.0%)"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T15:56:49.384Z","type":"think","message":"↓ Hourly mover: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h (now 51.5%), 24h vol $9.4K"}
 {"timestamp":"2026-03-01T15:56:49.384Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 2.8%"}
 {"timestamp":"2026-03-01T15:56:49.384Z","type":"decision","message":"Flow signal: \"Will the US confirm that aliens exist before 2027?\" — sellers dominating ($2.4K net), 1 traders, 1m ago"}
+{"timestamp":"2026-03-01T16:01:49.392Z","type":"scan","message":"Cycle #9 — 753 markets | 14 active events | $34.2K recent flow"}
+{"timestamp":"2026-03-01T16:01:49.392Z","type":"think","message":"Live flow: \"Will the price of Bitcoin be above $62,000 on March 1?\" — $7.3K in 3 trades, NET SELL, biggest $2.7K, 5m ago"}
+{"timestamp":"2026-03-01T16:01:49.392Z","type":"think","message":"↑ Price shift: \"Will Fulham finish in the top 4 of the EPL 2025–26 sta…\" moved 39.3% since last scan (3.3% → 42.5%)"}
+{"timestamp":"2026-03-01T16:01:49.392Z","type":"think","message":"Volume surge: \"Will the Seattle Kraken win the Pacific Division?\" — $36.3K in 24h (1051% of lifetime), price 2.5%"}
+{"timestamp":"2026-03-01T16:01:49.393Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 32h to resolution, 78.0% YES, ↑0.5% this hour, vol $111.3K"}
+{"timestamp":"2026-03-01T16:01:49.393Z","type":"decision","message":"Hourly momentum: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h, now 2.5%, vol $6.9K"}
