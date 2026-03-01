@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T10:07:16.192Z","type":"trade","message":"[auto-trader] ERROR: \"Will 11 Fed rate cuts happen in 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.192Z","type":"trade","message":"[auto-trader] ERROR: \"Will Abelardo de la Espriella win the 1st round of\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.193Z","type":"trade","message":"[auto-trader] ERROR: \"Will Trump nominate himself as the next Fed chair?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.194Z","type":"trade","message":"[auto-trader] ERROR: \"Will Delroy Lindo win Best Supporting Actor at the\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.195Z","type":"trade","message":"[auto-trader] ERROR: \"Will Elle Fanning win Best Supporting Actress at t\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.195Z","type":"trade","message":"[auto-trader] ERROR: \"Will 9 Fed rate cuts happen in 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.196Z","type":"trade","message":"[auto-trader] ERROR: \"Will 10 Fed rate cuts happen in 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.197Z","type":"trade","message":"[auto-trader] ERROR: \"Will 11 Fed rate cuts happen in 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.198Z","type":"trade","message":"[auto-trader] ERROR: \"Will 4 Fed rate cuts happen in 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T12:22:27.513Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.0%), 24h vol $6.9K"}
 {"timestamp":"2026-03-01T12:22:27.513Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 2.4%"}
 {"timestamp":"2026-03-01T12:22:27.513Z","type":"decision","message":"Flow signal: \"Will Elon Musk post 500-519 tweets from February 27 to…\" — buyers dominating ($3.0K net), 1 traders, 3m ago"}
+{"timestamp":"2026-03-01T12:27:27.582Z","type":"scan","message":"Cycle #2 — 751 markets | 16 active events | $98.2K recent flow"}
+{"timestamp":"2026-03-01T12:27:27.582Z","type":"think","message":"Live flow: \"Will the Republican Party control the House after the …\" — $20.8K in 2 trades, NET SELL (strong bias), biggest $10.7K, 6s ago"}
+{"timestamp":"2026-03-01T12:27:27.582Z","type":"think","message":"↑ Price shift: \"Israel x Hamas ceasefire cancelled by June 30?\" moved 3.5% since last scan (59.0% → 62.5%)"}
+{"timestamp":"2026-03-01T12:27:27.582Z","type":"think","message":"Volume surge: \"Will the Seattle Kraken win the Pacific Division?\" — $36.3K in 24h (1051% of lifetime), price 1.9%"}
+{"timestamp":"2026-03-01T12:27:27.582Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 36h to resolution, 78.0% YES, ↑0.5% this hour, vol $111.3K"}
+{"timestamp":"2026-03-01T12:27:27.582Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $72,000 on March 1?\" — sellers dominating ($13.0K net), 1 traders, 8s ago"}
