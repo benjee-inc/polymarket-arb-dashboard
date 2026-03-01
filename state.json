@@ -10,7 +10,7 @@
       "amount": 15,
       "shares": 15000,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     },
     {
       "conditionId": "0x7130b8d9bb59393ede189911ba57783debc1900dffb8143c3cb0027952e2f7df",
@@ -21,7 +21,7 @@
       "amount": 1.33,
       "shares": 666.49,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     },
     {
       "conditionId": "0x641830333ea2219982ecfc1819e46eb37cd07fa78c3e4da026ac068a6617e508",
@@ -32,7 +32,7 @@
       "amount": 14.98,
       "shares": 439.302,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     },
     {
       "conditionId": "0x9031561489f77ba1f89c0b963170a6853c39840e6e89a6a658a05d12b60a1ff0",
@@ -43,7 +43,7 @@
       "amount": 14.99,
       "shares": 387.231,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     },
     {
       "conditionId": "0xca2059450e49cc391ea49c5f205dce7f1a2af63b87d7a3156cd446592ebb7143",
@@ -54,7 +54,7 @@
       "amount": 14.97,
       "shares": 385.8361,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     },
     {
       "conditionId": "0x731178908877c9a1a00978facbdf08d0b664cb0e0b6cec70aa2fe0b5afcebeb6",
@@ -65,7 +65,7 @@
       "amount": 14.99,
       "shares": 367.5225,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     },
     {
       "conditionId": "0x5cfd3b9eaffbe2883439c5857f11def395dd3e607bd22b6dbfb861fad83a452d",
@@ -76,7 +76,7 @@
       "amount": 14.99,
       "shares": 153.8946,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     },
     {
       "conditionId": "0xaf9d0e448129a9f657f851d49495ba4742055d80e0ef1166ba0ee81d4d594214",
@@ -87,7 +87,7 @@
       "amount": 1,
       "shares": 43.58,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     },
     {
       "conditionId": "0xb867a8daad6ce355fae60fa0870f3122fc9fb5adba7e06b9fd8cadfe2443d884",
@@ -98,7 +98,7 @@
       "amount": 1.75,
       "shares": 27.27,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     },
     {
       "conditionId": "0x53edf2e7bd4238af99755ccf89538140ae9e238640c2a40548c1b04228869e82",
@@ -109,7 +109,7 @@
       "amount": 6.16,
       "shares": 10.1,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     },
     {
       "conditionId": "0xb81bc42ebe439b9c1c7b13a6c3ed36f2ac5f70f4385286e552fec734ed126ee0",
@@ -120,7 +120,7 @@
       "amount": 2.3,
       "shares": 4.04,
       "source": "bot",
-      "timestamp": "2026-03-01T22:24:55.035Z"
+      "timestamp": "2026-03-01T22:29:54.923Z"
     }
   ],
   "closedBets": [
@@ -708,9 +708,9 @@
       "price": 0.0341,
       "amount": 14.98,
       "shares": 439.302,
-      "livePrice": 0.025,
-      "livePnl": -3.998,
-      "livePnlPct": -26.69,
+      "livePrice": 0.0265,
+      "livePnl": -3.339,
+      "livePnlPct": -22.29,
       "hoursHeld": 0,
       "conditionId": "0x641830333ea2219982ecfc1819e46eb37cd07fa78c3e4da026ac068a6617e508"
     },
@@ -732,9 +732,9 @@
       "price": 0.0388,
       "amount": 14.97,
       "shares": 385.8361,
-      "livePrice": 0.028,
-      "livePnl": -4.167,
-      "livePnlPct": -27.84,
+      "livePrice": 0.0275,
+      "livePnl": -4.36,
+      "livePnlPct": -29.12,
       "hoursHeld": 0,
       "conditionId": "0xca2059450e49cc391ea49c5f205dce7f1a2af63b87d7a3156cd446592ebb7143"
     },
@@ -756,9 +756,9 @@
       "price": 0.0974,
       "amount": 14.99,
       "shares": 153.8946,
-      "livePrice": 0.0495,
-      "livePnl": -7.372,
-      "livePnlPct": -49.18,
+      "livePrice": 0.0485,
+      "livePnl": -7.525,
+      "livePnlPct": -50.21,
       "hoursHeld": 0,
       "conditionId": "0x5cfd3b9eaffbe2883439c5857f11def395dd3e607bd22b6dbfb861fad83a452d"
     },
@@ -813,6 +813,6 @@
   ],
   "deployed": 102.45999999999998,
   "realizedPnl": 296.493,
-  "scanCount": 15,
-  "lastUpdate": "2026-03-01T22:24:55.035Z"
+  "scanCount": 16,
+  "lastUpdate": "2026-03-01T22:29:54.923Z"
 }
