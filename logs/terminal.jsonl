@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T14:29:43.807Z","type":"think","message":"Wide spread: \"Will Tom Steyer win the California Governor Election i…\" — bid 5.7% / ask 13.2% (7.5% spread), liq $423.5K"}
-{"timestamp":"2026-03-01T14:29:43.807Z","type":"think","message":"Deep value: \"Will Trump nominate Stephen Miran as the next Fed chai…\" — Yes @ 0.5¢, liq $50.3M, 24h vol $7.2M"}
-{"timestamp":"2026-03-01T14:29:43.807Z","type":"decision","message":"Flow signal: \"Will the US strike Yemen next?\" — buyers dominating ($3.1K net), 1 traders, 5m ago"}
-{"timestamp":"2026-03-01T14:34:43.590Z","type":"scan","message":"Cycle #5 — 753 markets | 10 active events | $16.8K recent flow"}
-{"timestamp":"2026-03-01T14:34:43.590Z","type":"think","message":"Live flow: \"Will Microsoft be the largest company in the world by …\" — $3.3K in 3 trades, NET BUY (strong bias), biggest $1.6K, 6s ago"}
-{"timestamp":"2026-03-01T14:34:43.590Z","type":"think","message":"↓ Price shift: \"Israel x Hamas ceasefire cancelled by June 30?\" moved 8.0% since last scan (63.5% → 55.5%)"}
 {"timestamp":"2026-03-01T14:34:43.590Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.7¢, liq $50.3M, 24h vol $7.2M"}
 {"timestamp":"2026-03-01T14:34:43.590Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.0% YES, 24h vol $4.2M"}
 {"timestamp":"2026-03-01T14:34:43.590Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 50.5%, vol $9.4K"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T16:56:43.788Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 31h to resolution, 0.8% YES, ↑0.1% this hour, vol $77.0K"}
 {"timestamp":"2026-03-01T16:56:43.788Z","type":"think","message":"Wide spread: \"New Playboi Carti Album before GTA VI?\" — bid 47.0% / ask 52.0% (5.0% spread), liq $1.7M"}
 {"timestamp":"2026-03-01T16:56:43.788Z","type":"decision","message":"Flow signal: \"Will Trump nominate Rick Rieder as the next Fed chair?\" — sellers dominating ($2.2K net), 1 traders, 5m ago"}
+{"timestamp":"2026-03-01T17:01:43.814Z","type":"scan","message":"Cycle #4 — 657 markets | 10 active events | $48.8K recent flow"}
+{"timestamp":"2026-03-01T17:01:43.814Z","type":"think","message":"Live flow: \"Will the price of Bitcoin be between $66,000 and $68,0…\" — $15.7K in 4 trades, NET BUY (strong bias), biggest $6.6K, 54s ago"}
+{"timestamp":"2026-03-01T17:01:43.814Z","type":"think","message":"↓ Price shift: \"BitBoy convicted?\" moved 1.6% since last scan (26.0% → 24.4%)"}
+{"timestamp":"2026-03-01T17:01:43.814Z","type":"think","message":"Wide spread: \"Will GPT-6 be released before GTA VI?\" — bid 62.0% / ask 66.0% (4.0% spread), liq $1.7M"}
+{"timestamp":"2026-03-01T17:01:43.814Z","type":"think","message":"Deep value: \"Will Trump nominate Stephen Miran as the next Fed chai…\" — Yes @ 0.5¢, liq $50.5M, 24h vol $6.2M"}
+{"timestamp":"2026-03-01T17:01:43.814Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 46.5%, vol $10.5K"}
