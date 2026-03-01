@@ -1,5 +1,5 @@
 {
-  "bankroll": 348.589184,
+  "bankroll": 318.589185,
   "bets": [
     {
       "conditionId": "0x3d83f444f62b2afe0cb28485073cbf3617400d58813cd351cd4d242560ac47f2",
@@ -10,7 +10,18 @@
       "amount": 15,
       "shares": 15000,
       "source": "bot",
-      "timestamp": "2026-03-01T21:04:56.455Z"
+      "timestamp": "2026-03-01T21:09:56.396Z"
+    },
+    {
+      "conditionId": "0x30bd076067c87467e2437613f4ac9ce7b0ff529ffd1b9c9a40541ffa892dfed5",
+      "tokenId": "70229766762697056808855464415682446761070483996004597824648287788759816943157",
+      "market": "Will Trump and Putin meet next in Australia?",
+      "side": "Yes",
+      "price": 0.0054,
+      "amount": 14.74,
+      "shares": 2729.861,
+      "source": "bot",
+      "timestamp": "2026-03-01T21:09:56.396Z"
     },
     {
       "conditionId": "0x7130b8d9bb59393ede189911ba57783debc1900dffb8143c3cb0027952e2f7df",
@@ -21,7 +32,29 @@
       "amount": 1.33,
       "shares": 666.49,
       "source": "bot",
-      "timestamp": "2026-03-01T21:04:56.456Z"
+      "timestamp": "2026-03-01T21:09:56.396Z"
+    },
+    {
+      "conditionId": "0xca2059450e49cc391ea49c5f205dce7f1a2af63b87d7a3156cd446592ebb7143",
+      "tokenId": "47340907435745971774936414277275769447649316984952415792631691131085629447335",
+      "market": "Will Trump and Putin meet next in Belarus?",
+      "side": "Yes",
+      "price": 0.0388,
+      "amount": 14.97,
+      "shares": 385.8361,
+      "source": "bot",
+      "timestamp": "2026-03-01T21:09:56.396Z"
+    },
+    {
+      "conditionId": "0x5cfd3b9eaffbe2883439c5857f11def395dd3e607bd22b6dbfb861fad83a452d",
+      "tokenId": "98760969144385670571979323488290975809286475082222252683212500605390137953258",
+      "market": "Will Trump and Putin meet next in another country?",
+      "side": "Yes",
+      "price": 0.0974,
+      "amount": 14.99,
+      "shares": 153.8946,
+      "source": "bot",
+      "timestamp": "2026-03-01T21:09:56.396Z"
     },
     {
       "conditionId": "0xaf9d0e448129a9f657f851d49495ba4742055d80e0ef1166ba0ee81d4d594214",
@@ -32,7 +65,7 @@
       "amount": 1,
       "shares": 43.58,
       "source": "bot",
-      "timestamp": "2026-03-01T21:04:56.456Z"
+      "timestamp": "2026-03-01T21:09:56.396Z"
     },
     {
       "conditionId": "0xb867a8daad6ce355fae60fa0870f3122fc9fb5adba7e06b9fd8cadfe2443d884",
@@ -43,7 +76,7 @@
       "amount": 1.75,
       "shares": 27.27,
       "source": "bot",
-      "timestamp": "2026-03-01T21:04:56.456Z"
+      "timestamp": "2026-03-01T21:09:56.396Z"
     },
     {
       "conditionId": "0x53edf2e7bd4238af99755ccf89538140ae9e238640c2a40548c1b04228869e82",
@@ -54,7 +87,7 @@
       "amount": 6.16,
       "shares": 10.1,
       "source": "bot",
-      "timestamp": "2026-03-01T21:04:56.456Z"
+      "timestamp": "2026-03-01T21:09:56.396Z"
     },
     {
       "conditionId": "0xb81bc42ebe439b9c1c7b13a6c3ed36f2ac5f70f4385286e552fec734ed126ee0",
@@ -65,7 +98,7 @@
       "amount": 2.3,
       "shares": 4.04,
       "source": "bot",
-      "timestamp": "2026-03-01T21:04:56.456Z"
+      "timestamp": "2026-03-01T21:09:56.396Z"
     }
   ],
   "closedBets": [
@@ -621,6 +654,18 @@
       "conditionId": "0x3d83f444f62b2afe0cb28485073cbf3617400d58813cd351cd4d242560ac47f2"
     },
     {
+      "market": "Will Trump and Putin meet next in Australia?",
+      "side": "Yes",
+      "price": 0.0054,
+      "amount": 14.74,
+      "shares": 2729.861,
+      "livePrice": 0.07,
+      "livePnl": 176.349,
+      "livePnlPct": 1196.3,
+      "hoursHeld": 0,
+      "conditionId": "0x30bd076067c87467e2437613f4ac9ce7b0ff529ffd1b9c9a40541ffa892dfed5"
+    },
+    {
       "market": "Will the U.S. collect between $200b and $500b in revenue in 2025?",
       "side": "Yes",
       "price": 0.002,
@@ -631,6 +676,30 @@
       "livePnlPct": 0,
       "hoursHeld": 0,
       "conditionId": "0x7130b8d9bb59393ede189911ba57783debc1900dffb8143c3cb0027952e2f7df"
+    },
+    {
+      "market": "Will Trump and Putin meet next in Belarus?",
+      "side": "Yes",
+      "price": 0.0388,
+      "amount": 14.97,
+      "shares": 385.8361,
+      "livePrice": 0.0275,
+      "livePnl": -4.36,
+      "livePnlPct": -29.12,
+      "hoursHeld": 0,
+      "conditionId": "0xca2059450e49cc391ea49c5f205dce7f1a2af63b87d7a3156cd446592ebb7143"
+    },
+    {
+      "market": "Will Trump and Putin meet next in another country?",
+      "side": "Yes",
+      "price": 0.0974,
+      "amount": 14.99,
+      "shares": 153.8946,
+      "livePrice": 0.0875,
+      "livePnl": -1.524,
+      "livePnlPct": -10.16,
+      "hoursHeld": 0,
+      "conditionId": "0x5cfd3b9eaffbe2883439c5857f11def395dd3e607bd22b6dbfb861fad83a452d"
     },
     {
       "market": "Will Trump deport less than 250,000?",
@@ -681,8 +750,8 @@
       "conditionId": "0xb81bc42ebe439b9c1c7b13a6c3ed36f2ac5f70f4385286e552fec734ed126ee0"
     }
   ],
-  "deployed": 27.54,
+  "deployed": 72.24,
   "realizedPnl": 119.051,
-  "scanCount": 4,
-  "lastUpdate": "2026-03-01T21:04:56.456Z"
+  "scanCount": 5,
+  "lastUpdate": "2026-03-01T21:09:56.396Z"
 }
