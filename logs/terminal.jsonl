@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-01T21:09:40.556Z","type":"think","message":"↑ Price shift: \"Will Trump and Putin meet next in Australia?\" moved 6.9% since last scan (0.1% → 7.0%)"}
-{"timestamp":"2026-03-01T21:09:40.556Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.7¢, liq $50.0M, 24h vol $6.2M"}
-{"timestamp":"2026-03-01T21:09:40.556Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.2% YES, 24h vol $4.9M"}
-{"timestamp":"2026-03-01T21:09:40.556Z","type":"decision","message":"Flow signal: \"Khamenei out as Supreme Leader of Iran by March 31?\" — sellers dominating ($7.9K net), 1 traders, 57s ago"}
-{"timestamp":"2026-03-01T21:14:56.534Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T21:14:56.535Z","type":"palpha","message":"[network] 296 structural violations across 687 markets."}
-{"timestamp":"2026-03-01T21:14:56.535Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 94.2% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.5%) vs \"Will Vicky "}
-{"timestamp":"2026-03-01T21:14:56.535Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.6% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.5%) vs \"Will Enriqu"}
-{"timestamp":"2026-03-01T21:14:56.535Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 94.0% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.5%) vs \"Will Vicky "}
-{"timestamp":"2026-03-01T21:14:56.535Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 94.3% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.5%) vs \"Will Enriqu"}
-{"timestamp":"2026-03-01T21:14:56.535Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.930 | Highly similar markets (60% overlap) with 93.1% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.5%) vs \"Will Claudi"}
-{"timestamp":"2026-03-01T21:14:56.535Z","type":"palpha","message":"[auto-trade] Cycle 1: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
-{"timestamp":"2026-03-01T21:14:59.822Z","type":"trade","message":"[auto-sell] TAKE PROFIT: Sold YES 2729.9 shares of \"Will Trump and Putin meet next in Australia?\" @ 0.0704 (+1181%) → $5.48 | order=0x829f6b6c882802210ae472cf5f99323812b6278d6325e2d319d5cf5353c10d59"}
-{"timestamp":"2026-03-01T21:14:52.276Z","type":"scan","message":"Cycle #1 — 657 markets | 11 active events | $25.3K recent flow"}
 {"timestamp":"2026-03-01T21:14:52.276Z","type":"think","message":"Live flow: \"Will US or Israel strike Iran first?\" — $6.0K in 4 trades, NET BUY (strong bias), biggest $2.6K, 11s ago"}
 {"timestamp":"2026-03-01T21:14:52.276Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 20.5%), 24h vol $16.2K"}
 {"timestamp":"2026-03-01T21:14:52.276Z","type":"think","message":"Volume surge: \"Will Carlos Felipe Córdoba win the 2026 Colombian pres…\" — $99.1K in 24h (834% of lifetime), price 0.8%"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-01T22:19:52.206Z","type":"think","message":"↑ Daily mover: \"Callum Turner announced as next James Bond?\" ↑7.0% today, ↑8.0% 1w, 24h vol $12.1K"}
 {"timestamp":"2026-03-01T22:19:52.206Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 20.0%), 24h vol $16.2K"}
 {"timestamp":"2026-03-01T22:19:52.206Z","type":"decision","message":"Hourly momentum: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h, now 2.6%, vol $12.1K"}
+{"timestamp":"2026-03-01T22:24:53.343Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-01T22:24:53.343Z","type":"palpha","message":"[network] 290 structural violations across 687 markets."}
+{"timestamp":"2026-03-01T22:24:53.343Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.950 | Highly similar markets (60% overlap) with 95.2% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (95.5%) vs \"Will Vicky "}
+{"timestamp":"2026-03-01T22:24:53.343Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.950 | Highly similar markets (60% overlap) with 94.9% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (95.5%) vs \"Will Claudi"}
+{"timestamp":"2026-03-01T22:24:53.343Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.950 | Highly similar markets (60% overlap) with 95.3% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (95.5%) vs \"Will Mauric"}
+{"timestamp":"2026-03-01T22:24:53.343Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.950 | Highly similar markets (60% overlap) with 94.7% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (95.5%) vs \"Will Enriqu"}
+{"timestamp":"2026-03-01T22:24:53.343Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.950 | Highly similar markets (60% overlap) with 95.0% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (95.5%) vs \"Will Vicky "}
+{"timestamp":"2026-03-01T22:24:53.343Z","type":"palpha","message":"[auto-trade] Cycle 15: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
+{"timestamp":"2026-03-01T22:24:51.944Z","type":"scan","message":"Cycle #15 — 657 markets | 11 active events | $22.2K recent flow"}
+{"timestamp":"2026-03-01T22:24:51.944Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $4.4K in 1 trades, NET SELL (strong bias), biggest $4.4K, 1m ago"}
+{"timestamp":"2026-03-01T22:24:51.944Z","type":"think","message":"↑ Price shift: \"Will PH win the most seats in the 2026 Colombian Senat…\" moved 1.5% since last scan (94.0% → 95.5%)"}
+{"timestamp":"2026-03-01T22:24:51.944Z","type":"think","message":"↓ Hourly mover: \"Will Juan Daniel Oviedo win the 2026 Colombian preside…\" ↓1.3% in 1h (now 0.4%), 24h vol $99.1K"}
+{"timestamp":"2026-03-01T22:24:51.944Z","type":"think","message":"Volume surge: \"Will Carlos Felipe Córdoba win the 2026 Colombian pres…\" — $99.1K in 24h (834% of lifetime), price 0.8%"}
+{"timestamp":"2026-03-01T22:24:51.945Z","type":"decision","message":"Flow signal: \"Will Pete Buttigieg win the 2028 Democratic presidenti…\" — buyers dominating ($3.6K net), 2 traders, 1m ago"}
