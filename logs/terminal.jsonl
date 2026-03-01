@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T10:07:16.089Z","type":"trade","message":"[auto-trader] ERROR: \"Will Hamas agree to disarm by June 30?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.090Z","type":"trade","message":"[auto-trader] ERROR: \"Will Hamas agree to disarm by June 30?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.090Z","type":"trade","message":"[auto-trader] ERROR: \"Will Liverpool finish in the top 4 of the EPL 2025\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.091Z","type":"trade","message":"[auto-trader] ERROR: \"Will Sinners win Best Cinematography at the 98th A\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.092Z","type":"trade","message":"[auto-trader] ERROR: \"Will Bitcoin hit $150k by December 31, 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.093Z","type":"trade","message":"[auto-trader] ERROR: \"Will Trump resign by December 31, 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.094Z","type":"trade","message":"[auto-trader] ERROR: \"Will the Republican Party control the House after \" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.094Z","type":"trade","message":"[auto-trader] ERROR: \"Will Trump deport less than 250,000?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.095Z","type":"trade","message":"[auto-trader] ERROR: \"Will Trump deport 500,000-750,000- people?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T10:41:38.644Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $7.2K"}
 {"timestamp":"2026-03-01T10:41:38.644Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.5%), 24h vol $6.9K"}
 {"timestamp":"2026-03-01T10:41:38.644Z","type":"decision","message":"Flow signal: \"Ethereum all time high by September 30, 2026?\" — buyers dominating ($2.5K net), 1 traders, 5m ago"}
+{"timestamp":"2026-03-01T10:46:38.744Z","type":"scan","message":"Cycle #8 — 749 markets | 12 active events | $37.2K recent flow"}
+{"timestamp":"2026-03-01T10:46:38.744Z","type":"think","message":"Live flow: \"Russia x Ukraine ceasefire by March 31, 2026?\" — $10.5K in 2 trades, NET BUY (strong bias), biggest $10.0K, 45s ago"}
+{"timestamp":"2026-03-01T10:46:38.744Z","type":"think","message":"↓ Price shift: \"Will the Anaheim Ducks win the Pacific Division?\" moved 2.2% since last scan (25.8% → 23.5%)"}
+{"timestamp":"2026-03-01T10:46:38.744Z","type":"think","message":"↓ Hourly mover: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h (now 3.8%), 24h vol $6.9K"}
+{"timestamp":"2026-03-01T10:46:38.744Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 5.0%"}
+{"timestamp":"2026-03-01T10:46:38.744Z","type":"decision","message":"Flow signal: \"Will China invade Taiwan by March 31, 2026?\" — buyers dominating ($6.0K net), 1 traders, 1m ago"}
