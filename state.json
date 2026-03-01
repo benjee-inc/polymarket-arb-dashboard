@@ -1,6 +1,17 @@
 {
-  "bankroll": 367.387249,
+  "bankroll": 307.387251,
   "bets": [
+    {
+      "conditionId": "0x849a3e762977a9ad6b8e5f449ac7c8abb2756409a1b55759e00262e072bd81a7",
+      "tokenId": "111233749945390693132335511891715724694881884819987764738034083584495542889312",
+      "market": "Will Vicky Dávila win the 2026 Colombian presidential election?",
+      "side": "Yes",
+      "price": 0.0066,
+      "amount": 14.88,
+      "shares": 2254.3471,
+      "source": "bot",
+      "timestamp": "2026-03-01T20:36:03.554Z"
+    },
     {
       "conditionId": "0xe857d6cd180acdb314dd38e583e625172407fa83d54156c78679e601b312d068",
       "tokenId": "46866868857194367945413771860582064655745092128562966218540356888709464260149",
@@ -10,7 +21,18 @@
       "amount": 4.92,
       "shares": 1201.0785,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
+    },
+    {
+      "conditionId": "0x0d2496544913dd1efdc093d296e366b4de344adeecc45d84cb4ab26433f335d1",
+      "tokenId": "72774350053906879890006453324691552555097045786061116921411542398714774240040",
+      "market": "Will Mauricio Cárdenas win the 1st round of the 2026 Colombian presidential election?",
+      "side": "Yes",
+      "price": 0.0135,
+      "amount": 14.94,
+      "shares": 1106.7333,
+      "source": "bot",
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0x33b9298257eac39553c008b882ac333d2538bd493689d6710d3986d890580033",
@@ -21,7 +43,7 @@
       "amount": 14.99,
       "shares": 1063.3019,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xc830d19ead001f5378792cc0df36004ddb1b312bb26fbd5c4226aa698c41f808",
@@ -32,7 +54,18 @@
       "amount": 6.26,
       "shares": 1061.3466,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
+    },
+    {
+      "conditionId": "0x5037195eafd98f9d50ef8d5700abcaaa7351cc53bfdb1df23fd28fd35eb94e9b",
+      "tokenId": "13029278070705688134577821030612277494815895676220866840087054352558704333924",
+      "market": "Will Enrique Peñalosa win the 1st round of the 2026 Colombian presidential election?",
+      "side": "Yes",
+      "price": 0.0162,
+      "amount": 14.98,
+      "shares": 924.4416,
+      "source": "bot",
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0x7130b8d9bb59393ede189911ba57783debc1900dffb8143c3cb0027952e2f7df",
@@ -43,7 +76,7 @@
       "amount": 1.33,
       "shares": 666.49,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xc20be6636f316125da44ca53f6631cc00086e9fba8e1ad8d9012ae20ee7006a8",
@@ -54,7 +87,7 @@
       "amount": 14.97,
       "shares": 500.5052,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xb99ef516a29277c886f65d979143c0cad5eb80b937bf6039b9832eff7389a743",
@@ -65,7 +98,7 @@
       "amount": 5.58,
       "shares": 355.3272,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xa0f4c4924ea1a8b410b4ce821c2a9955fad21a1b19bdcfde90816732278b3dd5",
@@ -76,7 +109,7 @@
       "amount": 9.98,
       "shares": 355.2031,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xa75027ddbd883169b0fef4779c912106fe9460536240a1d613d175f04b75ca25",
@@ -87,7 +120,7 @@
       "amount": 14.97,
       "shares": 272.7272,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xdcc87b9ca36015e396bd0eebca29e854a136ed2b0b701049d1ee9da6bee3eb35",
@@ -98,7 +131,7 @@
       "amount": 0.61,
       "shares": 203.3733,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xb8a8833f60836f1a4860727dfebed0cb0fc59a6f9cd22ec840a2e7f6a7dbb2a3",
@@ -109,7 +142,7 @@
       "amount": 14.98,
       "shares": 166.6666,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0x94947a23e965124fa382e3ff89827b7bb00c2e2f3f9c0b92137e639d4cbfb080",
@@ -120,7 +153,7 @@
       "amount": 0.25,
       "shares": 82.84,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0x1d54eb5eac2cee8f595f3097c65da7d07f8ab5dee63d7c0c6883eb70e1e9af30",
@@ -131,7 +164,7 @@
       "amount": 3.04,
       "shares": 74.4662,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xdb68062324c27327e9cd4b21b1dd0deadbc4b860abb8c076b9ba3ed4652ced13",
@@ -142,7 +175,7 @@
       "amount": 1.01,
       "shares": 67.6483,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xf2e51acfbb6d0414dc2ace81b7dc2af7c165e443dcb91f6caa7aab6d6ab4f06d",
@@ -153,7 +186,7 @@
       "amount": 0.54,
       "shares": 49.9999,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xaf9d0e448129a9f657f851d49495ba4742055d80e0ef1166ba0ee81d4d594214",
@@ -164,7 +197,7 @@
       "amount": 1,
       "shares": 43.58,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0x81a537b379a35e4e17c286d3b37394e94bd74c1779bbe9a13670eb991b201a3a",
@@ -175,7 +208,7 @@
       "amount": 0.97,
       "shares": 37.45,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0x6bd56627aa21311850825edb27e53434a0e17a4f782be0086bc07f71eee00d0d",
@@ -186,7 +219,7 @@
       "amount": 4,
       "shares": 33.3333,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xbb57ccf5853a85487bc3d83d04d669310d28c6c810758953b9d9b91d1aee89d2",
@@ -197,7 +230,7 @@
       "amount": 15,
       "shares": 30.7055,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xb867a8daad6ce355fae60fa0870f3122fc9fb5adba7e06b9fd8cadfe2443d884",
@@ -208,7 +241,7 @@
       "amount": 1.75,
       "shares": 27.27,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0x781a06aa5779f97724b75ed8128aaf72c4a8955c893a6fefdc0efd7cb001c513",
@@ -219,7 +252,7 @@
       "amount": 5.6,
       "shares": 26.6666,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
@@ -230,7 +263,7 @@
       "amount": 15.14,
       "shares": 16.5973,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0x53edf2e7bd4238af99755ccf89538140ae9e238640c2a40548c1b04228869e82",
@@ -241,7 +274,7 @@
       "amount": 6.16,
       "shares": 10.1,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.508Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0x99a0fdc1bb6308873bf87eb75a47e21c8340fe20fb6b033444c1d21392da10a9",
@@ -252,7 +285,7 @@
       "amount": 5.6,
       "shares": 7.0886,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.509Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xc829edf5ca6961e441c266546064b629c29a9313694689c0768db92810db62ff",
@@ -263,7 +296,7 @@
       "amount": 4.99,
       "shares": 5.48,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.509Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     },
     {
       "conditionId": "0xb81bc42ebe439b9c1c7b13a6c3ed36f2ac5f70f4385286e552fec734ed126ee0",
@@ -274,7 +307,7 @@
       "amount": 2.3,
       "shares": 4.04,
       "source": "bot",
-      "timestamp": "2026-03-01T20:31:02.509Z"
+      "timestamp": "2026-03-01T20:36:03.554Z"
     }
   ],
   "closedBets": [
@@ -323,6 +356,18 @@
   ],
   "livePositions": [
     {
+      "market": "Will Vicky Dávila win the 2026 Colombian presidential election?",
+      "side": "Yes",
+      "price": 0.0066,
+      "amount": 14.88,
+      "shares": 2254.3471,
+      "livePrice": 0.0055,
+      "livePnl": -2.48,
+      "livePnlPct": -16.67,
+      "hoursHeld": 0,
+      "conditionId": "0x849a3e762977a9ad6b8e5f449ac7c8abb2756409a1b55759e00262e072bd81a7"
+    },
+    {
       "market": "Will Bitcoin hit $150k by March 31, 2026?",
       "side": "Yes",
       "price": 0.0041,
@@ -333,6 +378,18 @@
       "livePnlPct": -14.63,
       "hoursHeld": 0,
       "conditionId": "0xe857d6cd180acdb314dd38e583e625172407fa83d54156c78679e601b312d068"
+    },
+    {
+      "market": "Will Mauricio Cárdenas win the 1st round of the 2026 Colombian presidential election?",
+      "side": "Yes",
+      "price": 0.0135,
+      "amount": 14.94,
+      "shares": 1106.7333,
+      "livePrice": 0.107,
+      "livePnl": 103.48,
+      "livePnlPct": 692.59,
+      "hoursHeld": 0,
+      "conditionId": "0x0d2496544913dd1efdc093d296e366b4de344adeecc45d84cb4ab26433f335d1"
     },
     {
       "market": "Will Claudia López win the 1st round of the 2026 Colombian presidential election?",
@@ -359,6 +416,18 @@
       "conditionId": "0xc830d19ead001f5378792cc0df36004ddb1b312bb26fbd5c4226aa698c41f808"
     },
     {
+      "market": "Will Enrique Peñalosa win the 1st round of the 2026 Colombian presidential election?",
+      "side": "Yes",
+      "price": 0.0162,
+      "amount": 14.98,
+      "shares": 924.4416,
+      "livePrice": 0.0105,
+      "livePnl": -5.269,
+      "livePnlPct": -35.19,
+      "hoursHeld": 0,
+      "conditionId": "0x5037195eafd98f9d50ef8d5700abcaaa7351cc53bfdb1df23fd28fd35eb94e9b"
+    },
+    {
       "market": "Will the U.S. collect between $200b and $500b in revenue in 2025?",
       "side": "Yes",
       "price": 0.002,
@@ -376,9 +445,9 @@
       "price": 0.0299,
       "amount": 14.97,
       "shares": 500.5052,
-      "livePrice": 0.029,
-      "livePnl": -0.45,
-      "livePnlPct": -3.01,
+      "livePrice": 0.03,
+      "livePnl": 0.05,
+      "livePnlPct": 0.33,
       "hoursHeld": 0,
       "conditionId": "0xc20be6636f316125da44ca53f6631cc00086e9fba8e1ad8d9012ae20ee7006a8"
     },
@@ -400,9 +469,9 @@
       "price": 0.0281,
       "amount": 9.98,
       "shares": 355.2031,
-      "livePrice": 0.0195,
-      "livePnl": -3.055,
-      "livePnlPct": -30.6,
+      "livePrice": 0.024,
+      "livePnl": -1.456,
+      "livePnlPct": -14.59,
       "hoursHeld": 0,
       "conditionId": "0xa0f4c4924ea1a8b410b4ce821c2a9955fad21a1b19bdcfde90816732278b3dd5"
     },
@@ -532,9 +601,9 @@
       "price": 0.4885,
       "amount": 15,
       "shares": 30.7055,
-      "livePrice": 0.4875,
-      "livePnl": -0.031,
-      "livePnlPct": -0.2,
+      "livePrice": 0.4865,
+      "livePnl": -0.061,
+      "livePnlPct": -0.41,
       "hoursHeld": 0,
       "conditionId": "0xbb57ccf5853a85487bc3d83d04d669310d28c6c810758953b9d9b91d1aee89d2"
     },
@@ -623,8 +692,8 @@
       "conditionId": "0xb81bc42ebe439b9c1c7b13a6c3ed36f2ac5f70f4385286e552fec734ed126ee0"
     }
   ],
-  "deployed": 155.94000000000003,
+  "deployed": 200.73999999999995,
   "realizedPnl": -43.292,
-  "scanCount": 2,
-  "lastUpdate": "2026-03-01T20:31:02.509Z"
+  "scanCount": 3,
+  "lastUpdate": "2026-03-01T20:36:03.555Z"
 }
