@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T10:07:16.119Z","type":"trade","message":"[auto-trader] ERROR: \"Will Trump and Putin meet next in a Gulf country?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.120Z","type":"trade","message":"[auto-trader] ERROR: \"Will Başakşehir win the Süper Lig?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.121Z","type":"trade","message":"[auto-trader] ERROR: \"Will Eyüpspor win the Süper Lig?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.122Z","type":"trade","message":"[auto-trader] ERROR: \"Will Göztepe win the Süper Lig?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.122Z","type":"trade","message":"[auto-trader] ERROR: \"Will Beşiktaş win the Süper Lig?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.131Z","type":"trade","message":"[auto-trader] ERROR: \"Will Leonardo DiCaprio win Best Actor at the 98th \" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.132Z","type":"trade","message":"[auto-trader] ERROR: \"James Norton announced as next James Bond?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.133Z","type":"trade","message":"[auto-trader] ERROR: \"Will Trump resign by December 31, 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.133Z","type":"trade","message":"[auto-trader] ERROR: \"Will Trump and Putin meet next in another EU count\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T11:11:38.854Z","type":"think","message":"Tight race: \"Starmer out by June 30, 2026?\" — 50.0% YES, 24h vol $482.7K, ↑0.5% 1h"}
 {"timestamp":"2026-03-01T11:11:38.855Z","type":"think","message":"↑ Daily mover: \"Will Russia capture Rodynske by March 31?\" ↑23.5% today, ↑18.0% 1w, 24h vol $9.4K"}
 {"timestamp":"2026-03-01T11:11:38.856Z","type":"decision","message":"Flow signal: \"Will Elon Musk post 140-159 tweets from February 24 to…\" — buyers dominating ($3.0K net), 2 traders, 6m ago"}
+{"timestamp":"2026-03-01T11:16:38.757Z","type":"scan","message":"Cycle #14 — 749 markets | 16 active events | $48.8K recent flow"}
+{"timestamp":"2026-03-01T11:16:38.757Z","type":"think","message":"Live flow: \"Will the price of Bitcoin be above $72,000 on March 1?\" — $13.0K in 3 trades, NET SELL (strong bias), biggest $11.0K, 1m ago"}
+{"timestamp":"2026-03-01T11:16:38.757Z","type":"think","message":"↑ Price shift: \"Israeli parliament dissolved by June 30?\" moved 1.5% since last scan (45.5% → 47.0%)"}
+{"timestamp":"2026-03-01T11:16:38.757Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $7.2K"}
+{"timestamp":"2026-03-01T11:16:38.757Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.0%), 24h vol $6.9K"}
+{"timestamp":"2026-03-01T11:16:38.757Z","type":"decision","message":"Flow signal: \"Will the price of Ethereum be between $1,600 and $1,70…\" — buyers dominating ($9.4K net), 3 traders, 31s ago"}
