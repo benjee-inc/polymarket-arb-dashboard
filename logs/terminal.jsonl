@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T11:16:38.757Z","type":"think","message":"Live flow: \"Will the price of Bitcoin be above $72,000 on March 1?\" — $13.0K in 3 trades, NET SELL (strong bias), biggest $11.0K, 1m ago"}
-{"timestamp":"2026-03-01T11:16:38.757Z","type":"think","message":"↑ Price shift: \"Israeli parliament dissolved by June 30?\" moved 1.5% since last scan (45.5% → 47.0%)"}
-{"timestamp":"2026-03-01T11:16:38.757Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $7.2K"}
-{"timestamp":"2026-03-01T11:16:38.757Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.0%), 24h vol $6.9K"}
-{"timestamp":"2026-03-01T11:16:38.757Z","type":"decision","message":"Flow signal: \"Will the price of Ethereum be between $1,600 and $1,70…\" — buyers dominating ($9.4K net), 3 traders, 31s ago"}
-{"timestamp":"2026-03-01T11:21:38.813Z","type":"scan","message":"Cycle #15 — 749 markets | 16 active events | $48.8K recent flow"}
 {"timestamp":"2026-03-01T11:21:38.813Z","type":"think","message":"Live flow: \"Will the highest temperature in Chicago be 38°F or hig…\" — $5.0K in 2 trades, NET BUY (strong bias), biggest $3.9K, 5m ago"}
 {"timestamp":"2026-03-01T11:21:38.813Z","type":"think","message":"↑ Price shift: \"Israel x Syria security agreement by June 30?\" moved 2.0% since last scan (37.0% → 39.0%)"}
 {"timestamp":"2026-03-01T11:21:38.813Z","type":"think","message":"↑ Hourly mover: \"Will the Anaheim Ducks win the Pacific Division?\" ↑3.6% in 1h (now 25.4%), 24h vol $36.3K"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T13:28:30.378Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
 {"timestamp":"2026-03-01T13:28:30.378Z","type":"palpha","message":"[network] 387 structural violations across 795 markets."}
 {"timestamp":"2026-03-01T13:28:30.379Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held, Market closed or not accepting orders, Error: no match. Daily: $0.00/$50"}
+{"timestamp":"2026-03-01T13:30:41.851Z","type":"scan","message":"Cycle #12 — 753 markets | 17 active events | $28.5K recent flow"}
+{"timestamp":"2026-03-01T13:30:41.852Z","type":"think","message":"Live flow: \"Will Bitcoin dip to $60,000 in March?\" — $3.2K in 2 trades, NET BUY (strong bias), biggest $2.5K, 5m ago"}
+{"timestamp":"2026-03-01T13:30:41.852Z","type":"think","message":"↓ Price shift: \"Will Trump visit China by April 30?\" moved 1.0% since last scan (80.5% → 79.5%)"}
+{"timestamp":"2026-03-01T13:30:41.852Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.7¢, liq $50.4M, 24h vol $7.2M"}
+{"timestamp":"2026-03-01T13:30:41.852Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.0% YES, 24h vol $4.2M"}
+{"timestamp":"2026-03-01T13:30:41.852Z","type":"decision","message":"Flow signal: \"Spread: VfB Stuttgart (-1.5)\" — buyers dominating ($2.6K net), 1 traders, 6m ago"}
