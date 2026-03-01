@@ -1,5 +1,5 @@
 {
-  "bankroll": 550.9300000000001,
+  "bankroll": 505.73,
   "bets": [
     {
       "conditionId": "0x8b5c13c96dbc470ffc5b4c0f008488f5e75f950e807fda96fddcc8b6780a76c6",
@@ -49,9 +49,9 @@
   "totalBet": 2225.9,
   "totalReturn": 518.1,
   "realizedPnl": 68.77,
-  "scannedAt": "2026-02-28T17:10:00.434Z",
+  "scannedAt": "2026-03-01T00:20:44.804Z",
   "_rebuilt": "2026-02-28T15:07:22.394Z",
   "_scanSpent": 0,
-  "lastUpdate": "2026-02-28T21:41:41.146Z",
+  "lastUpdate": "2026-03-01T00:20:44.804Z",
   "lastScan": "2026-02-28T16:49:33.506Z"
 }
