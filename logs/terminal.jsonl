@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T13:30:41.851Z","type":"scan","message":"Cycle #12 — 753 markets | 17 active events | $28.5K recent flow"}
-{"timestamp":"2026-03-01T13:30:41.852Z","type":"think","message":"Live flow: \"Will Bitcoin dip to $60,000 in March?\" — $3.2K in 2 trades, NET BUY (strong bias), biggest $2.5K, 5m ago"}
-{"timestamp":"2026-03-01T13:30:41.852Z","type":"think","message":"↓ Price shift: \"Will Trump visit China by April 30?\" moved 1.0% since last scan (80.5% → 79.5%)"}
-{"timestamp":"2026-03-01T13:30:41.852Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.7¢, liq $50.4M, 24h vol $7.2M"}
-{"timestamp":"2026-03-01T13:30:41.852Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.0% YES, 24h vol $4.2M"}
-{"timestamp":"2026-03-01T13:30:41.852Z","type":"decision","message":"Flow signal: \"Spread: VfB Stuttgart (-1.5)\" — buyers dominating ($2.6K net), 1 traders, 6m ago"}
 {"timestamp":"2026-03-01T13:33:29.340Z","type":"palpha","message":"Evaluated 25 raw opportunities from scanner signals"}
 {"timestamp":"2026-03-01T13:33:29.340Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
 {"timestamp":"2026-03-01T13:33:29.340Z","type":"palpha","message":"[network] 380 structural violations across 789 markets."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T15:35:26.033Z","type":"trade","message":"[auto-trade] EXECUTED: YES $15 on \"Will Eyüpspor win the Süper Lig?\" @ 0.3% | Network: correlation divergence — Highly similar markets (67% overlap) with 35.8% price gap. \"Will Eyüpspor win the Süper Lig?\" (0.3%) vs \"Will Fenerbahçe | palpha=NOTABLE | order=0xe5f55bbf4bd120956fd804e4a7bd815417eadfe8681ef1357dc6cc5bb7b899a9"}
 {"timestamp":"2026-03-01T15:35:26.033Z","type":"trade","message":"[auto-trade] EXECUTED: YES $15 on \"Will Göztepe win the Süper Lig?\" @ 0.4% | Network: correlation divergence — Highly similar markets (67% overlap) with 35.6% price gap. \"Will Fenerbahçe win the Süper Lig?\" (36.0%) vs \"Will Göztepe | palpha=NOTABLE | order=0x335748a653d10c0e5cdce954bf495789adf4f38b2d171881eaeb5a324b8e0210"}
 {"timestamp":"2026-03-01T15:35:26.033Z","type":"trade","message":"[auto-trade] EXECUTED: YES $15 on \"Will Beşiktaş win the Süper Lig?\" @ 0.4% | Network: correlation divergence — Highly similar markets (67% overlap) with 35.6% price gap. \"Will Fenerbahçe win the Süper Lig?\" (36.0%) vs \"Will Beşikta | palpha=NOTABLE | order=0x4d71a30898476e6182700125a927f636f0cf422e53e198cd698585f73e45f654"}
+{"timestamp":"2026-03-01T15:36:49.232Z","type":"scan","message":"Cycle #4 — 753 markets | 9 active events | $32.6K recent flow"}
+{"timestamp":"2026-03-01T15:36:49.232Z","type":"think","message":"Live flow: \"Will there be no change in Fed interest rates after th…\" — $18.0K in 1 trades, NET BUY (strong bias), biggest $18.0K, 24s ago"}
+{"timestamp":"2026-03-01T15:36:49.232Z","type":"think","message":"↓ Price shift: \"Israel x Hamas ceasefire cancelled by June 30?\" moved 2.0% since last scan (55.5% → 53.5%)"}
+{"timestamp":"2026-03-01T15:36:49.232Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 88.1% / ask 94.1% (6.0% spread), liq $1.8M"}
+{"timestamp":"2026-03-01T15:36:49.232Z","type":"think","message":"Deep value: \"Will Trump nominate Stephen Miran as the next Fed chai…\" — Yes @ 0.5¢, liq $50.3M, 24h vol $7.2M"}
+{"timestamp":"2026-03-01T15:36:49.232Z","type":"decision","message":"Flow signal: \"Will Wes Moore win the 2028 Democratic presidential no…\" — sellers dominating ($3.8K net), 4 traders, 50s ago"}
