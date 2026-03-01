@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-01T10:36:38.763Z","type":"think","message":"↑ Daily mover: \"Will Russia capture Rodynske by March 31?\" ↑23.5% today, ↑18.0% 1w, 24h vol $9.4K"}
-{"timestamp":"2026-03-01T10:36:38.763Z","type":"decision","message":"Flow signal: \"Will Ethereum dip to $1,700 February 23-March 1?\" — buyers dominating ($6.5K net), 1 traders, 1m ago"}
-{"timestamp":"2026-03-01T10:41:38.644Z","type":"scan","message":"Cycle #7 — 749 markets | 20 active events | $48.5K recent flow"}
-{"timestamp":"2026-03-01T10:41:38.644Z","type":"think","message":"Live flow: \"Will Trump visit China by April 30?\" — $3.0K in 1 trades, NET BUY (strong bias), biggest $3.0K, 6m ago"}
 {"timestamp":"2026-03-01T10:41:38.644Z","type":"think","message":"↓ Price shift: \"Israeli parliament dissolved by March 31?\" moved 7.0% since last scan (37.5% → 30.5%)"}
 {"timestamp":"2026-03-01T10:41:38.644Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $7.2K"}
 {"timestamp":"2026-03-01T10:41:38.644Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.5%), 24h vol $6.9K"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-01T13:05:41.584Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $7.2K"}
 {"timestamp":"2026-03-01T13:05:41.584Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.0%), 24h vol $6.9K"}
 {"timestamp":"2026-03-01T13:05:41.585Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be between $70,000 and $72,0…\" — buyers dominating ($2.0K net), 1 traders, 58s ago"}
+{"timestamp":"2026-03-01T13:08:42.997Z","type":"palpha","message":"Evaluated 28 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-01T13:08:42.997Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
+{"timestamp":"2026-03-01T13:08:42.997Z","type":"palpha","message":"[network] 389 structural violations across 795 markets."}
+{"timestamp":"2026-03-01T13:08:42.998Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
