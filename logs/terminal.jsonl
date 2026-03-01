@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-01T10:46:38.744Z","type":"think","message":"↓ Price shift: \"Will the Anaheim Ducks win the Pacific Division?\" moved 2.2% since last scan (25.8% → 23.5%)"}
-{"timestamp":"2026-03-01T10:46:38.744Z","type":"think","message":"↓ Hourly mover: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h (now 3.8%), 24h vol $6.9K"}
-{"timestamp":"2026-03-01T10:46:38.744Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 5.0%"}
-{"timestamp":"2026-03-01T10:46:38.744Z","type":"decision","message":"Flow signal: \"Will China invade Taiwan by March 31, 2026?\" — buyers dominating ($6.0K net), 1 traders, 1m ago"}
 {"timestamp":"2026-03-01T10:51:38.707Z","type":"scan","message":"Cycle #9 — 749 markets | 12 active events | $37.2K recent flow"}
 {"timestamp":"2026-03-01T10:51:38.707Z","type":"think","message":"Live flow: \"Will Sinners win Best Picture at the 98th Academy Awar…\" — $8.2K in 7 trades, NET BUY, biggest $1.8K, 5m ago"}
 {"timestamp":"2026-03-01T10:51:38.707Z","type":"think","message":"↑ Price shift: \"BitBoy convicted?\" moved 3.0% since last scan (21.6% → 24.6%)"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-01T13:10:41.651Z","type":"think","message":"↑ Hourly mover: \"Will the Anaheim Ducks win the Pacific Division?\" ↑3.6% in 1h (now 28.5%), 24h vol $36.3K"}
 {"timestamp":"2026-03-01T13:10:41.651Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 1.6%"}
 {"timestamp":"2026-03-01T13:10:41.651Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Kostyantynivka by December 31, 202…\" ↓1.5% in 1h, now 88.5%, vol $29.0K"}
+{"timestamp":"2026-03-01T13:13:31.507Z","type":"palpha","message":"Evaluated 28 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-01T13:13:31.507Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
+{"timestamp":"2026-03-01T13:13:31.507Z","type":"palpha","message":"[network] 390 structural violations across 795 markets."}
+{"timestamp":"2026-03-01T13:13:31.508Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
