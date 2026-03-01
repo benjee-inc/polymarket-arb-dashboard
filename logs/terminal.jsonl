@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T15:15:16.607Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.0%), 24h vol $6.9K"}
-{"timestamp":"2026-03-01T15:15:16.607Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 2.6%"}
-{"timestamp":"2026-03-01T15:15:16.607Z","type":"decision","message":"Flow signal: \"Will Stephen Smith win the 2028 US Presidential Electi…\" — buyers dominating ($5.0K net), 1 traders, 57s ago"}
-{"timestamp":"2026-03-01T15:20:16.545Z","type":"scan","message":"Cycle #2 — 753 markets | 7 active events | $13.5K recent flow"}
-{"timestamp":"2026-03-01T15:20:16.545Z","type":"think","message":"Live flow: \"Will Trump nominate Rick Rieder as the next Fed chair?\" — $8.5K in 8 trades, NET BUY (strong bias), biggest $1.8K, 55s ago"}
-{"timestamp":"2026-03-01T15:20:16.545Z","type":"think","message":"↑ Price shift: \"Will Discord’s market cap be less than $15B at market …\" moved 3.0% since last scan (40.5% → 43.5%)"}
 {"timestamp":"2026-03-01T15:20:16.545Z","type":"think","message":"Volume surge: \"Will the Seattle Kraken win the Pacific Division?\" — $36.3K in 24h (1051% of lifetime), price 1.1%"}
 {"timestamp":"2026-03-01T15:20:16.546Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 33h to resolution, 77.5% YES, ↑0.5% this hour, vol $111.3K"}
 {"timestamp":"2026-03-01T15:20:16.546Z","type":"decision","message":"Hourly momentum: \"Will the Anaheim Ducks win the Pacific Division?\" ↑3.6% in 1h, now 26.7%, vol $36.3K"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T17:41:29.409Z","type":"think","message":"Volume surge: \"Will Thomas Massie win the 2028 Republican presidentia…\" — $4.9M in 24h (484% of lifetime), price 1.5%"}
 {"timestamp":"2026-03-01T17:41:29.409Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 30h to resolution, 78.0% YES, ↑0.5% this hour, vol $77.0K"}
 {"timestamp":"2026-03-01T17:41:29.409Z","type":"decision","message":"Flow signal: \"Will US or Israel strike Iran first?\" — buyers dominating ($2.3K net), 1 traders, 6m ago"}
+{"timestamp":"2026-03-01T17:46:29.340Z","type":"scan","message":"Cycle #3 — 657 markets | 5 active events | $10.0K recent flow"}
+{"timestamp":"2026-03-01T17:46:29.340Z","type":"think","message":"Live flow: \"Will the Iranian regime fall by March 31?\" — $4.4K in 3 trades, NET BUY, biggest $2.8K, 6s ago"}
+{"timestamp":"2026-03-01T17:46:29.340Z","type":"think","message":"↑ Price shift: \"Will Russia capture Lyman by April 30, 2026?\" moved 3.0% since last scan (39.5% → 42.5%)"}
+{"timestamp":"2026-03-01T17:46:29.340Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 30h to resolution, 0.8% YES, ↑0.1% this hour, vol $77.0K"}
+{"timestamp":"2026-03-01T17:46:29.341Z","type":"think","message":"Wide spread: \"Will Matt Mahan win the California Governor Election i…\" — bid 14.0% / ask 21.0% (7.0% spread), liq $418.6K"}
+{"timestamp":"2026-03-01T17:46:29.341Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 47.5%, vol $10.5K"}
