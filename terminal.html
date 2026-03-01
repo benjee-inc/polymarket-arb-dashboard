@@ -260,11 +260,11 @@ function calcPositionPnl(p) {
 }
 
 function calcTotalUnrealized() {
-  return positions.reduce((sum, p) => sum + calcPositionPnl(p).pnlDollar, 0);
+  return positions.filter(p => calcPositionPnl(p).value >= 2).reduce((sum, p) => sum + calcPositionPnl(p).pnlDollar, 0);
 }
 
 function calcTotalDeployed() {
-  return positions.reduce((sum, p) => sum + calcPositionPnl(p).cost, 0);
+  return positions.filter(p => calcPositionPnl(p).value >= 2).reduce((sum, p) => sum + calcPositionPnl(p).cost, 0);
 }
 
 function calcTotalRealized() {
@@ -290,13 +290,17 @@ function renderLogs() {
 
 // ── Render: Open Positions ───────────────────────────────
 function renderPositions() {
-  if (!positions.length) {
-    content.innerHTML = '<div class="empty">No open positions</div>';
+  const visible = positions.filter(p => {
+    const calc = calcPositionPnl(p);
+    return calc.value >= 2; // hide dust positions worth < $2
+  });
+  if (!visible.length) {
+    content.innerHTML = '<div class="empty">No open positions (hiding ' + positions.length + ' dust positions worth &lt; $2)</div>';
     return;
   }
 
   let html = '';
-  for (const p of positions) {
+  for (const p of visible) {
     const calc = calcPositionPnl(p);
     const cls = calc.pnlDollar > 0.001 ? 'profit' : calc.pnlDollar < -0.001 ? 'loss' : 'flat';
     const hours = p.timestamp ? ((Date.now() - new Date(p.timestamp).getTime()) / 3600000) : 0;
@@ -409,7 +413,7 @@ function renderWallet() {
     + wbox('Deployed', fmt(deployed))
     + wbox('Unrealized P&L', (unrealized >= 0 ? '+' : '') + unrealized.toFixed(3), unrealized)
     + wbox('Realized P&L', (realized >= 0 ? '+' : '') + realized.toFixed(3), realized)
-    + wbox('Open Positions', positions.length)
+    + wbox('Open Positions', positions.filter(p => calcPositionPnl(p).value >= 2).length)
     + wbox('Trades', activity.length)
     + wbox('Win Rate', winRate)
     + wbox('Net Worth', fmt(balance + deployed + unrealized))
@@ -422,10 +426,11 @@ function renderWallet() {
     + '<div><span class="source-tag source-api">Data API</span> positions, activity, metadata</div>'
     + '</div>';
 
-  // Open positions summary
-  if (positions.length) {
+  // Open positions summary (hide dust < $2)
+  const walletVisible = positions.filter(p => calcPositionPnl(p).value >= 2);
+  if (walletVisible.length) {
     html += '<div style="color:#888;font-size:0.8rem;margin:15px 0 8px">OPEN POSITIONS</div>';
-    for (const p of positions) {
+    for (const p of walletVisible) {
       const calc = calcPositionPnl(p);
       const color = calc.pnlDollar >= 0 ? '#00ff00' : '#ff0044';
       const chainSize = p.asset ? onChainBalances[p.asset] : undefined;
