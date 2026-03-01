@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T10:07:16.211Z","type":"trade","message":"[auto-trader] ERROR: \"Will Russia capture Lyman by March 31, 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.212Z","type":"trade","message":"[auto-trader] ERROR: \"Will Russia capture Kostyantynivka by December 31,\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.213Z","type":"trade","message":"[auto-trader] ERROR: \"Will Russia capture Kostyantynivka by April 30?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.213Z","type":"trade","message":"[auto-trader] ERROR: \"Will the Democratic Party control the House after \" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.214Z","type":"trade","message":"[auto-trader] ERROR: \"Will Stellan Skarsgård win Best Supporting Actor a\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.214Z","type":"trade","message":"[auto-trader] ERROR: \"Will One Battle After Another win Best Cinematogra\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.215Z","type":"trade","message":"[auto-trader] ERROR: \"Will Bitcoin hit $150k by December 31, 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.215Z","type":"trade","message":"[auto-trader] ERROR: \"Will OpenAI not IPO by December 31, 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.215Z","type":"trade","message":"[auto-trader] Cycle done: 0 trades executed. Daily: $0.00/$50, 0 total trades today."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T12:40:41.483Z","type":"think","message":"Volume surge: \"Will the Seattle Kraken win the Pacific Division?\" — $36.3K in 24h (1051% of lifetime), price 1.9%"}
 {"timestamp":"2026-03-01T12:40:41.483Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 35h to resolution, 78.0% YES, ↑0.5% this hour, vol $111.3K"}
 {"timestamp":"2026-03-01T12:40:41.483Z","type":"decision","message":"Hourly momentum: \"Will the Anaheim Ducks win the Pacific Division?\" ↑3.6% in 1h, now 26.2%, vol $36.3K"}
+{"timestamp":"2026-03-01T12:45:41.689Z","type":"scan","message":"Cycle #3 — 751 markets | 12 active events | $31.7K recent flow"}
+{"timestamp":"2026-03-01T12:45:41.689Z","type":"think","message":"Live flow: \"Will US or Israel strike Iran on March 3, 2026?\" — $11.2K in 1 trades, NET BUY (strong bias), biggest $11.2K, 2m ago"}
+{"timestamp":"2026-03-01T12:45:41.689Z","type":"think","message":"↓ Price shift: \"Will Hamas agree to disarm by June 30?\" moved 1.0% since last scan (22.0% → 21.0%)"}
+{"timestamp":"2026-03-01T12:45:41.689Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 35h to resolution, 1.4% YES, ↑0.1% this hour, vol $111.3K"}
+{"timestamp":"2026-03-01T12:45:41.690Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 88.1% / ask 91.8% (3.7% spread), liq $1.8M"}
+{"timestamp":"2026-03-01T12:45:41.690Z","type":"decision","message":"Flow signal: \"Will Iran close the Strait of Hormuz by March 31?\" — buyers dominating ($6.0K net), 2 traders, 6s ago"}
