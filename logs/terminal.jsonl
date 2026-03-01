@@ -1,14 +1,3 @@
-{"timestamp":"2026-03-01T22:14:51.789Z","type":"scan","message":"Cycle #13 — 657 markets | 18 active events | $37.6K recent flow"}
-{"timestamp":"2026-03-01T22:14:51.789Z","type":"think","message":"Live flow: \"Will Bitcoin dip to $62,000 February 23-March 1?\" — $11.4K in 2 trades, NET SELL (strong bias), biggest $10.7K, 18s ago"}
-{"timestamp":"2026-03-01T22:14:51.789Z","type":"think","message":"↑ Price shift: \"Will Sean Penn win Best Supporting Actor at the 98th A…\" moved 2.0% since last scan (59.5% → 61.5%)"}
-{"timestamp":"2026-03-01T22:14:51.789Z","type":"think","message":"Tight race: \"Starmer out by June 30, 2026?\" — 50.0% YES, 24h vol $400.4K, ↑0.5% 1h"}
-{"timestamp":"2026-03-01T22:14:51.789Z","type":"think","message":"↑ Daily mover: \"Will Russia capture Rodynske by March 31?\" ↑23.5% today, ↑18.0% 1w, 24h vol $10.5K"}
-{"timestamp":"2026-03-01T22:14:51.789Z","type":"decision","message":"Flow signal: \"Will the Fed increase interest rates by 25+ bps after …\" — sellers dominating ($4.6K net), 0 traders, 4s ago"}
-{"timestamp":"2026-03-01T22:19:55.291Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T22:19:55.291Z","type":"palpha","message":"[network] 290 structural violations across 687 markets."}
-{"timestamp":"2026-03-01T22:19:55.291Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.7% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.0%) vs \"Will Vicky "}
-{"timestamp":"2026-03-01T22:19:55.291Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.8% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.0%) vs \"Will Mauric"}
-{"timestamp":"2026-03-01T22:19:55.291Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.5% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.0%) vs \"Will Vicky "}
 {"timestamp":"2026-03-01T22:19:55.291Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.8% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.0%) vs \"Will Enriqu"}
 {"timestamp":"2026-03-01T22:19:55.291Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.930 | Highly similar markets (60% overlap) with 93.4% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.0%) vs \"Will Claudi"}
 {"timestamp":"2026-03-01T22:19:55.291Z","type":"palpha","message":"[auto-trade] Cycle 14: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
@@ -198,3 +187,14 @@
 {"timestamp":"2026-03-01T23:35:29.905Z","type":"think","message":"Tight race: \"Starmer out by June 30, 2026?\" — 49.5% YES, 24h vol $400.4K, ↑0.5% 1h"}
 {"timestamp":"2026-03-01T23:35:29.905Z","type":"think","message":"↑ Daily mover: \"Callum Turner announced as next James Bond?\" ↑7.0% today, ↑8.0% 1w, 24h vol $12.1K"}
 {"timestamp":"2026-03-01T23:35:29.905Z","type":"decision","message":"Hourly momentum: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h, now 2.6%, vol $12.1K"}
+{"timestamp":"2026-03-01T23:40:30.187Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-01T23:40:30.187Z","type":"palpha","message":"[network] DISABLED — network signals removed (false positive rate too high)"}
+{"timestamp":"2026-03-01T23:40:30.187Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 2/6 total."}
+{"timestamp":"2026-03-01T23:40:30.187Z","type":"palpha","message":"[auto-trade] Cycle 7: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
+{"timestamp":"2026-03-01T23:40:30.207Z","type":"palpha","message":"[auto-sell] SKIP: \"Will Trump nominate himself as the next Fed chair?\" price 0.1¢ below min exit 0.5¢ — holding to expiry"}
+{"timestamp":"2026-03-01T23:40:29.926Z","type":"scan","message":"Cycle #7 — 657 markets | 13 active events | $26.9K recent flow"}
+{"timestamp":"2026-03-01T23:40:29.926Z","type":"think","message":"Live flow: \"Spread: Celtics (-9.5)\" — $4.0K in 1 trades, NET BUY (strong bias), biggest $4.0K, 16s ago"}
+{"timestamp":"2026-03-01T23:40:29.926Z","type":"think","message":"↓ Price shift: \"Will Drake release Iceman before GTA VI?\" moved 1.8% since last scan (93.3% → 91.5%)"}
+{"timestamp":"2026-03-01T23:40:29.926Z","type":"think","message":"↓ Daily mover: \"Will Trump visit China by March 31?\" ↓5.3% today, ↑67.0% 1w, 24h vol $117.4K"}
+{"timestamp":"2026-03-01T23:40:29.926Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 21.5%), 24h vol $16.2K"}
+{"timestamp":"2026-03-01T23:40:29.926Z","type":"decision","message":"Flow signal: \"Hezbollah strike on Israel by March 7?\" — sellers dominating ($3.3K net), 1 traders, 4s ago"}
