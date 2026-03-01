@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T15:56:49.384Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 2.8%"}
-{"timestamp":"2026-03-01T15:56:49.384Z","type":"decision","message":"Flow signal: \"Will the US confirm that aliens exist before 2027?\" — sellers dominating ($2.4K net), 1 traders, 1m ago"}
-{"timestamp":"2026-03-01T16:01:49.392Z","type":"scan","message":"Cycle #9 — 753 markets | 14 active events | $34.2K recent flow"}
-{"timestamp":"2026-03-01T16:01:49.392Z","type":"think","message":"Live flow: \"Will the price of Bitcoin be above $62,000 on March 1?\" — $7.3K in 3 trades, NET SELL, biggest $2.7K, 5m ago"}
-{"timestamp":"2026-03-01T16:01:49.392Z","type":"think","message":"↑ Price shift: \"Will Fulham finish in the top 4 of the EPL 2025–26 sta…\" moved 39.3% since last scan (3.3% → 42.5%)"}
-{"timestamp":"2026-03-01T16:01:49.392Z","type":"think","message":"Volume surge: \"Will the Seattle Kraken win the Pacific Division?\" — $36.3K in 24h (1051% of lifetime), price 2.5%"}
 {"timestamp":"2026-03-01T16:01:49.393Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 32h to resolution, 78.0% YES, ↑0.5% this hour, vol $111.3K"}
 {"timestamp":"2026-03-01T16:01:49.393Z","type":"decision","message":"Hourly momentum: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h, now 2.5%, vol $6.9K"}
 {"timestamp":"2026-03-01T16:06:49.251Z","type":"scan","message":"Cycle #10 — 753 markets | 7 active events | $21.9K recent flow"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T18:27:28.539Z","type":"think","message":"Volume surge: \"Will Thomas Massie win the 2028 Republican presidentia…\" — $4.9M in 24h (484% of lifetime), price 1.5%"}
 {"timestamp":"2026-03-01T18:27:28.539Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 30h to resolution, 78.0% YES, ↑0.5% this hour, vol $77.0K"}
 {"timestamp":"2026-03-01T18:27:28.539Z","type":"decision","message":"Flow signal: \"Will Matt Gaetz win the 2028 Republican presidential n…\" — sellers dominating ($2.5K net), 1 traders, 41s ago"}
+{"timestamp":"2026-03-01T18:32:28.585Z","type":"scan","message":"Cycle #3 — 657 markets | 4 active events | $8.4K recent flow"}
+{"timestamp":"2026-03-01T18:32:28.585Z","type":"think","message":"Live flow: \"Will Elon Musk post 260-279 tweets from February 24 to…\" — $2.0K in 1 trades, NET BUY (strong bias), biggest $2.0K, 5m ago"}
+{"timestamp":"2026-03-01T18:32:28.585Z","type":"think","message":"↓ Price shift: \"New Playboi Carti Album before GTA VI?\" moved 1.5% since last scan (49.0% → 47.5%)"}
+{"timestamp":"2026-03-01T18:32:28.585Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 29h to resolution, 0.9% YES, ↑0.1% this hour, vol $77.0K"}
+{"timestamp":"2026-03-01T18:32:28.585Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 88.1% / ask 92.0% (3.9% spread), liq $1.6M"}
+{"timestamp":"2026-03-01T18:32:28.585Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 48.5%, vol $10.5K"}
