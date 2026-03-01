@@ -200,7 +200,50 @@
       "timestamp": "2026-03-01T16:56:45.265Z"
     }
   ],
-  "closedBets": [],
+  "closedBets": [
+    {
+      "conditionId": "0xfcbb62015d44bd638477721cae00366d898ce21e37ed6cd7709e506651d16f49",
+      "tokenId": "53274463182164309605274368414193384807772664581079279225851261136449980901528",
+      "market": "Will Eyüpspor win the Süper Lig?",
+      "side": "YES",
+      "price": 0.028,
+      "amount": 14.98,
+      "shares": 544.7,
+      "source": "bot",
+      "exitPrice": 0.001,
+      "pnl": -14.285,
+      "exitReason": "manual close",
+      "closedAt": "2026-03-01T16:57:32.779Z"
+    },
+    {
+      "conditionId": "0xd61f4ee5c656e286d207a87b15734b95632ffc3c0189de016aa4290230d5671c",
+      "tokenId": "71471347328152025524948874883893501693924966961289343513993334806289140376368",
+      "market": "Will Beşiktaş win the Süper Lig?",
+      "side": "YES",
+      "price": 0.051,
+      "amount": 14.97,
+      "shares": 290,
+      "source": "bot",
+      "exitPrice": 0.002,
+      "pnl": -14.373,
+      "exitReason": "manual close",
+      "closedAt": "2026-03-01T16:57:32.785Z"
+    },
+    {
+      "conditionId": "0x6ed4bae02ff66c519433e1ec23d782d69251b3c58bc993f19a57a7ef60da94b4",
+      "tokenId": "42820698328977100519156054659829267544448516213749478099517564241764117389514",
+      "market": "Will Göztepe win the Süper Lig?",
+      "side": "YES",
+      "price": 0.084,
+      "amount": 14.99,
+      "shares": 177.8,
+      "source": "bot",
+      "exitPrice": 0.002,
+      "pnl": -14.634,
+      "exitReason": "manual close",
+      "closedAt": "2026-03-01T16:57:32.785Z"
+    }
+  ],
   "livePositions": [
     {
       "market": "Will Trump nominate no one before 2027?",
@@ -420,7 +463,7 @@
     }
   ],
   "deployed": 76.14,
-  "realizedPnl": 0,
+  "realizedPnl": -43.292,
   "scanCount": 3,
   "lastUpdate": "2026-03-01T16:56:45.265Z"
 }
