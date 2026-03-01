@@ -1,5 +1,5 @@
 {
-  "bankroll": 1000000,
+  "bankroll": 0,
   "bets": [
     {
       "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
@@ -714,7 +714,7 @@
       "livePrice": 0.0005,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 66.5,
+      "hoursHeld": 66.6,
       "conditionId": "0xdb1ae961e30733e7857ebb425b5f6449fa8032de13f32c1c6e447a0c3801ca04"
     },
     {
@@ -762,7 +762,7 @@
       "livePrice": 0.0005,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 63.3,
+      "hoursHeld": 63.4,
       "conditionId": "0xdb1ae961e30733e7857ebb425b5f6449fa8032de13f32c1c6e447a0c3801ca04"
     },
     {
@@ -798,7 +798,7 @@
       "livePrice": 0.931,
       "livePnl": 0.321,
       "livePnlPct": 2.14,
-      "hoursHeld": 50.3,
+      "hoursHeld": 50.4,
       "conditionId": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc"
     },
     {
@@ -882,7 +882,7 @@
       "livePrice": 0.0085,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 21.4,
+      "hoursHeld": 21.5,
       "conditionId": "0xe06a7e94cf2fa8dc2085b7610fe16e9be1cde6654f34d365c13da1149b276c61"
     },
     {
@@ -894,7 +894,7 @@
       "livePrice": 0.0085,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 21.4,
+      "hoursHeld": 21.5,
       "conditionId": "0xae70ab9bf1c3726fe430a2ba8b517697ae24e0f0ab554b876a5b521153068882"
     },
     {
@@ -906,7 +906,7 @@
       "livePrice": 0.0095,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 21.4,
+      "hoursHeld": 21.5,
       "conditionId": "0x450810ae738a0ff820d3248f2b24937f63fb8c8cf422ed2a915125adb4d9d3c8"
     },
     {
@@ -918,7 +918,7 @@
       "livePrice": 0.0085,
       "livePnl": 0,
       "livePnlPct": 0,
-      "hoursHeld": 21.4,
+      "hoursHeld": 21.5,
       "conditionId": "0x822e61527476cabf98927e3aad385c5ecdae7086f945535f2c1fd9ae8dbfa46e"
     },
     {
@@ -1332,6 +1332,6 @@
   ],
   "deployed": 408.90999999999985,
   "realizedPnl": 0,
-  "scanCount": 4,
-  "lastUpdate": "2026-03-01T12:21:37.168Z"
+  "scanCount": 1,
+  "lastUpdate": "2026-03-01T12:22:28.680Z"
 }
