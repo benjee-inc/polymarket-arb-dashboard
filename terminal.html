@@ -58,7 +58,8 @@ body{background:#0a0a0a;color:#00ff00;font-family:'SF Mono','Consolas','Monaco',
 </div>
 <div class="tab-bar">
   <div class="tab active" data-tab="logs">LOGS</div>
-  <div class="tab" data-tab="positions">POSITIONS</div>
+  <div class="tab" data-tab="positions">OPEN</div>
+  <div class="tab" data-tab="closed">CLOSED</div>
   <div class="tab" data-tab="wallet">WALLET</div>
 </div>
 <div class="content" id="content"></div>
@@ -155,6 +156,46 @@ function renderPositions() {
   content.innerHTML = html;
 }
 
+function renderClosed() {
+  const closed = (cachedState.closedBets || []).filter(b => b.source === "bot");
+  if (!closed.length){content.innerHTML='<div class="empty">No closed positions</div>';return}
+
+  const totalPnl = closed.reduce((s,b)=>s+(b.pnl||0),0);
+  const wins = closed.filter(b=>(b.pnl||0)>0).length;
+  const winRate = closed.length ? (wins/closed.length*100).toFixed(0) : '--';
+
+  let html = '<div style="margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid #333;display:flex;gap:24px;font-size:0.8rem">'
+    + '<div><span style="color:#666">Closed:</span> <span style="color:#ccc">'+closed.length+'</span></div>'
+    + '<div><span style="color:#666">Realized P&L:</span> <span class="'+pnlClass(totalPnl)+'">'+(totalPnl>=0?'+':'')+totalPnl.toFixed(3)+'</span></div>'
+    + '<div><span style="color:#666">Win Rate:</span> <span style="color:#ccc">'+winRate+'%</span></div>'
+    + '</div>';
+
+  for (const b of closed.slice().reverse()) {
+    const pnlDollar = b.pnl || 0;
+    const pnlPct = b.amount > 0 ? (pnlDollar / b.amount) * 100 : 0;
+    const cls = pnlDollar > 0.001 ? 'profit' : pnlDollar < -0.001 ? 'loss' : 'flat';
+
+    html += '<div class="pos-card '+cls+'">'
+      + '<div>'
+      + '<div class="pos-q">'+esc(b.market||'?')+'</div>'
+      + '<div class="pos-meta">'
+      + '<div>'+b.side+' <span>@ '+(b.price*100).toFixed(1)+'¢</span></div>'
+      + '<div>Exit <span>@ '+((b.exitPrice||0)*100).toFixed(1)+'¢</span></div>'
+      + '<div>Cost <span>'+fmt(b.amount)+'</span></div>'
+      + '<div>Shares <span>'+(b.shares||0).toFixed(1)+'</span></div>'
+      + '<div style="color:#888">'+esc(b.exitReason||'')+'</div>'
+      + (b.closedAt ? '<div style="color:#555">'+ts(b.closedAt)+'</div>' : '')
+      + '</div>'
+      + '</div>'
+      + '<div class="pos-pnl">'
+      + '<div class="pos-pnl-val '+pnlClass(pnlDollar)+'">'+(pnlDollar>=0?'+':'')+pnlDollar.toFixed(3)+'</div>'
+      + '<div class="pos-pnl-pct '+pnlClass(pnlPct)+'">'+(pnlPct>=0?'+':'')+pnlPct.toFixed(1)+'%</div>'
+      + '</div>'
+      + '</div>';
+  }
+  content.innerHTML = html;
+}
+
 function renderWallet() {
   const s = cachedState;
   
@@ -222,6 +263,7 @@ function wbox(label,value,pnlVal) {
 function render() {
   if (currentTab==='logs') renderLogs();
   else if (currentTab==='positions') renderPositions();
+  else if (currentTab==='closed') renderClosed();
   else if (currentTab==='wallet') renderWallet();
 }
 
