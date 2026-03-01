@@ -73,6 +73,7 @@ body{background:#0a0a0a;color:#00ff00;font-family:'SF Mono','Consolas','Monaco',
   <div class="tab" data-tab="positions">OPEN</div>
   <div class="tab" data-tab="closed">CLOSED</div>
   <div class="tab" data-tab="wallet">WALLET</div>
+  <div class="tab" data-tab="perf">PERF</div>
 </div>
 <div class="content" id="content"></div>
 
@@ -456,12 +457,217 @@ function wbox(label, value, pnlVal, sourceClass, sourceLabel) {
   return '<div class="w-box"><div class="w-label">' + label + tag + '</div><div class="w-val ' + cls + '">' + value + '</div></div>';
 }
 
+// ── Render: Performance Graph ────────────────────────────
+let perfHistory = []; // { time, netWorth, unrealized, deployed, balance }
+const PERF_MAX_POINTS = 360; // ~1 hour at 10s intervals
+
+function recordPerfSnapshot() {
+  const deployed = calcTotalDeployed();
+  const unrealized = calcTotalUnrealized();
+  const balance = usdcBalance != null ? usdcBalance : 0;
+  const netWorth = balance + deployed + unrealized;
+  perfHistory.push({
+    time: Date.now(),
+    netWorth,
+    unrealized,
+    deployed,
+    balance
+  });
+  if (perfHistory.length > PERF_MAX_POINTS) {
+    perfHistory = perfHistory.slice(-PERF_MAX_POINTS);
+  }
+}
+
+function renderPerf() {
+  if (perfHistory.length < 2) {
+    content.innerHTML = '<div class="empty">Collecting data points... (' + perfHistory.length + '/2 minimum)</div>';
+    return;
+  }
+
+  const W = Math.min(content.clientWidth - 40, 1200);
+  const H = Math.min(content.clientHeight - 120, 500);
+  const PAD = { top: 30, right: 80, bottom: 40, left: 70 };
+  const plotW = W - PAD.left - PAD.right;
+  const plotH = H - PAD.top - PAD.bottom;
+
+  // Data ranges
+  const values = perfHistory.map(p => p.netWorth);
+  const minVal = Math.min(...values);
+  const maxVal = Math.max(...values);
+  const range = maxVal - minVal || 1;
+  const padding = range * 0.1;
+  const yMin = minVal - padding;
+  const yMax = maxVal + padding;
+  const yRange = yMax - yMin;
+
+  const tMin = perfHistory[0].time;
+  const tMax = perfHistory[perfHistory.length - 1].time;
+  const tRange = tMax - tMin || 1;
+
+  // Stats
+  const first = perfHistory[0].netWorth;
+  const last = perfHistory[perfHistory.length - 1].netWorth;
+  const change = last - first;
+  const changePct = first > 0 ? (change / first * 100) : 0;
+  const peak = Math.max(...values);
+  const trough = Math.min(...values);
+
+  let html = '<div style="margin-bottom:10px;display:flex;gap:24px;font-size:0.8rem;flex-wrap:wrap">'
+    + '<div><span style="color:#666">Net Worth:</span> <span style="color:#00ff00">' + fmt(last) + '</span></div>'
+    + '<div><span style="color:#666">Session:</span> <span class="' + pnlClass(change) + '">' + (change >= 0 ? '+' : '') + change.toFixed(3) + ' (' + (changePct >= 0 ? '+' : '') + changePct.toFixed(2) + '%)</span></div>'
+    + '<div><span style="color:#666">Peak:</span> <span style="color:#ccc">' + fmt(peak) + '</span></div>'
+    + '<div><span style="color:#666">Trough:</span> <span style="color:#ccc">' + fmt(trough) + '</span></div>'
+    + '<div><span style="color:#666">Points:</span> <span style="color:#ccc">' + perfHistory.length + '</span></div>'
+    + '</div>';
+
+  html += '<canvas id="perfCanvas" width="' + W + '" height="' + H + '" style="display:block;margin:0 auto"></canvas>';
+
+  // Unrealized P&L sparkline stats
+  const uValues = perfHistory.map(p => p.unrealized);
+  const uLast = uValues[uValues.length - 1];
+
+  html += '<div style="margin-top:12px;font-size:0.75rem;color:#555">'
+    + '<span style="color:#666">Unrealized P&L:</span> <span class="' + pnlClass(uLast) + '">' + (uLast >= 0 ? '+' : '') + uLast.toFixed(3) + '</span>'
+    + ' | <span style="color:#666">USDC:</span> <span style="color:#ccc">' + fmt(perfHistory[perfHistory.length - 1].balance) + '</span>'
+    + ' | <span style="color:#666">Deployed:</span> <span style="color:#ccc">' + fmt(perfHistory[perfHistory.length - 1].deployed) + '</span>'
+    + '</div>';
+
+  content.innerHTML = html;
+
+  // Draw on canvas
+  const canvas = document.getElementById('perfCanvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+
+  // Background
+  ctx.fillStyle = '#0a0a0a';
+  ctx.fillRect(0, 0, W, H);
+
+  // Grid lines (terminal style — dotted green)
+  ctx.strokeStyle = '#1a1a1a';
+  ctx.lineWidth = 1;
+  const gridRows = 5;
+  for (let i = 0; i <= gridRows; i++) {
+    const y = PAD.top + (plotH / gridRows) * i;
+    ctx.beginPath();
+    ctx.setLineDash([2, 4]);
+    ctx.moveTo(PAD.left, y);
+    ctx.lineTo(PAD.left + plotW, y);
+    ctx.stroke();
+
+    // Y-axis labels
+    const val = yMax - (yRange / gridRows) * i;
+    ctx.fillStyle = '#555';
+    ctx.font = '11px "SF Mono", Consolas, monospace';
+    ctx.textAlign = 'right';
+    ctx.fillText('$' + val.toFixed(2), PAD.left - 8, y + 4);
+  }
+
+  // Time axis labels
+  ctx.setLineDash([]);
+  const gridCols = Math.min(6, perfHistory.length - 1);
+  for (let i = 0; i <= gridCols; i++) {
+    const x = PAD.left + (plotW / gridCols) * i;
+    const t = tMin + (tRange / gridCols) * i;
+
+    ctx.strokeStyle = '#1a1a1a';
+    ctx.setLineDash([2, 4]);
+    ctx.beginPath();
+    ctx.moveTo(x, PAD.top);
+    ctx.lineTo(x, PAD.top + plotH);
+    ctx.stroke();
+
+    ctx.fillStyle = '#555';
+    ctx.font = '10px "SF Mono", Consolas, monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText(ts(new Date(t)), x, PAD.top + plotH + 16);
+  }
+
+  // Plot border
+  ctx.setLineDash([]);
+  ctx.strokeStyle = '#333';
+  ctx.lineWidth = 1;
+  ctx.strokeRect(PAD.left, PAD.top, plotW, plotH);
+
+  // Zero line (if visible)
+  const zeroY = PAD.top + plotH - ((0 - yMin) / yRange) * plotH;
+  // We don't plot zero for net worth, but we do plot the starting value
+  const startY = PAD.top + plotH - ((first - yMin) / yRange) * plotH;
+  ctx.strokeStyle = '#333';
+  ctx.setLineDash([4, 4]);
+  ctx.beginPath();
+  ctx.moveTo(PAD.left, startY);
+  ctx.lineTo(PAD.left + plotW, startY);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  // Net worth line
+  ctx.strokeStyle = change >= 0 ? '#00ff00' : '#ff0044';
+  ctx.lineWidth = 2;
+  ctx.shadowColor = change >= 0 ? '#00ff0044' : '#ff004444';
+  ctx.shadowBlur = 6;
+  ctx.beginPath();
+  for (let i = 0; i < perfHistory.length; i++) {
+    const x = PAD.left + ((perfHistory[i].time - tMin) / tRange) * plotW;
+    const y = PAD.top + plotH - ((perfHistory[i].netWorth - yMin) / yRange) * plotH;
+    if (i === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
+  }
+  ctx.stroke();
+  ctx.shadowBlur = 0;
+
+  // Fill area under the line
+  const gradient = ctx.createLinearGradient(0, PAD.top, 0, PAD.top + plotH);
+  if (change >= 0) {
+    gradient.addColorStop(0, 'rgba(0, 255, 0, 0.15)');
+    gradient.addColorStop(1, 'rgba(0, 255, 0, 0.01)');
+  } else {
+    gradient.addColorStop(0, 'rgba(255, 0, 68, 0.15)');
+    gradient.addColorStop(1, 'rgba(255, 0, 68, 0.01)');
+  }
+  ctx.fillStyle = gradient;
+  ctx.beginPath();
+  for (let i = 0; i < perfHistory.length; i++) {
+    const x = PAD.left + ((perfHistory[i].time - tMin) / tRange) * plotW;
+    const y = PAD.top + plotH - ((perfHistory[i].netWorth - yMin) / yRange) * plotH;
+    if (i === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
+  }
+  // Close the path down to the bottom
+  const lastX = PAD.left + ((perfHistory[perfHistory.length - 1].time - tMin) / tRange) * plotW;
+  ctx.lineTo(lastX, PAD.top + plotH);
+  ctx.lineTo(PAD.left, PAD.top + plotH);
+  ctx.closePath();
+  ctx.fill();
+
+  // Current value dot
+  const curX = lastX;
+  const curY = PAD.top + plotH - ((last - yMin) / yRange) * plotH;
+  ctx.fillStyle = change >= 0 ? '#00ff00' : '#ff0044';
+  ctx.beginPath();
+  ctx.arc(curX, curY, 4, 0, Math.PI * 2);
+  ctx.fill();
+
+  // Current value label
+  ctx.fillStyle = change >= 0 ? '#00ff00' : '#ff0044';
+  ctx.font = 'bold 12px "SF Mono", Consolas, monospace';
+  ctx.textAlign = 'left';
+  ctx.fillText(fmt(last), curX + 8, curY + 4);
+
+  // Title
+  ctx.fillStyle = '#666';
+  ctx.font = '11px "SF Mono", Consolas, monospace';
+  ctx.textAlign = 'left';
+  ctx.fillText('NET WORTH (session)', PAD.left, PAD.top - 10);
+}
+
 // ── Render dispatch ──────────────────────────────────────
 function render() {
   if (currentTab === 'logs') renderLogs();
   else if (currentTab === 'positions') renderPositions();
   else if (currentTab === 'closed') renderClosed();
   else if (currentTab === 'wallet') renderWallet();
+  else if (currentTab === 'perf') renderPerf();
 }
 
 // ── Header update ────────────────────────────────────────
@@ -507,6 +713,7 @@ function updateHeader() {
 async function pollPositionsAndPrices() {
   await fetchPositions();
   await fetchLivePrices();
+  recordPerfSnapshot();
   updateHeader();
   render();
 }
@@ -548,6 +755,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     verifyOnChain()
   ]);
   await fetchLivePrices(); // needs positions loaded first
+  recordPerfSnapshot();
   updateHeader();
   render();
 
