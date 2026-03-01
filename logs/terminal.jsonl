@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T13:05:41.584Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.0%), 24h vol $6.9K"}
-{"timestamp":"2026-03-01T13:05:41.585Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be between $70,000 and $72,0…\" — buyers dominating ($2.0K net), 1 traders, 58s ago"}
-{"timestamp":"2026-03-01T13:08:42.997Z","type":"palpha","message":"Evaluated 28 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T13:08:42.997Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
-{"timestamp":"2026-03-01T13:08:42.997Z","type":"palpha","message":"[network] 389 structural violations across 795 markets."}
-{"timestamp":"2026-03-01T13:08:42.998Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
 {"timestamp":"2026-03-01T13:10:41.651Z","type":"scan","message":"Cycle #8 — 751 markets | 8 active events | $18.4K recent flow"}
 {"timestamp":"2026-03-01T13:10:41.651Z","type":"think","message":"Live flow: \"Will Chelsea Clinton win the 2028 Democratic president…\" — $1.5K in 1 trades, NET SELL (strong bias), biggest $1.5K, 5m ago"}
 {"timestamp":"2026-03-01T13:10:41.651Z","type":"think","message":"↑ Price shift: \"Will Trump and Putin meet next in a Gulf country?\" moved 7.4% since last scan (3.9% → 11.2%)"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T15:04:43.692Z","type":"think","message":"Wide spread: \"Will Tom Steyer win the California Governor Election i…\" — bid 5.7% / ask 13.2% (7.5% spread), liq $419.9K"}
 {"timestamp":"2026-03-01T15:04:43.692Z","type":"think","message":"Deep value: \"Will Trump nominate Stephen Miran as the next Fed chai…\" — Yes @ 0.5¢, liq $50.3M, 24h vol $7.2M"}
 {"timestamp":"2026-03-01T15:04:43.693Z","type":"decision","message":"Flow signal: \"Will Iran name a successor to Khamenei by March 1?\" — sellers dominating ($3.5K net), 1 traders, 12s ago"}
+{"timestamp":"2026-03-01T15:09:43.722Z","type":"scan","message":"Cycle #12 — 753 markets | 7 active events | $15.5K recent flow"}
+{"timestamp":"2026-03-01T15:09:43.722Z","type":"think","message":"Live flow: \"Will Bitcoin reach $150,000 in March?\" — $1.7K in 2 trades, NET BUY (strong bias), biggest $996, 5m ago"}
+{"timestamp":"2026-03-01T15:09:43.722Z","type":"think","message":"↓ Price shift: \"Will Liverpool finish in the top 4 of the EPL 2025–26 …\" moved 1.5% since last scan (64.5% → 63.0%)"}
+{"timestamp":"2026-03-01T15:09:43.722Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.8¢, liq $50.3M, 24h vol $7.2M"}
+{"timestamp":"2026-03-01T15:09:43.722Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.0% YES, 24h vol $4.2M"}
+{"timestamp":"2026-03-01T15:09:43.722Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 50.5%, vol $9.4K"}
