@@ -1,0 +1,242 @@
+{
+  "bankroll": 283.368646,
+  "bets": [
+    {
+      "conditionId": "0x3d83f444f62b2afe0cb28485073cbf3617400d58813cd351cd4d242560ac47f2",
+      "tokenId": "90861079362480308652433470464488328958002752949226213855809529654473996256176",
+      "market": "Will Trump nominate himself as the next Fed chair?",
+      "side": "Yes",
+      "price": 0.001,
+      "amount": 15,
+      "shares": 15000,
+      "source": "bot",
+      "timestamp": "2026-03-01T23:07:01.687Z"
+    },
+    {
+      "conditionId": "0x7130b8d9bb59393ede189911ba57783debc1900dffb8143c3cb0027952e2f7df",
+      "tokenId": "19180751334892649957685662514970856594118361572000181281162861811532650604260",
+      "market": "Will the U.S. collect between $200b and $500b in revenue in 2025?",
+      "side": "Yes",
+      "price": 0.002,
+      "amount": 1.33,
+      "shares": 666.49,
+      "source": "bot",
+      "timestamp": "2026-03-01T23:07:01.688Z"
+    },
+    {
+      "conditionId": "0x641830333ea2219982ecfc1819e46eb37cd07fa78c3e4da026ac068a6617e508",
+      "tokenId": "88643880280058617508650660638536208703726701065781270016632497817079864800200",
+      "market": "Will Trump and Putin meet next in Switzerland?",
+      "side": "Yes",
+      "price": 0.0341,
+      "amount": 14.98,
+      "shares": 439.302,
+      "source": "bot",
+      "timestamp": "2026-03-01T23:07:01.688Z"
+    },
+    {
+      "conditionId": "0x9031561489f77ba1f89c0b963170a6853c39840e6e89a6a658a05d12b60a1ff0",
+      "tokenId": "11496911708530353635901777594615434611254410097574016440652937956321655458268",
+      "market": "Will Trump and Putin meet next in Russia?",
+      "side": "Yes",
+      "price": 0.0387,
+      "amount": 14.99,
+      "shares": 387.231,
+      "source": "bot",
+      "timestamp": "2026-03-01T23:07:01.688Z"
+    },
+    {
+      "conditionId": "0xca2059450e49cc391ea49c5f205dce7f1a2af63b87d7a3156cd446592ebb7143",
+      "tokenId": "47340907435745971774936414277275769447649316984952415792631691131085629447335",
+      "market": "Will Trump and Putin meet next in Belarus?",
+      "side": "Yes",
+      "price": 0.0388,
+      "amount": 14.97,
+      "shares": 385.8361,
+      "source": "bot",
+      "timestamp": "2026-03-01T23:07:01.688Z"
+    },
+    {
+      "conditionId": "0x731178908877c9a1a00978facbdf08d0b664cb0e0b6cec70aa2fe0b5afcebeb6",
+      "tokenId": "111607224355283321566791910366673364789353075356938202454287500340761338350630",
+      "market": "Will Trump and Putin meet next in United States?",
+      "side": "Yes",
+      "price": 0.0408,
+      "amount": 14.99,
+      "shares": 367.5225,
+      "source": "bot",
+      "timestamp": "2026-03-01T23:07:01.688Z"
+    },
+    {
+      "conditionId": "0xaf9d0e448129a9f657f851d49495ba4742055d80e0ef1166ba0ee81d4d594214",
+      "tokenId": "101676997363687199724245607342877036148401850938023978421879460310389391082353",
+      "market": "Will Trump deport less than 250,000?",
+      "side": "Yes",
+      "price": 0.023,
+      "amount": 1,
+      "shares": 43.58,
+      "source": "bot",
+      "timestamp": "2026-03-01T23:07:01.688Z"
+    },
+    {
+      "conditionId": "0xb867a8daad6ce355fae60fa0870f3122fc9fb5adba7e06b9fd8cadfe2443d884",
+      "tokenId": "14599908916799760381096461284706770680586426325779320385436934429176060667952",
+      "market": "Will Celtic FC vs. Dundee United FC end in a draw?",
+      "side": "Yes",
+      "price": 0.0642,
+      "amount": 1.75,
+      "shares": 27.27,
+      "source": "bot",
+      "timestamp": "2026-03-01T23:07:01.688Z"
+    },
+    {
+      "conditionId": "0x53edf2e7bd4238af99755ccf89538140ae9e238640c2a40548c1b04228869e82",
+      "tokenId": "1893596161966528977293669124243507748817465895660117534541056338613433985444",
+      "market": "Will Motherwell FC win on 2026-01-10?",
+      "side": "Yes",
+      "price": 0.61,
+      "amount": 6.16,
+      "shares": 10.1,
+      "source": "bot",
+      "timestamp": "2026-03-01T23:07:01.688Z"
+    },
+    {
+      "conditionId": "0xb81bc42ebe439b9c1c7b13a6c3ed36f2ac5f70f4385286e552fec734ed126ee0",
+      "tokenId": "18220248766193651451743101586044088143254891315063053382873051594862411533518",
+      "market": "Will Hibernian FC vs. Motherwell FC end in a draw?",
+      "side": "Yes",
+      "price": 0.5699,
+      "amount": 2.3,
+      "shares": 4.04,
+      "source": "bot",
+      "timestamp": "2026-03-01T23:07:01.688Z"
+    }
+  ],
+  "closedBets": [],
+  "livePositions": [
+    {
+      "market": "Will Trump nominate himself as the next Fed chair?",
+      "side": "Yes",
+      "price": 0.001,
+      "amount": 15,
+      "shares": 15000,
+      "livePrice": 0.0005,
+      "livePnl": -7.5,
+      "livePnlPct": -50,
+      "hoursHeld": 0,
+      "conditionId": "0x3d83f444f62b2afe0cb28485073cbf3617400d58813cd351cd4d242560ac47f2"
+    },
+    {
+      "market": "Will the U.S. collect between $200b and $500b in revenue in 2025?",
+      "side": "Yes",
+      "price": 0.002,
+      "amount": 1.33,
+      "shares": 666.49,
+      "livePrice": 0.002,
+      "livePnl": 0,
+      "livePnlPct": 0,
+      "hoursHeld": 0,
+      "conditionId": "0x7130b8d9bb59393ede189911ba57783debc1900dffb8143c3cb0027952e2f7df"
+    },
+    {
+      "market": "Will Trump and Putin meet next in Switzerland?",
+      "side": "Yes",
+      "price": 0.0341,
+      "amount": 14.98,
+      "shares": 439.302,
+      "livePrice": 0.0265,
+      "livePnl": -3.339,
+      "livePnlPct": -22.29,
+      "hoursHeld": 0,
+      "conditionId": "0x641830333ea2219982ecfc1819e46eb37cd07fa78c3e4da026ac068a6617e508"
+    },
+    {
+      "market": "Will Trump and Putin meet next in Russia?",
+      "side": "Yes",
+      "price": 0.0387,
+      "amount": 14.99,
+      "shares": 387.231,
+      "livePrice": 0.0365,
+      "livePnl": -0.852,
+      "livePnlPct": -5.68,
+      "hoursHeld": 0,
+      "conditionId": "0x9031561489f77ba1f89c0b963170a6853c39840e6e89a6a658a05d12b60a1ff0"
+    },
+    {
+      "market": "Will Trump and Putin meet next in Belarus?",
+      "side": "Yes",
+      "price": 0.0388,
+      "amount": 14.97,
+      "shares": 385.8361,
+      "livePrice": 0.0275,
+      "livePnl": -4.36,
+      "livePnlPct": -29.12,
+      "hoursHeld": 0,
+      "conditionId": "0xca2059450e49cc391ea49c5f205dce7f1a2af63b87d7a3156cd446592ebb7143"
+    },
+    {
+      "market": "Will Trump and Putin meet next in United States?",
+      "side": "Yes",
+      "price": 0.0408,
+      "amount": 14.99,
+      "shares": 367.5225,
+      "livePrice": 0.047,
+      "livePnl": 2.279,
+      "livePnlPct": 15.2,
+      "hoursHeld": 0,
+      "conditionId": "0x731178908877c9a1a00978facbdf08d0b664cb0e0b6cec70aa2fe0b5afcebeb6"
+    },
+    {
+      "market": "Will Trump deport less than 250,000?",
+      "side": "Yes",
+      "price": 0.023,
+      "amount": 1,
+      "shares": 43.58,
+      "livePrice": 0.023,
+      "livePnl": 0,
+      "livePnlPct": 0,
+      "hoursHeld": 0,
+      "conditionId": "0xaf9d0e448129a9f657f851d49495ba4742055d80e0ef1166ba0ee81d4d594214"
+    },
+    {
+      "market": "Will Celtic FC vs. Dundee United FC end in a draw?",
+      "side": "Yes",
+      "price": 0.0642,
+      "amount": 1.75,
+      "shares": 27.27,
+      "livePrice": 0.0642,
+      "livePnl": 0,
+      "livePnlPct": 0,
+      "hoursHeld": 0,
+      "conditionId": "0xb867a8daad6ce355fae60fa0870f3122fc9fb5adba7e06b9fd8cadfe2443d884"
+    },
+    {
+      "market": "Will Motherwell FC win on 2026-01-10?",
+      "side": "Yes",
+      "price": 0.61,
+      "amount": 6.16,
+      "shares": 10.1,
+      "livePrice": 0.61,
+      "livePnl": 0,
+      "livePnlPct": 0,
+      "hoursHeld": 0,
+      "conditionId": "0x53edf2e7bd4238af99755ccf89538140ae9e238640c2a40548c1b04228869e82"
+    },
+    {
+      "market": "Will Hibernian FC vs. Motherwell FC end in a draw?",
+      "side": "Yes",
+      "price": 0.5699,
+      "amount": 2.3,
+      "shares": 4.04,
+      "livePrice": 1,
+      "livePnl": 1.738,
+      "livePnlPct": 75.47,
+      "hoursHeld": 0,
+      "conditionId": "0xb81bc42ebe439b9c1c7b13a6c3ed36f2ac5f70f4385286e552fec734ed126ee0"
+    }
+  ],
+  "deployed": 87.46999999999998,
+  "realizedPnl": 0,
+  "scanCount": 8,
+  "lastUpdate": "2026-03-01T23:07:01.688Z"
+}
