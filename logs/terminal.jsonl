@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-01T22:32:00.686Z","type":"palpha","message":"[auto-sell] SKIP: \"Will Trump nominate himself as the next Fed chair?\" price 0.1¢ below min exit 0.5¢ — holding to expiry"}
-{"timestamp":"2026-03-01T22:32:03.439Z","type":"trade","message":"[auto-sell] STOP LOSS: Sold YES 153.9 shares of \"Will Trump and Putin meet next in another country?\" @ 4.9¢ (-50%) → $4.30 | order=0x99937acd6ae1160315aa5683d10d68db89fe75050a034c7048172a13c1f9f8d9"}
-{"timestamp":"2026-03-01T22:31:59.858Z","type":"scan","message":"Cycle #1 — 657 markets | 13 active events | $79.6K recent flow"}
-{"timestamp":"2026-03-01T22:31:59.858Z","type":"think","message":"Live flow: \"Will Iran close the Strait of Hormuz by March 31?\" — $43.9K in 2 trades, NET SELL (strong bias), biggest $42.9K, 34s ago"}
-{"timestamp":"2026-03-01T22:31:59.858Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 20.0%), 24h vol $16.2K"}
-{"timestamp":"2026-03-01T22:31:59.858Z","type":"think","message":"Volume surge: \"Will Carlos Felipe Córdoba win the 2026 Colombian pres…\" — $99.1K in 24h (834% of lifetime), price 0.8%"}
-{"timestamp":"2026-03-01T22:31:59.858Z","type":"decision","message":"Flow signal: \"Will the US strike Iran next?\" — buyers dominating ($17.5K net), 3 traders, 24s ago"}
-{"timestamp":"2026-03-01T22:36:59.766Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T22:36:59.766Z","type":"palpha","message":"[network] DISABLED — network signals removed (false positive rate too high)"}
-{"timestamp":"2026-03-01T22:36:59.766Z","type":"palpha","message":"[auto-trade] Position cap hit: 91/10 open positions. No new trades until positions close."}
-{"timestamp":"2026-03-01T22:36:59.766Z","type":"palpha","message":"[auto-trade] Cycle 2: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
-{"timestamp":"2026-03-01T22:37:00.302Z","type":"palpha","message":"[auto-sell] SKIP: \"Will Trump nominate himself as the next Fed chair?\" price 0.1¢ below min exit 0.5¢ — holding to expiry"}
-{"timestamp":"2026-03-01T22:36:59.740Z","type":"scan","message":"Cycle #2 — 657 markets | 13 active events | $79.6K recent flow"}
-{"timestamp":"2026-03-01T22:36:59.740Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $5.0K in 1 trades, NET SELL (strong bias), biggest $5.0K, 5m ago"}
 {"timestamp":"2026-03-01T22:36:59.740Z","type":"think","message":"↓ Price shift: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" moved 1.5% since last scan (79.0% → 77.5%)"}
 {"timestamp":"2026-03-01T22:36:59.740Z","type":"think","message":"Volume surge: \"Will Thomas Massie win the 2028 Republican presidentia…\" — $4.9M in 24h (483% of lifetime), price 1.5%"}
 {"timestamp":"2026-03-01T22:36:59.740Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 25h to resolution, 2.3% YES, ↑0.1% this hour, vol $77.0K"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-01T23:54:05.012Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 24h to resolution, 1.7% YES, ↑0.1% this hour, vol $77.0K"}
 {"timestamp":"2026-03-01T23:54:05.012Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 92.0% / ask 95.1% (3.1% spread), liq $1.7M"}
 {"timestamp":"2026-03-01T23:54:05.012Z","type":"decision","message":"Flow signal: \"US x Iran ceasefire by March 6?\" — buyers dominating ($4.0K net), 1 traders, 5m ago"}
+{"timestamp":"2026-03-01T23:59:13.840Z","type":"palpha","message":"Evaluated 6 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-01T23:59:13.840Z","type":"palpha","message":"[palpha] VETOED: \"Will Matt Mahan win the California Governor Election in 2026\" — rec=NOISE alpha=0.0% conf=25% | mkt=17.5% implied=n/a dir=NEUTRAL src=[] | needs alpha≥3% for MONITOR"}
+{"timestamp":"2026-03-01T23:59:13.840Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — rec=NOISE alpha=0.0% conf=25% | mkt=4.0% implied=n/a dir=NEUTRAL src=[] | needs alpha≥3% for MONITOR"}
+{"timestamp":"2026-03-01T23:59:13.840Z","type":"palpha","message":"[palpha] VETOED: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — rec=NOISE alpha=0.0% conf=25% | mkt=78.5% implied=n/a dir=NEUTRAL src=[] | needs alpha≥3% for MONITOR"}
+{"timestamp":"2026-03-01T23:59:13.840Z","type":"palpha","message":"[palpha] VETOED: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — rec=NOISE alpha=0.0% conf=25% | mkt=1.7% implied=n/a dir=NEUTRAL src=[] | needs alpha≥3% for MONITOR"}
+{"timestamp":"2026-03-01T23:59:13.840Z","type":"palpha","message":"[palpha] VETOED: \"Will John Cornyn win the 2026 Texas Republican Primary?\" — rec=NOISE alpha=0.0% conf=25% | mkt=19.5% implied=n/a dir=NEUTRAL src=[] | needs alpha≥3% for MONITOR"}
+{"timestamp":"2026-03-01T23:59:13.840Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 2/6 total."}
+{"timestamp":"2026-03-01T23:59:13.840Z","type":"trade","message":"[auto-trade] No trades: spread too wide: 1.0¢ on 17.5¢ entry (6% > 5% max). Daily: $540.00"}
+{"timestamp":"2026-03-01T23:59:04.918Z","type":"scan","message":"Cycle #4 — 657 markets | 14 active events | $33.1K recent flow"}
+{"timestamp":"2026-03-01T23:59:04.918Z","type":"think","message":"Live flow: \"US-Iran nuclear deal by June 30?\" — $6.1K in 1 trades, NET BUY (strong bias), biggest $6.1K, 11s ago"}
+{"timestamp":"2026-03-01T23:59:04.918Z","type":"think","message":"↑ Price shift: \"Netanyahu out by end of 2026?\" moved 4.5% since last scan (37.0% → 41.5%)"}
+{"timestamp":"2026-03-01T23:59:04.918Z","type":"think","message":"Wide spread: \"Will Matt Mahan win the California Governor Election i…\" — bid 14.0% / ask 21.0% (7.0% spread), liq $421.4K"}
+{"timestamp":"2026-03-01T23:59:04.918Z","type":"think","message":"Deep value: \"Will Trump nominate Stephen Miran as the next Fed chai…\" — Yes @ 0.5¢, liq $49.9M, 24h vol $6.2M"}
+{"timestamp":"2026-03-01T23:59:04.918Z","type":"decision","message":"Flow signal: \"Will Ethereum dip to $1,400 February 23-March 1?\" — sellers dominating ($5.0K net), 1 traders, 2m ago"}
