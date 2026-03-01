@@ -259,12 +259,17 @@ function calcPositionPnl(p) {
   return { size, avgPrice, livePrice, cost, value, pnlDollar, pnlPct };
 }
 
+function isActivePosition(p) {
+  const calc = calcPositionPnl(p);
+  return calc.value >= 2 && calc.livePrice >= 0.01 && calc.livePrice < 0.99;
+}
+
 function calcTotalUnrealized() {
-  return positions.filter(p => calcPositionPnl(p).value >= 2).reduce((sum, p) => sum + calcPositionPnl(p).pnlDollar, 0);
+  return positions.filter(isActivePosition).reduce((sum, p) => sum + calcPositionPnl(p).pnlDollar, 0);
 }
 
 function calcTotalDeployed() {
-  return positions.filter(p => calcPositionPnl(p).value >= 2).reduce((sum, p) => sum + calcPositionPnl(p).cost, 0);
+  return positions.filter(isActivePosition).reduce((sum, p) => sum + calcPositionPnl(p).cost, 0);
 }
 
 function calcTotalRealized() {
@@ -292,7 +297,8 @@ function renderLogs() {
 function renderPositions() {
   const visible = positions.filter(p => {
     const calc = calcPositionPnl(p);
-    return calc.value >= 2; // hide dust positions worth < $2
+    // Hide: dust (price < 1¢), resolved winners (price >= 99¢), low value (< $2)
+    return calc.value >= 2 && calc.livePrice >= 0.01 && calc.livePrice < 0.99;
   });
   if (!visible.length) {
     content.innerHTML = '<div class="empty">No open positions (hiding ' + positions.length + ' dust positions worth &lt; $2)</div>';
@@ -413,7 +419,7 @@ function renderWallet() {
     + wbox('Deployed', fmt(deployed))
     + wbox('Unrealized P&L', (unrealized >= 0 ? '+' : '') + unrealized.toFixed(3), unrealized)
     + wbox('Realized P&L', (realized >= 0 ? '+' : '') + realized.toFixed(3), realized)
-    + wbox('Open Positions', positions.filter(p => calcPositionPnl(p).value >= 2).length)
+    + wbox('Open Positions', positions.filter(isActivePosition).length)
     + wbox('Trades', activity.length)
     + wbox('Win Rate', winRate)
     + wbox('Net Worth', fmt(balance + deployed + unrealized))
@@ -427,7 +433,7 @@ function renderWallet() {
     + '</div>';
 
   // Open positions summary (hide dust < $2)
-  const walletVisible = positions.filter(p => calcPositionPnl(p).value >= 2);
+  const walletVisible = positions.filter(isActivePosition);
   if (walletVisible.length) {
     html += '<div style="color:#888;font-size:0.8rem;margin:15px 0 8px">OPEN POSITIONS</div>';
     for (const p of walletVisible) {
