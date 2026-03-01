@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T13:10:41.651Z","type":"scan","message":"Cycle #8 — 751 markets | 8 active events | $18.4K recent flow"}
-{"timestamp":"2026-03-01T13:10:41.651Z","type":"think","message":"Live flow: \"Will Chelsea Clinton win the 2028 Democratic president…\" — $1.5K in 1 trades, NET SELL (strong bias), biggest $1.5K, 5m ago"}
-{"timestamp":"2026-03-01T13:10:41.651Z","type":"think","message":"↑ Price shift: \"Will Trump and Putin meet next in a Gulf country?\" moved 7.4% since last scan (3.9% → 11.2%)"}
-{"timestamp":"2026-03-01T13:10:41.651Z","type":"think","message":"↑ Hourly mover: \"Will the Anaheim Ducks win the Pacific Division?\" ↑3.6% in 1h (now 28.5%), 24h vol $36.3K"}
-{"timestamp":"2026-03-01T13:10:41.651Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 1.6%"}
-{"timestamp":"2026-03-01T13:10:41.651Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Kostyantynivka by December 31, 202…\" ↓1.5% in 1h, now 88.5%, vol $29.0K"}
 {"timestamp":"2026-03-01T13:13:31.507Z","type":"palpha","message":"Evaluated 28 raw opportunities from scanner signals"}
 {"timestamp":"2026-03-01T13:13:31.507Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
 {"timestamp":"2026-03-01T13:13:31.507Z","type":"palpha","message":"[network] 390 structural violations across 795 markets."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T15:09:43.722Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.8¢, liq $50.3M, 24h vol $7.2M"}
 {"timestamp":"2026-03-01T15:09:43.722Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.0% YES, 24h vol $4.2M"}
 {"timestamp":"2026-03-01T15:09:43.722Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 50.5%, vol $9.4K"}
+{"timestamp":"2026-03-01T15:14:43.799Z","type":"scan","message":"Cycle #13 — 753 markets | 15 active events | $34.3K recent flow"}
+{"timestamp":"2026-03-01T15:14:43.799Z","type":"think","message":"Live flow: \"Will Microstrategy announce a Bitcoin purchase Februar…\" — $6.6K in 2 trades, NET BUY (strong bias), biggest $6.0K, 32s ago"}
+{"timestamp":"2026-03-01T15:14:43.799Z","type":"think","message":"↓ Price shift: \"Will Trump and Putin meet next in a Gulf country?\" moved 3.8% since last scan (10.9% → 7.1%)"}
+{"timestamp":"2026-03-01T15:14:43.799Z","type":"think","message":"Tight race: \"Starmer out by June 30, 2026?\" — 49.5% YES, 24h vol $482.7K, ↑0.5% 1h"}
+{"timestamp":"2026-03-01T15:14:43.799Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $7.2K"}
+{"timestamp":"2026-03-01T15:14:43.799Z","type":"decision","message":"Flow signal: \"Will Stephen Smith win the 2028 US Presidential Electi…\" — buyers dominating ($5.0K net), 1 traders, 24s ago"}
