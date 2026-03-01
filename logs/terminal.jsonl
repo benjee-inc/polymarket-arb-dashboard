@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T13:43:25.175Z","type":"palpha","message":"[network] 378 structural violations across 789 markets."}
-{"timestamp":"2026-03-01T13:43:25.175Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
-{"timestamp":"2026-03-01T13:45:41.926Z","type":"scan","message":"Cycle #15 — 753 markets | 11 active events | $27.4K recent flow"}
-{"timestamp":"2026-03-01T13:45:41.927Z","type":"think","message":"Live flow: \"US x Iran ceasefire by March 2?\" — $7.9K in 1 trades, NET BUY (strong bias), biggest $7.9K, 18s ago"}
-{"timestamp":"2026-03-01T13:45:41.927Z","type":"think","message":"↑ Price shift: \"Will PLC win the most seats in the 2026 Colombian Cham…\" moved 2.0% since last scan (10.5% → 12.5%)"}
-{"timestamp":"2026-03-01T13:45:41.927Z","type":"think","message":"↓ Hourly mover: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h (now 3.5%), 24h vol $6.9K"}
 {"timestamp":"2026-03-01T13:45:41.927Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 1.4%"}
 {"timestamp":"2026-03-01T13:45:41.927Z","type":"decision","message":"Flow signal: \"Iran strike on Qatar by March 31, 2026?\" — buyers dominating ($6.7K net), 1 traders, 14s ago"}
 {"timestamp":"2026-03-01T13:48:34.683Z","type":"palpha","message":"Evaluated 24 raw opportunities from scanner signals"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T15:51:49.197Z","type":"think","message":"↑ Daily mover: \"Callum Turner announced as next James Bond?\" ↑7.0% today, ↑8.0% 1w, 24h vol $6.9K"}
 {"timestamp":"2026-03-01T15:51:49.197Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 17.0%), 24h vol $6.9K"}
 {"timestamp":"2026-03-01T15:51:49.197Z","type":"decision","message":"Hourly momentum: \"Will the Anaheim Ducks win the Pacific Division?\" ↑3.6% in 1h, now 26.4%, vol $36.3K"}
+{"timestamp":"2026-03-01T15:56:49.383Z","type":"scan","message":"Cycle #8 — 753 markets | 14 active events | $34.2K recent flow"}
+{"timestamp":"2026-03-01T15:56:49.383Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $11.1K in 1 trades, NET SELL (strong bias), biggest $11.1K, 26s ago"}
+{"timestamp":"2026-03-01T15:56:49.383Z","type":"think","message":"↓ Price shift: \"Israeli parliament dissolved by June 30?\" moved 13.0% since last scan (57.5% → 44.5%)"}
+{"timestamp":"2026-03-01T15:56:49.384Z","type":"think","message":"↓ Hourly mover: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h (now 51.5%), 24h vol $9.4K"}
+{"timestamp":"2026-03-01T15:56:49.384Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 2.8%"}
+{"timestamp":"2026-03-01T15:56:49.384Z","type":"decision","message":"Flow signal: \"Will the US confirm that aliens exist before 2027?\" — sellers dominating ($2.4K net), 1 traders, 1m ago"}
