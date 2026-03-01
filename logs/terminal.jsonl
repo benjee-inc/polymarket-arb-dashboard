@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T14:05:42.125Z","type":"decision","message":"Flow signal: \"Will the US next strike Iran on February 28, 2026 (ET)?\" — sellers dominating ($4.2K net), 1 traders, 1m ago"}
-{"timestamp":"2026-03-01T14:08:25.631Z","type":"palpha","message":"Evaluated 26 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T14:08:25.631Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
-{"timestamp":"2026-03-01T14:08:25.631Z","type":"palpha","message":"[network] 382 structural violations across 789 markets."}
-{"timestamp":"2026-03-01T14:08:25.631Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
-{"timestamp":"2026-03-01T14:10:41.929Z","type":"scan","message":"Cycle #20 — 753 markets | 10 active events | $22.4K recent flow"}
 {"timestamp":"2026-03-01T14:10:41.929Z","type":"think","message":"Live flow: \"Will Iran name a successor to Khamenei by March 1?\" — $3.2K in 2 trades, NET BUY (strong bias), biggest $2.2K, 5m ago"}
 {"timestamp":"2026-03-01T14:10:41.929Z","type":"think","message":"↑ Price shift: \"Will Aston Villa finish in the top 4 of the EPL 2025–2…\" moved 1.8% since last scan (37.9% → 39.6%)"}
 {"timestamp":"2026-03-01T14:10:41.929Z","type":"think","message":"Tight race: \"Starmer out by June 30, 2026?\" — 49.5% YES, 24h vol $482.7K, ↑0.5% 1h"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T16:28:17.085Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.7¢, liq $50.5M, 24h vol $7.2M"}
 {"timestamp":"2026-03-01T16:28:17.085Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.1% YES, 24h vol $4.2M"}
 {"timestamp":"2026-03-01T16:28:17.085Z","type":"decision","message":"Flow signal: \"US x Iran ceasefire by March 2?\" — sellers dominating ($2.7K net), 1 traders, 6m ago"}
+{"timestamp":"2026-03-01T16:33:16.984Z","type":"scan","message":"Cycle #6 — 657 markets | 11 active events | $23.0K recent flow"}
+{"timestamp":"2026-03-01T16:33:16.984Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $5.0K in 1 trades, NET SELL (strong bias), biggest $5.0K, 45s ago"}
+{"timestamp":"2026-03-01T16:33:16.984Z","type":"think","message":"↓ Price shift: \"Will the next Prime Minister of Hungary be Viktor Orbá…\" moved 1.0% since last scan (36.5% → 35.5%)"}
+{"timestamp":"2026-03-01T16:33:16.984Z","type":"think","message":"Tight race: \"Starmer out by June 30, 2026?\" — 49.5% YES, 24h vol $400.4K, ↑0.5% 1h"}
+{"timestamp":"2026-03-01T16:33:16.984Z","type":"think","message":"↑ Daily mover: \"Callum Turner announced as next James Bond?\" ↑7.0% today, ↑8.0% 1w, 24h vol $12.1K"}
+{"timestamp":"2026-03-01T16:33:16.984Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $70,000 on March 1?\" — buyers dominating ($3.7K net), 2 traders, 9s ago"}
