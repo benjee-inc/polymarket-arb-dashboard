@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-01T13:13:31.507Z","type":"palpha","message":"Evaluated 28 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T13:13:31.507Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
-{"timestamp":"2026-03-01T13:13:31.507Z","type":"palpha","message":"[network] 390 structural violations across 795 markets."}
-{"timestamp":"2026-03-01T13:13:31.508Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
-{"timestamp":"2026-03-01T13:15:41.845Z","type":"scan","message":"Cycle #9 — 751 markets | 10 active events | $50.8K recent flow"}
 {"timestamp":"2026-03-01T13:15:41.845Z","type":"think","message":"Live flow: \"Will the US strike Iran next?\" — $2.9K in 2 trades, NET BUY (strong bias), biggest $2.2K, 1m ago"}
 {"timestamp":"2026-03-01T13:15:41.845Z","type":"think","message":"↑ Price shift: \"Will Discord’s market cap be less than $15B at market …\" moved 4.0% since last scan (34.5% → 38.5%)"}
 {"timestamp":"2026-03-01T13:15:41.845Z","type":"think","message":"Volume surge: \"Will the Seattle Kraken win the Pacific Division?\" — $36.3K in 24h (1051% of lifetime), price 1.5%"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-01T15:14:43.799Z","type":"think","message":"Tight race: \"Starmer out by June 30, 2026?\" — 49.5% YES, 24h vol $482.7K, ↑0.5% 1h"}
 {"timestamp":"2026-03-01T15:14:43.799Z","type":"think","message":"↓ Daily mover: \"Will Brentford finish in the top 4 of the EPL 2025–26 …\" ↓7.8% today, ↑0.5% 1w, 24h vol $7.2K"}
 {"timestamp":"2026-03-01T15:14:43.799Z","type":"decision","message":"Flow signal: \"Will Stephen Smith win the 2028 US Presidential Electi…\" — buyers dominating ($5.0K net), 1 traders, 24s ago"}
+{"timestamp":"2026-03-01T15:15:16.607Z","type":"scan","message":"Cycle #1 — 753 markets | 15 active events | $34.3K recent flow"}
+{"timestamp":"2026-03-01T15:15:16.607Z","type":"think","message":"Live flow: \"Will Microstrategy announce a Bitcoin purchase Februar…\" — $6.6K in 2 trades, NET BUY (strong bias), biggest $6.0K, 1m ago"}
+{"timestamp":"2026-03-01T15:15:16.607Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.0%), 24h vol $6.9K"}
+{"timestamp":"2026-03-01T15:15:16.607Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 2.6%"}
+{"timestamp":"2026-03-01T15:15:16.607Z","type":"decision","message":"Flow signal: \"Will Stephen Smith win the 2028 US Presidential Electi…\" — buyers dominating ($5.0K net), 1 traders, 57s ago"}
