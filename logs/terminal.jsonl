@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T10:56:38.650Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 88.1% / ask 92.2% (4.1% spread), liq $1.8M"}
-{"timestamp":"2026-03-01T10:56:38.650Z","type":"decision","message":"Flow signal: \"US-Iran nuclear deal by March 31?\" — buyers dominating ($8.0K net), 1 traders, 1m ago"}
-{"timestamp":"2026-03-01T11:01:38.792Z","type":"scan","message":"Cycle #11 — 749 markets | 15 active events | $58.0K recent flow"}
-{"timestamp":"2026-03-01T11:01:38.793Z","type":"think","message":"Live flow: \"Will the Iranian regime fall by March 31?\" — $8.5K in 2 trades, NET BUY (strong bias), biggest $7.9K, 5m ago"}
-{"timestamp":"2026-03-01T11:01:38.793Z","type":"think","message":"↓ Price shift: \"Will the Carolina Hurricanes win the Metropolitan Divi…\" moved 1.7% since last scan (95.2% → 93.4%)"}
-{"timestamp":"2026-03-01T11:01:38.793Z","type":"think","message":"Wide spread: \"Will Tom Steyer win the California Governor Election i…\" — bid 2.0% / ask 14.2% (12.2% spread), liq $416.6K"}
 {"timestamp":"2026-03-01T11:01:38.793Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.7¢, liq $50.2M, 24h vol $7.2M"}
 {"timestamp":"2026-03-01T11:01:38.793Z","type":"decision","message":"Flow signal: \"US forces enter Iran by March 1?\" — buyers dominating ($6.3K net), 1 traders, 6m ago"}
 {"timestamp":"2026-03-01T11:06:38.660Z","type":"scan","message":"Cycle #12 — 749 markets | 15 active events | $76.9K recent flow"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T13:18:32.192Z","type":"palpha","message":"[palpha] Timeout after 5s. Proceeding with raw scores."}
 {"timestamp":"2026-03-01T13:18:32.192Z","type":"palpha","message":"[network] 386 structural violations across 795 markets."}
 {"timestamp":"2026-03-01T13:18:32.192Z","type":"trade","message":"[auto-trade] No trades: Error: this.signer._signTypedData is not a function, already held. Daily: $0.00/$50"}
+{"timestamp":"2026-03-01T13:20:41.791Z","type":"scan","message":"Cycle #10 — 751 markets | 10 active events | $50.8K recent flow"}
+{"timestamp":"2026-03-01T13:20:41.792Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $36.0K in 2 trades, NET SELL (strong bias), biggest $35.1K, 5m ago"}
+{"timestamp":"2026-03-01T13:20:41.792Z","type":"think","message":"↑ Price shift: \"Israeli parliament dissolved by March 31?\" moved 2.5% since last scan (17.0% → 19.5%)"}
+{"timestamp":"2026-03-01T13:20:41.792Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 35h to resolution, 1.4% YES, ↑0.1% this hour, vol $111.3K"}
+{"timestamp":"2026-03-01T13:20:41.792Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 88.1% / ask 92.0% (3.9% spread), liq $1.8M"}
+{"timestamp":"2026-03-01T13:20:41.792Z","type":"decision","message":"Hourly momentum: \"Will Juan Daniel Oviedo win the 2026 Colombian preside…\" ↓1.3% in 1h, now 0.4%, vol $87.1K"}
