@@ -1,14 +1,3 @@
-{"timestamp":"2026-03-01T21:24:52.686Z","type":"palpha","message":"[auto-trade] Cycle 3: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
-{"timestamp":"2026-03-01T21:24:51.437Z","type":"scan","message":"Cycle #3 — 657 markets | 16 active events | $47.5K recent flow"}
-{"timestamp":"2026-03-01T21:24:51.437Z","type":"think","message":"Live flow: \"Will Zohran Mamdani win the 2028 Democratic presidenti…\" — $17.0K in 1 trades, NET BUY (strong bias), biggest $17.0K, 1m ago"}
-{"timestamp":"2026-03-01T21:24:51.437Z","type":"think","message":"↓ Price shift: \"Will Trump and Putin meet next in another country?\" moved 1.7% since last scan (8.6% → 6.9%)"}
-{"timestamp":"2026-03-01T21:24:51.437Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 27h to resolution, 0.7% YES, ↑0.1% this hour, vol $77.0K"}
-{"timestamp":"2026-03-01T21:24:51.437Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 88.9% / ask 93.8% (4.9% spread), liq $1.7M"}
-{"timestamp":"2026-03-01T21:24:51.437Z","type":"decision","message":"Flow signal: \"US x Iran ceasefire by March 2?\" — sellers dominating ($6.7K net), 3 traders, 48s ago"}
-{"timestamp":"2026-03-01T21:29:53.230Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T21:29:53.230Z","type":"palpha","message":"[network] 296 structural violations across 687 markets."}
-{"timestamp":"2026-03-01T21:29:53.230Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 94.2% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.5%) vs \"Will Vicky "}
-{"timestamp":"2026-03-01T21:29:53.230Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.9% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.5%) vs \"Will Claudi"}
 {"timestamp":"2026-03-01T21:29:53.230Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 94.3% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.5%) vs \"Will Mauric"}
 {"timestamp":"2026-03-01T21:29:53.230Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.6% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.5%) vs \"Will Enriqu"}
 {"timestamp":"2026-03-01T21:29:53.230Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 94.0% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.5%) vs \"Will Vicky "}
@@ -198,3 +187,14 @@
 {"timestamp":"2026-03-01T22:31:59.858Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 20.0%), 24h vol $16.2K"}
 {"timestamp":"2026-03-01T22:31:59.858Z","type":"think","message":"Volume surge: \"Will Carlos Felipe Córdoba win the 2026 Colombian pres…\" — $99.1K in 24h (834% of lifetime), price 0.8%"}
 {"timestamp":"2026-03-01T22:31:59.858Z","type":"decision","message":"Flow signal: \"Will the US strike Iran next?\" — buyers dominating ($17.5K net), 3 traders, 24s ago"}
+{"timestamp":"2026-03-01T22:36:59.766Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-01T22:36:59.766Z","type":"palpha","message":"[network] DISABLED — network signals removed (false positive rate too high)"}
+{"timestamp":"2026-03-01T22:36:59.766Z","type":"palpha","message":"[auto-trade] Position cap hit: 91/10 open positions. No new trades until positions close."}
+{"timestamp":"2026-03-01T22:36:59.766Z","type":"palpha","message":"[auto-trade] Cycle 2: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
+{"timestamp":"2026-03-01T22:37:00.302Z","type":"palpha","message":"[auto-sell] SKIP: \"Will Trump nominate himself as the next Fed chair?\" price 0.1¢ below min exit 0.5¢ — holding to expiry"}
+{"timestamp":"2026-03-01T22:36:59.740Z","type":"scan","message":"Cycle #2 — 657 markets | 13 active events | $79.6K recent flow"}
+{"timestamp":"2026-03-01T22:36:59.740Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $5.0K in 1 trades, NET SELL (strong bias), biggest $5.0K, 5m ago"}
+{"timestamp":"2026-03-01T22:36:59.740Z","type":"think","message":"↓ Price shift: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" moved 1.5% since last scan (79.0% → 77.5%)"}
+{"timestamp":"2026-03-01T22:36:59.740Z","type":"think","message":"Volume surge: \"Will Thomas Massie win the 2028 Republican presidentia…\" — $4.9M in 24h (483% of lifetime), price 1.5%"}
+{"timestamp":"2026-03-01T22:36:59.740Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 25h to resolution, 2.3% YES, ↑0.1% this hour, vol $77.0K"}
+{"timestamp":"2026-03-01T22:36:59.740Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 49.0%, vol $10.5K"}
