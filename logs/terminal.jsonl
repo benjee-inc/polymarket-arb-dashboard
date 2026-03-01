@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T10:07:16.175Z","type":"trade","message":"[auto-trader] ERROR: \"Will 6 Fed rate cuts happen in 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.176Z","type":"trade","message":"[auto-trader] ERROR: \"Will MegaETH perform an airdrop by June 30? \" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.177Z","type":"trade","message":"[auto-trader] ERROR: \"Will Trump resign by December 31, 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.177Z","type":"trade","message":"[auto-trader] ERROR: \"Will 12 or more Fed rate cuts happen in 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.179Z","type":"trade","message":"[auto-trader] ERROR: \"Will JD Vance win the 2028 US Presidential Electio\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
-{"timestamp":"2026-03-01T10:07:16.180Z","type":"trade","message":"[auto-trader] ERROR: \"Will Trump resign by December 31, 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.181Z","type":"trade","message":"[auto-trader] ERROR: \"Will 5 Fed rate cuts happen in 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.181Z","type":"trade","message":"[auto-trader] ERROR: \"Russia x Ukraine ceasefire by end of 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
 {"timestamp":"2026-03-01T10:07:16.182Z","type":"trade","message":"[auto-trader] ERROR: \"Will Trump resign by December 31, 2026?\" — Cannot find package 'viem' imported from /app/src/skills/moon/lib/constants.mjs"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T12:06:36.113Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.0%), 24h vol $6.9K"}
 {"timestamp":"2026-03-01T12:06:36.113Z","type":"think","message":"Volume surge: \"Will the San Jose Sharks win the Pacific Division?\" — $36.3K in 24h (1310% of lifetime), price 2.9%"}
 {"timestamp":"2026-03-01T12:06:36.113Z","type":"decision","message":"Flow signal: \"Will Trump nominate Christopher Waller as the next Fed…\" — buyers dominating ($15.1K net), 1 traders, 2m ago"}
+{"timestamp":"2026-03-01T12:11:35.932Z","type":"scan","message":"Cycle #2 — 751 markets | 11 active events | $37.2K recent flow"}
+{"timestamp":"2026-03-01T12:11:35.932Z","type":"think","message":"Live flow: \"Will the Iranian regime fall by March 31?\" — $13.2K in 1 trades, NET SELL (strong bias), biggest $13.2K, 12s ago"}
+{"timestamp":"2026-03-01T12:11:35.932Z","type":"think","message":"↑ Price shift: \"Israeli parliament dissolved by June 30?\" moved 4.5% since last scan (45.5% → 50.0%)"}
+{"timestamp":"2026-03-01T12:11:35.933Z","type":"think","message":"Volume surge: \"Will the Seattle Kraken win the Pacific Division?\" — $36.3K in 24h (1051% of lifetime), price 1.9%"}
+{"timestamp":"2026-03-01T12:11:35.933Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 36h to resolution, 77.5% YES, ↑0.5% this hour, vol $111.3K"}
+{"timestamp":"2026-03-01T12:11:35.933Z","type":"decision","message":"Flow signal: \"Khamenei out as Supreme Leader of Iran by February 28?\" — sellers dominating ($7.2K net), 1 traders, 1m ago"}
