@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-01T15:04:43.692Z","type":"think","message":"Wide spread: \"Will Tom Steyer win the California Governor Election i…\" — bid 5.7% / ask 13.2% (7.5% spread), liq $419.9K"}
-{"timestamp":"2026-03-01T15:04:43.692Z","type":"think","message":"Deep value: \"Will Trump nominate Stephen Miran as the next Fed chai…\" — Yes @ 0.5¢, liq $50.3M, 24h vol $7.2M"}
-{"timestamp":"2026-03-01T15:04:43.693Z","type":"decision","message":"Flow signal: \"Will Iran name a successor to Khamenei by March 1?\" — sellers dominating ($3.5K net), 1 traders, 12s ago"}
-{"timestamp":"2026-03-01T15:09:43.722Z","type":"scan","message":"Cycle #12 — 753 markets | 7 active events | $15.5K recent flow"}
-{"timestamp":"2026-03-01T15:09:43.722Z","type":"think","message":"Live flow: \"Will Bitcoin reach $150,000 in March?\" — $1.7K in 2 trades, NET BUY (strong bias), biggest $996, 5m ago"}
-{"timestamp":"2026-03-01T15:09:43.722Z","type":"think","message":"↓ Price shift: \"Will Liverpool finish in the top 4 of the EPL 2025–26 …\" moved 1.5% since last scan (64.5% → 63.0%)"}
 {"timestamp":"2026-03-01T15:09:43.722Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.8¢, liq $50.3M, 24h vol $7.2M"}
 {"timestamp":"2026-03-01T15:09:43.722Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.0% YES, 24h vol $4.2M"}
 {"timestamp":"2026-03-01T15:09:43.722Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 50.5%, vol $9.4K"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-01T17:30:43.659Z","type":"think","message":"Tight race: \"Starmer out by June 30, 2026?\" — 49.5% YES, 24h vol $400.4K, ↑0.5% 1h"}
 {"timestamp":"2026-03-01T17:30:43.659Z","type":"think","message":"↑ Daily mover: \"Callum Turner announced as next James Bond?\" ↑7.0% today, ↑8.0% 1w, 24h vol $12.1K"}
 {"timestamp":"2026-03-01T17:30:43.660Z","type":"decision","message":"Flow signal: \"Will Elon Musk post 400-419 tweets from February 24 to…\" — buyers dominating ($2.5K net), 1 traders, 1m ago"}
+{"timestamp":"2026-03-01T17:35:43.343Z","type":"scan","message":"Cycle #7 — 657 markets | 6 active events | $14.8K recent flow"}
+{"timestamp":"2026-03-01T17:35:43.343Z","type":"think","message":"Live flow: \"Will Matt Gaetz win the 2028 Republican presidential n…\" — $2.5K in 1 trades, NET BUY (strong bias), biggest $2.5K, 6m ago"}
+{"timestamp":"2026-03-01T17:35:43.343Z","type":"think","message":"↑ Price shift: \"BitBoy convicted?\" moved 2.5% since last scan (20.4% → 22.9%)"}
+{"timestamp":"2026-03-01T17:35:43.343Z","type":"think","message":"↓ Daily mover: \"Henry Cavill announced as next James Bond?\" ↓5.5% today, ↑3.7% 1w, 24h vol $12.1K"}
+{"timestamp":"2026-03-01T17:35:43.343Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 17.5%), 24h vol $16.2K"}
+{"timestamp":"2026-03-01T17:35:43.344Z","type":"decision","message":"Hourly momentum: \"Israel x Hamas Ceasefire Phase II by March 31?\" ↓2.0% in 1h, now 9.0%, vol $3.0K"}
