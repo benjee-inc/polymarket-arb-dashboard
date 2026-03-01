@@ -496,7 +496,7 @@ function renderPerf() {
   const maxVal = Math.max(...values);
   const range = maxVal - minVal || 1;
   const padding = range * 0.1;
-  const yMin = minVal - padding;
+  const yMin = 0;
   const yMax = maxVal + padding;
   const yRange = yMax - yMin;
 
