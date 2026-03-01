@@ -1,14 +1,3 @@
-{"timestamp":"2026-03-01T22:09:52.715Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.7¢, liq $50.0M, 24h vol $6.2M"}
-{"timestamp":"2026-03-01T22:09:52.715Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.1% YES, 24h vol $4.9M"}
-{"timestamp":"2026-03-01T22:09:52.715Z","type":"decision","message":"Flow signal: \"Will Trump nominate Kevin Warsh as the next Fed chair?\" — buyers dominating ($3.7K net), 1 traders, 6m ago"}
-{"timestamp":"2026-03-01T22:14:52.986Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T22:14:52.986Z","type":"palpha","message":"[network] 292 structural violations across 687 markets."}
-{"timestamp":"2026-03-01T22:14:52.986Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.7% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.0%) vs \"Will Vicky "}
-{"timestamp":"2026-03-01T22:14:52.986Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.8% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.0%) vs \"Will Mauric"}
-{"timestamp":"2026-03-01T22:14:52.986Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.5% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.0%) vs \"Will Vicky "}
-{"timestamp":"2026-03-01T22:14:52.986Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.940 | Highly similar markets (60% overlap) with 93.8% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.0%) vs \"Will Enriqu"}
-{"timestamp":"2026-03-01T22:14:52.986Z","type":"palpha","message":"[network]   correlation_divergence: severity=0.930 | Highly similar markets (60% overlap) with 93.4% price gap. \"Will PH win the most seats in the 2026 Colombian Senate election?\" (94.0%) vs \"Will Claudi"}
-{"timestamp":"2026-03-01T22:14:52.986Z","type":"palpha","message":"[auto-trade] Cycle 13: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
 {"timestamp":"2026-03-01T22:14:51.789Z","type":"scan","message":"Cycle #13 — 657 markets | 18 active events | $37.6K recent flow"}
 {"timestamp":"2026-03-01T22:14:51.789Z","type":"think","message":"Live flow: \"Will Bitcoin dip to $62,000 February 23-March 1?\" — $11.4K in 2 trades, NET SELL (strong bias), biggest $10.7K, 18s ago"}
 {"timestamp":"2026-03-01T22:14:51.789Z","type":"think","message":"↑ Price shift: \"Will Sean Penn win Best Supporting Actor at the 98th A…\" moved 2.0% since last scan (59.5% → 61.5%)"}
@@ -198,3 +187,14 @@
 {"timestamp":"2026-03-01T23:30:30.567Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.7¢, liq $49.9M, 24h vol $6.2M"}
 {"timestamp":"2026-03-01T23:30:30.567Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.3% YES, 24h vol $4.9M"}
 {"timestamp":"2026-03-01T23:30:30.567Z","type":"decision","message":"Flow signal: \"Bank of Japan increases interest rates by 50+ bps afte…\" — buyers dominating ($2.3K net), 2 traders, 1m ago"}
+{"timestamp":"2026-03-01T23:35:30.124Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-01T23:35:30.124Z","type":"palpha","message":"[network] DISABLED — network signals removed (false positive rate too high)"}
+{"timestamp":"2026-03-01T23:35:30.124Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 2/6 total."}
+{"timestamp":"2026-03-01T23:35:30.124Z","type":"palpha","message":"[auto-trade] Cycle 6: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
+{"timestamp":"2026-03-01T23:35:30.146Z","type":"palpha","message":"[auto-sell] SKIP: \"Will Trump nominate himself as the next Fed chair?\" price 0.1¢ below min exit 0.5¢ — holding to expiry"}
+{"timestamp":"2026-03-01T23:35:29.904Z","type":"scan","message":"Cycle #6 — 657 markets | 12 active events | $18.3K recent flow"}
+{"timestamp":"2026-03-01T23:35:29.904Z","type":"think","message":"Live flow: \"Will Crude Oil (CL) hit (HIGH) $90 by end of March?\" — $2.2K in 3 trades, NET BUY, biggest $875, 6m ago"}
+{"timestamp":"2026-03-01T23:35:29.904Z","type":"think","message":"↓ Price shift: \"Will Russia capture Rodynske by March 31?\" moved 2.0% since last scan (50.5% → 48.5%)"}
+{"timestamp":"2026-03-01T23:35:29.905Z","type":"think","message":"Tight race: \"Starmer out by June 30, 2026?\" — 49.5% YES, 24h vol $400.4K, ↑0.5% 1h"}
+{"timestamp":"2026-03-01T23:35:29.905Z","type":"think","message":"↑ Daily mover: \"Callum Turner announced as next James Bond?\" ↑7.0% today, ↑8.0% 1w, 24h vol $12.1K"}
+{"timestamp":"2026-03-01T23:35:29.905Z","type":"decision","message":"Hourly momentum: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h, now 2.6%, vol $12.1K"}
