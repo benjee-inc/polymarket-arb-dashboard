@@ -379,7 +379,119 @@ async function pollGammaMovers() {
   }
 }
 
-// 3. Merge AI scanner logs into the data flow
+// 3. CoinGecko — top crypto prices (same source as AI's crypto.mjs)
+let lastCryptoPrices = {};
+async function pollCoinGecko() {
+  try {
+    const coins = 'bitcoin,ethereum,solana,dogecoin,cardano,avalanche-2,chainlink,polkadot,near,sui';
+    const res = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${coins}&vs_currencies=usd&include_24hr_change=true&include_24hr_vol=true&include_market_cap=true`, {
+      signal: AbortSignal.timeout(8000)
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    for (const [coin, d] of Object.entries(data)) {
+      const prev = lastCryptoPrices[coin];
+      const price = d.usd;
+      const change = d.usd_24h_change || 0;
+      const vol = d.usd_24h_vol || 0;
+      const mcap = d.usd_market_cap || 0;
+      const name = coin.replace(/-\d+$/, '').toUpperCase();
+      // Only push if price changed meaningfully or first load
+      if (!prev || Math.abs(price - prev) / prev > 0.002) {
+        const dir = change >= 0 ? '+' : '';
+        pushFlow('PRICE', change >= 0 ? '#00ff00' : '#ff0044', '$',
+          `${name} $${price.toLocaleString(undefined, {maximumFractionDigits: 2})} (${dir}${change.toFixed(2)}% 24h) — vol $${(vol/1e9).toFixed(2)}B mcap $${(mcap/1e9).toFixed(1)}B`,
+          'coingecko');
+      }
+      lastCryptoPrices[coin] = price;
+    }
+  } catch (err) { console.error('[flow-coingecko]', err.message); }
+}
+
+// 4. Fear & Greed Index — crypto sentiment (same source as AI's crypto.mjs)
+let lastFearGreed = null;
+async function pollFearGreed() {
+  try {
+    const res = await fetch('https://api.alternative.me/fng/?limit=1', { signal: AbortSignal.timeout(5000) });
+    if (!res.ok) return;
+    const data = await res.json();
+    const fg = data?.data?.[0];
+    if (!fg) return;
+    const val = parseInt(fg.value);
+    if (lastFearGreed === val) return;
+    lastFearGreed = val;
+    const cls = fg.value_classification || '';
+    const barColor = val <= 25 ? '#ff0044' : val <= 45 ? '#ff6600' : val <= 55 ? '#ffaa00' : val <= 75 ? '#00cc00' : '#00ff00';
+    pushFlow('SENTIMENT', barColor, '~',
+      `Fear & Greed Index: ${val}/100 (${cls}) — ${val <= 25 ? 'Extreme Fear' : val <= 45 ? 'Fear' : val <= 55 ? 'Neutral' : val <= 75 ? 'Greed' : 'Extreme Greed'}`,
+      'alternative.me/fng');
+  } catch (err) { console.error('[flow-fng]', err.message); }
+}
+
+// 5. NWS Weather — forecasts for major cities (same source as AI's weather.mjs)
+const NWS_CITIES = [
+  { name: 'NYC', office: 'OKX', gridX: 33, gridY: 37 },
+  { name: 'Chicago', office: 'LOT', gridX: 65, gridY: 76 },
+  { name: 'LA', office: 'LOX', gridX: 154, gridY: 44 },
+  { name: 'Miami', office: 'MFL', gridX: 75, gridY: 67 },
+  { name: 'Denver', office: 'BOU', gridX: 62, gridY: 60 },
+];
+let nwsCityIdx = 0;
+let lastNwsData = {};
+async function pollNWS() {
+  try {
+    const city = NWS_CITIES[nwsCityIdx % NWS_CITIES.length];
+    nwsCityIdx++;
+    const res = await fetch(`https://api.weather.gov/gridpoints/${city.office}/${city.gridX},${city.gridY}/forecast`, {
+      headers: { 'User-Agent': 'polymarket-alpha-dashboard' },
+      signal: AbortSignal.timeout(8000)
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    const periods = data?.properties?.periods;
+    if (!Array.isArray(periods) || !periods.length) return;
+    const today = periods[0];
+    const key = city.name + today.number;
+    if (lastNwsData[city.name] === key) return;
+    lastNwsData[city.name] = key;
+    pushFlow('WEATHER', '#00ddff', '**',
+      `${city.name}: ${today.temperature}°${today.temperatureUnit} ${today.shortForecast} — Wind ${today.windSpeed} ${today.windDirection}`,
+      'weather.gov/nws');
+    // Tomorrow if available
+    if (periods[1]) {
+      pushFlow('WEATHER', '#0099cc', '**',
+        `${city.name} tomorrow: ${periods[1].temperature}°${periods[1].temperatureUnit} ${periods[1].shortForecast}`,
+        'weather.gov/nws');
+    }
+  } catch (err) { console.error('[flow-nws]', err.message); }
+}
+
+// 6. GDELT — global news volume trends (same source as AI's gdelt.mjs)
+const GDELT_QUERIES = ['tariff trade war', 'federal reserve interest rate', 'trump executive order', 'bitcoin cryptocurrency', 'ukraine russia war', 'china taiwan'];
+let gdeltIdx = 0;
+async function pollGDELT() {
+  try {
+    const q = GDELT_QUERIES[gdeltIdx % GDELT_QUERIES.length];
+    gdeltIdx++;
+    const res = await fetch(`https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(q)}&mode=artlist&maxrecords=5&format=json&sort=datedesc`, {
+      signal: AbortSignal.timeout(8000)
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    const articles = data?.articles;
+    if (!Array.isArray(articles)) return;
+    for (const a of articles.slice(0, 2)) {
+      const title = (a.title || '').slice(0, 90);
+      const domain = (a.domain || a.url || '').replace(/^www\./, '').split('/')[0];
+      if (!title) continue;
+      pushFlow('NEWS', '#ffaa00', 'N',
+        `${title} — ${domain}`,
+        'gdelt/news');
+    }
+  } catch (err) { console.error('[flow-gdelt]', err.message); }
+}
+
+// 7. Merge AI scanner logs into the data flow
 function mergeScannserLogs() {
   // Find logs newer than our last seen
   const cutoff = dataFlowItems.length > 0 ? dataFlowItems[dataFlowItems.length - 1]?.ts : null;
@@ -906,14 +1018,15 @@ function renderData() {
   // ── Source legend
   html += '<div style="display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap;font-size:0.6rem">';
   const sources = [
+    { label: 'coingecko', color: '#8DC63F' },
+    { label: 'fear&greed', color: '#ff6600' },
+    { label: 'weather.gov/nws', color: '#00ddff' },
+    { label: 'gdelt/news', color: '#ffaa00' },
     { label: 'polymarket/trades', color: '#00ff00' },
     { label: 'gamma/events', color: '#ffaa00' },
-    { label: 'clob/book', color: '#ff6600' },
     { label: 'xai/grok', color: '#ff6600' },
     { label: 'palpha', color: '#00ddff' },
     { label: 'auto-trade', color: '#ff00ff' },
-    { label: 'scanner', color: '#00aaff' },
-    { label: 'portfolio', color: '#00ff00' },
   ];
   for (const s of sources) {
     html += '<span style="color:' + s.color + ';background:' + s.color + '11;padding:1px 5px;border:1px solid ' + s.color + '33;border-radius:2px">' + s.label + '</span>';
@@ -1026,6 +1139,10 @@ async function pollDataFlow() {
   await Promise.all([pollLiveTrades(), pollGammaMovers()]);
   if (currentTab === 'data') render();
 }
+async function pollExternalSources() {
+  await Promise.all([pollCoinGecko(), pollFearGreed(), pollNWS(), pollGDELT()]);
+  if (currentTab === 'data') render();
+}
 
 // ── Tab switching ────────────────────────────────────────
 document.querySelectorAll('.tab').forEach(tab => {
@@ -1051,8 +1168,8 @@ document.querySelectorAll('.tab').forEach(tab => {
   updateHeader();
   render();
 
-  // Initial data flow pull
-  await Promise.all([pollLiveTrades(), pollGammaMovers()]);
+  // Initial data flow pull — all external sources in parallel
+  await Promise.all([pollLiveTrades(), pollGammaMovers(), pollCoinGecko(), pollFearGreed(), pollNWS(), pollGDELT()]);
 
   // Staggered polling intervals
   setInterval(pollPositionsAndPrices, 10000);  // positions + prices every 10s
@@ -1060,6 +1177,7 @@ document.querySelectorAll('.tab').forEach(tab => {
   setInterval(pollActivity, 30000);            // trade activity every 30s
   setInterval(pollLogs, 10000);                // scanner logs + palpha every 10s
   setInterval(pollDataFlow, 15000);            // live trades + gamma movers every 15s
+  setInterval(pollExternalSources, 30000);     // coingecko, fear&greed, NWS, GDELT every 30s
 
   // Extra-fast price refresh
   setInterval(async () => {
