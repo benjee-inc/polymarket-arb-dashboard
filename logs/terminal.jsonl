@@ -1,14 +1,3 @@
-{"timestamp":"2026-03-02T22:34:54.899Z","type":"think","message":"Live flow: \"Will Pete Buttigieg win the 2028 Democratic presidenti…\" — $3.8K in 3 trades, NET SELL (strong bias), biggest $1.9K, 6m ago"}
-{"timestamp":"2026-03-02T22:34:54.899Z","type":"think","message":"↑ Price shift: \"Netanyahu out by June 30?\" moved 2.5% since last scan (15.0% → 17.5%)"}
-{"timestamp":"2026-03-02T22:34:54.899Z","type":"think","message":"Wide spread: \"Will Tom Steyer win the California Governor Election i…\" — bid 8.2% / ask 19.1% (10.9% spread), liq $432.7K"}
-{"timestamp":"2026-03-02T22:34:54.899Z","type":"think","message":"Deep value: \"Will Trump nominate Michelle Bowman as the next Fed ch…\" — Yes @ 0.7¢, liq $50.6M, 24h vol $4.0M"}
-{"timestamp":"2026-03-02T22:34:54.900Z","type":"decision","message":"Hourly momentum: \"Kraken IPO by December 31, 2026?\" ↓3.0% in 1h, now 72.5%, vol $5.2K"}
-{"timestamp":"2026-03-02T22:39:55.608Z","type":"palpha","message":"Found 10 potential trades from scanner"}
-{"timestamp":"2026-03-02T22:39:55.608Z","type":"palpha","message":"8 active positions (4 dust ignored)"}
-{"timestamp":"2026-03-02T22:39:55.608Z","type":"palpha","message":"Evaluated 10 opportunities, 10 didn't have enough edge. Nothing actionable. Spent $475 today."}
-{"timestamp":"2026-03-02T22:40:05.533Z","type":"pnl","message":"Daily P&L: $-15.78 (-5.5%) | Realized: $0.00 (0 trades) | Unrealized: $-15.78 (8 positions) | Portfolio: $268.96 (USDC: $0.00 + positions: $268.96) | 2% target: -293%"}
-{"timestamp":"2026-03-02T22:39:55.154Z","type":"scan","message":"Cycle #33 — 654 markets | 11 active events | $42.4K recent flow"}
-{"timestamp":"2026-03-02T22:39:55.154Z","type":"think","message":"Live flow: \"Will the Doge-1 Lunar Mission launch before 2027?\" — $10.6K in 2 trades, NET BUY (strong bias), biggest $10.0K, 2m ago"}
 {"timestamp":"2026-03-02T22:39:55.154Z","type":"think","message":"↑ Price shift: \"Will Trump and Putin meet next in Russia?\" moved 1.5% since last scan (2.9% → 4.4%)"}
 {"timestamp":"2026-03-02T22:39:55.154Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.8¢, liq $50.6M, 24h vol $4.0M"}
 {"timestamp":"2026-03-02T22:39:55.154Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.3% YES, 24h vol $2.8M"}
@@ -198,3 +187,14 @@
 {"timestamp":"2026-03-02T23:37:03.491Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Péter Magya…\" — 64.5% YES, 24h vol $418.7K"}
 {"timestamp":"2026-03-02T23:37:03.491Z","type":"think","message":"↓ Daily mover: \"Will Trump visit China by March 31?\" ↓5.3% today, ↑67.0% 1w, 24h vol $89.7K"}
 {"timestamp":"2026-03-02T23:37:03.491Z","type":"decision","message":"Flow signal: \"Will Iran close the Strait of Hormuz by March 31?\" — buyers dominating ($2.7K net), 1 traders, 2m ago"}
+{"timestamp":"2026-03-02T23:42:03.874Z","type":"palpha","message":"Found 12 potential trades from scanner"}
+{"timestamp":"2026-03-02T23:42:03.877Z","type":"palpha","message":"8 active positions (4 dust ignored)"}
+{"timestamp":"2026-03-02T23:42:03.877Z","type":"palpha","message":"Evaluated 12 opportunities, 12 didn't have enough edge. Nothing actionable. Spent $475 today."}
+{"timestamp":"2026-03-02T23:42:13.824Z","type":"pnl","message":"Daily P&L: $-14.57 (-5.1%) | Realized: $0.00 (0 trades) | Unrealized: $-14.57 (8 positions) | Portfolio: $270.17 (USDC: $0.00 + positions: $270.17) | 2% target: -270%"}
+{"type":"pipeline","timestamp":"2026-03-02T23:42:03.882Z","cycle":7,"ingestion":{"markets":689,"trades":50,"tradeVolume":55719,"midpointsFetched":50},"signals":{"movers1h":12,"movers1d":10,"volumeSpikes":295,"catalysts":3,"deepValue":258,"tightRaces":26,"wideSpread":35},"tradeFlows":{"count":15,"totalVolume":55719,"avgImbalance":0.954},"midShifts":{"count":12,"avgMagnitude":0.011},"enrichment":{"rawOpportunities":12,"enriched":0,"vetoed":12,"vetoReasons":{},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":475,"openPositions":8},"topSignals":[{"q":"Will Trump nominate Michelle Bowman as the next Fed chair?","type":"deepValue","score":51479428366.00129,"change":null},{"q":"Will Trump nominate no one before 2027?","type":"deepValue","score":41827035547.376045,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2808292.471580083,"change":null},{"q":"Will the next Prime Minister of Hungary be Péter Magyar?","type":"tightRaces","score":410126.7672564335,"change":"+2.0%"},{"q":"Will Ken Paxton win the 2026 Texas Republican Primary?","type":"catalysts","score":79830.7220655,"change":"+0.5%"}]}
+{"timestamp":"2026-03-02T23:42:03.394Z","type":"scan","message":"Cycle #7 — 653 markets | 15 active events | $55.7K recent flow"}
+{"timestamp":"2026-03-02T23:42:03.395Z","type":"think","message":"Live flow: \"Khamenei out as Supreme Leader of Iran by February 28?\" — $35.0K in 1 trades, NET BUY (strong bias), biggest $35.0K, 6m ago"}
+{"timestamp":"2026-03-02T23:42:03.395Z","type":"think","message":"↓ Price shift: \"Israeli parliament dissolved by March 31?\" moved 1.5% since last scan (18.5% → 17.0%)"}
+{"timestamp":"2026-03-02T23:42:03.395Z","type":"think","message":"↑ Daily mover: \"Will Russia capture Kostyantynivka by April 30?\" ↑4.5% today, ↓19.0% 1w, 24h vol $27.8K"}
+{"timestamp":"2026-03-02T23:42:03.395Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 22.5%), 24h vol $5.9K"}
+{"timestamp":"2026-03-02T23:42:03.395Z","type":"decision","message":"Flow signal: \"Will the price of Ethereum be less than $1,400 on Marc…\" — buyers dominating ($2.1K net), 2 traders, 7m ago"}
