@@ -47,6 +47,21 @@ body{background:#0a0a0a;color:#00ff00;font-family:'SF Mono','Consolas','Monaco',
 .unverified{color:#ff0044;font-size:0.7rem;margin-left:8px}
 .tx-link{color:#5588ff;text-decoration:none;font-size:0.7rem}
 .tx-link:hover{text-decoration:underline}
+.flow-header{display:flex;gap:2px;margin-bottom:12px;padding:8px 0;border-bottom:1px solid #222;flex-wrap:wrap}
+.flow-stat{text-align:center;padding:4px 12px;background:#111;border:1px solid #222;border-radius:3px;min-width:70px}
+.flow-stat-val{font-size:1.1rem;font-weight:bold;color:#00ff00}
+.flow-stat-label{font-size:0.55rem;color:#555;text-transform:uppercase;letter-spacing:1px}
+.flow-stream{display:flex;flex-direction:column;gap:1px}
+.flow-row{display:flex;align-items:flex-start;gap:8px;padding:4px 8px;font-size:0.78rem;line-height:1.4;transition:background 0.15s}
+.flow-row:hover{filter:brightness(1.3)}
+.flow-time{color:#444;font-size:0.7rem;min-width:60px;flex-shrink:0;padding-top:1px}
+.flow-icon{font-size:0.7rem;min-width:20px;text-align:center;flex-shrink:0;font-weight:bold;padding-top:1px}
+.flow-tag{font-size:0.6rem;padding:1px 6px;border-radius:2px;font-weight:bold;min-width:65px;text-align:center;flex-shrink:0;letter-spacing:0.5px}
+.flow-msg{color:#ccc;word-wrap:break-word;flex:1}
+.flow-money{color:#00ff00;font-weight:bold}
+.flow-pct-pos{color:#00ff00}.flow-pct-neg{color:#ff0044}
+.flow-market{color:#ffaa00}
+.flow-src{color:#333;font-size:0.6rem;min-width:90px;text-align:right;flex-shrink:0;font-style:italic}
 ::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:#0a0a0a}::-webkit-scrollbar-thumb{background:#333}
 </style>
 </head>
@@ -99,6 +114,13 @@ let activity = [];           // from Data API /activity
 let cachedLogs = [];         // from GitHub terminal.jsonl
 let lastVerifiedAt = null;
 let onChainVerified = false;
+
+// ── Live Data Flow State ────────────────────────────────
+const GAMMA_API = 'https://gamma-api.polymarket.com';
+let dataFlowItems = [];       // unified stream: { ts, tag, color, icon, msg, source }
+const DATA_FLOW_MAX = 500;
+let prevGammaSnapshot = new Map(); // conditionId → { price, volume24h, change1h }
+let lastFlowPollAt = 0;
 
 // ── Helpers ──────────────────────────────────────────────
 function fmt(v) { return '$' + parseFloat(v || 0).toFixed(2); }
@@ -238,6 +260,167 @@ async function fetchLogs() {
   } catch (err) {
     console.error('[logs]', err.message);
   }
+}
+
+// ── Live Data Flow: Pull from same APIs as AI scanner ────
+function pushFlow(tag, color, icon, msg, source) {
+  dataFlowItems.unshift({ ts: new Date().toISOString(), tag, color, icon, msg, source });
+  if (dataFlowItems.length > DATA_FLOW_MAX) dataFlowItems.length = DATA_FLOW_MAX;
+}
+
+// 1. Live global trade feed — big money flowing in real time
+async function pollLiveTrades() {
+  try {
+    const res = await fetch(`${DATA_API}/trades?limit=25&filterType=CASH&filterAmount=500`, {
+      signal: AbortSignal.timeout(8000)
+    });
+    if (!res.ok) return;
+    const trades = await res.json();
+    if (!Array.isArray(trades)) return;
+
+    // Only show trades newer than last poll
+    for (const t of trades.slice(0, 15)) {
+      const tradeTs = (t.timestamp || 0) * 1000;
+      if (tradeTs <= lastFlowPollAt && lastFlowPollAt > 0) continue;
+      const vol = (t.size * t.price).toFixed(0);
+      const side = t.side === 'BUY' ? 'BUY' : 'SELL';
+      const sideColor = side === 'BUY' ? '#00ff00' : '#ff0044';
+      const title = (t.title || '').slice(0, 70);
+      const price = (t.price * 100).toFixed(1);
+      const trader = t.name || t.pseudonym || 'anon';
+      pushFlow(side, sideColor, side === 'BUY' ? '>>' : '<<',
+        `$${vol} ${side} "${title}" @ ${price}¢ — ${trader}`,
+        'polymarket/trades');
+    }
+    lastFlowPollAt = Date.now();
+  } catch (err) {
+    console.error('[flow-trades]', err.message);
+  }
+}
+
+// 2. Gamma API — market movers, price changes, volume surges
+async function pollGammaMovers() {
+  try {
+    const res = await fetch(`${GAMMA_API}/events?active=true&closed=false&limit=100`, {
+      headers: { Accept: 'application/json' },
+      signal: AbortSignal.timeout(15000)
+    });
+    if (!res.ok) return;
+    const events = await res.json();
+    const newSnapshot = new Map();
+
+    for (const event of events) {
+      if (!event.markets) continue;
+      for (const m of event.markets) {
+        if (m.closed || !m.active) continue;
+        const q = m.question || event.title || '';
+        const cid = m.conditionId;
+        if (!cid) continue;
+
+        let prices;
+        try { prices = JSON.parse(m.outcomePrices || '[]'); } catch { prices = []; }
+        const yesPrice = parseFloat(prices[0] || 0);
+        const vol24h = parseFloat(event.volume24hr || 0);
+        const change1h = m.oneHourPriceChange != null ? parseFloat(m.oneHourPriceChange) : null;
+        const change1d = m.oneDayPriceChange != null ? parseFloat(m.oneDayPriceChange) : null;
+        const liq = parseFloat(event.liquidity || 0);
+        const spread = parseFloat(m.spread || 0);
+
+        newSnapshot.set(cid, { price: yesPrice, vol24h, change1h, q, liq, spread });
+
+        // Compare to previous snapshot
+        const prev = prevGammaSnapshot.get(cid);
+        if (!prev) continue;
+
+        // Detect 1h movers
+        if (change1h != null && Math.abs(change1h) >= 0.02 && vol24h > 5000) {
+          const dir = change1h > 0 ? '+' : '';
+          pushFlow('MOVER', change1h > 0 ? '#00ff00' : '#ff0044', '^v',
+            `${dir}${(change1h * 100).toFixed(1)}% in 1h — "${q.slice(0, 65)}" now @ ${(yesPrice * 100).toFixed(1)}¢ (vol $${(vol24h / 1000).toFixed(0)}K)`,
+            'gamma/events');
+        }
+
+        // Detect price jumps since last poll
+        const priceDiff = yesPrice - prev.price;
+        if (Math.abs(priceDiff) >= 0.02) {
+          const dir = priceDiff > 0 ? '+' : '';
+          pushFlow('SHIFT', '#00ddff', '/\\',
+            `Price ${dir}${(priceDiff * 100).toFixed(1)}¢ — "${q.slice(0, 65)}" ${(prev.price * 100).toFixed(1)}¢ → ${(yesPrice * 100).toFixed(1)}¢`,
+            'gamma/events');
+        }
+
+        // Detect wide spreads
+        if (spread > 0.05 && liq > 30000) {
+          const bid = parseFloat(m.bestBid || 0);
+          const ask = parseFloat(m.bestAsk || 0);
+          if (!prev.spread || Math.abs(spread - prev.spread) > 0.01) {
+            pushFlow('SPREAD', '#ff6600', '<>',
+              `${(spread * 100).toFixed(1)}¢ spread — "${q.slice(0, 60)}" bid ${(bid * 100).toFixed(1)}¢ / ask ${(ask * 100).toFixed(1)}¢ (liq $${(liq / 1000).toFixed(0)}K)`,
+              'clob/book');
+          }
+        }
+      }
+    }
+
+    // Detect new markets appearing
+    if (prevGammaSnapshot.size > 0) {
+      for (const [cid, snap] of newSnapshot) {
+        if (!prevGammaSnapshot.has(cid) && snap.vol24h > 10000) {
+          pushFlow('NEW', '#ff00ff', '++',
+            `New market: "${snap.q.slice(0, 65)}" @ ${(snap.price * 100).toFixed(1)}¢ — vol $${(snap.vol24h / 1000).toFixed(0)}K`,
+            'gamma/events');
+        }
+      }
+    }
+
+    prevGammaSnapshot = newSnapshot;
+  } catch (err) {
+    console.error('[flow-gamma]', err.message);
+  }
+}
+
+// 3. Merge AI scanner logs into the data flow
+function mergeScannserLogs() {
+  // Find logs newer than our last seen
+  const cutoff = dataFlowItems.length > 0 ? dataFlowItems[dataFlowItems.length - 1]?.ts : null;
+  for (const e of cachedLogs) {
+    if (e.type === 'pipeline') continue;
+    // Avoid duplicates — check if we already have this exact entry
+    const eKey = e.timestamp + '|' + (e.message || '').slice(0, 40);
+    if (dataFlowItems.some(d => (d.ts + '|' + d.msg.slice(0, 40)) === eKey)) continue;
+
+    const msg = e.message || '';
+    const type = e.type || '';
+
+    if (type === 'trade') {
+      if (msg.startsWith('Bought ')) pushFlow('BOT BUY', '#00ff00', '$$', msg, 'auto-trade');
+      else if (msg.startsWith('TAKE PROFIT')) pushFlow('TAKE PROFIT', '#00ff00', '$$', msg, 'auto-sell');
+      else if (msg.startsWith('STOP LOSS')) pushFlow('STOP LOSS', '#ff0044', '$$', msg, 'auto-sell');
+      else pushFlow('TRADE', '#ff00ff', '$$', msg, 'auto-trade');
+    } else if (type === 'redeem') {
+      pushFlow('REDEEM', '#00ff00', '$$', msg, 'auto-redeem');
+    } else if (type === 'palpha') {
+      if (msg.includes('[grok]')) pushFlow('GROK AI', '#ff6600', 'AI', msg, 'xai/grok');
+      else if (msg.includes('[alt]')) pushFlow('ALT DATA', '#00ddff', '<>', msg, 'palpha/alt');
+      else if (msg.includes('VETOED')) pushFlow('VETO', '#ff0044', 'XX', msg, 'palpha/gate');
+      else if (msg.includes('Buying ')) pushFlow('SIGNAL', '#00ff00', '!!', msg, 'palpha/signal');
+      else pushFlow('ALPHA', '#00ddff', '**', msg, 'palpha');
+    } else if (type === 'think') {
+      if (msg.includes('Live flow:')) pushFlow('FLOW', '#ffaa00', '~~', msg, 'data-api/trades');
+      else if (msg.includes('mover:')) pushFlow('MOVER', '#00ff00', '^v', msg, 'gamma/events');
+      else pushFlow('SIGNAL', '#00aaff', '**', msg, 'scanner');
+    } else if (type === 'decision') {
+      pushFlow('DECISION', '#ffaa00', '=>', msg, 'scanner');
+    } else if (type === 'pnl') {
+      pushFlow('P&L', '#00ff00', '$', msg, 'portfolio');
+    } else if (type === 'scan') {
+      pushFlow('SCAN', '#00ff00', '>>', msg, 'scanner');
+    }
+  }
+
+  // Sort by timestamp desc
+  dataFlowItems.sort((a, b) => new Date(b.ts) - new Date(a.ts));
+  if (dataFlowItems.length > DATA_FLOW_MAX) dataFlowItems.length = DATA_FLOW_MAX;
 }
 
 // ── PnL Calculation ──────────────────────────────────────
@@ -688,180 +871,78 @@ function renderPerf() {
   ctx.fillText('NET WORTH (session)', PAD.left, PAD.top - 10);
 }
 
-// ── Render: Data Pipeline ────────────────────────────────
+// ── Render: Data Flow (Unusual Whales style) ─────────────
 function renderData() {
-  const pipelineEntries = cachedLogs.filter(e => e.type === 'pipeline');
-  if (!pipelineEntries.length) {
-    content.innerHTML = '<div class="empty">No pipeline data yet. Waiting for scanner cycles...</div>';
+  // Merge scanner AI logs into the live flow
+  mergeScannserLogs();
+
+  if (!dataFlowItems.length) {
+    content.innerHTML = '<div class="empty">Initializing data flow... pulling from Polymarket, Gamma, CLOB APIs</div>';
     return;
   }
 
-  // Latest pipeline entry
-  const latest = pipelineEntries[pipelineEntries.length - 1];
-  const ing = latest.ingestion || {};
-  const sig = latest.signals || {};
-  const tf = latest.tradeFlows || {};
-  const ms = latest.midShifts || {};
-  const enr = latest.enrichment || {};
-  const exec = latest.execution || {};
-  const tops = latest.topSignals || [];
-
-  let html = '';
-
-  // ── A. INGESTION ──────────────────────────────────────
-  html += '<div style="color:#00ff00;font-size:0.8rem;margin-bottom:8px;font-weight:bold">INGESTION <span style="color:#555;font-weight:normal">cycle #' + (latest.cycle || '?') + ' &mdash; ' + ts(latest.timestamp) + '</span></div>';
-  html += '<div class="wallet-grid">'
-    + wbox('Markets Scanned', ing.markets || 0)
-    + wbox('Trades Ingested', ing.trades || 0)
-    + wbox('Trade Volume', '$' + ((ing.tradeVolume || 0) / 1000).toFixed(1) + 'K')
-    + wbox('Midpoints Fetched', ing.midpointsFetched || 0)
-    + '</div>';
-
-  // ── B. SIGNALS ────────────────────────────────────────
-  html += '<div style="color:#00aaff;font-size:0.8rem;margin:15px 0 8px;font-weight:bold">SIGNALS DETECTED</div>';
-  const sigTypes = [
-    { key: 'movers1h', label: '1h Movers', color: '#00ff00' },
-    { key: 'movers1d', label: '1d Movers', color: '#00cc00' },
-    { key: 'volumeSpikes', label: 'Vol Spikes', color: '#ffaa00' },
-    { key: 'catalysts', label: 'Catalysts', color: '#ff6600' },
-    { key: 'deepValue', label: 'Deep Value', color: '#00ddff' },
-    { key: 'tightRaces', label: 'Tight Races', color: '#ff00ff' },
-    { key: 'wideSpread', label: 'Wide Spread', color: '#ff0044' },
-  ];
-  const maxSig = Math.max(1, ...sigTypes.map(s => sig[s.key] || 0));
-  html += '<div style="display:flex;flex-direction:column;gap:4px;margin-bottom:15px">';
-  for (const st of sigTypes) {
-    const count = sig[st.key] || 0;
-    const barW = Math.max(2, (count / maxSig) * 100);
-    html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.75rem">'
-      + '<span style="color:#888;width:85px;text-align:right;flex-shrink:0">' + st.label + '</span>'
-      + '<div style="flex:1;background:#1a1a1a;height:16px;border-radius:2px;overflow:hidden">'
-      + '<div style="width:' + barW + '%;height:100%;background:' + st.color + ';opacity:0.7;min-width:2px"></div>'
-      + '</div>'
-      + '<span style="color:#ccc;width:30px;font-weight:bold">' + count + '</span>'
-      + '</div>';
+  // ── Header: live pipeline stats from latest pipeline entry
+  const latestPipeline = [...cachedLogs].reverse().find(e => e.type === 'pipeline');
+  let html = '<div class="flow-header">';
+  if (latestPipeline) {
+    const ing = latestPipeline.ingestion || {};
+    const sig = latestPipeline.signals || {};
+    const enr = latestPipeline.enrichment || {};
+    const exec = latestPipeline.execution || {};
+    const totalSigs = Object.values(sig).reduce((s, v) => s + (v || 0), 0);
+    html += '<div class="flow-stat"><div class="flow-stat-val">' + (ing.markets || 0) + '</div><div class="flow-stat-label">MARKETS</div></div>'
+      + '<div class="flow-stat"><div class="flow-stat-val" style="color:#ffaa00">' + totalSigs + '</div><div class="flow-stat-label">SIGNALS</div></div>'
+      + '<div class="flow-stat"><div class="flow-stat-val" style="color:#00ddff">' + (enr.rawOpportunities || 0) + '</div><div class="flow-stat-label">OPPS</div></div>'
+      + '<div class="flow-stat"><div class="flow-stat-val" style="color:#ff0044">' + (enr.vetoed || 0) + '</div><div class="flow-stat-label">VETOED</div></div>'
+      + '<div class="flow-stat"><div class="flow-stat-val" style="color:#00ff00">' + (exec.tradesExecuted || 0) + '</div><div class="flow-stat-label">TRADED</div></div>'
+      + '<div class="flow-stat"><div class="flow-stat-val">' + (exec.openPositions || 0) + '</div><div class="flow-stat-label">POSITIONS</div></div>'
+      + '<div class="flow-stat"><div class="flow-stat-val">$' + (exec.dailySpend || 0).toFixed(0) + '</div><div class="flow-stat-label">DAILY $</div></div>'
+      + '<div class="flow-stat"><div class="flow-stat-val" style="color:#555">#' + (latestPipeline.cycle || '?') + '</div><div class="flow-stat-label">CYCLE</div></div>';
+  } else {
+    html += '<div class="flow-stat"><div class="flow-stat-val" style="color:#555">--</div><div class="flow-stat-label">AWAITING PIPELINE</div></div>';
   }
   html += '</div>';
 
-  // Trade flows + midpoint shifts
-  html += '<div style="display:flex;gap:20px;margin-bottom:15px;font-size:0.75rem">'
-    + '<div style="color:#888">Trade Flows: <span style="color:#ccc">' + (tf.count || 0) + '</span> events, <span style="color:#ccc">$' + ((tf.totalVolume || 0) / 1000).toFixed(1) + 'K</span> vol, avg imbalance <span style="color:#ffaa00">' + ((tf.avgImbalance || 0) * 100).toFixed(0) + '%</span></div>'
-    + '<div style="color:#888">Mid Shifts: <span style="color:#ccc">' + (ms.count || 0) + '</span> detected, avg <span style="color:#00ddff">' + ((ms.avgMagnitude || 0) * 100).toFixed(2) + '%</span></div>'
-    + '</div>';
-
-  // ── C. ENRICHMENT FUNNEL ──────────────────────────────
-  html += '<div style="color:#ffaa00;font-size:0.8rem;margin:15px 0 8px;font-weight:bold">ENRICHMENT FUNNEL</div>';
-
-  const rawOpp = enr.rawOpportunities || 0;
-  const enriched = enr.enriched || 0;
-  const vetoed = enr.vetoed || 0;
-  const executed = exec.tradesExecuted || 0;
-
-  // Funnel bars
-  const funnelStages = [
-    { label: 'Raw Opportunities', count: rawOpp, color: '#555' },
-    { label: 'Enriched (passed palpha)', count: enriched, color: '#00ddff' },
-    { label: 'Executed', count: executed, color: '#00ff00' },
+  // ── Source legend
+  html += '<div style="display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap;font-size:0.6rem">';
+  const sources = [
+    { label: 'polymarket/trades', color: '#00ff00' },
+    { label: 'gamma/events', color: '#ffaa00' },
+    { label: 'clob/book', color: '#ff6600' },
+    { label: 'xai/grok', color: '#ff6600' },
+    { label: 'palpha', color: '#00ddff' },
+    { label: 'auto-trade', color: '#ff00ff' },
+    { label: 'scanner', color: '#00aaff' },
+    { label: 'portfolio', color: '#00ff00' },
   ];
-  const maxFunnel = Math.max(1, rawOpp);
-  html += '<div style="display:flex;flex-direction:column;gap:6px;margin-bottom:12px">';
-  for (const fs of funnelStages) {
-    const barW = Math.max(3, (fs.count / maxFunnel) * 100);
-    const pct = rawOpp > 0 ? ((fs.count / rawOpp) * 100).toFixed(0) + '%' : '--';
-    html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.75rem">'
-      + '<span style="color:#888;width:180px;text-align:right;flex-shrink:0">' + fs.label + '</span>'
-      + '<div style="flex:1;background:#1a1a1a;height:20px;border-radius:2px;overflow:hidden;position:relative">'
-      + '<div style="width:' + barW + '%;height:100%;background:' + fs.color + ';opacity:0.7"></div>'
-      + '</div>'
-      + '<span style="color:#ccc;width:60px;font-weight:bold">' + fs.count + ' (' + pct + ')</span>'
-      + '</div>';
+  for (const s of sources) {
+    html += '<span style="color:' + s.color + ';background:' + s.color + '11;padding:1px 5px;border:1px solid ' + s.color + '33;border-radius:2px">' + s.label + '</span>';
   }
   html += '</div>';
 
-  // Veto reasons
-  const vetoReasons = enr.vetoReasons || {};
-  const vetoKeys = Object.keys(vetoReasons);
-  if (vetoKeys.length > 0) {
-    html += '<div style="margin-bottom:10px;font-size:0.7rem"><span style="color:#ff0044">Vetoed (' + vetoed + '):</span> ';
-    html += vetoKeys.map(k => '<span style="color:#888">' + esc(k) + '</span> <span style="color:#ccc">' + vetoReasons[k] + '</span>').join(' &middot; ');
-    html += '</div>';
-  }
+  // ── Stream entries
+  html += '<div class="flow-stream">';
+  const items = dataFlowItems.slice(0, 400);
+  for (const d of items) {
+    // Highlight inline data
+    let rendered = esc(d.msg);
+    rendered = rendered.replace(/\$[\d,]+\.?\d*/g, '<span class="flow-money">$&</span>');
+    rendered = rendered.replace(/[+-]?\d+\.?\d*%/g, function(m) {
+      return '<span class="' + (!m.startsWith('-') ? 'flow-pct-pos' : 'flow-pct-neg') + '">' + m + '</span>';
+    });
+    rendered = rendered.replace(/&quot;([^&]+)&quot;/g, '<span class="flow-market">"$1"</span>');
+    // Also match regular "quoted" strings
+    rendered = rendered.replace(/"([^"]{4,70})"/g, '<span class="flow-market">"$1"</span>');
 
-  // Recommendation distribution
-  const recs = enr.recommendations || {};
-  const recKeys = ['ACTIONABLE', 'NOTABLE', 'MONITOR', 'NOISE'];
-  const recColors = { ACTIONABLE: '#00ff00', NOTABLE: '#00ddff', MONITOR: '#ffaa00', NOISE: '#555' };
-  const hasRecs = recKeys.some(k => (recs[k] || 0) > 0);
-  if (hasRecs) {
-    html += '<div style="margin-bottom:10px;font-size:0.7rem"><span style="color:#00ddff">Recommendations:</span> ';
-    html += recKeys.map(k => '<span style="color:' + recColors[k] + '">' + k + '</span> <span style="color:#ccc">' + (recs[k] || 0) + '</span>').join(' &middot; ');
-    html += '</div>';
+    html += '<div class="flow-row" style="border-left:2px solid ' + d.color + '">'
+      + '<span class="flow-time">' + ts(d.ts) + '</span>'
+      + '<span class="flow-icon" style="color:' + d.color + '">' + d.icon + '</span>'
+      + '<span class="flow-tag" style="background:' + d.color + '22;color:' + d.color + ';border:1px solid ' + d.color + '44">' + d.tag + '</span>'
+      + '<span class="flow-msg">' + rendered + '</span>'
+      + '<span class="flow-src">' + (d.source || '') + '</span>'
+      + '</div>';
   }
-
-  // Execution skips
-  const skipReasons = exec.skipReasons || {};
-  const skipKeys = Object.keys(skipReasons);
-  if (skipKeys.length > 0) {
-    html += '<div style="margin-bottom:10px;font-size:0.7rem"><span style="color:#ffaa00">Skipped (' + (exec.skipped || 0) + '):</span> ';
-    html += skipKeys.map(k => '<span style="color:#888">' + esc(k) + '</span> <span style="color:#ccc">' + skipReasons[k] + '</span>').join(' &middot; ');
-    html += '</div>';
-  }
-
-  // Execution summary line
-  html += '<div style="font-size:0.75rem;color:#888;margin-bottom:15px">'
-    + 'Daily spend: <span style="color:#ccc">$' + (exec.dailySpend || 0).toFixed(2) + '</span>'
-    + ' &middot; Open positions: <span style="color:#ccc">' + (exec.openPositions || 0) + '</span>'
-    + '</div>';
-
-  // ── D. TOP SIGNALS ────────────────────────────────────
-  if (tops.length > 0) {
-    html += '<div style="color:#ff00ff;font-size:0.8rem;margin:15px 0 8px;font-weight:bold">TOP SIGNALS</div>';
-    for (const s of tops) {
-      const typeColor = {
-        movers1h: '#00ff00', movers1d: '#00cc00', volumeSpikes: '#ffaa00',
-        catalysts: '#ff6600', deepValue: '#00ddff', tightRaces: '#ff00ff', wideSpread: '#ff0044'
-      }[s.type] || '#888';
-      html += '<div class="closed-card">'
-        + '<span style="color:' + typeColor + ';font-size:0.65rem;padding:1px 5px;background:#1a1a1a;border-radius:2px">' + esc(s.type) + '</span> '
-        + esc(s.q)
-        + ' <span style="color:#888">score=' + (s.score || 0).toFixed(1) + '</span>'
-        + (s.change ? ' <span style="color:' + (s.change.startsWith('+') ? '#00ff00' : '#ff0044') + '">' + s.change + '</span>' : '')
-        + '</div>';
-    }
-  }
-
-  // ── E. HISTORY ────────────────────────────────────────
-  if (pipelineEntries.length > 1) {
-    html += '<div style="color:#888;font-size:0.8rem;margin:20px 0 8px;font-weight:bold">CYCLE HISTORY <span style="font-weight:normal;color:#555">(last ' + Math.min(pipelineEntries.length, 20) + ')</span></div>';
-    html += '<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:0.7rem">';
-    html += '<tr style="color:#555;border-bottom:1px solid #333">'
-      + '<th style="text-align:left;padding:4px 8px">Cycle</th>'
-      + '<th style="text-align:right;padding:4px 8px">Markets</th>'
-      + '<th style="text-align:right;padding:4px 8px">Raw</th>'
-      + '<th style="text-align:right;padding:4px 8px">Vetoed</th>'
-      + '<th style="text-align:right;padding:4px 8px">Traded</th>'
-      + '<th style="text-align:right;padding:4px 8px">Daily$</th>'
-      + '<th style="text-align:right;padding:4px 8px">Time</th>'
-      + '</tr>';
-    const histSlice = pipelineEntries.slice(-20).reverse();
-    for (const pe of histSlice) {
-      const peIng = pe.ingestion || {};
-      const peEnr = pe.enrichment || {};
-      const peExec = pe.execution || {};
-      const traded = peExec.tradesExecuted || 0;
-      const tradeColor = traded > 0 ? '#00ff00' : '#555';
-      html += '<tr style="border-bottom:1px solid #1a1a1a;color:#ccc">'
-        + '<td style="padding:3px 8px;color:#00aaff">#' + (pe.cycle || '?') + '</td>'
-        + '<td style="padding:3px 8px;text-align:right">' + (peIng.markets || 0) + '</td>'
-        + '<td style="padding:3px 8px;text-align:right">' + (peEnr.rawOpportunities || 0) + '</td>'
-        + '<td style="padding:3px 8px;text-align:right;color:#ff0044">' + (peEnr.vetoed || 0) + '</td>'
-        + '<td style="padding:3px 8px;text-align:right;color:' + tradeColor + '">' + traded + '</td>'
-        + '<td style="padding:3px 8px;text-align:right">$' + (peExec.dailySpend || 0).toFixed(0) + '</td>'
-        + '<td style="padding:3px 8px;text-align:right;color:#555">' + ts(pe.timestamp) + '</td>'
-        + '</tr>';
-    }
-    html += '</table></div>';
-  }
+  html += '</div>';
 
   content.innerHTML = html;
 }
@@ -937,8 +1018,13 @@ async function pollActivity() {
 
 async function pollLogs() {
   await fetchLogs();
-  if (currentTab === 'logs') render();
+  if (currentTab === 'logs' || currentTab === 'data') render();
   updateHeader();
+}
+
+async function pollDataFlow() {
+  await Promise.all([pollLiveTrades(), pollGammaMovers()]);
+  if (currentTab === 'data') render();
 }
 
 // ── Tab switching ────────────────────────────────────────
@@ -965,11 +1051,15 @@ document.querySelectorAll('.tab').forEach(tab => {
   updateHeader();
   render();
 
+  // Initial data flow pull
+  await Promise.all([pollLiveTrades(), pollGammaMovers()]);
+
   // Staggered polling intervals
   setInterval(pollPositionsAndPrices, 10000);  // positions + prices every 10s
   setInterval(pollOnChain, 30000);             // on-chain verify every 30s
   setInterval(pollActivity, 30000);            // trade activity every 30s
   setInterval(pollLogs, 10000);                // scanner logs + palpha every 10s
+  setInterval(pollDataFlow, 15000);            // live trades + gamma movers every 15s
 
   // Extra-fast price refresh
   setInterval(async () => {
