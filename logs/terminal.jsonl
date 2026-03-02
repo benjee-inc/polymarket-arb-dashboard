@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-02T08:59:41.321Z","type":"think","message":"↓ Price shift: \"Will Timothée Chalamet win Best Actor at the 98th Acad…\" moved 1.5% since last scan (46.5% → 45.0%)"}
-{"timestamp":"2026-03-02T08:59:41.321Z","type":"think","message":"Volume surge: \"Will Trump and Putin meet next in another country?\" — $140.3K in 24h (730% of lifetime), ↓0.1% this hour"}
-{"timestamp":"2026-03-02T08:59:41.322Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 15h to resolution, 80.5% YES, ↑0.5% this hour, vol $79.5K"}
-{"timestamp":"2026-03-02T08:59:41.322Z","type":"decision","message":"Flow signal: \"Will Elise Stefanik win the 2028 Republican presidenti…\" — buyers dominating ($2.0K net), 1 traders, 7m ago"}
-{"timestamp":"2026-03-02T09:04:50.002Z","type":"palpha","message":"Evaluated 14 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-02T09:04:50.002Z","type":"palpha","message":"[palpha] VETOED: \"Will Drake release Iceman before GTA VI?\" — NOISE — mkt=95.7% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T09:04:50.002Z","type":"palpha","message":"[palpha] VETOED: \"Will GPT-6 be released before GTA VI?\" — NOISE — mkt=67.5% implied=n/a src=[arxiv]"}
-{"timestamp":"2026-03-02T09:04:50.002Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T09:04:50.002Z","type":"palpha","message":"[palpha] VETOED: \"Will Trump and Putin meet next in Turkey?\" — NOISE — mkt=6.0% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T09:04:50.002Z","type":"palpha","message":"[palpha] VETOED: \"Will Karen Bass win the 2026 Los Angeles mayoral election?\" — NOISE — mkt=46.0% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T09:04:50.002Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
-{"timestamp":"2026-03-02T09:04:50.002Z","type":"trade","message":"[auto-trade] No trades: already held (local), spread too wide: 5.0¢ on 9.0¢ entry (56% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", already held, spread too wide: 1.0¢ on 16.5¢ entry (6% > 5% max). Daily: $20.00"}
-{"timestamp":"2026-03-02T09:04:41.328Z","type":"scan","message":"Cycle #108 — 655 markets | 17 active events | $85.9K recent flow"}
-{"timestamp":"2026-03-02T09:04:41.328Z","type":"think","message":"Live flow: \"Will Ethereum reach $3,200 in March?\" — $8.3K in 3 trades, NET BUY (strong bias), biggest $4.7K, 1m ago"}
 {"timestamp":"2026-03-02T09:04:41.328Z","type":"think","message":"↑ Price shift: \"Will Trump and Putin not meet?\" moved 2.1% since last scan (55.2% → 57.3%)"}
 {"timestamp":"2026-03-02T09:04:41.328Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 15h to resolution, 0.8% YES, ↑0.1% this hour, vol $79.5K"}
 {"timestamp":"2026-03-02T09:04:41.328Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 93.0% / ask 98.3% (5.3% spread), liq $1.7M"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-02T10:09:41.532Z","type":"think","message":"Volume surge: \"Will Trump and Putin meet next in another country?\" — $140.3K in 24h (730% of lifetime), ↓0.1% this hour"}
 {"timestamp":"2026-03-02T10:09:41.532Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 14h to resolution, 80.5% YES, ↑0.5% this hour, vol $79.5K"}
 {"timestamp":"2026-03-02T10:09:41.532Z","type":"decision","message":"Flow signal: \"Will Saudi Aramco be the largest company in the world …\" — sellers dominating ($3.0K net), 2 traders, 5m ago"}
+{"timestamp":"2026-03-02T10:14:51.284Z","type":"palpha","message":"Evaluated 13 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-02T10:14:51.284Z","type":"palpha","message":"[palpha] VETOED: \"Will Pedri win the 2026 Ballon d'Or?\" — NOISE — mkt=0.9% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T10:14:51.284Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T10:14:51.284Z","type":"palpha","message":"[palpha] VETOED: \"Will Trump and Putin meet next in Turkey?\" — NOISE — mkt=5.8% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T10:14:51.284Z","type":"palpha","message":"[palpha] VETOED: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — NOISE — mkt=80.5% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T10:14:51.284Z","type":"palpha","message":"[palpha] VETOED: \"Will Karen Bass win the 2026 Los Angeles mayoral election?\" — NOISE — mkt=46.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T10:14:51.284Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
+{"timestamp":"2026-03-02T10:14:51.284Z","type":"trade","message":"[auto-trade] No trades: already held (local), spread too wide: 5.0¢ on 21.8¢ entry (23% > 5% max), spread too wide: 5.0¢ on 9.0¢ entry (56% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", already held, spread too wide: 1.0¢ on 16.5¢ entry (6% > 5% max). Daily: $20.00"}
+{"timestamp":"2026-03-02T10:14:42.422Z","type":"scan","message":"Cycle #122 — 653 markets | 11 active events | $52.0K recent flow"}
+{"timestamp":"2026-03-02T10:14:42.422Z","type":"think","message":"Live flow: \"Will the Fed increase interest rates by 25+ bps after …\" — $15.6K in 1 trades, NET BUY (strong bias), biggest $15.6K, 1m ago"}
+{"timestamp":"2026-03-02T10:14:42.422Z","type":"think","message":"↑ Price shift: \"Netanyahu out by end of 2026?\" moved 5.5% since last scan (35.5% → 41.0%)"}
+{"timestamp":"2026-03-02T10:14:42.422Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 14h to resolution, 0.9% YES, ↑0.1% this hour, vol $79.5K"}
+{"timestamp":"2026-03-02T10:14:42.422Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 95.8% / ask 99.2% (3.4% spread), liq $1.7M"}
+{"timestamp":"2026-03-02T10:14:42.422Z","type":"decision","message":"Flow signal: \"Will Pedri win the 2026 Ballon d'Or?\" — sellers dominating ($6.9K net), 6 traders, 1m ago"}
