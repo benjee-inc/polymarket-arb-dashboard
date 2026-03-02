@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-02T03:34:40.000Z","type":"think","message":"↑ Price shift: \"BitBoy convicted?\" moved 11.4% since last scan (28.5% → 40.0%)"}
-{"timestamp":"2026-03-02T03:34:40.000Z","type":"think","message":"↓ Daily mover: \"Will Trump visit China by March 31?\" ↓5.3% today, ↑67.0% 1w, 24h vol $85.1K"}
-{"timestamp":"2026-03-02T03:34:40.000Z","type":"think","message":"↓ Hourly mover: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h (now 47.5%), 24h vol $4.3K"}
-{"timestamp":"2026-03-02T03:34:40.000Z","type":"decision","message":"Flow signal: \"Will Bitcoin dip to $58,000 February 23-March 1?\" — sellers dominating ($3.1K net), 1 traders, 1m ago"}
-{"timestamp":"2026-03-02T03:39:48.623Z","type":"palpha","message":"Evaluated 14 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-02T03:39:48.623Z","type":"palpha","message":"[palpha] VETOED: \"Will Trump nominate Christopher Waller as the next Fed chair\" — NOISE — mkt=0.4% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T03:39:48.623Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T03:39:48.623Z","type":"palpha","message":"[palpha] VETOED: \"Will Elise Stefanik win the 2028 Republican presidential nom\" — NOISE — mkt=0.9% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T03:39:48.623Z","type":"palpha","message":"[palpha] VETOED: \"Paul Mescal announced as next James Bond?\" — depth not executable: thin_liquidity"}
-{"timestamp":"2026-03-02T03:39:48.623Z","type":"palpha","message":"[palpha] VETOED: \"Harris Dickinson announced as next James Bond?\" — depth not executable: thin_liquidity"}
-{"timestamp":"2026-03-02T03:39:48.623Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
-{"timestamp":"2026-03-02T03:39:48.623Z","type":"trade","message":"[auto-trade] No trades: spread too wide: 8.0¢ on 42.0¢ entry (19% > 5% max), already held (local), spread too wide: 5.0¢ on 9.0¢ entry (56% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", already held, spread too wide: 1.0¢ on 16.5¢ entry (6% > 5% max). Daily: $20.00"}
-{"timestamp":"2026-03-02T03:39:39.910Z","type":"scan","message":"Cycle #43 — 657 markets | 11 active events | $49.3K recent flow"}
-{"timestamp":"2026-03-02T03:39:39.910Z","type":"think","message":"Live flow: \"Will Elise Stefanik win the 2028 Republican presidenti…\" — $2.2K in 1 trades, NET BUY (strong bias), biggest $2.2K, 5m ago"}
 {"timestamp":"2026-03-02T03:39:39.910Z","type":"think","message":"↓ Price shift: \"Will Teyana Taylor win Best Supporting Actress at the …\" moved 5.5% since last scan (32.0% → 26.5%)"}
 {"timestamp":"2026-03-02T03:39:39.910Z","type":"think","message":"↓ Hourly mover: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h (now 2.6%), 24h vol $8.8K"}
 {"timestamp":"2026-03-02T03:39:39.910Z","type":"think","message":"Volume surge: \"Will Carlos Felipe Córdoba win the 2026 Colombian pres…\" — $109.0K in 24h (842% of lifetime), price 0.7%"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-02T04:44:40.236Z","type":"think","message":"↓ Daily mover: \"Will Trump visit China by March 31?\" ↓5.3% today, ↑67.0% 1w, 24h vol $85.1K"}
 {"timestamp":"2026-03-02T04:44:40.236Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 24.5%), 24h vol $15.1K"}
 {"timestamp":"2026-03-02T04:44:40.236Z","type":"decision","message":"Flow signal: \"Will the price of XRP be above $1.80 on March 3?\" — buyers dominating ($4.1K net), 2 traders, 1m ago"}
+{"timestamp":"2026-03-02T04:49:49.232Z","type":"palpha","message":"Evaluated 15 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-02T04:49:49.232Z","type":"palpha","message":"[palpha] VETOED: \"Will GPT-6 be released before GTA VI?\" — NOISE — mkt=66.5% implied=n/a src=[arxiv]"}
+{"timestamp":"2026-03-02T04:49:49.232Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T04:49:49.232Z","type":"palpha","message":"[palpha] VETOED: \"Xi Jinping out before 2027?\" — NOISE — mkt=9.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T04:49:49.232Z","type":"palpha","message":"[palpha] VETOED: \"Paul Mescal announced as next James Bond?\" — depth not executable: thin_liquidity"}
+{"timestamp":"2026-03-02T04:49:49.232Z","type":"palpha","message":"[palpha] VETOED: \"Will Karen Bass win the 2026 Los Angeles mayoral election?\" — NOISE — mkt=46.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T04:49:49.232Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
+{"timestamp":"2026-03-02T04:49:49.232Z","type":"trade","message":"[auto-trade] No trades: spread too wide: 6.7¢ on 0.2¢ entry (3350% > 5% max), already held (local), spread too wide: 5.0¢ on 9.0¢ entry (56% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", already held, spread too wide: 1.0¢ on 16.5¢ entry (6% > 5% max). Daily: $20.00"}
+{"timestamp":"2026-03-02T04:49:40.424Z","type":"scan","message":"Cycle #57 — 656 markets | 20 active events | $63.7K recent flow"}
+{"timestamp":"2026-03-02T04:49:40.424Z","type":"think","message":"Live flow: \"Katana FDV above $100M one day after launch?\" — $3.9K in 1 trades, NET BUY (strong bias), biggest $3.9K, 6m ago"}
+{"timestamp":"2026-03-02T04:49:40.424Z","type":"think","message":"↑ Price shift: \"Nuclear weapon detonation by December 31?\" moved 1.0% since last scan (23.0% → 24.0%)"}
+{"timestamp":"2026-03-02T04:49:40.424Z","type":"think","message":"↓ Hourly mover: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h (now 47.5%), 24h vol $4.3K"}
+{"timestamp":"2026-03-02T04:49:40.424Z","type":"think","message":"Volume surge: \"Will Carlos Felipe Córdoba win the 2026 Colombian pres…\" — $109.0K in 24h (842% of lifetime), price 0.7%"}
+{"timestamp":"2026-03-02T04:49:40.424Z","type":"decision","message":"Flow signal: \"US/Israel strike Yemen by March 1?\" — buyers dominating ($3.4K net), 1 traders, 7m ago"}
