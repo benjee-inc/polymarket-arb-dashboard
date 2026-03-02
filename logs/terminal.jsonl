@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-01T23:02:00.191Z","type":"think","message":"↓ Daily mover: \"Will Trump visit China by March 31?\" ↓5.3% today, ↑67.0% 1w, 24h vol $117.4K"}
-{"timestamp":"2026-03-01T23:02:00.191Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 19.5%), 24h vol $16.2K"}
-{"timestamp":"2026-03-01T23:02:00.192Z","type":"decision","message":"Flow signal: \"Will the US strike Somalia next?\" — buyers dominating ($3.0K net), 1 traders, 43s ago"}
-{"timestamp":"2026-03-01T23:07:00.022Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-01T23:07:00.022Z","type":"palpha","message":"[network] DISABLED — network signals removed (false positive rate too high)"}
-{"timestamp":"2026-03-01T23:07:00.022Z","type":"palpha","message":"[auto-trade] Position cap hit: 91/10 open positions. No new trades until positions close."}
-{"timestamp":"2026-03-01T23:07:00.022Z","type":"palpha","message":"[auto-trade] Cycle 8: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
-{"timestamp":"2026-03-01T23:07:00.292Z","type":"palpha","message":"[auto-sell] SKIP: \"Will Trump nominate himself as the next Fed chair?\" price 0.1¢ below min exit 0.5¢ — holding to expiry"}
-{"timestamp":"2026-03-01T23:06:59.960Z","type":"scan","message":"Cycle #8 — 657 markets | 10 active events | $21.1K recent flow"}
-{"timestamp":"2026-03-01T23:06:59.960Z","type":"think","message":"Live flow: \"Will the Iranian regime fall by June 30?\" — $2.7K in 1 trades, NET BUY (strong bias), biggest $2.7K, 6m ago"}
-{"timestamp":"2026-03-01T23:06:59.960Z","type":"think","message":"↓ Hourly mover: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h (now 49.5%), 24h vol $10.5K"}
-{"timestamp":"2026-03-01T23:06:59.960Z","type":"think","message":"Volume surge: \"Will Carlos Felipe Córdoba win the 2026 Colombian pres…\" — $99.1K in 24h (834% of lifetime), price 0.8%"}
-{"timestamp":"2026-03-01T23:06:59.960Z","type":"decision","message":"Hourly momentum: \"Israel x Hamas Ceasefire Phase II by March 31?\" ↓2.0% in 1h, now 9.5%, vol $3.0K"}
-{"timestamp":"2026-03-01T23:10:31.300Z","type":"palpha","message":"Evaluated 0 raw opportunities from scanner signals"}
 {"timestamp":"2026-03-01T23:10:31.300Z","type":"palpha","message":"[network] DISABLED — network signals removed (false positive rate too high)"}
 {"timestamp":"2026-03-01T23:10:31.300Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 6/10 total."}
 {"timestamp":"2026-03-01T23:10:31.300Z","type":"palpha","message":"[auto-trade] Cycle 1: 0 raw opps, 0 after enrichment, 0 vetoed. No actionable trades. Daily: $540.00"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-02T00:14:38.879Z","type":"think","message":"Volume surge: \"Will Thomas Massie win the 2028 Republican presidentia…\" — $4.9M in 24h (483% of lifetime), price 1.5%"}
 {"timestamp":"2026-03-02T00:14:38.879Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 24h to resolution, 78.5% YES, ↑0.5% this hour, vol $77.0K"}
 {"timestamp":"2026-03-02T00:14:38.879Z","type":"decision","message":"Flow signal: \"GTA VI released before June 2026?\" — sellers dominating ($15.5K net), 4 traders, 1m ago"}
+{"timestamp":"2026-03-02T00:19:47.882Z","type":"palpha","message":"Evaluated 19 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-02T00:19:47.882Z","type":"palpha","message":"[palpha] VETOED: \"New Playboi Carti Album before GTA VI?\" — NOISE — mkt=48.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T00:19:47.882Z","type":"palpha","message":"[palpha] VETOED: \"Will Matt Mahan win the California Governor Election in 2026\" — NOISE — mkt=17.5% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T00:19:47.882Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T00:19:47.882Z","type":"palpha","message":"[palpha] VETOED: \"Will the Democratic Party control the House after the 2026 M\" — NOISE — mkt=83.5% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T00:19:47.882Z","type":"palpha","message":"[palpha] VETOED: \"Will Trump and Putin meet next in Australia?\" — depth not executable: thin_liquidity"}
+{"timestamp":"2026-03-02T00:19:47.882Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
+{"timestamp":"2026-03-02T00:19:47.882Z","type":"trade","message":"[auto-trade] No trades: already held (local), spread too wide: 8.0¢ on 42.0¢ entry (19% > 5% max), spread too wide: 6.3¢ on 0.7¢ entry (900% > 5% max), spread too wide: 6.0¢ on 8.0¢ entry (75% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", 30min cooldown. Daily: $20.00"}
+{"timestamp":"2026-03-02T00:19:39.172Z","type":"scan","message":"Cycle #3 — 657 markets | 14 active events | $89.7K recent flow"}
+{"timestamp":"2026-03-02T00:19:39.172Z","type":"think","message":"Live flow: \"Will J.B. Pritzker win the 2028 Democratic presidentia…\" — $15.7K in 7 trades, NET SELL, biggest $4.2K, 5m ago"}
+{"timestamp":"2026-03-02T00:19:39.172Z","type":"think","message":"↓ Price shift: \"No one announced as next James Bond?\" moved 6.5% since last scan (55.5% → 49.0%)"}
+{"timestamp":"2026-03-02T00:19:39.172Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 24h to resolution, 1.1% YES, ↑0.1% this hour, vol $77.0K"}
+{"timestamp":"2026-03-02T00:19:39.172Z","type":"think","message":"Wide spread: \"New Playboi Carti Album before GTA VI?\" — bid 45.0% / ask 51.0% (6.0% spread), liq $1.7M"}
+{"timestamp":"2026-03-02T00:19:39.172Z","type":"decision","message":"Flow signal: \"Will the Iranian regime fall before 2027?\" — buyers dominating ($7.8K net), 1 traders, 6m ago"}
