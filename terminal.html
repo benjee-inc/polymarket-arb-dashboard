@@ -699,7 +699,7 @@ function updateHeader() {
   hReal.textContent = (realized >= 0 ? '+' : '') + realized.toFixed(3);
   hReal.className = 'pnl-value ' + pnlClass(realized);
 
-  document.getElementById('hPos').textContent = positions.length;
+  document.getElementById('hPos').textContent = positions.filter(isActivePosition).length;
 
   const statusEl = document.getElementById('statusText');
   const dotEl = document.getElementById('dot');
