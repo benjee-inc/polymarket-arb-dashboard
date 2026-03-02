@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polymarket Alpha — Data Layer</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#e0e0e0;font-family:'SF Mono','Consolas','Monaco',monospace;height:100vh;overflow:hidden}
+.header{background:#111;padding:8px 20px;border-bottom:1px solid #333;display:flex;justify-content:space-between;align-items:center;font-size:0.85rem}
+.header-left{display:flex;align-items:center;gap:16px}
+.header a{color:#888;text-decoration:none}
+.header a:hover{color:#00ff00}
+.dot{display:inline-block;width:8px;height:8px;background:#00ff00;border-radius:50%;margin-left:6px;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+.filter-bar{background:#0d0d0d;padding:6px 20px;border-bottom:1px solid #222;display:flex;gap:8px;align-items:center;font-size:0.75rem;flex-wrap:wrap}
+.filter-btn{padding:4px 12px;border:1px solid #333;background:#111;color:#888;cursor:pointer;border-radius:3px;font-family:inherit;font-size:0.72rem}
+.filter-btn:hover{border-color:#555;color:#ccc}
+.filter-btn.active{border-color:#00ff00;color:#00ff00;background:#0a1a0a}
+.filter-btn.active-grok{border-color:#ff6600;color:#ff6600;background:#1a0d00}
+.filter-btn.active-alt{border-color:#00ddff;color:#00ddff;background:#001a1f}
+.filter-btn.active-data{border-color:#aa88ff;color:#aa88ff;background:#0d0a1a}
+.filter-btn.active-veto{border-color:#ff0044;color:#ff0044;background:#1a000a}
+.content{padding:15px 20px;height:calc(100vh - 80px);overflow-y:auto;background:#0a0a0a}
+.market-block{margin-bottom:16px;border:1px solid #1a1a1a;border-radius:4px;background:#0d0d0d;overflow:hidden}
+.market-header{padding:8px 12px;background:#111;border-bottom:1px solid #1a1a1a;font-size:0.8rem;color:#ccc;display:flex;justify-content:space-between;align-items:center}
+.market-header .q{font-weight:bold;flex:1}
+.market-header .time{color:#555;font-size:0.7rem;margin-left:12px;white-space:nowrap}
+.market-body{padding:8px 12px}
+.entry{margin-bottom:4px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word;font-size:0.78rem;padding:3px 0;border-bottom:1px solid #111}
+.entry:last-child{border-bottom:none}
+.tag{font-size:0.6rem;padding:1px 6px;border-radius:2px;margin-right:6px;font-weight:bold;vertical-align:middle;display:inline-block}
+.tag-data{background:#1a0d2a;color:#aa88ff;border:1px solid #aa88ff44}
+.tag-alt{background:#001a1f;color:#00ddff;border:1px solid #00ddff44}
+.tag-grok{background:#1a0d00;color:#ff6600;border:1px solid #ff660044}
+.tag-veto{background:#1a000a;color:#ff0044;border:1px solid #ff004444}
+.tag-buy{background:#0a1a0a;color:#00ff00;border:1px solid #00ff0044}
+.tag-sizing{background:#1a1a0a;color:#dddd00;border:1px solid #dddd0044}
+.grok-prob{font-size:1.1rem;font-weight:bold;margin-right:8px}
+.grok-conf{font-size:0.7rem;padding:2px 6px;border-radius:2px;margin-right:6px}
+.conf-high{background:#0a2a0a;color:#00ff00;border:1px solid #00ff0044}
+.conf-medium{background:#1a1a0a;color:#ffaa00;border:1px solid #ffaa0044}
+.conf-low{background:#1a0a0a;color:#ff4444;border:1px solid #ff444444}
+.reasoning{color:#aaa;font-size:0.76rem;line-height:1.6;margin-top:4px}
+.signals{color:#888;font-size:0.72rem;margin-top:3px}
+.signal-chip{display:inline-block;background:#111;border:1px solid #333;padding:1px 6px;border-radius:2px;margin:2px 3px 2px 0;font-size:0.68rem;color:#ccc}
+.vs-market{color:#666;font-size:0.72rem;margin-top:3px;font-style:italic}
+.empty{color:#555;padding:40px;text-align:center}
+.stats{display:flex;gap:20px;font-size:0.75rem;color:#888;padding:4px 0}
+.stats span{color:#ccc}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:#0a0a0a}::-webkit-scrollbar-thumb{background:#333}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-left">
+    <a href="terminal.html">← TERMINAL</a>
+    <span style="color:#aa88ff;font-weight:bold">DATA LAYER</span>
+    <span style="color:#555;font-size:0.7rem" id="statsText">loading...</span>
+  </div>
+  <div>
+    <span id="statusText" style="color:#888;font-size:0.75rem">connecting</span>
+    <span class="dot" id="dot"></span>
+  </div>
+</div>
+<div class="filter-bar">
+  <span style="color:#555">Show:</span>
+  <button class="filter-btn active-data" data-filter="data" title="Which sources responded">SOURCES</button>
+  <button class="filter-btn active-alt" data-filter="alt" title="Alt data scoring detail">ALT DATA</button>
+  <button class="filter-btn active-grok" data-filter="grok" title="Grok analysis">GROK</button>
+  <button class="filter-btn active-veto" data-filter="veto" title="Veto decisions">VETOES</button>
+  <button class="filter-btn active" data-filter="buy" title="Trade executions">BUYS</button>
+  <button class="filter-btn active" data-filter="sizing" title="Position sizing">SIZING</button>
+</div>
+<div class="content" id="content"></div>
+
+<script>
+const GITHUB_RAW = 'https://raw.githubusercontent.com/benjee-inc/polymarket-arb-dashboard/main';
+const content = document.getElementById('content');
+let logs = [];
+let filters = { data: true, alt: true, grok: true, veto: true, buy: true, sizing: true };
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+function ts(d) { return new Date(d).toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' }); }
+
+// Classify log entries
+function classify(msg) {
+  if (!msg) return null;
+  if (msg.startsWith('[data]')) return 'data';
+  if (msg.startsWith('[alt]')) return 'alt';
+  if (msg.startsWith('[grok]')) return 'grok';
+  if (msg.startsWith('[palpha] VETOED')) return 'veto';
+  if (msg.startsWith('[palpha] Timeout')) return 'veto';
+  if (msg.startsWith('Buying ')) return 'buy';
+  if (msg.startsWith('Bought ')) return 'buy';
+  if (msg.startsWith('[sizing]')) return 'sizing';
+  return null;
+}
+
+// Extract market question from entry
+function extractQuestion(msg) {
+  const m = msg.match(/"([^"]{10,})"/);
+  return m ? m[1] : null;
+}
+
+// Group entries by market
+function groupByMarket(entries) {
+  const groups = [];
+  let current = null;
+
+  for (const e of entries) {
+    const q = extractQuestion(e.message);
+    const cls = classify(e.message);
+    if (!cls || !filters[cls]) continue;
+
+    // Start new group on [data] or [grok] with probability or [palpha] VETOED or Buying/Bought
+    const isNewMarket = cls === 'data'
+      || (cls === 'grok' && /→ \d+%/.test(e.message))
+      || cls === 'buy';
+
+    if (isNewMarket && q) {
+      current = { question: q, timestamp: e.timestamp, entries: [{ ...e, cls }] };
+      groups.push(current);
+    } else if (current && q && current.question.slice(0, 30) === (q || '').slice(0, 30)) {
+      current.entries.push({ ...e, cls });
+    } else if (current && !q && (cls === 'grok')) {
+      // continuation lines (signals, vs market) belong to current group
+      current.entries.push({ ...e, cls });
+    } else {
+      // standalone entry
+      groups.push({ question: q || '(unknown)', timestamp: e.timestamp, entries: [{ ...e, cls }] });
+    }
+  }
+  return groups;
+}
+
+function renderGrokEntry(msg) {
+  // Main grok line: [grok] "question" → XX% (conf) — reasoning
+  const probMatch = msg.match(/→ (\d+)% \((\w+)\)/);
+  if (probMatch) {
+    const prob = probMatch[1];
+    const conf = probMatch[2];
+    const confCls = conf === 'high' ? 'conf-high' : conf === 'medium' ? 'conf-medium' : 'conf-low';
+    const reasoningStart = msg.indexOf('— ');
+    const reasoning = reasoningStart > 0 ? msg.slice(reasoningStart + 2).replace(/<grok:render[^>]*>.*?<\/grok:render>/g, '') : '';
+
+    return '<div class="entry">'
+      + '<span class="tag tag-grok">GROK</span>'
+      + '<span class="grok-prob">' + prob + '%</span>'
+      + '<span class="grok-conf ' + confCls + '">' + conf + '</span>'
+      + (reasoning ? '<div class="reasoning">' + esc(reasoning) + '</div>' : '')
+      + '</div>';
+  }
+
+  // Signals line
+  if (msg.startsWith('[grok] signals:')) {
+    const signals = msg.replace('[grok] signals: ', '').split(' | ');
+    return '<div class="entry signals">'
+      + signals.map(s => '<span class="signal-chip">' + esc(s.trim()) + '</span>').join('')
+      + '</div>';
+  }
+
+  // vs market line
+  if (msg.startsWith('[grok] vs market:')) {
+    return '<div class="entry vs-market">' + esc(msg.replace('[grok] vs market: ', '')) + '</div>';
+  }
+
+  return '<div class="entry"><span class="tag tag-grok">GROK</span>' + esc(msg.replace('[grok] ', '')) + '</div>';
+}
+
+function renderEntry(e) {
+  const msg = e.message || '';
+  if (e.cls === 'grok') return renderGrokEntry(msg);
+
+  let tag = '', tagCls = '';
+  if (e.cls === 'data') { tag = 'SOURCES'; tagCls = 'tag-data'; }
+  else if (e.cls === 'alt') { tag = 'ALT DATA'; tagCls = 'tag-alt'; }
+  else if (e.cls === 'veto') { tag = 'VETOED'; tagCls = 'tag-veto'; }
+  else if (e.cls === 'buy') { tag = 'BUY'; tagCls = 'tag-buy'; }
+  else if (e.cls === 'sizing') { tag = 'SIZING'; tagCls = 'tag-sizing'; }
+
+  // Clean up prefix tags from message
+  let cleanMsg = msg
+    .replace(/^\[data\]\s*/, '')
+    .replace(/^\[alt\]\s*/, '')
+    .replace(/^\[palpha\]\s*(VETOED:|Timeout on)\s*/, '')
+    .replace(/^\[sizing\]\s*/, '')
+    .replace(/<grok:render[^>]*>.*?<\/grok:render>/g, '');
+
+  return '<div class="entry"><span class="tag ' + tagCls + '">' + tag + '</span>' + esc(cleanMsg) + '</div>';
+}
+
+function render() {
+  const dataEntries = logs.filter(l => classify(l.message));
+  if (!dataEntries.length) {
+    content.innerHTML = '<div class="empty">Waiting for data layer entries...<br><br>These appear as [data], [alt], [grok] tags in the scanner output.</div>';
+    return;
+  }
+
+  const groups = groupByMarket(dataEntries.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp)));
+
+  // Stats
+  const grokCount = dataEntries.filter(e => classify(e.message) === 'grok' && /→ \d+%/.test(e.message)).length;
+  const vetoCount = dataEntries.filter(e => classify(e.message) === 'veto').length;
+  const buyCount = dataEntries.filter(e => classify(e.message) === 'buy').length;
+  document.getElementById('statsText').textContent = grokCount + ' analyses | ' + vetoCount + ' vetoes | ' + buyCount + ' buys';
+
+  let html = '';
+  for (const g of groups) {
+    const visibleEntries = g.entries.filter(e => filters[e.cls]);
+    if (!visibleEntries.length) continue;
+
+    html += '<div class="market-block">'
+      + '<div class="market-header"><span class="q">' + esc(g.question) + '</span><span class="time">' + ts(g.timestamp) + '</span></div>'
+      + '<div class="market-body">';
+    for (const e of visibleEntries) {
+      html += renderEntry(e);
+    }
+    html += '</div></div>';
+  }
+
+  content.innerHTML = html || '<div class="empty">No entries match current filters</div>';
+}
+
+// Filter buttons
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const f = btn.dataset.filter;
+    filters[f] = !filters[f];
+    btn.classList.toggle('active', filters[f] && !['data','alt','grok','veto'].includes(f));
+    btn.classList.toggle('active-data', filters[f] && f === 'data');
+    btn.classList.toggle('active-alt', filters[f] && f === 'alt');
+    btn.classList.toggle('active-grok', filters[f] && f === 'grok');
+    btn.classList.toggle('active-veto', filters[f] && f === 'veto');
+    if (!filters[f]) {
+      btn.classList.remove('active', 'active-data', 'active-alt', 'active-grok', 'active-veto');
+      btn.classList.add('filter-btn');
+    }
+    render();
+  });
+});
+
+// Fetch and poll
+async function fetchLogs() {
+  try {
+    const res = await fetch(GITHUB_RAW + '/logs/terminal.jsonl?t=' + Date.now(), { signal: AbortSignal.timeout(10000) });
+    if (!res.ok) return;
+    const text = await res.text();
+    logs = text.trim().split('\n').filter(l => l).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+    document.getElementById('statusText').textContent = 'live';
+    document.getElementById('dot').style.background = '#00ff00';
+  } catch (err) {
+    document.getElementById('statusText').textContent = 'error';
+    document.getElementById('dot').style.background = '#ff0044';
+  }
+}
+
+(async function boot() {
+  await fetchLogs();
+  render();
+  setInterval(async () => { await fetchLogs(); render(); }, 10000);
+})();
+</script>
+</body>
+</html>
