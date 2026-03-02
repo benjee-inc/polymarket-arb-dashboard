@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-02T09:44:41.466Z","type":"think","message":"↓ Price shift: \"Netanyahu out by end of 2026?\" moved 3.0% since last scan (38.5% → 35.5%)"}
-{"timestamp":"2026-03-02T09:44:41.466Z","type":"think","message":"Wide spread: \"Will Tom Steyer win the California Governor Election i…\" — bid 6.1% / ask 10.8% (4.7% spread), liq $425.7K"}
-{"timestamp":"2026-03-02T09:44:41.466Z","type":"think","message":"Deep value: \"Will Trump nominate Michelle Bowman as the next Fed ch…\" — Yes @ 0.7¢, liq $50.0M, 24h vol $3.2M"}
-{"timestamp":"2026-03-02T09:44:41.466Z","type":"decision","message":"Flow signal: \"Will Elon Musk post 300-319 tweets from February 24 to…\" — buyers dominating ($2.7K net), 1 traders, 36s ago"}
-{"timestamp":"2026-03-02T09:49:50.488Z","type":"palpha","message":"Evaluated 13 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-02T09:49:50.488Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T09:49:50.488Z","type":"palpha","message":"[palpha] VETOED: \"Will OpenAI not IPO by December 31, 2026?\" — NOISE — mkt=57.5% implied=n/a src=[arxiv]"}
-{"timestamp":"2026-03-02T09:49:50.488Z","type":"palpha","message":"[palpha] VETOED: \"Will Trump and Putin meet next in Turkey?\" — NOISE — mkt=6.8% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T09:49:50.488Z","type":"palpha","message":"[palpha] VETOED: \"Will Karen Bass win the 2026 Los Angeles mayoral election?\" — NOISE — mkt=46.0% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T09:49:50.488Z","type":"palpha","message":"[palpha] VETOED: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — NOISE — mkt=80.5% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T09:49:50.488Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
-{"timestamp":"2026-03-02T09:49:50.488Z","type":"trade","message":"[auto-trade] No trades: already held (local), spread too wide: 5.5¢ on 38.6¢ entry (14% > 5% max), spread too wide: 5.0¢ on 9.0¢ entry (56% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", already held, spread too wide: 1.0¢ on 16.5¢ entry (6% > 5% max). Daily: $20.00"}
-{"timestamp":"2026-03-02T09:49:41.539Z","type":"scan","message":"Cycle #117 — 653 markets | 8 active events | $62.0K recent flow"}
-{"timestamp":"2026-03-02T09:49:41.540Z","type":"think","message":"Live flow: \"Trump announces end of military operations against Ira…\" — $2.4K in 1 trades, NET BUY (strong bias), biggest $2.4K, 7m ago"}
 {"timestamp":"2026-03-02T09:49:41.540Z","type":"think","message":"↑ Price shift: \"Will Trump and Putin meet next in Belarus?\" moved 1.8% since last scan (1.0% → 2.8%)"}
 {"timestamp":"2026-03-02T09:49:41.540Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.8¢, liq $49.8M, 24h vol $3.2M"}
 {"timestamp":"2026-03-02T09:49:41.540Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.1% YES, 24h vol $3.1M"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-02T10:54:41.764Z","type":"think","message":"Wide spread: \"Will Tom Steyer win the California Governor Election i…\" — bid 6.1% / ask 10.8% (4.7% spread), liq $424.9K"}
 {"timestamp":"2026-03-02T10:54:41.764Z","type":"think","message":"Deep value: \"Will Trump nominate Michelle Bowman as the next Fed ch…\" — Yes @ 0.5¢, liq $50.0M, 24h vol $3.2M"}
 {"timestamp":"2026-03-02T10:54:41.764Z","type":"decision","message":"Flow signal: \"Will the Iranian regime fall by June 30?\" — buyers dominating ($4.9K net), 1 traders, 16s ago"}
+{"timestamp":"2026-03-02T10:59:50.774Z","type":"palpha","message":"Evaluated 14 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-02T10:59:50.774Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T10:59:50.774Z","type":"palpha","message":"[palpha] VETOED: \"Will Trump and Putin meet next in Turkey?\" — NOISE — mkt=6.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T10:59:50.774Z","type":"palpha","message":"[palpha] VETOED: \"Paul Mescal announced as next James Bond?\" — depth not executable: thin_liquidity"}
+{"timestamp":"2026-03-02T10:59:50.774Z","type":"palpha","message":"[palpha] VETOED: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — NOISE — mkt=80.5% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T10:59:50.774Z","type":"palpha","message":"[palpha] VETOED: \"Will Karen Bass win the 2026 Los Angeles mayoral election?\" — NOISE — mkt=46.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T10:59:50.774Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
+{"timestamp":"2026-03-02T10:59:50.774Z","type":"trade","message":"[auto-trade] No trades: already held (local), spread too wide: 5.9¢ on 37.5¢ entry (16% > 5% max), spread too wide: 5.0¢ on 9.0¢ entry (56% > 5% max), spread too wide: 5.0¢ on 57.0¢ entry (9% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", already held, spread too wide: 1.0¢ on 16.5¢ entry (6% > 5% max). Daily: $20.00"}
+{"timestamp":"2026-03-02T10:59:41.816Z","type":"scan","message":"Cycle #131 — 653 markets | 17 active events | $33.9K recent flow"}
+{"timestamp":"2026-03-02T10:59:41.816Z","type":"think","message":"Live flow: \"Will Iran strike gulf oil facilities by March 31?\" — $2.7K in 1 trades, NET SELL (strong bias), biggest $2.7K, 6m ago"}
+{"timestamp":"2026-03-02T10:59:41.816Z","type":"think","message":"↑ Price shift: \"Will PH win the most seats in the 2026 Colombian Chamb…\" moved 1.5% since last scan (87.5% → 89.0%)"}
+{"timestamp":"2026-03-02T10:59:41.816Z","type":"think","message":"Deep value: \"Will Trump nominate no one before 2027?\" — Yes @ 0.8¢, liq $50.0M, 24h vol $3.2M"}
+{"timestamp":"2026-03-02T10:59:41.816Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.1% YES, 24h vol $3.1M"}
+{"timestamp":"2026-03-02T10:59:41.816Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h, now 52.5%, vol $5.3K"}
