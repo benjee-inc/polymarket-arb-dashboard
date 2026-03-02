@@ -21,7 +21,7 @@ body{background:#0a0a0a;color:#00ff00;font-family:'SF Mono','Consolas','Monaco',
 .content{padding:15px 20px;height:calc(100vh - 90px);overflow-y:auto;background:#0a0a0a}
 .log-entry{margin-bottom:3px;line-height:1.5;white-space:pre-wrap;word-wrap:break-word;font-size:0.8rem;padding:2px 0;border-bottom:1px solid #111}
 .log-timestamp{color:#555;margin-right:10px}
-.log-type-scan{color:#00ff00}.log-type-think{color:#00aaff}.log-type-decision{color:#ffaa00;font-weight:bold}.log-type-trade{color:#ff00ff;font-weight:bold}.log-type-palpha{color:#00ddff;font-weight:bold}.log-type-error{color:#ff0044}
+.log-type-scan{color:#00ff00}.log-type-think{color:#00aaff}.log-type-decision{color:#ffaa00;font-weight:bold}.log-type-trade{color:#ff00ff;font-weight:bold}.log-type-palpha{color:#00ddff;font-weight:bold}.log-type-error{color:#ff0044}.log-type-pipeline{display:none}
 .pos-card{background:#111;border:1px solid #222;margin-bottom:6px;padding:10px 14px;border-radius:3px;display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center}
 .pos-card.profit{border-left:3px solid #00ff00}.pos-card.loss{border-left:3px solid #ff0044}.pos-card.flat{border-left:3px solid #555}
 .pos-q{font-size:0.8rem;color:#ccc;font-weight:bold}
@@ -74,6 +74,7 @@ body{background:#0a0a0a;color:#00ff00;font-family:'SF Mono','Consolas','Monaco',
   <div class="tab" data-tab="closed">CLOSED</div>
   <div class="tab" data-tab="wallet">WALLET</div>
   <div class="tab" data-tab="perf">PERF</div>
+  <div class="tab" data-tab="data">DATA</div>
 </div>
 <div class="content" id="content"></div>
 
@@ -687,6 +688,184 @@ function renderPerf() {
   ctx.fillText('NET WORTH (session)', PAD.left, PAD.top - 10);
 }
 
+// ── Render: Data Pipeline ────────────────────────────────
+function renderData() {
+  const pipelineEntries = cachedLogs.filter(e => e.type === 'pipeline');
+  if (!pipelineEntries.length) {
+    content.innerHTML = '<div class="empty">No pipeline data yet. Waiting for scanner cycles...</div>';
+    return;
+  }
+
+  // Latest pipeline entry
+  const latest = pipelineEntries[pipelineEntries.length - 1];
+  const ing = latest.ingestion || {};
+  const sig = latest.signals || {};
+  const tf = latest.tradeFlows || {};
+  const ms = latest.midShifts || {};
+  const enr = latest.enrichment || {};
+  const exec = latest.execution || {};
+  const tops = latest.topSignals || [];
+
+  let html = '';
+
+  // ── A. INGESTION ──────────────────────────────────────
+  html += '<div style="color:#00ff00;font-size:0.8rem;margin-bottom:8px;font-weight:bold">INGESTION <span style="color:#555;font-weight:normal">cycle #' + (latest.cycle || '?') + ' &mdash; ' + ts(latest.timestamp) + '</span></div>';
+  html += '<div class="wallet-grid">'
+    + wbox('Markets Scanned', ing.markets || 0)
+    + wbox('Trades Ingested', ing.trades || 0)
+    + wbox('Trade Volume', '$' + ((ing.tradeVolume || 0) / 1000).toFixed(1) + 'K')
+    + wbox('Midpoints Fetched', ing.midpointsFetched || 0)
+    + '</div>';
+
+  // ── B. SIGNALS ────────────────────────────────────────
+  html += '<div style="color:#00aaff;font-size:0.8rem;margin:15px 0 8px;font-weight:bold">SIGNALS DETECTED</div>';
+  const sigTypes = [
+    { key: 'movers1h', label: '1h Movers', color: '#00ff00' },
+    { key: 'movers1d', label: '1d Movers', color: '#00cc00' },
+    { key: 'volumeSpikes', label: 'Vol Spikes', color: '#ffaa00' },
+    { key: 'catalysts', label: 'Catalysts', color: '#ff6600' },
+    { key: 'deepValue', label: 'Deep Value', color: '#00ddff' },
+    { key: 'tightRaces', label: 'Tight Races', color: '#ff00ff' },
+    { key: 'wideSpread', label: 'Wide Spread', color: '#ff0044' },
+  ];
+  const maxSig = Math.max(1, ...sigTypes.map(s => sig[s.key] || 0));
+  html += '<div style="display:flex;flex-direction:column;gap:4px;margin-bottom:15px">';
+  for (const st of sigTypes) {
+    const count = sig[st.key] || 0;
+    const barW = Math.max(2, (count / maxSig) * 100);
+    html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.75rem">'
+      + '<span style="color:#888;width:85px;text-align:right;flex-shrink:0">' + st.label + '</span>'
+      + '<div style="flex:1;background:#1a1a1a;height:16px;border-radius:2px;overflow:hidden">'
+      + '<div style="width:' + barW + '%;height:100%;background:' + st.color + ';opacity:0.7;min-width:2px"></div>'
+      + '</div>'
+      + '<span style="color:#ccc;width:30px;font-weight:bold">' + count + '</span>'
+      + '</div>';
+  }
+  html += '</div>';
+
+  // Trade flows + midpoint shifts
+  html += '<div style="display:flex;gap:20px;margin-bottom:15px;font-size:0.75rem">'
+    + '<div style="color:#888">Trade Flows: <span style="color:#ccc">' + (tf.count || 0) + '</span> events, <span style="color:#ccc">$' + ((tf.totalVolume || 0) / 1000).toFixed(1) + 'K</span> vol, avg imbalance <span style="color:#ffaa00">' + ((tf.avgImbalance || 0) * 100).toFixed(0) + '%</span></div>'
+    + '<div style="color:#888">Mid Shifts: <span style="color:#ccc">' + (ms.count || 0) + '</span> detected, avg <span style="color:#00ddff">' + ((ms.avgMagnitude || 0) * 100).toFixed(2) + '%</span></div>'
+    + '</div>';
+
+  // ── C. ENRICHMENT FUNNEL ──────────────────────────────
+  html += '<div style="color:#ffaa00;font-size:0.8rem;margin:15px 0 8px;font-weight:bold">ENRICHMENT FUNNEL</div>';
+
+  const rawOpp = enr.rawOpportunities || 0;
+  const enriched = enr.enriched || 0;
+  const vetoed = enr.vetoed || 0;
+  const executed = exec.tradesExecuted || 0;
+
+  // Funnel bars
+  const funnelStages = [
+    { label: 'Raw Opportunities', count: rawOpp, color: '#555' },
+    { label: 'Enriched (passed palpha)', count: enriched, color: '#00ddff' },
+    { label: 'Executed', count: executed, color: '#00ff00' },
+  ];
+  const maxFunnel = Math.max(1, rawOpp);
+  html += '<div style="display:flex;flex-direction:column;gap:6px;margin-bottom:12px">';
+  for (const fs of funnelStages) {
+    const barW = Math.max(3, (fs.count / maxFunnel) * 100);
+    const pct = rawOpp > 0 ? ((fs.count / rawOpp) * 100).toFixed(0) + '%' : '--';
+    html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.75rem">'
+      + '<span style="color:#888;width:180px;text-align:right;flex-shrink:0">' + fs.label + '</span>'
+      + '<div style="flex:1;background:#1a1a1a;height:20px;border-radius:2px;overflow:hidden;position:relative">'
+      + '<div style="width:' + barW + '%;height:100%;background:' + fs.color + ';opacity:0.7"></div>'
+      + '</div>'
+      + '<span style="color:#ccc;width:60px;font-weight:bold">' + fs.count + ' (' + pct + ')</span>'
+      + '</div>';
+  }
+  html += '</div>';
+
+  // Veto reasons
+  const vetoReasons = enr.vetoReasons || {};
+  const vetoKeys = Object.keys(vetoReasons);
+  if (vetoKeys.length > 0) {
+    html += '<div style="margin-bottom:10px;font-size:0.7rem"><span style="color:#ff0044">Vetoed (' + vetoed + '):</span> ';
+    html += vetoKeys.map(k => '<span style="color:#888">' + esc(k) + '</span> <span style="color:#ccc">' + vetoReasons[k] + '</span>').join(' &middot; ');
+    html += '</div>';
+  }
+
+  // Recommendation distribution
+  const recs = enr.recommendations || {};
+  const recKeys = ['ACTIONABLE', 'NOTABLE', 'MONITOR', 'NOISE'];
+  const recColors = { ACTIONABLE: '#00ff00', NOTABLE: '#00ddff', MONITOR: '#ffaa00', NOISE: '#555' };
+  const hasRecs = recKeys.some(k => (recs[k] || 0) > 0);
+  if (hasRecs) {
+    html += '<div style="margin-bottom:10px;font-size:0.7rem"><span style="color:#00ddff">Recommendations:</span> ';
+    html += recKeys.map(k => '<span style="color:' + recColors[k] + '">' + k + '</span> <span style="color:#ccc">' + (recs[k] || 0) + '</span>').join(' &middot; ');
+    html += '</div>';
+  }
+
+  // Execution skips
+  const skipReasons = exec.skipReasons || {};
+  const skipKeys = Object.keys(skipReasons);
+  if (skipKeys.length > 0) {
+    html += '<div style="margin-bottom:10px;font-size:0.7rem"><span style="color:#ffaa00">Skipped (' + (exec.skipped || 0) + '):</span> ';
+    html += skipKeys.map(k => '<span style="color:#888">' + esc(k) + '</span> <span style="color:#ccc">' + skipReasons[k] + '</span>').join(' &middot; ');
+    html += '</div>';
+  }
+
+  // Execution summary line
+  html += '<div style="font-size:0.75rem;color:#888;margin-bottom:15px">'
+    + 'Daily spend: <span style="color:#ccc">$' + (exec.dailySpend || 0).toFixed(2) + '</span>'
+    + ' &middot; Open positions: <span style="color:#ccc">' + (exec.openPositions || 0) + '</span>'
+    + '</div>';
+
+  // ── D. TOP SIGNALS ────────────────────────────────────
+  if (tops.length > 0) {
+    html += '<div style="color:#ff00ff;font-size:0.8rem;margin:15px 0 8px;font-weight:bold">TOP SIGNALS</div>';
+    for (const s of tops) {
+      const typeColor = {
+        movers1h: '#00ff00', movers1d: '#00cc00', volumeSpikes: '#ffaa00',
+        catalysts: '#ff6600', deepValue: '#00ddff', tightRaces: '#ff00ff', wideSpread: '#ff0044'
+      }[s.type] || '#888';
+      html += '<div class="closed-card">'
+        + '<span style="color:' + typeColor + ';font-size:0.65rem;padding:1px 5px;background:#1a1a1a;border-radius:2px">' + esc(s.type) + '</span> '
+        + esc(s.q)
+        + ' <span style="color:#888">score=' + (s.score || 0).toFixed(1) + '</span>'
+        + (s.change ? ' <span style="color:' + (s.change.startsWith('+') ? '#00ff00' : '#ff0044') + '">' + s.change + '</span>' : '')
+        + '</div>';
+    }
+  }
+
+  // ── E. HISTORY ────────────────────────────────────────
+  if (pipelineEntries.length > 1) {
+    html += '<div style="color:#888;font-size:0.8rem;margin:20px 0 8px;font-weight:bold">CYCLE HISTORY <span style="font-weight:normal;color:#555">(last ' + Math.min(pipelineEntries.length, 20) + ')</span></div>';
+    html += '<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:0.7rem">';
+    html += '<tr style="color:#555;border-bottom:1px solid #333">'
+      + '<th style="text-align:left;padding:4px 8px">Cycle</th>'
+      + '<th style="text-align:right;padding:4px 8px">Markets</th>'
+      + '<th style="text-align:right;padding:4px 8px">Raw</th>'
+      + '<th style="text-align:right;padding:4px 8px">Vetoed</th>'
+      + '<th style="text-align:right;padding:4px 8px">Traded</th>'
+      + '<th style="text-align:right;padding:4px 8px">Daily$</th>'
+      + '<th style="text-align:right;padding:4px 8px">Time</th>'
+      + '</tr>';
+    const histSlice = pipelineEntries.slice(-20).reverse();
+    for (const pe of histSlice) {
+      const peIng = pe.ingestion || {};
+      const peEnr = pe.enrichment || {};
+      const peExec = pe.execution || {};
+      const traded = peExec.tradesExecuted || 0;
+      const tradeColor = traded > 0 ? '#00ff00' : '#555';
+      html += '<tr style="border-bottom:1px solid #1a1a1a;color:#ccc">'
+        + '<td style="padding:3px 8px;color:#00aaff">#' + (pe.cycle || '?') + '</td>'
+        + '<td style="padding:3px 8px;text-align:right">' + (peIng.markets || 0) + '</td>'
+        + '<td style="padding:3px 8px;text-align:right">' + (peEnr.rawOpportunities || 0) + '</td>'
+        + '<td style="padding:3px 8px;text-align:right;color:#ff0044">' + (peEnr.vetoed || 0) + '</td>'
+        + '<td style="padding:3px 8px;text-align:right;color:' + tradeColor + '">' + traded + '</td>'
+        + '<td style="padding:3px 8px;text-align:right">$' + (peExec.dailySpend || 0).toFixed(0) + '</td>'
+        + '<td style="padding:3px 8px;text-align:right;color:#555">' + ts(pe.timestamp) + '</td>'
+        + '</tr>';
+    }
+    html += '</table></div>';
+  }
+
+  content.innerHTML = html;
+}
+
 // ── Render dispatch ──────────────────────────────────────
 function render() {
   if (currentTab === 'logs') renderLogs();
@@ -694,6 +873,7 @@ function render() {
   else if (currentTab === 'closed') renderClosed();
   else if (currentTab === 'wallet') renderWallet();
   else if (currentTab === 'perf') renderPerf();
+  else if (currentTab === 'data') renderData();
 }
 
 // ── Header update ────────────────────────────────────────
