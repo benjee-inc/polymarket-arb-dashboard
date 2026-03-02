@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-02T03:39:39.910Z","type":"think","message":"↓ Price shift: \"Will Teyana Taylor win Best Supporting Actress at the …\" moved 5.5% since last scan (32.0% → 26.5%)"}
-{"timestamp":"2026-03-02T03:39:39.910Z","type":"think","message":"↓ Hourly mover: \"Henry Cavill announced as next James Bond?\" ↓1.8% in 1h (now 2.6%), 24h vol $8.8K"}
-{"timestamp":"2026-03-02T03:39:39.910Z","type":"think","message":"Volume surge: \"Will Carlos Felipe Córdoba win the 2026 Colombian pres…\" — $109.0K in 24h (842% of lifetime), price 0.7%"}
-{"timestamp":"2026-03-02T03:39:39.910Z","type":"decision","message":"Flow signal: \"Will the highest temperature in Seoul be 4°C or below …\" — buyers dominating ($2.1K net), 1 traders, 6m ago"}
-{"timestamp":"2026-03-02T03:44:48.976Z","type":"palpha","message":"Evaluated 13 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-02T03:44:48.976Z","type":"palpha","message":"[palpha] VETOED: \"Will Bugonia win Best Picture at the 98th Academy Awards?\" — NOISE — mkt=0.5% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T03:44:48.976Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T03:44:48.976Z","type":"palpha","message":"[palpha] VETOED: \"Paul Mescal announced as next James Bond?\" — depth not executable: thin_liquidity"}
-{"timestamp":"2026-03-02T03:44:48.976Z","type":"palpha","message":"[palpha] VETOED: \"Harris Dickinson announced as next James Bond?\" — depth not executable: thin_liquidity"}
-{"timestamp":"2026-03-02T03:44:48.976Z","type":"palpha","message":"[palpha] VETOED: \"Will Karen Bass win the 2026 Los Angeles mayoral election?\" — NOISE — mkt=46.0% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T03:44:48.976Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
-{"timestamp":"2026-03-02T03:44:48.976Z","type":"trade","message":"[auto-trade] No trades: already held (local), spread too wide: 5.0¢ on 9.0¢ entry (56% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", already held, spread too wide: 1.0¢ on 16.5¢ entry (6% > 5% max). Daily: $20.00"}
-{"timestamp":"2026-03-02T03:44:39.972Z","type":"scan","message":"Cycle #44 — 657 markets | 14 active events | $29.3K recent flow"}
-{"timestamp":"2026-03-02T03:44:39.972Z","type":"think","message":"Live flow: \"Will Bugonia win Best Picture at the 98th Academy Awar…\" — $6.5K in 9 trades, NET BUY (strong bias), biggest $746, 1m ago"}
 {"timestamp":"2026-03-02T03:44:39.972Z","type":"think","message":"↑ Price shift: \"Will Wunmi Mosaku win Best Supporting Actress at the 9…\" moved 0.7% since last scan (28.5% → 29.1%)"}
 {"timestamp":"2026-03-02T03:44:39.972Z","type":"think","message":"Volume surge: \"Will James Talarico win the 2028 Democratic presidenti…\" — $5.2M in 24h (366% of lifetime), ↑0.1% this hour"}
 {"timestamp":"2026-03-02T03:44:39.972Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 20h to resolution, 80.5% YES, ↑0.5% this hour, vol $97.0K"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-02T04:49:40.424Z","type":"think","message":"↓ Hourly mover: \"Will Russia capture Rodynske by March 31?\" ↓4.0% in 1h (now 47.5%), 24h vol $4.3K"}
 {"timestamp":"2026-03-02T04:49:40.424Z","type":"think","message":"Volume surge: \"Will Carlos Felipe Córdoba win the 2026 Colombian pres…\" — $109.0K in 24h (842% of lifetime), price 0.7%"}
 {"timestamp":"2026-03-02T04:49:40.424Z","type":"decision","message":"Flow signal: \"US/Israel strike Yemen by March 1?\" — buyers dominating ($3.4K net), 1 traders, 7m ago"}
+{"timestamp":"2026-03-02T04:54:48.949Z","type":"palpha","message":"Evaluated 15 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-02T04:54:48.949Z","type":"palpha","message":"[palpha] VETOED: \"Will GPT-6 be released before GTA VI?\" — NOISE — mkt=66.5% implied=n/a src=[arxiv]"}
+{"timestamp":"2026-03-02T04:54:48.949Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T04:54:48.949Z","type":"palpha","message":"[palpha] VETOED: \"Paul Mescal announced as next James Bond?\" — depth not executable: thin_liquidity"}
+{"timestamp":"2026-03-02T04:54:48.949Z","type":"palpha","message":"[palpha] VETOED: \"Will Karen Bass win the 2026 Los Angeles mayoral election?\" — NOISE — mkt=46.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T04:54:48.949Z","type":"palpha","message":"[palpha] VETOED: \"Harris Dickinson announced as next James Bond?\" — depth not executable: thin_liquidity"}
+{"timestamp":"2026-03-02T04:54:48.949Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
+{"timestamp":"2026-03-02T04:54:48.949Z","type":"trade","message":"[auto-trade] No trades: already held (local), spread too wide: 5.7¢ on 24.0¢ entry (24% > 5% max), spread too wide: 5.0¢ on 9.0¢ entry (56% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", already held, spread too wide: 1.0¢ on 16.5¢ entry (6% > 5% max). Daily: $20.00"}
+{"timestamp":"2026-03-02T04:54:40.292Z","type":"scan","message":"Cycle #58 — 656 markets | 9 active events | $28.4K recent flow"}
+{"timestamp":"2026-03-02T04:54:40.293Z","type":"think","message":"Live flow: \"Will Bitcoin reach $150,000 in March?\" — $18.3K in 2 trades, NET SELL (strong bias), biggest $9.2K, 1m ago"}
+{"timestamp":"2026-03-02T04:54:40.293Z","type":"think","message":"↓ Price shift: \"Will Stellan Skarsgård win Best Supporting Actor at th…\" moved 1.5% since last scan (14.0% → 12.5%)"}
+{"timestamp":"2026-03-02T04:54:40.293Z","type":"think","message":"Volume surge: \"Will James Talarico win the 2028 Democratic presidenti…\" — $5.2M in 24h (362% of lifetime), ↑0.1% this hour"}
+{"timestamp":"2026-03-02T04:54:40.294Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 19h to resolution, 81.5% YES, ↑0.5% this hour, vol $97.0K"}
+{"timestamp":"2026-03-02T04:54:40.294Z","type":"decision","message":"Flow signal: \"Will the highest temperature in Seoul be 10°C or highe…\" — buyers dominating ($3.0K net), 1 traders, 2m ago"}
