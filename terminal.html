@@ -273,9 +273,14 @@ function calcTotalDeployed() {
 }
 
 function calcTotalRealized() {
-  return activity
+  const sellPnl = activity
     .filter(a => a.type === 'SELL' || a.type === 'sell')
     .reduce((sum, a) => sum + parseFloat(a.cashPnl || a.pnl || 0), 0);
+  // Include auto-redeem PnL from scanner logs (winning shares redeemed on-chain)
+  const redeemPnl = cachedLogs
+    .filter(a => a.type === 'redeem' && a.cashPnl)
+    .reduce((sum, a) => sum + parseFloat(a.cashPnl), 0);
+  return sellPnl + redeemPnl;
 }
 
 // ── Render: Logs ─────────────────────────────────────────
@@ -353,32 +358,38 @@ function renderClosed() {
     return;
   }
 
-  // Show all activity sorted by time
-  const sorted = [...activity].sort((a, b) => new Date(b.timestamp || b.createdAt) - new Date(a.timestamp || a.createdAt));
+  // Merge Data API activity + auto-redeem entries from scanner logs
+  const redeemEntries = cachedLogs
+    .filter(a => a.type === 'redeem' && a.cashPnl)
+    .map(a => ({ ...a, type: 'REDEEM' }));
+  const sorted = [...activity, ...redeemEntries].sort((a, b) => new Date(b.timestamp || b.createdAt) - new Date(a.timestamp || a.createdAt));
 
-  const sells = sorted.filter(a => (a.type || '').toUpperCase() === 'SELL');
-  const totalRealized = sells.reduce((s, a) => s + parseFloat(a.cashPnl || a.pnl || 0), 0);
-  const wins = sells.filter(a => parseFloat(a.cashPnl || a.pnl || 0) > 0).length;
-  const winRate = sells.length ? (wins / sells.length * 100).toFixed(0) : '--';
+  const exits = sorted.filter(a => (a.type || '').toUpperCase() === 'SELL' || (a.type || '').toUpperCase() === 'REDEEM');
+  const totalRealized = exits.reduce((s, a) => s + parseFloat(a.cashPnl || a.pnl || 0), 0);
+  const wins = exits.filter(a => parseFloat(a.cashPnl || a.pnl || 0) > 0).length;
+  const winRate = exits.length ? (wins / exits.length * 100).toFixed(0) : '--';
 
   let html = '<div style="margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid #333;display:flex;gap:24px;font-size:0.8rem">'
     + '<div><span style="color:#666">Trades:</span> <span style="color:#ccc">' + sorted.length + '</span></div>'
-    + '<div><span style="color:#666">Sells:</span> <span style="color:#ccc">' + sells.length + '</span></div>'
+    + '<div><span style="color:#666">Exits:</span> <span style="color:#ccc">' + exits.length + '</span></div>'
     + '<div><span style="color:#666">Realized P&L:</span> <span class="' + pnlClass(totalRealized) + '">' + (totalRealized >= 0 ? '+' : '') + totalRealized.toFixed(3) + '</span></div>'
     + '<div><span style="color:#666">Win Rate:</span> <span style="color:#ccc">' + winRate + '%</span></div>'
     + '</div>';
 
   for (const a of sorted) {
-    const isSell = (a.type || '').toUpperCase() === 'SELL';
-    const isBuy = (a.type || '').toUpperCase() === 'BUY';
+    const typeUp = (a.type || '').toUpperCase();
+    const isSell = typeUp === 'SELL';
+    const isBuy = typeUp === 'BUY';
+    const isRedeem = typeUp === 'REDEEM';
+    const isExit = isSell || isRedeem;
     const pnl = parseFloat(a.cashPnl || a.pnl || 0);
-    const price = parseFloat(a.price || 0);
+    const price = parseFloat(a.price || a.avgPrice || 0);
     const size = parseFloat(a.size || a.usdcSize || 0);
     const time = a.timestamp || a.createdAt;
     const txHash = a.transactionHash || '';
 
-    const typeColor = isSell ? (pnl >= 0 ? '#00ff00' : '#ff0044') : '#ffaa00';
-    const typeLabel = isSell ? 'SELL' : isBuy ? 'BUY' : (a.type || '?');
+    const typeColor = isExit ? (pnl >= 0 ? '#00ff00' : '#ff0044') : '#ffaa00';
+    const typeLabel = isRedeem ? 'REDEEM' : isSell ? 'SELL' : isBuy ? 'BUY' : (a.type || '?');
 
     const txLink = txHash
       ? ' <a class="tx-link" href="https://polygonscan.com/tx/' + esc(txHash) + '" target="_blank" rel="noopener">' + txHash.slice(0, 10) + '...</a>'
@@ -390,7 +401,7 @@ function renderClosed() {
       + ' | <span style="color:#ccc">' + esc(a.outcome || a.side || '') + '</span>'
       + ' @ ' + (price * 100).toFixed(1) + '¢'
       + ' | ' + fmt(size)
-      + (isSell ? ' | P&L: <span class="' + pnlClass(pnl) + '">' + (pnl >= 0 ? '+' : '') + pnl.toFixed(3) + '</span>' : '')
+      + (isExit ? ' | P&L: <span class="' + pnlClass(pnl) + '">' + (pnl >= 0 ? '+' : '') + pnl.toFixed(3) + '</span>' : '')
       + (time ? ' | <span style="color:#555">' + ts(time) + '</span>' : '')
       + txLink
       + '</div>';
@@ -405,9 +416,13 @@ function renderWallet() {
   const realized = calcTotalRealized();
   const balance = usdcBalance != null ? usdcBalance : 0;
 
-  const sells = activity.filter(a => (a.type || '').toUpperCase() === 'SELL');
-  const wins = sells.filter(a => parseFloat(a.cashPnl || a.pnl || 0) > 0).length;
-  const winRate = sells.length ? (wins / sells.length * 100).toFixed(0) + '%' : '--';
+  const redeemWalletEntries = cachedLogs.filter(a => a.type === 'redeem' && a.cashPnl);
+  const exits = [
+    ...activity.filter(a => (a.type || '').toUpperCase() === 'SELL'),
+    ...redeemWalletEntries,
+  ];
+  const wins = exits.filter(a => parseFloat(a.cashPnl || a.pnl || 0) > 0).length;
+  const winRate = exits.length ? (wins / exits.length * 100).toFixed(0) + '%' : '--';
 
   let html = '<div style="margin-bottom:15px;padding-bottom:15px;border-bottom:2px solid #00ff00;">';
   html += '<div style="color:#00ff00;font-size:0.9rem;margin-bottom:8px;font-weight:bold">PORTFOLIO'
