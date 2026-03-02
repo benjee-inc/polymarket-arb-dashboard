@@ -1,27 +1,3 @@
-{"timestamp":"2026-03-02T14:01:16.932Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — not enough edge"}
-{"timestamp":"2026-03-02T14:01:16.932Z","type":"palpha","message":"[palpha] VETOED: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — not enough edge"}
-{"timestamp":"2026-03-02T14:01:16.932Z","type":"palpha","message":"[palpha] VETOED: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — not enough edge"}
-{"timestamp":"2026-03-02T14:01:16.932Z","type":"palpha","message":"[palpha] VETOED: \"Will John Cornyn win the 2026 Texas Republican Primary?\" — not enough edge"}
-{"timestamp":"2026-03-02T14:01:16.932Z","type":"palpha","message":"6 active positions (4 dust ignored)"}
-{"timestamp":"2026-03-02T14:01:16.932Z","type":"trade","message":"No trades this cycle — spread too wide (2), already held (local), same-event dedup, already held (2). Spent $170 today."}
-{"timestamp":"2026-03-02T14:01:08.299Z","type":"scan","message":"Cycle #12 — 652 markets | 13 active events | $133.7K recent flow"}
-{"timestamp":"2026-03-02T14:01:08.299Z","type":"think","message":"Live flow: \"Bitcoin Up or Down on March 2?\" — $5.9K in 1 trades, NET BUY (strong bias), biggest $5.9K, 6m ago"}
-{"timestamp":"2026-03-02T14:01:08.299Z","type":"think","message":"↓ Price shift: \"Will Stellan Skarsgård win Best Supporting Actor at th…\" moved 1.5% since last scan (12.0% → 10.5%)"}
-{"timestamp":"2026-03-02T14:01:08.299Z","type":"think","message":"Deep value: \"Will Oprah Winfrey win the 2028 Democratic presidentia…\" — Yes @ 0.9¢, liq $38.1M, 24h vol $5.1M"}
-{"timestamp":"2026-03-02T14:01:08.299Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.1% YES, 24h vol $3.1M"}
-{"timestamp":"2026-03-02T14:01:08.299Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be less than $56,000 on Marc…\" — buyers dominating ($3.4K net), 3 traders, 6m ago"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"Found 9 potential trades from scanner"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"\"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — no data sources responded (check X_API_KEY and timeouts)"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"\"Will Ken Paxton win the 2026 Texas Republican Primary?\" — no data sources responded (check X_API_KEY and timeouts)"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"\"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — no data sources responded (check X_API_KEY and timeouts)"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"\"Will John Cornyn win the 2026 Texas Republican Primary?\" — no data sources responded (check X_API_KEY and timeouts)"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"\"Will Spencer Pratt win the 2026 Los Angeles mayoral election\" — no data sources responded (check X_API_KEY and timeouts)"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"\"Will Ken Paxton win the 2026 Texas Republican Primary?\" — couldn't get a read on this one"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"\"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — couldn't get a read on this one"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"\"Will Spencer Pratt win the 2026 Los Angeles mayoral election\" — couldn't get a read on this one"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"\"Will John Cornyn win the 2026 Texas Republican Primary?\" — couldn't get a read on this one"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"\"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — couldn't get a read on this one"}
-{"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — not enough edge"}
 {"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"[palpha] VETOED: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — not enough edge"}
 {"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"[palpha] VETOED: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — not enough edge"}
 {"timestamp":"2026-03-02T14:06:16.983Z","type":"palpha","message":"[palpha] VETOED: \"Will John Cornyn win the 2026 Texas Republican Primary?\" — not enough edge"}
@@ -198,3 +174,27 @@
 {"timestamp":"2026-03-02T14:39:41.748Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 9h to resolution, 0.8% YES, ↑0.1% this hour, vol $79.5K"}
 {"timestamp":"2026-03-02T14:39:41.748Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 95.7% / ask 99.2% (3.5% spread), liq $1.7M"}
 {"timestamp":"2026-03-02T14:39:41.748Z","type":"decision","message":"Flow signal: \"Will Iran close the Strait of Hormuz by March 31?\" — sellers dominating ($2.8K net), 1 traders, 2m ago"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"Found 12 potential trades from scanner"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"\"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — no data sources responded (check XAI_API_KEY and timeouts)"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"\"Will Paul Thomas Anderson win Best Director at the 98th Acad\" — no data sources responded (check XAI_API_KEY and timeouts)"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"\"Will Ken Paxton win the 2026 Texas Republican Primary?\" — no data sources responded (check XAI_API_KEY and timeouts)"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"\"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — no data sources responded (check XAI_API_KEY and timeouts)"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"\"Will John Cornyn win the 2026 Texas Republican Primary?\" — no data sources responded (check XAI_API_KEY and timeouts)"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"\"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — couldn't get a read on this one"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"\"Will Ken Paxton win the 2026 Texas Republican Primary?\" — couldn't get a read on this one"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"\"Will John Cornyn win the 2026 Texas Republican Primary?\" — couldn't get a read on this one"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"\"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — couldn't get a read on this one"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"\"Will Paul Thomas Anderson win Best Director at the 98th Acad\" — couldn't get a read on this one"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — not enough edge"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"[palpha] VETOED: \"Will Paul Thomas Anderson win Best Director at the 98th Acad\" — not enough edge"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"[palpha] VETOED: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — not enough edge"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"[palpha] VETOED: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — not enough edge"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"[palpha] VETOED: \"Will John Cornyn win the 2026 Texas Republican Primary?\" — not enough edge"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"palpha","message":"5 active positions (4 dust ignored)"}
+{"timestamp":"2026-03-02T14:44:50.291Z","type":"trade","message":"No trades this cycle — spread too wide (3), already held (local), same-event dedup, already held (2). Spent $170 today."}
+{"timestamp":"2026-03-02T14:44:41.585Z","type":"scan","message":"Cycle #4 — 652 markets | 22 active events | $34.7K recent flow"}
+{"timestamp":"2026-03-02T14:44:41.585Z","type":"think","message":"Live flow: \"Will Ethereum dip to $1,200 in March?\" — $3.3K in 4 trades, NET BUY, biggest $1.0K, 5m ago"}
+{"timestamp":"2026-03-02T14:44:41.585Z","type":"think","message":"↓ Price shift: \"Netanyahu out by end of 2026?\" moved 2.5% since last scan (44.5% → 42.0%)"}
+{"timestamp":"2026-03-02T14:44:41.586Z","type":"think","message":"Wide spread: \"Will Tom Steyer win the California Governor Election i…\" — bid 6.1% / ask 10.8% (4.7% spread), liq $425.0K"}
+{"timestamp":"2026-03-02T14:44:41.586Z","type":"think","message":"Deep value: \"Will Trump nominate Michelle Bowman as the next Fed ch…\" — Yes @ 0.5¢, liq $50.2M, 24h vol $3.2M"}
+{"timestamp":"2026-03-02T14:44:41.586Z","type":"decision","message":"Flow signal: \"Will Paul Thomas Anderson win Best Director at the 98t…\" — buyers dominating ($2.3K net), 1 traders, 7m ago"}
