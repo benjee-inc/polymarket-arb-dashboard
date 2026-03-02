@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-02T06:39:40.678Z","type":"think","message":"↑ Price shift: \"Will PLC win the most seats in the 2026 Colombian Cham…\" moved 1.5% since last scan (8.0% → 9.5%)"}
-{"timestamp":"2026-03-02T06:39:40.678Z","type":"think","message":"Volume surge: \"Will James Talarico win the 2028 Democratic presidenti…\" — $5.2M in 24h (361% of lifetime), ↑0.1% this hour"}
-{"timestamp":"2026-03-02T06:39:40.678Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 17h to resolution, 81.5% YES, ↑0.5% this hour, vol $97.0K"}
-{"timestamp":"2026-03-02T06:39:40.678Z","type":"decision","message":"Flow signal: \"Will Mohammed bin Salman win the Nobel Peace Prize in …\" — buyers dominating ($3.2K net), 2 traders, 7m ago"}
-{"timestamp":"2026-03-02T06:44:49.682Z","type":"palpha","message":"Evaluated 17 raw opportunities from scanner signals"}
-{"timestamp":"2026-03-02T06:44:49.682Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T06:44:49.682Z","type":"palpha","message":"[palpha] VETOED: \"Will Michael B. Jordan win Best Actor at the 98th Academy Aw\" — NOISE — mkt=40.6% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T06:44:49.682Z","type":"palpha","message":"[palpha] VETOED: \"Will Bugonia win Best Picture at the 98th Academy Awards?\" — NOISE — mkt=0.4% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T06:44:49.682Z","type":"palpha","message":"[palpha] VETOED: \"Will Karen Bass win the 2026 Los Angeles mayoral election?\" — NOISE — mkt=46.0% implied=n/a src=[]"}
-{"timestamp":"2026-03-02T06:44:49.682Z","type":"palpha","message":"[palpha] VETOED: \"Harris Dickinson announced as next James Bond?\" — depth not executable: thin_liquidity"}
-{"timestamp":"2026-03-02T06:44:49.682Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
-{"timestamp":"2026-03-02T06:44:49.682Z","type":"trade","message":"[auto-trade] No trades: already held (local), spread too wide: 6.0¢ on 1.2¢ entry (500% > 5% max), spread too wide: 5.2¢ on 19.7¢ entry (26% > 5% max), spread too wide: 5.0¢ on 9.0¢ entry (56% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", already held, spread too wide: 1.0¢ on 16.5¢ entry (6% > 5% max). Daily: $20.00"}
-{"timestamp":"2026-03-02T06:44:40.715Z","type":"scan","message":"Cycle #80 — 656 markets | 14 active events | $30.1K recent flow"}
-{"timestamp":"2026-03-02T06:44:40.715Z","type":"think","message":"Live flow: \"Will Jasmine Crockett win the 2028 Democratic presiden…\" — $10.2K in 10 trades, NET SELL, biggest $1.6K, 13s ago"}
 {"timestamp":"2026-03-02T06:44:40.715Z","type":"think","message":"↑ Price shift: \"Israeli parliament dissolved by June 30?\" moved 2.0% since last scan (38.5% → 40.5%)"}
 {"timestamp":"2026-03-02T06:44:40.715Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 17h to resolution, 0.6% YES, ↑0.1% this hour, vol $97.0K"}
 {"timestamp":"2026-03-02T06:44:40.715Z","type":"think","message":"Wide spread: \"Will Tom Steyer win the California Governor Election i…\" — bid 6.1% / ask 10.8% (4.7% spread), liq $425.3K"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-02T07:49:41.087Z","type":"think","message":"Volume surge: \"Will James Talarico win the 2028 Democratic presidenti…\" — $5.2M in 24h (361% of lifetime), ↑0.1% this hour"}
 {"timestamp":"2026-03-02T07:49:41.087Z","type":"think","message":"Catalyst: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 16h to resolution, 80.5% YES, ↑0.5% this hour, vol $97.0K"}
 {"timestamp":"2026-03-02T07:49:41.087Z","type":"decision","message":"Flow signal: \"Will The Odyssey be the top grossing movie of 2026?\" — sellers dominating ($2.2K net), 2 traders, 5m ago"}
+{"timestamp":"2026-03-02T07:54:49.899Z","type":"palpha","message":"Evaluated 18 raw opportunities from scanner signals"}
+{"timestamp":"2026-03-02T07:54:49.899Z","type":"palpha","message":"[palpha] VETOED: \"Will Drake release Iceman before GTA VI?\" — NOISE — mkt=96.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T07:54:49.899Z","type":"palpha","message":"[palpha] VETOED: \"Will Trump nominate Kevin Hassett as the next Fed chair?\" — NOISE — mkt=0.3% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T07:54:49.899Z","type":"palpha","message":"[palpha] VETOED: \"Will Vinícius Júnior win the 2026 Ballon d'Or?\" — NOISE — mkt=4.0% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T07:54:49.899Z","type":"palpha","message":"[palpha] VETOED: \"Will Michael B. Jordan win Best Actor at the 98th Academy Aw\" — NOISE — mkt=40.3% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T07:54:49.899Z","type":"palpha","message":"[palpha] VETOED: \"Will The Secret Agent win Best Picture at the 98th Academy A\" — NOISE — mkt=0.4% implied=n/a src=[]"}
+{"timestamp":"2026-03-02T07:54:49.899Z","type":"palpha","message":"[auto-trade] Ignoring 4 dust positions (value < $0.5). Active: 4/8 total."}
+{"timestamp":"2026-03-02T07:54:49.899Z","type":"trade","message":"[auto-trade] No trades: spread too wide: 7.6¢ on 2.5¢ entry (304% > 5% max), already held (local), spread too wide: 8.0¢ on 42.0¢ entry (19% > 5% max), spread too wide: 6.4¢ on 1.3¢ entry (492% > 5% max), spread too wide: 5.1¢ on 38.7¢ entry (13% > 5% max), spread too wide: 5.1¢ on 20.8¢ entry (25% > 5% max), spread too wide: 5.0¢ on 9.0¢ entry (56% > 5% max), same-event dedup: already hold/traded another outcome in event \"will-russia-capture-kostyantynivka-by\", already held, spread too wide: 1.0¢ on 16.5¢ entry (6% > 5% max). Daily: $20.00"}
+{"timestamp":"2026-03-02T07:54:41.159Z","type":"scan","message":"Cycle #94 — 655 markets | 16 active events | $44.5K recent flow"}
+{"timestamp":"2026-03-02T07:54:41.159Z","type":"think","message":"Live flow: \"Will Trump nominate Kevin Hassett as the next Fed chai…\" — $12.0K in 17 trades, NET BUY (strong bias), biggest $1.1K, 18s ago"}
+{"timestamp":"2026-03-02T07:54:41.159Z","type":"think","message":"↑ Price shift: \"Will Wunmi Mosaku win Best Supporting Actress at the 9…\" moved 1.7% since last scan (21.6% → 23.4%)"}
+{"timestamp":"2026-03-02T07:54:41.159Z","type":"think","message":"Catalyst: \"Will Wesley Hunt win the 2026 Texas Republican Primary?\" — 16h to resolution, 0.7% YES, ↑0.1% this hour, vol $97.0K"}
+{"timestamp":"2026-03-02T07:54:41.159Z","type":"think","message":"Wide spread: \"Will GPT-6 be released before GTA VI?\" — bid 65.0% / ask 69.0% (4.0% spread), liq $1.7M"}
+{"timestamp":"2026-03-02T07:54:41.159Z","type":"decision","message":"Flow signal: \"US x Iran ceasefire by April 30?\" — buyers dominating ($10.5K net), 3 traders, 1m ago"}
