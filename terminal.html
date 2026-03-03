@@ -1039,12 +1039,13 @@ function renderData() {
   for (const d of items) {
     // Highlight inline data
     let rendered = esc(d.msg);
-    rendered = rendered.replace(/\$[\d,]+\.?\d*/g, '<span class="flow-money">$&</span>');
-    rendered = rendered.replace(/[+-]?\d+\.?\d*%/g, function(m) {
+    rendered = rendered.replace(/\$[\d,]+\.?\d*/g, function(m) {
+      return '<span class="flow-money">' + m + '</span>';
+    });
+    rendered = rendered.replace(/(?<![<\w])([+-]?\d+\.?\d*%)/g, function(m) {
       return '<span class="' + (!m.startsWith('-') ? 'flow-pct-pos' : 'flow-pct-neg') + '">' + m + '</span>';
     });
-    rendered = rendered.replace(/&quot;([^&]+)&quot;/g, '<span class="flow-market">"$1"</span>');
-    // Also match regular "quoted" strings
+    rendered = rendered.replace(/&quot;([^&]+)&quot;/g, '<span class="flow-market">&quot;$1&quot;</span>');
     rendered = rendered.replace(/"([^"]{4,70})"/g, '<span class="flow-market">"$1"</span>');
 
     html += '<div class="flow-row" style="border-left:2px solid ' + d.color + '">'
