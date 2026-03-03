@@ -299,7 +299,7 @@ async function pollGDELT() {
     gdeltIdx += 2;
 
     const fetches = [q1, q2].map(q =>
-      fetch(`https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(q)}&mode=artlist&maxrecords=5&format=json&sort=datedesc`, {
+      fetch(`https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(q + ' sourcelang:english')}&mode=artlist&maxrecords=5&format=json&sort=datedesc`, {
         signal: AbortSignal.timeout(8000)
       }).then(r => r.ok ? r.json() : null).catch(() => null)
     );
