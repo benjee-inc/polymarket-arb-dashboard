@@ -118,9 +118,12 @@ let onChainVerified = false;
 // ── Live Data Flow State ────────────────────────────────
 const GAMMA_API = 'https://gamma-api.polymarket.com';
 let dataFlowItems = [];       // unified stream: { ts, tag, color, icon, msg, source }
-const DATA_FLOW_MAX = 500;
+const DATA_FLOW_MAX = 800;
 let prevGammaSnapshot = new Map(); // conditionId → { price, volume24h, change1h }
 let lastFlowPollAt = 0;
+// News/OSINT dedup
+let _seenNewsKeys = new Set();
+const NEWS_DEDUP_MAX = 2000;
 
 // ── Helpers ──────────────────────────────────────────────
 function fmt(v) { return '$' + parseFloat(v || 0).toFixed(2); }
@@ -262,124 +265,155 @@ async function fetchLogs() {
   }
 }
 
-// ── Live Data Flow: Pull from same APIs as AI scanner ────
+// ── Live Data Flow: Real-time world news, weather, OSINT ──
 function pushFlow(tag, color, icon, msg, source) {
+  // Dedup by content
+  const key = (tag + '|' + msg).slice(0, 120);
+  if (_seenNewsKeys.has(key)) return;
+  _seenNewsKeys.add(key);
+  if (_seenNewsKeys.size > NEWS_DEDUP_MAX) {
+    const arr = [..._seenNewsKeys];
+    _seenNewsKeys = new Set(arr.slice(arr.length - 1000));
+  }
   dataFlowItems.unshift({ ts: new Date().toISOString(), tag, color, icon, msg, source });
   if (dataFlowItems.length > DATA_FLOW_MAX) dataFlowItems.length = DATA_FLOW_MAX;
 }
 
-// 1. Live global trade feed — big money flowing in real time
-async function pollLiveTrades() {
+// ── 1. GDELT — Global news from 100+ countries in real time ──
+const GDELT_TOPICS = [
+  'breaking news', 'war conflict military', 'earthquake tsunami flood hurricane',
+  'election vote government', 'sanctions embargo trade war tariff',
+  'federal reserve interest rate inflation', 'oil gas energy opec',
+  'iran nuclear', 'ukraine russia', 'china taiwan', 'north korea missile',
+  'trump executive order', 'supreme court ruling', 'nato alliance',
+  'bitcoin cryptocurrency regulation', 'AI artificial intelligence',
+  'pandemic outbreak disease WHO', 'coup protest revolution',
+  'drone strike airstrike', 'central bank policy',
+];
+let gdeltIdx = 0;
+async function pollGDELT() {
   try {
-    const res = await fetch(`${DATA_API}/trades?limit=25&filterType=CASH&filterAmount=500`, {
+    // Rotate through topics, 2 per poll
+    const q1 = GDELT_TOPICS[gdeltIdx % GDELT_TOPICS.length];
+    const q2 = GDELT_TOPICS[(gdeltIdx + 1) % GDELT_TOPICS.length];
+    gdeltIdx += 2;
+
+    const fetches = [q1, q2].map(q =>
+      fetch(`https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(q)}&mode=artlist&maxrecords=5&format=json&sort=datedesc`, {
+        signal: AbortSignal.timeout(8000)
+      }).then(r => r.ok ? r.json() : null).catch(() => null)
+    );
+    const results = await Promise.all(fetches);
+
+    for (const data of results) {
+      if (!data?.articles) continue;
+      for (const a of data.articles.slice(0, 3)) {
+        const title = (a.title || '').slice(0, 100);
+        const domain = (a.domain || a.url || '').replace(/^www\./, '').split('/')[0];
+        const country = a.sourcecountry || '';
+        if (!title || title.length < 15) continue;
+
+        // Categorize by content
+        let tag = 'NEWS', color = '#ffaa00', icon = 'N';
+        const tl = title.toLowerCase();
+        if (/war|strike|military|bomb|missile|drone|attack|invasion|troops/.test(tl)) { tag = 'CONFLICT'; color = '#ff0044'; icon = '!!'; }
+        else if (/earthquake|tsunami|hurricane|tornado|flood|wildfire|storm|cyclone/.test(tl)) { tag = 'DISASTER'; color = '#ff6600'; icon = '!!'; }
+        else if (/election|vote|poll|president|parliament|congress|senate/.test(tl)) { tag = 'POLITICS'; color = '#aa88ff'; icon = 'P'; }
+        else if (/sanction|tariff|trade war|embargo|ban|restrict/.test(tl)) { tag = 'SANCTIONS'; color = '#ff8800'; icon = '$!'; }
+        else if (/fed |interest rate|inflation|central bank|gdp|recession|unemployment/.test(tl)) { tag = 'ECONOMY'; color = '#00cc88'; icon = '$'; }
+        else if (/oil|gas|opec|energy|pipeline|nuclear power/.test(tl)) { tag = 'ENERGY'; color = '#cc8800'; icon = 'E'; }
+        else if (/bitcoin|crypto|ethereum|blockchain|sec crypto/.test(tl)) { tag = 'CRYPTO'; color = '#ff9900'; icon = 'B'; }
+        else if (/ai |artificial intelligence|openai|deepmind|nvidia|chip/.test(tl)) { tag = 'TECH'; color = '#00aaff'; icon = 'T'; }
+        else if (/pandemic|outbreak|virus|disease|who health/.test(tl)) { tag = 'HEALTH'; color = '#00ddaa'; icon = '+'; }
+        else if (/coup|protest|revolution|riot|unrest|martial law/.test(tl)) { tag = 'UNREST'; color = '#ff4444'; icon = '!!'; }
+
+        const countryTag = country ? ` [${country.toUpperCase().slice(0, 3)}]` : '';
+        pushFlow(tag, color, icon, `${title} — ${domain}${countryTag}`, 'gdelt');
+      }
+    }
+  } catch (err) { console.error('[gdelt]', err.message); }
+}
+
+// ── 2. NWS Weather — US cities + alerts ──
+const NWS_CITIES = [
+  { name: 'NYC', office: 'OKX', gridX: 33, gridY: 37 },
+  { name: 'Chicago', office: 'LOT', gridX: 65, gridY: 76 },
+  { name: 'LA', office: 'LOX', gridX: 154, gridY: 44 },
+  { name: 'Miami', office: 'MFL', gridX: 75, gridY: 67 },
+  { name: 'Denver', office: 'BOU', gridX: 62, gridY: 60 },
+  { name: 'Houston', office: 'HGX', gridX: 65, gridY: 97 },
+  { name: 'Seattle', office: 'SEW', gridX: 124, gridY: 67 },
+  { name: 'Phoenix', office: 'PSR', gridX: 159, gridY: 57 },
+  { name: 'Atlanta', office: 'FFC', gridX: 50, gridY: 86 },
+  { name: 'Dallas', office: 'FWD', gridX: 79, gridY: 104 },
+];
+let nwsCityIdx = 0;
+let lastNwsData = {};
+async function pollNWS() {
+  try {
+    const city = NWS_CITIES[nwsCityIdx % NWS_CITIES.length];
+    nwsCityIdx++;
+    const res = await fetch(`https://api.weather.gov/gridpoints/${city.office}/${city.gridX},${city.gridY}/forecast`, {
+      headers: { 'User-Agent': 'midas-terminal/1.0' },
       signal: AbortSignal.timeout(8000)
     });
     if (!res.ok) return;
-    const trades = await res.json();
-    if (!Array.isArray(trades)) return;
+    const data = await res.json();
+    const periods = data?.properties?.periods;
+    if (!Array.isArray(periods) || !periods.length) return;
+    const today = periods[0];
+    const key = city.name + today.number;
+    if (lastNwsData[city.name] === key) return;
+    lastNwsData[city.name] = key;
 
-    // Only show trades newer than last poll
-    for (const t of trades.slice(0, 15)) {
-      const tradeTs = (t.timestamp || 0) * 1000;
-      if (tradeTs <= lastFlowPollAt && lastFlowPollAt > 0) continue;
-      const vol = (t.size * t.price).toFixed(0);
-      const side = t.side === 'BUY' ? 'BUY' : 'SELL';
-      const sideColor = side === 'BUY' ? '#00ff00' : '#ff0044';
-      const title = (t.title || '').slice(0, 70);
-      const price = (t.price * 100).toFixed(1);
-      const trader = t.name || t.pseudonym || 'anon';
-      pushFlow(side, sideColor, side === 'BUY' ? '>>' : '<<',
-        `$${vol} ${side} "${title}" @ ${price}¢ — ${trader}`,
-        'polymarket/trades');
+    const isSevere = /storm|thunder|tornado|hurricane|blizzard|warning|watch|extreme/i.test(today.shortForecast);
+    const color = isSevere ? '#ff4444' : '#00ddff';
+    const tag = isSevere ? 'SEVERE' : 'WEATHER';
+
+    pushFlow(tag, color, 'W',
+      `${city.name}: ${today.temperature}°${today.temperatureUnit} ${today.shortForecast} — Wind ${today.windSpeed} ${today.windDirection}`,
+      'nws');
+    if (periods[1]) {
+      pushFlow('FORECAST', '#0099cc', 'W',
+        `${city.name} next: ${periods[1].temperature}°${periods[1].temperatureUnit} ${periods[1].shortForecast}`,
+        'nws');
     }
-    lastFlowPollAt = Date.now();
-  } catch (err) {
-    console.error('[flow-trades]', err.message);
-  }
+  } catch (err) { console.error('[nws]', err.message); }
 }
 
-// 2. Gamma API — market movers, price changes, volume surges
-async function pollGammaMovers() {
+// ── 2b. NWS Active Alerts — severe weather nationwide ──
+let lastAlertIds = new Set();
+async function pollNWSAlerts() {
   try {
-    const res = await fetch(`${GAMMA_API}/events?active=true&closed=false&limit=100`, {
-      headers: { Accept: 'application/json' },
-      signal: AbortSignal.timeout(15000)
+    const res = await fetch('https://api.weather.gov/alerts/active?status=actual&severity=Extreme,Severe&limit=20', {
+      headers: { 'User-Agent': 'midas-terminal/1.0' },
+      signal: AbortSignal.timeout(8000)
     });
     if (!res.ok) return;
-    const events = await res.json();
-    const newSnapshot = new Map();
+    const data = await res.json();
+    const features = data?.features;
+    if (!Array.isArray(features)) return;
 
-    for (const event of events) {
-      if (!event.markets) continue;
-      for (const m of event.markets) {
-        if (m.closed || !m.active) continue;
-        const q = m.question || event.title || '';
-        const cid = m.conditionId;
-        if (!cid) continue;
+    for (const f of features.slice(0, 10)) {
+      const props = f.properties || {};
+      const id = props.id || '';
+      if (lastAlertIds.has(id)) continue;
+      lastAlertIds.add(id);
+      if (lastAlertIds.size > 200) lastAlertIds = new Set([...lastAlertIds].slice(-100));
 
-        let prices;
-        try { prices = JSON.parse(m.outcomePrices || '[]'); } catch { prices = []; }
-        const yesPrice = parseFloat(prices[0] || 0);
-        const vol24h = parseFloat(event.volume24hr || 0);
-        const change1h = m.oneHourPriceChange != null ? parseFloat(m.oneHourPriceChange) : null;
-        const change1d = m.oneDayPriceChange != null ? parseFloat(m.oneDayPriceChange) : null;
-        const liq = parseFloat(event.liquidity || 0);
-        const spread = parseFloat(m.spread || 0);
-
-        newSnapshot.set(cid, { price: yesPrice, vol24h, change1h, q, liq, spread });
-
-        // Compare to previous snapshot
-        const prev = prevGammaSnapshot.get(cid);
-        if (!prev) continue;
-
-        // Detect 1h movers
-        if (change1h != null && Math.abs(change1h) >= 0.02 && vol24h > 5000) {
-          const dir = change1h > 0 ? '+' : '';
-          pushFlow('MOVER', change1h > 0 ? '#00ff00' : '#ff0044', '^v',
-            `${dir}${(change1h * 100).toFixed(1)}% in 1h — "${q.slice(0, 65)}" now @ ${(yesPrice * 100).toFixed(1)}¢ (vol $${(vol24h / 1000).toFixed(0)}K)`,
-            'gamma/events');
-        }
-
-        // Detect price jumps since last poll
-        const priceDiff = yesPrice - prev.price;
-        if (Math.abs(priceDiff) >= 0.02) {
-          const dir = priceDiff > 0 ? '+' : '';
-          pushFlow('SHIFT', '#00ddff', '/\\',
-            `Price ${dir}${(priceDiff * 100).toFixed(1)}¢ — "${q.slice(0, 65)}" ${(prev.price * 100).toFixed(1)}¢ → ${(yesPrice * 100).toFixed(1)}¢`,
-            'gamma/events');
-        }
-
-        // Detect wide spreads
-        if (spread > 0.05 && liq > 30000) {
-          const bid = parseFloat(m.bestBid || 0);
-          const ask = parseFloat(m.bestAsk || 0);
-          if (!prev.spread || Math.abs(spread - prev.spread) > 0.01) {
-            pushFlow('SPREAD', '#ff6600', '<>',
-              `${(spread * 100).toFixed(1)}¢ spread — "${q.slice(0, 60)}" bid ${(bid * 100).toFixed(1)}¢ / ask ${(ask * 100).toFixed(1)}¢ (liq $${(liq / 1000).toFixed(0)}K)`,
-              'clob/book');
-          }
-        }
-      }
+      const event = props.event || 'Alert';
+      const area = (props.areaDesc || '').slice(0, 60);
+      const headline = (props.headline || '').slice(0, 100);
+      const severity = props.severity || '';
+      const color = severity === 'Extreme' ? '#ff0000' : '#ff4444';
+      pushFlow('ALERT', color, '!!',
+        `${event}: ${headline || area}`,
+        'nws/alerts');
     }
-
-    // Detect new markets appearing
-    if (prevGammaSnapshot.size > 0) {
-      for (const [cid, snap] of newSnapshot) {
-        if (!prevGammaSnapshot.has(cid) && snap.vol24h > 10000) {
-          pushFlow('NEW', '#ff00ff', '++',
-            `New market: "${snap.q.slice(0, 65)}" @ ${(snap.price * 100).toFixed(1)}¢ — vol $${(snap.vol24h / 1000).toFixed(0)}K`,
-            'gamma/events');
-        }
-      }
-    }
-
-    prevGammaSnapshot = newSnapshot;
-  } catch (err) {
-    console.error('[flow-gamma]', err.message);
-  }
+  } catch (err) { console.error('[nws-alerts]', err.message); }
 }
 
-// 3. CoinGecko — top crypto prices (same source as AI's crypto.mjs)
+// ── 3. CoinGecko — crypto market data ──
 let lastCryptoPrices = {};
 async function pollCoinGecko() {
   try {
@@ -396,19 +430,18 @@ async function pollCoinGecko() {
       const vol = d.usd_24h_vol || 0;
       const mcap = d.usd_market_cap || 0;
       const name = coin.replace(/-\d+$/, '').toUpperCase();
-      // Only push if price changed meaningfully or first load
       if (!prev || Math.abs(price - prev) / prev > 0.002) {
         const dir = change >= 0 ? '+' : '';
-        pushFlow('PRICE', change >= 0 ? '#00ff00' : '#ff0044', '$',
-          `${name} $${price.toLocaleString(undefined, {maximumFractionDigits: 2})} (${dir}${change.toFixed(2)}% 24h) — vol $${(vol/1e9).toFixed(2)}B mcap $${(mcap/1e9).toFixed(1)}B`,
+        pushFlow('CRYPTO', change >= 0 ? '#00ff00' : '#ff0044', '$',
+          `${name} $${price.toLocaleString(undefined, {maximumFractionDigits: 2})} (${dir}${change.toFixed(2)}% 24h) — vol $${(vol/1e9).toFixed(2)}B`,
           'coingecko');
       }
       lastCryptoPrices[coin] = price;
     }
-  } catch (err) { console.error('[flow-coingecko]', err.message); }
+  } catch (err) { console.error('[coingecko]', err.message); }
 }
 
-// 4. Fear & Greed Index — crypto sentiment (same source as AI's crypto.mjs)
+// ── 4. Fear & Greed — market sentiment ──
 let lastFearGreed = null;
 async function pollFearGreed() {
   try {
@@ -420,84 +453,95 @@ async function pollFearGreed() {
     const val = parseInt(fg.value);
     if (lastFearGreed === val) return;
     lastFearGreed = val;
-    const cls = fg.value_classification || '';
     const barColor = val <= 25 ? '#ff0044' : val <= 45 ? '#ff6600' : val <= 55 ? '#ffaa00' : val <= 75 ? '#00cc00' : '#00ff00';
     pushFlow('SENTIMENT', barColor, '~',
-      `Fear & Greed Index: ${val}/100 (${cls}) — ${val <= 25 ? 'Extreme Fear' : val <= 45 ? 'Fear' : val <= 55 ? 'Neutral' : val <= 75 ? 'Greed' : 'Extreme Greed'}`,
-      'alternative.me/fng');
-  } catch (err) { console.error('[flow-fng]', err.message); }
+      `Fear & Greed: ${val}/100 (${fg.value_classification || ''})`,
+      'sentiment');
+  } catch (err) { console.error('[fng]', err.message); }
 }
 
-// 5. NWS Weather — forecasts for major cities (same source as AI's weather.mjs)
-const NWS_CITIES = [
-  { name: 'NYC', office: 'OKX', gridX: 33, gridY: 37 },
-  { name: 'Chicago', office: 'LOT', gridX: 65, gridY: 76 },
-  { name: 'LA', office: 'LOX', gridX: 154, gridY: 44 },
-  { name: 'Miami', office: 'MFL', gridX: 75, gridY: 67 },
-  { name: 'Denver', office: 'BOU', gridX: 62, gridY: 60 },
+// ── 5. USGS Earthquakes — real-time seismic activity worldwide ──
+let lastQuakeIds = new Set();
+async function pollUSGS() {
+  try {
+    const res = await fetch('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_hour.geojson', {
+      signal: AbortSignal.timeout(8000)
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    const features = data?.features;
+    if (!Array.isArray(features)) return;
+
+    for (const f of features) {
+      const id = f.id;
+      if (lastQuakeIds.has(id)) continue;
+      lastQuakeIds.add(id);
+      if (lastQuakeIds.size > 200) lastQuakeIds = new Set([...lastQuakeIds].slice(-100));
+
+      const props = f.properties || {};
+      const mag = (props.mag || 0).toFixed(1);
+      const place = (props.place || 'Unknown').slice(0, 70);
+      const tsunami = props.tsunami ? ' [TSUNAMI WARNING]' : '';
+      const color = mag >= 6 ? '#ff0000' : mag >= 5 ? '#ff4444' : mag >= 4 ? '#ff8800' : '#ffaa00';
+      const tag = mag >= 6 ? 'MAJOR QUAKE' : mag >= 4.5 ? 'EARTHQUAKE' : 'QUAKE';
+      pushFlow(tag, color, '##',
+        `M${mag} — ${place}${tsunami}`,
+        'usgs');
+    }
+  } catch (err) { console.error('[usgs]', err.message); }
+}
+
+// ── 6. RSS/Atom news feeds — Reuters, AP, BBC via public feeds ──
+let lastRSSItems = new Set();
+const RSS_FEEDS = [
+  { url: 'https://feeds.bbci.co.uk/news/world/rss.xml', name: 'BBC World' },
+  { url: 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml', name: 'NYT World' },
+  { url: 'https://feeds.npr.org/1004/rss.xml', name: 'NPR World' },
 ];
-let nwsCityIdx = 0;
-let lastNwsData = {};
-async function pollNWS() {
+let rssFeedIdx = 0;
+async function pollRSSNews() {
   try {
-    const city = NWS_CITIES[nwsCityIdx % NWS_CITIES.length];
-    nwsCityIdx++;
-    const res = await fetch(`https://api.weather.gov/gridpoints/${city.office}/${city.gridX},${city.gridY}/forecast`, {
-      headers: { 'User-Agent': 'polymarket-alpha-dashboard' },
-      signal: AbortSignal.timeout(8000)
+    const feed = RSS_FEEDS[rssFeedIdx % RSS_FEEDS.length];
+    rssFeedIdx++;
+    // Use a CORS proxy for RSS feeds
+    const res = await fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(feed.url)}`, {
+      signal: AbortSignal.timeout(10000)
     });
     if (!res.ok) return;
-    const data = await res.json();
-    const periods = data?.properties?.periods;
-    if (!Array.isArray(periods) || !periods.length) return;
-    const today = periods[0];
-    const key = city.name + today.number;
-    if (lastNwsData[city.name] === key) return;
-    lastNwsData[city.name] = key;
-    pushFlow('WEATHER', '#00ddff', '**',
-      `${city.name}: ${today.temperature}°${today.temperatureUnit} ${today.shortForecast} — Wind ${today.windSpeed} ${today.windDirection}`,
-      'weather.gov/nws');
-    // Tomorrow if available
-    if (periods[1]) {
-      pushFlow('WEATHER', '#0099cc', '**',
-        `${city.name} tomorrow: ${periods[1].temperature}°${periods[1].temperatureUnit} ${periods[1].shortForecast}`,
-        'weather.gov/nws');
+    const text = await res.text();
+
+    // Simple XML title extraction
+    const items = [];
+    const re = /<item[^>]*>[\s\S]*?<title[^>]*>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>[\s\S]*?<\/item>/gi;
+    let match;
+    while ((match = re.exec(text)) && items.length < 8) {
+      const title = match[1].replace(/<[^>]+>/g, '').trim();
+      if (title && title.length > 15) items.push(title);
     }
-  } catch (err) { console.error('[flow-nws]', err.message); }
+
+    for (const title of items) {
+      const key = title.slice(0, 60);
+      if (lastRSSItems.has(key)) continue;
+      lastRSSItems.add(key);
+      if (lastRSSItems.size > 500) lastRSSItems = new Set([...lastRSSItems].slice(-300));
+
+      let tag = 'WORLD', color = '#cc88ff', icon = 'W';
+      const tl = title.toLowerCase();
+      if (/war|military|bomb|strike|kill|troops|invasion/.test(tl)) { tag = 'CONFLICT'; color = '#ff0044'; icon = '!!'; }
+      else if (/earthquake|hurricane|flood|wildfire|disaster|storm/.test(tl)) { tag = 'DISASTER'; color = '#ff6600'; icon = '!!'; }
+      else if (/economy|inflation|rate|gdp|recession|market|stock/.test(tl)) { tag = 'ECONOMY'; color = '#00cc88'; icon = '$'; }
+      else if (/election|vote|president|congress|parliament|ruling/.test(tl)) { tag = 'POLITICS'; color = '#aa88ff'; icon = 'P'; }
+
+      pushFlow(tag, color, icon, `${title} — ${feed.name}`, 'rss');
+    }
+  } catch (err) { console.error('[rss]', err.message); }
 }
 
-// 6. GDELT — global news volume trends (same source as AI's gdelt.mjs)
-const GDELT_QUERIES = ['tariff trade war', 'federal reserve interest rate', 'trump executive order', 'bitcoin cryptocurrency', 'ukraine russia war', 'china taiwan'];
-let gdeltIdx = 0;
-async function pollGDELT() {
-  try {
-    const q = GDELT_QUERIES[gdeltIdx % GDELT_QUERIES.length];
-    gdeltIdx++;
-    const res = await fetch(`https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(q)}&mode=artlist&maxrecords=5&format=json&sort=datedesc`, {
-      signal: AbortSignal.timeout(8000)
-    });
-    if (!res.ok) return;
-    const data = await res.json();
-    const articles = data?.articles;
-    if (!Array.isArray(articles)) return;
-    for (const a of articles.slice(0, 2)) {
-      const title = (a.title || '').slice(0, 90);
-      const domain = (a.domain || a.url || '').replace(/^www\./, '').split('/')[0];
-      if (!title) continue;
-      pushFlow('NEWS', '#ffaa00', 'N',
-        `${title} — ${domain}`,
-        'gdelt/news');
-    }
-  } catch (err) { console.error('[flow-gdelt]', err.message); }
-}
-
-// 7. Merge AI scanner logs into the data flow
+// ── 7. Merge AI scanner logs (kept for bot activity only) ──
 function mergeScannserLogs() {
-  // Find logs newer than our last seen
   const cutoff = dataFlowItems.length > 0 ? dataFlowItems[dataFlowItems.length - 1]?.ts : null;
   for (const e of cachedLogs) {
     if (e.type === 'pipeline') continue;
-    // Avoid duplicates — check if we already have this exact entry
     const eKey = e.timestamp + '|' + (e.message || '').slice(0, 40);
     if (dataFlowItems.some(d => (d.ts + '|' + d.msg.slice(0, 40)) === eKey)) continue;
 
@@ -983,50 +1027,39 @@ function renderPerf() {
   ctx.fillText('NET WORTH (session)', PAD.left, PAD.top - 10);
 }
 
-// ── Render: Data Flow (Unusual Whales style) ─────────────
+// ── Render: Data Flow — Real-time World Intelligence ──────
 function renderData() {
-  // Merge scanner AI logs into the live flow
-  mergeScannserLogs();
-
   if (!dataFlowItems.length) {
-    content.innerHTML = '<div class="empty">Initializing data flow... pulling from Polymarket, Gamma, CLOB APIs</div>';
+    content.innerHTML = '<div class="empty">Initializing world intelligence feed... pulling from GDELT, NWS, USGS, RSS, CoinGecko</div>';
     return;
   }
 
-  // ── Header: live pipeline stats from latest pipeline entry
-  const latestPipeline = [...cachedLogs].reverse().find(e => e.type === 'pipeline');
-  let html = '<div class="flow-header">';
-  if (latestPipeline) {
-    const ing = latestPipeline.ingestion || {};
-    const sig = latestPipeline.signals || {};
-    const enr = latestPipeline.enrichment || {};
-    const exec = latestPipeline.execution || {};
-    const totalSigs = Object.values(sig).reduce((s, v) => s + (v || 0), 0);
-    html += '<div class="flow-stat"><div class="flow-stat-val">' + (ing.markets || 0) + '</div><div class="flow-stat-label">MARKETS</div></div>'
-      + '<div class="flow-stat"><div class="flow-stat-val" style="color:#ffaa00">' + totalSigs + '</div><div class="flow-stat-label">SIGNALS</div></div>'
-      + '<div class="flow-stat"><div class="flow-stat-val" style="color:#00ddff">' + (enr.rawOpportunities || 0) + '</div><div class="flow-stat-label">OPPS</div></div>'
-      + '<div class="flow-stat"><div class="flow-stat-val" style="color:#ff0044">' + (enr.vetoed || 0) + '</div><div class="flow-stat-label">VETOED</div></div>'
-      + '<div class="flow-stat"><div class="flow-stat-val" style="color:#00ff00">' + (exec.tradesExecuted || 0) + '</div><div class="flow-stat-label">TRADED</div></div>'
-      + '<div class="flow-stat"><div class="flow-stat-val">' + (exec.openPositions || 0) + '</div><div class="flow-stat-label">POSITIONS</div></div>'
-      + '<div class="flow-stat"><div class="flow-stat-val">$' + (exec.dailySpend || 0).toFixed(0) + '</div><div class="flow-stat-label">DAILY $</div></div>'
-      + '<div class="flow-stat"><div class="flow-stat-val" style="color:#555">#' + (latestPipeline.cycle || '?') + '</div><div class="flow-stat-label">CYCLE</div></div>';
-  } else {
-    html += '<div class="flow-stat"><div class="flow-stat-val" style="color:#555">--</div><div class="flow-stat-label">AWAITING PIPELINE</div></div>';
+  // ── Header: live source counts
+  const counts = {};
+  for (const d of dataFlowItems) {
+    const src = (d.source || 'unknown').split('/')[0];
+    counts[src] = (counts[src] || 0) + 1;
   }
+  let html = '<div class="flow-header">';
+  html += '<div class="flow-stat"><div class="flow-stat-val">' + dataFlowItems.length + '</div><div class="flow-stat-label">SIGNALS</div></div>';
+  html += '<div class="flow-stat"><div class="flow-stat-val" style="color:#ffaa00">' + (counts.gdelt || 0) + '</div><div class="flow-stat-label">NEWS</div></div>';
+  html += '<div class="flow-stat"><div class="flow-stat-val" style="color:#cc88ff">' + (counts.rss || 0) + '</div><div class="flow-stat-label">WORLD</div></div>';
+  html += '<div class="flow-stat"><div class="flow-stat-val" style="color:#00ddff">' + ((counts.nws || 0) + (counts['nws'] || 0)) + '</div><div class="flow-stat-label">WEATHER</div></div>';
+  html += '<div class="flow-stat"><div class="flow-stat-val" style="color:#ff4444">' + (counts.usgs || 0) + '</div><div class="flow-stat-label">SEISMIC</div></div>';
+  html += '<div class="flow-stat"><div class="flow-stat-val" style="color:#ff9900">' + (counts.coingecko || 0) + '</div><div class="flow-stat-label">CRYPTO</div></div>';
+  html += '<div class="flow-stat"><div class="flow-stat-val" style="color:#555">' + new Date().toLocaleTimeString() + '</div><div class="flow-stat-label">UPDATED</div></div>';
   html += '</div>';
 
   // ── Source legend
   html += '<div style="display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap;font-size:0.6rem">';
   const sources = [
-    { label: 'coingecko', color: '#8DC63F' },
-    { label: 'fear&greed', color: '#ff6600' },
-    { label: 'weather.gov/nws', color: '#00ddff' },
-    { label: 'gdelt/news', color: '#ffaa00' },
-    { label: 'polymarket/trades', color: '#00ff00' },
-    { label: 'gamma/events', color: '#ffaa00' },
-    { label: 'xai/grok', color: '#ff6600' },
-    { label: 'palpha', color: '#00ddff' },
-    { label: 'auto-trade', color: '#ff00ff' },
+    { label: 'gdelt', color: '#ffaa00' },
+    { label: 'bbc/nyt/npr', color: '#cc88ff' },
+    { label: 'nws/weather', color: '#00ddff' },
+    { label: 'nws/alerts', color: '#ff4444' },
+    { label: 'usgs/quakes', color: '#ff8800' },
+    { label: 'coingecko', color: '#ff9900' },
+    { label: 'sentiment', color: '#00cc88' },
   ];
   for (const s of sources) {
     html += '<span style="color:' + s.color + ';background:' + s.color + '11;padding:1px 5px;border:1px solid ' + s.color + '33;border-radius:2px">' + s.label + '</span>';
@@ -1137,11 +1170,11 @@ async function pollLogs() {
 }
 
 async function pollDataFlow() {
-  await Promise.all([pollLiveTrades(), pollGammaMovers()]);
+  await Promise.all([pollGDELT(), pollRSSNews(), pollUSGS()]);
   if (currentTab === 'data') render();
 }
 async function pollExternalSources() {
-  await Promise.all([pollCoinGecko(), pollFearGreed(), pollNWS(), pollGDELT()]);
+  await Promise.all([pollCoinGecko(), pollFearGreed(), pollNWS(), pollNWSAlerts()]);
   if (currentTab === 'data') render();
 }
 
@@ -1169,8 +1202,8 @@ document.querySelectorAll('.tab').forEach(tab => {
   updateHeader();
   render();
 
-  // Initial data flow pull — all external sources in parallel
-  await Promise.all([pollLiveTrades(), pollGammaMovers(), pollCoinGecko(), pollFearGreed(), pollNWS(), pollGDELT()]);
+  // Initial data flow pull — all world intelligence sources in parallel
+  await Promise.all([pollGDELT(), pollRSSNews(), pollUSGS(), pollNWSAlerts(), pollCoinGecko(), pollFearGreed(), pollNWS()]);
 
   // Staggered polling intervals
   setInterval(pollPositionsAndPrices, 10000);  // positions + prices every 10s
