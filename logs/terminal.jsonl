@@ -1,7 +1,3 @@
-{"type":"pipeline","timestamp":"2026-03-05T20:34:47.782Z","cycle":4,"ingestion":{"markets":1640,"trades":50,"tradeVolume":50277,"midpointsFetched":50},"signals":{"movers1h":33,"movers1d":49,"volumeSpikes":510,"catalysts":13,"deepValue":407,"tightRaces":53,"wideSpread":207,"cryptoData":2,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":11,"totalVolume":50277,"avgImbalance":0.929},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":4717,"openPositions":2},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":45487618128.38361,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34784649156.99923,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2604668.6516487915,"change":null},{"q":"Will Iran close the Strait of Hormuz by March 31?","type":"tightRaces","score":2547305.319771236,"change":"-0.5%"},{"q":"Paradex FDV above $100M one day after launch?","type":"wideSpread","score":367313.1449484,"change":null}]}
-{"timestamp":"2026-03-05T20:34:57.748Z","type":"pnl","message":"Today: $-147.30 (-30.9%) · Portfolio $330 · 2 positions · 11 trades"}
-{"timestamp":"2026-03-05T20:34:47.777Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T20:34:47.777Z","type":"palpha","message":"2 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T20:34:47.777Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4717 today."}
 {"timestamp":"2026-03-05T20:35:16.402Z","type":"crypto-fast","message":"Crypto fast cycle #16 — 11585ms"}
 {"timestamp":"2026-03-05T20:35:06.613Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-05T21:11:07.354Z","type":"palpha","message":"Found 2 potential trades from scanner"}
 {"timestamp":"2026-03-05T21:11:07.354Z","type":"palpha","message":"2 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T21:11:07.354Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed. Spent $4717 today."}
+{"timestamp":"2026-03-05T21:12:17.225Z","type":"crypto-fast","message":"Crypto fast cycle #53 — 11593ms"}
+{"timestamp":"2026-03-05T21:12:07.530Z","type":"palpha","message":"Found 2 potential trades from scanner"}
+{"timestamp":"2026-03-05T21:12:07.530Z","type":"palpha","message":"2 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T21:12:07.530Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed. Spent $4717 today."}
