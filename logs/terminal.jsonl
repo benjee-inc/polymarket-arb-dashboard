@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-05T17:16:25.648Z","type":"scan","message":"Cycle #15 — 1593 markets | 16 active events | $76.3K recent flow | 4 held"}
-{"timestamp":"2026-03-05T17:16:25.648Z","type":"think","message":"Money flowing: \"Will the Iranian regime fall by March 31?\" — $43.8K heavily buying, biggest trade $43.1K, 50s ago"}
-{"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"News: \"NATO/EU troops fighting in Ukraine in June 30, 2026?\" — 8 articles (bearish), \"India seeks US - backed insurance cover for oil tankers as Middle East\""}
-{"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"Whale: \"0xbdb205094a5ac5564e9ff308313241c1a6b9ba0e806bc8f9bc7b…\" — whale_size (1 wallets, $78.0K)"}
-{"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"News: \"Will the Democratic Party control the House after the …\" — 1 articles (bearish), \"What happened in Texas is a warning : advocates say Republicans suppre\""}
 {"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"News: \"Will the Republican Party control the House after the …\" — 1 articles (bullish), \"What happened in Texas is a warning : advocates say Republicans suppre\""}
 {"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 28.5%), 24h vol $11.2K"}
 {"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"Sources: 1 crypto, 0 weather, 0 sentiment, 0 nansen, 3/15 news, 1/2 whale"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-05T17:41:14.200Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
 {"timestamp":"2026-03-05T17:41:14.200Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T17:41:14.200Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $267 today."}
+{"timestamp":"2026-03-05T17:42:27.378Z","type":"crypto-fast","message":"Crypto fast cycle #23 — 314781ms"}
+{"timestamp":"2026-03-05T17:37:14.650Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-05T17:37:14.650Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
+{"timestamp":"2026-03-05T17:37:14.650Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T17:37:14.650Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $267 today."}
