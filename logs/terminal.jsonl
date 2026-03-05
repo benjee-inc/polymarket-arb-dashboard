@@ -1,5 +1,3 @@
-{"timestamp":"2026-03-05T13:49:07.526Z","type":"palpha","message":"  ✗ \"Will PLC win the most seats in the 2026 Colombian \" — spread too wide: 0.1¢ on 0.3¢ mid (40% > 15% max)"}
-{"timestamp":"2026-03-05T13:49:07.526Z","type":"palpha","message":"  ✗ \"Will PCC win the most seats in the 2026 Colombian \" — spread too wide: 0.1¢ on 0.1¢ mid (67% > 15% max)"}
 {"timestamp":"2026-03-05T13:49:07.526Z","type":"palpha","message":"  ✗ \"Will LIGA win the most seats in the 2026 Colombian\" — spread too wide: 0.1¢ on 0.1¢ mid (67% > 15% max)"}
 {"timestamp":"2026-03-05T13:49:07.526Z","type":"palpha","message":"  ✗ \"Will Iran close the Strait of Hormuz before 2027?\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-05T13:53:36.462Z","type":"scan","message":"Cycle #3 — 1594 markets | 18 active events | $33.6K recent flow | 5 held"}
@@ -198,3 +196,5 @@
 {"timestamp":"2026-03-05T14:47:48.093Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $167 today."}
 {"timestamp":"2026-03-05T14:48:15.776Z","type":"crypto-fast","message":"Crypto fast cycle #1 — 11907ms"}
 {"timestamp":"2026-03-05T14:48:05.541Z","type":"palpha","message":"[auto-trade] Cycle 1 already processed. Waiting for next scanner cycle. Daily: $167.00"}
+{"timestamp":"2026-03-05T14:49:16.015Z","type":"crypto-fast","message":"Crypto fast cycle #2 — 12138ms"}
+{"timestamp":"2026-03-05T14:49:05.474Z","type":"palpha","message":"[auto-trade] Cycle 1 already processed. Waiting for next scanner cycle. Daily: $167.00"}
