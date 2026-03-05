@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-05T15:56:24.612Z","type":"palpha","message":"  ✗ \"Epic Games IPO before 2027?\" — spread too wide: 7.0¢ on 44.5¢ mid (16% > 15% max)"}
-{"timestamp":"2026-03-05T15:56:24.612Z","type":"palpha","message":"  ✗ \"Will PLC win the most seats in the 2026 Colombian \" — spread too wide: 0.1¢ on 0.3¢ mid (40% > 15% max)"}
-{"timestamp":"2026-03-05T15:56:24.612Z","type":"palpha","message":"  ✗ \"Will PCC win the most seats in the 2026 Colombian \" — spread too wide: 0.1¢ on 0.1¢ mid (67% > 15% max)"}
-{"timestamp":"2026-03-05T15:56:24.612Z","type":"palpha","message":"  ✗ \"Will LIGA win the most seats in the 2026 Colombian\" — spread too wide: 0.1¢ on 0.1¢ mid (67% > 15% max)"}
-{"timestamp":"2026-03-05T16:01:23.650Z","type":"scan","message":"Cycle #6 — 1592 markets | 20 active events | $57.3K recent flow | 5 held"}
 {"timestamp":"2026-03-05T16:01:23.651Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 5, 10:55AM-11:00AM ET\" — $9.6K heavily buying, biggest trade $2.1K, 2m ago"}
 {"timestamp":"2026-03-05T16:01:23.651Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -3.0% 24h ($1.42), F&G=22"}
 {"timestamp":"2026-03-05T16:01:23.651Z","type":"think","message":"Crypto data: \"US national Ethereum reserve before 2027?\" — ETH -3.0% 24h ($2,085.44), F&G=22"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-05T16:37:42.916Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
 {"timestamp":"2026-03-05T16:37:42.916Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T16:37:42.916Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $267 today."}
+{"timestamp":"2026-03-05T16:38:53.078Z","type":"crypto-fast","message":"Crypto fast cycle #33 — 11593ms"}
+{"timestamp":"2026-03-05T16:38:42.985Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-05T16:38:42.985Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
+{"timestamp":"2026-03-05T16:38:42.985Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T16:38:42.985Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $267 today."}
