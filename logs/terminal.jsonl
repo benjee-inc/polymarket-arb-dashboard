@@ -1,24 +1,3 @@
-{"timestamp":"2026-03-05T16:42:13.705Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
-{"timestamp":"2026-03-05T16:42:13.705Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T16:42:13.705Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $267 today."}
-{"timestamp":"2026-03-05T16:42:13.705Z","type":"palpha","message":"  ✗ \"EdgeX FDV above $2B one day after launch?\" — MONITOR — not enough edge"}
-{"timestamp":"2026-03-05T16:42:53.459Z","type":"crypto-fast","message":"Crypto fast cycle #37 — 11918ms"}
-{"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
-{"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $267 today."}
-{"timestamp":"2026-03-05T16:43:54.235Z","type":"crypto-fast","message":"Crypto fast cycle #38 — 12666ms"}
-{"timestamp":"2026-03-05T16:43:43.511Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T16:43:43.511Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
-{"timestamp":"2026-03-05T16:43:43.511Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T16:43:43.511Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $267 today."}
-{"timestamp":"2026-03-05T16:44:53.208Z","type":"crypto-fast","message":"Crypto fast cycle #39 — 11609ms"}
-{"timestamp":"2026-03-05T16:44:43.358Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T16:44:43.358Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
-{"timestamp":"2026-03-05T16:44:43.358Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T16:44:43.358Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $267 today."}
-{"timestamp":"2026-03-05T16:46:14.490Z","type":"scan","message":"Cycle #9 — 1592 markets | 15 active events | $45.1K recent flow | 4 held"}
-{"timestamp":"2026-03-05T16:46:14.491Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 5, 11:30AM-11:45AM ET\" — $17.2K heavily buying, biggest trade $2.7K, 2m ago"}
 {"timestamp":"2026-03-05T16:46:14.491Z","type":"think","message":"Volume surge: \"ByteDance IPO before 2027?\" — $11.2K in 24h (1750% of lifetime), price 8.5%"}
 {"timestamp":"2026-03-05T16:46:14.491Z","type":"think","message":"Sources: 1 crypto, 0 weather, 0 sentiment, 0 nansen, 0 news (all on cooldown)"}
 {"timestamp":"2026-03-05T16:46:14.491Z","type":"decision","message":"Flow signal: \"Will the Fed decrease interest rates by 50+ bps after …\" — buyers dominating ($9.1K net), 1 traders, 2m ago"}
@@ -198,3 +177,24 @@
 {"timestamp":"2026-03-05T17:14:44.036Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
 {"timestamp":"2026-03-05T17:14:44.036Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T17:14:44.036Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $267 today."}
+{"timestamp":"2026-03-05T17:16:25.648Z","type":"scan","message":"Cycle #15 — 1593 markets | 16 active events | $76.3K recent flow | 4 held"}
+{"timestamp":"2026-03-05T17:16:25.648Z","type":"think","message":"Money flowing: \"Will the Iranian regime fall by March 31?\" — $43.8K heavily buying, biggest trade $43.1K, 50s ago"}
+{"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"News: \"NATO/EU troops fighting in Ukraine in June 30, 2026?\" — 8 articles (bearish), \"India seeks US - backed insurance cover for oil tankers as Middle East\""}
+{"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"Whale: \"0xbdb205094a5ac5564e9ff308313241c1a6b9ba0e806bc8f9bc7b…\" — whale_size (1 wallets, $78.0K)"}
+{"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"News: \"Will the Democratic Party control the House after the …\" — 1 articles (bearish), \"What happened in Texas is a warning : advocates say Republicans suppre\""}
+{"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"News: \"Will the Republican Party control the House after the …\" — 1 articles (bullish), \"What happened in Texas is a warning : advocates say Republicans suppre\""}
+{"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 28.5%), 24h vol $11.2K"}
+{"timestamp":"2026-03-05T17:16:25.649Z","type":"think","message":"Sources: 1 crypto, 0 weather, 0 sentiment, 0 nansen, 3/15 news, 1/2 whale"}
+{"timestamp":"2026-03-05T17:16:25.649Z","type":"decision","message":"Flow signal: \"Spread: Nuggets (-4.5)\" — buyers dominating ($5.0K net), 1 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-03-05T17:16:26.179Z","cycle":15,"ingestion":{"markets":1637,"trades":50,"tradeVolume":76319,"midpointsFetched":50},"signals":{"movers1h":22,"movers1d":27,"volumeSpikes":396,"catalysts":6,"deepValue":376,"tightRaces":34,"wideSpread":208,"cryptoData":1,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":2},"tradeFlows":{"count":16,"totalVolume":76319,"avgImbalance":0.966},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":15,"enriched":0,"vetoed":8,"vetoReasons":{"spread too wide":8},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":267,"openPositions":4},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":43479695482.52665,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":33249178898.402725,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":1318247.5985370995,"change":null},{"q":"Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?","type":"tightRaces","score":436120.9988520287,"change":"-1.0%"},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":116333.22977759999,"change":null}]}
+{"timestamp":"2026-03-05T17:16:36.907Z","type":"pnl","message":"Today: $-79.97 (-23.1%) · Portfolio $266 · 4 positions · 8 trades"}
+{"timestamp":"2026-03-05T17:16:26.177Z","type":"palpha","message":"Found 15 potential trades from scanner"}
+{"timestamp":"2026-03-05T17:16:26.177Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
+{"timestamp":"2026-03-05T17:16:26.177Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T17:16:26.177Z","type":"palpha","message":"Evaluated 15 opportunities, 8 vetoed. Spent $267 today."}
+{"timestamp":"2026-03-05T17:16:26.177Z","type":"palpha","message":"  ✗ \"Anduril Industries IPO before 2027?\" — spread too wide: 66.0¢ on 51.0¢ mid (129% > 15% max)"}
+{"timestamp":"2026-03-05T17:16:26.177Z","type":"palpha","message":"  ✗ \"Will the Denver Nuggets win more than 53.5 regular\" — spread too wide: 30.0¢ on 25.0¢ mid (120% > 15% max)"}
+{"timestamp":"2026-03-05T17:16:26.177Z","type":"palpha","message":"  ✗ \"Will the Brooklyn Nets win more than 19.5 regular \" — spread too wide: 27.0¢ on 69.5¢ mid (39% > 15% max)"}
+{"timestamp":"2026-03-05T17:16:26.177Z","type":"palpha","message":"  ✗ \"Will the Houston Rockets win more than 52.5 regula\" — spread too wide: 23.0¢ on 43.5¢ mid (53% > 15% max)"}
+{"timestamp":"2026-03-05T17:16:26.177Z","type":"palpha","message":"  ✗ \"Will the Chicago Bulls win more than 33.5 regular \" — spread too wide: 20.0¢ on 31.0¢ mid (65% > 15% max)"}
+{"timestamp":"2026-03-05T17:16:26.177Z","type":"palpha","message":"  + 7 below top-5 cutoff (no Grok eval)"}
