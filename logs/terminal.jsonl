@@ -1,5 +1,3 @@
-{"timestamp":"2026-03-05T14:25:05.369Z","type":"palpha","message":"5 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T14:25:05.369Z","type":"palpha","message":"[auto-trade] Position cap hit: 5/5 open positions. No new trades until positions close."}
 {"timestamp":"2026-03-05T14:25:05.369Z","type":"palpha","message":"Evaluated 5 opportunities, 5 vetoed. Spent $167 today."}
 {"timestamp":"2026-03-05T14:25:05.369Z","type":"palpha","message":"  ✗ \"Will Kylian Mbappé win the 2026 Ballon d'Or?\" — spread too wide: 5.0¢ on 25.5¢ mid (20% > 15% max)"}
 {"timestamp":"2026-03-05T14:25:05.369Z","type":"palpha","message":"  ✗ \"Will the Democratic Party control the House after \" — NOISE — not enough edge"}
@@ -198,3 +196,5 @@
 {"timestamp":"2026-03-05T15:19:26.771Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $167 today."}
 {"timestamp":"2026-03-05T15:20:33.443Z","type":"crypto-fast","message":"Crypto fast cycle #27 — 11765ms"}
 {"timestamp":"2026-03-05T15:20:22.890Z","type":"palpha","message":"[auto-trade] Cycle 6 already processed. Waiting for next scanner cycle. Daily: $167.00"}
+{"timestamp":"2026-03-05T15:21:33.537Z","type":"crypto-fast","message":"Crypto fast cycle #28 — 11832ms"}
+{"timestamp":"2026-03-05T15:21:22.967Z","type":"palpha","message":"[auto-trade] Cycle 6 already processed. Waiting for next scanner cycle. Daily: $167.00"}
