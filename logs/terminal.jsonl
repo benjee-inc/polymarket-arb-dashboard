@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-05T16:06:57.698Z","type":"trade","message":"No trades this cycle — same-event dedup. Spent $267 today."}
-{"timestamp":"2026-03-05T16:11:26.248Z","type":"scan","message":"Cycle #2 — 1591 markets | 19 active events | $49.4K recent flow | 6 held"}
-{"timestamp":"2026-03-05T16:11:26.249Z","type":"think","message":"Money flowing: \"Will the highest temperature in Toronto be 5°C or high…\" — $12.3K buying, biggest trade $4.6K, 1m ago"}
-{"timestamp":"2026-03-05T16:11:26.249Z","type":"think","message":"News: \"Will the Democratic Party control the House after the …\" — 1 articles (bearish), \"Democratic angst and gerrymandering threaten California political refo\""}
-{"timestamp":"2026-03-05T16:11:26.249Z","type":"think","message":"News: \"Will the Republican Party control the House after the …\" — 1 articles (bullish), \"Democratic angst and gerrymandering threaten California political refo\""}
 {"timestamp":"2026-03-05T16:11:26.249Z","type":"think","message":"News: \"Will the Republican Party control the Senate after the…\" — 1 articles (bullish), \"Democratic angst and gerrymandering threaten California political refo\""}
 {"timestamp":"2026-03-05T16:11:26.249Z","type":"think","message":"News: \"2026 Balance of Power: D Senate, D House\" — 1 articles (bearish), \"Democratic angst and gerrymandering threaten California political refo\""}
 {"timestamp":"2026-03-05T16:11:26.249Z","type":"think","message":"↑ Price shift: \"Will Hezbollah disarm by December 31?\" moved 2.0% since last scan (47.5% → 49.5%)"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
 {"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $267 today."}
+{"timestamp":"2026-03-05T16:43:54.235Z","type":"crypto-fast","message":"Crypto fast cycle #38 — 12666ms"}
+{"timestamp":"2026-03-05T16:43:43.511Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-05T16:43:43.511Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
+{"timestamp":"2026-03-05T16:43:43.511Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T16:43:43.511Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $267 today."}
