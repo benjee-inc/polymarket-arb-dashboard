@@ -1,19 +1,3 @@
-{"timestamp":"2026-03-05T18:57:51.305Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T18:57:51.305Z","type":"palpha","message":"7 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T18:57:51.305Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $2817 today."}
-{"timestamp":"2026-03-05T18:59:05.509Z","type":"crypto-fast","message":"Crypto fast cycle #69 — 16240ms"}
-{"timestamp":"2026-03-05T18:58:51.174Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T18:58:51.174Z","type":"palpha","message":"7 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T18:58:51.174Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $2817 today."}
-{"timestamp":"2026-03-05T19:00:06.039Z","type":"crypto-fast","message":"Crypto fast cycle #70 — 16742ms"}
-{"timestamp":"2026-03-05T18:59:51.193Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T18:59:51.193Z","type":"palpha","message":"7 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T18:59:51.193Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $2817 today."}
-{"timestamp":"2026-03-05T19:00:39.098Z","type":"scan","message":"Cycle #15 — 1590 markets | 14 active events | $33.7K recent flow | 7 held"}
-{"timestamp":"2026-03-05T19:00:39.098Z","type":"think","message":"Money flowing: \"Will Ryan Gerard win the 2026 Arnold Palmer Invitation…\" — $7.8K heavily buying, biggest trade $985, 4m ago"}
-{"timestamp":"2026-03-05T19:00:39.098Z","type":"think","message":"News: \"MicroStrategy sells any Bitcoin by March 31, 2026?\" — 2 articles (neutral), \"Dow Jones drops Nasdaq stays green S & P 500 slips : Dow down 400 poin\""}
-{"timestamp":"2026-03-05T19:00:39.098Z","type":"think","message":"News: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — 2 articles (neutral), \"Dow Jones drops Nasdaq stays green S & P 500 slips : Dow down 400 poin\""}
-{"timestamp":"2026-03-05T19:00:39.098Z","type":"think","message":"News: \"Will Bitcoin hit $150k by March 31, 2026?\" — 2 articles (neutral), \"Dow Jones drops Nasdaq stays green S & P 500 slips : Dow down 400 poin\""}
 {"timestamp":"2026-03-05T19:00:39.098Z","type":"think","message":"News: \"Will Bitcoin hit $150k by June 30, 2026?\" — 2 articles (neutral), \"Dow Jones drops Nasdaq stays green S & P 500 slips : Dow down 400 poin\""}
 {"timestamp":"2026-03-05T19:00:39.098Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 28.0%), 24h vol $11.2K"}
 {"timestamp":"2026-03-05T19:00:39.098Z","type":"think","message":"Sources: 8 crypto, 0 weather, 0 sentiment, 0 nansen, 4/15 news"}
@@ -198,3 +182,19 @@
 {"timestamp":"2026-03-05T19:31:51.329Z","type":"palpha","message":"Found 2 potential trades from scanner"}
 {"timestamp":"2026-03-05T19:31:51.329Z","type":"palpha","message":"0 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T19:31:51.329Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed. Spent $3117 today."}
+{"timestamp":"2026-03-05T19:35:45.951Z","type":"scan","message":"Cycle #1 — 1591 markets | 18 active events | $39.2K recent flow"}
+{"timestamp":"2026-03-05T19:35:45.951Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 5, 2:30PM-2:35PM ET\" — $11.0K heavily buying, biggest trade $2.5K, 48s ago"}
+{"timestamp":"2026-03-05T19:35:45.951Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -3.0% 24h ($1.42), F&G=22"}
+{"timestamp":"2026-03-05T19:35:45.951Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -3.5% 24h ($71,036), F&G=22"}
+{"timestamp":"2026-03-05T19:35:45.951Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -3.5% 24h ($71,036), F&G=22"}
+{"timestamp":"2026-03-05T19:35:45.951Z","type":"think","message":"Crypto data: \"Another S&P 500 Company buys Bitcoin by December 31, 2…\" — BTC -3.5% 24h ($71,036), F&G=22"}
+{"timestamp":"2026-03-05T19:35:45.951Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 28.0%), 24h vol $11.2K"}
+{"timestamp":"2026-03-05T19:35:45.951Z","type":"think","message":"Sources: 4/8 crypto, 0 weather, 0 sentiment, 0 nansen, 0 news"}
+{"timestamp":"2026-03-05T19:35:45.952Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $58,000 on March 6?\" — sellers dominating ($5.0K net), 1 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-03-05T19:36:32.989Z","cycle":1,"ingestion":{"markets":1638,"trades":50,"tradeVolume":39232,"midpointsFetched":50},"signals":{"movers1h":21,"movers1d":27,"volumeSpikes":395,"catalysts":6,"deepValue":369,"tightRaces":36,"wideSpread":199,"cryptoData":8,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":18,"totalVolume":39232,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":3,"enriched":1,"vetoed":2,"vetoReasons":{"spread too wide":1,"low volume":1},"grokCalls":1,"recommendations":{"NOTABLE":1}},"execution":{"tradesExecuted":0,"skipped":1,"skipReasons":{"already held (local fallback)":1},"dailySpend":3117,"openPositions":0},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":43642207319.804085,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":33373452656.32077,"change":null},{"q":"Will Iran close the Strait of Hormuz by March 31?","type":"tightRaces","score":2380990.375289352,"change":"-0.5%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":1318464.948301622,"change":null},{"q":"Paradex FDV above $40M one day after launch?","type":"wideSpread","score":125061.84679195,"change":null}]}
+{"timestamp":"2026-03-05T19:36:43.147Z","type":"pnl","message":"Today: $-87.15 (-26.1%) · Portfolio $247 · 0 positions · 9 trades"}
+{"timestamp":"2026-03-05T19:36:32.985Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-05T19:36:32.985Z","type":"palpha","message":"Betting NO on \"Will PH win the most seats in the 2026 Colombian Senate elec\" — market at 96.0%, Grok thinks 92% (Grok flipped direction)"}
+{"timestamp":"2026-03-05T19:36:32.985Z","type":"palpha","message":"  Why: Latest polls from AtlasIntel (Feb 19-25) and Guarumo-Ecoanalítica (Feb 19-25, updated analysis March 4) show Pacto Histórico (PH) leading Senate vote intention at 28-32% versus Centro Democrático's 17-22%, with projections giving PH 18-21 seats compared to CD's 15-19.515062 Consistent leadership across pollsters and recent X discourse reinforces PH as the frontrunner for most seats, with no contrary primary sources. No breaking news of shifts in the final days before March 8 election."}
+{"timestamp":"2026-03-05T19:36:32.985Z","type":"palpha","message":"0 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T19:36:32.985Z","type":"trade","message":"No trades this cycle — already held (local fallback). Spent $3117 today."}
