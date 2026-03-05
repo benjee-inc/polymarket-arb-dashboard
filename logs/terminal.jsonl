@@ -1,5 +1,3 @@
-{"timestamp":"2026-03-05T14:19:32.089Z","type":"palpha","message":"  ✗ \"Will Kim Dong-yeon win the 2026 Gyeonggi Province \" — spread too wide: 5.0¢ on 32.5¢ mid (15% > 15% max)"}
-{"timestamp":"2026-03-05T14:23:34.956Z","type":"scan","message":"Cycle #9 — 1593 markets | 14 active events | $86.3K recent flow | 5 held"}
 {"timestamp":"2026-03-05T14:23:34.956Z","type":"think","message":"Live flow: \"Will US or Israel strike Iran on March 6, 2026?\" — $15.9K in 1 trades, NET BUY (strong bias), biggest $15.9K, 5m ago"}
 {"timestamp":"2026-03-05T14:23:34.956Z","type":"think","message":"News match: \"Will the Democratic Party control the House after the …\" — 2 articles, 5 keyword hits, tone 0.0 \"Democratic angst and gerrymandering threaten California poli\""}
 {"timestamp":"2026-03-05T14:23:34.956Z","type":"think","message":"News match: \"Will the Republican Party control the House after the …\" — 2 articles, 5 keyword hits, tone 0.0 \"Democratic angst and gerrymandering threaten California poli\""}
@@ -198,3 +196,5 @@
 {"timestamp":"2026-03-05T15:13:54.832Z","type":"palpha","message":"  ✗ \"Will the Houston Rockets win more than 52.5 regula\" — spread too wide: 23.0¢ on 43.5¢ mid (53% > 15% max)"}
 {"timestamp":"2026-03-05T15:13:54.832Z","type":"palpha","message":"  ✗ \"Will the Chicago Bulls win more than 33.5 regular \" — spread too wide: 21.0¢ on 31.5¢ mid (67% > 15% max)"}
 {"timestamp":"2026-03-05T15:13:54.832Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
+{"timestamp":"2026-03-05T15:14:33.706Z","type":"crypto-fast","message":"Crypto fast cycle #21 — 12164ms"}
+{"timestamp":"2026-03-05T15:14:23.241Z","type":"palpha","message":"[auto-trade] Cycle 5 already processed. Waiting for next scanner cycle. Daily: $167.00"}
