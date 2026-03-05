@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-05T22:40:18.906Z","type":"crypto-fast","message":"Crypto fast cycle #141 — 11377ms"}
-{"timestamp":"2026-03-05T22:40:09.208Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T22:40:09.208Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T22:40:09.208Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T22:41:18.921Z","type":"crypto-fast","message":"Crypto fast cycle #142 — 11366ms"}
-{"timestamp":"2026-03-05T22:41:09.124Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T22:41:09.124Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T22:41:09.124Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T22:42:18.564Z","type":"crypto-fast","message":"Crypto fast cycle #143 — 10978ms"}
-{"timestamp":"2026-03-05T22:42:08.961Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T22:42:08.961Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T22:42:08.961Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T22:43:19.418Z","type":"crypto-fast","message":"Crypto fast cycle #144 — 11802ms"}
-{"timestamp":"2026-03-05T22:43:09.257Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T22:43:09.257Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T22:43:09.257Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
 {"timestamp":"2026-03-05T22:44:19.541Z","type":"crypto-fast","message":"Crypto fast cycle #145 — 11895ms"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-05T23:29:10.049Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T23:29:10.049Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T23:29:10.049Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
+{"timestamp":"2026-03-05T23:29:46.657Z","type":"scan","message":"Cycle #39 — 1593 markets | 13 active events | $40.2K recent flow | 3 held"}
+{"timestamp":"2026-03-05T23:29:46.657Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 5, 6:20PM-6:25PM ET\" — $25.7K heavily buying, biggest trade $8.7K, 4m ago"}
+{"timestamp":"2026-03-05T23:29:46.658Z","type":"think","message":"News: \"Will John Cornyn win the 2026 Texas Republican Primary?\" — 1 articles (bullish), \"Trump indicates Cornyn endorsement in Texas GOP Senate primary runoff\""}
+{"timestamp":"2026-03-05T23:29:46.658Z","type":"think","message":"News: \"Will Ken Paxton win the 2026 Texas Republican Primary?\" — 1 articles (bearish), \"Trump indicates Cornyn endorsement in Texas GOP Senate primary runoff\""}
+{"timestamp":"2026-03-05T23:29:46.658Z","type":"think","message":"News: \"Will Dawn Buckingham win the 2026 Texas Republican Pri…\" — 1 articles (bearish), \"Trump indicates Cornyn endorsement in Texas GOP Senate primary runoff\""}
+{"timestamp":"2026-03-05T23:29:46.658Z","type":"think","message":"News: \"Will Beth Van Duyne win the 2026 Texas Republican Prim…\" — 1 articles (bearish), \"Trump indicates Cornyn endorsement in Texas GOP Senate primary runoff\""}
+{"timestamp":"2026-03-05T23:29:46.658Z","type":"think","message":"Wide spread: \"Will John Ratcliffe leave the Trump administration bef…\" — bid 6.0% / ask 71.0% (65.0% spread), liq $67.3K"}
+{"timestamp":"2026-03-05T23:29:46.658Z","type":"think","message":"Sources: 0 crypto, 0 weather, 0 sentiment, 0 nansen, 4/15 news"}
+{"timestamp":"2026-03-05T23:29:46.658Z","type":"decision","message":"Flow signal: \"Spread: Rockets (-9.5)\" — buyers dominating ($2.1K net), 1 traders, 4m ago"}
+{"type":"pipeline","timestamp":"2026-03-05T23:29:47.431Z","cycle":39,"ingestion":{"markets":1640,"trades":50,"tradeVolume":40150,"midpointsFetched":50},"signals":{"movers1h":31,"movers1d":49,"volumeSpikes":483,"catalysts":13,"deepValue":417,"tightRaces":54,"wideSpread":228,"cryptoData":0,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":13,"totalVolume":40150,"avgImbalance":0.989},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":4867,"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":45368240479.26396,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34693360366.495964,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2988623.3501527975,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2160302.9502079245,"change":"-0.5%"},{"q":"Will Julian Assange win the Nobel Peace Prize in 2026?","type":"wideSpread","score":162719.03277924002,"change":null}]}
+{"timestamp":"2026-03-05T23:29:57.311Z","type":"pnl","message":"Today: $-142.71 (-29.9%) · Portfolio $335 · 3 positions · 11 trades"}
+{"timestamp":"2026-03-05T23:29:47.428Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-05T23:29:47.428Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T23:29:47.428Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
