@@ -1,5 +1,3 @@
-{"timestamp":"2026-03-05T14:13:33.809Z","type":"palpha","message":"  ✗ \"Will the Denver Nuggets win more than 53.5 regular\" — spread too wide: 30.0¢ on 25.0¢ mid (120% > 15% max)"}
-{"timestamp":"2026-03-05T14:13:33.809Z","type":"palpha","message":"  ✗ \"Will the Houston Rockets win more than 52.5 regula\" — spread too wide: 23.0¢ on 43.5¢ mid (53% > 15% max)"}
 {"timestamp":"2026-03-05T14:13:33.809Z","type":"palpha","message":"  ✗ \"Will the Brooklyn Nets win more than 19.5 regular \" — spread too wide: 22.0¢ on 72.0¢ mid (31% > 15% max)"}
 {"timestamp":"2026-03-05T14:13:33.809Z","type":"palpha","message":"  ✗ \"SHEIN IPO before 2027?\" — spread too wide: 15.0¢ on 34.5¢ mid (43% > 15% max)"}
 {"timestamp":"2026-03-05T14:13:33.809Z","type":"palpha","message":"  + 3 below top-5 cutoff (no Grok eval)"}
@@ -198,3 +196,5 @@
 {"timestamp":"2026-03-05T15:08:53.267Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T15:08:53.267Z","type":"palpha","message":"5 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T15:08:53.267Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $167 today."}
+{"timestamp":"2026-03-05T15:09:32.694Z","type":"crypto-fast","message":"Crypto fast cycle #16 — 11266ms"}
+{"timestamp":"2026-03-05T15:09:22.599Z","type":"palpha","message":"[auto-trade] Cycle 4 already processed. Waiting for next scanner cycle. Daily: $167.00"}
