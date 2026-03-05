@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-05T21:55:11.793Z","type":"palpha","message":"  Why: GTA VI is confirmed delayed to November 19, 2026, giving Bitcoin about 8.5 months to reach $1M from its current price of around $73,000, requiring a 13.7x increase which exceeds most analyst forecasts topping at $150k-$444k by mid-2026.545041 Recent 'Black Thursday' Dow drop of 1000 points due to Iran conflict and oil crisis has pressured risk assets, with BTC dipping to $63k before partial recovery, signaling short-term headwinds.22"}
-{"timestamp":"2026-03-05T21:55:11.793Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T21:55:11.793Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T21:55:11.793Z","type":"palpha","message":"  ✗ \"Will bitcoin hit $1m before GTA VI?\" — MONITOR — not enough edge"}
-{"timestamp":"2026-03-05T21:56:18.520Z","type":"crypto-fast","message":"Crypto fast cycle #97 — 11913ms"}
-{"timestamp":"2026-03-05T21:56:08.862Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T21:56:08.862Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T21:56:08.862Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T21:57:18.583Z","type":"crypto-fast","message":"Crypto fast cycle #98 — 11958ms"}
-{"timestamp":"2026-03-05T21:57:08.540Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T21:57:08.540Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T21:57:08.540Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T21:58:18.115Z","type":"crypto-fast","message":"Crypto fast cycle #99 — 11460ms"}
-{"timestamp":"2026-03-05T21:58:08.062Z","type":"palpha","message":"Found 1 potential trades from scanner"}
 {"timestamp":"2026-03-05T21:58:08.062Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T21:58:08.062Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $4867 today."}
 {"timestamp":"2026-03-05T21:59:18.051Z","type":"crypto-fast","message":"Crypto fast cycle #100 — 11366ms"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-05T22:30:39.344Z","type":"palpha","message":"  Why: GTA VI is scheduled for November 19, 2026, giving roughly 8 months from now. Pentagon's latest report confirms PLA's goal is Taiwan invasion capability by end-2027, with ISW updates showing naval advancements but no imminent invasion signs. Iran conflict has led to speculation of US distraction, but Pentagon states it won't affect Taiwan munitions, and China's oil imports are vulnerable amid Hormuz threats, likely deterring action. Expert discourse on X and analyses emphasize 2027 timelines, not before late 2026."}
 {"timestamp":"2026-03-05T22:30:39.344Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T22:30:39.345Z","type":"trade","message":"No trades this cycle — insufficient balance. Spent $4867 today."}
+{"timestamp":"2026-03-05T22:34:36.791Z","type":"scan","message":"Cycle #28 — 1595 markets | 15 active events | $36.4K recent flow | 3 held"}
+{"timestamp":"2026-03-05T22:34:36.791Z","type":"think","message":"Money flowing: \"Spread: Nuggets (-4.5)\" — $10.8K heavily buying, biggest trade $1.5K, 2m ago"}
+{"timestamp":"2026-03-05T22:34:36.791Z","type":"think","message":"Whale: \"0x5495e280bc2647c6b6bde53e4874c6504321bc99fb3582d781d0…\" — whale_size (1 wallets, $66.5K)"}
+{"timestamp":"2026-03-05T22:34:36.791Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -3.1% 24h ($1.4), F&G=22"}
+{"timestamp":"2026-03-05T22:34:36.791Z","type":"think","message":"Crypto data: \"US national Ethereum reserve before 2027?\" — ETH -3.5% 24h ($2,079.74), F&G=22"}
+{"timestamp":"2026-03-05T22:34:36.792Z","type":"think","message":"↓ Price shift: \"Epic Games IPO before 2027?\" moved 3.0% since last scan (45.0% → 42.0%)"}
+{"timestamp":"2026-03-05T22:34:36.792Z","type":"think","message":"↓ Daily mover: \"Will St. John’s win the 2025-2026 Big East Men’s Baske…\" ↓33.0% today, ↓25.0% 1w, 24h vol $31.6K"}
+{"timestamp":"2026-03-05T22:34:36.792Z","type":"think","message":"Sources: 2/2 crypto, 0 weather, 0 sentiment, 0 nansen, 0 news, 1/1 whale"}
+{"timestamp":"2026-03-05T22:34:36.792Z","type":"decision","message":"Flow signal: \"Spread: Heat (-12.5)\" — buyers dominating ($6.0K net), 0 traders, 2m ago"}
+{"type":"pipeline","timestamp":"2026-03-05T22:34:37.011Z","cycle":28,"ingestion":{"markets":1640,"trades":50,"tradeVolume":36448,"midpointsFetched":50},"signals":{"movers1h":31,"movers1d":50,"volumeSpikes":488,"catalysts":14,"deepValue":420,"tightRaces":53,"wideSpread":231,"cryptoData":2,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":1},"tradeFlows":{"count":15,"totalVolume":36448,"avgImbalance":0.962},"midShifts":{"count":27,"avgMagnitude":0.0087},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":4867,"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":45383879049.03818,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34705319272.7939,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2954600.877359353,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2176582.78922084,"change":"-0.5%"},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":108973.8564086,"change":null}]}
+{"timestamp":"2026-03-05T22:34:47.723Z","type":"pnl","message":"Today: $-145.91 (-30.6%) · Portfolio $332 · 3 positions · 11 trades"}
+{"timestamp":"2026-03-05T22:34:37.008Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-05T22:34:37.008Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T22:34:37.008Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
