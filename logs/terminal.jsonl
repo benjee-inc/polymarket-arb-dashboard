@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-05T22:09:57.010Z","type":"pnl","message":"Today: $-146.07 (-30.6%) · Portfolio $331 · 3 positions · 11 trades"}
-{"timestamp":"2026-03-05T22:09:46.762Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T22:09:46.762Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T22:09:46.762Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T22:10:18.402Z","type":"crypto-fast","message":"Crypto fast cycle #111 — 11481ms"}
-{"timestamp":"2026-03-05T22:10:08.677Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T22:10:08.677Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T22:10:08.677Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
 {"timestamp":"2026-03-05T22:11:18.700Z","type":"crypto-fast","message":"Crypto fast cycle #112 — 11750ms"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-05T22:49:36.551Z","type":"decision","message":"Flow signal: \"Will US or Israel strike Iran on March 10, 2026?\" — buyers dominating ($32.0K net), 1 traders, 1m ago"}
 {"type":"pipeline","timestamp":"2026-03-05T22:50:19.906Z","cycle":31,"ingestion":{"markets":1640,"trades":50,"tradeVolume":123881,"midpointsFetched":50},"signals":{"movers1h":31,"movers1d":49,"volumeSpikes":489,"catalysts":14,"deepValue":418,"tightRaces":54,"wideSpread":225,"cryptoData":0,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":21,"totalVolume":123881,"avgImbalance":0.912},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":0,"openPositions":0},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":45259900205.05725,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34610511921.514366,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2958153.335047902,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2159892.250876814,"change":"-0.5%"},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":130905.62914799999,"change":null}]}
 {"timestamp":"2026-03-05T22:50:29.643Z","type":"pnl","message":"Today: $-148.68 (-31.1%) · Portfolio $329 · 3 positions · 11 trades"}
+{"timestamp":"2026-03-05T22:50:58.948Z","type":"crypto-fast","message":"Crypto fast cycle #151 — 51208ms"}
+{"timestamp":"2026-03-05T22:50:19.900Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-05T22:50:19.900Z","type":"palpha","message":"Betting YES on \"Will Iran close the Strait of Hormuz by March 31?\" — market at 66.5%, Grok thinks 95%"}
+{"timestamp":"2026-03-05T22:50:19.900Z","type":"palpha","message":"  Why: Iranian IRGC officials declared the Strait of Hormuz closed on March 2, 2026, threatening to attack any passing ships, as reported by Reuters, Al Jazeera, and Times of Israel.527342 Shipping has effectively halted, with traffic dropping 80-100%, tankers anchored, and insurers canceling coverage, per NPR, Guardian, and Hapag-Lloyd statements.53<argument name=\"citation"}
+{"timestamp":"2026-03-05T22:50:19.900Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T22:50:19.900Z","type":"trade","message":"No trades this cycle — insufficient balance. Spent $4867 today."}
