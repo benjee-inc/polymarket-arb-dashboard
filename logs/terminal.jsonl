@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-05T16:53:44.090Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T16:53:44.090Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
-{"timestamp":"2026-03-05T16:53:44.090Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T16:53:44.090Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $267 today."}
-{"timestamp":"2026-03-05T16:54:54.318Z","type":"crypto-fast","message":"Crypto fast cycle #49 — 12515ms"}
 {"timestamp":"2026-03-05T16:54:43.998Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T16:54:43.999Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
 {"timestamp":"2026-03-05T16:54:43.999Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-05T17:23:14.213Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
 {"timestamp":"2026-03-05T17:23:14.213Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T17:23:14.213Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $267 today."}
+{"timestamp":"2026-03-05T17:24:24.325Z","type":"crypto-fast","message":"Crypto fast cycle #5 — 11941ms"}
+{"timestamp":"2026-03-05T17:24:14.189Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-05T17:24:14.189Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
+{"timestamp":"2026-03-05T17:24:14.189Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T17:24:14.189Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $267 today."}
