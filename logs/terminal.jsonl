@@ -1,15 +1,3 @@
-{"timestamp":"2026-03-05T22:20:51.675Z","type":"palpha","message":"  Why: Cook Political Report ratings as of January 2026 show a strongly Republican-favorable map with 16 Solid R, 2 Likely R, 2 Lean R, and only 4 Tossups (2R-held, 2D-held), positioning GOP well to retain their current 53-45 majority.62 Recent Dallas County primary confusion, blamed on new GOP-backed precinct rules, disrupted Democratic voting and may signal organizational weaknesses for Dems in Texas Senate race, where James Talarico won nomination amid chaos hurting rival Crockett.6411 However, Texas remains"}
-{"timestamp":"2026-03-05T22:20:51.675Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T22:20:51.675Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T22:20:51.675Z","type":"palpha","message":"  ✗ \"Will the Democratic Party control the House after \" — NOISE — not enough edge"}
-{"timestamp":"2026-03-05T22:20:51.675Z","type":"palpha","message":"  ✗ \"Will the Democratic Party control the Senate after\" — MONITOR — not enough edge"}
-{"timestamp":"2026-03-05T22:20:51.675Z","type":"palpha","message":"  ✗ \"Will the Republican Party control the Senate after\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-05T22:22:18.953Z","type":"crypto-fast","message":"Crypto fast cycle #123 — 11784ms"}
-{"timestamp":"2026-03-05T22:22:09.315Z","type":"palpha","message":"Found 3 potential trades from scanner"}
-{"timestamp":"2026-03-05T22:22:09.315Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T22:22:09.315Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T22:23:19.430Z","type":"crypto-fast","message":"Crypto fast cycle #124 — 12232ms"}
-{"timestamp":"2026-03-05T22:23:09.081Z","type":"palpha","message":"Found 3 potential trades from scanner"}
 {"timestamp":"2026-03-05T22:23:09.081Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T22:23:09.081Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $4867 today."}
 {"timestamp":"2026-03-05T22:24:18.961Z","type":"crypto-fast","message":"Crypto fast cycle #125 — 11734ms"}
@@ -198,3 +186,15 @@
 {"timestamp":"2026-03-05T22:59:37.054Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T22:59:37.054Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T22:59:37.054Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
+{"timestamp":"2026-03-05T23:04:37.512Z","type":"scan","message":"Cycle #34 — 1594 markets | 15 active events | $62.0K recent flow | 3 held"}
+{"timestamp":"2026-03-05T23:04:37.512Z","type":"think","message":"Money flowing: \"Will Bitcoin reach $150,000 in March?\" — $19.9K heavily selling, biggest trade $10.0K, 8s ago"}
+{"timestamp":"2026-03-05T23:04:37.513Z","type":"think","message":"Whale: \"0x31743c7bb0f88d9399e67cb1b55335b724b273da18ce953cb4d2…\" — whale_size (1 wallets, $65.6K)"}
+{"timestamp":"2026-03-05T23:04:37.513Z","type":"think","message":"↓ Price shift: \"Will Claudia López win the 1st round of the 2026 Colom…\" moved 1.4% since last scan (2.8% → 1.4%)"}
+{"timestamp":"2026-03-05T23:04:37.513Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Viktor Orbá…\" — 37.5% YES, 24h vol $378.1K"}
+{"timestamp":"2026-03-05T23:04:37.513Z","type":"think","message":"Sources: 0 crypto, 0 weather, 0 sentiment, 0 nansen, 0 news, 1/2 whale"}
+{"timestamp":"2026-03-05T23:04:37.513Z","type":"decision","message":"Flow signal: \"Spread: Wizards (-4.5)\" — buyers dominating ($14.8K net), 2 traders, 56s ago"}
+{"type":"pipeline","timestamp":"2026-03-05T23:04:37.726Z","cycle":34,"ingestion":{"markets":1640,"trades":50,"tradeVolume":62034,"midpointsFetched":50},"signals":{"movers1h":31,"movers1d":49,"volumeSpikes":488,"catalysts":13,"deepValue":416,"tightRaces":52,"wideSpread":230,"cryptoData":0,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":2},"tradeFlows":{"count":15,"totalVolume":62034,"avgImbalance":0.982},"midShifts":{"count":14,"avgMagnitude":0.0075},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":4867,"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":45241539201.6735,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34596471154.22091,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2958733.3391579017,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2165962.8277913267,"change":"-0.5%"},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":128372.0431452,"change":null}]}
+{"timestamp":"2026-03-05T23:04:48.580Z","type":"pnl","message":"Today: $-148.07 (-31.0%) · Portfolio $329 · 3 positions · 11 trades"}
+{"timestamp":"2026-03-05T23:04:37.723Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-05T23:04:37.723Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T23:04:37.723Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
