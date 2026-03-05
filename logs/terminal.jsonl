@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-05T16:22:24.559Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T16:22:24.559Z","type":"palpha","message":"Betting NO on \"Will PH win the most seats in the 2026 Colombian Senate elec\" — market at 95.0%, Grok thinks 87% (Grok flipped direction)"}
-{"timestamp":"2026-03-05T16:22:24.559Z","type":"palpha","message":"  Why: Recent polls from AtlasIntel (Feb 19-25, n=6468) show Pacto Histórico (PH) at 28.2% vote intention for Senate, leading Centro Democrático (CD) at 17.6%, with projections of PH securing 20-25 seats out of 108. Guarumo poll (recent, cited March 2026) has PH at 28.7% vs CD 21.9%, confirming PH's lead by 6-11 points across pollsters. User projections and analyses consistently place PH with the most seats due to fragmentation among opponents, despite combined right-wing votes nearing PH in some estimates."}
-{"timestamp":"2026-03-05T16:22:24.559Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-76.66 < -3% of portfolio ($-4.57). NO NEW TRADES."}
-{"timestamp":"2026-03-05T16:22:24.559Z","type":"palpha","message":"5 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T16:22:24.559Z","type":"trade","message":"No trades this cycle — daily loss circuit breaker active. Spent $267 today."}
 {"timestamp":"2026-03-05T16:26:13.380Z","type":"scan","message":"Cycle #5 — 1591 markets | 16 active events | $66.7K recent flow | 4 held"}
 {"timestamp":"2026-03-05T16:26:13.381Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $68,000 on March 5?\" — $21.6K buying, biggest trade $10.0K, 4m ago"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-05T16:54:43.999Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
 {"timestamp":"2026-03-05T16:54:43.999Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T16:54:43.999Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $267 today."}
+{"timestamp":"2026-03-05T16:55:54.320Z","type":"crypto-fast","message":"Crypto fast cycle #50 — 12489ms"}
+{"timestamp":"2026-03-05T16:55:43.762Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-05T16:55:43.762Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
+{"timestamp":"2026-03-05T16:55:43.762Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T16:55:43.762Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $267 today."}
