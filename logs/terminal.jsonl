@@ -1,5 +1,3 @@
-{"timestamp":"2026-03-05T13:58:23.347Z","type":"scan","message":"Cycle #4 — 1594 markets | 17 active events | $31.3K recent flow | 5 held"}
-{"timestamp":"2026-03-05T13:58:23.347Z","type":"think","message":"Live flow: \"Will the price of Ethereum be less than $1,500 on Marc…\" — $4.4K in 1 trades, NET BUY (strong bias), biggest $4.4K, 2m ago"}
 {"timestamp":"2026-03-05T13:58:23.347Z","type":"think","message":"↑ Price shift: \"Will Ivan Cepeda Castro win the 2026 Colombian preside…\" moved 1.5% since last scan (51.0% → 52.5%)"}
 {"timestamp":"2026-03-05T13:58:23.347Z","type":"think","message":"Wide spread: \"Will John Ratcliffe leave the Trump administration bef…\" — bid 6.0% / ask 72.0% (66.0% spread), liq $61.1K"}
 {"timestamp":"2026-03-05T13:58:23.347Z","type":"decision","message":"Flow signal: \"Will Pushpa Kamal Dahal (“Prachanda”) be the next Prim…\" — buyers dominating ($3.5K net), 2 traders, 2m ago"}
@@ -198,3 +196,5 @@
 {"timestamp":"2026-03-05T14:54:53.061Z","type":"palpha","message":"  Why: GTA VI release confirmed for November 19, 2026 by Rockstar Games, giving roughly 8 months timeframe.5354 Latest ISW China-Taiwan update on March 1, 2026 details ongoing tensions including military drills and COC negotiations but no signs of invasion preparations.34 China's economy faces headwinds with GDP growth target below 5% for first time in decades amid real estate crisis and deflation, making a costly amphibious invasion highly risky.<argument name=\"citati"}
 {"timestamp":"2026-03-05T14:54:53.061Z","type":"palpha","message":"5 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T14:54:53.061Z","type":"trade","message":"No trades this cycle — same-event dedup. Spent $167 today."}
+{"timestamp":"2026-03-05T14:55:33.044Z","type":"crypto-fast","message":"Crypto fast cycle #2 — 11863ms"}
+{"timestamp":"2026-03-05T14:55:22.803Z","type":"palpha","message":"[auto-trade] Cycle 1 already processed. Waiting for next scanner cycle. Daily: $167.00"}
