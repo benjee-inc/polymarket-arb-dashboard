@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-05T16:07:08.633Z","type":"pnl","message":"Today: +$37.93 (+15.4%) · Portfolio $284 · 6 positions · 4 trades"}
-{"timestamp":"2026-03-05T16:06:57.696Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T16:06:57.698Z","type":"palpha","message":"Betting NO on \"Will China invades Taiwan before GTA VI?\" — market at 51.5%, Grok thinks 5%"}
-{"timestamp":"2026-03-05T16:06:57.698Z","type":"palpha","message":"  Why: GTA VI release is firmly set for November 19, 2026, giving about 8.5 months from now with no signs of Chinese invasion preparations beyond routine military drills and coercion.604143 Recent Middle East escalation with Iran attacking Azerbaijan and Israel targeting Iranian sites adds global distraction, but Pentagon confirms it won't impact Taiwan munitions, and experts doubt even a 2026 invasion amid China's economic slowdown.44</arg"}
-{"timestamp":"2026-03-05T16:06:57.698Z","type":"palpha","message":"6 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T16:06:57.698Z","type":"trade","message":"No trades this cycle — same-event dedup. Spent $267 today."}
 {"timestamp":"2026-03-05T16:11:26.248Z","type":"scan","message":"Cycle #2 — 1591 markets | 19 active events | $49.4K recent flow | 6 held"}
 {"timestamp":"2026-03-05T16:11:26.249Z","type":"think","message":"Money flowing: \"Will the highest temperature in Toronto be 5°C or high…\" — $12.3K buying, biggest trade $4.6K, 1m ago"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-05T16:42:13.705Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T16:42:13.705Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $267 today."}
 {"timestamp":"2026-03-05T16:42:13.705Z","type":"palpha","message":"  ✗ \"EdgeX FDV above $2B one day after launch?\" — MONITOR — not enough edge"}
+{"timestamp":"2026-03-05T16:42:53.459Z","type":"crypto-fast","message":"Crypto fast cycle #37 — 11918ms"}
+{"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
+{"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T16:42:43.298Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $267 today."}
