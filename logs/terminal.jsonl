@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-05T22:53:09.785Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T22:53:09.785Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T22:54:19.560Z","type":"crypto-fast","message":"Crypto fast cycle #155 — 11732ms"}
-{"timestamp":"2026-03-05T22:54:09.845Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-05T22:54:09.845Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T22:54:09.845Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T22:54:36.797Z","type":"scan","message":"Cycle #32 — 1593 markets | 10 active events | $29.1K recent flow | 3 held"}
-{"timestamp":"2026-03-05T22:54:36.797Z","type":"think","message":"Money flowing: \"Spread: Rockets (-9.5)\" — $7.7K heavily buying, biggest trade $4.0K, 35s ago"}
-{"timestamp":"2026-03-05T22:54:36.797Z","type":"think","message":"Whale: \"0x8eae0c86e128f7a8d5dd4ca7dfdae47b2970c6e55d3e16a404ed…\" — whale_size (1 wallets, $57.8K)"}
 {"timestamp":"2026-03-05T22:54:36.797Z","type":"think","message":"Wide spread: \"Paradex FDV above $40M one day after launch?\" — bid 61.0% / ask 83.9% (22.9% spread), liq $380.2K"}
 {"timestamp":"2026-03-05T22:54:36.797Z","type":"think","message":"Sources: 0 crypto, 0 weather, 0 sentiment, 0 nansen, 0 news, 1/1 whale"}
 {"timestamp":"2026-03-05T22:54:36.797Z","type":"decision","message":"Flow signal: \"Will Tesla be the largest company in the world by mark…\" — sellers dominating ($5.6K net), 1 traders, 2m ago"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-05T23:39:10.415Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T23:39:10.415Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T23:39:10.415Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
+{"timestamp":"2026-03-05T23:39:37.459Z","type":"scan","message":"Cycle #41 — 1593 markets | 15 active events | $48.7K recent flow | 3 held"}
+{"timestamp":"2026-03-05T23:39:37.459Z","type":"think","message":"Money flowing: \"Spread: Wizards (-4.5)\" — $10.7K heavily buying, biggest trade $5.8K, 2m ago"}
+{"timestamp":"2026-03-05T23:39:37.459Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Péter Magya…\" — 61.5% YES, 24h vol $377.7K"}
+{"timestamp":"2026-03-05T23:39:37.459Z","type":"decision","message":"Flow signal: \"Spread: Nuggets (-4.5)\" — buyers dominating ($9.0K net), 1 traders, 3m ago"}
+{"type":"pipeline","timestamp":"2026-03-05T23:39:37.809Z","cycle":41,"ingestion":{"markets":1640,"trades":50,"tradeVolume":48718,"midpointsFetched":50},"signals":{"movers1h":31,"movers1d":49,"volumeSpikes":483,"catalysts":13,"deepValue":417,"tightRaces":53,"wideSpread":230,"cryptoData":0,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":15,"totalVolume":48718,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":4867,"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":45331127124.90736,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34664979566.10562,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3060426.1958411452,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2157095.810153001,"change":"-0.5%"},{"q":"Will Julian Assange win the Nobel Peace Prize in 2026?","type":"wideSpread","score":162928.8651529,"change":null}]}
+{"timestamp":"2026-03-05T23:39:47.939Z","type":"pnl","message":"Today: $-141.29 (-29.6%) · Portfolio $336 · 3 positions · 11 trades"}
+{"timestamp":"2026-03-05T23:39:37.806Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-05T23:39:37.806Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T23:39:37.806Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
