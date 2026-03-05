@@ -1,11 +1,3 @@
-{"timestamp":"2026-03-05T19:41:53.957Z","type":"palpha","message":"Skipped \"Will the Democratic Party control the Senate after the 2026 \" — Grok says 37% vs market 43%, only 6% apart (need 8%+)"}
-{"timestamp":"2026-03-05T19:41:53.957Z","type":"palpha","message":"0 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T19:41:53.958Z","type":"trade","message":"No trades this cycle — already held (local fallback). Spent $3117 today."}
-{"timestamp":"2026-03-05T19:42:23.689Z","type":"crypto-fast","message":"Crypto fast cycle #7 — 11154ms"}
-{"timestamp":"2026-03-05T19:42:14.694Z","type":"palpha","message":"Found 4 potential trades from scanner"}
-{"timestamp":"2026-03-05T19:42:14.694Z","type":"palpha","message":"0 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T19:42:14.694Z","type":"palpha","message":"Evaluated 4 opportunities, 4 vetoed. Spent $3117 today."}
-{"timestamp":"2026-03-05T19:43:23.693Z","type":"crypto-fast","message":"Crypto fast cycle #8 — 11150ms"}
 {"timestamp":"2026-03-05T19:43:14.333Z","type":"palpha","message":"Found 4 potential trades from scanner"}
 {"timestamp":"2026-03-05T19:43:14.334Z","type":"palpha","message":"0 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T19:43:14.334Z","type":"palpha","message":"Evaluated 4 opportunities, 4 vetoed. Spent $3117 today."}
@@ -198,3 +190,11 @@
 {"timestamp":"2026-03-05T20:12:16.180Z","type":"palpha","message":"  Why: No SEC filings, S-1, or official announcements for Epic Games IPO as of March 2026, despite searches for recent developments.5659 Hiring of IPO-experienced General Counsel in January 2026 sparked speculation, but no follow-up actions or statements from CEO Tim Sweeney, who prefers private control for metaverse vision.5866 Strong 2025 Epic Store revenue ($1.16B) and Fortnite growth, but history of private fund"}
 {"timestamp":"2026-03-05T20:12:16.180Z","type":"palpha","message":"1 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T20:12:16.180Z","type":"trade","message":"Bought NO $50 on \"Epic Games IPO before 2027?\" @ 55.0% — Wide spread: 6.0% spread (bid 42.0% / ask 48.0%), limit @ 45.0%"}
+{"timestamp":"2026-03-05T20:12:26.691Z","type":"crypto-fast","message":"Crypto fast cycle #37 — 73652ms"}
+{"timestamp":"2026-03-05T20:11:31.088Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-05T20:11:31.088Z","type":"palpha","message":"Betting NO on \"Epic Games IPO before 2027?\" — market at 45.0%, Grok thinks 20% (Grok flipped direction)"}
+{"timestamp":"2026-03-05T20:11:31.088Z","type":"palpha","message":"  Why: No SEC filings, S-1, or official announcements for Epic Games IPO as of March 2026, despite searches for recent developments.5659 Hiring of IPO-experienced General Counsel in January 2026 sparked speculation, but no follow-up actions or statements from CEO Tim Sweeney, who prefers private control for metaverse vision.5866 Strong 2025 Epic Store revenue ($1.16B) and Fortnite growth, but history of private fund"}
+{"timestamp":"2026-03-05T20:11:31.088Z","type":"palpha","message":"Passed on \"Will Google have the best AI model at the end of June 2026?\" — Grok says 45%, market at 40.5%, not enough edge"}
+{"timestamp":"2026-03-05T20:11:31.088Z","type":"palpha","message":"  Why: As of early March 2026, Google's Gemini 3.1 Pro holds the #1 spot on the Chatbot Arena leaderboard with 1505 Elo, narrowly ahead of Anthropic's Claude Opus 4.6 at 1503 and 1490, per OpenLM.ai data. Other leaderboards like llm-stats.com rank Claude #1 overall but place Gemini 3.1 Pro #2 with strong scores across benchmarks. Google I/O on May 19-20 is expected to unveil significant Gemini updates, bolstering its position by June end, while competitors' next major releases like Claude 5 are rumored for mid-2026 without firm dates."}
+{"timestamp":"2026-03-05T20:11:31.088Z","type":"palpha","message":"1 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T20:11:31.088Z","type":"trade","message":"Bought NO $50 on \"Epic Games IPO before 2027?\" @ 55.0% — Wide spread: 6.0% spread (bid 42.0% / ask 48.0%), limit @ 45.0%"}
