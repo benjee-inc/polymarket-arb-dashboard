@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-05T21:59:08.187Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T21:59:08.187Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T21:59:55.809Z","type":"scan","message":"Cycle #21 — 1594 markets | 11 active events | $39.5K recent flow | 3 held"}
-{"timestamp":"2026-03-05T21:59:55.809Z","type":"think","message":"Money flowing: \"US forces enter Iran by December 31?\" — $9.0K heavily buying, biggest trade $9.0K, 4m ago"}
 {"timestamp":"2026-03-05T21:59:55.812Z","type":"think","message":"News: \"Will China invades Taiwan before GTA VI?\" — 14 articles (bullish), \"US closes embassy in Kuwait after Iranian strikes as war spreads acros\""}
 {"timestamp":"2026-03-05T21:59:55.812Z","type":"think","message":"News: \"Will China invade Taiwan by end of 2026?\" — 14 articles (bullish), \"US closes embassy in Kuwait after Iranian strikes as war spreads acros\""}
 {"timestamp":"2026-03-05T21:59:55.812Z","type":"think","message":"News: \"Will any country leave NATO by June 30, 2026?\" — 17 articles (bullish), \"US closes embassy in Kuwait after Iranian strikes as war spreads acros\""}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-05T22:38:09.037Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T22:38:09.037Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T22:38:09.037Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
+{"timestamp":"2026-03-05T22:39:19.631Z","type":"crypto-fast","message":"Crypto fast cycle #140 — 12103ms"}
+{"timestamp":"2026-03-05T22:39:09.748Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-05T22:39:09.748Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T22:39:09.748Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
