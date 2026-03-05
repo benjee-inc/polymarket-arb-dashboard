@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-05T16:36:33.561Z","type":"pnl","message":"Today: $-79.66 (-23.0%) · Portfolio $267 · 4 positions · 8 trades"}
-{"timestamp":"2026-03-05T16:36:23.311Z","type":"palpha","message":"Found 3 potential trades from scanner"}
-{"timestamp":"2026-03-05T16:36:23.311Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
-{"timestamp":"2026-03-05T16:36:23.311Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T16:36:23.311Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $267 today."}
 {"timestamp":"2026-03-05T16:36:23.311Z","type":"palpha","message":"  ✗ \"U.S. agrees to a new trade deal with \"Mexico\" befo\" — spread too wide: 6.0¢ on 28.0¢ mid (21% > 15% max)"}
 {"timestamp":"2026-03-05T16:36:23.311Z","type":"palpha","message":"  ✗ \"Will Russia capture Kostyantynivka by June 30?\" — low volume: $3.7K 24h (need $10K+)"}
 {"timestamp":"2026-03-05T16:36:23.311Z","type":"palpha","message":"  ✗ \"Will Russia capture Kostyantynivka by April 30?\" — low volume: $3.7K 24h (need $10K+)"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-05T17:07:43.630Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
 {"timestamp":"2026-03-05T17:07:43.630Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T17:07:43.630Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $267 today."}
+{"timestamp":"2026-03-05T17:08:54.389Z","type":"crypto-fast","message":"Crypto fast cycle #63 — 12327ms"}
+{"timestamp":"2026-03-05T17:08:44.063Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-05T17:08:44.063Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
+{"timestamp":"2026-03-05T17:08:44.063Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T17:08:44.063Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $267 today."}
