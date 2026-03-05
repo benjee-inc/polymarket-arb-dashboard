@@ -1,11 +1,3 @@
-{"timestamp":"2026-03-05T17:33:13.934Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed. Spent $267 today."}
-{"timestamp":"2026-03-05T17:34:24.988Z","type":"crypto-fast","message":"Crypto fast cycle #15 — 12402ms"}
-{"timestamp":"2026-03-05T17:34:14.346Z","type":"palpha","message":"Found 2 potential trades from scanner"}
-{"timestamp":"2026-03-05T17:34:14.346Z","type":"palpha","message":"[CIRCUIT BREAKER] Daily realized P&L $-79.22 < -3% of portfolio ($-4.97). NO NEW TRADES."}
-{"timestamp":"2026-03-05T17:34:14.346Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T17:34:14.346Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed. Spent $267 today."}
-{"timestamp":"2026-03-05T17:35:00.668Z","type":"scan","message":"Cycle #4 — 1594 markets | 20 active events | $120.0K recent flow | 4 held"}
-{"timestamp":"2026-03-05T17:35:00.668Z","type":"think","message":"Money flowing: \"Will the Fed decrease interest rates by 25 bps after t…\" — $70.9K heavily buying, biggest trade $22.6K, 3m ago"}
 {"timestamp":"2026-03-05T17:35:00.668Z","type":"think","message":"News: \"Will China invade Taiwan by end of 2026?\" — 3 articles (bearish), \"World War 3 Fears : Chilling Threat To Strike European Ships  By The H\""}
 {"timestamp":"2026-03-05T17:35:00.668Z","type":"think","message":"News: \"Will Russia invade a NATO country by June 30, 2026?\" — 3 articles (bearish), \"World War 3 Fears : Chilling Threat To Strike European Ships  By The H\""}
 {"timestamp":"2026-03-05T17:35:00.668Z","type":"think","message":"News: \"Mike Johnson out as Speaker by March 31?\" — 4 articles (neutral), \"House will vote on an Iran war powers resolution in a test of Trump st\""}
@@ -198,3 +190,11 @@
 {"timestamp":"2026-03-05T18:04:50.074Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T18:04:50.074Z","type":"palpha","message":"7 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T18:04:50.074Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $417 today."}
+{"timestamp":"2026-03-05T18:05:20.399Z","type":"scan","message":"Cycle #4 — 1594 markets | 20 active events | $465.3K recent flow | 7 held"}
+{"timestamp":"2026-03-05T18:05:20.400Z","type":"think","message":"Money flowing: \"Will Paradex launch a token on March 5?\" — $312.1K heavily buying, biggest trade $199.8K, 1m ago"}
+{"timestamp":"2026-03-05T18:05:20.400Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -3.0% 24h ($1.4), F&G=22"}
+{"timestamp":"2026-03-05T18:05:20.400Z","type":"think","message":"Wide spread: \"Anduril Industries IPO before 2027?\" — bid 16.0% / ask 84.0% (68.0% spread), liq $177.2K"}
+{"timestamp":"2026-03-05T18:05:20.400Z","type":"think","message":"Sources: 1/8 crypto, 0 weather, 0 sentiment, 0 nansen, 0 news"}
+{"timestamp":"2026-03-05T18:05:20.400Z","type":"decision","message":"Flow signal: \"Will there be no change in Fed interest rates after th…\" — sellers dominating ($109.1K net), 2 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-03-05T18:06:02.032Z","cycle":4,"ingestion":{"markets":1638,"trades":50,"tradeVolume":465312,"midpointsFetched":50},"signals":{"movers1h":22,"movers1d":27,"volumeSpikes":396,"catalysts":6,"deepValue":376,"tightRaces":35,"wideSpread":220,"cryptoData":8,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":20,"totalVolume":465312,"avgImbalance":0.983},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":0,"openPositions":0},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":43478239358.07809,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":33248065391.471474,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":1318356.5917951234,"change":null},{"q":"Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?","type":"tightRaces","score":436120.9988520287,"change":"-1.0%"},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":120462.166668,"change":null}]}
+{"timestamp":"2026-03-05T18:06:15.885Z","type":"pnl","message":"Today: $-82.90 (-23.9%) · Portfolio $264 · 7 positions · 8 trades"}
