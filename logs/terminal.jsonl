@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-05T22:58:19.311Z","type":"crypto-fast","message":"Crypto fast cycle #159 — 11402ms"}
-{"timestamp":"2026-03-05T22:58:09.575Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T22:58:09.575Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T22:58:09.575Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T22:59:19.154Z","type":"crypto-fast","message":"Crypto fast cycle #160 — 11215ms"}
-{"timestamp":"2026-03-05T22:59:09.485Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T22:59:09.485Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T22:59:09.485Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T22:59:36.704Z","type":"scan","message":"Cycle #33 — 1594 markets | 10 active events | $83.3K recent flow | 3 held"}
 {"timestamp":"2026-03-05T22:59:36.704Z","type":"think","message":"Money flowing: \"Will US or Israel strike Iran on March 6, 2026?\" — $50.0K heavily buying, biggest trade $50.0K, 47s ago"}
 {"timestamp":"2026-03-05T22:59:36.704Z","type":"think","message":"Deep value: \"Will Kim Kardashian win the 2028 Democratic presidenti…\" — Yes @ 0.9¢, liq $43.1M, 24h vol $6.6M"}
 {"timestamp":"2026-03-05T22:59:36.704Z","type":"decision","message":"Flow signal: \"Spread: Rockets (-8.5)\" — buyers dominating ($9.0K net), 5 traders, 17s ago"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-05T23:44:10.810Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T23:44:10.810Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T23:44:10.810Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
+{"timestamp":"2026-03-05T23:44:36.879Z","type":"scan","message":"Cycle #42 — 1593 markets | 11 active events | $55.1K recent flow | 3 held"}
+{"timestamp":"2026-03-05T23:44:36.879Z","type":"think","message":"Money flowing: \"Spread: Timberwolves (-5.5)\" — $12.6K heavily buying, biggest trade $1.5K, 3m ago"}
+{"timestamp":"2026-03-05T23:44:36.879Z","type":"think","message":"↓ Daily mover: \"Will St. John’s win the 2025-2026 Big East Men’s Baske…\" ↓33.0% today, ↓25.0% 1w, 24h vol $36.0K"}
+{"timestamp":"2026-03-05T23:44:36.879Z","type":"decision","message":"Flow signal: \"Will Mojtaba Khamenei be the next Supreme Leader of Ir…\" — buyers dominating ($2.6K net), 1 traders, 3m ago"}
+{"type":"pipeline","timestamp":"2026-03-05T23:44:37.210Z","cycle":42,"ingestion":{"markets":1640,"trades":50,"tradeVolume":55139,"midpointsFetched":50},"signals":{"movers1h":31,"movers1d":49,"volumeSpikes":483,"catalysts":13,"deepValue":417,"tightRaces":52,"wideSpread":228,"cryptoData":0,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":11,"totalVolume":55139,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":4867,"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":45300350679.84365,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34641444637.527504,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3063499.1328237955,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2157118.428372891,"change":"-0.5%"},{"q":"Will Julian Assange win the Nobel Peace Prize in 2026?","type":"wideSpread","score":160686.93022538,"change":null}]}
+{"timestamp":"2026-03-05T23:44:46.900Z","type":"pnl","message":"Today: $-140.67 (-29.5%) · Portfolio $337 · 3 positions · 11 trades"}
+{"timestamp":"2026-03-05T23:44:37.204Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-05T23:44:37.204Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-05T23:44:37.204Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
