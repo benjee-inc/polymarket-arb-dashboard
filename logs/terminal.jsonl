@@ -1,20 +1,3 @@
-{"timestamp":"2026-03-06T22:28:47.159Z","type":"trade","message":"TAKE PROFIT: Sold \"Bitcoin Up or Down - March 6, 5:15PM-5:30PM ET\" — 53 shares @ 50.5¢ (+36%) for $16.99 (P&L: $-2.74)"}
-{"timestamp":"2026-03-06T22:28:51.679Z","type":"trade","message":"TAKE PROFIT: Sold \"Ethereum Up or Down - March 6, 5:15PM-5:30PM ET\" — 35 shares @ 50.5¢ (+80%) for $16.55 (P&L: +$6.66)"}
-{"timestamp":"2026-03-06T22:28:35.610Z","type":"palpha","message":"[held] 14 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T22:28:35.610Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T22:28:35.610Z","type":"palpha","message":"6 active positions (8 dust ignored)"}
-{"timestamp":"2026-03-06T22:28:35.610Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T22:29:06.109Z","type":"scan","message":"Cycle #2 — 1584 markets | 14 active events | $35.3K recent flow | 4 held"}
-{"timestamp":"2026-03-06T22:29:06.110Z","type":"think","message":"Money flowing: \"Will Iran strike Israel on March 6?\" — $4.9K heavily buying, biggest trade $3.8K, 2m ago"}
-{"timestamp":"2026-03-06T22:29:06.110Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T22:29:06.110Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — BTC -4.1% 24h ($68,296), F&G=18"}
-{"timestamp":"2026-03-06T22:29:06.110Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — BTC -4.1% 24h ($68,296), F&G=18"}
-{"timestamp":"2026-03-06T22:29:06.110Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -4.1% 24h ($68,296), F&G=18"}
-{"timestamp":"2026-03-06T22:29:06.110Z","type":"think","message":"Volume surge: \"ByteDance IPO before 2027?\" — $30.2K in 24h (4550% of lifetime), price 14.5%"}
-{"timestamp":"2026-03-06T22:29:06.110Z","type":"think","message":"Sources: 3/8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-06T22:29:06.110Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 5:25PM-5:30PM ET\" — buyers dominating ($3.3K net), 2 traders, 1m ago"}
-{"type":"pipeline","timestamp":"2026-03-06T22:29:06.496Z","cycle":2,"ingestion":{"markets":1637,"trades":50,"tradeVolume":35304,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":52,"volumeSpikes":505,"catalysts":12,"deepValue":465,"tightRaces":49,"wideSpread":220,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":14,"totalVolume":35304,"avgImbalance":0.925},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":4},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38067066979.20689,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38067066979.20689,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5732483.597203134,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":756622.9034340844,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":118642.9672832,"change":null}]}
-{"timestamp":"2026-03-06T22:29:23.488Z","type":"pnl","message":"Today: $-520.51 (-58.7%) · Portfolio $367 · 4 positions · 24 trades"}
 {"timestamp":"2026-03-06T22:29:06.491Z","type":"palpha","message":"[held] 12 positions excluded from opportunity search"}
 {"timestamp":"2026-03-06T22:29:06.491Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T22:29:06.491Z","type":"palpha","message":"4 active positions (8 dust ignored)"}
@@ -210,3 +193,8 @@
 {"timestamp":"2026-03-06T22:54:12.837Z","type":"palpha","message":"4 active positions (10 dust ignored)"}
 {"timestamp":"2026-03-06T22:54:12.837Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
 {"timestamp":"2026-03-06T22:54:12.837Z","type":"palpha","message":"  ✗ \"XRP Up or Down - March 6, 5:45PM-6:00PM ET\" — MONITOR — not enough edge"}
+{"timestamp":"2026-03-06T22:54:54.821Z","type":"crypto-fast","message":"Crypto fast cycle #31 — 20118ms"}
+{"timestamp":"2026-03-06T22:54:36.017Z","type":"palpha","message":"[held] 14 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T22:54:36.017Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T22:54:36.017Z","type":"palpha","message":"4 active positions (10 dust ignored)"}
+{"timestamp":"2026-03-06T22:54:36.017Z","type":"trade","message":"No trades this cycle — not ACTIONABLE/NOTABLE (_palphaRec=none)."}
