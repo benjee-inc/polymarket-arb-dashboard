@@ -699,8 +699,8 @@ function renderLogs() {
 function renderPositions() {
   const visible = positions.filter(p => {
     const calc = calcPositionPnl(p);
-    // Show resolved positions (redeemable) so user sees final outcome
-    if (p.redeemable) return calc.size > 0;
+    // Resolved positions belong on the CLOSED tab, not here
+    if (p.redeemable) return false;
     // Hide: dust (price < 1¢), resolved winners (price >= 99¢), low value (< $2)
     return calc.value >= 2 && calc.livePrice >= 0.01 && calc.livePrice < 0.99;
   });
