@@ -1,19 +1,3 @@
-{"timestamp":"2026-03-06T04:49:37.375Z","type":"scan","message":"Cycle #103 — 1590 markets | 16 active events | $33.4K recent flow | 3 held"}
-{"timestamp":"2026-03-06T04:49:37.375Z","type":"think","message":"Money flowing: \"Will Moonshot have the best AI model at the end of Mar…\" — $3.3K heavily buying, biggest trade $2.8K, 2m ago"}
-{"timestamp":"2026-03-06T04:49:37.375Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -3.3% 24h ($70,542), F&G=18"}
-{"timestamp":"2026-03-06T04:49:37.375Z","type":"think","message":"Deep value: \"Will Jasmine Crockett win the 2028 Democratic presiden…\" — Yes @ 0.8¢, liq $43.0M, 24h vol $5.8M"}
-{"timestamp":"2026-03-06T04:49:37.375Z","type":"think","message":"Sources: 1/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-06T04:49:37.375Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 5, 11:45PM-12:00AM ET\" — buyers dominating ($3.2K net), 2 traders, 3m ago"}
-{"type":"pipeline","timestamp":"2026-03-06T04:49:37.697Z","cycle":103,"ingestion":{"markets":1640,"trades":50,"tradeVolume":33450,"midpointsFetched":50},"signals":{"movers1h":28,"movers1d":47,"volumeSpikes":471,"catalysts":13,"deepValue":432,"tightRaces":47,"wideSpread":191,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":16,"totalVolume":33450,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38771393087.94239,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34210052724.655052,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2886574.9538477883,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2177946.7709465,"change":"-0.5%"},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":132784.78266,"change":null}]}
-{"timestamp":"2026-03-06T04:49:47.689Z","type":"pnl","message":"Today: $-696.73 (-67.5%) · Portfolio $335 · 3 positions · 8 trades"}
-{"timestamp":"2026-03-06T04:49:37.695Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T04:49:37.695Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T04:49:37.695Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T04:50:27.261Z","type":"crypto-fast","message":"Crypto fast cycle #511 — 11579ms"}
-{"timestamp":"2026-03-06T04:50:17.614Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T04:50:17.614Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T04:50:17.614Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T04:51:27.219Z","type":"crypto-fast","message":"Crypto fast cycle #512 — 11510ms"}
 {"timestamp":"2026-03-06T04:51:17.636Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T04:51:17.636Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T04:51:17.636Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
@@ -198,3 +182,19 @@
 {"timestamp":"2026-03-06T05:29:37.889Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T05:29:37.889Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T05:29:37.889Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T05:34:36.897Z","type":"scan","message":"Cycle #112 — 1590 markets | 12 active events | $19.8K recent flow | 3 held"}
+{"timestamp":"2026-03-06T05:34:36.897Z","type":"think","message":"Money flowing: \"Will MrBeast win the 2028 Democratic presidential nomi…\" — $5.0K heavily selling, biggest trade $1.3K, 21s ago"}
+{"timestamp":"2026-03-06T05:34:36.897Z","type":"think","message":"Whale: \"0x2e1a808849d0d43e8c8cc36a5ed74604e0823aee4bd357b636b6…\" — whale_size (1 wallets, $67.3K)"}
+{"timestamp":"2026-03-06T05:34:36.897Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -2.8% 24h ($70,470), F&G=18"}
+{"timestamp":"2026-03-06T05:34:36.897Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -2.8% 24h ($70,470), F&G=18"}
+{"timestamp":"2026-03-06T05:34:36.897Z","type":"think","message":"↓ Price shift: \"Will Trump visit China by March 31?\" moved 1.7% since last scan (52.6% → 50.9%)"}
+{"timestamp":"2026-03-06T05:34:36.897Z","type":"think","message":"↓ Daily mover: \"Will St. John’s win the 2025-2026 Big East Men’s Baske…\" ↓33.0% today, ↓25.0% 1w, 24h vol $37.0K"}
+{"timestamp":"2026-03-06T05:34:36.897Z","type":"think","message":"Sources: 2/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news, 1/1 whale"}
+{"timestamp":"2026-03-06T05:34:36.897Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h, now 19.5%, vol $6.3K"}
+{"type":"pipeline","timestamp":"2026-03-06T05:34:42.527Z","cycle":112,"ingestion":{"markets":1638,"trades":50,"tradeVolume":19785,"midpointsFetched":50},"signals":{"movers1h":28,"movers1d":48,"volumeSpikes":472,"catalysts":13,"deepValue":439,"tightRaces":49,"wideSpread":198,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":1},"tradeFlows":{"count":12,"totalVolume":19785,"avgImbalance":0.905},"midShifts":{"count":12,"avgMagnitude":0.0077},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38756475730.01753,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34196890350.015465,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2970355.766804077,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2175199.1741220835,"change":"-0.5%"},{"q":"Paradex FDV above $40M one day after launch?","type":"wideSpread","score":209045.39746932,"change":null}]}
+{"timestamp":"2026-03-06T05:34:53.036Z","type":"pnl","message":"Today: $-694.39 (-67.3%) · Portfolio $338 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T05:34:42.521Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T05:34:42.521Z","type":"palpha","message":"Passed on \"New Playboi Carti Album before GTA VI?\" — no Grok data available"}
+{"timestamp":"2026-03-06T05:34:42.521Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T05:34:42.521Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T05:34:42.521Z","type":"palpha","message":"  ✗ \"New Playboi Carti Album before GTA VI?\" — NOISE — not enough edge"}
