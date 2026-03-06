@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-06T23:21:15.762Z","type":"pnl","message":"Today: $-569.95 (-68.5%) · Portfolio $262 · 0 positions · 26 trades"}
-{"timestamp":"2026-03-06T23:20:55.854Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T23:20:55.854Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T23:20:55.854Z","type":"palpha","message":"Betting YES on \"Will Iran close the Strait of Hormuz by March 31?\" — market at 81.5%, Grok thinks 92%"}
-{"timestamp":"2026-03-06T23:20:55.854Z","type":"palpha","message":"  Why: Iran's IRGC senior official declared the Strait of Hormuz closed on March 2, stating they will attack any ship attempting passage, following US/Israeli strikes. Shipping data confirms near-total standstill: only 9 commercial ships crossed since Monday, no oil tankers in 24h, 95% traffic drop due to threats, jamming, and strikes on 5 tankers."}
 {"timestamp":"2026-03-06T23:20:55.854Z","type":"palpha","message":"0 active positions (11 dust ignored)"}
 {"timestamp":"2026-03-06T23:20:55.855Z","type":"trade","message":"No trades this cycle — already held (local state)."}
 {"timestamp":"2026-03-06T23:24:34.894Z","type":"crypto-fast","message":"Crypto fast cycle #15 — 62954ms"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T23:49:40.013Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T23:49:40.013Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
 {"timestamp":"2026-03-06T23:49:40.013Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T23:51:01.540Z","type":"crypto-fast","message":"Crypto fast cycle #24 — 23010ms"}
+{"timestamp":"2026-03-06T23:50:40.338Z","type":"palpha","message":"[held] 12 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T23:50:40.338Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T23:50:40.338Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
+{"timestamp":"2026-03-06T23:50:40.338Z","type":"trade","message":"No trades this cycle — not ACTIONABLE/NOTABLE (_palphaRec=none)."}
