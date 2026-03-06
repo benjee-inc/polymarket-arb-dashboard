@@ -1,14 +1,3 @@
-{"timestamp":"2026-03-06T12:25:55.677Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T12:27:04.895Z","type":"crypto-fast","message":"Crypto fast cycle #3 — 11525ms"}
-{"timestamp":"2026-03-06T12:26:55.051Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:26:55.051Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:26:55.051Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T12:28:05.327Z","type":"crypto-fast","message":"Crypto fast cycle #4 — 11955ms"}
-{"timestamp":"2026-03-06T12:27:55.146Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:27:55.146Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:27:55.146Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T12:29:05.072Z","type":"crypto-fast","message":"Crypto fast cycle #5 — 11670ms"}
-{"timestamp":"2026-03-06T12:28:55.372Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T12:28:55.372Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T12:28:55.372Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-06T12:29:25.761Z","type":"scan","message":"Cycle #2 — 1585 markets | 20 active events | $64.7K recent flow | 3 held"}
@@ -198,3 +187,14 @@
 {"timestamp":"2026-03-06T13:06:07.908Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T13:06:07.908Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T13:06:07.908Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T13:06:37.959Z","type":"scan","message":"Cycle #6 — 1584 markets | 12 active events | $59.9K recent flow | 3 held"}
+{"timestamp":"2026-03-06T13:06:37.960Z","type":"think","message":"Money flowing: \"Will the next Prime Minister of Hungary be István Kapi…\" — $9.1K heavily buying, biggest trade $1.5K, 3m ago"}
+{"timestamp":"2026-03-06T13:06:37.960Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T13:06:37.960Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.6% YES, 24h vol $4.0M"}
+{"timestamp":"2026-03-06T13:06:37.960Z","type":"think","message":"Sources: 8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news"}
+{"timestamp":"2026-03-06T13:06:37.960Z","type":"decision","message":"Flow signal: \"Will Crude Oil (CL) hit (HIGH) $150 by end of March?\" — buyers dominating ($7.0K net), 1 traders, 4m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T13:06:38.304Z","cycle":6,"ingestion":{"markets":1636,"trades":50,"tradeVolume":59903,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":54,"volumeSpikes":548,"catalysts":12,"deepValue":464,"tightRaces":50,"wideSpread":213,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":12,"totalVolume":59903,"avgImbalance":0.952},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38041883161.64123,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38041883161.64123,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3979799.5606721034,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":783247.4933741271,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":124228.7904576,"change":null}]}
+{"timestamp":"2026-03-06T13:06:48.456Z","type":"pnl","message":"Today: $-695.47 (-67.4%) · Portfolio $337 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T13:06:38.300Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T13:06:38.300Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T13:06:38.300Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
