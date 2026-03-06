@@ -1,10 +1,3 @@
-{"timestamp":"2026-03-06T20:51:13.142Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T20:51:13.142Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T20:51:13.142Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T20:51:43.007Z","type":"scan","message":"Cycle #14 — 1587 markets | 16 active events | $74.7K recent flow | 4 held"}
-{"timestamp":"2026-03-06T20:51:43.007Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $60,000 on March 7?\" — $47.5K heavily buying, biggest trade $47.5K, 2m ago"}
-{"timestamp":"2026-03-06T20:51:43.007Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T20:51:43.007Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -4.3% 24h ($68,085), F&G=18"}
 {"timestamp":"2026-03-06T20:51:43.007Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -4.3% 24h ($68,085), F&G=18"}
 {"timestamp":"2026-03-06T20:51:43.007Z","type":"think","message":"↓ Daily mover: \"Will St. John’s win the 2025-2026 Big East Men’s Baske…\" ↓33.0% today, ↓25.0% 1w, 24h vol $29.5K"}
 {"timestamp":"2026-03-06T20:51:43.007Z","type":"think","message":"Sources: 2/8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news"}
@@ -198,3 +191,10 @@
 {"timestamp":"2026-03-06T21:16:58.367Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T21:16:58.367Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
 {"timestamp":"2026-03-06T21:16:58.367Z","type":"palpha","message":"  ✗ \"Will the Democratic Party control the Senate after\" — low volume: $5.9K 24h (need $10K+)"}
+{"timestamp":"2026-03-06T21:21:39.335Z","type":"crypto-fast","message":"Crypto fast cycle #95 — 27066ms"}
+{"timestamp":"2026-03-06T21:21:23.993Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T21:21:23.993Z","type":"palpha","message":"Found 4 potential trades from scanner"}
+{"timestamp":"2026-03-06T21:21:23.993Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 6, 4:15PM-4:30PM ET\" — no Grok data available"}
+{"timestamp":"2026-03-06T21:21:23.993Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 6, 4:15PM-4:30PM ET\" — no Grok data available"}
+{"timestamp":"2026-03-06T21:21:23.993Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T21:21:23.993Z","type":"trade","message":"No trades this cycle — not ACTIONABLE/NOTABLE (_palphaRec=none)."}
