@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T06:49:50.563Z","type":"scan","message":"Cycle #127 — 1588 markets | 25 active events | $70.4K recent flow | 3 held"}
-{"timestamp":"2026-03-06T06:49:50.563Z","type":"think","message":"Money flowing: \"Will Bitcoin reach $100,000 in March?\" — $22.7K heavily buying, biggest trade $22.7K, 2m ago"}
-{"timestamp":"2026-03-06T06:49:50.563Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by March 31, 2026?\" — 25 articles (bearish), \"战火延烧整一周 ： 美军将升级军事行动 ， 伊朗姿态保持强硬 冲突长期化扩大化 _ 军事频道 _ 中华网\""}
-{"timestamp":"2026-03-06T06:49:50.563Z","type":"think","message":"News: \"NATO/EU troops fighting in Ukraine in June 30, 2026?\" — 25 articles (bullish), \"战火延烧整一周 ： 美军将升级军事行动 ， 伊朗姿态保持强硬 冲突长期化扩大化 _ 军事频道 _ 中华网\""}
 {"timestamp":"2026-03-06T06:49:50.563Z","type":"think","message":"Sentiment: \"Will no Fed rate cuts happen in 2026?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T06:49:50.563Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 30.0%), 24h vol $14.4K"}
 {"timestamp":"2026-03-06T06:49:50.564Z","type":"think","message":"Sources: 0 crypto, 0 weather, 1/5 sentiment, 0 nansen, 2/5 news"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T07:26:21.031Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T07:26:21.031Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T07:26:21.031Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T07:27:30.869Z","type":"crypto-fast","message":"Crypto fast cycle #668 — 11485ms"}
+{"timestamp":"2026-03-06T07:27:20.970Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T07:27:20.970Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T07:27:20.970Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
