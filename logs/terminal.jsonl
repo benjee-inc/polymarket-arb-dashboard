@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-06T14:37:38.628Z","type":"scan","message":"Cycle #4 — 1585 markets | 18 active events | $75.1K recent flow | 3 held"}
-{"timestamp":"2026-03-06T14:37:38.628Z","type":"think","message":"Money flowing: \"US x Iran ceasefire by March 15?\" — $27.7K heavily selling, biggest trade $27.7K, 4m ago"}
-{"timestamp":"2026-03-06T14:37:38.628Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T14:37:38.628Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -5.5% 24h ($68,618), F&G=18"}
-{"timestamp":"2026-03-06T14:37:38.628Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -5.5% 24h ($68,618), F&G=18"}
 {"timestamp":"2026-03-06T14:37:38.628Z","type":"think","message":"Wide spread: \"Anduril Industries IPO before 2027?\" — bid 12.0% / ask 84.0% (72.0% spread), liq $191.4K"}
 {"timestamp":"2026-03-06T14:37:38.629Z","type":"think","message":"Sources: 2/8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news"}
 {"timestamp":"2026-03-06T14:37:38.629Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 9:30AM-9:35AM ET\" — buyers dominating ($3.8K net), 3 traders, 4m ago"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T15:08:22.581Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T15:08:22.581Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T15:08:22.581Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T15:09:32.036Z","type":"crypto-fast","message":"Crypto fast cycle #5 — 11360ms"}
+{"timestamp":"2026-03-06T15:09:22.273Z","type":"palpha","message":"[held] 8 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T15:09:22.274Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T15:09:22.274Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T15:09:22.274Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
