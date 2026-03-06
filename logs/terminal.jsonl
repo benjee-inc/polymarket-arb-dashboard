@@ -1,15 +1,3 @@
-{"timestamp":"2026-03-05T23:29:47.428Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T23:29:47.428Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T23:32:20.727Z","type":"crypto-fast","message":"Crypto fast cycle #193 — 12078ms"}
-{"timestamp":"2026-03-05T23:32:10.639Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T23:32:10.639Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T23:32:10.639Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T23:33:20.481Z","type":"crypto-fast","message":"Crypto fast cycle #194 — 11804ms"}
-{"timestamp":"2026-03-05T23:33:10.310Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T23:33:10.310Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T23:33:10.310Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T23:34:19.967Z","type":"crypto-fast","message":"Crypto fast cycle #195 — 11262ms"}
-{"timestamp":"2026-03-05T23:34:10.243Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-05T23:34:10.243Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-05T23:34:10.243Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
 {"timestamp":"2026-03-05T23:34:37.143Z","type":"scan","message":"Cycle #40 — 1593 markets | 12 active events | $72.5K recent flow | 3 held"}
@@ -198,3 +186,15 @@
 {"timestamp":"2026-03-06T00:09:11.672Z","type":"palpha","message":"Found 1 potential trades from scanner"}
 {"timestamp":"2026-03-06T00:09:11.672Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T00:09:11.672Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $0 today."}
+{"timestamp":"2026-03-06T00:09:50.311Z","type":"scan","message":"Cycle #47 — 1594 markets | 17 active events | $133.2K recent flow | 3 held"}
+{"timestamp":"2026-03-06T00:09:50.311Z","type":"think","message":"Money flowing: \"Spread: Wizards (-3.5)\" — $104.8K heavily buying, biggest trade $28.8K, 31s ago"}
+{"timestamp":"2026-03-06T00:09:50.311Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T00:09:50.311Z","type":"think","message":"News: \"US x Russia military clash by June 30, 2026?\" — 2 articles (bullish), \"US closes embassy in Kuwait after Iranian strikes as war spreads acros\""}
+{"timestamp":"2026-03-06T00:09:50.311Z","type":"think","message":"News: \"US x Russia military clash by December 31, 2026?\" — 2 articles (bullish), \"US closes embassy in Kuwait after Iranian strikes as war spreads acros\""}
+{"timestamp":"2026-03-06T00:09:50.311Z","type":"think","message":"News: \"Will Russia invade a NATO country by June 30, 2026?\" — 2 articles (bullish), \"US closes embassy in Kuwait after Iranian strikes as war spreads acros\""}
+{"timestamp":"2026-03-06T00:09:50.312Z","type":"think","message":"Deep value: \"Will Jared Polis win the 2028 Democratic presidential …\" — Yes @ 0.9¢, liq $43.2M, 24h vol $6.3M"}
+{"timestamp":"2026-03-06T00:09:50.312Z","type":"think","message":"Sources: 0 crypto, 0 weather, 1/5 sentiment, 0 nansen, 3/14 news"}
+{"timestamp":"2026-03-06T00:09:50.312Z","type":"decision","message":"Flow signal: \"Will France, UK, or Germany strike Iran by March 31?\" — buyers dominating ($6.8K net), 1 traders, 35s ago"}
+{"type":"pipeline","timestamp":"2026-03-06T00:10:42.381Z","cycle":47,"ingestion":{"markets":1640,"trades":50,"tradeVolume":133243,"midpointsFetched":50},"signals":{"movers1h":32,"movers1d":49,"volumeSpikes":485,"catalysts":14,"deepValue":416,"tightRaces":53,"wideSpread":231,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":17,"totalVolume":133243,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":0,"openPositions":0},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":42025952828.124596,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34609608211.39673,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3058749.448923397,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2154727.5889767637,"change":"-0.5%"},{"q":"Will Julian Assange win the Nobel Peace Prize in 2026?","type":"wideSpread","score":161858.76408372002,"change":null}]}
+{"timestamp":"2026-03-06T00:10:47.167Z","type":"trade","message":"TAKE PROFIT: Sold \"Will Iran close the Strait of Hormuz by June 30?\" — 135 shares @ 81.2¢ (+10%) for $0.00 (P&L: $-99.61)"}
+{"timestamp":"2026-03-06T00:10:54.661Z","type":"pnl","message":"Today: $-385.95 (-46.3%) · Portfolio $447 · 3 positions · 5 trades"}
