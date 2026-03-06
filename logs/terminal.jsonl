@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-06T21:06:42.776Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — BTC -4.5% 24h ($68,150), F&G=18"}
-{"timestamp":"2026-03-06T21:06:42.776Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -4.2% 24h ($1.36), F&G=18"}
-{"timestamp":"2026-03-06T21:06:42.776Z","type":"think","message":"Crypto data: \"US national Bitcoin reserve before 2027?\" — BTC -4.5% 24h ($68,150), F&G=18"}
-{"timestamp":"2026-03-06T21:06:42.776Z","type":"think","message":"Crypto data: \"Bitcoin more valuable than any company before 2027?\" — BTC -4.5% 24h ($68,150), F&G=18"}
-{"timestamp":"2026-03-06T21:06:42.776Z","type":"think","message":"Catalyst: \"Will UConn win the 2025-2026 Big East Men’s Basketball…\" — 3h to resolution, 54.5% YES, ↓6.0% this hour, vol $29.5K"}
 {"timestamp":"2026-03-06T21:06:42.777Z","type":"think","message":"Sources: 4/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
 {"timestamp":"2026-03-06T21:06:42.777Z","type":"decision","message":"Hourly momentum: \"Will the Starship for SpaceX Starship Flight Test 12 a…\" ↓8.0% in 1h, now 63.5%, vol $9.1K"}
 {"type":"pipeline","timestamp":"2026-03-06T21:06:48.448Z","cycle":17,"ingestion":{"markets":1637,"trades":50,"tradeVolume":24481,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":53,"volumeSpikes":510,"catalysts":12,"deepValue":463,"tightRaces":48,"wideSpread":223,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":15,"totalVolume":24481,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":4},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38111171791.57045,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38111171791.57045,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5757719.740729413,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":816187.3065015174,"change":null},{"q":"Will Eric Swalwell win the California Governor Election in 2026?","type":"wideSpread","score":129470.738055,"change":null}]}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T21:35:29.293Z","type":"crypto-fast","message":"Crypto fast cycle #109 — 16776ms"}
+{"timestamp":"2026-03-06T21:35:14.459Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T21:35:14.459Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T21:35:14.459Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T21:35:14.459Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
