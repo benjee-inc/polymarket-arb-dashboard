@@ -1,13 +1,3 @@
-{"timestamp":"2026-03-06T00:22:11.648Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $0 today."}
-{"timestamp":"2026-03-06T00:23:20.909Z","type":"crypto-fast","message":"Crypto fast cycle #244 — 11128ms"}
-{"timestamp":"2026-03-06T00:23:11.103Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T00:23:11.103Z","type":"palpha","message":"2 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T00:23:11.103Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $0 today."}
-{"timestamp":"2026-03-06T00:24:21.090Z","type":"crypto-fast","message":"Crypto fast cycle #245 — 11280ms"}
-{"timestamp":"2026-03-06T00:24:11.227Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T00:24:11.227Z","type":"palpha","message":"2 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T00:24:11.227Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $0 today."}
-{"timestamp":"2026-03-06T00:24:46.558Z","type":"scan","message":"Cycle #50 — 1594 markets | 15 active events | $29.2K recent flow | 2 held"}
 {"timestamp":"2026-03-06T00:24:46.558Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 5, 7:15PM-7:20PM ET\" — $11.7K heavily buying, biggest trade $2.8K, 4m ago"}
 {"timestamp":"2026-03-06T00:24:46.558Z","type":"think","message":"Whale: \"0xec4683a18506bff661d2e2109b97f4c4b20e9da42c2dd74b2f9a…\" — whale_size (1 wallets, $412.8K)"}
 {"timestamp":"2026-03-06T00:24:46.558Z","type":"think","message":"Whale: \"0x9793604a70e26a469b393db6beffa4b88352843e6830213841c4…\" — whale_size (1 wallets, $200.0K)"}
@@ -198,3 +188,13 @@
 {"timestamp":"2026-03-06T00:59:12.334Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T00:59:12.334Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T00:59:12.334Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T00:59:36.768Z","type":"scan","message":"Cycle #57 — 1592 markets | 14 active events | $28.6K recent flow | 3 held"}
+{"timestamp":"2026-03-06T00:59:36.769Z","type":"think","message":"Money flowing: \"Will the Fed increase interest rates by 25+ bps after …\" — $15.5K heavily buying, biggest trade $15.5K, 3m ago"}
+{"timestamp":"2026-03-06T00:59:36.769Z","type":"think","message":"↓ Hourly mover: \"Will another team win the 2025-2026 Big East Men’s Bas…\" ↓9.1% in 1h (now 0.1%), 24h vol $35.9K"}
+{"timestamp":"2026-03-06T00:59:36.769Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
+{"timestamp":"2026-03-06T00:59:36.769Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h, now 20.0%, vol $5.6K"}
+{"type":"pipeline","timestamp":"2026-03-06T00:59:37.134Z","cycle":57,"ingestion":{"markets":1640,"trades":50,"tradeVolume":28609,"midpointsFetched":50},"signals":{"movers1h":32,"movers1d":51,"volumeSpikes":492,"catalysts":13,"deepValue":417,"tightRaces":54,"wideSpread":227,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":14,"totalVolume":28609,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":41379095967.89255,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34076902561.79386,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2940019.515144986,"change":null},{"q":"Will Rachida Dati win the Paris mayor election?","type":"tightRaces","score":2168111.6826604307,"change":"+1.0%"},{"q":"Will Julian Assange win the Nobel Peace Prize in 2026?","type":"wideSpread","score":163464.33087488,"change":null}]}
+{"timestamp":"2026-03-06T00:59:46.772Z","type":"pnl","message":"Today: $-696.41 (-67.5%) · Portfolio $336 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T00:59:37.131Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T00:59:37.131Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T00:59:37.131Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
