@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T13:59:08.987Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T14:01:39.481Z","type":"scan","message":"Cycle #17 — 1585 markets | 23 active events | $70.9K recent flow | 3 held"}
-{"timestamp":"2026-03-06T14:01:39.481Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 6, 8:55AM-9:00AM ET\" — $22.2K heavily buying, biggest trade $11.2K, 5m ago"}
-{"timestamp":"2026-03-06T14:01:39.481Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -4.6% 24h ($69,134), F&G=18"}
 {"timestamp":"2026-03-06T14:01:39.482Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -4.6% 24h ($69,134), F&G=18"}
 {"timestamp":"2026-03-06T14:01:39.482Z","type":"think","message":"Catalyst: \"Will UConn win the 2025-2026 Big East Men’s Basketball…\" — 10h to resolution, 50.5% YES, ↓6.0% this hour, vol $41.5K"}
 {"timestamp":"2026-03-06T14:01:39.482Z","type":"think","message":"Sources: 2/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T14:34:08.645Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T14:34:08.645Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T14:34:08.645Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T14:35:18.283Z","type":"crypto-fast","message":"Crypto fast cycle #13 — 11154ms"}
+{"timestamp":"2026-03-06T14:35:08.551Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T14:35:08.551Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T14:35:08.551Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
