@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-06T12:05:15.818Z","type":"think","message":"Sources: 3/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-06T12:05:15.819Z","type":"decision","message":"Flow signal: \"Will The Secret Agent win Best Picture at the 98th Aca…\" — buyers dominating ($4.2K net), 3 traders, 2m ago"}
-{"type":"pipeline","timestamp":"2026-03-06T12:05:16.356Z","cycle":3,"ingestion":{"markets":1636,"trades":50,"tradeVolume":31680,"midpointsFetched":50},"signals":{"movers1h":36,"movers1d":54,"volumeSpikes":544,"catalysts":12,"deepValue":463,"tightRaces":52,"wideSpread":201,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":23,"totalVolume":31680,"avgImbalance":0.957},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38319150683.53501,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38319150683.53501,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3860405.3905898407,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":786270.9758661699,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":129497.81305289999,"change":null}]}
-{"timestamp":"2026-03-06T12:05:26.607Z","type":"pnl","message":"Today: $-695.47 (-67.4%) · Portfolio $337 · 3 positions · 8 trades"}
-{"timestamp":"2026-03-06T12:05:16.351Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:05:16.351Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:05:16.351Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T12:05:54.756Z","type":"crypto-fast","message":"Crypto fast cycle #11 — 11763ms"}
-{"timestamp":"2026-03-06T12:05:44.741Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:05:44.741Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:05:44.741Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T12:06:54.358Z","type":"crypto-fast","message":"Crypto fast cycle #12 — 11337ms"}
-{"timestamp":"2026-03-06T12:06:44.689Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:06:44.689Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T12:06:44.689Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
 {"timestamp":"2026-03-06T12:07:54.784Z","type":"crypto-fast","message":"Crypto fast cycle #13 — 11735ms"}
 {"timestamp":"2026-03-06T12:07:44.596Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-06T12:38:55.577Z","type":"palpha","message":"Found 2 potential trades from scanner"}
 {"timestamp":"2026-03-06T12:38:55.577Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T12:38:55.577Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed."}
+{"timestamp":"2026-03-06T12:39:47.652Z","type":"scan","message":"Cycle #4 — 1584 markets | 21 active events | $44.3K recent flow | 3 held"}
+{"timestamp":"2026-03-06T12:39:47.652Z","type":"think","message":"Money flowing: \"Will the Iranian regime fall by April 30?\" — $9.0K heavily buying, biggest trade $8.0K, 4m ago"}
+{"timestamp":"2026-03-06T12:39:47.652Z","type":"think","message":"News: \"Israel and Syria normalize relations by June 30, 2026?\" — 24 articles (bearish), \"影 》 戰火狂燒 伊朗軍事學院挨轟 以色列與波灣國家傳巨響 - 國際\""}
+{"timestamp":"2026-03-06T12:39:47.652Z","type":"think","message":"News: \"Israel and Syria normalize relations by December 31, 2…\" — 24 articles (bearish), \"影 》 戰火狂燒 伊朗軍事學院挨轟 以色列與波灣國家傳巨響 - 國際\""}
+{"timestamp":"2026-03-06T12:39:47.652Z","type":"think","message":"News: \"Will China invades Taiwan before GTA VI?\" — 24 articles (bearish), \"影 》 戰火狂燒 伊朗軍事學院挨轟 以色列與波灣國家傳巨響 - 國際\""}
+{"timestamp":"2026-03-06T12:39:47.652Z","type":"think","message":"News: \"Will China invade Taiwan by end of 2026?\" — 24 articles (bearish), \"影 》 戰火狂燒 伊朗軍事學院挨轟 以色列與波灣國家傳巨響 - 國際\""}
+{"timestamp":"2026-03-06T12:39:47.652Z","type":"think","message":"Wide spread: \"Will Dan Scavino leave the Trump administration before…\" — bid 8.0% / ask 71.0% (63.0% spread), liq $83.1K"}
+{"timestamp":"2026-03-06T12:39:47.652Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 4/8 news"}
+{"timestamp":"2026-03-06T12:39:47.652Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 7:35AM-7:40AM ET\" — buyers dominating ($5.6K net), 2 traders, 3m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T12:39:48.161Z","cycle":4,"ingestion":{"markets":1636,"trades":50,"tradeVolume":44273,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":54,"volumeSpikes":546,"catalysts":12,"deepValue":463,"tightRaces":52,"wideSpread":210,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":21,"totalVolume":44273,"avgImbalance":0.96},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38188161856.18109,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38188161856.18109,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3967076.9466506774,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":784615.4924454094,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":132114.9749718,"change":null}]}
+{"timestamp":"2026-03-06T12:39:58.265Z","type":"pnl","message":"Today: $-695.47 (-67.4%) · Portfolio $337 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T12:39:48.158Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T12:39:48.158Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T12:39:48.158Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
