@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-06T12:43:07.666Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:43:07.666Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T12:44:17.294Z","type":"crypto-fast","message":"Crypto fast cycle #3 — 11264ms"}
-{"timestamp":"2026-03-06T12:44:07.507Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:44:07.507Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:44:07.507Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T12:45:17.845Z","type":"crypto-fast","message":"Crypto fast cycle #4 — 11785ms"}
-{"timestamp":"2026-03-06T12:45:07.952Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:45:07.952Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:45:07.952Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T12:46:17.263Z","type":"crypto-fast","message":"Crypto fast cycle #5 — 11173ms"}
-{"timestamp":"2026-03-06T12:46:07.629Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:46:07.629Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:46:07.629Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-06T12:46:56.258Z","type":"scan","message":"Cycle #2 — 1584 markets | 27 active events | $49.9K recent flow | 3 held"}
 {"timestamp":"2026-03-06T12:46:56.258Z","type":"think","message":"Money flowing: \"Will Bitcoin dip to $65,000 in March?\" — $4.3K heavily selling, biggest trade $3.6K, 6m ago"}
 {"timestamp":"2026-03-06T12:46:56.258Z","type":"think","message":"Sentiment: \"Will there be no change in Fed interest rates after th…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-06T13:26:08.631Z","type":"palpha","message":"Found 2 potential trades from scanner"}
 {"timestamp":"2026-03-06T13:26:08.631Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T13:26:08.631Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed."}
+{"timestamp":"2026-03-06T13:26:47.132Z","type":"scan","message":"Cycle #10 — 1584 markets | 17 active events | $66.3K recent flow | 3 held"}
+{"timestamp":"2026-03-06T13:26:47.132Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $64,000 on March 6?\" — $25.0K heavily buying, biggest trade $20.0K, 2m ago"}
+{"timestamp":"2026-03-06T13:26:47.132Z","type":"think","message":"News: \"MicroStrategy sells any Bitcoin by March 31, 2026?\" — 1 articles (neutral), \"What Iran really means for markets | Stock Market News\""}
+{"timestamp":"2026-03-06T13:26:47.132Z","type":"think","message":"News: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — 1 articles (neutral), \"What Iran really means for markets | Stock Market News\""}
+{"timestamp":"2026-03-06T13:26:47.132Z","type":"think","message":"News: \"Will Bitcoin hit $150k by March 31, 2026?\" — 1 articles (neutral), \"What Iran really means for markets | Stock Market News\""}
+{"timestamp":"2026-03-06T13:26:47.132Z","type":"think","message":"News: \"Will Bitcoin hit $150k by June 30, 2026?\" — 1 articles (neutral), \"What Iran really means for markets | Stock Market News\""}
+{"timestamp":"2026-03-06T13:26:47.132Z","type":"think","message":"Catalyst: \"Will UConn win the 2025-2026 Big East Men’s Basketball…\" — 11h to resolution, 50.0% YES, ↓6.0% this hour, vol $41.1K"}
+{"timestamp":"2026-03-06T13:26:47.132Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 4/8 news"}
+{"timestamp":"2026-03-06T13:26:47.133Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 8:15AM-8:30AM ET\" — buyers dominating ($4.0K net), 3 traders, 2m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T13:26:47.650Z","cycle":10,"ingestion":{"markets":1636,"trades":50,"tradeVolume":66338,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":51,"volumeSpikes":549,"catalysts":11,"deepValue":462,"tightRaces":52,"wideSpread":219,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":17,"totalVolume":66338,"avgImbalance":0.933},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38006819661.87099,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38006819661.87099,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":4064519.930947451,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":791903.6191300056,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":112114.41945249999,"change":null}]}
+{"timestamp":"2026-03-06T13:26:57.409Z","type":"pnl","message":"Today: $-697.82 (-67.6%) · Portfolio $334 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T13:26:47.647Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T13:26:47.647Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T13:26:47.647Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
