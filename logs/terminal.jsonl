@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T01:29:12.896Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T01:29:12.896Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T01:29:36.862Z","type":"scan","message":"Cycle #63 — 1591 markets | 15 active events | $56.9K recent flow | 3 held"}
-{"timestamp":"2026-03-06T01:29:36.862Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 5, 8:15PM-8:30PM ET\" — $18.1K heavily buying, biggest trade $14.2K, 1m ago"}
 {"timestamp":"2026-03-06T01:29:36.862Z","type":"think","message":"↓ Daily mover: \"Will St. John’s win the 2025-2026 Big East Men’s Baske…\" ↓33.0% today, ↓25.0% 1w, 24h vol $36.3K"}
 {"timestamp":"2026-03-06T01:29:36.863Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
 {"timestamp":"2026-03-06T01:29:36.863Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 5, 8:25PM-8:30PM ET\" — buyers dominating ($13.2K net), 3 traders, 1m ago"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T01:58:13.864Z","type":"palpha","message":"Found 1 potential trades from scanner"}
 {"timestamp":"2026-03-06T01:58:13.864Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T01:58:13.864Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T01:59:23.976Z","type":"crypto-fast","message":"Crypto fast cycle #340 — 11999ms"}
+{"timestamp":"2026-03-06T01:59:13.971Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T01:59:13.971Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T01:59:13.971Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
