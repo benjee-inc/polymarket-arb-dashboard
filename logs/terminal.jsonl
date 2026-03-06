@@ -1,14 +1,3 @@
-{"timestamp":"2026-03-06T18:43:50.407Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T18:43:50.407Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T18:45:42.322Z","type":"crypto-fast","message":"Crypto fast cycle #116 — 53439ms"}
-{"timestamp":"2026-03-06T18:45:29.012Z","type":"palpha","message":"[held] 10 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T18:45:29.012Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T18:45:29.012Z","type":"palpha","message":"Betting NO on \"Will China invades Taiwan before GTA VI?\" — market at 51.5%, Grok thinks 8%"}
-{"timestamp":"2026-03-06T18:45:29.012Z","type":"palpha","message":"  Why: GTA VI is officially scheduled for November 19, 2026, giving roughly 8 months from March 6, 2026.5758 Recent primary sources like ISW and AEI updates show no mobilization or invasion preparations by China, with PLA flights around Taiwan sharply decreased since late February amid possible Trump-Xi talks.4748 The US sinking of an Iranian ship escalates Middle East tensions but represents a separate theater from"}
-{"timestamp":"2026-03-06T18:45:29.012Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T18:45:29.012Z","type":"trade","message":"No trades this cycle — insufficient balance."}
-{"timestamp":"2026-03-06T18:49:19.819Z","type":"scan","message":"Cycle #25 — 1586 markets | 16 active events | $29.0K recent flow | 3 held"}
-{"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Money flowing: \"Will Iran close the Strait of Hormuz by March 31?\" — $3.7K heavily buying, biggest trade $3.7K, 30s ago"}
 {"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Whale: \"0x4520155a080d1a8c392e9b1dcda85d4af5e271c337fc97d57291…\" — whale_size (1 wallets, $155.7K)"}
 {"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Whale: \"0x832e608427a5d6db43947262d84a06bca5630a700eac7eed50e6…\" — whale_size (1 wallets, $89.9K)"}
 {"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Whale: \"0xfb1835b887c33862f5749c619e612d1244ab6e66115f0ef43d37…\" — whale_size (1 wallets, $100.0K)"}
@@ -198,3 +187,14 @@
 {"timestamp":"2026-03-06T19:13:50.756Z","type":"palpha","message":"Found 1 potential trades from scanner"}
 {"timestamp":"2026-03-06T19:13:50.756Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T19:13:50.756Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-06T19:14:19.166Z","type":"scan","message":"Cycle #30 — 1585 markets | 12 active events | $66.5K recent flow | 3 held"}
+{"timestamp":"2026-03-06T19:14:19.166Z","type":"think","message":"Money flowing: \"Will Crude Oil (CL) hit (HIGH) $90 by end of March?\" — $19.3K heavily buying, biggest trade $6.9K, 2m ago"}
+{"timestamp":"2026-03-06T19:14:19.166Z","type":"think","message":"Volume surge: \"Will Stephen Miller leave the Trump administration bef…\" — $45.7K in 24h (9757% of lifetime), ↑2.5% this hour"}
+{"timestamp":"2026-03-06T19:14:19.166Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
+{"timestamp":"2026-03-06T19:14:19.167Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $68,000 on March 6?\" — sellers dominating ($6.8K net), 1 traders, 2m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T19:14:19.554Z","cycle":30,"ingestion":{"markets":1637,"trades":50,"tradeVolume":66491,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":52,"volumeSpikes":562,"catalysts":11,"deepValue":472,"tightRaces":55,"wideSpread":220,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":12,"totalVolume":66491,"avgImbalance":0.94},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":3},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38152084545.036736,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38152084545.036736,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5113830.722480831,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":849607.7921211971,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":132901.8156336,"change":null}]}
+{"timestamp":"2026-03-06T19:14:31.625Z","type":"pnl","message":"Today: $-602.65 (-68.5%) · Portfolio $277 · 3 positions · 15 trades"}
+{"timestamp":"2026-03-06T19:14:19.551Z","type":"palpha","message":"[held] 10 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T19:14:19.551Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T19:14:19.551Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T19:14:19.551Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
