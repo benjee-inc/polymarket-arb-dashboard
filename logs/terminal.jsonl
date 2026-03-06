@@ -1,18 +1,3 @@
-{"timestamp":"2026-03-06T12:12:44.836Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T12:13:55.714Z","type":"crypto-fast","message":"Crypto fast cycle #19 — 12574ms"}
-{"timestamp":"2026-03-06T12:13:45.654Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:13:45.654Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:13:45.654Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T12:14:54.857Z","type":"crypto-fast","message":"Crypto fast cycle #20 — 11688ms"}
-{"timestamp":"2026-03-06T12:14:45.043Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:14:45.043Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:14:45.043Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T12:15:15.279Z","type":"scan","message":"Cycle #5 — 1585 markets | 21 active events | $62.8K recent flow | 3 held"}
-{"timestamp":"2026-03-06T12:15:15.279Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $70,000 on March 6?\" — $18.6K heavily buying, biggest trade $15.6K, 2m ago"}
-{"timestamp":"2026-03-06T12:15:15.279Z","type":"think","message":"Sentiment: \"Will there be no change in Fed interest rates after th…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T12:15:15.279Z","type":"think","message":"Sentiment: \"Another S&P 500 Company buys Bitcoin by December 31, 2…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T12:15:15.279Z","type":"think","message":"Sentiment: \"US national Ethereum reserve before 2027?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T12:15:15.279Z","type":"think","message":"Whale: \"0x136119a189911c5b6d503da8b0f1f1fe5f6f162b38d141f41605…\" — whale_size (1 wallets, $56.4K)"}
 {"timestamp":"2026-03-06T12:15:15.279Z","type":"think","message":"Deep value: \"Will Jared Polis win the 2028 Democratic presidential …\" — Yes @ 0.9¢, liq $42.4M, 24h vol $5.9M"}
 {"timestamp":"2026-03-06T12:15:15.279Z","type":"think","message":"Sources: 8 crypto, 0 weather, 3/5 sentiment, 0 nansen, 0 news, 1/1 whale"}
 {"timestamp":"2026-03-06T12:15:15.279Z","type":"decision","message":"Flow signal: \"Opinion FDV above $400M one day after launch?\" — buyers dominating ($6.0K net), 2 traders, 2m ago"}
@@ -198,3 +183,18 @@
 {"timestamp":"2026-03-06T12:46:07.629Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T12:46:07.629Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T12:46:07.629Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T12:46:56.258Z","type":"scan","message":"Cycle #2 — 1584 markets | 27 active events | $49.9K recent flow | 3 held"}
+{"timestamp":"2026-03-06T12:46:56.258Z","type":"think","message":"Money flowing: \"Will Bitcoin dip to $65,000 in March?\" — $4.3K heavily selling, biggest trade $3.6K, 6m ago"}
+{"timestamp":"2026-03-06T12:46:56.258Z","type":"think","message":"Sentiment: \"Will there be no change in Fed interest rates after th…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T12:46:56.258Z","type":"think","message":"Sentiment: \"Another S&P 500 Company buys Bitcoin by December 31, 2…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T12:46:56.258Z","type":"think","message":"Sentiment: \"US national Ethereum reserve before 2027?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T12:46:56.258Z","type":"think","message":"News: \"Will Donald Trump win the 2028 US Presidential Electio…\" — 1 articles (bearish), \"America First ? War in Iran threatens to split Trump MAGA coalition .\""}
+{"timestamp":"2026-03-06T12:46:56.258Z","type":"think","message":"Volume surge: \"Paradex FDV above $40M one day after launch?\" — $512.6K in 24h (14935% of lifetime), price 86.7%"}
+{"timestamp":"2026-03-06T12:46:56.259Z","type":"think","message":"Sources: 8 crypto, 0 weather, 3/5 sentiment, 0 nansen, 1/14 news"}
+{"timestamp":"2026-03-06T12:46:56.259Z","type":"decision","message":"Flow signal: \"Opinion FDV above $500M one day after launch?\" — buyers dominating ($3.5K net), 2 traders, 5m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T12:46:56.667Z","cycle":2,"ingestion":{"markets":1636,"trades":50,"tradeVolume":49940,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":54,"volumeSpikes":547,"catalysts":12,"deepValue":464,"tightRaces":52,"wideSpread":207,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":27,"totalVolume":49940,"avgImbalance":0.988},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"toxic category blacklist":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38188084034.019135,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38188084034.019135,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3976855.5880265925,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":784990.4131974635,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":128938.21969340001,"change":null}]}
+{"timestamp":"2026-03-06T12:47:06.579Z","type":"pnl","message":"Today: $-695.47 (-67.4%) · Portfolio $337 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T12:46:56.664Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T12:46:56.664Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T12:46:56.664Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-06T12:46:56.664Z","type":"palpha","message":"  ✗ \"Will J.D. Vance win the 2028 Republican presidenti\" — toxic category blacklist"}
