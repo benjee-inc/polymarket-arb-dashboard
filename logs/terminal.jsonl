@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-06T15:45:15.172Z","type":"palpha","message":"[held] 8 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T15:45:15.172Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T15:45:15.172Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T15:45:15.172Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-06T15:45:59.173Z","type":"scan","message":"Cycle #6 — 1585 markets | 22 active events | $97.7K recent flow | 3 held"}
 {"timestamp":"2026-03-06T15:45:59.173Z","type":"think","message":"Money flowing: \"US x Iran ceasefire by March 6?\" — $20.0K heavily buying, biggest trade $20.0K, 2m ago"}
 {"timestamp":"2026-03-06T15:45:59.173Z","type":"think","message":"Whale: \"0x136119a189911c5b6d503da8b0f1f1fe5f6f162b38d141f41605…\" — whale_size (1 wallets, $70.0K)"}
 {"timestamp":"2026-03-06T15:45:59.173Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by March 31, 2026?\" — 1 articles (bullish), \"Israel uses new  Iron Beam  laser system for first time ; Ukraine offe\""}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T16:10:08.412Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T16:10:08.412Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T16:10:08.412Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T16:11:18.406Z","type":"crypto-fast","message":"Crypto fast cycle #12 — 11657ms"}
+{"timestamp":"2026-03-06T16:11:08.134Z","type":"palpha","message":"[held] 8 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T16:11:08.134Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T16:11:08.134Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T16:11:08.134Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
