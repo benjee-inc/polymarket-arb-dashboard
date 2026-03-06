@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T08:44:44.526Z","type":"think","message":"News: \"MicroStrategy sells any Bitcoin by March 31, 2026?\" — 1 articles (neutral), \"Wall Street leci w dół , cena ropy przebiła symboliczny poziom\""}
-{"timestamp":"2026-03-06T08:44:44.526Z","type":"think","message":"Catalyst: \"Will UConn win the 2025-2026 Big East Men’s Basketball…\" — 15h to resolution, 52.0% YES, ↓6.0% this hour, vol $36.6K"}
-{"timestamp":"2026-03-06T08:44:44.526Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 4/8 news"}
-{"timestamp":"2026-03-06T08:44:44.526Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 3:35AM-3:40AM ET\" — buyers dominating ($10.3K net), 4 traders, 4m ago"}
 {"type":"pipeline","timestamp":"2026-03-06T08:44:44.907Z","cycle":150,"ingestion":{"markets":1636,"trades":50,"tradeVolume":60536,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":51,"volumeSpikes":484,"catalysts":13,"deepValue":456,"tightRaces":53,"wideSpread":210,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":15,"totalVolume":60536,"avgImbalance":0.939},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38499157382.263084,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38499157382.263084,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3853217.2312366623,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":639025.7931486096,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":134759.46890699997,"change":null}]}
 {"timestamp":"2026-03-06T08:44:54.803Z","type":"pnl","message":"Today: $-698.90 (-67.7%) · Portfolio $333 · 3 positions · 8 trades"}
 {"timestamp":"2026-03-06T08:44:44.904Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T09:24:42.232Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T09:24:42.232Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
 {"timestamp":"2026-03-06T09:24:42.232Z","type":"palpha","message":"  ✗ \"Will bitcoin hit $1m before GTA VI?\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-06T09:25:35.102Z","type":"crypto-fast","message":"Crypto fast cycle #786 — 12969ms"}
+{"timestamp":"2026-03-06T09:25:24.819Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T09:25:24.819Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T09:25:24.819Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
