@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-06T15:58:47.164Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T15:58:47.164Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T15:59:39.973Z","type":"scan","message":"Cycle #1 — 1585 markets | 12 active events | $38.2K recent flow | 3 held"}
-{"timestamp":"2026-03-06T15:59:39.973Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 6, 10:55AM-11:00AM ET\" — $1.7K heavily buying, biggest trade $1.7K, 4m ago"}
-{"timestamp":"2026-03-06T15:59:39.973Z","type":"think","message":"↓ Hourly mover: \"Will the Starship for SpaceX Starship Flight Test 12 a…\" ↓8.0% in 1h (now 63.5%), 24h vol $9.6K"}
 {"timestamp":"2026-03-06T15:59:39.973Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
 {"timestamp":"2026-03-06T15:59:39.974Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h, now 17.5%, vol $4.2K"}
 {"type":"pipeline","timestamp":"2026-03-06T16:00:28.247Z","cycle":1,"ingestion":{"markets":1636,"trades":50,"tradeVolume":38196,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":52,"volumeSpikes":564,"catalysts":11,"deepValue":463,"tightRaces":55,"wideSpread":211,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":12,"totalVolume":38196,"avgImbalance":0.943},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"MONITOR — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":37869504562.840416,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":37869504562.840416,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":4904149.925477092,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":788717.0774807744,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":139797.1788855,"change":null}]}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T16:26:08.847Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T16:26:08.847Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T16:26:08.847Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T16:27:19.269Z","type":"crypto-fast","message":"Crypto fast cycle #28 — 12280ms"}
+{"timestamp":"2026-03-06T16:27:08.897Z","type":"palpha","message":"[held] 8 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T16:27:08.897Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T16:27:08.897Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T16:27:08.897Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
