@@ -1,10 +1,3 @@
-{"type":"pipeline","timestamp":"2026-03-06T17:34:19.404Z","cycle":10,"ingestion":{"markets":1637,"trades":50,"tradeVolume":81011,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":53,"volumeSpikes":572,"catalysts":11,"deepValue":465,"tightRaces":63,"wideSpread":218,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":21,"totalVolume":81011,"avgImbalance":0.937},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":4},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38024399851.131195,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38024399851.131195,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":4730210.661929965,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":824418.3271583309,"change":null},{"q":"EdgeX FDV above $700M one day after launch?","type":"wideSpread","score":137169.0732959,"change":null}]}
-{"timestamp":"2026-03-06T17:34:30.246Z","type":"pnl","message":"Today: $-648.73 (-66.1%) · Portfolio $333 · 4 positions · 12 trades"}
-{"timestamp":"2026-03-06T17:34:19.401Z","type":"palpha","message":"[held] 9 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T17:34:19.401Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T17:34:19.401Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T17:34:19.401Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T17:38:48.715Z","type":"crypto-fast","message":"Crypto fast cycle #50 — 61005ms"}
 {"timestamp":"2026-03-06T17:38:41.397Z","type":"trade","message":"TAKE PROFIT: Sold \"Bitcoin Up or Down - March 6, 12:30PM-12:45PM ET\" — 103 shares @ 80.5¢ (+68%) for $98.44 (P&L: +$49.22)"}
 {"timestamp":"2026-03-06T17:38:35.250Z","type":"palpha","message":"[held] 9 positions excluded from opportunity search"}
 {"timestamp":"2026-03-06T17:38:35.250Z","type":"palpha","message":"Found 15 potential trades from scanner"}
@@ -198,3 +191,10 @@
 {"timestamp":"2026-03-06T17:55:49.286Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T17:55:49.286Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T17:55:49.286Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T17:57:03.254Z","type":"crypto-fast","message":"Crypto fast cycle #68 — 15261ms"}
+{"timestamp":"2026-03-06T17:56:50.019Z","type":"palpha","message":"[held] 10 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T17:56:50.019Z","type":"palpha","message":"Found 2 potential trades from scanner"}
+{"timestamp":"2026-03-06T17:56:50.019Z","type":"palpha","message":"Betting NO on \"Bitcoin Up or Down - March 6, 12:45PM-1:00PM ET\" — market at 77.5%, Grok thinks 41% (Grok flipped direction)"}
+{"timestamp":"2026-03-06T17:56:50.019Z","type":"palpha","message":"  Why: BTC is trading around $68,000-$70,000 after a 3-4.5% drop in 24h, with Fear & Greed Index at 18 (Extreme Fear) per Alternative.me, CoinMarketCap, and others.1921 Recent X posts highlight bearish momentum, rejection from resistance, and expectations of further pullback to $65k-$67k area.014 This sustained downside "}
+{"timestamp":"2026-03-06T17:56:50.019Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T17:56:50.019Z","type":"trade","message":"No trades this cycle — insufficient balance."}
