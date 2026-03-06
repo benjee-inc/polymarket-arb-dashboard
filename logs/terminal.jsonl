@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-06T15:09:22.274Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T15:09:58.942Z","type":"scan","message":"Cycle #2 — 1585 markets | 15 active events | $69.5K recent flow | 3 held"}
-{"timestamp":"2026-03-06T15:09:58.942Z","type":"think","message":"Money flowing: \"Will the highest temperature in Buenos Aires be 25°C o…\" — $3.9K heavily buying, biggest trade $2.1K, 5m ago"}
-{"timestamp":"2026-03-06T15:09:58.942Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T15:09:58.942Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -4.8% 24h ($68,482), F&G=18"}
 {"timestamp":"2026-03-06T15:09:58.942Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -4.8% 24h ($68,482), F&G=18"}
 {"timestamp":"2026-03-06T15:09:58.942Z","type":"think","message":"Volume surge: \"Paradex FDV above $40M one day after launch?\" — $299.0K in 24h (6180% of lifetime), price 87.5%"}
 {"timestamp":"2026-03-06T15:09:58.943Z","type":"think","message":"Sources: 2/8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 3 news"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T15:43:14.960Z","type":"palpha","message":"Found 1 potential trades from scanner"}
 {"timestamp":"2026-03-06T15:43:14.960Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T15:43:14.960Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-06T15:44:24.847Z","type":"crypto-fast","message":"Crypto fast cycle #24 — 11326ms"}
+{"timestamp":"2026-03-06T15:44:14.939Z","type":"palpha","message":"[held] 8 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T15:44:14.939Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T15:44:14.939Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T15:44:14.939Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
