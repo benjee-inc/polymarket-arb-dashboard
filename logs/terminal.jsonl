@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-06T11:34:37.114Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
-{"timestamp":"2026-03-06T11:34:37.117Z","type":"decision","message":"Flow signal: \"Will the Fed decrease interest rates by 50+ bps after …\" — buyers dominating ($4.4K net), 4 traders, 6m ago"}
-{"type":"pipeline","timestamp":"2026-03-06T11:34:37.472Z","cycle":184,"ingestion":{"markets":1636,"trades":50,"tradeVolume":37087,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":54,"volumeSpikes":543,"catalysts":12,"deepValue":466,"tightRaces":53,"wideSpread":206,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":14,"totalVolume":37087,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38359501055.667206,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38359501055.667206,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3866974.3432079093,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":786194.6558533396,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":122277.66986820001,"change":null}]}
-{"timestamp":"2026-03-06T11:34:46.974Z","type":"pnl","message":"Today: $-695.47 (-67.4%) · Portfolio $337 · 3 positions · 8 trades"}
-{"timestamp":"2026-03-06T11:34:37.469Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T11:34:37.469Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T11:34:37.469Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
 {"timestamp":"2026-03-06T11:37:37.010Z","type":"crypto-fast","message":"Crypto fast cycle #918 — 11616ms"}
 {"timestamp":"2026-03-06T11:37:27.038Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-06T12:09:45.518Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T12:09:45.518Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T12:09:45.518Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T12:11:30.560Z","type":"crypto-fast","message":"Crypto fast cycle #16 — 47453ms"}
+{"timestamp":"2026-03-06T12:11:20.489Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T12:11:20.490Z","type":"palpha","message":"Betting NO on \"Will China invades Taiwan before GTA VI?\" — market at 51.5%, Grok thinks 12% (Grok flipped direction)"}
+{"timestamp":"2026-03-06T12:11:20.490Z","type":"palpha","message":"  Why: GTA VI is scheduled for November 19, 2026, giving about 8.5 months from March 6, 2026.2868 Recent US-Israel strikes on Iran (day 7 of war) have sparked speculation of a distraction window for China, with some X posts claiming imminent invasion, but primary sources show no unusual PLA mobilization, paused ADIZ incursions (7 days), and Pentagon assuring Taiwan munitions unaffected.4737 Expert analyses and ISW u"}
+{"timestamp":"2026-03-06T12:11:20.490Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T12:11:20.490Z","type":"trade","message":"No trades this cycle — same-event dedup. Spent $50 today."}
