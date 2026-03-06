@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-06T05:57:19.376Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T05:58:29.820Z","type":"crypto-fast","message":"Crypto fast cycle #579 — 12459ms"}
-{"timestamp":"2026-03-06T05:58:19.178Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T05:58:19.178Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T05:58:19.178Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T05:59:29.036Z","type":"crypto-fast","message":"Crypto fast cycle #580 — 11647ms"}
-{"timestamp":"2026-03-06T05:59:19.222Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T05:59:19.222Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T05:59:19.222Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T05:59:45.696Z","type":"scan","message":"Cycle #117 — 1589 markets | 23 active events | $133.7K recent flow | 3 held"}
-{"timestamp":"2026-03-06T05:59:45.696Z","type":"think","message":"Money flowing: \"Will Iran name a successor to Khamenei by March 5?\" — $7.6K heavily selling, biggest trade $7.6K, 3m ago"}
-{"timestamp":"2026-03-06T05:59:45.696Z","type":"think","message":"News: \"Will Russia invade a NATO country by June 30, 2026?\" — 20 articles (bullish), \"Iran War Live : We are waiting for your ground forces , Tehran tells U\""}
-{"timestamp":"2026-03-06T05:59:45.696Z","type":"think","message":"News: \"Will any country leave NATO by June 30, 2026?\" — 20 articles (bullish), \"Iran War Live : We are waiting for your ground forces , Tehran tells U\""}
-{"timestamp":"2026-03-06T05:59:45.696Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T05:59:45.696Z","type":"think","message":"Sentiment: \"Will there be no change in Fed interest rates after th…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T05:59:45.696Z","type":"think","message":"Deep value: \"Will Tim Walz win the 2028 Democratic presidential nom…\" — Yes @ 0.9¢, liq $42.9M, 24h vol $6.1M"}
 {"timestamp":"2026-03-06T05:59:45.696Z","type":"think","message":"Sources: 0 crypto, 0 weather, 2/5 sentiment, 0 nansen, 2/7 news"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-06T06:34:20.254Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T06:34:20.254Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T06:34:20.254Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T06:34:47.622Z","type":"scan","message":"Cycle #124 — 1588 markets | 10 active events | $25.0K recent flow | 3 held"}
+{"timestamp":"2026-03-06T06:34:47.622Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $64,000 on March 6?\" — $6.6K heavily buying, biggest trade $3.6K, 2m ago"}
+{"timestamp":"2026-03-06T06:34:47.622Z","type":"think","message":"News: \"US x Russia military clash by June 30, 2026?\" — 40 articles (bullish), \"战火延烧整一周 ： 美军将升级军事行动 ， 伊朗姿态保持强硬 冲突长期化扩大化 _ 军事频道 _ 中华网\""}
+{"timestamp":"2026-03-06T06:34:47.622Z","type":"think","message":"News: \"US x Russia military clash by December 31, 2026?\" — 40 articles (bullish), \"战火延烧整一周 ： 美军将升级军事行动 ， 伊朗姿态保持强硬 冲突长期化扩大化 _ 军事频道 _ 中华网\""}
+{"timestamp":"2026-03-06T06:34:47.622Z","type":"think","message":"News: \"Will Russia invade a NATO country by June 30, 2026?\" — 40 articles (bullish), \"战火延烧整一周 ： 美军将升级军事行动 ， 伊朗姿态保持强硬 冲突长期化扩大化 _ 军事频道 _ 中华网\""}
+{"timestamp":"2026-03-06T06:34:47.622Z","type":"think","message":"News: \"Will any country leave NATO by June 30, 2026?\" — 40 articles (bullish), \"战火延烧整一周 ： 美军将升级军事行动 ， 伊朗姿态保持强硬 冲突长期化扩大化 _ 军事频道 _ 中华网\""}
+{"timestamp":"2026-03-06T06:34:47.622Z","type":"think","message":"Deep value: \"Will Beto O’Rourke win the 2028 Democratic presidentia…\" — Yes @ 0.9¢, liq $42.8M, 24h vol $6.0M"}
+{"timestamp":"2026-03-06T06:34:47.622Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 4/4 news"}
+{"timestamp":"2026-03-06T06:34:47.622Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 1:30AM-1:35AM ET\" — buyers dominating ($5.2K net), 5 traders, 2m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T06:34:48.131Z","cycle":124,"ingestion":{"markets":1637,"trades":50,"tradeVolume":24999,"midpointsFetched":50},"signals":{"movers1h":27,"movers1d":49,"volumeSpikes":499,"catalysts":13,"deepValue":456,"tightRaces":53,"wideSpread":185,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":10,"totalVolume":24999,"avgImbalance":0.91},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38676665585.6062,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38676665585.6062,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3371144.7067215606,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2175114.767914596,"change":"-0.5%"},{"q":"Paradex FDV above $40M one day after launch?","type":"wideSpread","score":142300.80619008,"change":null}]}
+{"timestamp":"2026-03-06T06:34:57.699Z","type":"pnl","message":"Today: $-697.65 (-67.6%) · Portfolio $334 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T06:34:48.128Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T06:34:48.128Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T06:34:48.128Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
