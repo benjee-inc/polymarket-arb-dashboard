@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T12:34:25.763Z","type":"scan","message":"Cycle #3 — 1584 markets | 19 active events | $60.0K recent flow | 3 held"}
-{"timestamp":"2026-03-06T12:34:25.763Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 6, 7:25AM-7:30AM ET\" — $10.1K heavily buying, biggest trade $1.2K, 4m ago"}
-{"timestamp":"2026-03-06T12:34:25.763Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T12:34:25.763Z","type":"think","message":"Whale: \"0x71b8d91bf97c72da36b0383410c70600a6282928a0c9694f047f…\" — whale_size (1 wallets, $68.3K)"}
 {"timestamp":"2026-03-06T12:34:25.764Z","type":"think","message":"Catalyst: \"Will UConn win the 2025-2026 Big East Men’s Basketball…\" — 11h to resolution, 52.5% YES, ↓6.0% this hour, vol $37.8K"}
 {"timestamp":"2026-03-06T12:34:25.764Z","type":"think","message":"Sources: 8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news, 1/1 whale"}
 {"timestamp":"2026-03-06T12:34:25.764Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 7:15AM-7:30AM ET\" — buyers dominating ($7.9K net), 5 traders, 4m ago"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T13:10:08.039Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T13:10:08.039Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T13:10:08.039Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T13:11:17.881Z","type":"crypto-fast","message":"Crypto fast cycle #30 — 11228ms"}
+{"timestamp":"2026-03-06T13:11:08.188Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T13:11:08.188Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T13:11:08.188Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
