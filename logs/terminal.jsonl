@@ -1,13 +1,3 @@
-{"timestamp":"2026-03-06T07:44:52.360Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T07:44:52.360Z","type":"palpha","message":"Passed on \"Will Israel launch a major ground offensive in Lebanon by Ma\" — no Grok data available"}
-{"timestamp":"2026-03-06T07:44:52.360Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T07:44:52.360Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T07:44:52.360Z","type":"palpha","message":"  ✗ \"Will Israel launch a major ground offensive in Leb\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-06T07:49:37.264Z","type":"scan","message":"Cycle #139 — 1588 markets | 15 active events | $55.8K recent flow | 3 held"}
-{"timestamp":"2026-03-06T07:49:37.264Z","type":"think","message":"Money flowing: \"Will Elon Musk post 180-199 tweets from February 27 to…\" — $24.4K heavily buying, biggest trade $5.0K, 42s ago"}
-{"timestamp":"2026-03-06T07:49:37.264Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T07:49:37.264Z","type":"think","message":"Sentiment: \"Will there be no change in Fed interest rates after th…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T07:49:37.264Z","type":"think","message":"Sentiment: \"Another S&P 500 Company buys Bitcoin by December 31, 2…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T07:49:37.264Z","type":"think","message":"Sentiment: \"US national Ethereum reserve before 2027?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T07:49:37.265Z","type":"think","message":"↓ Price shift: \"Will Chad Bianco win the California Governor Election …\" moved 2.1% since last scan (23.3% → 21.3%)"}
 {"timestamp":"2026-03-06T07:49:37.265Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Péter Magya…\" — 61.5% YES, 24h vol $638.9K"}
@@ -198,3 +188,13 @@
 {"timestamp":"2026-03-06T08:24:22.702Z","type":"palpha","message":"Found 3 potential trades from scanner"}
 {"timestamp":"2026-03-06T08:24:22.702Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T08:24:22.702Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T08:24:51.847Z","type":"scan","message":"Cycle #146 — 1587 markets | 23 active events | $43.0K recent flow | 3 held"}
+{"timestamp":"2026-03-06T08:24:51.847Z","type":"think","message":"Money flowing: \"Will Elon Musk post 180-199 tweets from February 27 to…\" — $2.4K heavily buying, biggest trade $2.4K, 6m ago"}
+{"timestamp":"2026-03-06T08:24:51.847Z","type":"think","message":"Tight race: \"Will Base launch a token by December 31, 2026?\" — 46.0% YES, 24h vol $114.6K, ↑0.5% 1h"}
+{"timestamp":"2026-03-06T08:24:51.848Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
+{"timestamp":"2026-03-06T08:24:51.848Z","type":"decision","message":"Flow signal: \"Will Iran name a successor to Khamenei by March 15?\" — buyers dominating ($2.2K net), 1 traders, 5m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T08:24:52.598Z","cycle":146,"ingestion":{"markets":1636,"trades":50,"tradeVolume":42990,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":49,"volumeSpikes":477,"catalysts":13,"deepValue":458,"tightRaces":52,"wideSpread":206,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":23,"totalVolume":42990,"avgImbalance":0.939},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38536263728.70524,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38536263728.70524,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3775325.9151215535,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":635659.8712438007,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":129257.94592289999,"change":null}]}
+{"timestamp":"2026-03-06T08:25:02.800Z","type":"pnl","message":"Today: $-698.90 (-67.7%) · Portfolio $333 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T08:24:52.595Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T08:24:52.595Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T08:24:52.595Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
