@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-06T21:57:09.128Z","type":"pnl","message":"Today: $-594.79 (-66.2%) · Portfolio $303 · 4 positions · 22 trades"}
-{"timestamp":"2026-03-06T21:56:53.769Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T21:56:53.769Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T21:56:53.769Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T21:56:53.769Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-06T21:57:28.794Z","type":"crypto-fast","message":"Crypto fast cycle #131 — 15865ms"}
 {"timestamp":"2026-03-06T21:57:14.092Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
 {"timestamp":"2026-03-06T21:57:14.092Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T22:29:06.491Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T22:29:06.491Z","type":"palpha","message":"4 active positions (8 dust ignored)"}
 {"timestamp":"2026-03-06T22:29:06.491Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T22:29:52.819Z","type":"crypto-fast","message":"Crypto fast cycle #6 — 18519ms"}
+{"timestamp":"2026-03-06T22:29:35.592Z","type":"palpha","message":"[held] 12 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T22:29:35.592Z","type":"palpha","message":"Found 2 potential trades from scanner"}
+{"timestamp":"2026-03-06T22:29:35.592Z","type":"palpha","message":"4 active positions (8 dust ignored)"}
+{"timestamp":"2026-03-06T22:29:35.592Z","type":"trade","message":"No trades this cycle — not ACTIONABLE/NOTABLE (_palphaRec=none) (2)."}
