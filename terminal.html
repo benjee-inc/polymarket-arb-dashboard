@@ -590,9 +590,25 @@ function getLivePrice(p) {
 
 function calcPositionPnl(p) {
   const size = parseFloat(p.size || 0);
-  const avgPrice = parseFloat(p.avgPrice || 0);
+  let avgPrice = parseFloat(p.avgPrice || 0);
   const livePrice = getLivePrice(p);
-  const cost = size * avgPrice;
+  // Data API returns avgPrice=0 for penny buys — derive cost from activity data
+  let cost = size * avgPrice;
+  if (cost === 0 && size > 0) {
+    // Fall back to totalBought or derive from activity buy records
+    const tb = parseFloat(p.totalBought || 0);
+    if (tb > 0) { cost = tb; avgPrice = cost / size; }
+    else {
+      // Look up actual cost from activity data (BUY records for this conditionId+outcome)
+      const cid = p.conditionId || '';
+      const outcome = p.outcome || '';
+      const buys = activity.filter(a => a.conditionId === cid && a.outcome === outcome && (a.side || '').toUpperCase() === 'BUY');
+      if (buys.length) {
+        cost = buys.reduce((s, a) => s + parseFloat(a.usdcSize || 0), 0);
+        avgPrice = cost / size;
+      }
+    }
+  }
   const value = size * livePrice;
   const pnlDollar = value - cost;
   const pnlPct = cost > 0 ? (pnlDollar / cost) * 100 : 0;
