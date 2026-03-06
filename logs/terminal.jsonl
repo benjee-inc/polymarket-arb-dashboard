@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T04:08:16.210Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T04:09:37.123Z","type":"scan","message":"Cycle #95 — 1591 markets | 14 active events | $55.4K recent flow | 3 held"}
-{"timestamp":"2026-03-06T04:09:37.123Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 5, 11:00PM-11:05PM ET\" — $20.3K heavily buying, biggest trade $11.3K, 4m ago"}
-{"timestamp":"2026-03-06T04:09:37.123Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T04:09:37.123Z","type":"think","message":"Wide spread: \"Will John Ratcliffe leave the Trump administration bef…\" — bid 6.0% / ask 72.0% (66.0% spread), liq $76.8K"}
 {"timestamp":"2026-03-06T04:09:37.124Z","type":"think","message":"Sources: 0 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news"}
 {"timestamp":"2026-03-06T04:09:37.124Z","type":"decision","message":"Flow signal: \"Block Street FDV above $300M one day after launch?\" — buyers dominating ($6.6K net), 1 traders, 4m ago"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T04:42:17.003Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T04:42:17.003Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T04:42:17.003Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T04:43:26.655Z","type":"crypto-fast","message":"Crypto fast cycle #504 — 11138ms"}
+{"timestamp":"2026-03-06T04:43:16.906Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T04:43:16.906Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T04:43:16.906Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
