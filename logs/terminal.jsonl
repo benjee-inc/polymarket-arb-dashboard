@@ -1,7 +1,3 @@
-{"type":"pipeline","timestamp":"2026-03-06T06:49:51.066Z","cycle":127,"ingestion":{"markets":1637,"trades":50,"tradeVolume":70365,"midpointsFetched":50},"signals":{"movers1h":33,"movers1d":50,"volumeSpikes":487,"catalysts":13,"deepValue":455,"tightRaces":54,"wideSpread":186,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":25,"totalVolume":70365,"avgImbalance":0.97},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38660597769.21545,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38660597769.21545,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3349645.031124741,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2175114.767914596,"change":"-0.5%"},{"q":"Paradex FDV above $40M one day after launch?","type":"wideSpread","score":141890.59782392,"change":null}]}
-{"timestamp":"2026-03-06T06:50:00.858Z","type":"pnl","message":"Today: $-697.65 (-67.6%) · Portfolio $334 · 3 positions · 8 trades"}
-{"timestamp":"2026-03-06T06:49:51.064Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T06:49:51.064Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T06:49:51.064Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
 {"timestamp":"2026-03-06T06:50:30.827Z","type":"crypto-fast","message":"Crypto fast cycle #631 — 12354ms"}
 {"timestamp":"2026-03-06T06:50:19.986Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T07:28:20.716Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T07:28:20.716Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T07:28:20.716Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T07:29:30.686Z","type":"crypto-fast","message":"Crypto fast cycle #670 — 11245ms"}
+{"timestamp":"2026-03-06T07:29:20.949Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T07:29:20.949Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T07:29:20.949Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
