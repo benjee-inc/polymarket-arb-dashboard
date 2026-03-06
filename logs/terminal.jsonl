@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-06T21:06:13.733Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T21:06:13.733Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T21:06:13.733Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-06T21:06:42.776Z","type":"scan","message":"Cycle #17 — 1586 markets | 15 active events | $24.5K recent flow | 4 held"}
-{"timestamp":"2026-03-06T21:06:42.776Z","type":"think","message":"Money flowing: \"Will Opendoor (OPEN) close at $5.00-$6.00 on the final…\" — $2.2K heavily buying, biggest trade $885, 5m ago"}
 {"timestamp":"2026-03-06T21:06:42.776Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — BTC -4.5% 24h ($68,150), F&G=18"}
 {"timestamp":"2026-03-06T21:06:42.776Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -4.2% 24h ($1.36), F&G=18"}
 {"timestamp":"2026-03-06T21:06:42.776Z","type":"think","message":"Crypto data: \"US national Bitcoin reserve before 2027?\" — BTC -4.5% 24h ($68,150), F&G=18"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T21:33:14.067Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T21:33:14.067Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T21:33:14.067Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T21:34:29.443Z","type":"crypto-fast","message":"Crypto fast cycle #108 — 16955ms"}
+{"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
