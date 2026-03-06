@@ -1,13 +1,3 @@
-{"timestamp":"2026-03-06T14:01:39.992Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T14:03:20.537Z","type":"crypto-fast","message":"Crypto fast cycle #82 — 12783ms"}
-{"timestamp":"2026-03-06T14:03:09.748Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T14:03:09.748Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T14:03:09.748Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T14:04:19.607Z","type":"crypto-fast","message":"Crypto fast cycle #83 — 11824ms"}
-{"timestamp":"2026-03-06T14:04:09.216Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T14:04:09.216Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T14:04:09.216Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T14:06:39.411Z","type":"scan","message":"Cycle #18 — 1585 markets | 17 active events | $90.4K recent flow | 3 held"}
 {"timestamp":"2026-03-06T14:06:39.411Z","type":"think","message":"Money flowing: \"Will the Fed increase interest rates by 25+ bps after …\" — $24.6K heavily buying, biggest trade $15.5K, 3m ago"}
 {"timestamp":"2026-03-06T14:06:39.411Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T14:06:39.411Z","type":"think","message":"Wide spread: \"Will GPT-6 be released before GTA VI?\" — bid 57.0% / ask 61.0% (4.0% spread), liq $1.4M"}
@@ -198,3 +188,13 @@
 {"timestamp":"2026-03-06T14:37:08.761Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T14:37:08.761Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T14:37:08.761Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T14:37:38.628Z","type":"scan","message":"Cycle #4 — 1585 markets | 18 active events | $75.1K recent flow | 3 held"}
+{"timestamp":"2026-03-06T14:37:38.628Z","type":"think","message":"Money flowing: \"US x Iran ceasefire by March 15?\" — $27.7K heavily selling, biggest trade $27.7K, 4m ago"}
+{"timestamp":"2026-03-06T14:37:38.628Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T14:37:38.628Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -5.5% 24h ($68,618), F&G=18"}
+{"timestamp":"2026-03-06T14:37:38.628Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -5.5% 24h ($68,618), F&G=18"}
+{"timestamp":"2026-03-06T14:37:38.628Z","type":"think","message":"Wide spread: \"Anduril Industries IPO before 2027?\" — bid 12.0% / ask 84.0% (72.0% spread), liq $191.4K"}
+{"timestamp":"2026-03-06T14:37:38.629Z","type":"think","message":"Sources: 2/8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news"}
+{"timestamp":"2026-03-06T14:37:38.629Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 9:30AM-9:35AM ET\" — buyers dominating ($3.8K net), 3 traders, 4m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T14:38:22.494Z","cycle":4,"ingestion":{"markets":1636,"trades":50,"tradeVolume":75063,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":52,"volumeSpikes":550,"catalysts":11,"deepValue":462,"tightRaces":51,"wideSpread":214,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":18,"totalVolume":75063,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":0},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":37818529294.88877,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":37818529294.88877,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":4404744.634640973,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":784005.2843356609,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":137782.94037119998,"change":null}]}
+{"timestamp":"2026-03-06T14:38:32.025Z","type":"pnl","message":"Today: $-697.82 (-67.6%) · Portfolio $334 · 3 positions · 8 trades"}
