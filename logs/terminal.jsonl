@@ -1,13 +1,3 @@
-{"timestamp":"2026-03-06T06:49:51.064Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T06:50:30.827Z","type":"crypto-fast","message":"Crypto fast cycle #631 — 12354ms"}
-{"timestamp":"2026-03-06T06:50:19.986Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T06:50:19.986Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T06:50:19.986Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T06:51:29.940Z","type":"crypto-fast","message":"Crypto fast cycle #632 — 11437ms"}
-{"timestamp":"2026-03-06T06:51:20.245Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T06:51:20.245Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T06:51:20.245Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T06:52:29.674Z","type":"crypto-fast","message":"Crypto fast cycle #633 — 11141ms"}
 {"timestamp":"2026-03-06T06:52:19.967Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T06:52:19.967Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T06:52:19.967Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
@@ -198,3 +188,13 @@
 {"timestamp":"2026-03-06T07:29:20.949Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T07:29:20.949Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T07:29:20.949Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T07:29:37.245Z","type":"scan","message":"Cycle #135 — 1588 markets | 20 active events | $52.6K recent flow | 3 held"}
+{"timestamp":"2026-03-06T07:29:37.246Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 6, 2:20AM-2:25AM ET\" — $10.0K buying, biggest trade $5.8K, 4m ago"}
+{"timestamp":"2026-03-06T07:29:37.246Z","type":"think","message":"Volume surge: \"Will David Sacks leave the Trump administration before…\" — $57.7K in 24h (763624% of lifetime), ↓0.5% this hour"}
+{"timestamp":"2026-03-06T07:29:37.246Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
+{"timestamp":"2026-03-06T07:29:37.246Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 2:25AM-2:30AM ET\" — buyers dominating ($3.8K net), 3 traders, 4m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T07:29:37.579Z","cycle":135,"ingestion":{"markets":1637,"trades":50,"tradeVolume":52569,"midpointsFetched":50},"signals":{"movers1h":33,"movers1d":51,"volumeSpikes":490,"catalysts":13,"deepValue":455,"tightRaces":52,"wideSpread":193,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":20,"totalVolume":52569,"avgImbalance":0.86},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38622331722.01232,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38622331722.01232,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3472753.2620859277,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":632419.2588408301,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":121482.2829102,"change":null}]}
+{"timestamp":"2026-03-06T07:29:47.109Z","type":"pnl","message":"Today: $-696.56 (-67.5%) · Portfolio $336 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T07:29:37.577Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T07:29:37.577Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T07:29:37.577Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
