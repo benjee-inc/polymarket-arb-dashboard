@@ -1,19 +1,3 @@
-{"timestamp":"2026-03-06T20:46:48.769Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T20:46:48.769Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T20:46:48.769Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T20:49:27.562Z","type":"crypto-fast","message":"Crypto fast cycle #63 — 15965ms"}
-{"timestamp":"2026-03-06T20:49:13.612Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T20:49:13.612Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T20:49:13.612Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T20:49:13.613Z","type":"trade","message":"No trades this cycle — not ACTIONABLE/NOTABLE (_palphaRec=none)."}
-{"timestamp":"2026-03-06T20:50:26.728Z","type":"crypto-fast","message":"Crypto fast cycle #64 — 15103ms"}
-{"timestamp":"2026-03-06T20:50:12.956Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T20:50:12.956Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T20:50:12.956Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T20:50:12.956Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-06T20:50:12.956Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 6, 12:00PM-4:00PM ET\" — spread too wide: 6.7¢ on 5.3¢ mid (125% > 30% max)"}
-{"timestamp":"2026-03-06T20:51:26.958Z","type":"crypto-fast","message":"Crypto fast cycle #65 — 15305ms"}
-{"timestamp":"2026-03-06T20:51:13.142Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
 {"timestamp":"2026-03-06T20:51:13.142Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T20:51:13.142Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T20:51:13.142Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
@@ -198,3 +182,19 @@
 {"timestamp":"2026-03-06T21:14:13.611Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T21:14:13.611Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T21:14:13.611Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T21:16:57.693Z","type":"scan","message":"Cycle #19 — 1584 markets | 9 active events | $16.9K recent flow | 4 held"}
+{"timestamp":"2026-03-06T21:16:57.694Z","type":"think","message":"Money flowing: \"Netflix (NFLX) Up or Down on March 6?\" — $5.3K heavily buying, biggest trade $4.3K, 4m ago"}
+{"timestamp":"2026-03-06T21:16:57.694Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T21:16:57.694Z","type":"think","message":"News: \"Will the Democratic Party control the House after the …\" — 1 articles (neutral), \"Opinion - Will the 2026 midterms be a  blue wave ? Here what to watch \""}
+{"timestamp":"2026-03-06T21:16:57.694Z","type":"think","message":"News: \"Will the Republican Party control the House after the …\" — 1 articles (neutral), \"Opinion - Will the 2026 midterms be a  blue wave ? Here what to watch \""}
+{"timestamp":"2026-03-06T21:16:57.694Z","type":"think","message":"News: \"2026 Balance of Power: D Senate, D House\" — 1 articles (neutral), \"Opinion - Will the 2026 midterms be a  blue wave ? Here what to watch \""}
+{"timestamp":"2026-03-06T21:16:57.694Z","type":"think","message":"Deep value: \"Will Jasmine Crockett win the 2028 Democratic presiden…\" — Yes @ 0.8¢, liq $42.0M, 24h vol $6.3M"}
+{"timestamp":"2026-03-06T21:16:57.694Z","type":"think","message":"Sources: 8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 3/15 news"}
+{"timestamp":"2026-03-06T21:16:57.694Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h, now 16.5%, vol $4.4K"}
+{"type":"pipeline","timestamp":"2026-03-06T21:16:58.371Z","cycle":19,"ingestion":{"markets":1637,"trades":50,"tradeVolume":16919,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":52,"volumeSpikes":507,"catalysts":12,"deepValue":465,"tightRaces":48,"wideSpread":222,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":9,"totalVolume":16919,"avgImbalance":0.899},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"low volume":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":4},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38034864758.55781,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38034864758.55781,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5578978.653265558,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":816637.4351077008,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":131022.7616308,"change":null}]}
+{"timestamp":"2026-03-06T21:17:12.282Z","type":"pnl","message":"Today: $-594.79 (-66.2%) · Portfolio $303 · 4 positions · 22 trades"}
+{"timestamp":"2026-03-06T21:16:58.367Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T21:16:58.367Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T21:16:58.367Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T21:16:58.367Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-06T21:16:58.367Z","type":"palpha","message":"  ✗ \"Will the Democratic Party control the Senate after\" — low volume: $5.9K 24h (need $10K+)"}
