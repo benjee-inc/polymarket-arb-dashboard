@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-06T10:40:25.585Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T10:41:35.396Z","type":"crypto-fast","message":"Crypto fast cycle #862 — 11349ms"}
-{"timestamp":"2026-03-06T10:41:25.616Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T10:41:25.616Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T10:41:25.616Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T10:42:35.919Z","type":"crypto-fast","message":"Crypto fast cycle #863 — 11843ms"}
-{"timestamp":"2026-03-06T10:42:26.055Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T10:42:26.055Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T10:42:26.055Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T10:43:35.406Z","type":"crypto-fast","message":"Crypto fast cycle #864 — 11300ms"}
-{"timestamp":"2026-03-06T10:43:25.625Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T10:43:25.625Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T10:43:25.625Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T10:44:36.701Z","type":"crypto-fast","message":"Crypto fast cycle #865 — 12566ms"}
 {"timestamp":"2026-03-06T10:44:26.587Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T10:44:26.587Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T10:44:26.587Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-06T11:19:26.967Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T11:19:26.967Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T11:19:26.967Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T11:19:58.785Z","type":"scan","message":"Cycle #181 — 1586 markets | 17 active events | $60.5K recent flow | 3 held"}
+{"timestamp":"2026-03-06T11:19:58.785Z","type":"think","message":"Money flowing: \"Will Jesus Christ return before 2027?\" — $15.6K heavily selling, biggest trade $15.6K, 1m ago"}
+{"timestamp":"2026-03-06T11:19:58.785Z","type":"think","message":"News: \"Will China invades Taiwan before GTA VI?\" — 20 articles (bullish), \"参议院投票失败 ！ 特朗普在伊朗动武无人可阻 ？\""}
+{"timestamp":"2026-03-06T11:19:58.785Z","type":"think","message":"News: \"Will China invade Taiwan by end of 2026?\" — 20 articles (bullish), \"参议院投票失败 ！ 特朗普在伊朗动武无人可阻 ？\""}
+{"timestamp":"2026-03-06T11:19:58.785Z","type":"think","message":"News: \"US x Russia military clash by June 30, 2026?\" — 20 articles (bullish), \"参议院投票失败 ！ 特朗普在伊朗动武无人可阻 ？\""}
+{"timestamp":"2026-03-06T11:19:58.785Z","type":"think","message":"News: \"US x Russia military clash by December 31, 2026?\" — 20 articles (bullish), \"参议院投票失败 ！ 特朗普在伊朗动武无人可阻 ？\""}
+{"timestamp":"2026-03-06T11:19:58.786Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Viktor Orbá…\" — 37.5% YES, 24h vol $796.7K"}
+{"timestamp":"2026-03-06T11:19:58.786Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 4/15 news"}
+{"timestamp":"2026-03-06T11:19:58.786Z","type":"decision","message":"Flow signal: \"Bank of Japan increases interest rates by 50+ bps afte…\" — buyers dominating ($9.7K net), 3 traders, 37s ago"}
+{"type":"pipeline","timestamp":"2026-03-06T11:20:09.088Z","cycle":181,"ingestion":{"markets":1636,"trades":50,"tradeVolume":60494,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":54,"volumeSpikes":520,"catalysts":12,"deepValue":464,"tightRaces":52,"wideSpread":206,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":17,"totalVolume":60494,"avgImbalance":0.877},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38342355026.130356,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38342355026.130356,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3959679.039853684,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":786326.1323486886,"change":null},{"q":"Paradex FDV above $40M one day after launch?","type":"wideSpread","score":156910.0179744,"change":null}]}
+{"timestamp":"2026-03-06T11:20:19.334Z","type":"pnl","message":"Today: $-696.02 (-67.4%) · Portfolio $336 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T11:20:09.086Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T11:20:09.086Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T11:20:09.086Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
