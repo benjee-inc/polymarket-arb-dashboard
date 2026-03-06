@@ -1,11 +1,3 @@
-{"timestamp":"2026-03-06T21:27:14.365Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T21:27:14.365Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T21:27:14.365Z","type":"palpha","message":"Passed on \"Will China invades Taiwan before GTA VI?\" — no Grok data available"}
-{"timestamp":"2026-03-06T21:27:14.365Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T21:27:14.365Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-06T21:27:14.365Z","type":"palpha","message":"  ✗ \"Will China invades Taiwan before GTA VI?\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-06T21:28:28.704Z","type":"crypto-fast","message":"Crypto fast cycle #102 — 16313ms"}
-{"timestamp":"2026-03-06T21:28:13.773Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
 {"timestamp":"2026-03-06T21:28:13.773Z","type":"palpha","message":"Found 1 potential trades from scanner"}
 {"timestamp":"2026-03-06T21:28:13.773Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T21:28:13.773Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
@@ -198,3 +190,11 @@
 {"timestamp":"2026-03-06T21:53:23.756Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 6, 4:45PM-5:00PM ET\" — no Grok data available"}
 {"timestamp":"2026-03-06T21:53:23.756Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T21:53:23.757Z","type":"trade","message":"No trades this cycle — not ACTIONABLE/NOTABLE (_palphaRec=none)."}
+{"timestamp":"2026-03-06T21:54:35.805Z","type":"crypto-fast","message":"Crypto fast cycle #128 — 22927ms"}
+{"timestamp":"2026-03-06T21:54:20.924Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T21:54:20.924Z","type":"palpha","message":"Found 2 potential trades from scanner"}
+{"timestamp":"2026-03-06T21:54:20.924Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 6, 4:45PM-5:00PM ET\" — no Grok data available"}
+{"timestamp":"2026-03-06T21:54:20.924Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T21:54:20.924Z","type":"palpha","message":"Evaluated 2 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-06T21:54:20.924Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 6, 4:45PM-5:00PM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-06T21:54:20.924Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
