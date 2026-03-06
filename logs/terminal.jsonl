@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T13:51:52.875Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T13:51:52.875Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T13:51:52.875Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-06T13:51:52.875Z","type":"palpha","message":"  ✗ \"Will the Republicans win the 2028 US Presidential \" — toxic category blacklist"}
 {"timestamp":"2026-03-06T13:56:38.291Z","type":"scan","message":"Cycle #16 — 1585 markets | 19 active events | $72.6K recent flow | 3 held"}
 {"timestamp":"2026-03-06T13:56:38.291Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 6, 8AM ET\" — $6.9K heavily buying, biggest trade $5.3K, 7m ago"}
 {"timestamp":"2026-03-06T13:56:38.292Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — BTC -3.8% 24h ($69,902), F&G=18"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T14:30:08.560Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T14:30:08.560Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T14:30:08.560Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T14:31:19.244Z","type":"crypto-fast","message":"Crypto fast cycle #9 — 12203ms"}
+{"timestamp":"2026-03-06T14:31:09.119Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T14:31:09.119Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T14:31:09.119Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
