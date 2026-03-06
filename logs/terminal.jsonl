@@ -1,10 +1,3 @@
-{"timestamp":"2026-03-06T21:33:14.067Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T21:33:14.067Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T21:33:14.067Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T21:33:14.067Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T21:34:29.443Z","type":"crypto-fast","message":"Crypto fast cycle #108 — 16955ms"}
-{"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-06T21:35:29.293Z","type":"crypto-fast","message":"Crypto fast cycle #109 — 16776ms"}
@@ -198,3 +191,10 @@
 {"timestamp":"2026-03-06T21:58:14.236Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T21:58:14.236Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T21:58:14.236Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T21:59:52.977Z","type":"crypto-fast","message":"Crypto fast cycle #133 — 39990ms"}
+{"timestamp":"2026-03-06T21:59:38.115Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T21:59:38.115Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T21:59:38.115Z","type":"palpha","message":"Passed on \"Solana Up or Down - March 6, 4:45PM-5:00PM ET\" — no Grok data available"}
+{"timestamp":"2026-03-06T21:59:38.115Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T21:59:38.115Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-06T21:59:38.115Z","type":"palpha","message":"  ✗ \"Solana Up or Down - March 6, 4:45PM-5:00PM ET\" — NOISE — not enough edge"}
