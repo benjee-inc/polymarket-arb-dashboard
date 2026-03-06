@@ -1,19 +1,3 @@
-{"type":"pipeline","timestamp":"2026-03-06T03:49:37.662Z","cycle":91,"ingestion":{"markets":1640,"trades":50,"tradeVolume":27518,"midpointsFetched":50},"signals":{"movers1h":28,"movers1d":47,"volumeSpikes":490,"catalysts":13,"deepValue":428,"tightRaces":52,"wideSpread":192,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":9,"totalVolume":27518,"avgImbalance":1},"midShifts":{"count":31,"avgMagnitude":0.0087},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38552701507.6766,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34017089565.59699,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2874885.7710274216,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2169853.023778066,"change":"-0.5%"},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":134546.4115632,"change":null}]}
-{"timestamp":"2026-03-06T03:49:48.445Z","type":"pnl","message":"Today: $-696.73 (-67.5%) · Portfolio $335 · 3 positions · 8 trades"}
-{"timestamp":"2026-03-06T03:49:37.659Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T03:49:37.659Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T03:49:37.659Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T03:51:36.252Z","type":"crypto-fast","message":"Crypto fast cycle #452 — 81666ms"}
-{"timestamp":"2026-03-06T03:50:16.711Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T03:50:16.711Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T03:50:16.711Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T03:51:38.525Z","type":"crypto-fast","message":"Crypto fast cycle #452 — 23939ms"}
-{"timestamp":"2026-03-06T03:51:16.484Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T03:51:16.484Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T03:51:16.484Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T03:52:26.057Z","type":"crypto-fast","message":"Crypto fast cycle #453 — 11449ms"}
-{"timestamp":"2026-03-06T03:52:16.387Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T03:52:16.387Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T03:52:16.387Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
 {"timestamp":"2026-03-06T03:55:16.763Z","type":"crypto-fast","message":"Crypto fast cycle #456 — 122125ms"}
 {"timestamp":"2026-03-06T03:53:16.385Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +182,19 @@
 {"timestamp":"2026-03-06T04:24:16.764Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T04:24:16.764Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T04:24:16.764Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T04:24:53.943Z","type":"scan","message":"Cycle #98 — 1590 markets | 17 active events | $25.8K recent flow | 3 held"}
+{"timestamp":"2026-03-06T04:24:53.943Z","type":"think","message":"Money flowing: \"Will the Iranian regime fall by March 31?\" — $3.9K heavily buying, biggest trade $3.9K, 3m ago"}
+{"timestamp":"2026-03-06T04:24:53.943Z","type":"think","message":"News: \"Starmer out by March 31, 2026?\" — 22 articles (neutral), \"Tahranda art arda şiddetli patlamalar oldu\""}
+{"timestamp":"2026-03-06T04:24:53.943Z","type":"think","message":"News: \"Starmer out by April 30, 2026?\" — 22 articles (neutral), \"Tahranda art arda şiddetli patlamalar oldu\""}
+{"timestamp":"2026-03-06T04:24:53.943Z","type":"think","message":"News: \"Starmer out by June 30, 2026?\" — 22 articles (neutral), \"Tahranda art arda şiddetli patlamalar oldu\""}
+{"timestamp":"2026-03-06T04:24:53.943Z","type":"think","message":"News: \"Starmer out by December 31, 2026?\" — 22 articles (neutral), \"Tahranda art arda şiddetli patlamalar oldu\""}
+{"timestamp":"2026-03-06T04:24:53.944Z","type":"think","message":"↓ Daily mover: \"Will St. John’s win the 2025-2026 Big East Men’s Baske…\" ↓33.0% today, ↓25.0% 1w, 24h vol $36.7K"}
+{"timestamp":"2026-03-06T04:24:53.944Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 4/13 news"}
+{"timestamp":"2026-03-06T04:24:53.944Z","type":"decision","message":"Flow signal: \"Will the Iranian regime fall by April 30?\" — buyers dominating ($2.6K net), 1 traders, 3m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T04:25:08.906Z","cycle":98,"ingestion":{"markets":1640,"trades":50,"tradeVolume":25809,"midpointsFetched":50},"signals":{"movers1h":28,"movers1d":47,"volumeSpikes":485,"catalysts":13,"deepValue":432,"tightRaces":51,"wideSpread":192,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":17,"totalVolume":25809,"avgImbalance":0.893},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38761788035.60358,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":34201577678.47374,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":2837182.3369476097,"change":null},{"q":"Will Rachida Dati win the Paris mayor election?","type":"tightRaces","score":2177790.7244891846,"change":"+1.0%"},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":129045.4112736,"change":null}]}
+{"timestamp":"2026-03-06T04:25:19.358Z","type":"pnl","message":"Today: $-696.73 (-67.5%) · Portfolio $335 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T04:25:08.901Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T04:25:08.901Z","type":"palpha","message":"Passed on \"Will China invades Taiwan before GTA VI?\" — no Grok data available"}
+{"timestamp":"2026-03-06T04:25:08.901Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T04:25:08.901Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T04:25:08.901Z","type":"palpha","message":"  ✗ \"Will China invades Taiwan before GTA VI?\" — NOISE — not enough edge"}
