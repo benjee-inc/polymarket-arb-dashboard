@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T11:40:27.320Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T11:40:27.320Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T11:40:27.320Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T11:41:47.348Z","type":"scan","message":"Cycle #1 — 1586 markets | 17 active events | $77.6K recent flow | 3 held"}
 {"timestamp":"2026-03-06T11:41:47.348Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 6, 6:35AM-6:40AM ET\" — $23.0K heavily buying, biggest trade $9.8K, 40s ago"}
 {"timestamp":"2026-03-06T11:41:47.348Z","type":"think","message":"Crypto data: \"Bitcoin more valuable than any company before 2027?\" — BTC -3.1% 24h ($70,601), F&G=18"}
 {"timestamp":"2026-03-06T11:41:47.348Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -3.1% 24h ($70,601), F&G=18"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T12:13:45.654Z","type":"palpha","message":"Found 1 potential trades from scanner"}
 {"timestamp":"2026-03-06T12:13:45.654Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T12:13:45.654Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T12:14:54.857Z","type":"crypto-fast","message":"Crypto fast cycle #20 — 11688ms"}
+{"timestamp":"2026-03-06T12:14:45.043Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T12:14:45.043Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T12:14:45.043Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $50 today."}
