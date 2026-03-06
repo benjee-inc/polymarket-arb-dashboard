@@ -1,17 +1,3 @@
-{"timestamp":"2026-03-06T12:08:44.966Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T12:09:55.471Z","type":"crypto-fast","message":"Crypto fast cycle #15 — 12365ms"}
-{"timestamp":"2026-03-06T12:09:45.518Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:09:45.518Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:09:45.518Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T12:11:30.560Z","type":"crypto-fast","message":"Crypto fast cycle #16 — 47453ms"}
-{"timestamp":"2026-03-06T12:11:20.489Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T12:11:20.490Z","type":"palpha","message":"Betting NO on \"Will China invades Taiwan before GTA VI?\" — market at 51.5%, Grok thinks 12% (Grok flipped direction)"}
-{"timestamp":"2026-03-06T12:11:20.490Z","type":"palpha","message":"  Why: GTA VI is scheduled for November 19, 2026, giving about 8.5 months from March 6, 2026.2868 Recent US-Israel strikes on Iran (day 7 of war) have sparked speculation of a distraction window for China, with some X posts claiming imminent invasion, but primary sources show no unusual PLA mobilization, paused ADIZ incursions (7 days), and Pentagon assuring Taiwan munitions unaffected.4737 Expert analyses and ISW u"}
-{"timestamp":"2026-03-06T12:11:20.490Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T12:11:20.490Z","type":"trade","message":"No trades this cycle — same-event dedup. Spent $50 today."}
-{"timestamp":"2026-03-06T12:10:42.553Z","type":"scan","message":"Cycle #4 — 1585 markets | 23 active events | $94.6K recent flow | 3 held"}
-{"timestamp":"2026-03-06T12:10:42.553Z","type":"think","message":"Money flowing: \"Will Pete Buttigieg win the 2028 US Presidential Elect…\" — $29.9K heavily buying, biggest trade $29.9K, 3m ago"}
-{"timestamp":"2026-03-06T12:10:42.554Z","type":"think","message":"News: \"Netanyahu out by end of 2026?\" — 11 articles (bearish), \"意大利防长 ： 美以违反国际法\""}
 {"timestamp":"2026-03-06T12:10:42.554Z","type":"think","message":"News: \"Netanyahu out by March 31?\" — 11 articles (bearish), \"意大利防长 ： 美以违反国际法\""}
 {"timestamp":"2026-03-06T12:10:42.554Z","type":"think","message":"News: \"Netanyahu out by June 30?\" — 11 articles (bearish), \"意大利防长 ： 美以违反国际法\""}
 {"timestamp":"2026-03-06T12:10:42.554Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
@@ -198,3 +184,17 @@
 {"timestamp":"2026-03-06T12:40:55.383Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T12:40:55.383Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T12:40:55.383Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T12:41:39.517Z","type":"scan","message":"Cycle #1 — 1584 markets | 21 active events | $44.3K recent flow | 3 held"}
+{"timestamp":"2026-03-06T12:41:39.517Z","type":"think","message":"Money flowing: \"Will Bitcoin dip to $70,000 on March 6?\" — $4.7K heavily buying, biggest trade $3.7K, 5m ago"}
+{"timestamp":"2026-03-06T12:41:39.517Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T12:41:39.517Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — BTC -4.2% 24h ($69,752), F&G=18"}
+{"timestamp":"2026-03-06T12:41:39.517Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -3.4% 24h ($1.39), F&G=18"}
+{"timestamp":"2026-03-06T12:41:39.517Z","type":"think","message":"Crypto data: \"US national Bitcoin reserve before 2027?\" — BTC -4.2% 24h ($69,752), F&G=18"}
+{"timestamp":"2026-03-06T12:41:39.517Z","type":"think","message":"↓ Hourly mover: \"Will the Starship for SpaceX Starship Flight Test 12 a…\" ↓8.0% in 1h (now 64.5%), 24h vol $8.3K"}
+{"timestamp":"2026-03-06T12:41:39.517Z","type":"think","message":"Sources: 3/8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news"}
+{"timestamp":"2026-03-06T12:41:39.518Z","type":"decision","message":"Flow signal: \"Will the price of Ethereum be above $2,200 on March 6?\" — buyers dominating ($3.6K net), 1 traders, 6m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T12:41:40.187Z","cycle":1,"ingestion":{"markets":1636,"trades":50,"tradeVolume":44273,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":54,"volumeSpikes":547,"catalysts":12,"deepValue":466,"tightRaces":52,"wideSpread":214,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":21,"totalVolume":44273,"avgImbalance":0.96},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38190382682.19581,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38190382682.19581,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3968131.131049523,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":784630.9085671987,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":128649.0258112,"change":null}]}
+{"timestamp":"2026-03-06T12:41:50.164Z","type":"pnl","message":"Today: $-695.47 (-67.4%) · Portfolio $337 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T12:41:40.181Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T12:41:40.181Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T12:41:40.181Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
