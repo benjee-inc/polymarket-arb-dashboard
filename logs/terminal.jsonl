@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-05T23:54:10.769Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-05T23:54:10.769Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-05T23:54:10.769Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $4867 today."}
-{"timestamp":"2026-03-05T23:54:36.968Z","type":"scan","message":"Cycle #44 — 1594 markets | 9 active events | $23.6K recent flow | 3 held"}
 {"timestamp":"2026-03-05T23:54:36.968Z","type":"think","message":"Money flowing: \"Will Amazon be the largest company in the world by mar…\" — $5.6K heavily selling, biggest trade $5.6K, 1m ago"}
 {"timestamp":"2026-03-05T23:54:36.968Z","type":"think","message":"Volume surge: \"Will David Sacks leave the Trump administration before…\" — $48.1K in 24h (636405% of lifetime), ↓0.5% this hour"}
 {"timestamp":"2026-03-05T23:54:36.969Z","type":"decision","message":"Flow signal: \"Will Ethereum reach $3,200 in March?\" — buyers dominating ($5.0K net), 1 traders, 39s ago"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T00:24:47.044Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T00:24:47.044Z","type":"palpha","message":"2 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T00:24:47.044Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $0 today."}
+{"timestamp":"2026-03-06T00:25:21.703Z","type":"crypto-fast","message":"Crypto fast cycle #246 — 11890ms"}
+{"timestamp":"2026-03-06T00:25:11.717Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T00:25:11.717Z","type":"palpha","message":"2 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T00:25:11.717Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $0 today."}
