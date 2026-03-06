@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T12:10:42.554Z","type":"think","message":"News: \"Netanyahu out by March 31?\" — 11 articles (bearish), \"意大利防长 ： 美以违反国际法\""}
-{"timestamp":"2026-03-06T12:10:42.554Z","type":"think","message":"News: \"Netanyahu out by June 30?\" — 11 articles (bearish), \"意大利防长 ： 美以违反国际法\""}
-{"timestamp":"2026-03-06T12:10:42.554Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T12:10:42.554Z","type":"think","message":"Wide spread: \"Will John Ratcliffe leave the Trump administration bef…\" — bid 6.0% / ask 72.0% (66.0% spread), liq $80.9K"}
 {"timestamp":"2026-03-06T12:10:42.554Z","type":"think","message":"Sources: 8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 3/10 news"}
 {"timestamp":"2026-03-06T12:10:42.554Z","type":"decision","message":"Flow signal: \"US x Iran ceasefire by March 6?\" — sellers dominating ($24.8K net), 1 traders, 3m ago"}
 {"type":"pipeline","timestamp":"2026-03-06T12:11:25.911Z","cycle":4,"ingestion":{"markets":1636,"trades":50,"tradeVolume":94601,"midpointsFetched":50},"signals":{"movers1h":36,"movers1d":54,"volumeSpikes":546,"catalysts":12,"deepValue":465,"tightRaces":52,"wideSpread":203,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":23,"totalVolume":94601,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":1,"enriched":1,"vetoed":0,"vetoReasons":{},"grokCalls":1,"recommendations":{"ACTIONABLE":1}},"execution":{"tradesExecuted":0,"skipped":1,"skipReasons":{"same-event dedup":1},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38317221572.29974,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38317221572.29974,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3862176.3431567745,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":786267.2199837152,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":126807.78999509999,"change":null}]}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T12:41:40.181Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T12:41:40.181Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T12:41:40.181Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T12:42:18.060Z","type":"crypto-fast","message":"Crypto fast cycle #1 — 12080ms"}
+{"timestamp":"2026-03-06T12:42:07.640Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T12:42:07.640Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T12:42:07.640Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
