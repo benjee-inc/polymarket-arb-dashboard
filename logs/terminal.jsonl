@@ -1,18 +1,3 @@
-{"timestamp":"2026-03-06T18:22:31.961Z","type":"palpha","message":"Found 2 potential trades from scanner"}
-{"timestamp":"2026-03-06T18:22:31.961Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 6, 1:15PM-1:30PM ET\" — Grok says 46%, market at 49.5%, not enough edge"}
-{"timestamp":"2026-03-06T18:22:31.961Z","type":"palpha","message":"  Why: Bitcoin is trading around $68,350-$68,400 as of approximately 1:15 PM ET, following a sustained -3.6% drop over 24 hours with a daily low of $68,341, amid extreme fear (Fear & Greed 18). Recent 1-hour change is a minor +0.1%, but X posts and market data indicate bearish momentum with price slipping below $68k shortly after, testing supports without reversal signs.552717 The downtrend appears sustained rather than a spike, suggesting lower odds of net up move in the next 15 minutes versus market's neutral"}
-{"timestamp":"2026-03-06T18:22:31.961Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T18:22:31.961Z","type":"palpha","message":"Evaluated 2 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-06T18:22:31.961Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 6, 1:15PM-1:30PM ET\" — MONITOR — not enough edge"}
-{"timestamp":"2026-03-06T18:22:31.961Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
-{"timestamp":"2026-03-06T18:23:03.149Z","type":"crypto-fast","message":"Crypto fast cycle #94 — 14633ms"}
-{"timestamp":"2026-03-06T18:22:49.986Z","type":"palpha","message":"[held] 10 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T18:22:49.986Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T18:22:49.986Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T18:22:49.986Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T18:24:03.338Z","type":"crypto-fast","message":"Crypto fast cycle #95 — 14793ms"}
-{"timestamp":"2026-03-06T18:23:50.103Z","type":"palpha","message":"[held] 10 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T18:23:50.103Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T18:23:50.103Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T18:23:50.103Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-06T18:24:19.090Z","type":"scan","message":"Cycle #20 — 1585 markets | 16 active events | $49.0K recent flow | 3 held"}
@@ -198,3 +183,18 @@
 {"timestamp":"2026-03-06T18:45:29.012Z","type":"palpha","message":"  Why: GTA VI is officially scheduled for November 19, 2026, giving roughly 8 months from March 6, 2026.5758 Recent primary sources like ISW and AEI updates show no mobilization or invasion preparations by China, with PLA flights around Taiwan sharply decreased since late February amid possible Trump-Xi talks.4748 The US sinking of an Iranian ship escalates Middle East tensions but represents a separate theater from"}
 {"timestamp":"2026-03-06T18:45:29.012Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T18:45:29.012Z","type":"trade","message":"No trades this cycle — insufficient balance."}
+{"timestamp":"2026-03-06T18:49:19.819Z","type":"scan","message":"Cycle #25 — 1586 markets | 16 active events | $29.0K recent flow | 3 held"}
+{"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Money flowing: \"Will Iran close the Strait of Hormuz by March 31?\" — $3.7K heavily buying, biggest trade $3.7K, 30s ago"}
+{"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Whale: \"0x4520155a080d1a8c392e9b1dcda85d4af5e271c337fc97d57291…\" — whale_size (1 wallets, $155.7K)"}
+{"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Whale: \"0x832e608427a5d6db43947262d84a06bca5630a700eac7eed50e6…\" — whale_size (1 wallets, $89.9K)"}
+{"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Whale: \"0xfb1835b887c33862f5749c619e612d1244ab6e66115f0ef43d37…\" — whale_size (1 wallets, $100.0K)"}
+{"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Crypto data: \"Bitcoin more valuable than any company before 2027?\" — BTC -3.6% 24h ($68,373), F&G=18"}
+{"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Wide spread: \"Anduril Industries IPO before 2027?\" — bid 13.0% / ask 84.0% (71.0% spread), liq $195.8K"}
+{"timestamp":"2026-03-06T18:49:19.819Z","type":"think","message":"Sources: 1/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news, 3/3 whale"}
+{"timestamp":"2026-03-06T18:49:19.819Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 1PM ET\" — buyers dominating ($3.7K net), 2 traders, 36s ago"}
+{"type":"pipeline","timestamp":"2026-03-06T18:49:20.202Z","cycle":25,"ingestion":{"markets":1637,"trades":50,"tradeVolume":29014,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":53,"volumeSpikes":564,"catalysts":11,"deepValue":474,"tightRaces":55,"wideSpread":216,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":3},"tradeFlows":{"count":16,"totalVolume":29014,"avgImbalance":0.867},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":3},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38150676952.00132,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38150676952.00132,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":4874622.634406571,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":843763.4194930887,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":138995.03868519998,"change":null}]}
+{"timestamp":"2026-03-06T18:49:34.395Z","type":"pnl","message":"Today: $-602.65 (-68.5%) · Portfolio $277 · 3 positions · 15 trades"}
+{"timestamp":"2026-03-06T18:49:20.197Z","type":"palpha","message":"[held] 10 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T18:49:20.197Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T18:49:20.197Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T18:49:20.197Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
