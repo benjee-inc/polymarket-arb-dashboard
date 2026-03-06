@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T00:04:10.968Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $0 today."}
-{"timestamp":"2026-03-06T00:04:37.238Z","type":"scan","message":"Cycle #46 — 1594 markets | 13 active events | $213.8K recent flow | 3 held"}
-{"timestamp":"2026-03-06T00:04:37.238Z","type":"think","message":"Money flowing: \"Spread: Rockets (-9.5)\" — $154.0K heavily buying, biggest trade $34.9K, 1m ago"}
-{"timestamp":"2026-03-06T00:04:37.238Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T00:04:37.238Z","type":"think","message":"Sentiment: \"Will there be no change in Fed interest rates after th…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T00:04:37.238Z","type":"think","message":"Sentiment: \"Another S&P 500 Company buys Bitcoin by December 31, 2…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T00:04:37.238Z","type":"think","message":"Sentiment: \"US national Ethereum reserve before 2027?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T00:37:12.015Z","type":"palpha","message":"Found 3 potential trades from scanner"}
 {"timestamp":"2026-03-06T00:37:12.015Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T00:37:12.015Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T00:38:21.954Z","type":"crypto-fast","message":"Crypto fast cycle #259 — 11860ms"}
+{"timestamp":"2026-03-06T00:38:11.937Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-06T00:38:11.937Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T00:38:11.937Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $50 today."}
