@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-06T18:56:56.752Z","type":"trade","message":"No trades this cycle — insufficient balance."}
-{"timestamp":"2026-03-06T18:58:04.243Z","type":"crypto-fast","message":"Crypto fast cycle #129 — 15150ms"}
-{"timestamp":"2026-03-06T18:57:50.447Z","type":"palpha","message":"[held] 10 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T18:57:50.447Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T18:57:50.447Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T18:57:50.447Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
 {"timestamp":"2026-03-06T18:59:03.731Z","type":"crypto-fast","message":"Crypto fast cycle #130 — 14609ms"}
 {"timestamp":"2026-03-06T18:58:50.651Z","type":"palpha","message":"[held] 10 positions excluded from opportunity search"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T19:25:07.184Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T19:25:07.184Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
 {"timestamp":"2026-03-06T19:25:07.184Z","type":"palpha","message":"  ✗ \"Will there be no change in Fed interest rates afte\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-06T19:26:04.306Z","type":"crypto-fast","message":"Crypto fast cycle #157 — 14776ms"}
+{"timestamp":"2026-03-06T19:25:51.072Z","type":"palpha","message":"[held] 10 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T19:25:51.072Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T19:25:51.072Z","type":"palpha","message":"3 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T19:25:51.072Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
