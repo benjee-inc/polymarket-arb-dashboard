@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T10:09:24.895Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T10:09:24.895Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T10:09:24.895Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T10:09:38.487Z","type":"scan","message":"Cycle #167 — 1587 markets | 15 active events | $42.1K recent flow | 3 held"}
 {"timestamp":"2026-03-06T10:09:38.487Z","type":"think","message":"Money flowing: \"Block Street FDV above $100M one day after launch?\" — $5.3K heavily buying, biggest trade $3.9K, 1m ago"}
 {"timestamp":"2026-03-06T10:09:38.487Z","type":"think","message":"Tight race: \"Opensea FDV above $500M one day after launch?\" — 64.6% YES, 24h vol $123.4K, ↓0.1% 1h"}
 {"timestamp":"2026-03-06T10:09:38.487Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T10:43:25.625Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T10:43:25.625Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T10:43:25.625Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T10:44:36.701Z","type":"crypto-fast","message":"Crypto fast cycle #865 — 12566ms"}
+{"timestamp":"2026-03-06T10:44:26.587Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T10:44:26.587Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T10:44:26.587Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
