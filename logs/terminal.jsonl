@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T09:59:37.215Z","type":"think","message":"Sources: 0 crypto, 0 weather, 4/5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-06T09:59:37.215Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 4:50AM-4:55AM ET\" — buyers dominating ($5.5K net), 7 traders, 4m ago"}
-{"type":"pipeline","timestamp":"2026-03-06T09:59:37.539Z","cycle":165,"ingestion":{"markets":1636,"trades":50,"tradeVolume":66931,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":52,"volumeSpikes":499,"catalysts":12,"deepValue":459,"tightRaces":54,"wideSpread":205,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":16,"totalVolume":66931,"avgImbalance":0.981},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38340559150.42156,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38340559150.42156,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3852177.706768248,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":719051.5566316308,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":123382.38554080001,"change":null}]}
-{"timestamp":"2026-03-06T09:59:47.587Z","type":"pnl","message":"Today: $-696.56 (-67.5%) · Portfolio $336 · 3 positions · 8 trades"}
 {"timestamp":"2026-03-06T09:59:37.537Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T09:59:37.537Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T09:59:37.537Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T10:34:44.407Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T10:34:44.407Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T10:34:44.407Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T10:35:36.002Z","type":"crypto-fast","message":"Crypto fast cycle #856 — 12119ms"}
+{"timestamp":"2026-03-06T10:35:25.848Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T10:35:25.848Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T10:35:25.848Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
