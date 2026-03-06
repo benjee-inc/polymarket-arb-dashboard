@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-06T23:06:22.879Z","type":"palpha","message":"[held] 13 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T23:06:22.879Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T23:06:22.879Z","type":"palpha","message":"4 active positions (11 dust ignored)"}
-{"timestamp":"2026-03-06T23:06:22.879Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T23:07:42.930Z","type":"crypto-fast","message":"Crypto fast cycle #3 — 21417ms"}
-{"timestamp":"2026-03-06T23:07:22.810Z","type":"palpha","message":"[held] 13 positions excluded from opportunity search"}
 {"timestamp":"2026-03-06T23:07:22.810Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T23:07:22.810Z","type":"palpha","message":"4 active positions (11 dust ignored)"}
 {"timestamp":"2026-03-06T23:07:22.810Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-06T23:37:10.658Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T23:37:10.658Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
 {"timestamp":"2026-03-06T23:37:10.658Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T23:41:01.064Z","type":"crypto-fast","message":"Crypto fast cycle #14 — 22686ms"}
+{"timestamp":"2026-03-06T23:40:39.914Z","type":"palpha","message":"[held] 12 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T23:40:39.914Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 2 up/down"}
+{"timestamp":"2026-03-06T23:40:39.914Z","type":"palpha","message":"Found 2 potential trades from scanner"}
+{"timestamp":"2026-03-06T23:40:39.914Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
+{"timestamp":"2026-03-06T23:40:39.915Z","type":"trade","message":"No trades this cycle — not ACTIONABLE/NOTABLE (_palphaRec=none) (2)."}
