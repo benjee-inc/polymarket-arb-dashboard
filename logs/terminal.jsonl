@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T09:52:24.807Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T09:52:24.807Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T09:52:24.807Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T09:53:34.552Z","type":"crypto-fast","message":"Crypto fast cycle #814 — 11742ms"}
 {"timestamp":"2026-03-06T09:53:24.925Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T09:53:24.925Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T09:53:24.925Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T10:25:06.479Z","type":"palpha","message":"  ✗ \"New Playboi Carti Album before GTA VI?\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-06T10:25:06.479Z","type":"palpha","message":"  ✗ \"Will bitcoin hit $1m before GTA VI?\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-06T10:25:06.479Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
+{"timestamp":"2026-03-06T10:25:35.840Z","type":"crypto-fast","message":"Crypto fast cycle #846 — 12219ms"}
+{"timestamp":"2026-03-06T10:25:25.828Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-06T10:25:25.828Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T10:25:25.828Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $50 today."}
