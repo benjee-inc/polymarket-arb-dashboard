@@ -1,8 +1,3 @@
-{"timestamp":"2026-03-06T22:54:36.017Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T22:54:36.017Z","type":"palpha","message":"4 active positions (10 dust ignored)"}
-{"timestamp":"2026-03-06T22:54:36.017Z","type":"trade","message":"No trades this cycle — not ACTIONABLE/NOTABLE (_palphaRec=none)."}
-{"timestamp":"2026-03-06T22:55:55.270Z","type":"crypto-fast","message":"Crypto fast cycle #32 — 20544ms"}
-{"timestamp":"2026-03-06T22:55:36.373Z","type":"palpha","message":"[held] 14 positions excluded from opportunity search"}
 {"timestamp":"2026-03-06T22:55:36.373Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T22:55:36.373Z","type":"palpha","message":"4 active positions (10 dust ignored)"}
 {"timestamp":"2026-03-06T22:55:36.373Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T23:24:15.050Z","type":"palpha","message":"  Why: Bitcoin has declined 3-4% today amid a bearish reaction to a severely missed NFP report (-92K vs +59K expected), sparking recession fears that override dovish Fed expectations, as noted in recent X posts and news. Prices have been testing supports around $67,800-$68,400 in early afternoon ET, with X sentiment highlighting failure to reclaim EMAs and ongoing downward pressure. Order flow searches indicate mixed signals with some selling pressure, while the small-volume buy bias ($) provides minor counter but lacks conviction against the macro momentum."}
 {"timestamp":"2026-03-06T23:24:15.050Z","type":"palpha","message":"0 active positions (11 dust ignored)"}
 {"timestamp":"2026-03-06T23:24:15.050Z","type":"trade","message":"No trades this cycle — not ACTIONABLE/NOTABLE (_palphaRec=none) (2)."}
+{"timestamp":"2026-03-06T23:24:53.014Z","type":"crypto-fast","message":"Crypto fast cycle #15 — 21074ms"}
+{"timestamp":"2026-03-06T23:24:33.572Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T23:24:33.572Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T23:24:33.572Z","type":"palpha","message":"0 active positions (11 dust ignored)"}
+{"timestamp":"2026-03-06T23:24:33.572Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
