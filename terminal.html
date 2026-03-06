@@ -238,7 +238,7 @@ async function verifyOnChain() {
 // ── Data: Trade Activity from Data API ───────────────────
 async function fetchActivity() {
   try {
-    const res = await fetch(`${DATA_API}/activity?user=${WALLET}&limit=50`, {
+    const res = await fetch(`${DATA_API}/activity?user=${WALLET}&limit=500`, {
       signal: AbortSignal.timeout(10000)
     });
     if (!res.ok) return;
@@ -613,14 +613,51 @@ function calcTotalDeployed() {
 }
 
 function calcTotalRealized() {
-  const sellPnl = activity
-    .filter(a => a.type === 'SELL' || a.type === 'sell')
-    .reduce((sum, a) => sum + parseFloat(a.cashPnl || a.pnl || 0), 0);
+  const roundTrips = computeRoundTrips();
+  const tradePnl = roundTrips.reduce((sum, rt) => sum + rt.pnl, 0);
   // Include auto-redeem PnL from scanner logs (winning shares redeemed on-chain)
   const redeemPnl = cachedLogs
     .filter(a => a.type === 'redeem' && a.cashPnl)
     .reduce((sum, a) => sum + parseFloat(a.cashPnl), 0);
-  return sellPnl + redeemPnl;
+  return tradePnl + redeemPnl;
+}
+
+// Match BUY/SELL pairs by conditionId+outcome to compute round-trip P&L
+function computeRoundTrips() {
+  const groups = {};
+  for (const a of activity) {
+    const side = (a.side || '').toUpperCase();
+    if (side !== 'BUY' && side !== 'SELL') continue;
+    const key = (a.conditionId || '') + '|' + (a.outcome || '');
+    if (!groups[key]) groups[key] = { buys: [], sells: [], title: a.title || '', outcome: a.outcome || '', conditionId: a.conditionId || '', eventSlug: a.eventSlug || '' };
+    if (side === 'BUY') groups[key].buys.push(a);
+    else groups[key].sells.push(a);
+  }
+  const results = [];
+  for (const key in groups) {
+    const g = groups[key];
+    if (!g.sells.length) continue; // no sells = still open or no exit
+    const totalBuyCost = g.buys.reduce((s, a) => s + parseFloat(a.usdcSize || 0), 0);
+    const totalBuyShares = g.buys.reduce((s, a) => s + parseFloat(a.size || 0), 0);
+    const totalSellProceeds = g.sells.reduce((s, a) => s + parseFloat(a.usdcSize || 0), 0);
+    const totalSellShares = g.sells.reduce((s, a) => s + parseFloat(a.size || 0), 0);
+    const avgBuyPrice = totalBuyShares > 0 ? totalBuyCost / totalBuyShares : 0;
+    const avgSellPrice = totalSellShares > 0 ? totalSellProceeds / totalSellShares : 0;
+    const pnl = totalSellProceeds - totalBuyCost;
+    const lastSell = g.sells.reduce((latest, a) => {
+      const t = a.timestamp || a.createdAt || 0;
+      return t > latest ? t : latest;
+    }, 0);
+    results.push({
+      title: g.title, outcome: g.outcome, conditionId: g.conditionId, eventSlug: g.eventSlug,
+      buyCost: totalBuyCost, buyShares: totalBuyShares, avgBuyPrice,
+      sellProceeds: totalSellProceeds, sellShares: totalSellShares, avgSellPrice,
+      pnl, lastSellTime: lastSell,
+      txHash: g.sells[0]?.transactionHash || '',
+    });
+  }
+  results.sort((a, b) => b.lastSellTime - a.lastSellTime);
+  return results;
 }
 
 // ── Render: Logs ─────────────────────────────────────────
@@ -698,53 +735,86 @@ function renderClosed() {
     return;
   }
 
-  // Merge Data API activity + auto-redeem entries from scanner logs
+  // Compute round-trip P&L by matching BUY/SELL pairs
+  const roundTrips = computeRoundTrips();
+  // Include auto-redeem entries from scanner logs
   const redeemEntries = cachedLogs
     .filter(a => a.type === 'redeem' && a.cashPnl)
-    .map(a => ({ ...a, type: 'REDEEM' }));
-  const sorted = [...activity, ...redeemEntries].sort((a, b) => new Date(b.timestamp || b.createdAt) - new Date(a.timestamp || a.createdAt));
+    .map(a => ({ ...a, _isRedeem: true, pnl: parseFloat(a.cashPnl) }));
 
-  const exits = sorted.filter(a => (a.type || '').toUpperCase() === 'SELL' || (a.type || '').toUpperCase() === 'REDEEM');
-  const totalRealized = exits.reduce((s, a) => s + parseFloat(a.cashPnl || a.pnl || 0), 0);
-  const wins = exits.filter(a => parseFloat(a.cashPnl || a.pnl || 0) > 0).length;
-  const winRate = exits.length ? (wins / exits.length * 100).toFixed(0) : '--';
+  const allClosed = [...roundTrips.map(rt => ({ ...rt, _isRoundTrip: true })), ...redeemEntries]
+    .sort((a, b) => {
+      const tA = a.lastSellTime || new Date(a.timestamp || 0).getTime() / 1000;
+      const tB = b.lastSellTime || new Date(b.timestamp || 0).getTime() / 1000;
+      return tB - tA;
+    });
+
+  const totalRealized = roundTrips.reduce((s, rt) => s + rt.pnl, 0)
+    + redeemEntries.reduce((s, a) => s + a.pnl, 0);
+  const wins = roundTrips.filter(rt => rt.pnl > 0).length + redeemEntries.filter(a => a.pnl > 0).length;
+  const totalExits = roundTrips.length + redeemEntries.length;
+  const winRate = totalExits ? (wins / totalExits * 100).toFixed(0) : '--';
 
   let html = '<div style="margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid #333;display:flex;gap:24px;font-size:0.8rem">'
-    + '<div><span style="color:#666">Trades:</span> <span style="color:#ccc">' + sorted.length + '</span></div>'
-    + '<div><span style="color:#666">Exits:</span> <span style="color:#ccc">' + exits.length + '</span></div>'
-    + '<div><span style="color:#666">Realized P&L:</span> <span class="' + pnlClass(totalRealized) + '">' + (totalRealized >= 0 ? '+' : '') + totalRealized.toFixed(3) + '</span></div>'
+    + '<div><span style="color:#666">Round-trips:</span> <span style="color:#ccc">' + roundTrips.length + '</span></div>'
+    + '<div><span style="color:#666">Redeems:</span> <span style="color:#ccc">' + redeemEntries.length + '</span></div>'
+    + '<div><span style="color:#666">Realized P&L:</span> <span class="' + pnlClass(totalRealized) + '">' + (totalRealized >= 0 ? '+' : '') + '$' + Math.abs(totalRealized).toFixed(2) + '</span></div>'
     + '<div><span style="color:#666">Win Rate:</span> <span style="color:#ccc">' + winRate + '%</span></div>'
     + '</div>';
 
-  for (const a of sorted) {
-    const typeUp = (a.type || '').toUpperCase();
-    const isSell = typeUp === 'SELL';
-    const isBuy = typeUp === 'BUY';
-    const isRedeem = typeUp === 'REDEEM';
-    const isExit = isSell || isRedeem;
-    const pnl = parseFloat(a.cashPnl || a.pnl || 0);
-    const price = parseFloat(a.price || a.avgPrice || 0);
-    const size = parseFloat(a.size || a.usdcSize || 0);
-    const time = a.timestamp || a.createdAt;
-    const txHash = a.transactionHash || '';
+  for (const item of allClosed) {
+    if (item._isRedeem) {
+      const pnl = item.pnl;
+      html += '<div class="closed-card">'
+        + '<span style="color:' + (pnl >= 0 ? '#00ff00' : '#ff0044') + ';font-weight:bold">REDEEM</span> '
+        + esc((item.title || item.message || '').slice(0, 60))
+        + ' | P&L: <span class="' + pnlClass(pnl) + '">' + (pnl >= 0 ? '+' : '-') + '$' + Math.abs(pnl).toFixed(2) + '</span>'
+        + (item.timestamp ? ' | <span style="color:#555">' + ts(item.timestamp) + '</span>' : '')
+        + '</div>';
+      continue;
+    }
+    // Round-trip
+    const rt = item;
+    const pnlColor = rt.pnl >= 0 ? '#00ff00' : '#ff0044';
+    const pnlPct = rt.buyCost > 0 ? ((rt.pnl / rt.buyCost) * 100) : 0;
 
-    const typeColor = isExit ? (pnl >= 0 ? '#00ff00' : '#ff0044') : '#ffaa00';
-    const typeLabel = isRedeem ? 'REDEEM' : isSell ? 'SELL' : isBuy ? 'BUY' : (a.type || '?');
-
-    const txLink = txHash
-      ? ' <a class="tx-link" href="https://polygonscan.com/tx/' + esc(txHash) + '" target="_blank" rel="noopener">' + txHash.slice(0, 10) + '...</a>'
+    const txLink = rt.txHash
+      ? ' <a class="tx-link" href="https://polygonscan.com/tx/' + esc(rt.txHash) + '" target="_blank" rel="noopener">' + rt.txHash.slice(0, 10) + '...</a>'
       : '';
 
     html += '<div class="closed-card">'
-      + '<span style="color:' + typeColor + ';font-weight:bold">' + typeLabel + '</span> '
-      + esc((a.title || a.question || '').slice(0, 60))
-      + ' | <span style="color:#ccc">' + esc(a.outcome || a.side || '') + '</span>'
-      + ' @ ' + (price * 100).toFixed(1) + '¢'
-      + ' | ' + fmt(size)
-      + (isExit ? ' | P&L: <span class="' + pnlClass(pnl) + '">' + (pnl >= 0 ? '+' : '') + pnl.toFixed(3) + '</span>' : '')
-      + (time ? ' | <span style="color:#555">' + ts(time) + '</span>' : '')
+      + '<span style="color:' + pnlColor + ';font-weight:bold">' + (rt.pnl >= 0 ? 'WIN' : 'LOSS') + '</span> '
+      + esc((rt.title || '').slice(0, 55))
+      + ' | <span style="color:#ccc">' + esc(rt.outcome) + '</span>'
+      + ' | bought @ ' + (rt.avgBuyPrice * 100).toFixed(1) + '¢ → sold @ ' + (rt.avgSellPrice * 100).toFixed(1) + '¢'
+      + ' | cost $' + rt.buyCost.toFixed(2) + ' → $' + rt.sellProceeds.toFixed(2)
+      + ' | <span class="' + pnlClass(rt.pnl) + '" style="font-weight:bold">' + (rt.pnl >= 0 ? '+' : '-') + '$' + Math.abs(rt.pnl).toFixed(2) + ' (' + (pnlPct >= 0 ? '+' : '') + pnlPct.toFixed(0) + '%)</span>'
+      + (rt.lastSellTime ? ' | <span style="color:#555">' + ts(rt.lastSellTime * 1000) + '</span>' : '')
       + txLink
       + '</div>';
+  }
+
+  // Also show open buys with no sells yet (still pending)
+  const openBuys = activity.filter(a => {
+    if ((a.side || '').toUpperCase() !== 'BUY') return false;
+    const key = (a.conditionId || '') + '|' + (a.outcome || '');
+    return !roundTrips.some(rt => (rt.conditionId + '|' + rt.outcome) === key);
+  });
+  if (openBuys.length) {
+    html += '<div style="margin-top:15px;padding-top:10px;border-top:1px solid #333;color:#888;font-size:0.75rem;margin-bottom:8px">OPEN (no exit yet)</div>';
+    for (const a of openBuys) {
+      const price = parseFloat(a.price || 0);
+      const usdcSize = parseFloat(a.usdcSize || 0);
+      const time = a.timestamp || a.createdAt;
+      html += '<div class="closed-card" style="opacity:0.5">'
+        + '<span style="color:#ffaa00;font-weight:bold">OPEN</span> '
+        + esc((a.title || '').slice(0, 55))
+        + ' | <span style="color:#ccc">' + esc(a.outcome || '') + '</span>'
+        + ' @ ' + (price * 100).toFixed(1) + '¢'
+        + ' | $' + usdcSize.toFixed(2)
+        + (time ? ' | <span style="color:#555">' + ts(typeof time === 'number' ? time * 1000 : time) + '</span>' : '')
+        + '</div>';
+    }
   }
   content.innerHTML = html;
 }
