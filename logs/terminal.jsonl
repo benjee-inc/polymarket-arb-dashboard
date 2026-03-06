@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-06T23:25:24.996Z","type":"pnl","message":"Today: $-569.95 (-68.5%) · Portfolio $262 · 0 positions · 26 trades"}
-{"timestamp":"2026-03-06T23:25:04.531Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T23:25:04.531Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T23:25:04.531Z","type":"palpha","message":"0 active positions (11 dust ignored)"}
-{"timestamp":"2026-03-06T23:25:04.531Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T23:25:53.488Z","type":"crypto-fast","message":"Crypto fast cycle #16 — 21545ms"}
 {"timestamp":"2026-03-06T23:25:34.091Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
 {"timestamp":"2026-03-06T23:25:34.091Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T23:25:34.091Z","type":"palpha","message":"0 active positions (11 dust ignored)"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-06T23:52:30.491Z","type":"palpha","message":"Evaluated 2 opportunities, 1 vetoed."}
 {"timestamp":"2026-03-06T23:52:30.491Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 6, 6:45PM-7:00PM ET\" — MONITOR — not enough edge"}
 {"timestamp":"2026-03-06T23:52:30.491Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
+{"timestamp":"2026-03-06T23:53:01.136Z","type":"crypto-fast","message":"Crypto fast cycle #26 — 22585ms"}
+{"timestamp":"2026-03-06T23:52:40.041Z","type":"palpha","message":"[held] 12 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T23:52:40.041Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 1 up/down"}
+{"timestamp":"2026-03-06T23:52:40.041Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T23:52:40.041Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
+{"timestamp":"2026-03-06T23:52:40.041Z","type":"trade","message":"No trades this cycle — not ACTIONABLE/NOTABLE (_palphaRec=none)."}
