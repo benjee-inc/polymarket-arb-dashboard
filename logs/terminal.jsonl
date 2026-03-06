@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T08:59:23.590Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T08:59:38.517Z","type":"scan","message":"Cycle #153 — 1589 markets | 20 active events | $55.6K recent flow | 3 held"}
-{"timestamp":"2026-03-06T08:59:38.517Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 6, 3:55AM-4:00AM ET\" — $12.6K heavily buying, biggest trade $5.9K, 9s ago"}
-{"timestamp":"2026-03-06T08:59:38.518Z","type":"think","message":"Tight race: \"Will J.D. Vance win the 2028 Republican presidential n…\" — 41.5% YES, 24h vol $3.9M"}
 {"timestamp":"2026-03-06T08:59:38.518Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news, 1 whale (all on cooldown)"}
 {"timestamp":"2026-03-06T08:59:38.518Z","type":"decision","message":"Flow signal: \"Will Bugonia win Best Picture at the 98th Academy Awar…\" — buyers dominating ($6.6K net), 5 traders, 13s ago"}
 {"type":"pipeline","timestamp":"2026-03-06T08:59:38.863Z","cycle":153,"ingestion":{"markets":1636,"trades":50,"tradeVolume":55575,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":51,"volumeSpikes":481,"catalysts":13,"deepValue":458,"tightRaces":52,"wideSpread":205,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":1},"tradeFlows":{"count":20,"totalVolume":55575,"avgImbalance":0.929},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38452077022.99842,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38452077022.99842,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3864422.526298596,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":641348.6654741049,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":129553.45129999999,"change":null}]}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T09:42:24.066Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T09:42:24.066Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T09:42:24.066Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T09:43:33.755Z","type":"crypto-fast","message":"Crypto fast cycle #804 — 11143ms"}
+{"timestamp":"2026-03-06T09:43:24.126Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T09:43:24.126Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T09:43:24.126Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
