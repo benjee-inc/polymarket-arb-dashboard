@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T09:44:46.598Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 33.5%), 24h vol $18.5K"}
-{"timestamp":"2026-03-06T09:44:46.599Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 4/15 news"}
-{"timestamp":"2026-03-06T09:44:46.599Z","type":"decision","message":"Flow signal: \"Will Crude Oil (CL) hit (HIGH) $90 by end of March?\" — buyers dominating ($3.0K net), 2 traders, 35s ago"}
-{"type":"pipeline","timestamp":"2026-03-06T09:44:56.655Z","cycle":162,"ingestion":{"markets":1636,"trades":50,"tradeVolume":28437,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":52,"volumeSpikes":497,"catalysts":12,"deepValue":457,"tightRaces":54,"wideSpread":210,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":17,"totalVolume":28437,"avgImbalance":0.932},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":2,"enriched":0,"vetoed":2,"vetoReasons":{"NOISE — not enough edge":1,"low volume":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38369605046.92118,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38369605046.92118,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3815842.213339205,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":678467.0569073997,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":136992.8993192,"change":null}]}
 {"timestamp":"2026-03-06T09:45:06.233Z","type":"pnl","message":"Today: $-696.56 (-67.5%) · Portfolio $336 · 3 positions · 8 trades"}
 {"timestamp":"2026-03-06T09:44:56.652Z","type":"palpha","message":"Found 2 potential trades from scanner"}
 {"timestamp":"2026-03-06T09:44:56.652Z","type":"palpha","message":"Passed on \"Will the Democratic Party control the House after the 2026 M\" — no Grok data available"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T10:22:25.380Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T10:22:25.380Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T10:22:25.380Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T10:23:35.802Z","type":"crypto-fast","message":"Crypto fast cycle #844 — 12211ms"}
+{"timestamp":"2026-03-06T10:23:25.708Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T10:23:25.708Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T10:23:25.708Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
