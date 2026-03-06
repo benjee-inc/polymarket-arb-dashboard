@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-06T16:44:39.881Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -3.7% 24h ($1.36), F&G=18"}
-{"timestamp":"2026-03-06T16:44:39.881Z","type":"think","message":"Crypto data: \"US national Bitcoin reserve before 2027?\" — BTC -4.0% 24h ($68,575), F&G=18"}
-{"timestamp":"2026-03-06T16:44:39.882Z","type":"think","message":"Catalyst: \"Will UConn win the 2025-2026 Big East Men’s Basketball…\" — 7h to resolution, 53.5% YES, ↓6.0% this hour, vol $42.8K"}
-{"timestamp":"2026-03-06T16:44:39.882Z","type":"think","message":"Sources: 4/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-06T16:44:39.882Z","type":"decision","message":"Flow signal: \"Will the Fed decrease interest rates by 50+ bps after …\" — buyers dominating ($9.8K net), 1 traders, 4m ago"}
-{"type":"pipeline","timestamp":"2026-03-06T16:45:22.803Z","cycle":10,"ingestion":{"markets":1637,"trades":50,"tradeVolume":57472,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":52,"volumeSpikes":565,"catalysts":11,"deepValue":462,"tightRaces":56,"wideSpread":207,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":15,"totalVolume":57472,"avgImbalance":0.961},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":1,"enriched":1,"vetoed":0,"vetoReasons":{},"grokCalls":1,"recommendations":{"ACTIONABLE":1}},"execution":{"tradesExecuted":0,"skipped":1,"skipReasons":{"already held (local state)":1},"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":37991972570.234276,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":37991972570.234276,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":4831462.557430859,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":810892.0585279675,"change":null},{"q":"EdgeX FDV above $700M one day after launch?","type":"wideSpread","score":159186.2220704,"change":null}]}
 {"timestamp":"2026-03-06T16:45:33.092Z","type":"pnl","message":"Today: $-697.27 (-67.6%) · Portfolio $335 · 3 positions · 8 trades"}
 {"timestamp":"2026-03-06T16:45:22.798Z","type":"palpha","message":"[held] 8 positions excluded from opportunity search"}
 {"timestamp":"2026-03-06T16:45:22.798Z","type":"palpha","message":"Found 1 potential trades from scanner"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-06T17:22:48.986Z","type":"palpha","message":"Found 1 potential trades from scanner"}
 {"timestamp":"2026-03-06T17:22:48.986Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T17:22:48.986Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-06T17:24:01.826Z","type":"crypto-fast","message":"Crypto fast cycle #35 — 14347ms"}
+{"timestamp":"2026-03-06T17:23:54.779Z","type":"trade","message":"TAKE PROFIT: Sold \"Will there be no change in Fed interest rates after the\" — 59 shares @ 84.5¢ (+8450%) for $49.41 (P&L: +$49.41)"}
+{"timestamp":"2026-03-06T17:23:48.999Z","type":"palpha","message":"[held] 8 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T17:23:48.999Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T17:23:48.999Z","type":"palpha","message":"4 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T17:23:48.999Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
