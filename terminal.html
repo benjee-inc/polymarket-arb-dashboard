@@ -581,7 +581,11 @@ function mergeScannserLogs() {
 
 // ── PnL Calculation ──────────────────────────────────────
 function getLivePrice(p) {
-  // Prefer CLOB midpoint, fall back to Data API curPrice
+  // If market has resolved, use resolved price from Data API (not stale CLOB midpoint)
+  if (p.redeemable) {
+    return parseFloat(p.curPrice || 0);
+  }
+  // Prefer CLOB midpoint for active markets, fall back to Data API curPrice
   if (p.asset && liveMidpoints[p.asset] !== undefined) {
     return parseFloat(liveMidpoints[p.asset]);
   }
@@ -695,6 +699,8 @@ function renderLogs() {
 function renderPositions() {
   const visible = positions.filter(p => {
     const calc = calcPositionPnl(p);
+    // Show resolved positions (redeemable) so user sees final outcome
+    if (p.redeemable) return calc.size > 0;
     // Hide: dust (price < 1¢), resolved winners (price >= 99¢), low value (< $2)
     return calc.value >= 2 && calc.livePrice >= 0.01 && calc.livePrice < 0.99;
   });
@@ -720,9 +726,11 @@ function renderPositions() {
     }
 
     // Price source indicator
-    const priceSource = (p.asset && liveMidpoints[p.asset] !== undefined)
-      ? '<span class="source-tag source-clob">CLOB Live</span>'
-      : '<span class="source-tag source-api">Data API</span>';
+    const priceSource = p.redeemable
+      ? '<span class="source-tag" style="background:#1a1a3a;color:#aa88ff;border:1px solid #aa88ff33">RESOLVED</span>'
+      : (p.asset && liveMidpoints[p.asset] !== undefined)
+        ? '<span class="source-tag source-clob">CLOB Live</span>'
+        : '<span class="source-tag source-api">Data API</span>';
 
     html += '<div class="pos-card ' + cls + '">'
       + '<div>'
