@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T00:14:11.161Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-06T00:14:11.161Z","type":"palpha","message":"2 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T00:14:11.161Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed. Spent $0 today."}
-{"timestamp":"2026-03-06T00:14:54.865Z","type":"scan","message":"Cycle #48 — 1594 markets | 17 active events | $133.2K recent flow | 2 held"}
 {"timestamp":"2026-03-06T00:14:54.865Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be between $60,000 and $62,0…\" — $4.0K heavily buying, biggest trade $1.0K, 6m ago"}
 {"timestamp":"2026-03-06T00:14:54.865Z","type":"think","message":"News: \"Netanyahu out by end of 2026?\" — 16 articles (bullish), \"İsrail ordusu , İran  ın yeni bir füze saldırısı başlattığını açıkladı\""}
 {"timestamp":"2026-03-06T00:14:54.865Z","type":"think","message":"News: \"Netanyahu out by March 31?\" — 16 articles (bullish), \"İsrail ordusu , İran  ın yeni bir füze saldırısı başlattığını açıkladı\""}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T00:51:11.873Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T00:51:11.873Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T00:51:11.873Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T00:52:22.580Z","type":"crypto-fast","message":"Crypto fast cycle #273 — 12155ms"}
+{"timestamp":"2026-03-06T00:52:12.338Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T00:52:12.338Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T00:52:12.338Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
