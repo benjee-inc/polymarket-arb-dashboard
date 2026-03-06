@@ -1,18 +1,3 @@
-{"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T21:34:13.959Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T21:35:29.293Z","type":"crypto-fast","message":"Crypto fast cycle #109 — 16776ms"}
-{"timestamp":"2026-03-06T21:35:14.459Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T21:35:14.459Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T21:35:14.459Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T21:35:14.459Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T21:36:29.990Z","type":"crypto-fast","message":"Crypto fast cycle #110 — 17445ms"}
-{"timestamp":"2026-03-06T21:36:14.104Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T21:36:14.104Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T21:36:14.104Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
-{"timestamp":"2026-03-06T21:36:14.104Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T21:36:49.160Z","type":"scan","message":"Cycle #23 — 1584 markets | 12 active events | $25.9K recent flow | 4 held"}
-{"timestamp":"2026-03-06T21:36:49.160Z","type":"think","message":"Money flowing: \"Solana Up or Down - March 6, 4:25PM-4:30PM ET\" — $8.9K heavily buying, biggest trade $8.9K, 6m ago"}
-{"timestamp":"2026-03-06T21:36:49.160Z","type":"think","message":"Sentiment: \"US national Ethereum reserve before 2027?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T21:36:49.160Z","type":"think","message":"News: \"NATO/EU troops fighting in Ukraine in June 30, 2026?\" — 1 articles (bullish), \"The Latest : Russia provided Iran with information to help Tehran stri\""}
 {"timestamp":"2026-03-06T21:36:49.160Z","type":"think","message":"News: \"Will Russia invade a NATO country by June 30, 2026?\" — 1 articles (bullish), \"The Latest : Russia provided Iran with information to help Tehran stri\""}
 {"timestamp":"2026-03-06T21:36:49.160Z","type":"think","message":"News: \"China x India military clash by December 31, 2026?\" — 1 articles (neutral), \"The Latest : Russia provided Iran with information to help Tehran stri\""}
@@ -198,3 +183,18 @@
 {"timestamp":"2026-03-06T21:59:38.115Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
 {"timestamp":"2026-03-06T21:59:38.115Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
 {"timestamp":"2026-03-06T21:59:38.115Z","type":"palpha","message":"  ✗ \"Solana Up or Down - March 6, 4:45PM-5:00PM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-06T22:01:45.137Z","type":"scan","message":"Cycle #28 — 1584 markets | 10 active events | $25.1K recent flow | 4 held"}
+{"timestamp":"2026-03-06T22:01:45.138Z","type":"think","message":"Money flowing: \"US x Iran ceasefire by March 6?\" — $7.6K heavily selling, biggest trade $7.6K, 3m ago"}
+{"timestamp":"2026-03-06T22:01:45.138Z","type":"think","message":"Sentiment: \"Will there be no change in Fed interest rates after th…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T22:01:45.138Z","type":"think","message":"Sentiment: \"Another S&P 500 Company buys Bitcoin by December 31, 2…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T22:01:45.138Z","type":"think","message":"Whale: \"0xdd4d2dbf6dff277aee9587d86559b4586dedd916ee5b997b3e68…\" — whale_size (1 wallets, $69.0K)"}
+{"timestamp":"2026-03-06T22:01:45.138Z","type":"think","message":"Whale: \"0x45efdde35559c359c24f239ff763ce2f24094a8fd643ec6bf431…\" — whale_size (1 wallets, $95.7K)"}
+{"timestamp":"2026-03-06T22:01:45.138Z","type":"think","message":"↓ Daily mover: \"Will St. John’s win the 2025-2026 Big East Men’s Baske…\" ↓33.0% today, ↓25.0% 1w, 24h vol $25.0K"}
+{"timestamp":"2026-03-06T22:01:45.138Z","type":"think","message":"Sources: 8 crypto, 0 weather, 2/5 sentiment, 0 nansen, 0 news, 2/2 whale"}
+{"timestamp":"2026-03-06T22:01:45.138Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 4PM ET\" — buyers dominating ($6.1K net), 5 traders, 2m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T22:01:45.981Z","cycle":28,"ingestion":{"markets":1637,"trades":50,"tradeVolume":25083,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":52,"volumeSpikes":505,"catalysts":12,"deepValue":463,"tightRaces":49,"wideSpread":223,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":2},"tradeFlows":{"count":10,"totalVolume":25083,"avgImbalance":0.907},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":4},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38048335320.743355,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38048335320.743355,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5769950.584920798,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":766314.752710405,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":131445.4478016,"change":null}]}
+{"timestamp":"2026-03-06T22:02:01.654Z","type":"pnl","message":"Today: $-594.79 (-66.2%) · Portfolio $303 · 4 positions · 22 trades"}
+{"timestamp":"2026-03-06T22:01:45.977Z","type":"palpha","message":"[held] 11 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T22:01:45.978Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T22:01:45.978Z","type":"palpha","message":"4 active positions (7 dust ignored)"}
+{"timestamp":"2026-03-06T22:01:45.978Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
