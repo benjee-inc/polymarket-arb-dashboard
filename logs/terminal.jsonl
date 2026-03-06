@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T06:54:20.302Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T06:54:20.302Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T06:54:20.302Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T06:54:48.336Z","type":"scan","message":"Cycle #128 — 1588 markets | 25 active events | $70.4K recent flow | 3 held"}
 {"timestamp":"2026-03-06T06:54:48.336Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 6, 1:45AM-1:50AM ET\" — $12.1K buying, biggest trade $2.1K, 5m ago"}
 {"timestamp":"2026-03-06T06:54:48.336Z","type":"think","message":"News: \"Netanyahu out by end of 2026?\" — 3 articles (bearish), \"ইরান - ইসরাইল যুদ্ধ : কোন দেশে হতাহত কত ?\""}
 {"timestamp":"2026-03-06T06:54:48.336Z","type":"think","message":"News: \"Netanyahu out by March 31?\" — 3 articles (bearish), \"ইরান - ইসরাইল যুদ্ধ : কোন দেশে হতাহত কত ?\""}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T07:31:21.653Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T07:31:21.653Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T07:31:21.653Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T07:32:30.849Z","type":"crypto-fast","message":"Crypto fast cycle #673 — 11338ms"}
+{"timestamp":"2026-03-06T07:32:21.214Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T07:32:21.214Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T07:32:21.214Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
