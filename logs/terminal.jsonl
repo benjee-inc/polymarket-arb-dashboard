@@ -1,16 +1,3 @@
-{"timestamp":"2026-03-06T06:13:29.028Z","type":"crypto-fast","message":"Crypto fast cycle #594 — 11307ms"}
-{"timestamp":"2026-03-06T06:13:19.175Z","type":"palpha","message":"Found 2 potential trades from scanner"}
-{"timestamp":"2026-03-06T06:13:19.175Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T06:13:19.175Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T06:14:29.120Z","type":"crypto-fast","message":"Crypto fast cycle #595 — 11371ms"}
-{"timestamp":"2026-03-06T06:14:19.214Z","type":"palpha","message":"Found 2 potential trades from scanner"}
-{"timestamp":"2026-03-06T06:14:19.214Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T06:14:19.214Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T06:14:36.964Z","type":"scan","message":"Cycle #120 — 1589 markets | 14 active events | $38.8K recent flow | 3 held"}
-{"timestamp":"2026-03-06T06:14:36.964Z","type":"think","message":"Money flowing: \"US forces enter Iran by March 14?\" — $5.3K buying, biggest trade $3.0K, 5m ago"}
-{"timestamp":"2026-03-06T06:14:36.964Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T06:14:36.965Z","type":"think","message":"Crypto data: \"Bitcoin more valuable than any company before 2027?\" — BTC -2.6% 24h ($70,292), F&G=18"}
-{"timestamp":"2026-03-06T06:14:36.965Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -2.6% 24h ($70,292), F&G=18"}
 {"timestamp":"2026-03-06T06:14:36.965Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -2.6% 24h ($70,292), F&G=18"}
 {"timestamp":"2026-03-06T06:14:36.965Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 27.0%), 24h vol $15.3K"}
 {"timestamp":"2026-03-06T06:14:36.965Z","type":"think","message":"Sources: 3/8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news"}
@@ -198,3 +185,16 @@
 {"timestamp":"2026-03-06T06:49:20.006Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T06:49:20.006Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T06:49:20.006Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T06:49:50.563Z","type":"scan","message":"Cycle #127 — 1588 markets | 25 active events | $70.4K recent flow | 3 held"}
+{"timestamp":"2026-03-06T06:49:50.563Z","type":"think","message":"Money flowing: \"Will Bitcoin reach $100,000 in March?\" — $22.7K heavily buying, biggest trade $22.7K, 2m ago"}
+{"timestamp":"2026-03-06T06:49:50.563Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by March 31, 2026?\" — 25 articles (bearish), \"战火延烧整一周 ： 美军将升级军事行动 ， 伊朗姿态保持强硬 冲突长期化扩大化 _ 军事频道 _ 中华网\""}
+{"timestamp":"2026-03-06T06:49:50.563Z","type":"think","message":"News: \"NATO/EU troops fighting in Ukraine in June 30, 2026?\" — 25 articles (bullish), \"战火延烧整一周 ： 美军将升级军事行动 ， 伊朗姿态保持强硬 冲突长期化扩大化 _ 军事频道 _ 中华网\""}
+{"timestamp":"2026-03-06T06:49:50.563Z","type":"think","message":"Sentiment: \"Will no Fed rate cuts happen in 2026?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-06T06:49:50.563Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 30.0%), 24h vol $14.4K"}
+{"timestamp":"2026-03-06T06:49:50.564Z","type":"think","message":"Sources: 0 crypto, 0 weather, 1/5 sentiment, 0 nansen, 2/5 news"}
+{"timestamp":"2026-03-06T06:49:50.564Z","type":"decision","message":"Flow signal: \"Will Bitcoin reach $76,000 March 2-8?\" — buyers dominating ($8.0K net), 1 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-03-06T06:49:51.066Z","cycle":127,"ingestion":{"markets":1637,"trades":50,"tradeVolume":70365,"midpointsFetched":50},"signals":{"movers1h":33,"movers1d":50,"volumeSpikes":487,"catalysts":13,"deepValue":455,"tightRaces":54,"wideSpread":186,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":25,"totalVolume":70365,"avgImbalance":0.97},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38660597769.21545,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38660597769.21545,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3349645.031124741,"change":null},{"q":"Will Emmanuel Grégoire win the Paris mayor election?","type":"tightRaces","score":2175114.767914596,"change":"-0.5%"},{"q":"Paradex FDV above $40M one day after launch?","type":"wideSpread","score":141890.59782392,"change":null}]}
+{"timestamp":"2026-03-06T06:50:00.858Z","type":"pnl","message":"Today: $-697.65 (-67.6%) · Portfolio $334 · 3 positions · 8 trades"}
+{"timestamp":"2026-03-06T06:49:51.064Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T06:49:51.064Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T06:49:51.064Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
