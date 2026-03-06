@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T03:29:37.836Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T03:29:37.836Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T03:34:37.177Z","type":"scan","message":"Cycle #88 — 1591 markets | 9 active events | $28.4K recent flow | 3 held"}
-{"timestamp":"2026-03-06T03:34:37.177Z","type":"think","message":"Money flowing: \"Will Bernie Sanders win the 2028 Democratic presidenti…\" — $8.7K heavily buying, biggest trade $1.5K, 10s ago"}
 {"timestamp":"2026-03-06T03:34:37.177Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-06T03:34:37.178Z","type":"think","message":"↓ Price shift: \"EdgeX FDV above $4B one day after launch?\" moved 1.4% since last scan (6.3% → 4.8%)"}
 {"timestamp":"2026-03-06T03:34:37.178Z","type":"think","message":"Wide spread: \"Paradex FDV above $40M one day after launch?\" — bid 71.1% / ask 88.8% (17.7% spread), liq $372.6K"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T04:09:37.320Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T04:09:37.320Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T04:09:37.320Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T04:13:07.526Z","type":"crypto-fast","message":"Crypto fast cycle #473 — 112713ms"}
+{"timestamp":"2026-03-06T04:11:16.343Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T04:11:16.343Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T04:11:16.343Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
