@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T11:54:15.886Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T11:54:15.886Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
-{"timestamp":"2026-03-06T11:54:15.886Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T11:55:15.877Z","type":"scan","message":"Cycle #1 — 1585 markets | 17 active events | $54.0K recent flow | 3 held"}
 {"timestamp":"2026-03-06T11:55:15.878Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $66,000 on March 6?\" — $11.7K heavily buying, biggest trade $9.9K, 3m ago"}
 {"timestamp":"2026-03-06T11:55:15.878Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 18.5%), 24h vol $4.3K"}
 {"timestamp":"2026-03-06T11:55:15.878Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T12:24:55.022Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T12:24:55.022Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T12:24:55.022Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-06T12:26:05.631Z","type":"crypto-fast","message":"Crypto fast cycle #2 — 12289ms"}
+{"timestamp":"2026-03-06T12:25:55.677Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T12:25:55.677Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T12:25:55.677Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
