@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T07:44:47.565Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 4/8 news"}
-{"timestamp":"2026-03-06T07:44:47.565Z","type":"decision","message":"Flow signal: \"Will Israel launch a major ground offensive in Lebanon…\" — sellers dominating ($15.5K net), 3 traders, 3m ago"}
-{"type":"pipeline","timestamp":"2026-03-06T07:44:52.363Z","cycle":138,"ingestion":{"markets":1637,"trades":50,"tradeVolume":71907,"midpointsFetched":50},"signals":{"movers1h":33,"movers1d":51,"volumeSpikes":492,"catalysts":13,"deepValue":457,"tightRaces":54,"wideSpread":192,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":13,"totalVolume":71907,"avgImbalance":0.938},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38618447458.34547,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38618447458.34547,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3565901.71156069,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":630588.7501897407,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":128374.77667699999,"change":null}]}
-{"timestamp":"2026-03-06T07:45:02.518Z","type":"pnl","message":"Today: $-696.56 (-67.5%) · Portfolio $336 · 3 positions · 8 trades"}
 {"timestamp":"2026-03-06T07:44:52.360Z","type":"palpha","message":"Found 1 potential trades from scanner"}
 {"timestamp":"2026-03-06T07:44:52.360Z","type":"palpha","message":"Passed on \"Will Israel launch a major ground offensive in Lebanon by Ma\" — no Grok data available"}
 {"timestamp":"2026-03-06T07:44:52.360Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T08:23:22.629Z","type":"palpha","message":"Found 3 potential trades from scanner"}
 {"timestamp":"2026-03-06T08:23:22.629Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T08:23:22.629Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T08:24:32.443Z","type":"crypto-fast","message":"Crypto fast cycle #725 — 11734ms"}
+{"timestamp":"2026-03-06T08:24:22.702Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-06T08:24:22.702Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T08:24:22.702Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed. Spent $50 today."}
