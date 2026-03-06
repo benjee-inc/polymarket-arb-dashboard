@@ -1,8 +1,3 @@
-{"type":"pipeline","timestamp":"2026-03-06T15:04:55.409Z","cycle":1,"ingestion":{"markets":1636,"trades":50,"tradeVolume":69543,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":52,"volumeSpikes":559,"catalysts":11,"deepValue":461,"tightRaces":53,"wideSpread":207,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":15,"totalVolume":69543,"avgImbalance":0.904},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":37799545426.085464,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":37799545426.085464,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":4481576.530520646,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":783233.1701897045,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":134159.57269079998,"change":null}]}
-{"timestamp":"2026-03-06T15:05:05.791Z","type":"pnl","message":"Today: $-696.73 (-67.5%) · Portfolio $335 · 3 positions · 8 trades"}
-{"timestamp":"2026-03-06T15:04:55.404Z","type":"palpha","message":"[held] 8 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T15:04:55.404Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T15:04:55.404Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T15:04:55.404Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-06T15:08:33.463Z","type":"crypto-fast","message":"Crypto fast cycle #4 — 12816ms"}
 {"timestamp":"2026-03-06T15:08:22.581Z","type":"palpha","message":"[held] 8 positions excluded from opportunity search"}
@@ -198,3 +193,8 @@
 {"timestamp":"2026-03-06T15:41:09.819Z","type":"palpha","message":"  Why: Bitcoin trades at approximately $70,000 amid an Extreme Fear reading of 18/100 on the Fear & Greed Index, signaling a potential market bottom and contrarian opportunity for upside.5033 GTA VI release is confirmed for November 19, 2026 by Rockstar Games, providing about 8.5 months for BTC to achieve a 14x increase to $1M.5548 Expert analyses and models predict $1M BTC around 2030 or later, with bullish voices "}
 {"timestamp":"2026-03-06T15:41:09.819Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T15:41:09.819Z","type":"trade","message":"No trades this cycle — already held (local state)."}
+{"timestamp":"2026-03-06T15:41:24.271Z","type":"crypto-fast","message":"Crypto fast cycle #21 — 10836ms"}
+{"timestamp":"2026-03-06T15:41:14.561Z","type":"palpha","message":"[held] 8 positions excluded from opportunity search"}
+{"timestamp":"2026-03-06T15:41:14.561Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-06T15:41:14.561Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T15:41:14.561Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
