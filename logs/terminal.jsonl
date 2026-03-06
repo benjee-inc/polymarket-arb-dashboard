@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T06:44:37.449Z","type":"scan","message":"Cycle #126 — 1588 markets | 19 active events | $51.3K recent flow | 3 held"}
-{"timestamp":"2026-03-06T06:44:37.449Z","type":"think","message":"Money flowing: \"Will Ethereum reach $4,000 in March?\" — $15.9K heavily selling, biggest trade $5.3K, 54s ago"}
-{"timestamp":"2026-03-06T06:44:37.449Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — BTC -2.6% 24h ($70,600), F&G=18"}
-{"timestamp":"2026-03-06T06:44:37.449Z","type":"think","message":"Crypto data: \"US national Bitcoin reserve before 2027?\" — BTC -2.6% 24h ($70,600), F&G=18"}
 {"timestamp":"2026-03-06T06:44:37.449Z","type":"think","message":"Crypto data: \"Bitcoin more valuable than any company before 2027?\" — BTC -2.6% 24h ($70,600), F&G=18"}
 {"timestamp":"2026-03-06T06:44:37.449Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -2.6% 24h ($70,600), F&G=18"}
 {"timestamp":"2026-03-06T06:44:37.449Z","type":"think","message":"↓ Daily mover: \"Will St. John’s win the 2025-2026 Big East Men’s Baske…\" ↓33.0% today, ↓25.0% 1w, 24h vol $37.0K"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T07:20:20.998Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T07:20:20.998Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T07:20:20.998Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T07:21:30.862Z","type":"crypto-fast","message":"Crypto fast cycle #662 — 11637ms"}
+{"timestamp":"2026-03-06T07:21:21.153Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T07:21:21.153Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T07:21:21.153Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
