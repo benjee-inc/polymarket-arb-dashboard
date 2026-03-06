@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T10:44:45.968Z","type":"think","message":"News: \"Will China invades Taiwan before GTA VI?\" — 1 articles (neutral), \"中東戰事蔓延至西亞 亞塞拜然遭伊朗飛彈攻擊 ｜ 公視新聞網 PNN\""}
-{"timestamp":"2026-03-06T10:44:45.968Z","type":"think","message":"Tight race: \"Will Luiz Inácio Lula da Silva win the 2026 Brazilian …\" — 50.5% YES, 24h vol $269.1K"}
-{"timestamp":"2026-03-06T10:44:45.968Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 4/5 news"}
-{"timestamp":"2026-03-06T10:44:45.969Z","type":"decision","message":"Flow signal: \"Will Amazon be the second-largest company in the world…\" — buyers dominating ($5.0K net), 2 traders, 1m ago"}
 {"type":"pipeline","timestamp":"2026-03-06T10:45:00.092Z","cycle":174,"ingestion":{"markets":1636,"trades":50,"tradeVolume":49845,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":54,"volumeSpikes":516,"catalysts":12,"deepValue":463,"tightRaces":52,"wideSpread":209,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":12,"totalVolume":49845,"avgImbalance":0.893},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":2,"enriched":0,"vetoed":2,"vetoReasons":{"NOISE — not enough edge":2},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"dailySpend":50,"openPositions":3},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38322472989.987434,"change":"+0.1%"},{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":38322472989.987434,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3935704.9676537104,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":774885.2528510449,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":124520.67923350002,"change":null}]}
 {"timestamp":"2026-03-06T10:45:09.640Z","type":"pnl","message":"Today: $-696.73 (-67.5%) · Portfolio $335 · 3 positions · 8 trades"}
 {"timestamp":"2026-03-06T10:45:00.083Z","type":"palpha","message":"Found 2 potential trades from scanner"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T11:21:26.544Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T11:21:26.544Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T11:21:26.544Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T11:22:36.214Z","type":"crypto-fast","message":"Crypto fast cycle #903 — 11169ms"}
+{"timestamp":"2026-03-06T11:22:26.567Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T11:22:26.567Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T11:22:26.567Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
