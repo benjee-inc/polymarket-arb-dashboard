@@ -1,7 +1,3 @@
-{"timestamp":"2026-03-06T05:44:37.118Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
-{"timestamp":"2026-03-06T05:49:36.927Z","type":"scan","message":"Cycle #115 — 1590 markets | 21 active events | $126.3K recent flow | 3 held"}
-{"timestamp":"2026-03-06T05:49:36.927Z","type":"think","message":"Money flowing: \"Will the Fed increase interest rates by 25+ bps after …\" — $89.5K heavily selling, biggest trade $30.0K, 2m ago"}
-{"timestamp":"2026-03-06T05:49:36.927Z","type":"think","message":"↑ Price shift: \"Will Lee Zeldin leave the Trump administration before …\" moved 3.0% since last scan (10.0% → 13.0%)"}
 {"timestamp":"2026-03-06T05:49:36.927Z","type":"think","message":"Catalyst: \"Will UConn win the 2025-2026 Big East Men’s Basketball…\" — 18h to resolution, 55.0% YES, ↓6.0% this hour, vol $37.0K"}
 {"timestamp":"2026-03-06T05:49:36.927Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
 {"timestamp":"2026-03-06T05:49:36.927Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $70,000 on March 7?\" — buyers dominating ($6.7K net), 3 traders, 3m ago"}
@@ -198,3 +194,7 @@
 {"timestamp":"2026-03-06T06:23:19.445Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-06T06:23:19.445Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
 {"timestamp":"2026-03-06T06:23:19.445Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
+{"timestamp":"2026-03-06T06:24:29.245Z","type":"crypto-fast","message":"Crypto fast cycle #605 — 11252ms"}
+{"timestamp":"2026-03-06T06:24:19.374Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-06T06:24:19.374Z","type":"palpha","message":"3 active positions (5 dust ignored)"}
+{"timestamp":"2026-03-06T06:24:19.374Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed. Spent $50 today."}
