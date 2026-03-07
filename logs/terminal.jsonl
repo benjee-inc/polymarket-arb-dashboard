@@ -1,20 +1,3 @@
-{"timestamp":"2026-03-07T16:51:42.557Z","type":"palpha","message":"2 active positions (31 dust ignored)"}
-{"timestamp":"2026-03-07T16:51:42.557Z","type":"trade","message":"Bought NO $10 on \"Solana Up or Down - March 7, 11:45AM-12:00PM ET\" @ 69.0¢ (quoted 50.5¢) — Crypto data: SOL -1.3% 24h, F&G=12"}
-{"timestamp":"2026-03-07T16:52:37.727Z","type":"crypto-fast","message":"Crypto fast cycle #409 — 89083ms"}
-{"timestamp":"2026-03-07T16:53:10.548Z","type":"crypto-fast","message":"Crypto fast cycle #410 — 61903ms"}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"[held] 34 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"[short-term-only] filtered 6 long-dated markets, kept 2 up/down"}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"Found 2 potential trades from scanner"}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 7, 11:45AM-12:00PM ET\" — Grok says 46%, market at 51.0%, not enough edge"}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"  Why: Current ETH price hovers around $1,976-$1,978 USD with 24h change near 0% to -0.16%, showing flat to slightly down action amid extreme Fear & Greed at 12; intraday range 1,966-1,995 but now below highs, indicating no sustained uptrend. Recent X discourse is predominantly bearish, citing failed supports, rising wedge breakdowns targeting $1,500-$1,850, and weakening trendlines.0"}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 7, 11:45AM-11:50AM ET\" — Grok says 46%, market at 50.0%, not enough edge"}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"  Why: ETH is trading sideways around $1,977-$1,980 with a daily low of $1,966 and high of $1,995, showing choppy intraday action without sustained upward momentum into the 11:45-11:50 AM ET window. The Fear & Greed Index at 12 (Extreme Fear) reflects bearish sentiment, reinforced by a recent $157M ETH transfer by co-founder Jeffrey Wilcke to Kraken, suggesting potential near-term selling pressure. Recent X posts confirm sideways movement at $1,977 just before the period, with no breaking bullish news or signals."}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"3 active positions (31 dust ignored)"}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed."}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 11:45AM-12:00PM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T16:52:16.263Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 11:45AM-11:50AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T16:54:04.687Z","type":"crypto-fast","message":"Crypto fast cycle #410 — 56042ms"}
-{"timestamp":"2026-03-07T16:53:10.408Z","type":"palpha","message":"[held] 34 positions excluded from opportunity search"}
 {"timestamp":"2026-03-07T16:53:10.408Z","type":"palpha","message":"[short-term-only] filtered 6 long-dated markets, kept 0 up/down"}
 {"timestamp":"2026-03-07T16:53:10.408Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T16:53:10.408Z","type":"palpha","message":"3 active positions (31 dust ignored)"}
@@ -198,3 +181,20 @@
 {"timestamp":"2026-03-07T17:28:46.770Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T17:28:46.770Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-07T17:28:46.770Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T17:33:50.384Z","type":"scan","message":"Cycle #91 — 1585 markets | 10 active events | $17.2K recent flow"}
+{"timestamp":"2026-03-07T17:33:50.385Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $62,000 on March 8?\" — $5.7K heavily buying, biggest trade $5.7K, 43s ago"}
+{"timestamp":"2026-03-07T17:33:50.385Z","type":"think","message":"News: \"US x Russia military clash by June 30, 2026?\" — 18 articles (bullish), \"Third US aircraft carrier heads to region as Trump signals long war wi\""}
+{"timestamp":"2026-03-07T17:33:50.385Z","type":"think","message":"News: \"US x Russia military clash by December 31, 2026?\" — 18 articles (bullish), \"Third US aircraft carrier heads to region as Trump signals long war wi\""}
+{"timestamp":"2026-03-07T17:33:50.385Z","type":"think","message":"News: \"Will Russia invade a NATO country by June 30, 2026?\" — 18 articles (bullish), \"Third US aircraft carrier heads to region as Trump signals long war wi\""}
+{"timestamp":"2026-03-07T17:33:50.385Z","type":"think","message":"Whale: \"0x94aef4e12e3aeb299e8d1b88162f8f4bec22c0b79e3fc84fa708…\" — whale_size (1 wallets, $50.0K)"}
+{"timestamp":"2026-03-07T17:33:50.385Z","type":"think","message":"↑ Price shift: \"Netanyahu out by June 30?\" moved 3.0% since last scan (20.5% → 23.5%)"}
+{"timestamp":"2026-03-07T17:33:50.385Z","type":"think","message":"↓ Daily mover: \"Anduril IPO before 2027?\" ↓22.0% today, ↓13.0% 1w, 24h vol $16.9K"}
+{"timestamp":"2026-03-07T17:33:50.386Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 3/15 news, 1/2 whale"}
+{"timestamp":"2026-03-07T17:33:50.386Z","type":"decision","message":"Flow signal: \"Will there be no change in Fed interest rates after th…\" — buyers dominating ($4.9K net), 1 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-03-07T17:33:50.915Z","cycle":91,"ingestion":{"markets":1625,"trades":50,"tradeVolume":17157,"midpointsFetched":50},"signals":{"movers1h":30,"movers1d":37,"volumeSpikes":503,"catalysts":11,"deepValue":430,"tightRaces":41,"wideSpread":191,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":2},"tradeFlows":{"count":10,"totalVolume":17157,"avgImbalance":0.908},"midShifts":{"count":19,"avgMagnitude":0.0079},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":0},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":43447790054.70545,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":37654751380.74472,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":4306681.640642378,"change":null},{"q":"Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?","type":"tightRaces","score":537273.2367130264,"change":"-1.0%"},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":70732.75101660001,"change":null}]}
+{"timestamp":"2026-03-07T17:34:47.481Z","type":"pnl","message":"Today: +$2182.69 (+-104.6%) · Portfolio $96 · 0 positions · 46 trades"}
+{"timestamp":"2026-03-07T17:33:50.908Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T17:33:50.908Z","type":"palpha","message":"[short-term-only] filtered 3 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T17:33:50.908Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T17:33:50.908Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-07T17:33:50.908Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
