@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T15:58:10.200Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T15:58:10.200Z","type":"palpha","message":"4 active positions (23 dust ignored)"}
-{"timestamp":"2026-03-07T15:58:10.200Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T15:58:53.144Z","type":"scan","message":"Cycle #72 — 1585 markets | 8 active events | $20.1K recent flow | 2 held"}
-{"timestamp":"2026-03-07T15:58:53.145Z","type":"think","message":"Money flowing: \"Will the Iranian regime fall by June 30?\" — $7.3K heavily selling, biggest trade $7.3K, 2m ago"}
-{"timestamp":"2026-03-07T15:58:53.145Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=12 (Extreme Fear), Extreme Fear (12/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-07T15:58:53.145Z","type":"think","message":"Sentiment: \"Will there be no change in Fed interest rates after th…\" — F&G=12 (Extreme Fear), Extreme Fear (12/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-07T15:58:53.145Z","type":"think","message":"Sentiment: \"Another S&P 500 Company buys Bitcoin by December 31, 2…\" — F&G=12 (Extreme Fear), Extreme Fear (12/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-07T15:58:53.145Z","type":"think","message":"Sentiment: \"US national Ethereum reserve before 2027?\" — F&G=12 (Extreme Fear), Extreme Fear (12/100) — contrarian buy signal for risk assets"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T16:13:48.820Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T16:13:48.820Z","type":"palpha","message":"4 active positions (27 dust ignored)"}
 {"timestamp":"2026-03-07T16:13:48.820Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T16:14:57.779Z","type":"crypto-fast","message":"Crypto fast cycle #371 — 49178ms"}
+{"timestamp":"2026-03-07T16:14:10.185Z","type":"palpha","message":"[held] 31 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T16:14:10.185Z","type":"palpha","message":"[short-term-only] filtered 4 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T16:14:10.185Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T16:14:10.185Z","type":"palpha","message":"4 active positions (27 dust ignored)"}
+{"timestamp":"2026-03-07T16:14:10.185Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
