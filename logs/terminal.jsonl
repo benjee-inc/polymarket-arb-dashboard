@@ -1,19 +1,3 @@
-{"timestamp":"2026-03-07T06:49:34.536Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
-{"timestamp":"2026-03-07T06:49:34.536Z","type":"palpha","message":"Evaluated 6 opportunities, 6 vetoed."}
-{"timestamp":"2026-03-07T06:49:34.536Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 1:45AM-1:50AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T06:49:34.536Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 1:45AM-2:00AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T06:49:34.536Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 1:45AM-2:00AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T06:49:34.536Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 1:50AM-1:55AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T06:49:34.536Z","type":"palpha","message":"  ✗ \"Solana Up or Down - March 7, 1:45AM-1:50AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T06:50:57.154Z","type":"crypto-fast","message":"Crypto fast cycle #218 — 34225ms"}
-{"timestamp":"2026-03-07T06:50:29.015Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T06:50:29.015Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 1 up/down"}
-{"timestamp":"2026-03-07T06:50:29.015Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-07T06:50:29.015Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 7, 1:45AM-1:50AM ET\" — no Grok data available"}
-{"timestamp":"2026-03-07T06:50:29.015Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
-{"timestamp":"2026-03-07T06:50:29.015Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-07T06:50:29.015Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 1:45AM-1:50AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T06:51:52.468Z","type":"crypto-fast","message":"Crypto fast cycle #219 — 29530ms"}
 {"timestamp":"2026-03-07T06:51:24.509Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
 {"timestamp":"2026-03-07T06:51:24.509Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
 {"timestamp":"2026-03-07T06:51:24.510Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +182,19 @@
 {"timestamp":"2026-03-07T07:07:24.922Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T07:07:24.922Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T07:07:24.922Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T07:08:05.079Z","type":"scan","message":"Cycle #48 — 1585 markets | 17 active events | $27.3K recent flow | 1 held"}
+{"timestamp":"2026-03-07T07:08:05.079Z","type":"think","message":"Money flowing: \"Will Elon Musk post 90-114 tweets from March 5 to Marc…\" — $4.9K heavily buying, biggest trade $1.4K, 1m ago"}
+{"timestamp":"2026-03-07T07:08:05.080Z","type":"think","message":"News: \"US x Russia military clash by June 30, 2026?\" — 8 articles (bearish), \"Savaşta 8 . gün ! İran , Tel Avivi ilk kez yeni nesil füzeler ile İHAl\""}
+{"timestamp":"2026-03-07T07:08:05.080Z","type":"think","message":"News: \"US x Russia military clash by December 31, 2026?\" — 8 articles (bearish), \"Savaşta 8 . gün ! İran , Tel Avivi ilk kez yeni nesil füzeler ile İHAl\""}
+{"timestamp":"2026-03-07T07:08:05.080Z","type":"think","message":"News: \"Will Russia invade a NATO country by June 30, 2026?\" — 8 articles (bearish), \"Savaşta 8 . gün ! İran , Tel Avivi ilk kez yeni nesil füzeler ile İHAl\""}
+{"timestamp":"2026-03-07T07:08:05.080Z","type":"think","message":"News: \"Will any country leave NATO by June 30, 2026?\" — 8 articles (bearish), \"Savaşta 8 . gün ! İran , Tel Avivi ilk kez yeni nesil füzeler ile İHAl\""}
+{"timestamp":"2026-03-07T07:08:05.080Z","type":"think","message":"Tight race: \"Will Luiz Inácio Lula da Silva win the 2026 Brazilian …\" — 48.5% YES, 24h vol $397.3K"}
+{"timestamp":"2026-03-07T07:08:05.080Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 4/9 news"}
+{"timestamp":"2026-03-07T07:08:05.080Z","type":"decision","message":"Hourly momentum: \"Will the Starship for SpaceX Starship Flight Test 12 a…\" ↓8.0% in 1h, now 63.5%, vol $8.5K"}
+{"type":"pipeline","timestamp":"2026-03-07T07:08:05.653Z","cycle":48,"ingestion":{"markets":1627,"trades":50,"tradeVolume":27322,"midpointsFetched":50},"signals":{"movers1h":31,"movers1d":40,"volumeSpikes":480,"catalysts":12,"deepValue":435,"tightRaces":37,"wideSpread":225,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":17,"totalVolume":27322,"avgImbalance":0.841},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":43798795125.12923,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":37958955775.112,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5646275.431794131,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":452613.2687616276,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":86079.0107705,"change":null}]}
+{"timestamp":"2026-03-07T07:08:33.811Z","type":"pnl","message":"Today: +$2114.59 (+-111.5%) · Portfolio $218 · 1 positions · 33 trades"}
+{"timestamp":"2026-03-07T07:08:05.649Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T07:08:05.649Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T07:08:05.649Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T07:08:05.649Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T07:08:05.649Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
