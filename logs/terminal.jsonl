@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T03:57:23.349Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T03:57:23.349Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T03:57:23.349Z","type":"palpha","message":"3 active positions (13 dust ignored)"}
-{"timestamp":"2026-03-07T03:57:23.349Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T03:57:53.120Z","type":"scan","message":"Cycle #10 — 1585 markets | 9 active events | $32.0K recent flow | 2 held"}
-{"timestamp":"2026-03-07T03:57:53.120Z","type":"think","message":"Money flowing: \"Will the Fed increase interest rates by 25+ bps after …\" — $17.4K heavily buying, biggest trade $17.4K, 5m ago"}
 {"timestamp":"2026-03-07T03:57:53.120Z","type":"think","message":"Catalyst: \"Will PLC win the most seats in the 2026 Colombian Sena…\" — 26h to resolution, 0.5% YES, ↑0.1% this hour, vol $93.5K"}
 {"timestamp":"2026-03-07T03:57:53.120Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
 {"timestamp":"2026-03-07T03:57:53.120Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 10PM ET\" — buyers dominating ($3.4K net), 1 traders, 4m ago"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T04:13:09.805Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T04:13:09.805Z","type":"palpha","message":"3 active positions (15 dust ignored)"}
 {"timestamp":"2026-03-07T04:13:09.805Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T04:13:48.384Z","type":"crypto-fast","message":"Crypto fast cycle #61 — 26616ms"}
+{"timestamp":"2026-03-07T04:13:23.348Z","type":"palpha","message":"[held] 18 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T04:13:23.348Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T04:13:23.348Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T04:13:23.348Z","type":"palpha","message":"3 active positions (15 dust ignored)"}
+{"timestamp":"2026-03-07T04:13:23.348Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
