@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T06:13:10.653Z","type":"scan","message":"Cycle #37 — 1584 markets | 14 active events | $35.5K recent flow | 1 held"}
-{"timestamp":"2026-03-07T06:13:10.653Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 7, 1:05AM-1:10AM ET\" — $12.0K buying, biggest trade $2.6K, 2m ago"}
-{"timestamp":"2026-03-07T06:13:10.654Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — BTC -3.3% 24h ($67,955), F&G=12"}
-{"timestamp":"2026-03-07T06:13:10.654Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — BTC -3.3% 24h ($67,955), F&G=12"}
-{"timestamp":"2026-03-07T06:13:10.654Z","type":"think","message":"Crypto data: \"US national Bitcoin reserve before 2027?\" — BTC -3.3% 24h ($67,955), F&G=12"}
-{"timestamp":"2026-03-07T06:13:10.654Z","type":"think","message":"Crypto data: \"Bitcoin more valuable than any company before 2027?\" — BTC -3.3% 24h ($67,955), F&G=12"}
 {"timestamp":"2026-03-07T06:13:10.654Z","type":"think","message":"Volume surge: \"EdgeX FDV above $700M one day after launch?\" — $110.1K in 24h (54304% of lifetime), price 48.0%"}
 {"timestamp":"2026-03-07T06:13:10.654Z","type":"think","message":"Sources: 4/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
 {"timestamp":"2026-03-07T06:13:10.654Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $60,000 on March 7?\" — buyers dominating ($5.9K net), 2 traders, 3m ago"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T06:28:02.063Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T06:28:02.063Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T06:28:02.063Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T06:28:52.134Z","type":"crypto-fast","message":"Crypto fast cycle #196 — 29387ms"}
+{"timestamp":"2026-03-07T06:28:24.095Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T06:28:24.095Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T06:28:24.095Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T06:28:24.095Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T06:28:24.095Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
