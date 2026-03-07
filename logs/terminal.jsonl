@@ -1,10 +1,3 @@
-{"timestamp":"2026-03-07T04:54:23.908Z","type":"palpha","message":"0 active positions (16 dust ignored)"}
-{"timestamp":"2026-03-07T04:54:23.908Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T04:56:51.910Z","type":"crypto-fast","message":"Crypto fast cycle #104 — 29867ms"}
-{"timestamp":"2026-03-07T04:56:23.423Z","type":"palpha","message":"[held] 16 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T04:56:23.423Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T04:56:23.423Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T04:56:23.423Z","type":"palpha","message":"0 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T04:56:23.423Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T04:57:23.876Z","type":"crypto-fast","message":"Crypto fast cycle #105 — 121833ms"}
 {"timestamp":"2026-03-07T04:56:56.169Z","type":"palpha","message":"[held] 16 positions excluded from opportunity search"}
@@ -198,3 +191,10 @@
 {"timestamp":"2026-03-07T05:09:35.273Z","type":"palpha","message":"Passed on \"Solana Up or Down - March 7, 12:00AM-12:15AM ET\" — no Grok data available"}
 {"timestamp":"2026-03-07T05:09:35.273Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T05:09:35.273Z","type":"trade","message":"Bought NO $10 on \"Bitcoin Up or Down - March 7, 12:00AM-12:15AM ET\" @ 27.5% — Crypto data: BTC -3.5% 24h, F&G=12"}
+{"timestamp":"2026-03-07T05:10:54.310Z","type":"crypto-fast","message":"Crypto fast cycle #118 — 32169ms"}
+{"timestamp":"2026-03-07T05:10:45.393Z","type":"trade","message":"STOP LOSS: Sold \"Bitcoin Up or Down - March 7, 12:00AM-12:15AM ET\" — 38 shares @ 20.5¢ (-21%) for $33.52 (P&L: +$23.62)"}
+{"timestamp":"2026-03-07T05:10:23.467Z","type":"palpha","message":"[held] 18 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T05:10:23.467Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T05:10:23.467Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T05:10:23.467Z","type":"palpha","message":"2 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T05:10:23.467Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
