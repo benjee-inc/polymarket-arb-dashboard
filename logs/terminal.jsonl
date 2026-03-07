@@ -1,15 +1,3 @@
-{"timestamp":"2026-03-07T16:09:57.910Z","type":"crypto-fast","message":"Crypto fast cycle #366 — 49327ms"}
-{"timestamp":"2026-03-07T16:09:10.124Z","type":"palpha","message":"[held] 31 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T16:09:10.124Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T16:09:10.124Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T16:09:10.124Z","type":"palpha","message":"4 active positions (27 dust ignored)"}
-{"timestamp":"2026-03-07T16:09:10.124Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T16:11:39.368Z","type":"crypto-fast","message":"Crypto fast cycle #368 — 90779ms"}
-{"timestamp":"2026-03-07T16:10:51.902Z","type":"palpha","message":"[held] 31 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T16:10:51.902Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 2 up/down"}
-{"timestamp":"2026-03-07T16:10:51.902Z","type":"palpha","message":"Found 2 potential trades from scanner"}
-{"timestamp":"2026-03-07T16:10:51.902Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 11:05AM-11:10AM ET\" — Grok says 48%, market at 87.0%, not enough edge"}
-{"timestamp":"2026-03-07T16:10:51.902Z","type":"palpha","message":"  Why: Bitcoin is trading in a narrow range around $67,800-$67,900 at approximately 11:10 AM ET, with recent 1-3 hour changes showing slight downside (-0.25% in last 3h per X post). X discourse indicates short-term bearish bias, broken supports, and potential for further weakness to $65k, despite a small buy flow signal of 100% bias on $ volume.490 Overall daily downtrend ~3-4% adds downward pressure, making"}
 {"timestamp":"2026-03-07T16:10:51.902Z","type":"palpha","message":"4 active positions (27 dust ignored)"}
 {"timestamp":"2026-03-07T16:10:51.902Z","type":"palpha","message":"Evaluated 2 opportunities, 1 vetoed."}
 {"timestamp":"2026-03-07T16:10:51.902Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 11:05AM-11:10AM ET\" — MONITOR — not enough edge"}
@@ -198,3 +186,15 @@
 {"timestamp":"2026-03-07T16:28:10.557Z","type":"palpha","message":"1 active positions (30 dust ignored)"}
 {"timestamp":"2026-03-07T16:28:10.557Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
 {"timestamp":"2026-03-07T16:28:10.557Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 11:15AM-11:30AM ET\" — MONITOR — not enough edge"}
+{"timestamp":"2026-03-07T16:28:39.082Z","type":"scan","message":"Cycle #78 — 1585 markets | 13 active events | $21.4K recent flow | 1 held"}
+{"timestamp":"2026-03-07T16:28:39.082Z","type":"think","message":"Money flowing: \"Will the highest temperature in Miami be 90°F or highe…\" — $4.2K heavily buying, biggest trade $4.2K, 5m ago"}
+{"timestamp":"2026-03-07T16:28:39.082Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 27.0%), 24h vol $17.1K"}
+{"timestamp":"2026-03-07T16:28:39.082Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
+{"timestamp":"2026-03-07T16:28:39.082Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 7, 11:20AM-11:25AM ET\" — buyers dominating ($3.5K net), 4 traders, 4m ago"}
+{"type":"pipeline","timestamp":"2026-03-07T16:28:39.441Z","cycle":78,"ingestion":{"markets":1625,"trades":50,"tradeVolume":21391,"midpointsFetched":50},"signals":{"movers1h":27,"movers1d":37,"volumeSpikes":485,"catalysts":11,"deepValue":426,"tightRaces":41,"wideSpread":191,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":13,"totalVolume":21391,"avgImbalance":0.945},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":43529543527.525826,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":37725604390.52238,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":4239990.515596224,"change":null},{"q":"Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?","type":"tightRaces","score":524767.9903638043,"change":"-1.0%"},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":70642.39283420001,"change":null}]}
+{"timestamp":"2026-03-07T16:29:31.365Z","type":"pnl","message":"Today: +$2177.82 (+-105.4%) · Portfolio $112 · 1 positions · 44 trades"}
+{"timestamp":"2026-03-07T16:28:39.436Z","type":"palpha","message":"[held] 31 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T16:28:39.436Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T16:28:39.436Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T16:28:39.436Z","type":"palpha","message":"1 active positions (30 dust ignored)"}
+{"timestamp":"2026-03-07T16:28:39.437Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
