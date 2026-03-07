@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T15:14:48.887Z","type":"crypto-fast","message":"Crypto fast cycle #311 — 40429ms"}
-{"timestamp":"2026-03-07T15:14:10.279Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T15:14:10.279Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T15:14:10.279Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T15:14:10.279Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
-{"timestamp":"2026-03-07T15:14:10.279Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T15:15:48.748Z","type":"crypto-fast","message":"Crypto fast cycle #312 — 40286ms"}
 {"timestamp":"2026-03-07T15:15:09.962Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
 {"timestamp":"2026-03-07T15:15:09.962Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T15:30:10.141Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T15:30:10.141Z","type":"palpha","message":"2 active positions (22 dust ignored)"}
 {"timestamp":"2026-03-07T15:30:10.141Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T15:32:48.494Z","type":"crypto-fast","message":"Crypto fast cycle #329 — 39989ms"}
+{"timestamp":"2026-03-07T15:32:09.900Z","type":"palpha","message":"[held] 24 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T15:32:09.901Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T15:32:09.901Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T15:32:09.901Z","type":"palpha","message":"2 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T15:32:09.901Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
