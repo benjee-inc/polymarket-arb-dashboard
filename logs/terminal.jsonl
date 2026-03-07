@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T08:27:25.304Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T08:27:25.304Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
-{"timestamp":"2026-03-07T08:27:25.304Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T08:28:07.130Z","type":"scan","message":"Cycle #64 — 1585 markets | 13 active events | $61.1K recent flow | 1 held"}
-{"timestamp":"2026-03-07T08:28:07.130Z","type":"think","message":"Money flowing: \"Will Bitcoin reach $150,000 in March?\" — $20.0K buying, biggest trade $10.0K, 54s ago"}
-{"timestamp":"2026-03-07T08:28:07.130Z","type":"think","message":"News: \"US x Russia military clash by June 30, 2026?\" — 6 articles (bullish), \"Probe points to possible US role in Iran school strike\""}
 {"timestamp":"2026-03-07T08:28:07.130Z","type":"think","message":"News: \"US x Russia military clash by December 31, 2026?\" — 6 articles (bullish), \"Probe points to possible US role in Iran school strike\""}
 {"timestamp":"2026-03-07T08:28:07.130Z","type":"think","message":"News: \"Will Donald Trump win the 2028 US Presidential Electio…\" — 2 articles (bullish), \"从  未来由你们决定  到  无条件投降 ， 美媒批特朗普对伊战略不断变化 _ 凤凰网\""}
 {"timestamp":"2026-03-07T08:28:07.130Z","type":"think","message":"News: \"Trump out as President before GTA VI?\" — 2 articles (bearish), \"从  未来由你们决定  到  无条件投降 ， 美媒批特朗普对伊战略不断变化 _ 凤凰网\""}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T08:42:53.323Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T08:42:53.323Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T08:42:53.323Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T08:43:53.601Z","type":"crypto-fast","message":"Crypto fast cycle #331 — 29817ms"}
+{"timestamp":"2026-03-07T08:43:25.134Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T08:43:25.134Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T08:43:25.134Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T08:43:25.134Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T08:43:25.134Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
