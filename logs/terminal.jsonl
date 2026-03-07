@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T15:36:04.394Z","type":"palpha","message":"3 active positions (22 dust ignored)"}
-{"timestamp":"2026-03-07T15:36:04.394Z","type":"trade","message":"Bought NO $10 on \"Solana Up or Down - March 7, 10:45AM-11:00AM ET\" @ 51.0¢ (quoted 50.5¢) — Crypto data: SOL -1.2% 24h, F&G=12"}
-{"timestamp":"2026-03-07T15:36:04.394Z","type":"trade","message":"Bought NO $10 on \"Solana Up or Down - March 7, 8:00AM-12:00PM ET\" @ 67.0¢ (quoted 78.0¢) — Crypto data: SOL -1.2% 24h, F&G=12"}
-{"timestamp":"2026-03-07T15:37:06.463Z","type":"crypto-fast","message":"Crypto fast cycle #333 — 57948ms"}
-{"timestamp":"2026-03-07T15:36:55.528Z","type":"redeem","message":"[auto-redeem] Redeemed DOWN 14.7 shares of \"Ethereum Up or Down - March 7, 10:15AM-10:30AM ET\" → tx=0xae5c1be956098dd5817548ef46d323a4bbd4e5d5066de37717f7cbf0848515d4 (P&L: +$4.87)","cashPnl":"4.8666","cost":"9.8763","value":"14.7429","title":"Ethereum Up or Down - March 7, 10:15AM-10:30AM ET","outcome":"down","size":"14.7429","avgPrice":"0.6699"}
-{"timestamp":"2026-03-07T15:37:02.697Z","type":"redeem","message":"[auto-redeem] Redeemed DOWN 14.6 shares of \"Bitcoin Up or Down - March 7, 10:25AM-10:30AM ET\" → tx=0xb0f6a0491b8cf6eef272e1f65f9b6382f63b271defd950a1d259ee36a28031ad (P&L: +$4.67)","cashPnl":"4.6714","cost":"9.8811","value":"14.5525","title":"Bitcoin Up or Down - March 7, 10:25AM-10:30AM ET","outcome":"down","size":"14.5525","avgPrice":"0.6790"}
 {"timestamp":"2026-03-07T15:36:09.919Z","type":"palpha","message":"[held] 25 positions excluded from opportunity search"}
 {"timestamp":"2026-03-07T15:36:09.919Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
 {"timestamp":"2026-03-07T15:36:09.919Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T15:51:13.712Z","type":"palpha","message":"2 active positions (23 dust ignored)"}
 {"timestamp":"2026-03-07T15:51:13.712Z","type":"trade","message":"Bought NO $10 on \"Bitcoin Up or Down - March 7, 10:50AM-10:55AM ET\" @ 37.0¢ (quoted 48.5¢) — Crypto data: BTC -1.1% 24h, F&G=12"}
 {"timestamp":"2026-03-07T15:51:13.712Z","type":"trade","message":"Bought NO $10 on \"XRP Up or Down - March 7, 10:45AM-11:00AM ET\" @ 45.0¢ (quoted 54.5¢) — Crypto data: XRP -0.4% 24h, F&G=12"}
+{"timestamp":"2026-03-07T15:52:50.704Z","type":"crypto-fast","message":"Crypto fast cycle #349 — 42159ms"}
+{"timestamp":"2026-03-07T15:52:10.002Z","type":"palpha","message":"[held] 27 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T15:52:10.002Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T15:52:10.002Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T15:52:10.002Z","type":"palpha","message":"4 active positions (23 dust ignored)"}
+{"timestamp":"2026-03-07T15:52:10.002Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
