@@ -1,19 +1,3 @@
-{"timestamp":"2026-03-06T23:57:01.459Z","type":"crypto-fast","message":"Crypto fast cycle #30 — 22841ms"}
-{"timestamp":"2026-03-06T23:56:40.176Z","type":"palpha","message":"[held] 12 positions excluded from opportunity search"}
-{"timestamp":"2026-03-06T23:56:40.176Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-06T23:56:40.176Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-06T23:56:40.176Z","type":"palpha","message":"2 active positions (12 dust ignored)"}
-{"timestamp":"2026-03-06T23:56:40.176Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-06T23:57:10.810Z","type":"scan","message":"Cycle #7 — 1583 markets | 11 active events | $190.2K recent flow | 2 held"}
-{"timestamp":"2026-03-06T23:57:10.810Z","type":"think","message":"Money flowing: \"Spread: Celtics (-15.5)\" — $129.7K heavily buying, biggest trade $129.7K, 1m ago"}
-{"timestamp":"2026-03-06T23:57:10.810Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-06T23:57:10.810Z","type":"think","message":"Crypto data: \"Bitcoin more valuable than any company before 2027?\" — BTC -3.9% 24h ($68,124), F&G=18"}
-{"timestamp":"2026-03-06T23:57:10.810Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -2.8% 24h ($1.36), F&G=18"}
-{"timestamp":"2026-03-06T23:57:10.810Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -3.9% 24h ($68,124), F&G=18"}
-{"timestamp":"2026-03-06T23:57:10.811Z","type":"think","message":"↓ Daily mover: \"Will St. John’s win the 2025-2026 Big East Men’s Baske…\" ↓33.0% today, ↓25.0% 1w, 24h vol $14.8K"}
-{"timestamp":"2026-03-06T23:57:10.811Z","type":"think","message":"Sources: 3/8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-06T23:57:10.811Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 6, 6:50PM-6:55PM ET\" — buyers dominating ($18.0K net), 16 traders, 1m ago"}
-{"type":"pipeline","timestamp":"2026-03-06T23:57:11.177Z","cycle":7,"ingestion":{"markets":1636,"trades":50,"tradeVolume":190183,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":53,"volumeSpikes":509,"catalysts":12,"deepValue":471,"tightRaces":49,"wideSpread":224,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":11,"totalVolume":190183,"avgImbalance":0.959},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":2},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38332802093.111855,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38332802093.111855,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5835404.685046713,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":747466.9550711837,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":134284.9363689,"change":null}]}
 {"timestamp":"2026-03-06T23:57:32.925Z","type":"pnl","message":"Today: $-556.33 (-69.3%) · Portfolio $246 · 2 positions · 26 trades"}
 {"timestamp":"2026-03-06T23:57:11.174Z","type":"palpha","message":"[held] 12 positions excluded from opportunity search"}
 {"timestamp":"2026-03-06T23:57:11.174Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +182,19 @@
 {"timestamp":"2026-03-07T00:45:03.837Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T00:45:03.837Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
 {"timestamp":"2026-03-07T00:45:03.837Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T00:49:49.004Z","type":"scan","message":"Cycle #8 — 1583 markets | 10 active events | $72.9K recent flow"}
+{"timestamp":"2026-03-07T00:49:49.004Z","type":"think","message":"Money flowing: \"Will Iran close the Strait of Hormuz by March 31?\" — $38.4K heavily buying, biggest trade $9.8K, 30s ago"}
+{"timestamp":"2026-03-07T00:49:49.004Z","type":"think","message":"Sentiment: \"US national Ethereum reserve before 2027?\" — F&G=12 (Extreme Fear), Extreme Fear (12/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-07T00:49:49.004Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — BTC -3.7% 24h ($68,316), F&G=12"}
+{"timestamp":"2026-03-07T00:49:49.004Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — BTC -3.7% 24h ($68,316), F&G=12"}
+{"timestamp":"2026-03-07T00:49:49.004Z","type":"think","message":"↓ Price shift: \"Waymo IPO before 2027?\" moved 4.0% since last scan (27.0% → 23.0%)"}
+{"timestamp":"2026-03-07T00:49:49.004Z","type":"think","message":"↑ Hourly mover: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h (now 16.5%), 24h vol $4.1K"}
+{"timestamp":"2026-03-07T00:49:49.004Z","type":"think","message":"Sources: 2/8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news, 1 whale"}
+{"timestamp":"2026-03-07T00:49:49.004Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $58,000 on March 8?\" — buyers dominating ($12.6K net), 3 traders, 2m ago"}
+{"type":"pipeline","timestamp":"2026-03-07T00:49:49.601Z","cycle":8,"ingestion":{"markets":1628,"trades":50,"tradeVolume":72935,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":51,"volumeSpikes":503,"catalysts":10,"deepValue":471,"tightRaces":48,"wideSpread":225,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":1},"tradeFlows":{"count":10,"totalVolume":72935,"avgImbalance":0.886},"midShifts":{"count":35,"avgMagnitude":0.0111},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":0},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38336835688.2781,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38336835688.2781,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5865730.924115336,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":728792.9065202696,"change":null},{"q":"Anduril Industries IPO before 2027?","type":"wideSpread","score":140187.1989313,"change":null}]}
+{"timestamp":"2026-03-07T00:50:11.322Z","type":"pnl","message":"Today: +$0.10 (+0.0%) · Portfolio $250 · 0 positions · 1 trades"}
+{"timestamp":"2026-03-07T00:49:49.597Z","type":"palpha","message":"[held] 12 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T00:49:49.597Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T00:49:49.597Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T00:49:49.597Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
+{"timestamp":"2026-03-07T00:49:49.597Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
