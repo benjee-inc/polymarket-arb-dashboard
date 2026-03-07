@@ -198,3 +198,20 @@
 {"timestamp":"2026-03-07T13:43:40.018Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T13:43:40.018Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
 {"timestamp":"2026-03-07T13:43:40.018Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T13:44:18.780Z","type":"crypto-fast","message":"Crypto fast cycle #221 — 70559ms"}
+{"timestamp":"2026-03-07T13:43:40.234Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T13:43:40.234Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 6 up/down"}
+{"timestamp":"2026-03-07T13:43:40.234Z","type":"palpha","message":"Found 6 potential trades from scanner"}
+{"timestamp":"2026-03-07T13:43:40.234Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 8:30AM-8:45AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T13:43:40.234Z","type":"palpha","message":"Passed on \"XRP Up or Down - March 7, 8:30AM-8:45AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 7, 8:30AM-8:45AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 7, 8:35AM-8:40AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"Passed on \"Solana Up or Down - March 7, 8:35AM-8:40AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"Passed on \"Solana Up or Down - March 7, 8:30AM-8:45AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"Evaluated 6 opportunities, 6 vetoed."}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 8:30AM-8:45AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 8:35AM-8:40AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 8:30AM-8:45AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"  ✗ \"Solana Up or Down - March 7, 8:35AM-8:40AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T13:43:40.235Z","type":"palpha","message":"  ✗ \"Solana Up or Down - March 7, 8:30AM-8:45AM ET\" — NOISE — not enough edge"}
