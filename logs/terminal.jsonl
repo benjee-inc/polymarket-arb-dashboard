@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T09:15:35.393Z","type":"palpha","message":"  ✗ \"XRP Up or Down - March 7, 4:00AM-4:15AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T09:16:53.311Z","type":"crypto-fast","message":"Crypto fast cycle #364 — 29266ms"}
-{"timestamp":"2026-03-07T09:16:25.316Z","type":"palpha","message":"[held] 16 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T09:16:25.317Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T09:16:25.317Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T09:16:25.317Z","type":"palpha","message":"0 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T09:16:25.317Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T09:17:53.704Z","type":"crypto-fast","message":"Crypto fast cycle #365 — 29643ms"}
 {"timestamp":"2026-03-07T09:17:25.681Z","type":"palpha","message":"[held] 16 positions excluded from opportunity search"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T09:31:55.507Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T09:31:55.507Z","type":"palpha","message":"0 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T09:31:55.507Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T09:32:38.542Z","type":"crypto-fast","message":"Crypto fast cycle #6 — 29519ms"}
+{"timestamp":"2026-03-07T09:32:10.609Z","type":"palpha","message":"[held] 16 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T09:32:10.609Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T09:32:10.609Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T09:32:10.609Z","type":"palpha","message":"0 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T09:32:10.609Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
