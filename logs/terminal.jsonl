@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T11:52:09.345Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
-{"timestamp":"2026-03-07T11:52:09.345Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T11:53:47.331Z","type":"crypto-fast","message":"Crypto fast cycle #110 — 39413ms"}
-{"timestamp":"2026-03-07T11:53:09.385Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T11:53:09.385Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T11:53:09.385Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T11:53:09.385Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
 {"timestamp":"2026-03-07T11:53:09.385Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T11:53:52.947Z","type":"scan","message":"Cycle #23 — 1586 markets | 15 active events | $34.6K recent flow"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T12:08:55.891Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T12:08:55.891Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
 {"timestamp":"2026-03-07T12:08:55.891Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T12:09:47.825Z","type":"crypto-fast","message":"Crypto fast cycle #126 — 39867ms"}
+{"timestamp":"2026-03-07T12:09:09.566Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T12:09:09.566Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T12:09:09.566Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T12:09:09.566Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T12:09:09.566Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
