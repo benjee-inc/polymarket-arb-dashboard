@@ -1,11 +1,3 @@
-{"timestamp":"2026-03-07T11:08:09.195Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T11:08:45.655Z","type":"scan","message":"Cycle #14 — 1586 markets | 7 active events | $13.6K recent flow"}
-{"timestamp":"2026-03-07T11:08:45.655Z","type":"think","message":"Money flowing: \"Will Bitcoin dip to $40,000 in March?\" — $1.2K heavily buying, biggest trade $1.2K, 7m ago"}
-{"timestamp":"2026-03-07T11:08:45.655Z","type":"think","message":"News: \"Netanyahu out by end of 2026?\" — 4 articles (bearish), \"İrandan İsraile 24  üncü hava saldırısı\""}
-{"timestamp":"2026-03-07T11:08:45.655Z","type":"think","message":"News: \"Netanyahu out by March 31?\" — 4 articles (bearish), \"İrandan İsraile 24  üncü hava saldırısı\""}
-{"timestamp":"2026-03-07T11:08:45.655Z","type":"think","message":"News: \"Netanyahu out by June 30?\" — 4 articles (bearish), \"İrandan İsraile 24  üncü hava saldırısı\""}
-{"timestamp":"2026-03-07T11:08:45.655Z","type":"think","message":"News: \"Israel and Syria normalize relations by June 30, 2026?\" — 4 articles (bearish), \"İrandan İsraile 24  üncü hava saldırısı\""}
-{"timestamp":"2026-03-07T11:08:45.655Z","type":"think","message":"↓ Daily mover: \"Anduril IPO before 2027?\" ↓22.0% today, ↓13.0% 1w, 24h vol $22.8K"}
 {"timestamp":"2026-03-07T11:08:45.655Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 4/12 news"}
 {"timestamp":"2026-03-07T11:08:45.655Z","type":"decision","message":"Hourly momentum: \"Will the Starship for SpaceX Starship Flight Test 12 a…\" ↓8.0% in 1h, now 64.0%, vol $6.1K"}
 {"type":"pipeline","timestamp":"2026-03-07T11:08:46.203Z","cycle":14,"ingestion":{"markets":1625,"trades":50,"tradeVolume":13616,"midpointsFetched":50},"signals":{"movers1h":27,"movers1d":36,"volumeSpikes":493,"catalysts":12,"deepValue":422,"tightRaces":39,"wideSpread":214,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":7,"totalVolume":13616,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":0},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":37741520021.01869,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":37741520021.01869,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5265293.612409537,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":542385.8255984603,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":117208.84671489,"change":null}]}
@@ -198,3 +190,11 @@
 {"timestamp":"2026-03-07T11:25:19.236Z","type":"palpha","message":"  ✗ \"Solana Up or Down - March 7, 6:20AM-6:25AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T11:25:19.236Z","type":"palpha","message":"  ✗ \"XRP Up or Down - March 7, 6:15AM-6:30AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T11:25:19.236Z","type":"palpha","message":"  ✗ \"XRP Up or Down - March 7, 6:20AM-6:25AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T11:26:51.753Z","type":"crypto-fast","message":"Crypto fast cycle #83 — 43912ms"}
+{"timestamp":"2026-03-07T11:26:13.791Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T11:26:13.791Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 1 up/down"}
+{"timestamp":"2026-03-07T11:26:13.791Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-07T11:26:13.791Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 6:20AM-6:25AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T11:26:13.791Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T11:26:13.791Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-07T11:26:13.791Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 6:20AM-6:25AM ET\" — NOISE — not enough edge"}
