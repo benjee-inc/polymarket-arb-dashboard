@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T06:07:33.896Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 1:00AM-1:15AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T06:07:33.896Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 1:00AM-1:05AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T06:07:33.896Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
-{"timestamp":"2026-03-07T06:08:06.021Z","type":"scan","message":"Cycle #36 — 1584 markets | 15 active events | $75.8K recent flow | 1 held"}
-{"timestamp":"2026-03-07T06:08:06.021Z","type":"think","message":"Money flowing: \"Will the Fed increase interest rates by 25+ bps after …\" — $54.3K selling, biggest trade $18.2K, 4m ago"}
-{"timestamp":"2026-03-07T06:08:06.021Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=12 (Extreme Fear), Extreme Fear (12/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-07T06:08:06.021Z","type":"think","message":"Sentiment: \"Will there be no change in Fed interest rates after th…\" — F&G=12 (Extreme Fear), Extreme Fear (12/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-07T06:08:06.021Z","type":"think","message":"Sentiment: \"Another S&P 500 Company buys Bitcoin by December 31, 2…\" — F&G=12 (Extreme Fear), Extreme Fear (12/100) — contrarian buy signal for risk assets"}
 {"timestamp":"2026-03-07T06:08:06.021Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=12 (Extreme Fear), Extreme Fear (12/100) — contrarian buy signal for risk assets"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T06:22:53.560Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T06:22:53.560Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T06:22:53.560Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T06:23:52.468Z","type":"crypto-fast","message":"Crypto fast cycle #191 — 29762ms"}
+{"timestamp":"2026-03-07T06:23:24.493Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T06:23:24.493Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T06:23:24.493Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T06:23:24.493Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T06:23:24.493Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
