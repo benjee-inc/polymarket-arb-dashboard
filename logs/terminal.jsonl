@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T06:17:51.945Z","type":"crypto-fast","message":"Crypto fast cycle #185 — 29276ms"}
-{"timestamp":"2026-03-07T06:17:24.050Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T06:17:24.050Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T06:17:24.050Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T06:17:24.050Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
-{"timestamp":"2026-03-07T06:17:24.050Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T06:18:10.831Z","type":"scan","message":"Cycle #38 — 1584 markets | 9 active events | $43.2K recent flow | 1 held"}
 {"timestamp":"2026-03-07T06:18:10.831Z","type":"think","message":"Money flowing: \"Will Bugonia win Best Picture at the 98th Academy Awar…\" — $30.7K heavily buying, biggest trade $5.8K, 2m ago"}
 {"timestamp":"2026-03-07T06:18:10.832Z","type":"think","message":"News: \"US x Russia military clash by June 30, 2026?\" — 13 articles (bullish), \"Savaşta 8 . gün ! İran , Tel Avivi ilk kez yeni nesil füzeler ile İHAl\""}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T06:32:54.038Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T06:32:54.038Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T06:32:54.038Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T06:33:52.160Z","type":"crypto-fast","message":"Crypto fast cycle #201 — 29371ms"}
+{"timestamp":"2026-03-07T06:33:24.138Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T06:33:24.138Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T06:33:24.138Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T06:33:24.138Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T06:33:24.138Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
