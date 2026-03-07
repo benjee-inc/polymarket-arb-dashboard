@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T09:52:19.336Z","type":"palpha","message":"2 active positions (20 dust ignored)"}
-{"timestamp":"2026-03-07T09:52:19.336Z","type":"trade","message":"No trades this cycle — thematic dedup."}
-{"timestamp":"2026-03-07T09:53:52.489Z","type":"crypto-fast","message":"Crypto fast cycle #14 — 34795ms"}
-{"timestamp":"2026-03-07T09:53:19.039Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T09:53:19.039Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T09:53:19.039Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T09:53:19.039Z","type":"palpha","message":"2 active positions (20 dust ignored)"}
 {"timestamp":"2026-03-07T09:53:19.039Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T09:55:11.145Z","type":"crypto-fast","message":"Crypto fast cycle #15 — 53446ms"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T10:08:39.440Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T10:08:39.440Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
 {"timestamp":"2026-03-07T10:08:39.440Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T10:09:46.962Z","type":"crypto-fast","message":"Crypto fast cycle #6 — 39320ms"}
+{"timestamp":"2026-03-07T10:09:09.019Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T10:09:09.019Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T10:09:09.019Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T10:09:09.019Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T10:09:09.019Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
