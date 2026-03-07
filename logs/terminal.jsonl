@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T11:13:09.223Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
-{"timestamp":"2026-03-07T11:13:09.223Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T11:13:39.709Z","type":"scan","message":"Cycle #15 — 1586 markets | 7 active events | $9.3K recent flow"}
-{"timestamp":"2026-03-07T11:13:39.709Z","type":"think","message":"Money flowing: \"Will Tesla dip to $263 in March?\" — $4.6K heavily buying, biggest trade $1.6K, 4m ago"}
-{"timestamp":"2026-03-07T11:13:39.710Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — BTC -3.7% 24h ($67,930), F&G=12"}
-{"timestamp":"2026-03-07T11:13:39.710Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -3.7% 24h ($67,930), F&G=12"}
 {"timestamp":"2026-03-07T11:13:39.710Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -3.7% 24h ($67,930), F&G=12"}
 {"timestamp":"2026-03-07T11:13:39.710Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 25.5%), 24h vol $22.8K"}
 {"timestamp":"2026-03-07T11:13:39.710Z","type":"think","message":"Sources: 3/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T11:29:21.996Z","type":"palpha","message":"  ✗ \"Solana Up or Down - March 7, 6:25AM-6:30AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T11:29:21.996Z","type":"palpha","message":"  ✗ \"XRP Up or Down - March 7, 6:25AM-6:30AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T11:29:21.996Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
+{"timestamp":"2026-03-07T11:30:47.705Z","type":"crypto-fast","message":"Crypto fast cycle #87 — 39856ms"}
+{"timestamp":"2026-03-07T11:30:09.257Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T11:30:09.257Z","type":"palpha","message":"[short-term-only] filtered 3 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T11:30:09.257Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T11:30:09.257Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T11:30:09.257Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
