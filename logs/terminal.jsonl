@@ -1,20 +1,3 @@
-{"timestamp":"2026-03-07T01:05:01.385Z","type":"palpha","message":"[short-term-only] filtered 5 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T01:05:01.385Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T01:05:01.385Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
-{"timestamp":"2026-03-07T01:05:01.385Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T01:09:47.702Z","type":"scan","message":"Cycle #12 — 1583 markets | 11 active events | $27.0K recent flow"}
-{"timestamp":"2026-03-07T01:09:47.702Z","type":"think","message":"Money flowing: \"Will Jared Polis win the 2028 Democratic presidential …\" — $9.1K heavily buying, biggest trade $9.1K, 1m ago"}
-{"timestamp":"2026-03-07T01:09:47.702Z","type":"think","message":"Crypto data: \"Bitcoin more valuable than any company before 2027?\" — BTC -3.7% 24h ($68,320), F&G=12"}
-{"timestamp":"2026-03-07T01:09:47.702Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -2.6% 24h ($1.37), F&G=12"}
-{"timestamp":"2026-03-07T01:09:47.702Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -3.7% 24h ($68,320), F&G=12"}
-{"timestamp":"2026-03-07T01:09:47.702Z","type":"think","message":"↓ Price shift: \"Zelenskyy out as Ukraine president by end of 2026?\" moved 1.5% since last scan (27.5% → 26.0%)"}
-{"timestamp":"2026-03-07T01:09:47.702Z","type":"think","message":"Deep value: \"Will Beto O’Rourke win the 2028 Democratic presidentia…\" — Yes @ 0.9¢, liq $42.3M, 24h vol $6.2M"}
-{"timestamp":"2026-03-07T01:09:47.702Z","type":"think","message":"Sources: 3/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-07T01:09:47.703Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $74,000 on March 7?\" — buyers dominating ($3.2K net), 4 traders, 1m ago"}
-{"type":"pipeline","timestamp":"2026-03-07T01:09:48.085Z","cycle":12,"ingestion":{"markets":1628,"trades":50,"tradeVolume":27026,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":49,"volumeSpikes":503,"catalysts":10,"deepValue":463,"tightRaces":47,"wideSpread":222,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":11,"totalVolume":27026,"avgImbalance":0.964},"midShifts":{"count":31,"avgMagnitude":0.0077},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":0},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38327868639.37868,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38327868639.37868,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5804768.508835272,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":726535.0050669892,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":92387.89177368,"change":null}]}
-{"timestamp":"2026-03-07T01:10:09.284Z","type":"pnl","message":"Today: +$0.10 (+0.0%) · Portfolio $250 · 0 positions · 1 trades"}
-{"timestamp":"2026-03-07T01:09:48.082Z","type":"palpha","message":"[held] 12 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T01:09:48.082Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
 {"timestamp":"2026-03-07T01:09:48.082Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T01:09:48.082Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
 {"timestamp":"2026-03-07T01:09:48.082Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
@@ -198,3 +181,20 @@
 {"timestamp":"2026-03-07T02:04:48.005Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T02:04:48.005Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
 {"timestamp":"2026-03-07T02:04:48.005Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T02:10:04.231Z","type":"scan","message":"Cycle #24 — 1584 markets | 11 active events | $56.3K recent flow"}
+{"timestamp":"2026-03-07T02:10:04.231Z","type":"think","message":"Money flowing: \"Will Bitcoin reach $150,000 in March?\" — $16.9K heavily buying, biggest trade $16.9K, 1m ago"}
+{"timestamp":"2026-03-07T02:10:04.231Z","type":"think","message":"News: \"US x Russia military clash by June 30, 2026?\" — 40 articles (bearish), \"ما المدى الزمني للحرب على إيران ؟!\""}
+{"timestamp":"2026-03-07T02:10:04.231Z","type":"think","message":"News: \"US x Russia military clash by December 31, 2026?\" — 40 articles (bearish), \"ما المدى الزمني للحرب على إيران ؟!\""}
+{"timestamp":"2026-03-07T02:10:04.231Z","type":"think","message":"News: \"Will any country leave NATO by June 30, 2026?\" — 40 articles (bearish), \"ما المدى الزمني للحرب على إيران ؟!\""}
+{"timestamp":"2026-03-07T02:10:04.231Z","type":"think","message":"News: \"Will China invades Taiwan before GTA VI?\" — 40 articles (neutral), \"ما المدى الزمني للحرب على إيران ؟!\""}
+{"timestamp":"2026-03-07T02:10:04.231Z","type":"think","message":"↑ Price shift: \"Will Harvey Weinstein be sentenced to more than 30 yea…\" moved 3.0% since last scan (3.0% → 6.0%)"}
+{"timestamp":"2026-03-07T02:10:04.231Z","type":"think","message":"Catalyst: \"Will PLC win the most seats in the 2026 Colombian Sena…\" — 28h to resolution, 0.4% YES, ↑0.1% this hour, vol $81.2K"}
+{"timestamp":"2026-03-07T02:10:04.231Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 4/6 news, 5 whale"}
+{"timestamp":"2026-03-07T02:10:04.232Z","type":"decision","message":"Flow signal: \"Will the price of XRP be between $1.70 and $1.80 on Ma…\" — buyers dominating ($3.7K net), 4 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-03-07T02:10:04.858Z","cycle":24,"ingestion":{"markets":1628,"trades":50,"tradeVolume":56293,"midpointsFetched":50},"signals":{"movers1h":39,"movers1d":49,"volumeSpikes":497,"catalysts":11,"deepValue":463,"tightRaces":47,"wideSpread":218,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":5},"tradeFlows":{"count":11,"totalVolume":56293,"avgImbalance":0.818},"midShifts":{"count":33,"avgMagnitude":0.0083},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":0},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38231230457.23734,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38231230457.23734,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":6060771.541067789,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":724669.8939505047,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":83447.61812163,"change":null}]}
+{"timestamp":"2026-03-07T02:10:26.103Z","type":"pnl","message":"Today: +$0.10 (+0.0%) · Portfolio $250 · 0 positions · 1 trades"}
+{"timestamp":"2026-03-07T02:10:04.854Z","type":"palpha","message":"[held] 12 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T02:10:04.854Z","type":"palpha","message":"[short-term-only] filtered 3 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T02:10:04.854Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T02:10:04.854Z","type":"palpha","message":"0 active positions (12 dust ignored)"}
+{"timestamp":"2026-03-07T02:10:04.854Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
