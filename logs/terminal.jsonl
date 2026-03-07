@@ -1,15 +1,3 @@
-{"timestamp":"2026-03-07T12:37:09.661Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T12:37:09.661Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T12:37:09.661Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T12:37:09.661Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
-{"timestamp":"2026-03-07T12:37:09.661Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T12:38:47.683Z","type":"crypto-fast","message":"Crypto fast cycle #155 — 39654ms"}
-{"timestamp":"2026-03-07T12:38:09.515Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T12:38:09.515Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T12:38:09.515Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T12:38:09.515Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
-{"timestamp":"2026-03-07T12:38:09.515Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T12:38:41.959Z","type":"scan","message":"Cycle #32 — 1586 markets | 17 active events | $56.4K recent flow"}
 {"timestamp":"2026-03-07T12:38:41.959Z","type":"think","message":"Money flowing: \"Will the Iranian regime fall by March 31?\" — $29.3K heavily buying, biggest trade $19.5K, 5m ago"}
 {"timestamp":"2026-03-07T12:38:41.959Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 88.5% / ask 95.1% (6.6% spread), liq $1.6M"}
 {"timestamp":"2026-03-07T12:38:41.959Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
@@ -198,3 +186,15 @@
 {"timestamp":"2026-03-07T12:54:09.296Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T12:54:09.296Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
 {"timestamp":"2026-03-07T12:54:09.296Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T12:55:57.922Z","type":"crypto-fast","message":"Crypto fast cycle #172 — 49845ms"}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 3 up/down"}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 7:55AM-8:00AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 8:00AM-8:15AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 7, 7:55AM-8:00AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed."}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 7:55AM-8:00AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 8:00AM-8:15AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T12:55:19.353Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 7:55AM-8:00AM ET\" — NOISE — not enough edge"}
