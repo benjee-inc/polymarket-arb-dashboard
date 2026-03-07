@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T12:18:14.185Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T12:18:14.185Z","type":"palpha","message":"[short-term-only] filtered 4 long-dated markets, kept 1 up/down"}
-{"timestamp":"2026-03-07T12:18:14.185Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-07T12:18:14.185Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 7:00AM-7:15AM ET\" — no Grok data available"}
-{"timestamp":"2026-03-07T12:18:14.185Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
-{"timestamp":"2026-03-07T12:18:14.185Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
 {"timestamp":"2026-03-07T12:18:14.185Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 7:00AM-7:15AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T12:18:48.335Z","type":"scan","message":"Cycle #28 — 1586 markets | 2 active events | $1.1K recent flow"}
 {"timestamp":"2026-03-07T12:18:48.335Z","type":"think","message":"Money flowing: \"Will Croatia win Eurovision 2026?\" — $583 heavily buying, biggest trade $583, 1m ago"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T12:33:39.549Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T12:33:39.549Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
 {"timestamp":"2026-03-07T12:33:39.549Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T12:34:48.489Z","type":"crypto-fast","message":"Crypto fast cycle #151 — 40476ms"}
+{"timestamp":"2026-03-07T12:34:09.610Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T12:34:09.610Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T12:34:09.610Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T12:34:09.610Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T12:34:09.610Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
