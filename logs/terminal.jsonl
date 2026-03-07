@@ -1,11 +1,3 @@
-{"timestamp":"2026-03-07T14:14:09.687Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T14:15:58.318Z","type":"crypto-fast","message":"Crypto fast cycle #252 — 50001ms"}
-{"timestamp":"2026-03-07T14:15:19.457Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T14:15:19.457Z","type":"palpha","message":"[short-term-only] filtered 3 long-dated markets, kept 4 up/down"}
-{"timestamp":"2026-03-07T14:15:19.457Z","type":"palpha","message":"Found 4 potential trades from scanner"}
-{"timestamp":"2026-03-07T14:15:19.457Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 9:15AM-9:20AM ET\" — no Grok data available"}
-{"timestamp":"2026-03-07T14:15:19.457Z","type":"palpha","message":"Passed on \"Solana Up or Down - March 7, 9:15AM-9:30AM ET\" — no Grok data available"}
-{"timestamp":"2026-03-07T14:15:19.457Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 9:15AM-9:30AM ET\" — no Grok data available"}
 {"timestamp":"2026-03-07T14:15:19.457Z","type":"palpha","message":"Passed on \"XRP Up or Down - March 7, 9:10AM-9:15AM ET\" — no Grok data available"}
 {"timestamp":"2026-03-07T14:15:19.457Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
 {"timestamp":"2026-03-07T14:15:19.457Z","type":"palpha","message":"Evaluated 4 opportunities, 4 vetoed."}
@@ -198,3 +190,11 @@
 {"timestamp":"2026-03-07T14:32:10.135Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T14:32:10.135Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
 {"timestamp":"2026-03-07T14:32:10.135Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T14:33:53.583Z","type":"crypto-fast","message":"Crypto fast cycle #270 — 45217ms"}
+{"timestamp":"2026-03-07T14:33:15.063Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T14:33:15.063Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 1 up/down"}
+{"timestamp":"2026-03-07T14:33:15.063Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-07T14:33:15.063Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 7, 9:15AM-9:30AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T14:33:15.063Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T14:33:15.063Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-07T14:33:15.063Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 9:15AM-9:30AM ET\" — NOISE — not enough edge"}
