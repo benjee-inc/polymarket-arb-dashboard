@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T09:31:20.815Z","type":"palpha","message":"  + 2 below top-5 cutoff (no Grok eval)"}
-{"timestamp":"2026-03-07T09:31:54.926Z","type":"scan","message":"Cycle #2 — 1584 markets | 14 active events | $24.6K recent flow"}
-{"timestamp":"2026-03-07T09:31:54.926Z","type":"think","message":"Money flowing: \"Will Steve Bannon win the 2028 Republican presidential…\" — $3.3K heavily buying, biggest trade $1.4K, 1m ago"}
-{"timestamp":"2026-03-07T09:31:54.927Z","type":"think","message":"News: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — 1 articles (neutral), \"Crypto ETFs retreat after sustained inflow surge\""}
-{"timestamp":"2026-03-07T09:31:54.927Z","type":"think","message":"News: \"MicroStrategy sells any Bitcoin by March 31, 2026?\" — 1 articles (neutral), \"Crypto ETFs retreat after sustained inflow surge\""}
-{"timestamp":"2026-03-07T09:31:54.927Z","type":"think","message":"News: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — 1 articles (neutral), \"Crypto ETFs retreat after sustained inflow surge\""}
 {"timestamp":"2026-03-07T09:31:54.927Z","type":"think","message":"News: \"Will Bitcoin hit $150k by March 31, 2026?\" — 1 articles (bearish), \"Trump dilemma in Texas\""}
 {"timestamp":"2026-03-07T09:31:54.927Z","type":"think","message":"Volume surge: \"ByteDance IPO before 2027?\" — $28.2K in 24h (4246% of lifetime), price 14.0%"}
 {"timestamp":"2026-03-07T09:31:54.927Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 4/12 news"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T09:47:19.164Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T09:47:19.164Z","type":"palpha","message":"2 active positions (18 dust ignored)"}
 {"timestamp":"2026-03-07T09:47:19.164Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T09:48:52.400Z","type":"crypto-fast","message":"Crypto fast cycle #9 — 34735ms"}
+{"timestamp":"2026-03-07T09:48:19.431Z","type":"palpha","message":"[held] 20 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T09:48:19.431Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T09:48:19.431Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T09:48:19.431Z","type":"palpha","message":"2 active positions (18 dust ignored)"}
+{"timestamp":"2026-03-07T09:48:19.431Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
