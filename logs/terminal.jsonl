@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T09:46:24.962Z","type":"palpha","message":"2 active positions (18 dust ignored)"}
-{"timestamp":"2026-03-07T09:46:24.962Z","type":"trade","message":"No trades this cycle — thematic dedup."}
-{"timestamp":"2026-03-07T09:47:51.231Z","type":"crypto-fast","message":"Crypto fast cycle #8 — 33577ms"}
-{"timestamp":"2026-03-07T09:47:19.164Z","type":"palpha","message":"[held] 20 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T09:47:19.164Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T09:47:19.164Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T09:47:19.164Z","type":"palpha","message":"2 active positions (18 dust ignored)"}
 {"timestamp":"2026-03-07T09:47:19.164Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T09:48:52.400Z","type":"crypto-fast","message":"Crypto fast cycle #9 — 34735ms"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T10:03:40.402Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T10:03:40.402Z","type":"palpha","message":"2 active positions (20 dust ignored)"}
 {"timestamp":"2026-03-07T10:03:40.402Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T10:04:44.396Z","type":"crypto-fast","message":"Crypto fast cycle #1 — 36761ms"}
+{"timestamp":"2026-03-07T10:04:09.231Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T10:04:09.231Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T10:04:09.231Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T10:04:09.231Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T10:04:09.231Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
