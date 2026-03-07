@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T05:07:52.949Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — BTC -3.5% 24h ($68,106), F&G=12"}
-{"timestamp":"2026-03-07T05:07:52.949Z","type":"think","message":"Crypto data: \"US national Bitcoin reserve before 2027?\" — BTC -3.5% 24h ($68,106), F&G=12"}
-{"timestamp":"2026-03-07T05:07:52.949Z","type":"think","message":"Crypto data: \"Bitcoin more valuable than any company before 2027?\" — BTC -3.5% 24h ($68,106), F&G=12"}
-{"timestamp":"2026-03-07T05:07:52.949Z","type":"think","message":"Catalyst: \"Will PLC win the most seats in the 2026 Colombian Sena…\" — 25h to resolution, 0.5% YES, ↑0.1% this hour, vol $95.8K"}
-{"timestamp":"2026-03-07T05:07:52.949Z","type":"think","message":"Sources: 4/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-07T05:07:52.949Z","type":"decision","message":"Flow signal: \"Will Tim Walz win the 2028 US Presidential Election?\" — buyers dominating ($5.4K net), 4 traders, 1m ago"}
 {"type":"pipeline","timestamp":"2026-03-07T05:07:53.205Z","cycle":24,"ingestion":{"markets":1628,"trades":50,"tradeVolume":124551,"midpointsFetched":50},"signals":{"movers1h":41,"movers1d":48,"volumeSpikes":493,"catalysts":12,"deepValue":445,"tightRaces":55,"wideSpread":220,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":13,"totalVolume":124551,"avgImbalance":0.962},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":43922974213.68374,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38066577651.859245,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5879782.162163772,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":714945.4030240076,"change":null},{"q":"Will the Golden State Warriors win more than 47.5 regular season games in 2025–2","type":"wideSpread","score":84098.19283214999,"change":null}]}
 {"timestamp":"2026-03-07T05:08:21.063Z","type":"pnl","message":"Today: +$2090.97 (+-110.2%) · Portfolio $194 · 1 positions · 32 trades"}
 {"timestamp":"2026-03-07T05:07:53.202Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T05:24:32.733Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 12:25AM-12:30AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T05:24:32.733Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 12:20AM-12:25AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T05:24:32.733Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 12:25AM-12:30AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T05:25:51.747Z","type":"crypto-fast","message":"Crypto fast cycle #133 — 29490ms"}
+{"timestamp":"2026-03-07T05:25:23.710Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T05:25:23.710Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T05:25:23.710Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T05:25:23.710Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T05:25:23.710Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
