@@ -1,15 +1,3 @@
-{"timestamp":"2026-03-07T03:48:06.543Z","type":"decision","message":"Flow signal: \"Will Elise Stefanik win the 2028 Republican presidenti…\" — buyers dominating ($4.3K net), 3 traders, 5m ago"}
-{"type":"pipeline","timestamp":"2026-03-07T03:48:06.985Z","cycle":8,"ingestion":{"markets":1628,"trades":50,"tradeVolume":56169,"midpointsFetched":50},"signals":{"movers1h":41,"movers1d":48,"volumeSpikes":486,"catalysts":12,"deepValue":460,"tightRaces":46,"wideSpread":214,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":15,"totalVolume":56169,"avgImbalance":1},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":3},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":44013756088.57923,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38145255276.76867,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":6037860.817615902,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":723493.3900032077,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":75424.21193481,"change":null}]}
-{"timestamp":"2026-03-07T03:48:30.616Z","type":"pnl","message":"Today: $-2.64 (-1.0%) · Portfolio $256 · 3 positions · 6 trades"}
-{"timestamp":"2026-03-07T03:48:06.982Z","type":"palpha","message":"[held] 15 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T03:48:06.982Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T03:48:06.982Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T03:48:06.982Z","type":"palpha","message":"3 active positions (12 dust ignored)"}
-{"timestamp":"2026-03-07T03:48:06.982Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T03:48:46.651Z","type":"crypto-fast","message":"Crypto fast cycle #36 — 25101ms"}
-{"timestamp":"2026-03-07T03:48:23.015Z","type":"palpha","message":"[held] 15 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T03:48:23.015Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T03:48:23.015Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T03:48:23.015Z","type":"palpha","message":"3 active positions (12 dust ignored)"}
 {"timestamp":"2026-03-07T03:48:23.015Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T03:50:47.507Z","type":"crypto-fast","message":"Crypto fast cycle #38 — 25938ms"}
@@ -198,3 +186,15 @@
 {"timestamp":"2026-03-07T04:03:23.292Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T04:03:23.292Z","type":"palpha","message":"3 active positions (13 dust ignored)"}
 {"timestamp":"2026-03-07T04:03:23.292Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T04:05:42.547Z","type":"crypto-fast","message":"Crypto fast cycle #53 — 80837ms"}
+{"timestamp":"2026-03-07T04:05:18.691Z","type":"palpha","message":"[held] 16 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T04:05:18.691Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 2 up/down"}
+{"timestamp":"2026-03-07T04:05:18.692Z","type":"palpha","message":"Found 2 potential trades from scanner"}
+{"timestamp":"2026-03-07T04:05:18.692Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 6, 11:00PM-11:05PM ET\" — Grok says 22%, market at 14.0%, not enough edge"}
+{"timestamp":"2026-03-07T04:05:18.692Z","type":"palpha","message":"  Why: Primary sources indicate Ethereum experienced a significant daily decline of approximately 4.55% on March 6, , closing around $1,978 from an open near $2,073, with current prices hovering near $1,979. X posts reflect bearish sentiment, noting price testing key supports, resistance failures, and downward trends around that time.04 The provided flow signal shows minor buy bias with only $3,330 volume, i"}
+{"timestamp":"2026-03-07T04:05:18.692Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 6, 11:00PM-11:15PM ET\" — Grok says 35%, market at 19.0%, not enough edge"}
+{"timestamp":"2026-03-07T04:05:18.692Z","type":"palpha","message":"  Why: Bitcoin experienced a bearish day on March 6, , closing around $68,200 after opening near $70,900 and hitting lows of $67,800, with multiple sources confirming a roughly 4% decline amid volatility from jobs data anticipation and geopolitical tensions. Recent X posts around 8 PM ET showed BTC at $68,112 with fear & greed at 20 (fear), indicating continued downside momentum into late hours. However, the scanner's 100% BUY flow bias on $7,056 recent volume provides a counter-signal of short-term buying pressure potentially driving a 15-minute uptick, which the market at 19% YES appears to undervalue given the lack of minute-level data confirming the interval's direction."}
+{"timestamp":"2026-03-07T04:05:18.692Z","type":"palpha","message":"2 active positions (14 dust ignored)"}
+{"timestamp":"2026-03-07T04:05:18.692Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed."}
+{"timestamp":"2026-03-07T04:05:18.692Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 6, 11:00PM-11:15PM ET\" — MONITOR — not enough edge"}
+{"timestamp":"2026-03-07T04:05:18.692Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 6, 11:00PM-11:05PM ET\" — MONITOR — not enough edge"}
