@@ -1,11 +1,3 @@
-{"timestamp":"2026-03-07T05:12:23.896Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T05:12:53.197Z","type":"scan","message":"Cycle #25 — 1584 markets | 16 active events | $103.5K recent flow | 1 held"}
-{"timestamp":"2026-03-07T05:12:53.197Z","type":"think","message":"Money flowing: \"Will Tucker Carlson win the 2028 Republican presidenti…\" — $29.8K heavily buying, biggest trade $29.8K, 2m ago"}
-{"timestamp":"2026-03-07T05:12:53.197Z","type":"think","message":"Wide spread: \"Will Donald Trump visit South Korea in 2026?\" — bid 16.0% / ask 92.0% (76.0% spread), liq $67.0K"}
-{"timestamp":"2026-03-07T05:12:53.197Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
-{"timestamp":"2026-03-07T05:12:53.197Z","type":"decision","message":"Flow signal: \"Spread: Nuggets (-1.5)\" — sellers dominating ($14.4K net), 1 traders, 2m ago"}
-{"type":"pipeline","timestamp":"2026-03-07T05:12:53.526Z","cycle":25,"ingestion":{"markets":1627,"trades":50,"tradeVolume":103523,"midpointsFetched":50},"signals":{"movers1h":41,"movers1d":48,"volumeSpikes":487,"catalysts":12,"deepValue":447,"tightRaces":49,"wideSpread":221,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":16,"totalVolume":103523,"avgImbalance":0.899},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":43938929859.41894,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38080405878.16308,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5885189.054225385,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":715730.2937156112,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":78067.27004274,"change":null}]}
-{"timestamp":"2026-03-07T05:13:21.420Z","type":"pnl","message":"Today: +$2114.59 (+-111.5%) · Portfolio $218 · 1 positions · 33 trades"}
 {"timestamp":"2026-03-07T05:12:53.521Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
 {"timestamp":"2026-03-07T05:12:53.521Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
 {"timestamp":"2026-03-07T05:12:53.521Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +190,11 @@
 {"timestamp":"2026-03-07T05:29:33.914Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 12:00AM-4:00AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T05:29:33.914Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 12:30AM-12:35AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T05:29:33.914Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 12:35AM-12:40AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T05:30:57.511Z","type":"crypto-fast","message":"Crypto fast cycle #138 — 35218ms"}
+{"timestamp":"2026-03-07T05:30:29.281Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T05:30:29.281Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 1 up/down"}
+{"timestamp":"2026-03-07T05:30:29.281Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-07T05:30:29.281Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 12:25AM-12:30AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T05:30:29.281Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T05:30:29.281Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-07T05:30:29.281Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 12:25AM-12:30AM ET\" — NOISE — not enough edge"}
