@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T08:21:25.686Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T08:21:25.686Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T08:21:25.686Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
-{"timestamp":"2026-03-07T08:21:25.686Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T08:22:53.366Z","type":"crypto-fast","message":"Crypto fast cycle #310 — 29728ms"}
-{"timestamp":"2026-03-07T08:22:25.200Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
 {"timestamp":"2026-03-07T08:22:25.200Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
 {"timestamp":"2026-03-07T08:22:25.200Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T08:22:25.200Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T08:38:04.748Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T08:38:04.748Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T08:38:04.748Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T08:38:53.670Z","type":"crypto-fast","message":"Crypto fast cycle #326 — 29931ms"}
+{"timestamp":"2026-03-07T08:38:25.522Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T08:38:25.522Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T08:38:25.522Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T08:38:25.522Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T08:38:25.522Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
