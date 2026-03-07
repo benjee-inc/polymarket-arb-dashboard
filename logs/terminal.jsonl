@@ -1,15 +1,3 @@
-{"timestamp":"2026-03-07T07:35:34.102Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
-{"timestamp":"2026-03-07T07:35:34.102Z","type":"palpha","message":"Evaluated 8 opportunities, 7 vetoed."}
-{"timestamp":"2026-03-07T07:35:34.102Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 2:30AM-2:45AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T07:35:34.102Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 2:30AM-2:35AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T07:35:34.102Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 2:30AM-2:35AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T07:35:34.102Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 2:30AM-2:45AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T07:35:34.102Z","type":"palpha","message":"  ✗ \"Solana Up or Down - March 7, 2:30AM-2:35AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T07:35:34.102Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
-{"timestamp":"2026-03-07T07:36:53.561Z","type":"crypto-fast","message":"Crypto fast cycle #264 — 30282ms"}
-{"timestamp":"2026-03-07T07:36:24.919Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T07:36:24.919Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T07:36:24.919Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T07:36:24.919Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T07:36:24.919Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T07:37:52.821Z","type":"crypto-fast","message":"Crypto fast cycle #265 — 29528ms"}
@@ -198,3 +186,15 @@
 {"timestamp":"2026-03-07T07:52:24.661Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T07:52:24.661Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T07:52:24.661Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T07:52:53.880Z","type":"scan","message":"Cycle #57 — 1585 markets | 21 active events | $49.5K recent flow | 1 held"}
+{"timestamp":"2026-03-07T07:52:53.880Z","type":"think","message":"Money flowing: \"Will Bitcoin dip to $45,000 in March?\" — $12.7K heavily buying, biggest trade $10.5K, 30s ago"}
+{"timestamp":"2026-03-07T07:52:53.881Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 27.5%), 24h vol $28.5K"}
+{"timestamp":"2026-03-07T07:52:53.881Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
+{"timestamp":"2026-03-07T07:52:53.881Z","type":"decision","message":"Flow signal: \"Will the price of Ethereum be greater than $2,400 on M…\" — buyers dominating ($8.3K net), 1 traders, 52s ago"}
+{"type":"pipeline","timestamp":"2026-03-07T07:52:54.235Z","cycle":57,"ingestion":{"markets":1627,"trades":50,"tradeVolume":49481,"midpointsFetched":50},"signals":{"movers1h":31,"movers1d":40,"volumeSpikes":483,"catalysts":12,"deepValue":437,"tightRaces":38,"wideSpread":223,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":21,"totalVolume":49481,"avgImbalance":0.94},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Jasmine Crockett win the 2028 Democratic presidential nomination?","type":"deepValue","score":43802712653.53556,"change":null},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":37962350966.39749,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5342668.999010977,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":506662.66226751223,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":86062.408025,"change":null}]}
+{"timestamp":"2026-03-07T07:53:22.210Z","type":"pnl","message":"Today: +$2114.59 (+-111.5%) · Portfolio $218 · 1 positions · 33 trades"}
+{"timestamp":"2026-03-07T07:52:54.231Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T07:52:54.231Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T07:52:54.231Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T07:52:54.231Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T07:52:54.231Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
