@@ -1,10 +1,3 @@
-{"timestamp":"2026-03-07T05:26:32.778Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 12:20AM-12:25AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T05:26:32.778Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 12:15AM-12:30AM ET\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-07T05:26:32.778Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
-{"timestamp":"2026-03-07T05:27:51.651Z","type":"crypto-fast","message":"Crypto fast cycle #135 — 29375ms"}
-{"timestamp":"2026-03-07T05:27:23.667Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T05:27:23.667Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T05:27:23.667Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T05:27:23.667Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T05:27:23.667Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T05:27:53.071Z","type":"scan","message":"Cycle #28 — 1584 markets | 14 active events | $147.4K recent flow | 1 held"}
@@ -198,3 +191,10 @@
 {"timestamp":"2026-03-07T05:43:27.699Z","type":"palpha","message":"Evaluated 2 opportunities, 1 vetoed."}
 {"timestamp":"2026-03-07T05:43:27.699Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 12:35AM-12:40AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T05:43:27.699Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
+{"timestamp":"2026-03-07T05:44:21.986Z","type":"crypto-fast","message":"Crypto fast cycle #151 — 119598ms"}
+{"timestamp":"2026-03-07T05:43:53.760Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T05:43:53.761Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 1 up/down"}
+{"timestamp":"2026-03-07T05:43:53.761Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-07T05:43:53.761Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T05:43:53.761Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-07T05:43:53.761Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 12:35AM-12:40AM ET\" — enrichment timeout — Grok unavailable"}
