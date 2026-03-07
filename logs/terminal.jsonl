@@ -1,19 +1,3 @@
-{"timestamp":"2026-03-07T11:32:09.200Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T11:33:47.983Z","type":"crypto-fast","message":"Crypto fast cycle #90 — 40122ms"}
-{"timestamp":"2026-03-07T11:33:09.411Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T11:33:09.411Z","type":"palpha","message":"[short-term-only] filtered 3 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T11:33:09.411Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T11:33:09.411Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
-{"timestamp":"2026-03-07T11:33:09.411Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T11:33:49.368Z","type":"scan","message":"Cycle #19 — 1586 markets | 14 active events | $59.0K recent flow"}
-{"timestamp":"2026-03-07T11:33:49.368Z","type":"think","message":"Money flowing: \"Will the Fed increase interest rates by 25+ bps after …\" — $25.2K buying, biggest trade $15.9K, 1m ago"}
-{"timestamp":"2026-03-07T11:33:49.368Z","type":"think","message":"Sentiment: \"US national Ethereum reserve before 2027?\" — F&G=12 (Extreme Fear), Extreme Fear (12/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-07T11:33:49.368Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by end of 2026?\" — 2 articles (bearish), \"ÚLTIMA HORA GUERRA RUSIA UCRANIA | Directo y última de la guerra entre\""}
-{"timestamp":"2026-03-07T11:33:49.368Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by March 31, 2026?\" — 2 articles (bearish), \"ÚLTIMA HORA GUERRA RUSIA UCRANIA | Directo y última de la guerra entre\""}
-{"timestamp":"2026-03-07T11:33:49.368Z","type":"think","message":"News: \"Will Russia capture Kostyantynivka by March 31?\" — 2 articles (bullish), \"ÚLTIMA HORA GUERRA RUSIA UCRANIA | Directo y última de la guerra entre\""}
-{"timestamp":"2026-03-07T11:33:49.368Z","type":"think","message":"Deep value: \"Will Tim Walz win the 2028 Democratic presidential nom…\" — Yes @ 0.8¢, liq $41.4M, 24h vol $7.0M"}
-{"timestamp":"2026-03-07T11:33:49.368Z","type":"think","message":"Sources: 8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 3/15 news"}
-{"timestamp":"2026-03-07T11:33:49.368Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $76,000 on March 7?\" — buyers dominating ($6.0K net), 2 traders, 1m ago"}
 {"type":"pipeline","timestamp":"2026-03-07T11:33:49.916Z","cycle":19,"ingestion":{"markets":1625,"trades":50,"tradeVolume":59025,"midpointsFetched":50},"signals":{"movers1h":27,"movers1d":36,"volumeSpikes":493,"catalysts":12,"deepValue":419,"tightRaces":40,"wideSpread":210,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":14,"totalVolume":59025,"avgImbalance":0.76},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":0},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":37738187242.19213,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":37738187242.19213,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5237994.401753068,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":542268.2256083298,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":115578.91770768,"change":null}]}
 {"timestamp":"2026-03-07T11:34:28.425Z","type":"pnl","message":"Today: +$2150.17 (+-108.9%) · Portfolio $176 · 0 positions · 37 trades"}
 {"timestamp":"2026-03-07T11:33:49.913Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
@@ -198,3 +182,19 @@
 {"timestamp":"2026-03-07T11:49:09.400Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T11:49:09.400Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
 {"timestamp":"2026-03-07T11:49:09.400Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T11:50:58.352Z","type":"crypto-fast","message":"Crypto fast cycle #107 — 50446ms"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 5 up/down"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"Found 5 potential trades from scanner"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 6:55AM-7:00AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"Passed on \"Solana Up or Down - March 7, 6:45AM-7:00AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 7, 6:45AM-6:50AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"Passed on \"Ethereum Up or Down - March 7, 6:45AM-7:00AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"Passed on \"XRP Up or Down - March 7, 6:45AM-6:50AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"Evaluated 5 opportunities, 5 vetoed."}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 6:55AM-7:00AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 6:45AM-7:00AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 6:45AM-6:50AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"  ✗ \"Solana Up or Down - March 7, 6:45AM-7:00AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T11:50:20.047Z","type":"palpha","message":"  ✗ \"XRP Up or Down - March 7, 6:45AM-6:50AM ET\" — NOISE — not enough edge"}
