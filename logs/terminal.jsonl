@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T09:03:25.077Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T09:03:25.077Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T09:03:25.077Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T09:03:25.077Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
-{"timestamp":"2026-03-07T09:03:25.077Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T09:05:07.959Z","type":"crypto-fast","message":"Crypto fast cycle #352 — 43986ms"}
 {"timestamp":"2026-03-07T09:04:39.838Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
 {"timestamp":"2026-03-07T09:04:39.838Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 4 up/down"}
 {"timestamp":"2026-03-07T09:04:39.838Z","type":"palpha","message":"Found 4 potential trades from scanner"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T09:19:35.811Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 4:30AM-4:45AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T09:19:35.811Z","type":"palpha","message":"  ✗ \"Solana Up or Down - March 7, 4:15AM-4:20AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T09:19:35.811Z","type":"palpha","message":"  ✗ \"XRP Up or Down - March 7, 4:15AM-4:30AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T09:20:53.580Z","type":"crypto-fast","message":"Crypto fast cycle #368 — 29499ms"}
+{"timestamp":"2026-03-07T09:20:25.603Z","type":"palpha","message":"[held] 16 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T09:20:25.603Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T09:20:25.603Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T09:20:25.603Z","type":"palpha","message":"0 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T09:20:25.603Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
