@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T07:38:04.967Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T07:38:53.043Z","type":"crypto-fast","message":"Crypto fast cycle #266 — 29750ms"}
-{"timestamp":"2026-03-07T07:38:24.661Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T07:38:24.661Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T07:38:24.661Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T07:38:24.661Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T07:38:24.661Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-07T07:40:02.186Z","type":"crypto-fast","message":"Crypto fast cycle #267 — 38878ms"}
 {"timestamp":"2026-03-07T07:39:33.883Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T07:55:24.696Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T07:55:24.696Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T07:55:24.696Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T07:56:53.238Z","type":"crypto-fast","message":"Crypto fast cycle #284 — 29816ms"}
+{"timestamp":"2026-03-07T07:56:25.101Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T07:56:25.101Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T07:56:25.101Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T07:56:25.101Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T07:56:25.101Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
