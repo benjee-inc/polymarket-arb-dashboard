@@ -1,9 +1,3 @@
-{"timestamp":"2026-03-07T09:01:25.447Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T09:01:25.447Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
-{"timestamp":"2026-03-07T09:01:25.447Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T09:02:54.427Z","type":"crypto-fast","message":"Crypto fast cycle #350 — 30470ms"}
-{"timestamp":"2026-03-07T09:02:25.887Z","type":"palpha","message":"[held] 17 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T09:02:25.887Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
 {"timestamp":"2026-03-07T09:02:25.887Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T09:02:25.887Z","type":"palpha","message":"1 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T09:02:25.887Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
@@ -198,3 +192,9 @@
 {"timestamp":"2026-03-07T09:18:11.692Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-07T09:18:11.692Z","type":"palpha","message":"0 active positions (16 dust ignored)"}
 {"timestamp":"2026-03-07T09:18:11.692Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-07T09:18:53.402Z","type":"crypto-fast","message":"Crypto fast cycle #366 — 29341ms"}
+{"timestamp":"2026-03-07T09:18:25.568Z","type":"palpha","message":"[held] 16 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T09:18:25.568Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 0 up/down"}
+{"timestamp":"2026-03-07T09:18:25.568Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-07T09:18:25.568Z","type":"palpha","message":"0 active positions (16 dust ignored)"}
+{"timestamp":"2026-03-07T09:18:25.568Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
