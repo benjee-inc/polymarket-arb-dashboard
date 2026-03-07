@@ -1,11 +1,3 @@
-{"timestamp":"2026-03-07T13:33:09.699Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
-{"timestamp":"2026-03-07T13:33:09.699Z","type":"palpha","message":"[short-term-only] filtered 1 long-dated markets, kept 0 up/down"}
-{"timestamp":"2026-03-07T13:33:09.699Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-07T13:33:09.699Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
-{"timestamp":"2026-03-07T13:33:09.699Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-07T13:33:55.431Z","type":"scan","message":"Cycle #43 — 1586 markets | 14 active events | $18.5K recent flow"}
-{"timestamp":"2026-03-07T13:33:55.432Z","type":"think","message":"Money flowing: \"Games Total: O/U 2.5\" — $2.6K heavily buying, biggest trade $2.6K, 6m ago"}
-{"timestamp":"2026-03-07T13:33:55.432Z","type":"think","message":"News: \"Russia-Ukraine Ceasefire before GTA VI?\" — 3 articles (bearish), \"Посадовці США підтвердили , що Росія надає Ірану розвідувальні дані дл\""}
 {"timestamp":"2026-03-07T13:33:55.432Z","type":"think","message":"News: \"NATO/EU troops fighting in Ukraine in June 30, 2026?\" — 3 articles (bearish), \"Посадовці США підтвердили , що Росія надає Ірану розвідувальні дані дл\""}
 {"timestamp":"2026-03-07T13:33:55.432Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by end of 2026?\" — 3 articles (bearish), \"Посадовці США підтвердили , що Росія надає Ірану розвідувальні дані дл\""}
 {"timestamp":"2026-03-07T13:33:55.432Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by March 31, 2026?\" — 3 articles (bearish), \"Посадовці США підтвердили , що Росія надає Ірану розвідувальні дані дл\""}
@@ -198,3 +190,11 @@
 {"timestamp":"2026-03-07T13:49:19.684Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed."}
 {"timestamp":"2026-03-07T13:49:19.684Z","type":"palpha","message":"  ✗ \"Ethereum Up or Down - March 7, 8:30AM-8:45AM ET\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-07T13:49:19.684Z","type":"palpha","message":"  ✗ \"XRP Up or Down - March 7, 8:30AM-8:45AM ET\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-07T13:50:57.364Z","type":"crypto-fast","message":"Crypto fast cycle #227 — 49123ms"}
+{"timestamp":"2026-03-07T13:50:18.781Z","type":"palpha","message":"[held] 22 positions excluded from opportunity search"}
+{"timestamp":"2026-03-07T13:50:18.781Z","type":"palpha","message":"[short-term-only] filtered 2 long-dated markets, kept 1 up/down"}
+{"timestamp":"2026-03-07T13:50:18.781Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-07T13:50:18.781Z","type":"palpha","message":"Passed on \"Bitcoin Up or Down - March 7, 8:45AM-8:50AM ET\" — no Grok data available"}
+{"timestamp":"2026-03-07T13:50:18.781Z","type":"palpha","message":"0 active positions (22 dust ignored)"}
+{"timestamp":"2026-03-07T13:50:18.781Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-07T13:50:18.781Z","type":"palpha","message":"  ✗ \"Bitcoin Up or Down - March 7, 8:45AM-8:50AM ET\" — NOISE — not enough edge"}
