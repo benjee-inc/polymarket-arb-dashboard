@@ -766,8 +766,12 @@ function renderClosed() {
   const redeemEntries = cachedLogs
     .filter(a => a.type === 'redeem' && a.cashPnl)
     .map(a => ({ ...a, _isRedeem: true, pnl: parseFloat(a.cashPnl) }));
+  // Include loss entries (positions resolved to $0)
+  const lossEntries = cachedLogs
+    .filter(a => a.type === 'loss' && a.cashPnl)
+    .map(a => ({ ...a, _isLoss: true, pnl: parseFloat(a.cashPnl) }));
 
-  const allClosed = [...roundTrips.map(rt => ({ ...rt, _isRoundTrip: true })), ...redeemEntries]
+  const allClosed = [...roundTrips.map(rt => ({ ...rt, _isRoundTrip: true })), ...redeemEntries, ...lossEntries]
     .sort((a, b) => {
       const tA = a.lastSellTime || new Date(a.timestamp || 0).getTime() / 1000;
       const tB = b.lastSellTime || new Date(b.timestamp || 0).getTime() / 1000;
@@ -775,15 +779,17 @@ function renderClosed() {
     });
 
   const tradePnl = roundTrips.reduce((s, rt) => s + rt.pnl, 0)
-    + redeemEntries.reduce((s, a) => s + a.pnl, 0);
+    + redeemEntries.reduce((s, a) => s + a.pnl, 0)
+    + lossEntries.reduce((s, a) => s + a.pnl, 0);
   const trueRealized = calcTotalRealized(); // balance-based (accurate)
   const wins = roundTrips.filter(rt => rt.pnl > 0).length + redeemEntries.filter(a => a.pnl > 0).length;
-  const totalExits = roundTrips.length + redeemEntries.length;
+  const totalExits = roundTrips.length + redeemEntries.length + lossEntries.length;
   const winRate = totalExits ? (wins / totalExits * 100).toFixed(0) : '--';
 
   let html = '<div style="margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid #333;display:flex;gap:24px;font-size:0.8rem">'
     + '<div><span style="color:#666">Round-trips:</span> <span style="color:#ccc">' + roundTrips.length + '</span></div>'
     + '<div><span style="color:#666">Redeems:</span> <span style="color:#ccc">' + redeemEntries.length + '</span></div>'
+    + '<div><span style="color:#666">Expired losses:</span> <span style="color:#ff0044">' + lossEntries.length + '</span></div>'
     + '<div><span style="color:#666">Realized P&L:</span> <span class="' + pnlClass(trueRealized) + '">' + (trueRealized >= 0 ? '+' : '') + '$' + Math.abs(trueRealized).toFixed(2) + '</span></div>'
     + '<div><span style="color:#666">Win Rate:</span> <span style="color:#ccc">' + winRate + '%</span></div>'
     + '</div>';
@@ -795,6 +801,20 @@ function renderClosed() {
         + '<span style="color:' + (pnl >= 0 ? '#00ff00' : '#ff0044') + ';font-weight:bold">REDEEM</span> '
         + esc((item.title || item.message || '').slice(0, 60))
         + ' | P&L: <span class="' + pnlClass(pnl) + '">' + (pnl >= 0 ? '+' : '-') + '$' + Math.abs(pnl).toFixed(2) + '</span>'
+        + (item.timestamp ? ' | <span style="color:#555">' + ts(item.timestamp) + '</span>' : '')
+        + '</div>';
+      continue;
+    }
+    if (item._isLoss) {
+      const cost = parseFloat(item.cost || 0);
+      const avgP = parseFloat(item.avgPrice || 0);
+      html += '<div class="closed-card">'
+        + '<span style="color:#ff0044;font-weight:bold">EXPIRED</span> '
+        + esc((item.title || '').slice(0, 55))
+        + ' | <span style="color:#ccc">' + esc((item.outcome || '').charAt(0).toUpperCase() + (item.outcome || '').slice(1)) + '</span>'
+        + ' | bought @ ' + (avgP * 100).toFixed(1) + '¢ → resolved $0'
+        + ' | cost $' + cost.toFixed(2) + ' → $0.00'
+        + ' | <span class="pnl-neg" style="font-weight:bold">-$' + cost.toFixed(2) + ' (-100%)</span>'
         + (item.timestamp ? ' | <span style="color:#555">' + ts(item.timestamp) + '</span>' : '')
         + '</div>';
       continue;
