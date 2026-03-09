@@ -1,21 +1,3 @@
-{"timestamp":"2026-03-09T22:35:20.337Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 1 trades"}
-{"timestamp":"2026-03-09T22:35:12.539Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-09T22:35:12.539Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-09T22:35:12.539Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-09T22:35:12.539Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-09T22:40:12.223Z","type":"scan","message":"Cycle #314 — 1592 markets | 14 active events | $68.9K recent flow | 1 held"}
-{"timestamp":"2026-03-09T22:40:12.223Z","type":"think","message":"Money flowing: \"Will Crude Oil (CL) hit (HIGH) $150 by end of March?\" — $5.3K heavily selling, biggest trade $4.7K, 6m ago"}
-{"timestamp":"2026-03-09T22:40:12.223Z","type":"think","message":"Whale: \"0x41a9833ea9221ed29e1298a769f847316da554f56146b95f785e…\" — whale_size (1 wallets, $127.1K)"}
-{"timestamp":"2026-03-09T22:40:12.223Z","type":"think","message":"Whale: \"0x7268c1ddb386be473a4cdc526812271338a3782b62c292af9d92…\" — whale_size (1 wallets, $60.0K)"}
-{"timestamp":"2026-03-09T22:40:12.223Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC +4.0% 24h ($68,648), F&G=8"}
-{"timestamp":"2026-03-09T22:40:12.223Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC +4.0% 24h ($68,648), F&G=8"}
-{"timestamp":"2026-03-09T22:40:12.223Z","type":"think","message":"↓ Price shift: \"Will Abelardo de la Espriella win the 1st round of the…\" moved 2.5% since last scan (11.0% → 8.5%)"}
-{"timestamp":"2026-03-09T22:40:12.223Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Péter Magya…\" — 61.5% YES, 24h vol $516.7K"}
-{"timestamp":"2026-03-09T22:40:12.223Z","type":"think","message":"Sources: 2/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news, 2/3 whale"}
-{"timestamp":"2026-03-09T22:40:12.224Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 9, 6:30PM-6:35PM ET\" — buyers dominating ($3.7K net), 5 traders, 5m ago"}
-{"type":"pipeline","timestamp":"2026-03-09T22:40:18.052Z","cycle":314,"ingestion":{"markets":1634,"trades":50,"tradeVolume":68855,"midpointsFetched":50},"signals":{"movers1h":34,"movers1d":30,"volumeSpikes":577,"catalysts":0,"deepValue":456,"tightRaces":43,"wideSpread":173,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":3},"tradeFlows":{"count":14,"totalVolume":68855,"avgImbalance":0.968},"midShifts":{"count":27,"avgMagnitude":0.0086},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":35747323730.61884,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":35747323730.61884,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3328033.598578983,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":509978.88422610966,"change":null},{"q":"MegaETH market cap (FDV) >$600M one day after launch?","type":"wideSpread","score":74518.7387168,"change":null}]}
-{"timestamp":"2026-03-09T22:40:25.398Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 1 trades"}
-{"timestamp":"2026-03-09T22:40:18.047Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
 {"timestamp":"2026-03-09T22:40:18.047Z","type":"palpha","message":"Found 1 potential trades from scanner"}
 {"timestamp":"2026-03-09T22:40:18.047Z","type":"palpha","message":"Passed on \"Will bitcoin hit $1m before GTA VI?\" — no Grok data available"}
 {"timestamp":"2026-03-09T22:40:18.047Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
@@ -198,3 +180,21 @@
 {"timestamp":"2026-03-09T23:40:12.565Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-09T23:40:12.565Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-09T23:40:12.565Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-09T23:45:12.475Z","type":"scan","message":"Cycle #327 — 1591 markets | 16 active events | $58.7K recent flow | 1 held"}
+{"timestamp":"2026-03-09T23:45:12.475Z","type":"think","message":"Money flowing: \"Will Bitcoin dip to $65,000 in March?\" — $13.0K heavily selling, biggest trade $11.6K, 59s ago"}
+{"timestamp":"2026-03-09T23:45:12.475Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — BTC +3.6% 24h ($68,552), F&G=8"}
+{"timestamp":"2026-03-09T23:45:12.475Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — BTC +3.6% 24h ($68,552), F&G=8"}
+{"timestamp":"2026-03-09T23:45:12.475Z","type":"think","message":"Crypto data: \"US national Bitcoin reserve before 2027?\" — BTC +3.6% 24h ($68,552), F&G=8"}
+{"timestamp":"2026-03-09T23:45:12.475Z","type":"think","message":"Crypto data: \"Bitcoin more valuable than any company before 2027?\" — BTC +3.6% 24h ($68,552), F&G=8"}
+{"timestamp":"2026-03-09T23:45:12.475Z","type":"think","message":"↓ Price shift: \"Will Abelardo de la Espriella win the 1st round of the…\" moved 2.5% since last scan (12.0% → 9.5%)"}
+{"timestamp":"2026-03-09T23:45:12.476Z","type":"think","message":"Deep value: \"Will Raphael Warnock win the 2028 Democratic president…\" — Yes @ 0.9¢, liq $40.0M, 24h vol $5.3M"}
+{"timestamp":"2026-03-09T23:45:12.476Z","type":"think","message":"Sources: 4/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
+{"timestamp":"2026-03-09T23:45:12.476Z","type":"decision","message":"Flow signal: \"EdgeX FDV above $2B one day after launch?\" — buyers dominating ($11.5K net), 1 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-03-09T23:45:17.257Z","cycle":327,"ingestion":{"markets":1634,"trades":50,"tradeVolume":58670,"midpointsFetched":50},"signals":{"movers1h":34,"movers1d":31,"volumeSpikes":606,"catalysts":0,"deepValue":453,"tightRaces":46,"wideSpread":171,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":16,"totalVolume":58670,"avgImbalance":0.944},"midShifts":{"count":29,"avgMagnitude":0.0084},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":35882576507.158264,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":35882576507.158264,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3512120.6458268026,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":516124.8221648695,"change":null},{"q":"MegaETH market cap (FDV) >$600M one day after launch?","type":"wideSpread","score":70578.7808506,"change":null}]}
+{"timestamp":"2026-03-09T23:45:25.072Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 1 trades"}
+{"timestamp":"2026-03-09T23:45:17.252Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-09T23:45:17.252Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-09T23:45:17.252Z","type":"palpha","message":"Passed on \"Will bitcoin hit $1m before GTA VI?\" — no Grok data available"}
+{"timestamp":"2026-03-09T23:45:17.252Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-09T23:45:17.252Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-09T23:45:17.252Z","type":"palpha","message":"  ✗ \"Will bitcoin hit $1m before GTA VI?\" — NOISE — not enough edge"}
