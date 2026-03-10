@@ -1,21 +1,3 @@
-{"timestamp":"2026-03-10T22:30:18.086Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-10T22:30:18.086Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-10T22:30:18.086Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-10T22:30:18.086Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-10T22:35:16.550Z","type":"scan","message":"Cycle #601 — 1586 markets | 15 active events | $74.7K recent flow | 1 held"}
-{"timestamp":"2026-03-10T22:35:16.551Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $78,000 on March 11?\" — $8.3K heavily buying, biggest trade $6.0K, 5m ago"}
-{"timestamp":"2026-03-10T22:35:16.551Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — BTC +1.1% 24h ($69,572), F&G=13"}
-{"timestamp":"2026-03-10T22:35:16.551Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — BTC +1.1% 24h ($69,572), F&G=13"}
-{"timestamp":"2026-03-10T22:35:16.551Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC +1.1% 24h ($69,572), F&G=13"}
-{"timestamp":"2026-03-10T22:35:16.551Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC +1.1% 24h ($69,572), F&G=13"}
-{"timestamp":"2026-03-10T22:35:16.551Z","type":"think","message":"↓ Price shift: \"Israeli parliament dissolved by March 31?\" moved 4.5% since last scan (7.8% → 3.3%)"}
-{"timestamp":"2026-03-10T22:35:16.551Z","type":"think","message":"Tight race: \"Will Eric Swalwell win the California Governor Electio…\" — 51.0% YES, 24h vol $445.6K"}
-{"timestamp":"2026-03-10T22:35:16.551Z","type":"think","message":"Sources: 4/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-10T22:35:16.551Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 10, 6:25PM-6:30PM ET\" — buyers dominating ($7.4K net), 3 traders, 5m ago"}
-{"type":"pipeline","timestamp":"2026-03-10T22:35:16.958Z","cycle":601,"ingestion":{"markets":1622,"trades":50,"tradeVolume":74728,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":56,"volumeSpikes":591,"catalysts":0,"deepValue":469,"tightRaces":52,"wideSpread":167,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":15,"totalVolume":74728,"avgImbalance":0.986},"midShifts":{"count":27,"avgMagnitude":0.0098},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39295121518.43866,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":39295121518.43866,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5247885.294046095,"change":null},{"q":"Will Eric Swalwell win the California Governor Election in 2026?","type":"tightRaces","score":445581.01321167883,"change":"-7.5%"},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":107827.22271953999,"change":null}]}
-{"timestamp":"2026-03-10T22:35:24.271Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-10T22:35:16.946Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-10T22:35:16.946Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-10T22:35:16.946Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-10T22:35:16.946Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-10T22:40:17.294Z","type":"scan","message":"Cycle #602 — 1586 markets | 11 active events | $28.2K recent flow | 1 held"}
@@ -198,3 +180,21 @@
 {"timestamp":"2026-03-10T23:30:48.357Z","type":"palpha","message":"  ✗ \"Will the Democratic Party control the House after \" — low volume: $7.9K 24h (need $10K+)"}
 {"timestamp":"2026-03-10T23:30:48.357Z","type":"palpha","message":"  ✗ \"Will the Democratic Party control the Senate after\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-10T23:30:48.357Z","type":"palpha","message":"  ✗ \"Will the Republican Party control the Senate after\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-10T23:35:37.991Z","type":"scan","message":"Cycle #613 — 1586 markets | 13 active events | $51.2K recent flow | 1 held"}
+{"timestamp":"2026-03-10T23:35:37.991Z","type":"think","message":"Money flowing: \"Spread: Hawks (-8.5)\" — $4.7K heavily buying, biggest trade $2.9K, 7m ago"}
+{"timestamp":"2026-03-10T23:35:37.991Z","type":"think","message":"News: \"Russia-Ukraine Ceasefire before GTA VI?\" — 7 articles (bullish), \"Россия хочет продолжать переговоры с Украиной - что сказал Песков\""}
+{"timestamp":"2026-03-10T23:35:37.991Z","type":"think","message":"News: \"Ukraine recognizes Russian sovereignty over its territ…\" — 7 articles (bearish), \"Россия хочет продолжать переговоры с Украиной - что сказал Песков\""}
+{"timestamp":"2026-03-10T23:35:37.991Z","type":"think","message":"News: \"Ukraine recognizes Russian sovereignty over its territ…\" — 7 articles (bearish), \"Россия хочет продолжать переговоры с Украиной - что сказал Песков\""}
+{"timestamp":"2026-03-10T23:35:37.991Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by end of 2026?\" — 7 articles (bullish), \"Россия хочет продолжать переговоры с Украиной - что сказал Песков\""}
+{"timestamp":"2026-03-10T23:35:37.991Z","type":"think","message":"↓ Price shift: \"Will Donald Trump visit Canada in 2026?\" moved 3.5% since last scan (38.5% → 35.0%)"}
+{"timestamp":"2026-03-10T23:35:37.992Z","type":"think","message":"Wide spread: \"Revolut IPO before 2027?\" — bid 18.0% / ask 29.0% (11.0% spread), liq $141.3K"}
+{"timestamp":"2026-03-10T23:35:37.992Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 4/15 news"}
+{"timestamp":"2026-03-10T23:35:37.992Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 10, 6PM ET\" — sellers dominating ($2.1K net), 1 traders, 6m ago"}
+{"type":"pipeline","timestamp":"2026-03-10T23:35:53.078Z","cycle":613,"ingestion":{"markets":1622,"trades":50,"tradeVolume":51209,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":56,"volumeSpikes":567,"catalysts":0,"deepValue":465,"tightRaces":52,"wideSpread":161,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":13,"totalVolume":51209,"avgImbalance":0.992},"midShifts":{"count":37,"avgMagnitude":0.0118},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39227392051.11448,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":39227392051.11448,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5063075.246750585,"change":null},{"q":"Will Eric Swalwell win the California Governor Election in 2026?","type":"tightRaces","score":445039.798524361,"change":"-7.5%"},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":50134.34613957,"change":null}]}
+{"timestamp":"2026-03-10T23:36:00.889Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-10T23:35:53.070Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-10T23:35:53.070Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-10T23:35:53.070Z","type":"palpha","message":"Passed on \"Russia-Ukraine Ceasefire before GTA VI?\" — no Grok data available"}
+{"timestamp":"2026-03-10T23:35:53.070Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-10T23:35:53.070Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-10T23:35:53.070Z","type":"palpha","message":"  ✗ \"Russia-Ukraine Ceasefire before GTA VI?\" — NOISE — not enough edge"}
