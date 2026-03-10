@@ -1,19 +1,3 @@
-{"timestamp":"2026-03-10T00:35:23.614Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-10T00:35:23.614Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-10T00:35:23.614Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-10T00:35:23.614Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-10T00:40:12.767Z","type":"scan","message":"Cycle #338 — 1592 markets | 14 active events | $40.7K recent flow | 1 held"}
-{"timestamp":"2026-03-10T00:40:12.768Z","type":"think","message":"Money flowing: \"Will Elon Musk win the 2028 US Presidential Election?\" — $6.1K selling, biggest trade $2.3K, 5m ago"}
-{"timestamp":"2026-03-10T00:40:12.768Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC +3.9% 24h ($69,141), F&G=13"}
-{"timestamp":"2026-03-10T00:40:12.768Z","type":"think","message":"↓ Price shift: \"Will Olivia Rodrigo release a new song in 2026?\" moved 21.5% since last scan (85.0% → 63.5%)"}
-{"timestamp":"2026-03-10T00:40:12.768Z","type":"think","message":"Volume surge: \"Opensea FDV above $100M one day after launch?\" — $150.2K in 24h (97753% of lifetime), price 94.2%"}
-{"timestamp":"2026-03-10T00:40:12.768Z","type":"think","message":"Sources: 1/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-10T00:40:12.768Z","type":"decision","message":"Flow signal: \"Will J.B. Pritzker win the 2028 Democratic presidentia…\" — buyers dominating ($4.3K net), 1 traders, 5m ago"}
-{"type":"pipeline","timestamp":"2026-03-10T00:40:13.267Z","cycle":338,"ingestion":{"markets":1634,"trades":50,"tradeVolume":40708,"midpointsFetched":50},"signals":{"movers1h":34,"movers1d":31,"volumeSpikes":605,"catalysts":0,"deepValue":453,"tightRaces":46,"wideSpread":185,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":14,"totalVolume":40708,"avgImbalance":0.953},"midShifts":{"count":30,"avgMagnitude":0.0187},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":37694074952.801605,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":37694074952.801605,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3458680.095711678,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":516916.43731056765,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":89938.67742048,"change":null}]}
-{"timestamp":"2026-03-10T00:40:20.764Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-10T00:40:13.243Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-10T00:40:13.243Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-10T00:40:13.243Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-10T00:40:13.243Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-10T00:45:14.417Z","type":"scan","message":"Cycle #339 — 1592 markets | 18 active events | $82.7K recent flow | 1 held"}
 {"timestamp":"2026-03-10T00:45:14.417Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $62,000 on March 16?\" — $8.5K heavily buying, biggest trade $3.2K, 39s ago"}
@@ -198,3 +182,19 @@
 {"timestamp":"2026-03-10T01:40:12.807Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-10T01:40:12.807Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-10T01:40:12.807Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-10T01:45:14.507Z","type":"scan","message":"Cycle #351 — 1591 markets | 21 active events | $79.8K recent flow | 1 held"}
+{"timestamp":"2026-03-10T01:45:14.507Z","type":"think","message":"Money flowing: \"Will the Iranian regime fall by June 30?\" — $26.6K heavily selling, biggest trade $25.9K, 29s ago"}
+{"timestamp":"2026-03-10T01:45:14.507Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=13 (Extreme Fear), Extreme Fear (13/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-10T01:45:14.507Z","type":"think","message":"Whale: \"0xbae69ae9b70dd90f07af50b9818de5ae7ad5dab1252874a04c95…\" — whale_size (1 wallets, $61.7K)"}
+{"timestamp":"2026-03-10T01:45:14.507Z","type":"think","message":"Whale: \"0x9fabcae060c877c2f66e937318f53f9ab16ecf6857966d1fb315…\" — whale_size (1 wallets, $199.8K)"}
+{"timestamp":"2026-03-10T01:45:14.507Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC +3.5% 24h ($68,907), F&G=13"}
+{"timestamp":"2026-03-10T01:45:14.507Z","type":"think","message":"↑ Price shift: \"Will Israel strike 7 countries in 2026?\" moved 1.7% since last scan (7.8% → 9.4%)"}
+{"timestamp":"2026-03-10T01:45:14.507Z","type":"think","message":"↓ Hourly mover: \"Will the Starship for SpaceX Starship Flight Test 12 a…\" ↓8.0% in 1h (now 61.0%), 24h vol $7.2K"}
+{"timestamp":"2026-03-10T01:45:14.507Z","type":"think","message":"Sources: 1/8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 0 news, 2/3 whale"}
+{"timestamp":"2026-03-10T01:45:14.507Z","type":"decision","message":"Flow signal: \"Will the Iranian regime fall by April 30?\" — buyers dominating ($8.2K net), 1 traders, 45s ago"}
+{"type":"pipeline","timestamp":"2026-03-10T01:45:14.969Z","cycle":351,"ingestion":{"markets":1634,"trades":50,"tradeVolume":79831,"midpointsFetched":50},"signals":{"movers1h":33,"movers1d":31,"volumeSpikes":613,"catalysts":0,"deepValue":448,"tightRaces":45,"wideSpread":172,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":3},"tradeFlows":{"count":21,"totalVolume":79831,"avgImbalance":0.951},"midShifts":{"count":20,"avgMagnitude":0.0066},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":40091126176.46829,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":40091126176.46829,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3540091.0017573903,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":518768.7019931406,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":77057.73991496001,"change":null}]}
+{"timestamp":"2026-03-10T01:45:22.713Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-10T01:45:14.964Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-10T01:45:14.964Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-10T01:45:14.964Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-10T01:45:14.964Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
