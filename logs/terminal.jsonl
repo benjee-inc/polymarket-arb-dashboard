@@ -1,21 +1,3 @@
-{"timestamp":"2026-03-10T19:55:22.270Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-10T19:55:22.270Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-10T19:55:22.270Z","type":"palpha","message":"  ✗ \"New Playboi Carti Album before GTA VI?\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-10T20:00:19.877Z","type":"scan","message":"Cycle #570 — 1586 markets | 12 active events | $35.5K recent flow | 1 held"}
-{"timestamp":"2026-03-10T20:00:19.877Z","type":"think","message":"Money flowing: \"Will Iran close the Strait of Hormuz by March 31?\" — $11.0K heavily buying, biggest trade $11.0K, 6m ago"}
-{"timestamp":"2026-03-10T20:00:19.877Z","type":"think","message":"Sentiment: \"US national Ethereum reserve before 2027?\" — F&G=13 (Extreme Fear), Extreme Fear (13/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-10T20:00:19.877Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=13 (Extreme Fear), Extreme Fear (13/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-10T20:00:19.877Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC +1.5% 24h ($70,038), F&G=13"}
-{"timestamp":"2026-03-10T20:00:19.877Z","type":"think","message":"↑ Price shift: \"Epic Games IPO before 2027?\" moved 2.5% since last scan (36.5% → 39.0%)"}
-{"timestamp":"2026-03-10T20:00:19.877Z","type":"think","message":"Wide spread: \"Will Russell Vought leave the Trump administration bef…\" — bid 7.0% / ask 26.0% (19.0% spread), liq $79.3K"}
-{"timestamp":"2026-03-10T20:00:19.877Z","type":"think","message":"Sources: 1/8 crypto, 0 weather, 2/5 sentiment, 0 nansen, 0 news"}
-{"timestamp":"2026-03-10T20:00:19.877Z","type":"decision","message":"Hourly momentum: \"Will Iván Cepeda Castro win the 1st round of the 2026 …\" ↓3.5% in 1h, now 74.0%, vol $190.5K"}
-{"type":"pipeline","timestamp":"2026-03-10T20:00:20.362Z","cycle":570,"ingestion":{"markets":1622,"trades":50,"tradeVolume":35542,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":55,"volumeSpikes":592,"catalysts":0,"deepValue":464,"tightRaces":55,"wideSpread":161,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":12,"totalVolume":35542,"avgImbalance":1},"midShifts":{"count":24,"avgMagnitude":0.009},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39240206124.62157,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":39240206124.62157,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5315287.831989658,"change":null},{"q":"Will Michael B. Jordan win Best Actor at the 98th Academy Awards?","type":"tightRaces","score":461398.3650151358,"change":"-0.6%"},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":107586.64842539998,"change":null}]}
-{"timestamp":"2026-03-10T20:00:27.901Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-10T20:00:20.356Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-10T20:00:20.356Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-10T20:00:20.356Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-10T20:00:20.356Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-10T20:05:17.349Z","type":"scan","message":"Cycle #571 — 1586 markets | 9 active events | $30.0K recent flow | 1 held"}
 {"timestamp":"2026-03-10T20:05:17.349Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 10, 4:00PM-4:05PM ET\" — $18.6K heavily buying, biggest trade $5.9K, 28s ago"}
 {"timestamp":"2026-03-10T20:05:17.349Z","type":"think","message":"Whale: \"0x4319c11106830dd89e91d957404a0830d90ce67a433880189eaf…\" — whale_size (1 wallets, $66.3K)"}
@@ -198,3 +180,21 @@
 {"timestamp":"2026-03-10T21:00:22.151Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-10T21:00:22.151Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-10T21:00:22.151Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-10T21:05:29.783Z","type":"scan","message":"Cycle #583 — 1587 markets | 12 active events | $42.6K recent flow | 1 held"}
+{"timestamp":"2026-03-10T21:05:29.783Z","type":"think","message":"Money flowing: \"Spread: Hornets (-3.5)\" — $8.1K heavily buying, biggest trade $2.0K, 5m ago"}
+{"timestamp":"2026-03-10T21:05:29.783Z","type":"think","message":"Sentiment: \"US national Ethereum reserve before 2027?\" — F&G=13 (Extreme Fear), Extreme Fear (13/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-10T21:05:29.783Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=13 (Extreme Fear), Extreme Fear (13/100) — contrarian buy signal for risk assets"}
+{"timestamp":"2026-03-10T21:05:29.783Z","type":"think","message":"Whale: \"0xf6cad05f2fb33674a53b43f26aae33f1cf7fd963e528e9de509a…\" — whale_size (1 wallets, $120.0K)"}
+{"timestamp":"2026-03-10T21:05:29.783Z","type":"think","message":"News: \"Will Donald Trump win the 2028 US Presidential Electio…\" — 1 articles (neutral), \"Trump immigration crackdown hasnt boosted employment for US - Born wor\""}
+{"timestamp":"2026-03-10T21:05:29.783Z","type":"think","message":"↓ Price shift: \"Waymo IPO before 2027?\" moved 4.0% since last scan (27.5% → 23.5%)"}
+{"timestamp":"2026-03-10T21:05:29.783Z","type":"think","message":"Volume surge: \"Opensea FDV above $100M one day after launch?\" — $65.7K in 24h (18852% of lifetime), price 98.5%"}
+{"timestamp":"2026-03-10T21:05:29.783Z","type":"think","message":"Sources: 0 crypto, 0 weather, 2/5 sentiment, 0 nansen, 1/15 news, 1/1 whale"}
+{"timestamp":"2026-03-10T21:05:29.783Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h, now 12.0%, vol $23.2K"}
+{"type":"pipeline","timestamp":"2026-03-10T21:05:35.258Z","cycle":583,"ingestion":{"markets":1622,"trades":50,"tradeVolume":42567,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":55,"volumeSpikes":593,"catalysts":0,"deepValue":470,"tightRaces":56,"wideSpread":164,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":1},"tradeFlows":{"count":12,"totalVolume":42567,"avgImbalance":0.946},"midShifts":{"count":32,"avgMagnitude":0.0101},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39251954211.61403,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":39251954211.61403,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5249672.938444077,"change":null},{"q":"Will Michael B. Jordan win Best Actor at the 98th Academy Awards?","type":"tightRaces","score":460872.3408315049,"change":"-0.6%"},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":107831.42326981999,"change":null}]}
+{"timestamp":"2026-03-10T21:05:42.754Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-10T21:05:35.252Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-10T21:05:35.252Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-10T21:05:35.252Z","type":"palpha","message":"Passed on \"Trump out as President before GTA VI?\" — no Grok data available"}
+{"timestamp":"2026-03-10T21:05:35.252Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-10T21:05:35.252Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-10T21:05:35.252Z","type":"palpha","message":"  ✗ \"Trump out as President before GTA VI?\" — NOISE — not enough edge"}
