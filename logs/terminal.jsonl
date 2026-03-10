@@ -1,24 +1,3 @@
-{"timestamp":"2026-03-10T07:20:33.315Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-10T07:20:33.315Z","type":"palpha","message":"Passed on \"Will bitcoin hit $1m before GTA VI?\" — no Grok data available"}
-{"timestamp":"2026-03-10T07:20:33.315Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-10T07:20:33.315Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-10T07:20:33.315Z","type":"palpha","message":"  ✗ \"Will bitcoin hit $1m before GTA VI?\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-10T07:25:30.079Z","type":"scan","message":"Cycle #419 — 1596 markets | 14 active events | $42.2K recent flow | 1 held"}
-{"timestamp":"2026-03-10T07:25:30.079Z","type":"think","message":"Money flowing: \"Will the price of Ethereum be between $2,200 and $2,30…\" — $2.2K heavily buying, biggest trade $2.2K, 5m ago"}
-{"timestamp":"2026-03-10T07:25:30.079Z","type":"think","message":"News: \"Russia-Ukraine Ceasefire before GTA VI?\" — 6 articles (bullish), \"Trump - Putin Call Addresses Iran War , Ukraine Peace , and Global Oil\""}
-{"timestamp":"2026-03-10T07:25:30.079Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by end of 2026?\" — 6 articles (bullish), \"Trump - Putin Call Addresses Iran War , Ukraine Peace , and Global Oil\""}
-{"timestamp":"2026-03-10T07:25:30.079Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by March 31, 2026?\" — 6 articles (bullish), \"Trump - Putin Call Addresses Iran War , Ukraine Peace , and Global Oil\""}
-{"timestamp":"2026-03-10T07:25:30.079Z","type":"think","message":"News: \"Ukraine recognizes Russian sovereignty over its territ…\" — 6 articles (bearish), \"Trump - Putin Call Addresses Iran War , Ukraine Peace , and Global Oil\""}
-{"timestamp":"2026-03-10T07:25:30.079Z","type":"think","message":"↑ Price shift: \"Will Harvey Weinstein be sentenced to more than 30 yea…\" moved 4.1% since last scan (7.8% → 11.9%)"}
-{"timestamp":"2026-03-10T07:25:30.079Z","type":"think","message":"Tight race: \"Will the Iranian regime fall before 2027?\" — 35.5% YES, 24h vol $368.7K"}
-{"timestamp":"2026-03-10T07:25:30.079Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 4/15 news, 2 whale"}
-{"timestamp":"2026-03-10T07:25:30.079Z","type":"decision","message":"Hourly momentum: \"Will Russia capture Lyman by March 31, 2026?\" ↑5.5% in 1h, now 6.0%, vol $23.6K"}
-{"type":"pipeline","timestamp":"2026-03-10T07:25:30.661Z","cycle":419,"ingestion":{"markets":1628,"trades":50,"tradeVolume":42195,"midpointsFetched":50},"signals":{"movers1h":31,"movers1d":36,"volumeSpikes":600,"catalysts":0,"deepValue":456,"tightRaces":46,"wideSpread":164,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":2},"tradeFlows":{"count":14,"totalVolume":42195,"avgImbalance":0.795},"midShifts":{"count":15,"avgMagnitude":0.0112},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":40051260830.70914,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":40051260830.70914,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3885930.8252911596,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":404647.813602112,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":63921.4479036,"change":null}]}
-{"timestamp":"2026-03-10T07:25:38.403Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-10T07:25:30.656Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-10T07:25:30.656Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-10T07:25:30.656Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-10T07:25:30.656Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-10T07:30:25.674Z","type":"scan","message":"Cycle #420 — 1596 markets | 18 active events | $78.7K recent flow | 1 held"}
 {"timestamp":"2026-03-10T07:30:25.674Z","type":"think","message":"Money flowing: \"Will Finland win Eurovision 2026?\" — $31.4K heavily buying, biggest trade $15.8K, 36s ago"}
 {"timestamp":"2026-03-10T07:30:25.674Z","type":"think","message":"News: \"Will Bitcoin hit $150k by March 31, 2026?\" — 1 articles (bearish), \"U . S . is entering a financial crisis more indebted than ever . Here \""}
@@ -198,3 +177,24 @@
 {"timestamp":"2026-03-10T08:20:24.297Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-10T08:20:24.297Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-10T08:20:24.297Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-10T08:25:25.107Z","type":"scan","message":"Cycle #431 — 1595 markets | 18 active events | $85.1K recent flow | 1 held"}
+{"timestamp":"2026-03-10T08:25:25.107Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $64,000 on March 10?\" — $4.3K buying, biggest trade $1.6K, 5m ago"}
+{"timestamp":"2026-03-10T08:25:25.107Z","type":"think","message":"News: \"US x Russia military clash by June 30, 2026?\" — 35 articles (bearish), \"Oil prices up 8 % on US - Israeli attacks on Iran\""}
+{"timestamp":"2026-03-10T08:25:25.107Z","type":"think","message":"News: \"US x Russia military clash by December 31, 2026?\" — 35 articles (bearish), \"Oil prices up 8 % on US - Israeli attacks on Iran\""}
+{"timestamp":"2026-03-10T08:25:25.107Z","type":"think","message":"News: \"Will Donald Trump win the 2028 US Presidential Electio…\" — 8 articles (bearish), \"Donald Trump says war could be over soon – but defiant Iran to step up\""}
+{"timestamp":"2026-03-10T08:25:25.107Z","type":"think","message":"News: \"Will Donald Trump win the 2028 Republican presidential…\" — 8 articles (bearish), \"Donald Trump says war could be over soon – but defiant Iran to step up\""}
+{"timestamp":"2026-03-10T08:25:25.107Z","type":"think","message":"↓ Price shift: \"Netanyahu out by March 31?\" moved 2.1% since last scan (7.2% → 5.1%)"}
+{"timestamp":"2026-03-10T08:25:25.107Z","type":"think","message":"Wide spread: \"Will Donald Trump visit Oman in 2026?\" — bid 9.0% / ask 36.0% (27.0% spread), liq $59.0K"}
+{"timestamp":"2026-03-10T08:25:25.107Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 4/10 news"}
+{"timestamp":"2026-03-10T08:25:25.107Z","type":"decision","message":"Flow signal: \"Will Liz Cheney win the 2028 Democratic presidential n…\" — buyers dominating ($2.6K net), 3 traders, 5m ago"}
+{"type":"pipeline","timestamp":"2026-03-10T08:25:37.225Z","cycle":431,"ingestion":{"markets":1628,"trades":50,"tradeVolume":85061,"midpointsFetched":50},"signals":{"movers1h":36,"movers1d":37,"volumeSpikes":603,"catalysts":0,"deepValue":472,"tightRaces":46,"wideSpread":167,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":18,"totalVolume":85061,"avgImbalance":0.875},"midShifts":{"count":27,"avgMagnitude":0.0083},"enrichment":{"rawOpportunities":3,"enriched":0,"vetoed":3,"vetoReasons":{"NOISE — not enough edge":2,"toxic category blacklist":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39875688863.66561,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":39875688863.66561,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":3857772.042670518,"change":null},{"q":"Will Ivan Cepeda Castro win the 2026 Colombian presidential election?","type":"tightRaces","score":405719.4418278576,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":63796.58180364,"change":null}]}
+{"timestamp":"2026-03-10T08:25:45.134Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-10T08:25:37.219Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-10T08:25:37.219Z","type":"palpha","message":"Found 3 potential trades from scanner"}
+{"timestamp":"2026-03-10T08:25:37.219Z","type":"palpha","message":"Passed on \"Trump out as President before GTA VI?\" — no Grok data available"}
+{"timestamp":"2026-03-10T08:25:37.219Z","type":"palpha","message":"Passed on \"Will bitcoin hit $1m before GTA VI?\" — no Grok data available"}
+{"timestamp":"2026-03-10T08:25:37.219Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-10T08:25:37.219Z","type":"palpha","message":"Evaluated 3 opportunities, 3 vetoed."}
+{"timestamp":"2026-03-10T08:25:37.219Z","type":"palpha","message":"  ✗ \"Trump out as President before GTA VI?\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-10T08:25:37.219Z","type":"palpha","message":"  ✗ \"Will the Republicans win the 2028 US Presidential \" — toxic category blacklist"}
+{"timestamp":"2026-03-10T08:25:37.219Z","type":"palpha","message":"  ✗ \"Will bitcoin hit $1m before GTA VI?\" — NOISE — not enough edge"}
