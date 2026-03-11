@@ -1,15 +1,3 @@
-{"timestamp":"2026-03-10T23:05:52.595Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-10T23:05:52.595Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-10T23:05:52.595Z","type":"palpha","message":"Passed on \"Russia x Ukraine ceasefire by end of 2026?\" — no Grok data available"}
-{"timestamp":"2026-03-10T23:05:52.595Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-10T23:05:52.595Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-10T23:05:52.595Z","type":"palpha","message":"  ✗ \"Russia x Ukraine ceasefire by end of 2026?\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-10T23:10:21.817Z","type":"scan","message":"Cycle #608 — 1586 markets | 12 active events | $30.4K recent flow | 1 held"}
-{"timestamp":"2026-03-10T23:10:21.817Z","type":"think","message":"Money flowing: \"Will the highest temperature in New York City be betwe…\" — $11.0K heavily buying, biggest trade $11.0K, 42s ago"}
-{"timestamp":"2026-03-10T23:10:21.818Z","type":"think","message":"News: \"Will Russia invade a NATO country by June 30, 2026?\" — 5 articles (bullish), \"US - Israel - Iran War Live : Qatar intercepts fresh Iranian missile a\""}
-{"timestamp":"2026-03-10T23:10:21.818Z","type":"think","message":"News: \"Will any country leave NATO by June 30, 2026?\" — 5 articles (bullish), \"US - Israel - Iran War Live : Qatar intercepts fresh Iranian missile a\""}
-{"timestamp":"2026-03-10T23:10:21.818Z","type":"think","message":"News: \"Will China invade Taiwan by end of 2026?\" — 5 articles (neutral), \"US - Israel - Iran War Live : Qatar intercepts fresh Iranian missile a\""}
-{"timestamp":"2026-03-10T23:10:21.818Z","type":"think","message":"Whale: \"0x69f30e480df12a615246c0deac0fd902b6c78c1c16cd32536f53…\" — whale_size (1 wallets, $173.2K)"}
 {"timestamp":"2026-03-10T23:10:21.818Z","type":"think","message":"↑ Price shift: \"Will Donald Trump visit Germany in 2026?\" moved 3.5% since last scan (71.5% → 75.0%)"}
 {"timestamp":"2026-03-10T23:10:21.818Z","type":"think","message":"Tight race: \"EdgeX FDV above $1B one day after launch?\" — 46.5% YES, 24h vol $219.1K"}
 {"timestamp":"2026-03-10T23:10:21.818Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 3/6 news, 1/5 whale"}
@@ -198,3 +186,15 @@
 {"timestamp":"2026-03-11T00:05:32.464Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-11T00:05:32.464Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-11T00:05:32.464Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-11T00:10:19.585Z","type":"scan","message":"Cycle #620 — 1584 markets | 16 active events | $59.0K recent flow | 1 held"}
+{"timestamp":"2026-03-11T00:10:19.585Z","type":"think","message":"Money flowing: \"Will Iran strike Israel on March 6?\" — $12.8K heavily buying, biggest trade $7.5K, 34s ago"}
+{"timestamp":"2026-03-11T00:10:19.585Z","type":"think","message":"↑ Price shift: \"OpenAI IPO before 2027?\" moved 3.5% since last scan (37.0% → 40.5%)"}
+{"timestamp":"2026-03-11T00:10:19.586Z","type":"think","message":"Wide spread: \"Will Russell Vought leave the Trump administration bef…\" — bid 7.0% / ask 26.0% (19.0% spread), liq $75.8K"}
+{"timestamp":"2026-03-11T00:10:19.586Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
+{"timestamp":"2026-03-11T00:10:19.586Z","type":"decision","message":"Flow signal: \"Spread: Portland State Vikings (-3.5)\" — buyers dominating ($10.4K net), 1 traders, 3m ago"}
+{"type":"pipeline","timestamp":"2026-03-11T00:10:20.150Z","cycle":620,"ingestion":{"markets":1622,"trades":50,"tradeVolume":58985,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":56,"volumeSpikes":561,"catalysts":0,"deepValue":462,"tightRaces":51,"wideSpread":161,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":16,"totalVolume":58985,"avgImbalance":0.974},"midShifts":{"count":29,"avgMagnitude":0.0112},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39214771604.70214,"change":null},{"q":"Will Jared Polis win the 2028 Democratic presidential nomination?","type":"deepValue","score":39214771604.70214,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5060301.905689928,"change":null},{"q":"Will Eric Swalwell win the California Governor Election in 2026?","type":"tightRaces","score":442144.3284305111,"change":"-7.5%"},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":87903.08041484,"change":null}]}
+{"timestamp":"2026-03-11T00:10:27.726Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-11T00:10:20.142Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-11T00:10:20.142Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-11T00:10:20.142Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-11T00:10:20.142Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
