@@ -1,19 +1,3 @@
-{"timestamp":"2026-03-11T00:40:17.055Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-11T00:40:17.055Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-11T00:45:16.909Z","type":"scan","message":"Cycle #627 — 1584 markets | 8 active events | $23.1K recent flow | 1 held"}
-{"timestamp":"2026-03-11T00:45:16.909Z","type":"think","message":"Money flowing: \"Will Crude Oil (CL) hit (HIGH) $200 by end of March?\" — $2.5K buying, biggest trade $717, 5m ago"}
-{"timestamp":"2026-03-11T00:45:16.909Z","type":"think","message":"Whale: \"0x7b77c70f5497996464715b7f5815b497e3b1097fbbb197522492…\" — whale_size (1 wallets, $95.4K)"}
-{"timestamp":"2026-03-11T00:45:16.909Z","type":"think","message":"Whale: \"0x7a4e96623e5baf75e3a039b1fdae23b288f84333f8d3c1ae6dbf…\" — whale_size (1 wallets, $50.0K)"}
-{"timestamp":"2026-03-11T00:45:16.909Z","type":"think","message":"↓ Price shift: \"BitBoy convicted?\" moved 2.9% since last scan (19.7% → 16.8%)"}
-{"timestamp":"2026-03-11T00:45:16.909Z","type":"think","message":"Wide spread: \"U.S. agrees to a new trade deal with \"United Kingdom\" …\" — bid 6.0% / ask 25.0% (19.0% spread), liq $107.2K"}
-{"timestamp":"2026-03-11T00:45:16.910Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news, 2/2 whale"}
-{"timestamp":"2026-03-11T00:45:16.910Z","type":"decision","message":"Hourly momentum: \"Will the Starship for SpaceX Starship Flight Test 12 a…\" ↓8.0% in 1h, now 58.0%, vol $6.8K"}
-{"type":"pipeline","timestamp":"2026-03-11T00:45:17.167Z","cycle":627,"ingestion":{"markets":1622,"trades":50,"tradeVolume":23084,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":56,"volumeSpikes":589,"catalysts":0,"deepValue":473,"tightRaces":53,"wideSpread":170,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":2},"tradeFlows":{"count":8,"totalVolume":23084,"avgImbalance":0.735},"midShifts":{"count":14,"avgMagnitude":0.0118},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38578331212.609985,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38578331212.609985,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5049179.948614675,"change":null},{"q":"Will Eric Swalwell win the California Governor Election in 2026?","type":"tightRaces","score":434347.66026496346,"change":"-7.5%"},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":101911.73035745001,"change":null}]}
-{"timestamp":"2026-03-11T00:45:25.068Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-11T00:45:17.159Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-11T00:45:17.159Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-11T00:45:17.159Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-11T00:45:17.159Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-11T00:50:38.153Z","type":"scan","message":"Cycle #628 — 1584 markets | 11 active events | $52.8K recent flow | 1 held"}
 {"timestamp":"2026-03-11T00:50:38.153Z","type":"think","message":"Money flowing: \"Bitcoin Up or Down - March 10, 8:45PM-8:50PM ET\" — $14.8K heavily buying, biggest trade $5.9K, 53s ago"}
 {"timestamp":"2026-03-11T00:50:38.153Z","type":"think","message":"News: \"Netanyahu out by end of 2026?\" — 9 articles (bearish), \"İrandan 6 misilleme saldırısı : İsrailin orta kesiminde sirenler çaldı\""}
@@ -198,3 +182,19 @@
 {"timestamp":"2026-03-11T01:45:18.013Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-11T01:45:18.013Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-11T01:45:18.013Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-11T01:50:17.512Z","type":"scan","message":"Cycle #640 — 1585 markets | 12 active events | $30.1K recent flow | 1 held"}
+{"timestamp":"2026-03-11T01:50:17.512Z","type":"think","message":"Money flowing: \"US strikes Iraq by March 7?\" — $6.7K heavily buying, biggest trade $6.7K, 1m ago"}
+{"timestamp":"2026-03-11T01:50:17.513Z","type":"think","message":"Whale: \"0xa880d611399ee74626e5afd6d8bf683778dbc29dfefabdfe06c5…\" — whale_size (1 wallets, $62.8K)"}
+{"timestamp":"2026-03-11T01:50:17.513Z","type":"think","message":"Whale: \"0xb26009a53e04e3f6f435f740fcc85fe67dd1f96ebe161ae7b7f4…\" — whale_size (1 wallets, $68.5K)"}
+{"timestamp":"2026-03-11T01:50:17.513Z","type":"think","message":"Whale: \"0x43c7995ca7459659983bdaf0d6116a98126b7c453961cc4a7db8…\" — whale_size (1 wallets, $96.5K)"}
+{"timestamp":"2026-03-11T01:50:17.513Z","type":"think","message":"Whale: \"0xf9dd2cc20c300e9ba67478c2688ea3c9296a1c287d69232030ec…\" — whale_size (1 wallets, $67.4K)"}
+{"timestamp":"2026-03-11T01:50:17.513Z","type":"think","message":"↓ Price shift: \"Will Donald Trump visit India in 2026?\" moved 9.5% since last scan (44.5% → 35.0%)"}
+{"timestamp":"2026-03-11T01:50:17.513Z","type":"think","message":"Wide spread: \"Will Donald Trump visit South Korea in 2026?\" — bid 14.0% / ask 71.0% (57.0% spread), liq $59.8K"}
+{"timestamp":"2026-03-11T01:50:17.513Z","type":"think","message":"Sources: 8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news, 4/4 whale"}
+{"timestamp":"2026-03-11T01:50:17.513Z","type":"decision","message":"Flow signal: \"Spread: Warriors (-6.5)\" — buyers dominating ($3.4K net), 1 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-03-11T01:50:17.921Z","cycle":640,"ingestion":{"markets":1622,"trades":50,"tradeVolume":30056,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":60,"volumeSpikes":580,"catalysts":0,"deepValue":475,"tightRaces":52,"wideSpread":164,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":4},"tradeFlows":{"count":12,"totalVolume":30056,"avgImbalance":0.896},"midShifts":{"count":28,"avgMagnitude":0.0117},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38618049273.78654,"change":null},{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":38618049273.78654,"change":"+0.1%"},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":5071009.44050956,"change":null},{"q":"Will Eric Swalwell win the California Governor Election in 2026?","type":"tightRaces","score":431557.04118055385,"change":"-7.5%"},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":51720.040645700006,"change":null}]}
+{"timestamp":"2026-03-11T01:50:25.317Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-11T01:50:17.912Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-11T01:50:17.912Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-11T01:50:17.912Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-11T01:50:17.912Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
