@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-12T17:31:06.094Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-12T17:31:06.094Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-12T17:36:05.597Z","type":"scan","message":"Cycle #12 — 0 tennis markets | 3 active events | $9.7K recent flow | 1 held"}
-{"timestamp":"2026-03-12T17:36:05.597Z","type":"think","message":"Money flowing: \"Will Belinda Bencic win the 2026 Women’s French Open?\" — $6.8K heavily selling, biggest trade $1.7K, 1m ago"}
-{"timestamp":"2026-03-12T17:36:05.598Z","type":"decision","message":"Flow signal: \"BNP Paribas Open: Arthur Fils vs Alexander Zverev\" — buyers dominating ($2.4K net), 1 traders, 34s ago"}
-{"type":"pipeline","timestamp":"2026-03-12T17:36:05.846Z","cycle":12,"ingestion":{"markets":0,"tradeVolume":9707,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":9707},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-12T17:36:13.556Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-12T17:36:05.840Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-12T17:36:05.840Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-12T17:36:05.840Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-12T17:36:05.840Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-12T17:41:05.733Z","type":"scan","message":"Cycle #13 — 0 tennis markets | 3 active events | $9.7K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-12T19:21:06.389Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-12T19:21:06.389Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-12T19:21:06.389Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-12T19:26:06.314Z","type":"scan","message":"Cycle #34 — 0 tennis markets | 1 active events | $583 recent flow | 1 held"}
+{"timestamp":"2026-03-12T19:26:06.315Z","type":"think","message":"Money flowing: \"BNP Paribas Open: Arthur Fils vs Alexander Zverev\" — $583 heavily selling, biggest trade $583, 17s ago"}
+{"timestamp":"2026-03-12T19:26:06.315Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-12T19:26:06.563Z","cycle":34,"ingestion":{"markets":0,"tradeVolume":583,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":583},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-12T19:26:14.665Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-12T19:26:06.559Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-12T19:26:06.559Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-12T19:26:06.559Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-12T19:26:06.559Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
