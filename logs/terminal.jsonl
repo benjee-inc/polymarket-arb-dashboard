@@ -1,18 +1,3 @@
-{"timestamp":"2026-03-12T07:00:26.430Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-12T07:00:26.430Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-12T07:00:26.430Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-12T07:05:21.932Z","type":"scan","message":"Cycle #991 — 1595 markets | 21 active events | $57.1K recent flow | 1 held"}
-{"timestamp":"2026-03-12T07:05:21.932Z","type":"think","message":"Money flowing: \"Will Hillary Clinton win the 2028 Democratic president…\" — $9.1K buying, biggest trade $1.9K, 6m ago"}
-{"timestamp":"2026-03-12T07:05:21.932Z","type":"think","message":"↓ Price shift: \"Waymo IPO before 2027?\" moved 2.0% since last scan (21.0% → 19.0%)"}
-{"timestamp":"2026-03-12T07:05:21.932Z","type":"think","message":"Wide spread: \"Canva IPO before 2027?\" — bid 36.0% / ask 51.0% (15.0% spread), liq $144.0K"}
-{"timestamp":"2026-03-12T07:05:21.932Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
-{"timestamp":"2026-03-12T07:05:21.932Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 12, 2:45AM-3:00AM ET\" — buyers dominating ($6.3K net), 2 traders, 5m ago"}
-{"type":"pipeline","timestamp":"2026-03-12T07:05:22.418Z","cycle":991,"ingestion":{"markets":1626,"trades":50,"tradeVolume":57120,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":51,"volumeSpikes":650,"catalysts":63,"deepValue":474,"tightRaces":52,"wideSpread":159,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":21,"totalVolume":57120,"avgImbalance":0.976},"midShifts":{"count":14,"avgMagnitude":0.0093},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39572723894.44777,"change":null},{"q":"Will Raphael Warnock win the 2028 Democratic presidential nomination?","type":"deepValue","score":39572723894.44777,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":18400738.456622373,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":412086.93846578995,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":104802.41821965999,"change":null}]}
-{"timestamp":"2026-03-12T07:05:30.015Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-12T07:05:22.408Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-12T07:05:22.408Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-12T07:05:22.408Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-12T07:05:22.408Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-12T07:10:21.404Z","type":"scan","message":"Cycle #992 — 1595 markets | 15 active events | $56.1K recent flow | 1 held"}
 {"timestamp":"2026-03-12T07:10:21.404Z","type":"think","message":"Money flowing: \"Will Bitcoin dip to $40,000 in March?\" — $18.7K selling, biggest trade $14.1K, 46s ago"}
 {"timestamp":"2026-03-12T07:10:21.405Z","type":"think","message":"↑ Price shift: \"Epic Games IPO before 2027?\" moved 1.5% since last scan (39.0% → 40.5%)"}
@@ -198,3 +183,18 @@
 {"timestamp":"2026-03-12T08:05:35.794Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-12T08:05:35.794Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-12T08:05:35.794Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-12T08:10:20.600Z","type":"scan","message":"Cycle #1004 — 1595 markets | 23 active events | $41.6K recent flow | 1 held"}
+{"timestamp":"2026-03-12T08:10:20.600Z","type":"think","message":"Money flowing: \"Will Kim Kardashian win the 2028 Democratic presidenti…\" — $6.2K heavily buying, biggest trade $1.9K, 11s ago"}
+{"timestamp":"2026-03-12T08:10:20.600Z","type":"think","message":"Whale: \"0x33b964f9eb19afb03e1ebde0f9c074ef561308624e47bdb261f3…\" — whale_size (1 wallets, $90.9K)"}
+{"timestamp":"2026-03-12T08:10:20.600Z","type":"think","message":"↓ Price shift: \"Will the Houston Rockets win more than 52.5 regular se…\" moved 2.5% since last scan (40.0% → 37.5%)"}
+{"timestamp":"2026-03-12T08:10:20.600Z","type":"think","message":"Catalyst: \"Will Hamnet win Best Picture at the 98th Academy Award…\" — 3d to resolution, 1.6% YES, ↓0.1% this hour, vol $970.6K"}
+{"timestamp":"2026-03-12T08:10:20.600Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news, 1/1 whale"}
+{"timestamp":"2026-03-12T08:10:20.600Z","type":"decision","message":"Flow signal: \"Will Taylor Fritz be the 2026 Men’s Wimbledon winner?\" — buyers dominating ($5.0K net), 4 traders, 47s ago"}
+{"type":"pipeline","timestamp":"2026-03-12T08:10:25.719Z","cycle":1004,"ingestion":{"markets":1626,"trades":50,"tradeVolume":41552,"midpointsFetched":50},"signals":{"movers1h":35,"movers1d":50,"volumeSpikes":645,"catalysts":63,"deepValue":479,"tightRaces":52,"wideSpread":163,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":1},"tradeFlows":{"count":23,"totalVolume":41552,"avgImbalance":0.966},"midShifts":{"count":18,"avgMagnitude":0.0094},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39570646383.06987,"change":null},{"q":"Will Raphael Warnock win the 2028 Democratic presidential nomination?","type":"deepValue","score":39570646383.06987,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":18594406.711456493,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":414865.82340250193,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":74946.51329181,"change":null}]}
+{"timestamp":"2026-03-12T08:10:33.066Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-12T08:10:25.714Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-12T08:10:25.714Z","type":"palpha","message":"Found 1 potential trades from scanner"}
+{"timestamp":"2026-03-12T08:10:25.714Z","type":"palpha","message":"Passed on \"Will the Iranian regime fall before 2027?\" — no Grok data available"}
+{"timestamp":"2026-03-12T08:10:25.714Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-12T08:10:25.714Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-12T08:10:25.714Z","type":"palpha","message":"  ✗ \"Will the Iranian regime fall before 2027?\" — NOISE — not enough edge"}
