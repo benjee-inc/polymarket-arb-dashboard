@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-12T15:15:37.365Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-03-12T15:15:37.365Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-12T15:15:37.365Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-12T15:20:22.070Z","type":"scan","message":"Cycle #1090 — 1594 markets | 17 active events | $169.3K recent flow | 1 held"}
-{"timestamp":"2026-03-12T15:20:22.070Z","type":"think","message":"Money flowing: \"Will the price of Bitcoin be above $64,000 on March 12?\" — $17.9K buying, biggest trade $4.1K, 11s ago"}
-{"timestamp":"2026-03-12T15:20:22.070Z","type":"think","message":"Crypto data: \"US national Bitcoin reserve before 2027?\" — BTC -0.4% 24h ($69,816), F&G=18"}
-{"timestamp":"2026-03-12T15:20:22.070Z","type":"think","message":"Crypto data: \"Will El Salvador hold $1b+ of BTC by December 31, 2026?\" — BTC -0.4% 24h ($69,816), F&G=18"}
-{"timestamp":"2026-03-12T15:20:22.070Z","type":"think","message":"Crypto data: \"Will knots flip bitcoin core before 2027?\" — BTC -0.4% 24h ($69,816), F&G=18"}
-{"timestamp":"2026-03-12T15:20:22.070Z","type":"think","message":"↑ Price shift: \"Will Israel launch a major ground offensive in Lebanon…\" moved 2.0% since last scan (72.5% → 74.5%)"}
 {"timestamp":"2026-03-12T15:20:22.070Z","type":"think","message":"Deep value: \"Will Tim Walz win the 2028 Democratic presidential nom…\" — Yes @ 0.7¢, liq $42.5M, 24h vol $7.2M"}
 {"timestamp":"2026-03-12T15:20:22.070Z","type":"think","message":"Sources: 3/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
 {"timestamp":"2026-03-12T15:20:22.070Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 12, 11:15AM-11:20AM ET\" — buyers dominating ($7.9K net), 6 traders, 41s ago"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-12T16:34:58.127Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-12T16:34:58.127Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-12T16:34:58.127Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-12T16:40:14.884Z","type":"scan","message":"Cycle #8 — 0 markets | 0 active events | $0 recent flow | 1 held"}
+{"timestamp":"2026-03-12T16:40:14.884Z","type":"think","message":"All top signals on cooldown — markets stable, no fresh alpha."}
+{"timestamp":"2026-03-12T16:40:14.884Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-12T16:40:15.301Z","cycle":8,"ingestion":{"markets":0,"trades":50,"tradeVolume":0,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0,"cryptoData":0,"sentimentData":0,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":0,"totalVolume":0,"avgImbalance":0},"midShifts":{"count":0,"avgMagnitude":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"enrichmentCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[]}
+{"timestamp":"2026-03-12T16:40:23.156Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-12T16:40:15.295Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-12T16:40:15.296Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-12T16:40:15.296Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-12T16:40:15.296Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
