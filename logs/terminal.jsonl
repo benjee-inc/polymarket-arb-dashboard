@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-12T15:35:43.947Z","type":"palpha","message":"Passed on \"Billionaire one-time wealth tax passes in California electio\" — no Grok data available"}
-{"timestamp":"2026-03-12T15:35:43.947Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-12T15:35:43.947Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed."}
-{"timestamp":"2026-03-12T15:35:43.947Z","type":"palpha","message":"  ✗ \"Will the next Prime Minister of Hungary be Péter M\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-12T15:35:43.947Z","type":"palpha","message":"  ✗ \"Billionaire one-time wealth tax passes in Californ\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-12T15:40:22.021Z","type":"scan","message":"Cycle #1094 — 1595 markets | 16 active events | $117.6K recent flow | 1 held"}
-{"timestamp":"2026-03-12T15:40:22.021Z","type":"think","message":"Money flowing: \"Will the Fed increase interest rates by 25+ bps after …\" — $41.7K buying, biggest trade $24.1K, 39s ago"}
-{"timestamp":"2026-03-12T15:40:22.021Z","type":"think","message":"↑ Price shift: \"Will the Chicago Bulls win more than 33.5 regular seas…\" moved 6.5% since last scan (26.0% → 32.5%)"}
-{"timestamp":"2026-03-12T15:40:22.022Z","type":"think","message":"Volume surge: \"Will R. Cary Capparelli be the Republican nominee for …\" — $191.5K in 24h (3892% of lifetime), price 0.8%"}
 {"timestamp":"2026-03-12T15:40:22.022Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news (all on cooldown)"}
 {"timestamp":"2026-03-12T15:40:22.022Z","type":"decision","message":"Flow signal: \"Will Bitcoin dip to $65,000 in March?\" — buyers dominating ($19.2K net), 3 traders, 29s ago"}
 {"type":"pipeline","timestamp":"2026-03-12T15:40:22.326Z","cycle":1094,"ingestion":{"markets":1626,"trades":50,"tradeVolume":117631,"midpointsFetched":50},"signals":{"movers1h":34,"movers1d":52,"volumeSpikes":662,"catalysts":62,"deepValue":498,"tightRaces":48,"wideSpread":157,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":16,"totalVolume":117631,"avgImbalance":0.937},"midShifts":{"count":25,"avgMagnitude":0.0128},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":44792491963.30444,"change":"+0.1%"},{"q":"Will Raphael Warnock win the 2028 Democratic presidential nomination?","type":"deepValue","score":38820159701.53051,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":14466334.580663309,"change":null},{"q":"Will Ivan Cepeda Castro win the 2026 Colombian presidential election?","type":"tightRaces","score":473241.1946316812,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":90441.22107300999,"change":null}]}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-12T17:06:05.997Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-12T17:06:05.997Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-12T17:06:05.997Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-12T17:11:05.536Z","type":"scan","message":"Cycle #7 — 0 tennis markets | 0 active events | $0 recent flow | 1 held"}
+{"timestamp":"2026-03-12T17:11:05.536Z","type":"think","message":"All top signals on cooldown — markets stable, no fresh alpha."}
+{"timestamp":"2026-03-12T17:11:05.536Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-12T17:11:05.953Z","cycle":7,"ingestion":{"markets":0,"tradeVolume":0,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":0,"totalVolume":0},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-12T17:11:13.272Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-12T17:11:05.948Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-12T17:11:05.948Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-12T17:11:05.948Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-12T17:11:05.948Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
