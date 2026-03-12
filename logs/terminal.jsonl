@@ -1,25 +1,3 @@
-{"type":"pipeline","timestamp":"2026-03-12T13:50:31.897Z","cycle":1072,"ingestion":{"markets":1626,"trades":50,"tradeVolume":37715,"midpointsFetched":50},"signals":{"movers1h":34,"movers1d":51,"volumeSpikes":618,"catalysts":63,"deepValue":474,"tightRaces":45,"wideSpread":155,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":15,"totalVolume":37715,"avgImbalance":0.927},"midShifts":{"count":26,"avgMagnitude":0.011},"enrichment":{"rawOpportunities":10,"enriched":0,"vetoed":8,"vetoReasons":{"NOISE — not enough edge":4,"spread too wide":4},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":44927204850.61666,"change":"+0.1%"},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38936910870.53445,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":15585859.11201525,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":456918.51486758486,"change":null},{"q":"Will GPT-6 be released before GTA VI?","type":"wideSpread","score":117905.4588256,"change":null}]}
-{"timestamp":"2026-03-12T13:50:39.922Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"Found 10 potential trades from scanner"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"Passed on \"Will GPT-6 be released before GTA VI?\" — no Grok data available"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"Passed on \"Will One Battle After Another win Best Picture at the 98th A\" — no Grok data available"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"Passed on \"Will Sinners win Best Picture at the 98th Academy Awards?\" — no Grok data available"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"Passed on \"Will Hamnet win Best Picture at the 98th Academy Awards?\" — no Grok data available"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"Evaluated 10 opportunities, 8 vetoed."}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"  ✗ \"Will GPT-6 be released before GTA VI?\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"  ✗ \"Will Hamnet win Best Picture at the 98th Academy A\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"  ✗ \"Will Sinners win Best Picture at the 98th Academy \" — NOISE — not enough edge"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"  ✗ \"Will Marty Supreme win Best Picture at the 98th Ac\" — spread too wide: 0.2¢ on 1.0¢ mid (20% > 15% max)"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"  ✗ \"Will Frankenstein win Best Picture at the 98th Aca\" — spread too wide: 0.2¢ on 0.4¢ mid (50% > 15% max)"}
-{"timestamp":"2026-03-12T13:50:31.891Z","type":"palpha","message":"  + 2 below top-5 cutoff (no Grok eval)"}
-{"timestamp":"2026-03-12T13:55:37.677Z","type":"scan","message":"Cycle #1073 — 1595 markets | 15 active events | $37.7K recent flow | 1 held"}
-{"timestamp":"2026-03-12T13:55:37.677Z","type":"think","message":"Money flowing: \"Will the price of Ethereum be above $2,200 on March 12?\" — $4.3K heavily buying, biggest trade $4.3K, 5m ago"}
-{"timestamp":"2026-03-12T13:55:37.677Z","type":"think","message":"Sentiment: \"Will the Fed decrease interest rates by 25 bps after t…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-12T13:55:37.677Z","type":"think","message":"Sentiment: \"Will there be no change in Fed interest rates after th…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-12T13:55:37.677Z","type":"think","message":"Sentiment: \"Another S&P 500 Company buys Bitcoin by December 31, 2…\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-12T13:55:37.677Z","type":"think","message":"News: \"Russia x Ukraine ceasefire by end of 2026?\" — 3 articles (bearish), \"Келлог : Путін має визнати неспроможність Росії виграти війну\""}
 {"timestamp":"2026-03-12T13:55:37.677Z","type":"think","message":"↓ Price shift: \"Will GPT-6 be released before GTA VI?\" moved 3.0% since last scan (66.0% → 63.0%)"}
 {"timestamp":"2026-03-12T13:55:37.677Z","type":"think","message":"Volume surge: \"Will the Houston Rockets win more than 52.5 regular se…\" — $18.7K in 24h (4245% of lifetime), price 37.0%"}
 {"timestamp":"2026-03-12T13:55:37.677Z","type":"think","message":"Sources: 0 crypto, 0 weather, 3/5 sentiment, 0 nansen, 1/15 news"}
@@ -198,3 +176,25 @@
 {"timestamp":"2026-03-12T14:50:22.586Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-12T14:50:22.586Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-12T14:50:22.586Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-12T14:55:39.418Z","type":"scan","message":"Cycle #1085 — 1593 markets | 15 active events | $136.0K recent flow | 1 held"}
+{"timestamp":"2026-03-12T14:55:39.418Z","type":"think","message":"Money flowing: \"Will the Fed increase interest rates by 25+ bps after …\" — $87.8K heavily buying, biggest trade $24.5K, 5m ago"}
+{"timestamp":"2026-03-12T14:55:39.418Z","type":"think","message":"News: \"MicroStrategy sells any Bitcoin by March 31, 2026?\" — 5 articles (neutral), \"IEA : Hürmüz Boğazı  ndaki aksama günlük 9 , 9 milyon varil petrol üre\""}
+{"timestamp":"2026-03-12T14:55:39.418Z","type":"think","message":"Whale: \"Will there be no change in Fed interest rates after th…\" — whale_size (1 wallets, $458.2K)"}
+{"timestamp":"2026-03-12T14:55:39.418Z","type":"think","message":"↓ Price shift: \"BitBoy convicted?\" moved 13.4% since last scan (49.5% → 36.1%)"}
+{"timestamp":"2026-03-12T14:55:39.418Z","type":"think","message":"↑ Daily mover: \"Will the Los Angeles Clippers win more than 49.5 regul…\" ↑23.2% today, ↑25.1% 1w, 24h vol $16.9K"}
+{"timestamp":"2026-03-12T14:55:39.418Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 1/5 news, 1/1 whale"}
+{"timestamp":"2026-03-12T14:55:39.418Z","type":"decision","message":"Flow signal: \"Bitcoin Up or Down - March 12, 10:45AM-10:50AM ET\" — buyers dominating ($6.8K net), 9 traders, 5m ago"}
+{"type":"pipeline","timestamp":"2026-03-12T14:55:49.431Z","cycle":1085,"ingestion":{"markets":1626,"trades":50,"tradeVolume":135986,"midpointsFetched":50},"signals":{"movers1h":33,"movers1d":52,"volumeSpikes":664,"catalysts":63,"deepValue":484,"tightRaces":48,"wideSpread":150,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":1},"tradeFlows":{"count":15,"totalVolume":135986,"avgImbalance":0.933},"midShifts":{"count":28,"avgMagnitude":0.0131},"enrichment":{"rawOpportunities":7,"enriched":0,"vetoed":7,"vetoReasons":{"NOISE — not enough edge":3,"spread too wide":4},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Tim Walz win the 2028 Democratic presidential nomination?","type":"deepValue","score":44832791876.06603,"change":"+0.1%"},{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":38855086292.59057,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":15221173.404145448,"change":null},{"q":"Will Ivan Cepeda Castro win the 2026 Colombian presidential election?","type":"tightRaces","score":464994.36247653665,"change":null},{"q":"Will Drake release Iceman before GTA VI?","type":"wideSpread","score":118346.25022639999,"change":null}]}
+{"timestamp":"2026-03-12T14:55:59.715Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"Found 7 potential trades from scanner"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"Passed on \"Will Hamnet win Best Picture at the 98th Academy Awards?\" — no Grok data available"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"Passed on \"Will Sinners win Best Picture at the 98th Academy Awards?\" — no Grok data available"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"Passed on \"Will One Battle After Another win Best Picture at the 98th A\" — no Grok data available"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"Evaluated 7 opportunities, 7 vetoed."}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"  ✗ \"Will Hamnet win Best Picture at the 98th Academy A\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"  ✗ \"Will Sinners win Best Picture at the 98th Academy \" — NOISE — not enough edge"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"  ✗ \"Will Marty Supreme win Best Picture at the 98th Ac\" — spread too wide: 0.2¢ on 1.0¢ mid (20% > 15% max)"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"  ✗ \"Will Frankenstein win Best Picture at the 98th Aca\" — spread too wide: 0.1¢ on 0.4¢ mid (29% > 15% max)"}
+{"timestamp":"2026-03-12T14:55:49.425Z","type":"palpha","message":"  ✗ \"Will One Battle After Another win Best Picture at \" — NOISE — not enough edge"}
