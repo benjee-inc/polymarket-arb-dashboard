@@ -1,19 +1,3 @@
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"Passed on \"Will Hamnet win Best Picture at the 98th Academy Awards?\" — no Grok data available"}
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"Passed on \"Will One Battle After Another win Best Picture at the 98th A\" — no Grok data available"}
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"Passed on \"Will Sinners win Best Picture at the 98th Academy Awards?\" — no Grok data available"}
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"Evaluated 10 opportunities, 8 vetoed."}
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"  ✗ \"Will Hamnet win Best Picture at the 98th Academy A\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"  ✗ \"Will Sinners win Best Picture at the 98th Academy \" — NOISE — not enough edge"}
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"  ✗ \"Will Marty Supreme win Best Picture at the 98th Ac\" — spread too wide: 0.2¢ on 1.3¢ mid (15% > 15% max)"}
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"  ✗ \"Will Frankenstein win Best Picture at the 98th Aca\" — spread too wide: 0.1¢ on 0.5¢ mid (18% > 15% max)"}
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"  ✗ \"Will One Battle After Another win Best Picture at \" — NOISE — not enough edge"}
-{"timestamp":"2026-03-12T00:00:50.461Z","type":"palpha","message":"  + 2 below top-5 cutoff (no Grok eval)"}
-{"timestamp":"2026-03-12T00:05:28.389Z","type":"scan","message":"Cycle #907 — 1599 markets | 15 active events | $60.8K recent flow | 1 held"}
-{"timestamp":"2026-03-12T00:05:28.389Z","type":"think","message":"Money flowing: \"Spread: Raptors (-2.5)\" — $25.8K heavily buying, biggest trade $19.5K, 23s ago"}
-{"timestamp":"2026-03-12T00:05:28.390Z","type":"think","message":"News: \"US x Russia military clash by June 30, 2026?\" — 3 articles (bullish), \"川普称  几乎已没有可打击目标了  军方暗示打击港口\""}
-{"timestamp":"2026-03-12T00:05:28.390Z","type":"think","message":"News: \"US x Russia military clash by December 31, 2026?\" — 3 articles (bullish), \"川普称  几乎已没有可打击目标了  军方暗示打击港口\""}
-{"timestamp":"2026-03-12T00:05:28.390Z","type":"think","message":"Whale: \"0xb2285e88b8e91389a8cf706e909b01b7e0f4ae125ac96c85f7bd…\" — whale_size (1 wallets, $129.9K)"}
 {"timestamp":"2026-03-12T00:05:28.390Z","type":"think","message":"News: \"MicroStrategy sells any Bitcoin by March 31, 2026?\" — 1 articles (neutral), \"新浪财经隔夜要闻大事汇总 ： 2026年3月12日\""}
 {"timestamp":"2026-03-12T00:05:28.390Z","type":"think","message":"↑ Price shift: \"Will Discord not IPO by June 30, 2026?\" moved 5.0% since last scan (80.0% → 85.0%)"}
 {"timestamp":"2026-03-12T00:05:28.390Z","type":"think","message":"Wide spread: \"Will Drake release Iceman before GTA VI?\" — bid 88.5% / ask 93.4% (4.9% spread), liq $1.5M"}
@@ -198,3 +182,19 @@
 {"timestamp":"2026-03-12T00:55:32.230Z","type":"palpha","message":"Evaluated 2 opportunities, 2 vetoed."}
 {"timestamp":"2026-03-12T00:55:32.230Z","type":"palpha","message":"  ✗ \"Will bitcoin hit $1m before GTA VI?\" — NOISE — not enough edge"}
 {"timestamp":"2026-03-12T00:55:32.230Z","type":"palpha","message":"  ✗ \"Will the Republicans win the 2028 US Presidential \" — toxic category blacklist"}
+{"timestamp":"2026-03-12T01:00:25.501Z","type":"scan","message":"Cycle #918 — 1599 markets | 16 active events | $76.4K recent flow | 1 held"}
+{"timestamp":"2026-03-12T01:00:25.501Z","type":"think","message":"Money flowing: \"Will DeepSeek have the top AI model at the end of Marc…\" — $5.7K heavily buying, biggest trade $4.9K, 6m ago"}
+{"timestamp":"2026-03-12T01:00:25.501Z","type":"think","message":"Crypto data: \"Ripple Labs IPO before 2027?\" — XRP -0.4% 24h ($1.38), F&G=18"}
+{"timestamp":"2026-03-12T01:00:25.501Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by December 31, 2026?\" — BTC +0.3% 24h ($70,236), F&G=18"}
+{"timestamp":"2026-03-12T01:00:25.501Z","type":"think","message":"Crypto data: \"MicroStrategy sells any Bitcoin by June 30, 2026?\" — BTC +0.3% 24h ($70,236), F&G=18"}
+{"timestamp":"2026-03-12T01:00:25.501Z","type":"think","message":"Crypto data: \"US national Bitcoin reserve before 2027?\" — BTC +0.3% 24h ($70,236), F&G=18"}
+{"timestamp":"2026-03-12T01:00:25.501Z","type":"think","message":"↑ Price shift: \"Based FDV above $100M one day after launch?\" moved 4.5% since last scan (42.0% → 46.5%)"}
+{"timestamp":"2026-03-12T01:00:25.501Z","type":"think","message":"↓ Hourly mover: \"SHEIN IPO before 2027?\" ↓8.0% in 1h (now 26.0%), 24h vol $15.9K"}
+{"timestamp":"2026-03-12T01:00:25.502Z","type":"think","message":"Sources: 4/8 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news"}
+{"timestamp":"2026-03-12T01:00:25.502Z","type":"decision","message":"Flow signal: \"Will the highest temperature in Munich be 8°C on March…\" — buyers dominating ($5.5K net), 3 traders, 6m ago"}
+{"type":"pipeline","timestamp":"2026-03-12T01:00:26.098Z","cycle":918,"ingestion":{"markets":1627,"trades":50,"tradeVolume":76388,"midpointsFetched":50},"signals":{"movers1h":38,"movers1d":60,"volumeSpikes":664,"catalysts":58,"deepValue":474,"tightRaces":51,"wideSpread":158,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":16,"totalVolume":76388,"avgImbalance":0.998},"midShifts":{"count":21,"avgMagnitude":0.0086},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39844912304.5842,"change":null},{"q":"Will Raphael Warnock win the 2028 Democratic presidential nomination?","type":"deepValue","score":39844912304.5842,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":16416743.948665718,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":446809.19549359713,"change":null},{"q":"Will GPT-6 be released before GTA VI?","type":"wideSpread","score":72794.5663705,"change":null}]}
+{"timestamp":"2026-03-12T01:00:33.377Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-12T01:00:26.094Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-12T01:00:26.094Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-12T01:00:26.094Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-12T01:00:26.094Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
