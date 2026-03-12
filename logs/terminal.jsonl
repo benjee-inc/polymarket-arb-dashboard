@@ -1,20 +1,3 @@
-{"timestamp":"2026-03-12T00:45:31.530Z","type":"think","message":"Sources: 8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 3/8 news"}
-{"timestamp":"2026-03-12T00:45:31.530Z","type":"decision","message":"Flow signal: \"Will the price of Bitcoin be above $78,000 on March 13?\" — buyers dominating ($7.6K net), 1 traders, 1m ago"}
-{"type":"pipeline","timestamp":"2026-03-12T00:45:36.508Z","cycle":915,"ingestion":{"markets":1627,"trades":50,"tradeVolume":41659,"midpointsFetched":50},"signals":{"movers1h":38,"movers1d":60,"volumeSpikes":666,"catalysts":58,"deepValue":473,"tightRaces":51,"wideSpread":151,"cryptoData":8,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":0},"tradeFlows":{"count":20,"totalVolume":41659,"avgImbalance":0.972},"midShifts":{"count":32,"avgMagnitude":0.0141},"enrichment":{"rawOpportunities":1,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39863226411.71048,"change":null},{"q":"Will Raphael Warnock win the 2028 Democratic presidential nomination?","type":"deepValue","score":39863226411.71048,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":16309467.769493574,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":445687.8789311357,"change":null},{"q":"Will GPT-6 be released before GTA VI?","type":"wideSpread","score":87325.79957939999,"change":null}]}
-{"timestamp":"2026-03-12T00:45:44.356Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-12T00:45:36.503Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-12T00:45:36.503Z","type":"palpha","message":"Found 1 potential trades from scanner"}
-{"timestamp":"2026-03-12T00:45:36.503Z","type":"palpha","message":"Passed on \"Trump out as President before GTA VI?\" — no Grok data available"}
-{"timestamp":"2026-03-12T00:45:36.503Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-12T00:45:36.503Z","type":"palpha","message":"Evaluated 1 opportunities, 1 vetoed."}
-{"timestamp":"2026-03-12T00:45:36.503Z","type":"palpha","message":"  ✗ \"Trump out as President before GTA VI?\" — NOISE — not enough edge"}
-{"timestamp":"2026-03-12T00:50:32.874Z","type":"scan","message":"Cycle #916 — 1599 markets | 20 active events | $41.7K recent flow | 1 held"}
-{"timestamp":"2026-03-12T00:50:32.874Z","type":"think","message":"Money flowing: \"Spread: Boise State Broncos (-14.5)\" — $2.5K heavily buying, biggest trade $2.5K, 6m ago"}
-{"timestamp":"2026-03-12T00:50:32.874Z","type":"think","message":"Sentiment: \"Will bitcoin hit $1m before GTA VI?\" — F&G=18 (Extreme Fear), Extreme Fear (18/100) — contrarian buy signal for risk assets"}
-{"timestamp":"2026-03-12T00:50:32.874Z","type":"think","message":"Whale: \"0x8030df07a3de52228c307fe97952abe3fecbbda7c8431e1fd3bc…\" — whale_size (1 wallets, $56.0K)"}
-{"timestamp":"2026-03-12T00:50:32.874Z","type":"think","message":"News: \"Russia-Ukraine Ceasefire before GTA VI?\" — 1 articles (bearish), \"Iran war has blocked the Strait of Hormuz , a vital oil choke point . \""}
-{"timestamp":"2026-03-12T00:50:32.874Z","type":"think","message":"News: \"GTA VI released before June 2026?\" — 1 articles (bearish), \"Iran war has blocked the Strait of Hormuz , a vital oil choke point . \""}
-{"timestamp":"2026-03-12T00:50:32.874Z","type":"think","message":"↑ Price shift: \"Will the Minnesota Timberwolves win more than 49.5 reg…\" moved 1.2% since last scan (62.7% → 63.9%)"}
 {"timestamp":"2026-03-12T00:50:32.875Z","type":"think","message":"Tight race: \"Will the next Prime Minister of Hungary be Viktor Orbá…\" — 36.5% YES, 24h vol $450.5K"}
 {"timestamp":"2026-03-12T00:50:32.875Z","type":"think","message":"Sources: 8 crypto, 0 weather, 1/5 sentiment, 0 nansen, 2/13 news, 1/2 whale"}
 {"timestamp":"2026-03-12T00:50:32.875Z","type":"decision","message":"Flow signal: \"Will Lars Løkke Rasmussen be the next prime minister o…\" — sellers dominating ($2.4K net), 2 traders, 7m ago"}
@@ -198,3 +181,20 @@
 {"timestamp":"2026-03-12T01:40:19.866Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-12T01:40:19.866Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-12T01:40:19.866Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-12T01:45:24.898Z","type":"scan","message":"Cycle #927 — 1598 markets | 12 active events | $44.0K recent flow | 1 held"}
+{"timestamp":"2026-03-12T01:45:24.898Z","type":"think","message":"Money flowing: \"Starmer out by December 31, 2026?\" — $5.4K heavily buying, biggest trade $5.4K, 6m ago"}
+{"timestamp":"2026-03-12T01:45:24.898Z","type":"think","message":"Whale: \"Will there be no change in Fed interest rates after th…\" — whale_size (1 wallets, $53.8K)"}
+{"timestamp":"2026-03-12T01:45:24.898Z","type":"think","message":"Whale: \"0x47ee57215a38311986058e54bef61324abce104a493ab5e609d7…\" — whale_size (1 wallets, $200.0K)"}
+{"timestamp":"2026-03-12T01:45:24.898Z","type":"think","message":"↑ Price shift: \"Will MetaMask launch a token by December 31, 2026?\" moved 2.5% since last scan (47.0% → 49.5%)"}
+{"timestamp":"2026-03-12T01:45:24.898Z","type":"think","message":"Catalyst: \"Will Hamnet win Best Picture at the 98th Academy Award…\" — 3d to resolution, 1.9% YES, ↓0.1% this hour, vol $794.6K"}
+{"timestamp":"2026-03-12T01:45:24.898Z","type":"think","message":"Sources: 0 crypto, 0 weather, 5 sentiment, 0 nansen, 0 news, 2/2 whale"}
+{"timestamp":"2026-03-12T01:45:24.898Z","type":"decision","message":"Flow signal: \"Spread: Clippers (-1.5)\" — buyers dominating ($4.0K net), 1 traders, 6m ago"}
+{"type":"pipeline","timestamp":"2026-03-12T01:45:31.521Z","cycle":927,"ingestion":{"markets":1627,"trades":50,"tradeVolume":43972,"midpointsFetched":50},"signals":{"movers1h":38,"movers1d":54,"volumeSpikes":657,"catalysts":53,"deepValue":473,"tightRaces":48,"wideSpread":156,"cryptoData":0,"sentimentData":5,"weatherData":0,"cryptoLocks":0,"whaleSignals":2},"tradeFlows":{"count":12,"totalVolume":43972,"avgImbalance":0.986},"midShifts":{"count":9,"avgMagnitude":0.014},"enrichment":{"rawOpportunities":2,"enriched":0,"vetoed":1,"vetoReasons":{"NOISE — not enough edge":1},"grokCalls":0,"recommendations":{}},"execution":{"tradesExecuted":0,"skipped":0,"skipReasons":{},"openPositions":1},"topSignals":[{"q":"Will Oprah Winfrey win the 2028 Democratic presidential nomination?","type":"deepValue","score":39797008236.99707,"change":null},{"q":"Will Raphael Warnock win the 2028 Democratic presidential nomination?","type":"deepValue","score":39797008236.99707,"change":null},{"q":"Will J.D. Vance win the 2028 Republican presidential nomination?","type":"tightRaces","score":17150760.36224116,"change":null},{"q":"Will the next Prime Minister of Hungary be Viktor Orbán?","type":"tightRaces","score":449779.22343112336,"change":null},{"q":"Will GPT-6 be released before GTA VI?","type":"wideSpread","score":90084.6710184,"change":null}]}
+{"timestamp":"2026-03-12T01:45:39.271Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-12T01:45:31.516Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-12T01:45:31.516Z","type":"palpha","message":"Found 2 potential trades from scanner"}
+{"timestamp":"2026-03-12T01:45:31.516Z","type":"palpha","message":"Passed on \"Will GPT-6 be released before GTA VI?\" — no Grok data available"}
+{"timestamp":"2026-03-12T01:45:31.516Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-12T01:45:31.516Z","type":"palpha","message":"Evaluated 2 opportunities, 1 vetoed."}
+{"timestamp":"2026-03-12T01:45:31.516Z","type":"palpha","message":"  ✗ \"Will GPT-6 be released before GTA VI?\" — NOISE — not enough edge"}
+{"timestamp":"2026-03-12T01:45:31.516Z","type":"palpha","message":"  + 1 below top-5 cutoff (no Grok eval)"}
