@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-13T22:43:08.247Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-13T22:43:08.247Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-13T22:48:08.021Z","type":"scan","message":"Cycle #321 — 0 tennis markets | 1 active events | $1.9K recent flow | 1 held"}
-{"timestamp":"2026-03-13T22:48:08.022Z","type":"think","message":"Money flowing: \"Set Handicap: Sabalenka (-1.5) vs Noskova (+1.5)\" — $1.9K heavily buying, biggest trade $1.9K, 35s ago"}
-{"timestamp":"2026-03-13T22:48:08.022Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-03-13T22:48:08.231Z","cycle":321,"ingestion":{"markets":0,"tradeVolume":1900,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1900},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-13T22:48:15.670Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-13T22:48:08.227Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-13T22:48:08.227Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-13T22:48:08.227Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-13T22:48:08.227Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-13T22:53:08.125Z","type":"scan","message":"Cycle #322 — 0 tennis markets | 1 active events | $1.9K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-14T00:33:08.860Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-14T00:33:08.860Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-14T00:33:08.860Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-14T00:38:08.554Z","type":"scan","message":"Cycle #343 — 0 tennis markets | 2 active events | $9.7K recent flow | 1 held"}
+{"timestamp":"2026-03-14T00:38:08.554Z","type":"think","message":"Money flowing: \"BNP Paribas Open: Aryna Sabalenka vs Linda Noskova\" — $9.0K selling, biggest trade $3.9K, 27s ago"}
+{"timestamp":"2026-03-14T00:38:08.555Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-14T00:38:08.917Z","cycle":343,"ingestion":{"markets":0,"tradeVolume":9658,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":9658},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-14T00:38:16.313Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-14T00:38:08.912Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-14T00:38:08.912Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-14T00:38:08.912Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-14T00:38:08.912Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
