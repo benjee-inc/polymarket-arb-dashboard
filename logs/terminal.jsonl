@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-15T09:23:14.660Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-15T09:23:14.660Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-15T09:28:14.336Z","type":"scan","message":"Cycle #737 — 0 tennis markets | 2 active events | $2.9K recent flow | 1 held"}
-{"timestamp":"2026-03-15T09:28:14.336Z","type":"think","message":"Money flowing: \"Will Daniil Medvedev win the 2026 Men's French Open?\" — $1.7K heavily buying, biggest trade $880, 1m ago"}
-{"timestamp":"2026-03-15T09:28:14.336Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-03-15T09:28:14.683Z","cycle":737,"ingestion":{"markets":0,"tradeVolume":2921,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":2921},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-15T09:28:21.853Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-15T09:28:14.679Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-15T09:28:14.679Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-15T09:28:14.679Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-15T09:28:14.679Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-15T09:33:14.460Z","type":"scan","message":"Cycle #738 — 0 tennis markets | 2 active events | $2.9K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-15T11:13:15.211Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-15T11:13:15.211Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-15T11:13:15.211Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-15T11:18:14.817Z","type":"scan","message":"Cycle #759 — 0 tennis markets | 1 active events | $651 recent flow | 1 held"}
+{"timestamp":"2026-03-15T11:18:14.817Z","type":"think","message":"Money flowing: \"Will Shanghai Haigang FC win on 2026-03-15?\" — $651 heavily buying, biggest trade $651, 35s ago"}
+{"timestamp":"2026-03-15T11:18:14.818Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-15T11:18:15.171Z","cycle":759,"ingestion":{"markets":0,"tradeVolume":651,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":651},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-15T11:18:22.602Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-15T11:18:15.166Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-15T11:18:15.166Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-15T11:18:15.166Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-15T11:18:15.166Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
