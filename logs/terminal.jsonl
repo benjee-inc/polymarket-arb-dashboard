@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-17T23:38:42.081Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-17T23:38:42.081Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-17T23:43:41.274Z","type":"scan","message":"Cycle #618 — 0 tennis markets | 3 active events | $5.7K recent flow | 1 held"}
-{"timestamp":"2026-03-17T23:43:41.274Z","type":"think","message":"Money flowing: \"Miami Open: Sofia Kenin vs Anna Blinkova\" — $533 heavily buying, biggest trade $533, 20s ago"}
-{"timestamp":"2026-03-17T23:43:41.274Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-03-17T23:43:41.600Z","cycle":618,"ingestion":{"markets":0,"tradeVolume":5720,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":5720},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-17T23:43:49.454Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-17T23:43:41.595Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-17T23:43:41.595Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-17T23:43:41.595Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-17T23:43:41.595Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-17T23:48:41.852Z","type":"scan","message":"Cycle #619 — 0 tennis markets | 3 active events | $5.7K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-18T01:28:41.874Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-18T01:28:41.874Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-18T01:28:41.874Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-18T01:33:41.350Z","type":"scan","message":"Cycle #640 — 0 tennis markets | 1 active events | $1.6K recent flow | 1 held"}
+{"timestamp":"2026-03-18T01:33:41.351Z","type":"think","message":"Money flowing: \"Will Learner Tien win the 2026 Men's French Open?\" — $1.6K heavily buying, biggest trade $801, 14s ago"}
+{"timestamp":"2026-03-18T01:33:41.351Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-18T01:33:41.688Z","cycle":640,"ingestion":{"markets":0,"tradeVolume":1584,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1584},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-18T01:33:49.526Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-18T01:33:41.683Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-18T01:33:41.683Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-18T01:33:41.683Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-18T01:33:41.683Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
