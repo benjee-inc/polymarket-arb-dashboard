@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-19T16:08:48.398Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-19T16:08:48.398Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-19T16:13:47.732Z","type":"scan","message":"Cycle #1104 — 0 tennis markets | 3 active events | $6.5K recent flow | 1 held"}
-{"timestamp":"2026-03-19T16:13:47.732Z","type":"think","message":"Money flowing: \"Miami Open: James Duckworth vs Roberto Bautista Agut\" — $3.0K heavily buying, biggest trade $3.0K, 2m ago"}
-{"timestamp":"2026-03-19T16:13:47.732Z","type":"decision","message":"Flow signal: \"Miami Open: Moise Kouame vs Zachary Svajda\" — buyers dominating ($3.0K net), 1 traders, 3m ago"}
-{"type":"pipeline","timestamp":"2026-03-19T16:13:48.093Z","cycle":1104,"ingestion":{"markets":0,"tradeVolume":6473,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":6473},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-19T16:13:55.480Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-19T16:13:48.088Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-19T16:13:48.088Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-19T16:13:48.088Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-19T16:13:48.088Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-19T16:18:47.840Z","type":"scan","message":"Cycle #1105 — 0 tennis markets | 1 active events | $4.7K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-19T17:58:48.282Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-19T17:58:48.282Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-19T17:58:48.282Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-19T18:03:47.989Z","type":"scan","message":"Cycle #1126 — 0 tennis markets | 3 active events | $12.3K recent flow | 1 held"}
+{"timestamp":"2026-03-19T18:03:47.989Z","type":"think","message":"Money flowing: \"Miami Open: Darwin Blanch vs Jan-Lennard Struff\" — $7.6K heavily buying, biggest trade $3.0K, 1m ago"}
+{"timestamp":"2026-03-19T18:03:47.989Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-19T18:03:48.382Z","cycle":1126,"ingestion":{"markets":0,"tradeVolume":12294,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":12294},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-19T18:03:55.724Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-19T18:03:48.377Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-19T18:03:48.377Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-19T18:03:48.377Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-19T18:03:48.377Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
