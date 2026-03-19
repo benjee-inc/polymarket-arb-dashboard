@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-19T20:08:48.798Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-19T20:08:48.798Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-19T20:13:48.299Z","type":"scan","message":"Cycle #1152 — 0 tennis markets | 5 active events | $50.6K recent flow | 1 held"}
-{"timestamp":"2026-03-19T20:13:48.299Z","type":"think","message":"Money flowing: \"Miami Open: Zhizhen Zhang vs Adrian Mannarino\" — $37.2K heavily selling, biggest trade $29.7K, 1m ago"}
-{"timestamp":"2026-03-19T20:13:48.300Z","type":"decision","message":"Flow signal: \"Miami Open: Fabian Marozsan vs Joao Fonseca\" — buyers dominating ($5.0K net), 1 traders, 2m ago"}
-{"type":"pipeline","timestamp":"2026-03-19T20:13:48.534Z","cycle":1152,"ingestion":{"markets":0,"tradeVolume":50612,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":50612},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-19T20:13:55.655Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-19T20:13:48.528Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-19T20:13:48.528Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-19T20:13:48.528Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-19T20:13:48.528Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-19T20:18:48.713Z","type":"scan","message":"Cycle #1153 — 0 tennis markets | 3 active events | $11.0K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-19T21:58:49.216Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-19T21:58:49.216Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-19T21:58:49.216Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-19T22:03:49.027Z","type":"scan","message":"Cycle #1174 — 0 tennis markets | 2 active events | $13.6K recent flow | 1 held"}
+{"timestamp":"2026-03-19T22:03:49.027Z","type":"think","message":"Money flowing: \"Miami Open: Caty McNally vs Rebeka Masarova\" — $579 heavily buying, biggest trade $579, 2m ago"}
+{"timestamp":"2026-03-19T22:03:49.028Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-19T22:03:49.374Z","cycle":1174,"ingestion":{"markets":0,"tradeVolume":13597,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":13597},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-19T22:03:56.836Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-19T22:03:49.369Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-19T22:03:49.369Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-19T22:03:49.369Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-19T22:03:49.369Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
