@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-20T02:43:50.307Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-20T02:43:50.307Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-20T02:48:49.935Z","type":"scan","message":"Cycle #1231 — 0 tennis markets | 1 active events | $5.5K recent flow | 1 held"}
-{"timestamp":"2026-03-20T02:48:49.936Z","type":"think","message":"Money flowing: \"Miami Open: Mirra Andreeva vs McCartney Kessler\" — $5.5K heavily buying, biggest trade $2.0K, 36s ago"}
-{"timestamp":"2026-03-20T02:48:49.936Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-03-20T02:48:50.148Z","cycle":1231,"ingestion":{"markets":0,"tradeVolume":5505,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":5505},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-20T02:48:57.920Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-20T02:48:50.144Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-20T02:48:50.144Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-20T02:48:50.144Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-20T02:48:50.144Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-20T02:53:50.215Z","type":"scan","message":"Cycle #1232 — 0 tennis markets | 1 active events | $670 recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-20T04:33:50.482Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-20T04:33:50.482Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-20T04:33:50.482Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-20T04:38:50.419Z","type":"scan","message":"Cycle #1253 — 0 tennis markets | 2 active events | $4.4K recent flow | 1 held"}
+{"timestamp":"2026-03-20T04:38:50.419Z","type":"think","message":"Money flowing: \"Miami Open: Mirra Andreeva vs McCartney Kessler\" — $3.8K buying, biggest trade $1.9K, 37s ago"}
+{"timestamp":"2026-03-20T04:38:50.419Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-20T04:38:50.771Z","cycle":1253,"ingestion":{"markets":0,"tradeVolume":4434,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":4434},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-20T04:39:00.972Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-20T04:38:50.767Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-20T04:38:50.767Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-20T04:38:50.767Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-20T04:38:50.767Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
