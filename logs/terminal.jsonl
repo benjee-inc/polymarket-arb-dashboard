@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-20T20:13:53.642Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-20T20:13:53.642Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-20T20:18:53.182Z","type":"scan","message":"Cycle #1441 — 0 tennis markets | 4 active events | $41.0K recent flow | 1 held"}
-{"timestamp":"2026-03-20T20:18:53.183Z","type":"think","message":"Money flowing: \"Miami Open: Amanda Anisimova vs Ajla Tomljanovic\" — $32.6K selling, biggest trade $12.5K, 3m ago"}
-{"timestamp":"2026-03-20T20:18:53.183Z","type":"decision","message":"Flow signal: \"Miami Open: Maria Sakkari vs Alycia Parks\" — buyers dominating ($4.4K net), 2 traders, 3m ago"}
-{"type":"pipeline","timestamp":"2026-03-20T20:18:53.561Z","cycle":1441,"ingestion":{"markets":0,"tradeVolume":41007,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":4,"totalVolume":41007},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-20T20:19:01.423Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-20T20:18:53.555Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-20T20:18:53.555Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-20T20:18:53.555Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-20T20:18:53.555Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-20T20:23:53.389Z","type":"scan","message":"Cycle #1442 — 0 tennis markets | 8 active events | $12.1K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-20T22:03:53.673Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-20T22:03:53.674Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-20T22:03:53.674Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-20T22:08:53.324Z","type":"scan","message":"Cycle #1463 — 0 tennis markets | 4 active events | $19.0K recent flow | 1 held"}
+{"timestamp":"2026-03-20T22:08:53.324Z","type":"think","message":"Money flowing: \"Miami Open: Jack Draper vs Reilly Opelka\" — $8.1K heavily buying, biggest trade $6.0K, 3m ago"}
+{"timestamp":"2026-03-20T22:08:53.324Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-20T22:08:53.530Z","cycle":1463,"ingestion":{"markets":0,"tradeVolume":19037,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":4,"totalVolume":19037},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-20T22:09:01.266Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-20T22:08:53.526Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-20T22:08:53.526Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-20T22:08:53.526Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-20T22:08:53.526Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
