@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-21T01:43:54.802Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-21T01:43:54.802Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-21T01:48:54.156Z","type":"scan","message":"Cycle #1507 — 0 tennis markets | 3 active events | $3.2K recent flow | 1 held"}
-{"timestamp":"2026-03-21T01:48:54.156Z","type":"think","message":"Money flowing: \"Miami Open: Peyton Stearns vs Jaqueline Cristian\" — $1.6K heavily buying, biggest trade $1.6K, 3m ago"}
-{"timestamp":"2026-03-21T01:48:54.156Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-03-21T01:48:54.387Z","cycle":1507,"ingestion":{"markets":0,"tradeVolume":3224,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":3224},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-21T01:49:02.275Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-21T01:48:54.382Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-21T01:48:54.382Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-21T01:48:54.382Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-21T01:48:54.382Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-21T01:53:54.143Z","type":"scan","message":"Cycle #1508 — 0 tennis markets | 3 active events | $2.7K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-21T03:33:54.569Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-21T03:33:54.569Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-21T03:33:54.569Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-21T03:38:54.248Z","type":"scan","message":"Cycle #1529 — 0 tennis markets | 1 active events | $853 recent flow | 1 held"}
+{"timestamp":"2026-03-21T03:38:54.248Z","type":"think","message":"Money flowing: \"Miami Open: Peyton Stearns vs Jaqueline Cristian\" — $853 heavily buying, biggest trade $853, 2m ago"}
+{"timestamp":"2026-03-21T03:38:54.248Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-21T03:38:54.462Z","cycle":1529,"ingestion":{"markets":0,"tradeVolume":853,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":853},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-21T03:39:02.382Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-21T03:38:54.457Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-21T03:38:54.457Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-21T03:38:54.457Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-21T03:38:54.457Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
