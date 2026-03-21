@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-21T18:28:57.505Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-21T18:28:57.505Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-21T18:33:57.216Z","type":"scan","message":"Cycle #1708 — 0 tennis markets | 2 active events | $10.6K recent flow | 1 held"}
-{"timestamp":"2026-03-21T18:33:57.216Z","type":"think","message":"Money flowing: \"Miami Open: Felix Auger-Aliassime vs Marton Fucsovics\" — $640 heavily selling, biggest trade $640, 1m ago"}
-{"timestamp":"2026-03-21T18:33:57.216Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-03-21T18:33:57.428Z","cycle":1708,"ingestion":{"markets":0,"tradeVolume":10640,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":10640},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-21T18:34:04.897Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-21T18:33:57.423Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-21T18:33:57.423Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-21T18:33:57.423Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-21T18:33:57.423Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-21T18:38:57.059Z","type":"scan","message":"Cycle #1709 — 0 tennis markets | 1 active events | $15.5K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-21T20:18:57.680Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-21T20:18:57.680Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-21T20:18:57.680Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-21T20:23:57.352Z","type":"scan","message":"Cycle #1730 — 0 tennis markets | 5 active events | $19.4K recent flow | 1 held"}
+{"timestamp":"2026-03-21T20:23:57.352Z","type":"think","message":"Money flowing: \"Miami Open: Alex Michelsen vs Cameron Norrie\" — $5.9K heavily buying, biggest trade $1.9K, 1m ago"}
+{"timestamp":"2026-03-21T20:23:57.352Z","type":"decision","message":"Flow signal: \"Will Judy Shelton be confirmed as Fed Chair?\" — buyers dominating ($3.7K net), 5 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-03-21T20:23:57.699Z","cycle":1730,"ingestion":{"markets":0,"tradeVolume":19357,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":19357},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-21T20:24:05.154Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-21T20:23:57.689Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-21T20:23:57.689Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-21T20:23:57.689Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-21T20:23:57.689Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
