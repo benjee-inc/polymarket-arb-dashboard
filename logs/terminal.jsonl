@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-21T19:33:57.418Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-21T19:33:57.418Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-21T19:38:57.121Z","type":"scan","message":"Cycle #1721 — 0 tennis markets | 6 active events | $10.7K recent flow | 1 held"}
-{"timestamp":"2026-03-21T19:38:57.121Z","type":"think","message":"Money flowing: \"Miami Open: Diana Shnaider vs Belinda Bencic\" — $3.8K heavily selling, biggest trade $3.8K, 1m ago"}
-{"timestamp":"2026-03-21T19:38:57.121Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-03-21T19:38:57.471Z","cycle":1721,"ingestion":{"markets":0,"tradeVolume":10714,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":6,"totalVolume":10714},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-21T19:39:06.660Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-21T19:38:57.461Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-21T19:38:57.461Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-21T19:38:57.461Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-21T19:38:57.461Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-21T19:43:57.898Z","type":"scan","message":"Cycle #1722 — 0 tennis markets | 3 active events | $39.5K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-21T21:23:57.853Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-21T21:23:57.853Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-21T21:23:57.853Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-21T21:28:57.534Z","type":"scan","message":"Cycle #1743 — 0 tennis markets | 3 active events | $8.1K recent flow | 1 held"}
+{"timestamp":"2026-03-21T21:28:57.534Z","type":"think","message":"Money flowing: \"Miami Open: Alexandra Eala vs Magda Linette\" — $5.7K heavily buying, biggest trade $5.7K, 58s ago"}
+{"timestamp":"2026-03-21T21:28:57.534Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-21T21:28:57.761Z","cycle":1743,"ingestion":{"markets":0,"tradeVolume":8121,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":8121},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-21T21:29:05.586Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-21T21:28:57.756Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-21T21:28:57.756Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-21T21:28:57.756Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-21T21:28:57.756Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
