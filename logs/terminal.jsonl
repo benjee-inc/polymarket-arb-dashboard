@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-24T19:04:11.008Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-24T19:04:11.008Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-24T19:09:10.650Z","type":"scan","message":"Cycle #2579 — 0 tennis markets | 3 active events | $2.6K recent flow | 1 held"}
-{"timestamp":"2026-03-24T19:09:10.650Z","type":"think","message":"Money flowing: \"Miami Open: Alex Michelsen vs Jannik Sinner\" — $1000 heavily buying, biggest trade $1000, 5m ago"}
-{"timestamp":"2026-03-24T19:09:10.650Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-03-24T19:09:10.986Z","cycle":2579,"ingestion":{"markets":0,"tradeVolume":2648,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":2648},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-24T19:09:18.632Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-24T19:09:10.982Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-24T19:09:10.982Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-24T19:09:10.982Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-24T19:09:10.982Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-24T19:14:11.309Z","type":"scan","message":"Cycle #2580 — 0 tennis markets | 0 active events | $0 recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-24T20:54:11.274Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-24T20:54:11.274Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-24T20:54:11.274Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-24T20:59:11.108Z","type":"scan","message":"Cycle #2601 — 0 tennis markets | 2 active events | $2.7K recent flow | 1 held"}
+{"timestamp":"2026-03-24T20:59:11.108Z","type":"think","message":"Money flowing: \"Miami Open: Tomas Etcheverry vs Tommy Paul\" — $2.0K heavily buying, biggest trade $2.0K, 5m ago"}
+{"timestamp":"2026-03-24T20:59:11.108Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-24T20:59:11.328Z","cycle":2601,"ingestion":{"markets":0,"tradeVolume":2704,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":2704},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-24T20:59:19.050Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-24T20:59:11.323Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-24T20:59:11.323Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-24T20:59:11.323Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-24T20:59:11.323Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
