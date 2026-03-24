@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-24T17:24:10.587Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-24T17:24:10.587Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-24T17:29:10.314Z","type":"scan","message":"Cycle #2559 — 0 tennis markets | 3 active events | $11.3K recent flow | 1 held"}
-{"timestamp":"2026-03-24T17:29:10.315Z","type":"think","message":"Money flowing: \"Miami Open: Valentin Vacherot vs Arthur Fils\" — $1.4K heavily buying, biggest trade $1.4K, 6m ago"}
-{"timestamp":"2026-03-24T17:29:10.315Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-03-24T17:29:10.547Z","cycle":2559,"ingestion":{"markets":0,"tradeVolume":11254,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":11254},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-24T17:29:18.478Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-24T17:29:10.542Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-24T17:29:10.542Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-24T17:29:10.542Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-24T17:29:10.542Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-24T17:34:10.670Z","type":"scan","message":"Cycle #2560 — 0 tennis markets | 0 active events | $0 recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-24T19:14:11.687Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-24T19:14:11.687Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-24T19:14:11.687Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-24T19:19:11.034Z","type":"scan","message":"Cycle #2581 — 0 tennis markets | 2 active events | $4.1K recent flow | 1 held"}
+{"timestamp":"2026-03-24T19:19:11.035Z","type":"think","message":"Money flowing: \"Miami Open: Valentin Vacherot vs Arthur Fils\" — $1.8K heavily buying, biggest trade $1.8K, 6m ago"}
+{"timestamp":"2026-03-24T19:19:11.035Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-24T19:19:11.249Z","cycle":2581,"ingestion":{"markets":0,"tradeVolume":4092,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":4092},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-24T19:19:19.063Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-24T19:19:11.244Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-24T19:19:11.244Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-24T19:19:11.244Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-24T19:19:11.244Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
