@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-24T15:44:09.953Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-24T15:44:09.953Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-24T15:49:09.839Z","type":"scan","message":"Cycle #2539 — 0 tennis markets | 1 active events | $1000 recent flow | 1 held"}
-{"timestamp":"2026-03-24T15:49:09.840Z","type":"think","message":"Money flowing: \"Miami Open: Sebastian Korda vs Martin Landaluce\" — $1000 heavily buying, biggest trade $1000, 6m ago"}
-{"timestamp":"2026-03-24T15:49:09.840Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-03-24T15:49:10.083Z","cycle":2539,"ingestion":{"markets":0,"tradeVolume":1000,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1000},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-24T15:49:17.868Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-24T15:49:10.078Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-24T15:49:10.078Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-24T15:49:10.078Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-24T15:49:10.078Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-24T15:54:09.974Z","type":"scan","message":"Cycle #2540 — 0 tennis markets | 1 active events | $2.0K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-24T17:34:11.042Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-24T17:34:11.042Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-24T17:34:11.042Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-24T17:39:10.743Z","type":"scan","message":"Cycle #2561 — 0 tennis markets | 1 active events | $4.4K recent flow | 1 held"}
+{"timestamp":"2026-03-24T17:39:10.743Z","type":"think","message":"Money flowing: \"Miami Open: Sebastian Korda vs Martin Landaluce\" — $4.4K heavily buying, biggest trade $2.9K, 5m ago"}
+{"timestamp":"2026-03-24T17:39:10.743Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-03-24T17:39:11.123Z","cycle":2561,"ingestion":{"markets":0,"tradeVolume":4406,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":4406},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-24T17:39:19.239Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-24T17:39:11.119Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-24T17:39:11.119Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-24T17:39:11.119Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-24T17:39:11.119Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
