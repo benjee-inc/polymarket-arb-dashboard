@@ -1,12 +1,3 @@
-{"timestamp":"2026-03-27T23:14:24.576Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-03-27T23:14:24.576Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-03-27T23:19:24.223Z","type":"scan","message":"Cycle #3493 — 0 tennis markets | 3 active events | $10.6K recent flow | 1 held"}
-{"timestamp":"2026-03-27T23:19:24.223Z","type":"think","message":"Money flowing: \"Miami Open: Alexander Zverev vs Jannik Sinner\" — $4.7K heavily buying, biggest trade $4.7K, 1m ago"}
-{"timestamp":"2026-03-27T23:19:24.223Z","type":"decision","message":"Flow signal: \"Will Clara Tauson be the 2026 Women’s Wimbledon Winner?\" — buyers dominating ($4.1K net), 4 traders, 2m ago"}
-{"type":"pipeline","timestamp":"2026-03-27T23:19:24.567Z","cycle":3493,"ingestion":{"markets":0,"tradeVolume":10601,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":10601},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-03-27T23:19:32.381Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-03-27T23:19:24.561Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-03-27T23:19:24.561Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-27T23:19:24.561Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-27T23:19:24.561Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-03-27T23:24:24.244Z","type":"scan","message":"Cycle #3494 — 0 tennis markets | 1 active events | $4.9K recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-03-28T01:04:24.582Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-03-28T01:04:24.582Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-03-28T01:04:24.582Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-03-28T01:09:24.585Z","type":"scan","message":"Cycle #3515 — 0 tennis markets | 2 active events | $29.8K recent flow | 1 held"}
+{"timestamp":"2026-03-28T01:09:24.585Z","type":"think","message":"Money flowing: \"Set Handicap: Sinner (-1.5) vs Zverev (+1.5)\" — $26.5K heavily selling, biggest trade $17.6K, 1m ago"}
+{"timestamp":"2026-03-28T01:09:24.586Z","type":"decision","message":"Flow signal: \"Miami Open: Aryna Sabalenka vs Coco Gauff\" — buyers dominating ($3.3K net), 2 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-03-28T01:09:24.927Z","cycle":3515,"ingestion":{"markets":0,"tradeVolume":29781,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":29781},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-03-28T01:09:33.124Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-03-28T01:09:24.922Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-03-28T01:09:24.922Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-03-28T01:09:24.922Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-03-28T01:09:24.922Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
