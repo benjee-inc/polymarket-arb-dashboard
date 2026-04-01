@@ -1,12 +1,3 @@
-{"timestamp":"2026-04-01T17:19:45.709Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
-{"timestamp":"2026-04-01T17:19:45.709Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-04-01T17:24:46.149Z","type":"scan","message":"Cycle #4862 — 0 tennis markets | 1 active events | $865 recent flow | 1 held"}
-{"timestamp":"2026-04-01T17:24:46.149Z","type":"think","message":"Money flowing: \"Pittsburgh Pirates vs. Cincinnati Reds: O/U 9.5\" — $865 heavily buying, biggest trade $865, 2m ago"}
-{"timestamp":"2026-04-01T17:24:46.149Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-04-01T17:24:46.548Z","cycle":4862,"ingestion":{"markets":0,"tradeVolume":865,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":865},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-04-01T17:24:54.126Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
-{"timestamp":"2026-04-01T17:24:46.543Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
-{"timestamp":"2026-04-01T17:24:46.543Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-04-01T17:24:46.543Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-04-01T17:24:46.543Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-04-01T17:29:45.398Z","type":"scan","message":"Cycle #4863 — 0 tennis markets | 0 active events | $0 recent flow | 1 held"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-04-01T19:09:46.254Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-04-01T19:09:46.254Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
 {"timestamp":"2026-04-01T19:09:46.254Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-04-01T19:14:46.250Z","type":"scan","message":"Cycle #4884 — 0 tennis markets | 3 active events | $8.0K recent flow | 1 held"}
+{"timestamp":"2026-04-01T19:14:46.250Z","type":"think","message":"Money flowing: \"Will Judy Shelton be confirmed as Fed Chair?\" — $968 heavily buying, biggest trade $968, 3m ago"}
+{"timestamp":"2026-04-01T19:14:46.250Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-04-01T19:14:46.507Z","cycle":4884,"ingestion":{"markets":0,"tradeVolume":8000,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":8000},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-04-01T19:14:54.074Z","type":"pnl","message":"Today: $-0.10 (-0.0%) · Portfolio $237 · 1 positions · 0 trades"}
+{"timestamp":"2026-04-01T19:14:46.501Z","type":"palpha","message":"[held] 33 positions excluded from opportunity search"}
+{"timestamp":"2026-04-01T19:14:46.501Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-04-01T19:14:46.501Z","type":"palpha","message":"1 active positions (32 dust ignored)"}
+{"timestamp":"2026-04-01T19:14:46.501Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
