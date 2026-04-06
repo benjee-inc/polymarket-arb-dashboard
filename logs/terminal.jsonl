@@ -1,12 +1,3 @@
-{"timestamp":"2026-04-06T13:05:04.557Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-04-06T13:05:04.557Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-04-06T13:10:04.095Z","type":"scan","message":"Cycle #6251 — 0 tennis markets | 2 active events | $2.6K recent flow"}
-{"timestamp":"2026-04-06T13:10:04.095Z","type":"think","message":"Money flowing: \"Rolex Monte Carlo Masters: Francisco Cerundolo vs Stef…\" — $1.4K heavily buying, biggest trade $1.4K, 8m ago"}
-{"timestamp":"2026-04-06T13:10:04.095Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-04-06T13:10:04.305Z","cycle":6251,"ingestion":{"markets":0,"tradeVolume":2569,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":2569},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-04-06T13:10:11.333Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-04-06T13:10:04.300Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-04-06T13:10:04.300Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-04-06T13:10:04.300Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-04-06T13:10:04.300Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-04-06T13:15:04.582Z","type":"scan","message":"Cycle #6252 — 0 tennis markets | 0 active events | $0 recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-04-06T14:55:04.689Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-04-06T14:55:04.689Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-04-06T14:55:04.689Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-04-06T15:00:05.759Z","type":"scan","message":"Cycle #6273 — 0 tennis markets | 1 active events | $507 recent flow"}
+{"timestamp":"2026-04-06T15:00:05.759Z","type":"think","message":"Money flowing: \"Rolex Monte Carlo Masters: Denis Shapovalov vs Alexand…\" — $507 heavily buying, biggest trade $507, 4m ago"}
+{"timestamp":"2026-04-06T15:00:05.759Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-04-06T15:00:06.087Z","cycle":6273,"ingestion":{"markets":0,"tradeVolume":507,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":507},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-04-06T15:00:13.071Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-04-06T15:00:06.064Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-04-06T15:00:06.064Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-04-06T15:00:06.064Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-04-06T15:00:06.070Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
