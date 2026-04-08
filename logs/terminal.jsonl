@@ -1,12 +1,3 @@
-{"timestamp":"2026-04-08T11:45:13.011Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-04-08T11:45:13.011Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-04-08T11:50:12.387Z","type":"scan","message":"Cycle #6811 — 0 tennis markets | 2 active events | $2.6K recent flow"}
-{"timestamp":"2026-04-08T11:50:12.387Z","type":"think","message":"Money flowing: \"Rolex Monte Carlo Masters: Cristian Garin vs Alexander…\" — $1.5K heavily buying, biggest trade $1.5K, 4m ago"}
-{"timestamp":"2026-04-08T11:50:12.387Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-04-08T11:50:12.707Z","cycle":6811,"ingestion":{"markets":0,"tradeVolume":2585,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":2585},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-04-08T11:50:19.808Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-04-08T11:50:12.703Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-04-08T11:50:12.703Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-04-08T11:50:12.703Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-04-08T11:50:12.703Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-04-08T11:55:11.968Z","type":"scan","message":"Cycle #6812 — 0 tennis markets | 2 active events | $2.6K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-04-08T13:35:13.353Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-04-08T13:35:13.353Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-04-08T13:35:13.353Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-04-08T13:40:13.041Z","type":"scan","message":"Cycle #6833 — 0 tennis markets | 4 active events | $8.8K recent flow"}
+{"timestamp":"2026-04-08T13:40:13.041Z","type":"think","message":"Money flowing: \"Rolex Monte Carlo Masters: Cristian Garin vs Alexander…\" — $2.1K heavily selling, biggest trade $2.1K, 5m ago"}
+{"timestamp":"2026-04-08T13:40:13.041Z","type":"decision","message":"Flow signal: \"Upper Austria Ladies Linz: Jelena Ostapenko vs Alexand…\" — buyers dominating ($2.1K net), 1 traders, 3m ago"}
+{"type":"pipeline","timestamp":"2026-04-08T13:40:13.329Z","cycle":6833,"ingestion":{"markets":0,"tradeVolume":8761,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":4,"totalVolume":8761},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-04-08T13:40:20.379Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-04-08T13:40:13.323Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-04-08T13:40:13.323Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-04-08T13:40:13.323Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-04-08T13:40:13.323Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
