@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-06T11:25:32.595Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-06T11:25:32.595Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-06T11:30:32.408Z","type":"scan","message":"Cycle #335 — 0 tennis markets | 1 active events | $1.2K recent flow"}
-{"timestamp":"2026-05-06T11:30:32.408Z","type":"think","message":"Money flowing: \"Internazionali BNL d'Italia: Hubert Hurkacz vs Yannick…\" — $1.2K heavily buying, biggest trade $643, 4m ago"}
-{"timestamp":"2026-05-06T11:30:32.408Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-06T11:30:32.742Z","cycle":335,"ingestion":{"markets":0,"tradeVolume":1199,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1199},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-06T11:30:39.807Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-06T11:30:32.738Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-06T11:30:32.738Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-06T11:30:32.738Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-06T11:30:32.738Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-06T11:35:32.393Z","type":"scan","message":"Cycle #336 — 0 tennis markets | 1 active events | $1.2K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-06T13:15:33.357Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-06T13:15:33.357Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-06T13:15:33.357Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-06T13:20:32.696Z","type":"scan","message":"Cycle #357 — 0 tennis markets | 2 active events | $2.8K recent flow"}
+{"timestamp":"2026-05-06T13:20:32.696Z","type":"think","message":"Money flowing: \"Shanghai Haigang FC vs. Shenzhen Xinpengcheng FC: O/U …\" — $2.0K heavily buying, biggest trade $2.0K, 2m ago"}
+{"timestamp":"2026-05-06T13:20:32.696Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-06T13:20:32.932Z","cycle":357,"ingestion":{"markets":0,"tradeVolume":2800,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":2800},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-06T13:20:40.020Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-06T13:20:32.927Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-06T13:20:32.927Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-06T13:20:32.927Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-06T13:20:32.927Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
