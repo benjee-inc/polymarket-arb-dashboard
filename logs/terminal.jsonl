@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-09T08:55:45.241Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-09T08:55:45.241Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-09T09:00:45.163Z","type":"scan","message":"Cycle #1163 — 0 tennis markets | 3 active events | $2.3K recent flow"}
-{"timestamp":"2026-05-09T09:00:45.163Z","type":"think","message":"Money flowing: \"Internazionali BNL d'Italia: Aryna Sabalenka vs Sorana…\" — $750 heavily buying, biggest trade $750, 11m ago"}
-{"timestamp":"2026-05-09T09:00:45.163Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-09T09:00:45.425Z","cycle":1163,"ingestion":{"markets":0,"tradeVolume":2347,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":2347},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-09T09:00:52.557Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-09T09:00:45.420Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-09T09:00:45.420Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-09T09:00:45.420Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-09T09:00:45.420Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-09T09:05:45.047Z","type":"scan","message":"Cycle #1164 — 0 tennis markets | 0 active events | $0 recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-09T10:45:46.487Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-09T10:45:46.487Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-09T10:45:46.487Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-09T10:50:45.559Z","type":"scan","message":"Cycle #1185 — 0 tennis markets | 3 active events | $8.7K recent flow"}
+{"timestamp":"2026-05-09T10:50:45.559Z","type":"think","message":"Money flowing: \"Will Shanghai Shenhua FC win on 2026-05-09?\" — $1.8K heavily buying, biggest trade $1.8K, 7m ago"}
+{"timestamp":"2026-05-09T10:50:45.559Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-09T10:50:45.765Z","cycle":1185,"ingestion":{"markets":0,"tradeVolume":8738,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":8738},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-09T10:50:52.851Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-09T10:50:45.761Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-09T10:50:45.761Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-09T10:50:45.761Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-09T10:50:45.761Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
