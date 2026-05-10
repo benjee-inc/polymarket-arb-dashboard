@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-10T11:45:50.626Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-10T11:45:50.626Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-10T11:50:50.226Z","type":"scan","message":"Cycle #1485 — 0 tennis markets | 2 active events | $4.3K recent flow"}
-{"timestamp":"2026-05-10T11:50:50.226Z","type":"think","message":"Money flowing: \"Internazionali BNL d'Italia: Alexander Blockx vs Alexa…\" — $1000 heavily buying, biggest trade $1000, 8m ago"}
-{"timestamp":"2026-05-10T11:50:50.226Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-10T11:50:50.444Z","cycle":1485,"ingestion":{"markets":0,"tradeVolume":4263,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":4263},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-10T11:50:57.518Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-10T11:50:50.439Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-10T11:50:50.439Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-10T11:50:50.439Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-10T11:50:50.439Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-10T11:55:50.401Z","type":"scan","message":"Cycle #1486 — 0 tennis markets | 2 active events | $1.8K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-10T13:35:50.910Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-10T13:35:50.910Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-10T13:35:50.910Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-10T13:40:50.706Z","type":"scan","message":"Cycle #1507 — 0 tennis markets | 1 active events | $1.0K recent flow"}
+{"timestamp":"2026-05-10T13:40:50.706Z","type":"think","message":"Money flowing: \"Internazionali BNL d'Italia: Madison Keys vs Nikola Ba…\" — $1.0K heavily selling, biggest trade $1.0K, 2m ago"}
+{"timestamp":"2026-05-10T13:40:50.706Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-10T13:40:51.030Z","cycle":1507,"ingestion":{"markets":0,"tradeVolume":1045,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1045},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-10T13:40:57.989Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-10T13:40:51.026Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-10T13:40:51.026Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-10T13:40:51.026Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-10T13:40:51.026Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
