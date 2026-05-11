@@ -1,11 +1,3 @@
-{"timestamp":"2026-05-11T09:50:54.536Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-11T09:50:54.536Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-11T09:55:55.829Z","type":"scan","message":"Cycle #1750 — 0 tennis markets | 2 active events | $8.2K recent flow"}
-{"timestamp":"2026-05-11T09:55:55.829Z","type":"think","message":"Money flowing: \"Internazionali BNL d'Italia: Anna Kalinskaya vs Jelena…\" — $530 heavily buying, biggest trade $530, 2m ago"}
-{"timestamp":"2026-05-11T09:55:55.829Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-11T09:55:56.143Z","cycle":1750,"ingestion":{"markets":0,"tradeVolume":8210,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":8210},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-11T09:56:04.091Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-11T09:55:56.139Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
 {"timestamp":"2026-05-11T09:55:56.139Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-11T09:55:56.139Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-11T09:55:56.139Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
@@ -198,3 +190,11 @@
 {"timestamp":"2026-05-11T11:40:54.763Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-11T11:40:54.763Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-11T11:40:54.763Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-11T11:45:54.541Z","type":"scan","message":"Cycle #1772 — 0 tennis markets | 3 active events | $26.5K recent flow"}
+{"timestamp":"2026-05-11T11:45:54.542Z","type":"think","message":"Money flowing: \"Internazionali BNL d'Italia: Anna Kalinskaya vs Jelena…\" — $22.1K heavily buying, biggest trade $7.3K, 1m ago"}
+{"timestamp":"2026-05-11T11:45:54.542Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-11T11:45:54.760Z","cycle":1772,"ingestion":{"markets":0,"tradeVolume":26494,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":26494},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-11T11:45:54.756Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-11T11:45:54.756Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-11T11:45:54.756Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-11T11:45:54.756Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
