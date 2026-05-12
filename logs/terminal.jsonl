@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-12T14:35:59.555Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-12T14:35:59.555Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-12T14:40:59.545Z","type":"scan","message":"Cycle #2094 — 0 tennis markets | 2 active events | $6.2K recent flow"}
-{"timestamp":"2026-05-12T14:40:59.545Z","type":"think","message":"Money flowing: \"Internazionali BNL d'Italia: Jannik Sinner vs Andrea P…\" — $3.1K heavily selling, biggest trade $1.5K, 40s ago"}
-{"timestamp":"2026-05-12T14:40:59.546Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-12T14:40:59.759Z","cycle":2094,"ingestion":{"markets":0,"tradeVolume":6156,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":6156},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-12T14:41:06.883Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-12T14:40:59.755Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-12T14:40:59.755Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-12T14:40:59.755Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-12T14:40:59.755Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-12T14:45:59.345Z","type":"scan","message":"Cycle #2095 — 0 tennis markets | 2 active events | $6.2K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-12T16:25:59.926Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-12T16:25:59.926Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-12T16:25:59.926Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-12T16:30:59.913Z","type":"scan","message":"Cycle #2116 — 0 tennis markets | 1 active events | $2.5K recent flow"}
+{"timestamp":"2026-05-12T16:30:59.913Z","type":"think","message":"Money flowing: \"Internazionali BNL d'Italia: Andrey Rublev vs Nikoloz …\" — $2.5K buying, biggest trade $968, 53s ago"}
+{"timestamp":"2026-05-12T16:30:59.913Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-12T16:31:00.276Z","cycle":2116,"ingestion":{"markets":0,"tradeVolume":2467,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":2467},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-12T16:31:07.347Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-12T16:31:00.272Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-12T16:31:00.272Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-12T16:31:00.272Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-12T16:31:00.272Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
