@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-12T19:01:00.640Z","type":"think","message":"All top signals on cooldown — markets stable, no fresh alpha."}
-{"timestamp":"2026-05-12T19:01:00.640Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-12T19:01:00.907Z","cycle":2145,"ingestion":{"markets":0,"tradeVolume":2799,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":2799},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-12T19:01:08.119Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-12T19:01:00.902Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-12T19:01:00.902Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-05-12T19:01:00.902Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-12T19:01:00.902Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-12T19:06:00.441Z","type":"scan","message":"Cycle #2146 — 0 tennis markets | 1 active events | $2.8K recent flow"}
 {"timestamp":"2026-05-12T19:06:00.441Z","type":"think","message":"Money flowing: \"Internazionali BNL d'Italia: Coco Gauff vs Mirra Andre…\" — $2.8K buying, biggest trade $1.5K, 7m ago"}
 {"timestamp":"2026-05-12T19:06:00.441Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
 {"type":"pipeline","timestamp":"2026-05-12T19:06:00.804Z","cycle":2146,"ingestion":{"markets":0,"tradeVolume":2799,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":2799},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-12T20:51:01.107Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-12T20:51:01.107Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-12T20:51:01.107Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-12T20:56:00.656Z","type":"scan","message":"Cycle #2167 — 0 tennis markets | 1 active events | $571 recent flow"}
+{"timestamp":"2026-05-12T20:56:00.656Z","type":"think","message":"All top signals on cooldown — markets stable, no fresh alpha."}
+{"timestamp":"2026-05-12T20:56:00.656Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-12T20:56:00.884Z","cycle":2167,"ingestion":{"markets":0,"tradeVolume":571,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":571},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-12T20:56:08.002Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-12T20:56:00.881Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-12T20:56:00.881Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-12T20:56:00.881Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-12T20:56:00.881Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
