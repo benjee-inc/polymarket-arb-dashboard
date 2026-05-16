@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-16T13:46:17.078Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-16T13:46:17.078Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-16T13:51:16.660Z","type":"scan","message":"Cycle #3227 — 0 tennis markets | 1 active events | $583 recent flow"}
-{"timestamp":"2026-05-16T13:51:16.660Z","type":"think","message":"Money flowing: \"Paris: Madison Keys vs Yulia Starodubtseva\" — $583 heavily selling, biggest trade $583, 1m ago"}
-{"timestamp":"2026-05-16T13:51:16.660Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-16T13:51:16.890Z","cycle":3227,"ingestion":{"markets":0,"tradeVolume":583,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":583},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-16T13:51:23.823Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-16T13:51:16.886Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-16T13:51:16.886Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-16T13:51:16.886Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-16T13:51:16.886Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-16T13:56:16.389Z","type":"scan","message":"Cycle #3228 — 0 tennis markets | 1 active events | $583 recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-16T15:36:17.060Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-16T15:36:17.060Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-16T15:36:17.060Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-16T15:41:17.006Z","type":"scan","message":"Cycle #3249 — 0 tennis markets | 1 active events | $5.0K recent flow"}
+{"timestamp":"2026-05-16T15:41:17.006Z","type":"think","message":"Money flowing: \"Internazionali BNL d'Italia: Coco Gauff vs Elina Svito…\" — $5.0K heavily buying, biggest trade $5.0K, 2m ago"}
+{"timestamp":"2026-05-16T15:41:17.007Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-16T15:41:17.335Z","cycle":3249,"ingestion":{"markets":0,"tradeVolume":5039,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":5039},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-16T15:41:24.340Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-16T15:41:17.330Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-16T15:41:17.330Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-16T15:41:17.330Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-16T15:41:17.330Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
