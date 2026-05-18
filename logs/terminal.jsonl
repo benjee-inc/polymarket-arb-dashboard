@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-18T10:01:25.232Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-18T10:01:25.232Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-18T10:06:25.351Z","type":"scan","message":"Cycle #3758 — 0 tennis markets | 2 active events | $3.6K recent flow"}
-{"timestamp":"2026-05-18T10:06:25.351Z","type":"think","message":"Money flowing: \"Hamburg European Open: Marcos Giron vs Ben Shelton\" — $2.3K heavily buying, biggest trade $2.3K, 2m ago"}
-{"timestamp":"2026-05-18T10:06:25.351Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-18T10:06:25.608Z","cycle":3758,"ingestion":{"markets":0,"tradeVolume":3625,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":3625},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-18T10:06:32.821Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-18T10:06:25.604Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-18T10:06:25.604Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-18T10:06:25.604Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-18T10:06:25.604Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-18T10:11:24.133Z","type":"scan","message":"Cycle #3759 — 0 tennis markets | 2 active events | $3.6K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-18T11:51:25.577Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-18T11:51:25.577Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-18T11:51:25.577Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-18T11:56:24.856Z","type":"scan","message":"Cycle #3780 — 0 tennis markets | 1 active events | $10.2K recent flow"}
+{"timestamp":"2026-05-18T11:56:24.857Z","type":"think","message":"Money flowing: \"Hamburg European Open: Francisco Cerundolo vs Alex de …\" — $10.2K selling, biggest trade $2.8K, 39s ago"}
+{"timestamp":"2026-05-18T11:56:24.857Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-18T11:56:25.220Z","cycle":3780,"ingestion":{"markets":0,"tradeVolume":10187,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":10187},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-18T11:56:32.278Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-18T11:56:25.216Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-18T11:56:25.216Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-18T11:56:25.216Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-18T11:56:25.216Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
