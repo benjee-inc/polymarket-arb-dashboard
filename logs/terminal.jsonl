@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-19T13:16:30.368Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-19T13:16:30.368Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-19T13:21:30.129Z","type":"scan","message":"Cycle #4085 — 0 tennis markets | 2 active events | $8.8K recent flow"}
-{"timestamp":"2026-05-19T13:21:30.129Z","type":"think","message":"Money flowing: \"Roland Garros, Qualification WTA: Lulu Sun vs Yexin Ma\" — $5.0K heavily buying, biggest trade $5.0K, 5m ago"}
-{"timestamp":"2026-05-19T13:21:30.129Z","type":"decision","message":"Flow signal: \"Chengdu Rongcheng FC vs. Shanghai Haigang FC: O/U 1.5\" — buyers dominating ($3.8K net), 1 traders, 4m ago"}
-{"type":"pipeline","timestamp":"2026-05-19T13:21:30.332Z","cycle":4085,"ingestion":{"markets":0,"tradeVolume":8756,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":8756},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-19T13:21:37.333Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-19T13:21:30.328Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-19T13:21:30.328Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-19T13:21:30.328Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-19T13:21:30.328Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-19T13:26:30.156Z","type":"scan","message":"Cycle #4086 — 0 tennis markets | 3 active events | $4.9K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-19T15:06:30.901Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-19T15:06:30.901Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-19T15:06:30.901Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-19T15:11:30.593Z","type":"scan","message":"Cycle #4107 — 0 tennis markets | 2 active events | $2.2K recent flow"}
+{"timestamp":"2026-05-19T15:11:30.593Z","type":"think","message":"Money flowing: \"Will Shanghai Haigang FC win on 2026-05-19?\" — $1.3K heavily selling, biggest trade $1.3K, 6m ago"}
+{"timestamp":"2026-05-19T15:11:30.593Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-19T15:11:30.814Z","cycle":4107,"ingestion":{"markets":0,"tradeVolume":2189,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":2189},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-19T15:11:38.017Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-19T15:11:30.810Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-19T15:11:30.810Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-19T15:11:30.810Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-19T15:11:30.810Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
