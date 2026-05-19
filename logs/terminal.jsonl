@@ -1,6 +1,3 @@
-{"timestamp":"2026-05-19T13:31:30.217Z","type":"think","message":"Money flowing: \"Roland Garros, Qualification ATP: Jaime Faria vs Grigo…\" — $2.0K heavily selling, biggest trade $2.0K, 2m ago"}
-{"timestamp":"2026-05-19T13:31:30.217Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-19T13:31:30.468Z","cycle":4087,"ingestion":{"markets":0,"tradeVolume":2823,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":2823},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
 {"timestamp":"2026-05-19T13:31:37.428Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
 {"timestamp":"2026-05-19T13:31:30.463Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
 {"timestamp":"2026-05-19T13:31:30.463Z","type":"palpha","message":"Found 0 potential trades from scanner"}
@@ -198,3 +195,6 @@
 {"timestamp":"2026-05-19T15:21:32.025Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-19T15:21:32.025Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-19T15:21:32.025Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-19T15:26:59.651Z","type":"scan","message":"Error: The operation was aborted due to timeout"}
+{"type":"pipeline","timestamp":"2026-05-19T15:26:59.651Z","cycle":4108,"ingestion":{"markets":0,"tradeVolume":0,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":0,"totalVolume":0},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-19T15:27:08.101Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $0 · 0 positions · 0 trades"}
