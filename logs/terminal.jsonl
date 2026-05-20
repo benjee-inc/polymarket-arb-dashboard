@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-20T09:56:33.881Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-20T09:56:33.881Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-20T10:01:33.738Z","type":"scan","message":"Cycle #4329 — 0 tennis markets | 7 active events | $12.7K recent flow"}
-{"timestamp":"2026-05-20T10:01:33.738Z","type":"think","message":"Money flowing: \"Roland Garros, Qualification ATP: Pedro Boscardin Dias…\" — $3.5K heavily buying, biggest trade $3.5K, 3m ago"}
-{"timestamp":"2026-05-20T10:01:33.738Z","type":"decision","message":"Flow signal: \"Roland Garros, Qualification WTA: Greet Minnen vs Lola…\" — buyers dominating ($2.8K net), 1 traders, 2m ago"}
-{"type":"pipeline","timestamp":"2026-05-20T10:01:33.918Z","cycle":4329,"ingestion":{"markets":0,"tradeVolume":12698,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":12698},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-20T10:01:40.924Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-20T10:01:33.915Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-20T10:01:33.915Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-20T10:01:33.915Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-20T10:01:33.915Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-20T10:06:33.953Z","type":"scan","message":"Cycle #4330 — 0 tennis markets | 7 active events | $12.7K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-20T11:46:34.133Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-20T11:46:34.133Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-20T11:46:34.133Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-20T11:51:33.896Z","type":"scan","message":"Cycle #4351 — 0 tennis markets | 4 active events | $8.0K recent flow"}
+{"timestamp":"2026-05-20T11:51:33.896Z","type":"think","message":"Money flowing: \"Roland Garros, Qualification ATP: Pedro Boscardin Dias…\" — $4.0K heavily buying, biggest trade $4.0K, 1m ago"}
+{"timestamp":"2026-05-20T11:51:33.896Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-20T11:51:34.082Z","cycle":4351,"ingestion":{"markets":0,"tradeVolume":7985,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":4,"totalVolume":7985},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-20T11:51:40.986Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-20T11:51:34.078Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-20T11:51:34.078Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-20T11:51:34.078Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-20T11:51:34.078Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
