@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-20T13:16:34.377Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-20T13:16:34.377Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-20T13:21:34.261Z","type":"scan","message":"Cycle #4369 — 0 tennis markets | 3 active events | $4.7K recent flow"}
-{"timestamp":"2026-05-20T13:21:34.261Z","type":"think","message":"Money flowing: \"Geneva Open: Raphael Collignon vs Casper Ruud\" — $2.4K heavily buying, biggest trade $1.6K, 14s ago"}
-{"timestamp":"2026-05-20T13:21:34.261Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-20T13:21:34.459Z","cycle":4369,"ingestion":{"markets":0,"tradeVolume":4664,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":4664},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-20T13:21:41.391Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-20T13:21:34.455Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-20T13:21:34.455Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-20T13:21:34.455Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-20T13:21:34.455Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-20T13:26:33.970Z","type":"scan","message":"Cycle #4370 — 0 tennis markets | 3 active events | $4.7K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-20T15:06:34.710Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-20T15:06:34.710Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-20T15:06:34.710Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-20T15:11:34.338Z","type":"scan","message":"Cycle #4391 — 0 tennis markets | 3 active events | $4.5K recent flow"}
+{"timestamp":"2026-05-20T15:11:34.338Z","type":"think","message":"Money flowing: \"Roland Garros, Qualification WTA: Dominika Salkova vs …\" — $1.1K heavily buying, biggest trade $1.1K, 7m ago"}
+{"timestamp":"2026-05-20T15:11:34.338Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-20T15:11:34.549Z","cycle":4391,"ingestion":{"markets":0,"tradeVolume":4506,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":4506},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-20T15:11:41.584Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-20T15:11:34.544Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-20T15:11:34.544Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-20T15:11:34.544Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-20T15:11:34.544Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
