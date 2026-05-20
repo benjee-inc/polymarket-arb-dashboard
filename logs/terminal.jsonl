@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-20T13:56:34.319Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-20T13:56:34.319Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-20T14:01:34.138Z","type":"scan","message":"Cycle #4377 — 0 tennis markets | 6 active events | $17.2K recent flow"}
-{"timestamp":"2026-05-20T14:01:34.138Z","type":"think","message":"Money flowing: \"Will Jakub Mensik win the 2026 Men's French Open?\" — $9.2K heavily buying, biggest trade $9.2K, 5m ago"}
-{"timestamp":"2026-05-20T14:01:34.139Z","type":"decision","message":"Flow signal: \"Roland Garros, Qualification WTA: Viktoria Hruncakova …\" — sellers dominating ($3.2K net), 1 traders, 5m ago"}
-{"type":"pipeline","timestamp":"2026-05-20T14:01:34.395Z","cycle":4377,"ingestion":{"markets":0,"tradeVolume":17223,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":6,"totalVolume":17223},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-20T14:01:41.391Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-20T14:01:34.390Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-20T14:01:34.390Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-20T14:01:34.390Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-20T14:01:34.390Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-20T14:06:34.355Z","type":"scan","message":"Cycle #4378 — 0 tennis markets | 2 active events | $14.9K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-20T15:46:35.052Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-20T15:46:35.052Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-20T15:46:35.052Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-20T15:51:34.458Z","type":"scan","message":"Cycle #4399 — 0 tennis markets | 5 active events | $13.7K recent flow"}
+{"timestamp":"2026-05-20T15:51:34.458Z","type":"think","message":"Money flowing: \"Hamburg European Open: Alejandro Davidovich Fokina vs …\" — $1000 heavily buying, biggest trade $1000, 8m ago"}
+{"timestamp":"2026-05-20T15:51:34.458Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-20T15:51:34.680Z","cycle":4399,"ingestion":{"markets":0,"tradeVolume":13681,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":13681},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-20T15:51:41.735Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-20T15:51:34.676Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-20T15:51:34.676Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-20T15:51:34.676Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-20T15:51:34.676Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
