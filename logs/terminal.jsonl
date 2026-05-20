@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-20T14:26:34.706Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-20T14:26:34.706Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-20T14:31:34.595Z","type":"scan","message":"Cycle #4383 — 0 tennis markets | 2 active events | $1.2K recent flow"}
-{"timestamp":"2026-05-20T14:31:34.596Z","type":"think","message":"Money flowing: \"Beijing Ducks vs. Shanghai Sharks\" — $504 heavily selling, biggest trade $504, 9m ago"}
-{"timestamp":"2026-05-20T14:31:34.596Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-20T14:31:34.932Z","cycle":4383,"ingestion":{"markets":0,"tradeVolume":1192,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":1192},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-20T14:31:41.882Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-20T14:31:34.926Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-20T14:31:34.926Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-20T14:31:34.926Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-20T14:31:34.926Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-20T14:36:34.405Z","type":"scan","message":"Cycle #4384 — 0 tennis markets | 1 active events | $564 recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-20T16:16:35.024Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-20T16:16:35.024Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-20T16:16:35.024Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-20T16:21:34.663Z","type":"scan","message":"Cycle #4405 — 0 tennis markets | 3 active events | $12.7K recent flow"}
+{"timestamp":"2026-05-20T16:21:34.663Z","type":"think","message":"Money flowing: \"Internationaux de Strasbourg: Emma Navarro vs Iva Jovic\" — $4.9K heavily buying, biggest trade $2.0K, 3m ago"}
+{"timestamp":"2026-05-20T16:21:34.663Z","type":"decision","message":"Flow signal: \"Roland Garros, Qualification ATP: Vilius Gaubas vs Joa…\" — sellers dominating ($3.2K net), 1 traders, 2m ago"}
+{"type":"pipeline","timestamp":"2026-05-20T16:21:34.887Z","cycle":4405,"ingestion":{"markets":0,"tradeVolume":12692,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":12692},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-20T16:21:41.988Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-20T16:21:34.883Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-20T16:21:34.883Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-20T16:21:34.883Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-20T16:21:34.883Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
