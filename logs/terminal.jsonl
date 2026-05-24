@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-24T11:56:51.396Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-24T11:56:51.396Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-24T12:01:51.481Z","type":"scan","message":"Cycle #5505 — 0 tennis markets | 6 active events | $202.7K recent flow"}
-{"timestamp":"2026-05-24T12:01:51.481Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Tomas Etcheverry vs Nuno Borges\" — $196.2K heavily buying, biggest trade $196.2K, 2m ago"}
-{"timestamp":"2026-05-24T12:01:51.481Z","type":"decision","message":"Flow signal: \"Roland Garros WTA: Danka Kovinic vs Xiyu Wang\" — buyers dominating ($3.2K net), 1 traders, 1m ago"}
-{"type":"pipeline","timestamp":"2026-05-24T12:01:51.671Z","cycle":5505,"ingestion":{"markets":0,"tradeVolume":202718,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":6,"totalVolume":202718},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-24T12:01:58.710Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-24T12:01:51.667Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-24T12:01:51.667Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-24T12:01:51.667Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-24T12:01:51.667Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-24T12:06:51.355Z","type":"scan","message":"Cycle #5506 — 0 tennis markets | 6 active events | $202.7K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-24T13:46:51.726Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-24T13:46:51.726Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-24T13:46:51.726Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-24T13:51:51.544Z","type":"scan","message":"Cycle #5527 — 0 tennis markets | 5 active events | $51.0K recent flow"}
+{"timestamp":"2026-05-24T13:51:51.544Z","type":"think","message":"Money flowing: \"Perricard vs. Djokovic: Match O/U 36.5\" — $559 heavily buying, biggest trade $559, 2m ago"}
+{"timestamp":"2026-05-24T13:51:51.544Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-24T13:51:51.757Z","cycle":5527,"ingestion":{"markets":0,"tradeVolume":50963,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":50963},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-24T13:51:58.660Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-24T13:51:51.753Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-24T13:51:51.753Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-24T13:51:51.753Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-24T13:51:51.753Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
