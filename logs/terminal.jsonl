@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-24T15:51:51.950Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-24T15:51:51.950Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-24T15:56:51.848Z","type":"scan","message":"Cycle #5552 — 0 tennis markets | 6 active events | $16.6K recent flow"}
-{"timestamp":"2026-05-24T15:56:51.848Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Alexander Blockx vs Coleman Wong\" — $3.0K heavily buying, biggest trade $3.0K, 6m ago"}
-{"timestamp":"2026-05-24T15:56:51.848Z","type":"decision","message":"Flow signal: \"Roland Garros WTA: Emma Raducanu vs Solana Sierra\" — buyers dominating ($2.0K net), 2 traders, 6m ago"}
-{"type":"pipeline","timestamp":"2026-05-24T15:56:52.046Z","cycle":5552,"ingestion":{"markets":0,"tradeVolume":16648,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":6,"totalVolume":16648},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-24T15:56:59.057Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-24T15:56:52.042Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-24T15:56:52.042Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-24T15:56:52.042Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-24T15:56:52.042Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-24T16:01:52.180Z","type":"scan","message":"Cycle #5553 — 0 tennis markets | 7 active events | $15.8K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-24T17:41:51.987Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-24T17:41:51.987Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-24T17:41:51.987Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-24T17:46:51.838Z","type":"scan","message":"Cycle #5574 — 0 tennis markets | 5 active events | $4.6K recent flow"}
+{"timestamp":"2026-05-24T17:46:51.838Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Michael Zheng vs Dino Prizmic\" — $1.0K heavily selling, biggest trade $1.0K, 10m ago"}
+{"timestamp":"2026-05-24T17:46:51.838Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-24T17:46:52.036Z","cycle":5574,"ingestion":{"markets":0,"tradeVolume":4624,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":4624},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-24T17:46:58.962Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-24T17:46:52.032Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-24T17:46:52.032Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-24T17:46:52.032Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-24T17:46:52.032Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
