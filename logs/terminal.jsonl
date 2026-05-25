@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-25T12:46:55.876Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-25T12:46:55.876Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-25T12:51:55.586Z","type":"scan","message":"Cycle #5803 — 0 tennis markets | 7 active events | $8.7K recent flow"}
-{"timestamp":"2026-05-25T12:51:55.586Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Mariano Navone vs Jenson Brooksby\" — $2.5K heavily buying, biggest trade $2.5K, 2m ago"}
-{"timestamp":"2026-05-25T12:51:55.586Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-25T12:51:55.764Z","cycle":5803,"ingestion":{"markets":0,"tradeVolume":8695,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":8695},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-25T12:52:02.717Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-25T12:51:55.761Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-25T12:51:55.761Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T12:51:55.761Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T12:51:55.761Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-25T12:56:55.622Z","type":"scan","message":"Cycle #5804 — 0 tennis markets | 7 active events | $8.7K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-25T14:36:55.874Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T14:36:55.874Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T14:36:55.874Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-25T14:41:55.677Z","type":"scan","message":"Cycle #5825 — 0 tennis markets | 9 active events | $78.5K recent flow"}
+{"timestamp":"2026-05-25T14:41:55.677Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Thanasi Kokkinakis vs Terence Atmane\" — $3.9K heavily buying, biggest trade $3.9K, 8m ago"}
+{"timestamp":"2026-05-25T14:41:55.677Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-25T14:41:55.860Z","cycle":5825,"ingestion":{"markets":0,"tradeVolume":78487,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":9,"totalVolume":78487},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-25T14:42:02.846Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-25T14:41:55.856Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-25T14:41:55.856Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-25T14:41:55.856Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-25T14:41:55.856Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
