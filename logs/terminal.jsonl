@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-25T08:46:55.217Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-25T08:46:55.217Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-25T08:51:55.037Z","type":"scan","message":"Cycle #5755 — 0 tennis markets | 3 active events | $28.3K recent flow"}
-{"timestamp":"2026-05-25T08:51:55.037Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Ignacio Buse vs Andrey Rublev\" — $553 heavily buying, biggest trade $553, 2m ago"}
-{"timestamp":"2026-05-25T08:51:55.037Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-25T08:51:55.234Z","cycle":5755,"ingestion":{"markets":0,"tradeVolume":28292,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":28292},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-25T08:52:02.219Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-25T08:51:55.230Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-25T08:51:55.230Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T08:51:55.230Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T08:51:55.230Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-25T08:56:54.981Z","type":"scan","message":"Cycle #5756 — 0 tennis markets | 3 active events | $28.3K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-25T10:36:55.594Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T10:36:55.594Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T10:36:55.594Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-25T10:41:55.372Z","type":"scan","message":"Cycle #5777 — 0 tennis markets | 8 active events | $34.8K recent flow"}
+{"timestamp":"2026-05-25T10:41:55.372Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Daniel Merida Aguilar vs Ben Shelton\" — $12.0K heavily buying, biggest trade $12.0K, 6m ago"}
+{"timestamp":"2026-05-25T10:41:55.372Z","type":"decision","message":"Flow signal: \"Roland Garros WTA: Elina Svitolina vs Anna Bondar\" — buyers dominating ($9.2K net), 2 traders, 7m ago"}
+{"type":"pipeline","timestamp":"2026-05-25T10:41:55.555Z","cycle":5777,"ingestion":{"markets":0,"tradeVolume":34828,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":8,"totalVolume":34828},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-25T10:42:02.714Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-25T10:41:55.551Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-25T10:41:55.551Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-25T10:41:55.551Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-25T10:41:55.551Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
