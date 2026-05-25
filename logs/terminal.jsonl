@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-25T09:36:55.300Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-25T09:36:55.300Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-25T09:41:55.152Z","type":"scan","message":"Cycle #5765 — 0 tennis markets | 5 active events | $18.1K recent flow"}
-{"timestamp":"2026-05-25T09:41:55.152Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Alexander Shevchenko vs Alex Michel…\" — $6.1K heavily buying, biggest trade $4.3K, 1m ago"}
-{"timestamp":"2026-05-25T09:41:55.152Z","type":"decision","message":"Flow signal: \"Roland Garros ATP: Casper Ruud vs Roman Safiullin\" — sellers dominating ($3.8K net), 1 traders, 2m ago"}
-{"type":"pipeline","timestamp":"2026-05-25T09:41:55.343Z","cycle":5765,"ingestion":{"markets":0,"tradeVolume":18124,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":18124},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-25T09:42:02.258Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-25T09:41:55.340Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-25T09:41:55.340Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T09:41:55.340Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T09:41:55.340Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-25T09:46:55.145Z","type":"scan","message":"Cycle #5766 — 0 tennis markets | 5 active events | $18.1K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-25T11:26:55.589Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T11:26:55.589Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T11:26:55.589Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-25T11:31:55.482Z","type":"scan","message":"Cycle #5787 — 0 tennis markets | 9 active events | $51.1K recent flow"}
+{"timestamp":"2026-05-25T11:31:55.482Z","type":"think","message":"Money flowing: \"Roland Garros WTA: Emerson Jones vs Iga Swiatek\" — $22.1K heavily selling, biggest trade $22.1K, 2m ago"}
+{"timestamp":"2026-05-25T11:31:55.482Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-25T11:31:55.660Z","cycle":5787,"ingestion":{"markets":0,"tradeVolume":51083,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":9,"totalVolume":51083},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-25T11:32:02.735Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-25T11:31:55.656Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-25T11:31:55.656Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-25T11:31:55.656Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-25T11:31:55.656Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
