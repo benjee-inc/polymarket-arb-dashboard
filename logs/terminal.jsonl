@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-25T14:11:56.139Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-25T14:11:56.139Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-25T14:16:55.713Z","type":"scan","message":"Cycle #5820 — 0 tennis markets | 10 active events | $47.5K recent flow"}
-{"timestamp":"2026-05-25T14:16:55.713Z","type":"think","message":"Money flowing: \"Roland Garros WTA: Panna Udvardy vs Viktorija Golubic\" — $14.7K heavily buying, biggest trade $8.0K, 9m ago"}
-{"timestamp":"2026-05-25T14:16:55.713Z","type":"decision","message":"Flow signal: \"Roland Garros ATP: Eliot Spizzirri vs Frances Tiafoe\" — sellers dominating ($2.5K net), 2 traders, 8m ago"}
-{"type":"pipeline","timestamp":"2026-05-25T14:16:55.886Z","cycle":5820,"ingestion":{"markets":0,"tradeVolume":47485,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":10,"totalVolume":47485},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-25T14:17:02.965Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-25T14:16:55.882Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-25T14:16:55.882Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T14:16:55.882Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T14:16:55.882Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-25T14:21:55.814Z","type":"scan","message":"Cycle #5821 — 0 tennis markets | 6 active events | $65.7K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-25T16:01:56.329Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T16:01:56.329Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T16:01:56.329Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-25T16:06:55.751Z","type":"scan","message":"Cycle #5842 — 0 tennis markets | 11 active events | $31.6K recent flow"}
+{"timestamp":"2026-05-25T16:06:55.751Z","type":"think","message":"Money flowing: \"Roland Garros WTA: Diana Shnaider vs Renata Zarazua\" — $918 heavily buying, biggest trade $918, 9m ago"}
+{"timestamp":"2026-05-25T16:06:55.751Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-25T16:06:55.980Z","cycle":5842,"ingestion":{"markets":0,"tradeVolume":31560,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":11,"totalVolume":31560},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-25T16:07:02.980Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-25T16:06:55.976Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-25T16:06:55.976Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-25T16:06:55.976Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-25T16:06:55.976Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
