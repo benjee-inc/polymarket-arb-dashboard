@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-25T13:56:55.807Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-25T13:56:55.807Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-25T14:01:55.658Z","type":"scan","message":"Cycle #5817 — 0 tennis markets | 8 active events | $25.1K recent flow"}
-{"timestamp":"2026-05-25T14:01:55.658Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Ugo Humbert vs Adrian Mannarino\" — $11.9K heavily buying, biggest trade $11.9K, 5m ago"}
-{"timestamp":"2026-05-25T14:01:55.659Z","type":"decision","message":"Flow signal: \"Roland Garros WTA: Elina Svitolina vs Anna Bondar\" — sellers dominating ($3.2K net), 2 traders, 3m ago"}
-{"type":"pipeline","timestamp":"2026-05-25T14:01:55.846Z","cycle":5817,"ingestion":{"markets":0,"tradeVolume":25123,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":8,"totalVolume":25123},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-25T14:02:02.934Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-25T14:01:55.842Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-25T14:01:55.842Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T14:01:55.842Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T14:01:55.842Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-25T14:06:55.644Z","type":"scan","message":"Cycle #5818 — 0 tennis markets | 8 active events | $25.1K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-25T15:46:55.836Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T15:46:55.836Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T15:46:55.836Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-25T15:51:55.910Z","type":"scan","message":"Cycle #5839 — 0 tennis markets | 9 active events | $25.2K recent flow"}
+{"timestamp":"2026-05-25T15:51:55.910Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Thanasi Kokkinakis vs Terence Atmane\" — $11.1K heavily buying, biggest trade $7.2K, 2m ago"}
+{"timestamp":"2026-05-25T15:51:55.910Z","type":"decision","message":"Flow signal: \"Roland Garros ATP: Raphael Collignon vs Aleksandar Vuk…\" — buyers dominating ($3.6K net), 2 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-05-25T15:51:56.115Z","cycle":5839,"ingestion":{"markets":0,"tradeVolume":25174,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":9,"totalVolume":25174},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-25T15:52:03.053Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-25T15:51:56.111Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-25T15:51:56.111Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-25T15:51:56.111Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-25T15:51:56.111Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
