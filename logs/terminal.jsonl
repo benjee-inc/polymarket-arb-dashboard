@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-25T17:56:56.181Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-25T17:56:56.181Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-25T18:01:56.254Z","type":"scan","message":"Cycle #5865 — 0 tennis markets | 10 active events | $32.3K recent flow"}
-{"timestamp":"2026-05-25T18:01:56.254Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Casper Ruud vs Roman Safiullin\" — $6.1K heavily buying, biggest trade $1.8K, 3m ago"}
-{"timestamp":"2026-05-25T18:01:56.255Z","type":"decision","message":"Flow signal: \"Roland Garros WTA: Jelena Ostapenko vs Ella Seidel\" — buyers dominating ($3.2K net), 1 traders, 3m ago"}
-{"type":"pipeline","timestamp":"2026-05-25T18:01:56.478Z","cycle":5865,"ingestion":{"markets":0,"tradeVolume":32340,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":10,"totalVolume":32340},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-25T18:02:03.639Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-25T18:01:56.474Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-25T18:01:56.474Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T18:01:56.474Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T18:01:56.474Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-25T18:06:56.276Z","type":"scan","message":"Cycle #5866 — 0 tennis markets | 10 active events | $32.3K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-25T19:46:56.717Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-25T19:46:56.717Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-25T19:46:56.717Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-25T19:51:56.571Z","type":"scan","message":"Cycle #5887 — 0 tennis markets | 8 active events | $16.6K recent flow"}
+{"timestamp":"2026-05-25T19:51:56.571Z","type":"think","message":"Money flowing: \"Cincinnati Reds vs. New York Mets: O/U 7.5\" — $3.1K heavily buying, biggest trade $1.8K, 2m ago"}
+{"timestamp":"2026-05-25T19:51:56.571Z","type":"decision","message":"Flow signal: \"Roland Garros ATP: Casper Ruud vs Roman Safiullin\" — sellers dominating ($2.1K net), 1 traders, 4m ago"}
+{"type":"pipeline","timestamp":"2026-05-25T19:51:56.785Z","cycle":5887,"ingestion":{"markets":0,"tradeVolume":16557,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":8,"totalVolume":16557},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-25T19:52:03.924Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-25T19:51:56.780Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-25T19:51:56.780Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-25T19:51:56.780Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-25T19:51:56.780Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
