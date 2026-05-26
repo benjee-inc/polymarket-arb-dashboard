@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-26T10:01:59.234Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-26T10:01:59.234Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-26T10:06:59.209Z","type":"scan","message":"Cycle #6058 — 0 tennis markets | 5 active events | $19.6K recent flow"}
-{"timestamp":"2026-05-26T10:06:59.209Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Tallon Griekspoor vs Matteo Arnaldi\" — $8.7K heavily buying, biggest trade $4.9K, 23s ago"}
-{"timestamp":"2026-05-26T10:06:59.209Z","type":"decision","message":"Flow signal: \"Roland Garros ATP: Martin Landaluce vs Juan Carlos Pra…\" — buyers dominating ($3.5K net), 1 traders, 1m ago"}
-{"type":"pipeline","timestamp":"2026-05-26T10:06:59.396Z","cycle":6058,"ingestion":{"markets":0,"tradeVolume":19585,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":19585},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-26T10:07:06.459Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-26T10:06:59.392Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-26T10:06:59.392Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-26T10:06:59.392Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-26T10:06:59.392Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-26T10:11:59.176Z","type":"scan","message":"Cycle #6059 — 0 tennis markets | 5 active events | $19.6K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-26T11:51:59.759Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-26T11:51:59.759Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-26T11:51:59.759Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-26T11:56:59.473Z","type":"scan","message":"Cycle #6080 — 0 tennis markets | 7 active events | $16.4K recent flow"}
+{"timestamp":"2026-05-26T11:56:59.473Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Thomas Faurel vs Valentin Vacherot\" — $1.8K heavily buying, biggest trade $1.1K, 8m ago"}
+{"timestamp":"2026-05-26T11:56:59.473Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-26T11:56:59.654Z","cycle":6080,"ingestion":{"markets":0,"tradeVolume":16366,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":16366},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-26T11:57:06.678Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-26T11:56:59.651Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-26T11:56:59.651Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-26T11:56:59.651Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-26T11:56:59.651Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
