@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-26T11:11:59.532Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-26T11:11:59.532Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-26T11:16:59.292Z","type":"scan","message":"Cycle #6072 — 0 tennis markets | 7 active events | $27.4K recent flow"}
-{"timestamp":"2026-05-26T11:16:59.292Z","type":"think","message":"Money flowing: \"Roland Garros WTA: Claire Liu vs Moyuka Uchijima\" — $2.6K buying, biggest trade $1.3K, 7m ago"}
-{"timestamp":"2026-05-26T11:16:59.292Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-26T11:16:59.483Z","cycle":6072,"ingestion":{"markets":0,"tradeVolume":27416,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":27416},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-26T11:17:06.475Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-26T11:16:59.479Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-26T11:16:59.479Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-26T11:16:59.479Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-26T11:16:59.479Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-26T11:21:59.344Z","type":"scan","message":"Cycle #6073 — 0 tennis markets | 5 active events | $8.8K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-26T13:02:00.494Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-26T13:02:00.494Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-26T13:02:00.494Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-26T13:06:59.958Z","type":"scan","message":"Cycle #6094 — 0 tennis markets | 7 active events | $162.5K recent flow"}
+{"timestamp":"2026-05-26T13:06:59.958Z","type":"think","message":"Money flowing: \"Roland Garros WTA: Linda Noskova vs Maria Sakkari\" — $11.7K heavily selling, biggest trade $9.9K, 7m ago"}
+{"timestamp":"2026-05-26T13:06:59.958Z","type":"decision","message":"Flow signal: \"Shanghai Sharks vs. Zhejiang Lions\" — buyers dominating ($3.8K net), 1 traders, 8m ago"}
+{"type":"pipeline","timestamp":"2026-05-26T13:07:00.173Z","cycle":6094,"ingestion":{"markets":0,"tradeVolume":162516,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":162516},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-26T13:07:07.109Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-26T13:07:00.169Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-26T13:07:00.169Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-26T13:07:00.169Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-26T13:07:00.169Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
