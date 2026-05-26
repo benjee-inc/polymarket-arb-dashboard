@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-26T14:22:00.621Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-26T14:22:00.621Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-26T14:27:00.428Z","type":"scan","message":"Cycle #6110 — 0 tennis markets | 8 active events | $9.1K recent flow"}
-{"timestamp":"2026-05-26T14:27:00.428Z","type":"think","message":"Money flowing: \"Set 1 Winner: Gauff vs Townsend\" — $1.9K heavily selling, biggest trade $1.9K, 2m ago"}
-{"timestamp":"2026-05-26T14:27:00.428Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-26T14:27:00.648Z","cycle":6110,"ingestion":{"markets":0,"tradeVolume":9061,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":8,"totalVolume":9061},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-26T14:27:07.592Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-26T14:27:00.642Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-26T14:27:00.643Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-26T14:27:00.643Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-26T14:27:00.643Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-26T14:32:00.487Z","type":"scan","message":"Cycle #6111 — 0 tennis markets | 6 active events | $10.8K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-26T16:12:01.109Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-26T16:12:01.109Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-26T16:12:01.109Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-26T16:17:01.146Z","type":"scan","message":"Cycle #6132 — 0 tennis markets | 5 active events | $16.5K recent flow"}
+{"timestamp":"2026-05-26T16:17:01.146Z","type":"think","message":"Money flowing: \"Roland Garros WTA: Coco Gauff vs Taylor Townsend\" — $549 heavily selling, biggest trade $549, 9m ago"}
+{"timestamp":"2026-05-26T16:17:01.146Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-26T16:17:01.371Z","cycle":6132,"ingestion":{"markets":0,"tradeVolume":16498,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":16498},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-26T16:17:08.508Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-26T16:17:01.368Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-26T16:17:01.368Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-26T16:17:01.368Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-26T16:17:01.368Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
