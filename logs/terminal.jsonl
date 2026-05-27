@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-27T11:22:03.897Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-27T11:22:03.897Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-27T11:27:03.710Z","type":"scan","message":"Cycle #6357 — 0 tennis markets | 2 active events | $4.8K recent flow"}
-{"timestamp":"2026-05-27T11:27:03.710Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Karen Khachanov vs Marco Trungelliti\" — $1.6K heavily buying, biggest trade $894, 10m ago"}
-{"timestamp":"2026-05-27T11:27:03.710Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-27T11:27:03.891Z","cycle":6357,"ingestion":{"markets":0,"tradeVolume":4788,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":4788},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-27T11:27:10.914Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-27T11:27:03.887Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-27T11:27:03.887Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-27T11:27:03.887Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-27T11:27:03.887Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-27T11:32:03.851Z","type":"scan","message":"Cycle #6358 — 0 tennis markets | 3 active events | $5.7K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-27T13:12:04.628Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-27T13:12:04.628Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-27T13:12:04.628Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-27T13:17:04.203Z","type":"scan","message":"Cycle #6379 — 0 tennis markets | 9 active events | $72.8K recent flow"}
+{"timestamp":"2026-05-27T13:17:04.203Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Nishesh Basavareddy vs Alex Michels…\" — $27.1K heavily buying, biggest trade $27.1K, 1m ago"}
+{"timestamp":"2026-05-27T13:17:04.203Z","type":"decision","message":"Flow signal: \"Roland Garros WTA: Eva Lys vs Sorana Cirstea\" — buyers dominating ($2.2K net), 1 traders, 2m ago"}
+{"type":"pipeline","timestamp":"2026-05-27T13:17:04.387Z","cycle":6379,"ingestion":{"markets":0,"tradeVolume":72797,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":9,"totalVolume":72797},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-27T13:17:11.560Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-27T13:17:04.384Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-27T13:17:04.384Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-27T13:17:04.384Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-27T13:17:04.384Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
