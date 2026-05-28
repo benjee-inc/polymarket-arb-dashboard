@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-28T12:17:08.648Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-28T12:17:08.648Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-28T12:22:08.406Z","type":"scan","message":"Cycle #6655 — 0 tennis markets | 10 active events | $17.4K recent flow"}
-{"timestamp":"2026-05-28T12:22:08.406Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Facundo Acosta vs Learner Tien\" — $7.5K heavily buying, biggest trade $4.4K, 8m ago"}
-{"timestamp":"2026-05-28T12:22:08.406Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-28T12:22:08.592Z","cycle":6655,"ingestion":{"markets":0,"tradeVolume":17362,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":10,"totalVolume":17362},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-28T12:22:15.618Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-28T12:22:08.588Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-28T12:22:08.588Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-28T12:22:08.588Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-28T12:22:08.588Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-28T12:27:08.370Z","type":"scan","message":"Cycle #6656 — 0 tennis markets | 4 active events | $17.7K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-28T14:07:08.973Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-28T14:07:08.973Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-28T14:07:08.973Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-28T14:12:08.820Z","type":"scan","message":"Cycle #6677 — 0 tennis markets | 9 active events | $52.8K recent flow"}
+{"timestamp":"2026-05-28T14:12:08.820Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Facundo Acosta vs Learner Tien\" — $1.7K heavily selling, biggest trade $1.7K, 5m ago"}
+{"timestamp":"2026-05-28T14:12:08.820Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-28T14:12:09.025Z","cycle":6677,"ingestion":{"markets":0,"tradeVolume":52846,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":9,"totalVolume":52846},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-28T14:12:16.183Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-28T14:12:09.022Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-28T14:12:09.022Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-28T14:12:09.022Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-28T14:12:09.022Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
