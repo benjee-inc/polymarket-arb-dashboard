@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-28T15:22:09.159Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-28T15:22:09.159Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-28T15:27:08.816Z","type":"scan","message":"Cycle #6692 — 0 tennis markets | 7 active events | $46.0K recent flow"}
-{"timestamp":"2026-05-28T15:27:08.816Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Felix Auger-Aliassime vs Roman Andr…\" — $3.3K heavily buying, biggest trade $1.1K, 9m ago"}
-{"timestamp":"2026-05-28T15:27:08.816Z","type":"decision","message":"Flow signal: \"Roland Garros ATP: Martin Landaluce vs Vit Kopriva\" — buyers dominating ($3.0K net), 1 traders, 12m ago"}
-{"type":"pipeline","timestamp":"2026-05-28T15:27:09.007Z","cycle":6692,"ingestion":{"markets":0,"tradeVolume":46000,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":46000},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-28T15:27:16.235Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-28T15:27:09.003Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-28T15:27:09.003Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-28T15:27:09.003Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-28T15:27:09.003Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-28T15:32:08.906Z","type":"scan","message":"Cycle #6693 — 0 tennis markets | 13 active events | $41.2K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-28T17:12:09.297Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-28T17:12:09.297Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-28T17:12:09.297Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-28T17:17:09.665Z","type":"scan","message":"Cycle #6714 — 0 tennis markets | 2 active events | $1.5K recent flow"}
+{"timestamp":"2026-05-28T17:17:09.665Z","type":"think","message":"Money flowing: \"Will Francisco Cerundolo win the 2026 Men's French Ope…\" — $943 heavily buying, biggest trade $943, 50s ago"}
+{"timestamp":"2026-05-28T17:17:09.665Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-28T17:17:09.868Z","cycle":6714,"ingestion":{"markets":0,"tradeVolume":1510,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":1510},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-28T17:17:17.008Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-28T17:17:09.863Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-28T17:17:09.863Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-28T17:17:09.863Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-28T17:17:09.863Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
