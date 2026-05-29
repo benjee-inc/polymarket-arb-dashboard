@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-29T10:17:12.713Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-29T10:17:12.713Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-29T10:22:12.429Z","type":"scan","message":"Cycle #6919 — 0 tennis markets | 5 active events | $25.1K recent flow"}
-{"timestamp":"2026-05-29T10:22:12.429Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Nuno Borges vs Andrey Rublev\" — $8.9K heavily buying, biggest trade $3.1K, 5m ago"}
-{"timestamp":"2026-05-29T10:22:12.429Z","type":"decision","message":"Flow signal: \"Roland Garros ATP: Thiago Agustin Tirante vs Pablo Car…\" — buyers dominating ($5.4K net), 4 traders, 5m ago"}
-{"type":"pipeline","timestamp":"2026-05-29T10:22:12.617Z","cycle":6919,"ingestion":{"markets":0,"tradeVolume":25086,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":25086},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-29T10:22:19.635Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-29T10:22:12.612Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-29T10:22:12.612Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-29T10:22:12.612Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-29T10:22:12.612Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-29T10:27:12.297Z","type":"scan","message":"Cycle #6920 — 0 tennis markets | 5 active events | $25.1K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-29T12:07:12.734Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-29T12:07:12.734Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-29T12:07:12.734Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-29T12:12:12.631Z","type":"scan","message":"Cycle #6941 — 0 tennis markets | 3 active events | $6.0K recent flow"}
+{"timestamp":"2026-05-29T12:12:12.631Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Nuno Borges vs Andrey Rublev\" — $3.8K heavily selling, biggest trade $1.6K, 2m ago"}
+{"timestamp":"2026-05-29T12:12:12.631Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-29T12:12:12.831Z","cycle":6941,"ingestion":{"markets":0,"tradeVolume":6018,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":6018},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-29T12:12:19.800Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-29T12:12:12.827Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-29T12:12:12.827Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-29T12:12:12.827Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-29T12:12:12.827Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
