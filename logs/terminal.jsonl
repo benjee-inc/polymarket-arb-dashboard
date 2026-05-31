@@ -1,12 +1,3 @@
-{"timestamp":"2026-05-31T13:37:21.336Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-05-31T13:37:21.336Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-05-31T13:42:21.169Z","type":"scan","message":"Cycle #7535 — 0 tennis markets | 4 active events | $16.7K recent flow"}
-{"timestamp":"2026-05-31T13:42:21.169Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Jesper de Jong vs Alexander Zverev\" — $902 heavily buying, biggest trade $902, 6m ago"}
-{"timestamp":"2026-05-31T13:42:21.169Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-05-31T13:42:21.364Z","cycle":7535,"ingestion":{"markets":0,"tradeVolume":16665,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":4,"totalVolume":16665},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-05-31T13:42:28.323Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-05-31T13:42:21.361Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-05-31T13:42:21.361Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-31T13:42:21.361Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-31T13:42:21.361Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-05-31T13:47:21.414Z","type":"scan","message":"Cycle #7536 — 0 tennis markets | 9 active events | $35.3K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-05-31T15:27:21.731Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-05-31T15:27:21.731Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-05-31T15:27:21.731Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-05-31T15:32:21.567Z","type":"scan","message":"Cycle #7557 — 0 tennis markets | 3 active events | $9.2K recent flow"}
+{"timestamp":"2026-05-31T15:32:21.567Z","type":"think","message":"Money flowing: \"Jakub Mensik vs. Andrey Rublev: Total Sets O/U 3.5\" — $729 heavily buying, biggest trade $729, 2m ago"}
+{"timestamp":"2026-05-31T15:32:21.567Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-05-31T15:32:21.750Z","cycle":7557,"ingestion":{"markets":0,"tradeVolume":9201,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":9201},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-05-31T15:32:28.853Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-05-31T15:32:21.746Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-05-31T15:32:21.746Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-05-31T15:32:21.746Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-05-31T15:32:21.746Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
