@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-01T12:17:26.330Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-01T12:17:26.330Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-01T12:22:25.371Z","type":"scan","message":"Cycle #7807 — 0 tennis markets | 4 active events | $16.1K recent flow"}
-{"timestamp":"2026-06-01T12:22:25.371Z","type":"think","message":"Money flowing: \"Kansas City Royals vs. Cincinnati Reds\" — $1.6K heavily buying, biggest trade $846, 5m ago"}
-{"timestamp":"2026-06-01T12:22:25.371Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-01T12:22:25.580Z","cycle":7807,"ingestion":{"markets":0,"tradeVolume":16104,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":4,"totalVolume":16104},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-01T12:22:33.299Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-01T12:22:25.576Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-01T12:22:25.576Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-01T12:22:25.576Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-01T12:22:25.576Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-01T12:27:25.075Z","type":"scan","message":"Cycle #7808 — 0 tennis markets | 4 active events | $23.1K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-01T14:07:25.986Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-01T14:07:25.986Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-01T14:07:25.986Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-01T14:12:25.451Z","type":"scan","message":"Cycle #7829 — 0 tennis markets | 5 active events | $25.7K recent flow"}
+{"timestamp":"2026-06-01T14:12:25.452Z","type":"think","message":"Money flowing: \"Will Madison Keys win the 2026 Women’s French Open?\" — $6.7K heavily buying, biggest trade $6.7K, 2m ago"}
+{"timestamp":"2026-06-01T14:12:25.452Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-01T14:12:25.647Z","cycle":7829,"ingestion":{"markets":0,"tradeVolume":25717,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":25717},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-01T14:12:32.834Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-01T14:12:25.643Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-01T14:12:25.643Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-01T14:12:25.643Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-01T14:12:25.643Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
