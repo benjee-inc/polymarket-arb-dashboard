@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-02T13:27:30.076Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-02T13:27:30.076Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-02T13:32:29.892Z","type":"scan","message":"Cycle #8108 — 0 tennis markets | 3 active events | $25.1K recent flow"}
-{"timestamp":"2026-06-02T13:32:29.892Z","type":"think","message":"Money flowing: \"Roland Garros WTA: Elina Svitolina vs Marta Kostyuk\" — $549 heavily selling, biggest trade $549, 1m ago"}
-{"timestamp":"2026-06-02T13:32:29.892Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-02T13:32:30.161Z","cycle":8108,"ingestion":{"markets":0,"tradeVolume":25110,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":25110},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-02T13:32:37.395Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-02T13:32:30.151Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-02T13:32:30.151Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-02T13:32:30.151Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-02T13:32:30.151Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-02T13:37:29.752Z","type":"scan","message":"Cycle #8109 — 0 tennis markets | 3 active events | $25.1K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-02T15:17:30.821Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-02T15:17:30.821Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-02T15:17:30.821Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-02T15:22:29.889Z","type":"scan","message":"Cycle #8130 — 0 tennis markets | 3 active events | $32.5K recent flow"}
+{"timestamp":"2026-06-02T15:22:29.889Z","type":"think","message":"Money flowing: \"Roland Garros ATP: Jakub Mensik vs Joao Fonseca\" — $11.9K heavily buying, biggest trade $11.9K, 2m ago"}
+{"timestamp":"2026-06-02T15:22:29.890Z","type":"decision","message":"Flow signal: \"Kansas City Royals vs. Cincinnati Reds\" — buyers dominating ($8.8K net), 1 traders, 47s ago"}
+{"type":"pipeline","timestamp":"2026-06-02T15:22:30.193Z","cycle":8130,"ingestion":{"markets":0,"tradeVolume":32537,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":32537},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-02T15:22:37.128Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-02T15:22:30.189Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-02T15:22:30.189Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-02T15:22:30.189Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-02T15:22:30.189Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
