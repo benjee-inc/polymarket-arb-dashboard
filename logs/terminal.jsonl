@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-03T11:42:33.801Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-03T11:42:33.801Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-03T11:47:34.585Z","type":"scan","message":"Cycle #8375 — 0 tennis markets | 4 active events | $42.9K recent flow"}
-{"timestamp":"2026-06-03T11:47:34.585Z","type":"think","message":"Money flowing: \"Roland Garros WTA: Aryna Sabalenka vs Diana Shnaider\" — $38.3K heavily buying, biggest trade $17.8K, 16s ago"}
-{"timestamp":"2026-06-03T11:47:34.585Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-03T11:47:34.801Z","cycle":8375,"ingestion":{"markets":0,"tradeVolume":42910,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":4,"totalVolume":42910},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-03T11:47:41.972Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-03T11:47:34.796Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-03T11:47:34.796Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-03T11:47:34.796Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-03T11:47:34.796Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-03T11:52:33.571Z","type":"scan","message":"Cycle #8376 — 0 tennis markets | 4 active events | $42.9K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-03T13:32:33.797Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-03T13:32:33.797Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-03T13:32:33.797Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-03T13:37:33.553Z","type":"scan","message":"Cycle #8397 — 0 tennis markets | 3 active events | $12.7K recent flow"}
+{"timestamp":"2026-06-03T13:37:33.553Z","type":"think","message":"Money flowing: \"Will Mirra Andreeva win the 2026 Women’s French Open?\" — $2.3K buying, biggest trade $1.8K, 8m ago"}
+{"timestamp":"2026-06-03T13:37:33.553Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-03T13:37:33.751Z","cycle":8397,"ingestion":{"markets":0,"tradeVolume":12744,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":12744},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-03T13:37:40.648Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-03T13:37:33.746Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-03T13:37:33.746Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-03T13:37:33.746Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-03T13:37:33.746Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
