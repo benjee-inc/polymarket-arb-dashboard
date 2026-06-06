@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-06T01:47:44.190Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-06T01:47:44.190Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-06T01:52:44.047Z","type":"scan","message":"Cycle #9107 — 0 tennis markets | 1 active events | $2.9K recent flow"}
-{"timestamp":"2026-06-06T01:52:44.047Z","type":"think","message":"Money flowing: \"Cincinnati Reds vs. St. Louis Cardinals\" — $2.9K heavily buying, biggest trade $2.9K, 2m ago"}
-{"timestamp":"2026-06-06T01:52:44.047Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-06T01:52:44.255Z","cycle":9107,"ingestion":{"markets":0,"tradeVolume":2897,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":2897},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-06T01:52:51.160Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-06T01:52:44.250Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-06T01:52:44.250Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-06T01:52:44.250Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-06T01:52:44.250Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-06T01:57:44.059Z","type":"scan","message":"Cycle #9108 — 0 tennis markets | 1 active events | $2.9K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-06T03:37:44.368Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-06T03:37:44.368Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-06T03:37:44.368Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-06T03:42:44.228Z","type":"scan","message":"Cycle #9129 — 0 tennis markets | 1 active events | $1.2K recent flow"}
+{"timestamp":"2026-06-06T03:42:44.228Z","type":"think","message":"Money flowing: \"Roland Garros WTA: Maja Chwalinska vs Mirra Andreeva\" — $1.2K heavily buying, biggest trade $1.2K, 5m ago"}
+{"timestamp":"2026-06-06T03:42:44.228Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-06T03:42:44.430Z","cycle":9129,"ingestion":{"markets":0,"tradeVolume":1242,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1242},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-06T03:42:51.358Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-06T03:42:44.426Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-06T03:42:44.426Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-06T03:42:44.426Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-06T03:42:44.426Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
