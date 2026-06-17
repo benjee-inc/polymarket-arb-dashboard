@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-17T08:13:32.305Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-17T08:13:32.305Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-17T08:18:32.292Z","type":"scan","message":"Cycle #12352 — 0 tennis markets | 1 active events | $2.0K recent flow"}
-{"timestamp":"2026-06-17T08:18:32.292Z","type":"think","message":"Money flowing: \"Halle Open: Zizou Bergs vs Taylor Fritz\" — $2.0K heavily buying, biggest trade $1.0K, 36s ago"}
-{"timestamp":"2026-06-17T08:18:32.292Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-17T08:18:32.489Z","cycle":12352,"ingestion":{"markets":0,"tradeVolume":2000,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":2000},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-17T08:18:39.453Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-17T08:18:32.485Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-17T08:18:32.485Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-17T08:18:32.485Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-17T08:18:32.485Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-17T08:23:32.236Z","type":"scan","message":"Cycle #12353 — 0 tennis markets | 1 active events | $2.0K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-17T10:03:32.702Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-17T10:03:32.702Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-17T10:03:32.702Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-17T10:08:32.393Z","type":"scan","message":"Cycle #12374 — 0 tennis markets | 1 active events | $1.4K recent flow"}
+{"timestamp":"2026-06-17T10:08:32.393Z","type":"think","message":"Money flowing: \"Halle Open: Zizou Bergs vs Taylor Fritz\" — $1.4K heavily buying, biggest trade $1.4K, 2m ago"}
+{"timestamp":"2026-06-17T10:08:32.393Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-17T10:08:32.614Z","cycle":12374,"ingestion":{"markets":0,"tradeVolume":1380,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1380},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-17T10:08:39.528Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-17T10:08:32.609Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-17T10:08:32.609Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-17T10:08:32.609Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-17T10:08:32.609Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
