@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-18T10:18:36.812Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-18T10:18:36.812Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-18T10:23:36.522Z","type":"scan","message":"Cycle #12658 — 0 tennis markets | 1 active events | $4.0K recent flow"}
-{"timestamp":"2026-06-18T10:23:36.522Z","type":"think","message":"Money flowing: \"Set Handicap: Shelton (-1.5) vs Quinn (+1.5)\" — $4.0K heavily buying, biggest trade $2.0K, 2m ago"}
-{"timestamp":"2026-06-18T10:23:36.522Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-18T10:23:36.726Z","cycle":12658,"ingestion":{"markets":0,"tradeVolume":3960,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":3960},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-18T10:23:43.651Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-18T10:23:36.722Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-18T10:23:36.722Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-18T10:23:36.722Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-18T10:23:36.722Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-18T10:28:36.638Z","type":"scan","message":"Cycle #12659 — 0 tennis markets | 1 active events | $4.0K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-18T12:08:36.920Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-18T12:08:36.920Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-18T12:08:36.920Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-18T12:13:36.831Z","type":"scan","message":"Cycle #12680 — 0 tennis markets | 2 active events | $21.0K recent flow"}
+{"timestamp":"2026-06-18T12:13:36.831Z","type":"think","message":"Money flowing: \"Set Handicap: Zverev (-1.5) vs Hanfmann (+1.5)\" — $14.0K heavily buying, biggest trade $12.9K, 3m ago"}
+{"timestamp":"2026-06-18T12:13:36.831Z","type":"decision","message":"Flow signal: \"Halle Open: Ben Shelton vs Ethan Quinn\" — buyers dominating ($7.0K net), 2 traders, 3m ago"}
+{"type":"pipeline","timestamp":"2026-06-18T12:13:37.048Z","cycle":12680,"ingestion":{"markets":0,"tradeVolume":20969,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":20969},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-18T12:13:44.040Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-18T12:13:37.045Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-18T12:13:37.045Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-18T12:13:37.045Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-18T12:13:37.045Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
