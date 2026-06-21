@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-21T06:18:48.389Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-21T06:18:48.389Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-21T06:23:48.207Z","type":"scan","message":"Cycle #13474 — 0 tennis markets | 1 active events | $1.6K recent flow"}
-{"timestamp":"2026-06-21T06:23:48.207Z","type":"think","message":"Money flowing: \"Grass Court Championships: Jessica Pegula vs Linda Nos…\" — $1.6K heavily buying, biggest trade $915, 5s ago"}
-{"timestamp":"2026-06-21T06:23:48.207Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-21T06:23:48.418Z","cycle":13474,"ingestion":{"markets":0,"tradeVolume":1601,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1601},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-21T06:23:55.364Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-21T06:23:48.411Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-21T06:23:48.411Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-21T06:23:48.411Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-21T06:23:48.411Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-21T06:28:48.193Z","type":"scan","message":"Cycle #13475 — 0 tennis markets | 1 active events | $1.6K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-21T08:08:48.826Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-21T08:08:48.826Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-21T08:08:48.826Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-21T08:13:48.749Z","type":"scan","message":"Cycle #13496 — 0 tennis markets | 2 active events | $2.6K recent flow"}
+{"timestamp":"2026-06-21T08:13:48.749Z","type":"think","message":"Money flowing: \"Bad Homburg Open: Eva Lys vs Emma Navarro\" — $983 heavily buying, biggest trade $983, 5m ago"}
+{"timestamp":"2026-06-21T08:13:48.749Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-21T08:13:48.960Z","cycle":13496,"ingestion":{"markets":0,"tradeVolume":2604,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":2604},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-21T08:13:55.906Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-21T08:13:48.948Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-21T08:13:48.948Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-21T08:13:48.948Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-21T08:13:48.948Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
