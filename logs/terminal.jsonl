@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-21T13:18:49.930Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-21T13:18:49.930Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-21T13:23:49.666Z","type":"scan","message":"Cycle #13558 — 0 tennis markets | 3 active events | $48.5K recent flow"}
-{"timestamp":"2026-06-21T13:23:49.666Z","type":"think","message":"Money flowing: \"Nottingham Open: Marie Bouzkova vs Emma Navarro\" — $1.2K heavily buying, biggest trade $1.2K, 2m ago"}
-{"timestamp":"2026-06-21T13:23:49.666Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-21T13:23:49.854Z","cycle":13558,"ingestion":{"markets":0,"tradeVolume":48464,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":48464},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-21T13:23:56.790Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-21T13:23:49.851Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-21T13:23:49.851Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-21T13:23:49.851Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-21T13:23:49.851Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-21T13:28:49.711Z","type":"scan","message":"Cycle #13559 — 0 tennis markets | 3 active events | $48.5K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-21T15:08:50.280Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-21T15:08:50.280Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-21T15:08:50.280Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-21T15:13:50.072Z","type":"scan","message":"Cycle #13580 — 0 tennis markets | 1 active events | $1.3K recent flow"}
+{"timestamp":"2026-06-21T15:13:50.072Z","type":"think","message":"Money flowing: \"Halle Open: Taylor Fritz vs Frances Tiafoe\" — $1.3K heavily selling, biggest trade $670, 34s ago"}
+{"timestamp":"2026-06-21T15:13:50.072Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-21T15:13:50.254Z","cycle":13580,"ingestion":{"markets":0,"tradeVolume":1272,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1272},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-21T15:13:57.166Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-21T15:13:50.250Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-21T15:13:50.250Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-21T15:13:50.250Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-21T15:13:50.250Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
