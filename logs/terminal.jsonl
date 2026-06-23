@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-23T12:33:57.743Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-23T12:33:57.743Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-23T12:38:57.812Z","type":"scan","message":"Cycle #14125 — 0 tennis markets | 6 active events | $13.5K recent flow"}
-{"timestamp":"2026-06-23T12:38:57.812Z","type":"think","message":"Money flowing: \"Wimbledon, Qualification WTA: Celine Naef vs Joanna Ga…\" — $6.7K heavily buying, biggest trade $1.5K, 56s ago"}
-{"timestamp":"2026-06-23T12:38:57.812Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-23T12:38:57.995Z","cycle":14125,"ingestion":{"markets":0,"tradeVolume":13535,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":6,"totalVolume":13535},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-23T12:39:04.895Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-23T12:38:57.991Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-23T12:38:57.991Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-23T12:38:57.991Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-23T12:38:57.991Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-23T12:43:57.347Z","type":"scan","message":"Cycle #14126 — 0 tennis markets | 6 active events | $13.5K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-23T14:23:57.598Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-23T14:23:57.598Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-23T14:23:57.598Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-23T14:28:57.609Z","type":"scan","message":"Cycle #14147 — 0 tennis markets | 4 active events | $11.3K recent flow"}
+{"timestamp":"2026-06-23T14:28:57.609Z","type":"think","message":"Money flowing: \"Mallorca Championships: Stefanos Tsitsipas vs Ignacio …\" — $6.9K heavily buying, biggest trade $3.9K, 28s ago"}
+{"timestamp":"2026-06-23T14:28:57.609Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-23T14:28:57.813Z","cycle":14147,"ingestion":{"markets":0,"tradeVolume":11290,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":4,"totalVolume":11290},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-23T14:29:04.779Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-23T14:28:57.808Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-23T14:28:57.808Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-23T14:28:57.808Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-23T14:28:57.808Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
