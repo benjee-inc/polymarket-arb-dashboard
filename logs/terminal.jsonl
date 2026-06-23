@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-23T12:58:57.677Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-23T12:58:57.677Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-23T13:03:57.448Z","type":"scan","message":"Cycle #14130 — 0 tennis markets | 5 active events | $20.6K recent flow"}
-{"timestamp":"2026-06-23T13:03:57.448Z","type":"think","message":"Money flowing: \"Wimbledon, Qualification WTA: Angela Fita Boluda vs Li…\" — $1.1K heavily selling, biggest trade $1.1K, 6m ago"}
-{"timestamp":"2026-06-23T13:03:57.448Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-23T13:03:57.653Z","cycle":14130,"ingestion":{"markets":0,"tradeVolume":20568,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":20568},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-23T13:04:04.631Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-23T13:03:57.649Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-23T13:03:57.649Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-23T13:03:57.649Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-23T13:03:57.649Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-23T13:08:57.464Z","type":"scan","message":"Cycle #14131 — 0 tennis markets | 4 active events | $21.7K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-23T14:48:58.434Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-23T14:48:58.434Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-23T14:48:58.434Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-23T14:53:57.509Z","type":"scan","message":"Cycle #14152 — 0 tennis markets | 3 active events | $10.7K recent flow"}
+{"timestamp":"2026-06-23T14:53:57.509Z","type":"think","message":"Money flowing: \"Dota 2: Rune Eaters vs MODUS (BO3) - The International…\" — $950 heavily selling, biggest trade $950, 5m ago"}
+{"timestamp":"2026-06-23T14:53:57.509Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-23T14:53:57.692Z","cycle":14152,"ingestion":{"markets":0,"tradeVolume":10698,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":10698},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-23T14:54:04.628Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-23T14:53:57.688Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-23T14:53:57.688Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-23T14:53:57.688Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-23T14:53:57.688Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
