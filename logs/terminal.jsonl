@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-24T03:39:00.789Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-24T03:39:00.789Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-24T03:44:00.637Z","type":"scan","message":"Cycle #14306 — 0 tennis markets | 1 active events | $1000 recent flow"}
-{"timestamp":"2026-06-24T03:44:00.637Z","type":"think","message":"Money flowing: \"Lexus Eastbourne Open: Jessica Bouzas Maneiro vs Madis…\" — $1000 heavily buying, biggest trade $1000, 4s ago"}
-{"timestamp":"2026-06-24T03:44:00.637Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-24T03:44:00.848Z","cycle":14306,"ingestion":{"markets":0,"tradeVolume":1000,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1000},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-24T03:44:07.802Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-24T03:44:00.844Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-24T03:44:00.844Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-24T03:44:00.844Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-24T03:44:00.844Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-24T03:49:00.688Z","type":"scan","message":"Cycle #14307 — 0 tennis markets | 1 active events | $1000 recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-24T05:29:00.987Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-24T05:29:00.987Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-24T05:29:00.987Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-24T05:34:00.781Z","type":"scan","message":"Cycle #14328 — 0 tennis markets | 1 active events | $817 recent flow"}
+{"timestamp":"2026-06-24T05:34:00.781Z","type":"think","message":"Money flowing: \"Will Giovanni Mpetshi Perricard be the 2026 Men’s Wimb…\" — $817 heavily selling, biggest trade $817, 1m ago"}
+{"timestamp":"2026-06-24T05:34:00.781Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-24T05:34:01.010Z","cycle":14328,"ingestion":{"markets":0,"tradeVolume":817,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":817},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-24T05:34:07.950Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-24T05:34:01.005Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-24T05:34:01.005Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-24T05:34:01.005Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-24T05:34:01.005Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
