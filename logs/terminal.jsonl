@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-25T12:24:06.728Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-25T12:24:06.728Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-25T12:29:06.756Z","type":"scan","message":"Cycle #14699 — 0 tennis markets | 6 active events | $7.5K recent flow"}
-{"timestamp":"2026-06-25T12:29:06.756Z","type":"think","message":"Money flowing: \"Wimbledon, Qualification WTA: Iryna Shymanovich vs Kat…\" — $2.3K heavily buying, biggest trade $2.3K, 1m ago"}
-{"timestamp":"2026-06-25T12:29:06.756Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-25T12:29:06.990Z","cycle":14699,"ingestion":{"markets":0,"tradeVolume":7549,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":6,"totalVolume":7549},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-25T12:29:13.995Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-25T12:29:06.985Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-25T12:29:06.985Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-25T12:29:06.985Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-25T12:29:06.985Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-25T12:34:06.359Z","type":"scan","message":"Cycle #14700 — 0 tennis markets | 6 active events | $7.5K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-25T14:14:06.977Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-25T14:14:06.977Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-25T14:14:06.977Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-25T14:19:06.804Z","type":"scan","message":"Cycle #14721 — 0 tennis markets | 5 active events | $14.1K recent flow"}
+{"timestamp":"2026-06-25T14:19:06.804Z","type":"think","message":"Money flowing: \"Wimbledon, Qualification WTA: Teodora Kostovic vs Lin …\" — $5.2K heavily selling, biggest trade $5.2K, 44s ago"}
+{"timestamp":"2026-06-25T14:19:06.804Z","type":"decision","message":"Flow signal: \"Lexus Eastbourne Open: Jack Draper vs Gabriel Diallo\" — buyers dominating ($2.1K net), 1 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-06-25T14:19:07.022Z","cycle":14721,"ingestion":{"markets":0,"tradeVolume":14143,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":14143},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-25T14:19:13.971Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-25T14:19:07.016Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-25T14:19:07.016Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-25T14:19:07.016Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-25T14:19:07.016Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
