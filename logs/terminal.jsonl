@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-28T10:59:28.394Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-28T10:59:28.394Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-28T11:04:18.020Z","type":"scan","message":"Cycle #15546 — 0 tennis markets | 3 active events | $24.8K recent flow"}
-{"timestamp":"2026-06-28T11:04:18.020Z","type":"think","message":"Money flowing: \"Dalian Yingbo FC vs. Shanghai Shenhua FC: O/U 3.5\" — $3.2K heavily buying, biggest trade $1.9K, 1m ago"}
-{"timestamp":"2026-06-28T11:04:18.021Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-28T11:04:18.207Z","cycle":15546,"ingestion":{"markets":0,"tradeVolume":24847,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":24847},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-28T11:04:25.157Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-28T11:04:18.202Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-28T11:04:18.202Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-28T11:04:18.202Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-28T11:04:18.202Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-28T11:09:18.088Z","type":"scan","message":"Cycle #15547 — 0 tennis markets | 3 active events | $24.8K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-28T12:49:18.445Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-28T12:49:18.445Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-28T12:49:18.445Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-28T12:54:18.075Z","type":"scan","message":"Cycle #15568 — 0 tennis markets | 3 active events | $4.4K recent flow"}
+{"timestamp":"2026-06-28T12:54:18.075Z","type":"think","message":"Money flowing: \"Dalian Yingbo FC vs. Shanghai Shenhua FC: O/U 4.5\" — $2.2K heavily buying, biggest trade $953, 20s ago"}
+{"timestamp":"2026-06-28T12:54:18.075Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-28T12:54:18.269Z","cycle":15568,"ingestion":{"markets":0,"tradeVolume":4396,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":4396},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-28T12:54:25.179Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-28T12:54:18.265Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-28T12:54:18.265Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-28T12:54:18.265Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-28T12:54:18.265Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
