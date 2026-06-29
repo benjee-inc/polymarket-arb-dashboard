@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-29T13:19:22.808Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-29T13:19:22.808Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-29T13:24:22.468Z","type":"scan","message":"Cycle #15862 — 0 tennis markets | 11 active events | $52.0K recent flow"}
-{"timestamp":"2026-06-29T13:24:22.468Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Alycia Parks vs Alicia Dudeney\" — $4.7K heavily buying, biggest trade $3.5K, 5m ago"}
-{"timestamp":"2026-06-29T13:24:22.468Z","type":"decision","message":"Flow signal: \"Wimbledon ATP: Jannik Sinner vs Miomir Kecmanovic\" — buyers dominating ($4.3K net), 2 traders, 5m ago"}
-{"type":"pipeline","timestamp":"2026-06-29T13:24:22.668Z","cycle":15862,"ingestion":{"markets":0,"tradeVolume":52031,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":11,"totalVolume":52031},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-29T13:24:29.714Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-29T13:24:22.665Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-29T13:24:22.665Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-29T13:24:22.665Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-29T13:24:22.665Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-29T13:29:22.379Z","type":"scan","message":"Cycle #15863 — 0 tennis markets | 8 active events | $22.9K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-29T15:09:23.069Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-29T15:09:23.069Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-29T15:09:23.069Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-29T15:14:22.888Z","type":"scan","message":"Cycle #15884 — 0 tennis markets | 7 active events | $15.8K recent flow"}
+{"timestamp":"2026-06-29T15:14:22.888Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Taylor Townsend vs Iga Swiatek\" — $1000 heavily buying, biggest trade $1000, 7m ago"}
+{"timestamp":"2026-06-29T15:14:22.888Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-29T15:14:23.091Z","cycle":15884,"ingestion":{"markets":0,"tradeVolume":15761,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":15761},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-29T15:14:30.024Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-29T15:14:23.087Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-29T15:14:23.087Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-29T15:14:23.087Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-29T15:14:23.087Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
