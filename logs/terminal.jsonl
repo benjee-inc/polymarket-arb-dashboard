@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-29T16:14:23.336Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-29T16:14:23.336Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-29T16:19:23.162Z","type":"scan","message":"Cycle #15897 — 0 tennis markets | 7 active events | $13.8K recent flow"}
-{"timestamp":"2026-06-29T16:19:23.162Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Leylah Fernandez vs Janice Tjen\" — $2.6K heavily buying, biggest trade $1.9K, 2m ago"}
-{"timestamp":"2026-06-29T16:19:23.162Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-29T16:19:23.371Z","cycle":15897,"ingestion":{"markets":0,"tradeVolume":13832,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":13832},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-29T16:19:30.323Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-29T16:19:23.368Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-29T16:19:23.368Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-29T16:19:23.368Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-29T16:19:23.368Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-29T16:24:23.144Z","type":"scan","message":"Cycle #15898 — 0 tennis markets | 7 active events | $13.8K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-29T18:04:35.071Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-29T18:04:35.071Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-29T18:04:35.071Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-29T18:09:24.004Z","type":"scan","message":"Cycle #15919 — 0 tennis markets | 6 active events | $26.7K recent flow"}
+{"timestamp":"2026-06-29T18:09:24.004Z","type":"think","message":"Money flowing: \"Cincinnati Reds vs. Milwaukee Brewers\" — $15.5K heavily buying, biggest trade $15.5K, 59s ago"}
+{"timestamp":"2026-06-29T18:09:24.004Z","type":"decision","message":"Flow signal: \"Wimbledon WTA: Magda Linette vs Mirra Andreeva\" — buyers dominating ($5.2K net), 1 traders, 47s ago"}
+{"type":"pipeline","timestamp":"2026-06-29T18:09:26.258Z","cycle":15919,"ingestion":{"markets":0,"tradeVolume":26676,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":6,"totalVolume":26676},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-29T18:09:33.416Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-29T18:09:26.255Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-29T18:09:26.255Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-29T18:09:26.255Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-29T18:09:26.255Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
