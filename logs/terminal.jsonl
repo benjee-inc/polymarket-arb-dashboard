@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-29T17:19:23.581Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-29T17:19:23.581Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-29T17:24:23.481Z","type":"scan","message":"Cycle #15910 — 0 tennis markets | 7 active events | $11.1K recent flow"}
-{"timestamp":"2026-06-29T17:24:23.481Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Arthur Rinderknech vs Oliver Tarvet\" — $823 heavily selling, biggest trade $823, 6m ago"}
-{"timestamp":"2026-06-29T17:24:23.481Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-29T17:24:23.699Z","cycle":15910,"ingestion":{"markets":0,"tradeVolume":11085,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":11085},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-29T17:24:30.639Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-29T17:24:23.695Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-29T17:24:23.696Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-29T17:24:23.696Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-29T17:24:23.696Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-29T17:29:23.466Z","type":"scan","message":"Cycle #15911 — 0 tennis markets | 1 active events | $4.2K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-29T19:09:27.213Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-29T19:09:27.213Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-29T19:09:27.213Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-29T19:14:26.217Z","type":"scan","message":"Cycle #15932 — 0 tennis markets | 3 active events | $1.9K recent flow"}
+{"timestamp":"2026-06-29T19:14:26.217Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Dayana Yastremska vs Aoi Ito\" — $669 heavily buying, biggest trade $669, 5m ago"}
+{"timestamp":"2026-06-29T19:14:26.217Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-29T19:14:26.440Z","cycle":15932,"ingestion":{"markets":0,"tradeVolume":1926,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":1926},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-29T19:14:34.426Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-29T19:14:26.437Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-29T19:14:26.437Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-29T19:14:26.437Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-29T19:14:26.437Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
