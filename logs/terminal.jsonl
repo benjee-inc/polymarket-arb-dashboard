@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-29T10:49:22.107Z","type":"palpha","message":"Found 0 potential trades from scanner"}
-{"timestamp":"2026-06-29T10:49:22.107Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-29T10:49:22.107Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-29T10:54:21.853Z","type":"scan","message":"Cycle #15832 — 0 tennis markets | 11 active events | $67.1K recent flow"}
-{"timestamp":"2026-06-29T10:54:21.853Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Aleksandar Kovacevic vs Botic van de Za…\" — $7.1K heavily buying, biggest trade $3.7K, 14s ago"}
-{"timestamp":"2026-06-29T10:54:21.853Z","type":"decision","message":"Flow signal: \"Wimbledon ATP: Michael Zheng vs Cameron Norrie\" — buyers dominating ($6.8K net), 1 traders, 1m ago"}
-{"type":"pipeline","timestamp":"2026-06-29T10:54:22.042Z","cycle":15832,"ingestion":{"markets":0,"tradeVolume":67107,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":11,"totalVolume":67107},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-29T10:54:28.938Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-29T10:54:22.038Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
 {"timestamp":"2026-06-29T10:54:22.038Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-29T10:54:22.038Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-29T10:54:22.038Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-29T12:39:22.444Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-29T12:39:22.444Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-29T12:39:22.444Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-29T12:44:22.255Z","type":"scan","message":"Cycle #15854 — 0 tennis markets | 7 active events | $14.2K recent flow"}
+{"timestamp":"2026-06-29T12:44:22.255Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Andrey Rublev vs Roman Safiullin\" — $1.7K heavily selling, biggest trade $1.7K, 8m ago"}
+{"timestamp":"2026-06-29T12:44:22.255Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-29T12:44:22.446Z","cycle":15854,"ingestion":{"markets":0,"tradeVolume":14199,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":14199},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-29T12:44:29.369Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-29T12:44:22.443Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-29T12:44:22.443Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-29T12:44:22.443Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-29T12:44:22.443Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
