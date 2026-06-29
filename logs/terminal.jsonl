@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-29T11:44:22.114Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-29T11:44:22.114Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-29T11:49:22.328Z","type":"scan","message":"Cycle #15843 — 0 tennis markets | 6 active events | $15.1K recent flow"}
-{"timestamp":"2026-06-29T11:49:22.328Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Aleksandar Kovacevic vs Botic van de Za…\" — $6.4K heavily buying, biggest trade $3.4K, 3m ago"}
-{"timestamp":"2026-06-29T11:49:22.328Z","type":"decision","message":"Flow signal: \"Wimbledon ATP: Denis Shapovalov vs Pablo Carreno Busta\" — buyers dominating ($3.7K net), 1 traders, 1m ago"}
-{"type":"pipeline","timestamp":"2026-06-29T11:49:22.531Z","cycle":15843,"ingestion":{"markets":0,"tradeVolume":15092,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":6,"totalVolume":15092},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-29T11:49:29.532Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-29T11:49:22.527Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-29T11:49:22.527Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-29T11:49:22.527Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-29T11:49:22.527Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-29T11:54:21.902Z","type":"scan","message":"Cycle #15844 — 0 tennis markets | 6 active events | $15.1K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-29T13:34:22.680Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-29T13:34:22.680Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-29T13:34:22.680Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-29T13:39:22.440Z","type":"scan","message":"Cycle #15865 — 0 tennis markets | 5 active events | $8.0K recent flow"}
+{"timestamp":"2026-06-29T13:39:22.440Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Jelena Ostapenko vs Harriet Dart\" — $1.4K heavily buying, biggest trade $1.4K, 47s ago"}
+{"timestamp":"2026-06-29T13:39:22.440Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-29T13:39:22.651Z","cycle":15865,"ingestion":{"markets":0,"tradeVolume":8014,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":8014},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-29T13:39:29.616Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-29T13:39:22.648Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-29T13:39:22.648Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-29T13:39:22.648Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-29T13:39:22.648Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
