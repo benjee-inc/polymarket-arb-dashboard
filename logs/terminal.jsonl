@@ -1,12 +1,3 @@
-{"timestamp":"2026-06-30T15:39:28.417Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-06-30T15:39:28.417Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-06-30T15:44:27.813Z","type":"scan","message":"Cycle #16178 — 0 tennis markets | 5 active events | $7.9K recent flow"}
-{"timestamp":"2026-06-30T15:44:27.813Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Raphael Collignon vs Arthur Fils\" — $747 heavily buying, biggest trade $747, 6m ago"}
-{"timestamp":"2026-06-30T15:44:27.813Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-06-30T15:44:28.018Z","cycle":16178,"ingestion":{"markets":0,"tradeVolume":7865,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":7865},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-06-30T15:44:35.030Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-06-30T15:44:28.014Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-06-30T15:44:28.014Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-30T15:44:28.014Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-30T15:44:28.014Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-06-30T15:49:27.776Z","type":"scan","message":"Cycle #16179 — 0 tennis markets | 2 active events | $4.2K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-06-30T17:29:28.416Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-06-30T17:29:28.416Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-06-30T17:29:28.416Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-06-30T17:34:28.124Z","type":"scan","message":"Cycle #16200 — 0 tennis markets | 7 active events | $67.0K recent flow"}
+{"timestamp":"2026-06-30T17:34:28.124Z","type":"think","message":"Money flowing: \"Will Matteo Berrettini be the 2026 Men’s Wimbledon win…\" — $1.9K heavily buying, biggest trade $1.9K, 6m ago"}
+{"timestamp":"2026-06-30T17:34:28.124Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-06-30T17:34:28.366Z","cycle":16200,"ingestion":{"markets":0,"tradeVolume":66996,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":66996},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-06-30T17:34:35.307Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-06-30T17:34:28.363Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-06-30T17:34:28.363Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-06-30T17:34:28.363Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-06-30T17:34:28.363Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
