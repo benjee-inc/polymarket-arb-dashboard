@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-01T08:19:30.787Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-01T08:19:30.787Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-01T08:24:30.518Z","type":"scan","message":"Cycle #16378 — 0 tennis markets | 3 active events | $24.8K recent flow"}
-{"timestamp":"2026-07-01T08:24:30.518Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Alycia Parks vs Mananchaya Sawangkaew\" — $5.7K heavily buying, biggest trade $3.5K, 2m ago"}
-{"timestamp":"2026-07-01T08:24:30.518Z","type":"decision","message":"Flow signal: \"Wimbledon WTA: Janice Tjen vs Daria Kasatkina\" — buyers dominating ($3.9K net), 1 traders, 8s ago"}
-{"type":"pipeline","timestamp":"2026-07-01T08:24:30.710Z","cycle":16378,"ingestion":{"markets":0,"tradeVolume":24757,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":24757},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-01T08:24:37.623Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-01T08:24:30.707Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-01T08:24:30.707Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-01T08:24:30.707Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-01T08:24:30.707Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-01T08:29:30.573Z","type":"scan","message":"Cycle #16379 — 0 tennis markets | 3 active events | $24.8K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-01T10:09:31.251Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-01T10:09:31.251Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-01T10:09:31.251Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-01T10:14:31.042Z","type":"scan","message":"Cycle #16400 — 0 tennis markets | 4 active events | $9.5K recent flow"}
+{"timestamp":"2026-07-01T10:14:31.042Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Janice Tjen vs Daria Kasatkina\" — $4.7K heavily buying, biggest trade $4.7K, 2m ago"}
+{"timestamp":"2026-07-01T10:14:31.042Z","type":"decision","message":"Flow signal: \"Wimbledon WTA: Alycia Parks vs Mananchaya Sawangkaew\" — buyers dominating ($3.1K net), 1 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-07-01T10:14:31.256Z","cycle":16400,"ingestion":{"markets":0,"tradeVolume":9470,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":4,"totalVolume":9470},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-01T10:14:38.183Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-01T10:14:31.252Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-01T10:14:31.252Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-01T10:14:31.252Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-01T10:14:31.252Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
