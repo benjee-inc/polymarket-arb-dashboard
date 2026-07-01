@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-01T12:09:31.692Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-01T12:09:31.692Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-01T12:14:31.498Z","type":"scan","message":"Cycle #16424 — 0 tennis markets | 7 active events | $25.1K recent flow"}
-{"timestamp":"2026-07-01T12:14:31.498Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Solana Sierra vs Coco Gauff\" — $7.8K heavily buying, biggest trade $7.1K, 1m ago"}
-{"timestamp":"2026-07-01T12:14:31.499Z","type":"decision","message":"Flow signal: \"Wimbledon ATP: Alejandro Davidovich Fokina vs Fabian M…\" — buyers dominating ($5.7K net), 3 traders, 21s ago"}
-{"type":"pipeline","timestamp":"2026-07-01T12:14:31.707Z","cycle":16424,"ingestion":{"markets":0,"tradeVolume":25130,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":25130},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-01T12:14:38.674Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-01T12:14:31.703Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-01T12:14:31.703Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-01T12:14:31.703Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-01T12:14:31.703Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-01T12:19:31.412Z","type":"scan","message":"Cycle #16425 — 0 tennis markets | 7 active events | $25.1K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-01T13:59:32.232Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-01T13:59:32.232Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-01T13:59:32.232Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-01T14:04:31.665Z","type":"scan","message":"Cycle #16446 — 0 tennis markets | 9 active events | $21.8K recent flow"}
+{"timestamp":"2026-07-01T14:04:31.665Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Jesper de Jong vs Joao Fonseca\" — $2.4K heavily buying, biggest trade $979, 2m ago"}
+{"timestamp":"2026-07-01T14:04:31.665Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-01T14:04:31.867Z","cycle":16446,"ingestion":{"markets":0,"tradeVolume":21827,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":9,"totalVolume":21827},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-01T14:04:38.815Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-01T14:04:31.864Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-01T14:04:31.864Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-01T14:04:31.864Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-01T14:04:31.864Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
