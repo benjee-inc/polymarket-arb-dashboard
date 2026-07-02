@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-02T16:24:36.040Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-02T16:24:36.040Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-02T16:29:35.855Z","type":"scan","message":"Cycle #16762 — 0 tennis markets | 5 active events | $8.2K recent flow"}
-{"timestamp":"2026-07-02T16:29:35.855Z","type":"think","message":"Money flowing: \"Will Matteo Berrettini be the 2026 Men’s Wimbledon win…\" — $1.9K heavily buying, biggest trade $640, 22s ago"}
-{"timestamp":"2026-07-02T16:29:35.855Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-02T16:29:36.070Z","cycle":16762,"ingestion":{"markets":0,"tradeVolume":8205,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":8205},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-02T16:29:43.007Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-02T16:29:36.065Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-02T16:29:36.065Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-02T16:29:36.065Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-02T16:29:36.065Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-02T16:34:35.822Z","type":"scan","message":"Cycle #16763 — 0 tennis markets | 5 active events | $8.2K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-02T18:14:36.574Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-02T18:14:36.574Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-02T18:14:36.574Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-02T18:19:36.460Z","type":"scan","message":"Cycle #16784 — 0 tennis markets | 7 active events | $74.0K recent flow"}
+{"timestamp":"2026-07-02T18:19:36.460Z","type":"think","message":"Money flowing: \"Cincinnati Reds vs. Milwaukee Brewers\" — $30.6K heavily buying, biggest trade $25.3K, 23s ago"}
+{"timestamp":"2026-07-02T18:19:36.460Z","type":"decision","message":"Flow signal: \"Wimbledon ATP: Frances Tiafoe vs Jan Choinski\" — buyers dominating ($18.6K net), 2 traders, 4s ago"}
+{"type":"pipeline","timestamp":"2026-07-02T18:19:36.685Z","cycle":16784,"ingestion":{"markets":0,"tradeVolume":73966,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":73966},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-02T18:19:43.752Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-02T18:19:36.681Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-02T18:19:36.681Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-02T18:19:36.681Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-02T18:19:36.681Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
