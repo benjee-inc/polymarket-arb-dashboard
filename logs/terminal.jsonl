@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-02T07:54:34.802Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-02T07:54:34.802Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-02T07:59:34.839Z","type":"scan","message":"Cycle #16660 — 0 tennis markets | 3 active events | $35.2K recent flow"}
-{"timestamp":"2026-07-02T07:59:34.839Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Alex de Minaur vs Adrian Mannarino\" — $3.8K heavily selling, biggest trade $3.8K, 3m ago"}
-{"timestamp":"2026-07-02T07:59:34.839Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-02T07:59:35.072Z","cycle":16660,"ingestion":{"markets":0,"tradeVolume":35203,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":35203},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-02T07:59:42.005Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-02T07:59:35.068Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-02T07:59:35.068Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-02T07:59:35.068Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-02T07:59:35.068Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-02T08:04:34.622Z","type":"scan","message":"Cycle #16661 — 0 tennis markets | 3 active events | $35.2K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-02T09:44:35.154Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-02T09:44:35.154Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-02T09:44:35.154Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-02T09:49:35.054Z","type":"scan","message":"Cycle #16682 — 0 tennis markets | 7 active events | $25.9K recent flow"}
+{"timestamp":"2026-07-02T09:49:35.054Z","type":"think","message":"Money flowing: \"Will Katie Boulter win the 2026 Women’s US Open?\" — $15.3K heavily buying, biggest trade $5.1K, 1m ago"}
+{"timestamp":"2026-07-02T09:49:35.055Z","type":"decision","message":"Flow signal: \"Wimbledon WTA: Alexandra Eala vs Maya Joint\" — buyers dominating ($3.7K net), 1 traders, 1m ago"}
+{"type":"pipeline","timestamp":"2026-07-02T09:49:35.242Z","cycle":16682,"ingestion":{"markets":0,"tradeVolume":25868,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":7,"totalVolume":25868},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-02T09:49:42.163Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-02T09:49:35.237Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-02T09:49:35.237Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-02T09:49:35.237Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-02T09:49:35.237Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
