@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-05T14:59:48.991Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-05T14:59:48.991Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-05T15:04:48.883Z","type":"scan","message":"Cycle #17609 — 0 tennis markets | 5 active events | $30.7K recent flow"}
-{"timestamp":"2026-07-05T15:04:48.883Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Felix Auger-Aliassime vs Alejandro Davi…\" — $13.8K heavily buying, biggest trade $7.2K, 7m ago"}
-{"timestamp":"2026-07-05T15:04:48.883Z","type":"decision","message":"Flow signal: \"Wimbledon ATP: Jannik Sinner vs Shintaro Mochizuki\" — buyers dominating ($13.0K net), 1 traders, 7m ago"}
-{"type":"pipeline","timestamp":"2026-07-05T15:04:49.139Z","cycle":17609,"ingestion":{"markets":0,"tradeVolume":30736,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":5,"totalVolume":30736},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-05T15:04:56.051Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-05T15:04:49.136Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-05T15:04:49.136Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-05T15:04:49.136Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-05T15:04:49.136Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-05T15:09:48.766Z","type":"scan","message":"Cycle #17610 — 0 tennis markets | 4 active events | $36.1K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-05T16:49:49.295Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-05T16:49:49.295Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-05T16:49:49.295Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-05T16:54:49.165Z","type":"scan","message":"Cycle #17631 — 0 tennis markets | 2 active events | $21.3K recent flow"}
+{"timestamp":"2026-07-05T16:54:49.165Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Aryna Sabalenka vs Naomi Osaka\" — $8.8K heavily buying, biggest trade $4.3K, 9s ago"}
+{"timestamp":"2026-07-05T16:54:49.165Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-05T16:54:49.373Z","cycle":17631,"ingestion":{"markets":0,"tradeVolume":21321,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":21321},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-05T16:54:56.237Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-05T16:54:49.370Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-05T16:54:49.370Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-05T16:54:49.370Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-05T16:54:49.370Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
