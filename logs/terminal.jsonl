@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-05T09:59:47.963Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-05T09:59:47.963Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-05T10:04:47.793Z","type":"scan","message":"Cycle #17549 — 0 tennis markets | 2 active events | $4.4K recent flow"}
-{"timestamp":"2026-07-05T10:04:47.793Z","type":"think","message":"Money flowing: \"Taylor Fritz vs. Alexander Bublik: Total Sets O/U 3.5\" — $2.4K heavily buying, biggest trade $2.4K, 6s ago"}
-{"timestamp":"2026-07-05T10:04:47.793Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-05T10:04:47.983Z","cycle":17549,"ingestion":{"markets":0,"tradeVolume":4410,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":4410},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-05T10:04:55.060Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-05T10:04:47.980Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-05T10:04:47.980Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-05T10:04:47.980Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-05T10:04:47.980Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-05T10:09:47.904Z","type":"scan","message":"Cycle #17550 — 0 tennis markets | 1 active events | $1.2K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-05T11:49:48.503Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-05T11:49:48.503Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-05T11:49:48.503Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-05T11:54:48.260Z","type":"scan","message":"Cycle #17571 — 0 tennis markets | 6 active events | $70.0K recent flow"}
+{"timestamp":"2026-07-05T11:54:48.260Z","type":"think","message":"Money flowing: \"Shanghai Shenhua FC vs. Zhejiang Zhiye FC: O/U 3.5\" — $2.2K heavily buying, biggest trade $2.2K, 6m ago"}
+{"timestamp":"2026-07-05T11:54:48.260Z","type":"decision","message":"Flow signal: \"Wimbledon ATP: Roman Safiullin vs Novak Djokovic\" — buyers dominating ($2.1K net), 1 traders, 5m ago"}
+{"type":"pipeline","timestamp":"2026-07-05T11:54:48.515Z","cycle":17571,"ingestion":{"markets":0,"tradeVolume":69977,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":6,"totalVolume":69977},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-05T11:54:55.605Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-05T11:54:48.511Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-05T11:54:48.511Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-05T11:54:48.511Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-05T11:54:48.511Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
