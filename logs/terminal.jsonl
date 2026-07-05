@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-05T13:39:48.942Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-05T13:39:48.942Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-05T13:44:48.756Z","type":"scan","message":"Cycle #17593 — 0 tennis markets | 3 active events | $16.4K recent flow"}
-{"timestamp":"2026-07-05T13:44:48.756Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Roman Safiullin vs Novak Djokovic\" — $9.3K buying, biggest trade $4.3K, 2m ago"}
-{"timestamp":"2026-07-05T13:44:48.756Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-05T13:44:48.958Z","cycle":17593,"ingestion":{"markets":0,"tradeVolume":16419,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":16419},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-05T13:44:55.985Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-05T13:44:48.954Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-05T13:44:48.954Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-05T13:44:48.954Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-05T13:44:48.954Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-05T13:49:48.670Z","type":"scan","message":"Cycle #17594 — 0 tennis markets | 3 active events | $16.4K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-05T15:29:49.042Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-05T15:29:49.042Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-05T15:29:49.042Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-05T15:34:48.871Z","type":"scan","message":"Cycle #17615 — 0 tennis markets | 3 active events | $32.9K recent flow"}
+{"timestamp":"2026-07-05T15:34:48.871Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Hubert Hurkacz vs Jan-Lennard Struff\" — $24.5K heavily buying, biggest trade $24.5K, 2m ago"}
+{"timestamp":"2026-07-05T15:34:48.871Z","type":"decision","message":"Flow signal: \"Set 3 Winner: Safiullin vs Djokovic\" — buyers dominating ($2.5K net), 4 traders, 14s ago"}
+{"type":"pipeline","timestamp":"2026-07-05T15:34:49.079Z","cycle":17615,"ingestion":{"markets":0,"tradeVolume":32884,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":32884},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-05T15:34:56.073Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-05T15:34:49.075Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-05T15:34:49.075Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-05T15:34:49.075Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-05T15:34:49.075Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
