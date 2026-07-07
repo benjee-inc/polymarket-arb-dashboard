@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-07T11:59:57.106Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-07T11:59:57.106Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-07T12:04:57.061Z","type":"scan","message":"Cycle #18149 — 0 tennis markets | 3 active events | $16.1K recent flow"}
-{"timestamp":"2026-07-07T12:04:57.061Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Naomi Osaka vs Karolina Muchova\" — $1.7K heavily buying, biggest trade $1.7K, 6m ago"}
-{"timestamp":"2026-07-07T12:04:57.061Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-07T12:04:57.278Z","cycle":18149,"ingestion":{"markets":0,"tradeVolume":16132,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":16132},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-07T12:05:04.354Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-07T12:04:57.274Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-07T12:04:57.274Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-07T12:04:57.274Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-07T12:04:57.274Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-07T12:09:57.061Z","type":"scan","message":"Cycle #18150 — 0 tennis markets | 2 active events | $4.8K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-07T13:49:57.003Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-07T13:49:57.003Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-07T13:49:57.003Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-07T13:54:56.820Z","type":"scan","message":"Cycle #18171 — 0 tennis markets | 2 active events | $228.9K recent flow"}
+{"timestamp":"2026-07-07T13:54:56.820Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Naomi Osaka vs Karolina Muchova\" — $1000 heavily buying, biggest trade $1000, 6m ago"}
+{"timestamp":"2026-07-07T13:54:56.820Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-07T13:54:57.021Z","cycle":18171,"ingestion":{"markets":0,"tradeVolume":228930,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":228930},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-07T13:55:03.934Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-07T13:54:57.017Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-07T13:54:57.017Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-07T13:54:57.017Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-07T13:54:57.017Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
