@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-07T13:44:56.994Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-07T13:44:56.994Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-07T13:49:56.786Z","type":"scan","message":"Cycle #18170 — 0 tennis markets | 2 active events | $228.9K recent flow"}
-{"timestamp":"2026-07-07T13:49:56.786Z","type":"think","message":"Money flowing: \"Wimbledon WTA: Jessica Pegula vs Coco Gauff\" — $227.9K heavily buying, biggest trade $58.0K, 16s ago"}
-{"timestamp":"2026-07-07T13:49:56.786Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-07T13:49:57.006Z","cycle":18170,"ingestion":{"markets":0,"tradeVolume":228930,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":228930},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-07T13:50:03.938Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-07T13:49:57.003Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-07T13:49:57.003Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-07T13:49:57.003Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-07T13:49:57.003Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-07T13:54:56.820Z","type":"scan","message":"Cycle #18171 — 0 tennis markets | 2 active events | $228.9K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-07T15:34:57.796Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-07T15:34:57.796Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-07T15:34:57.796Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-07T15:39:57.489Z","type":"scan","message":"Cycle #18192 — 0 tennis markets | 3 active events | $39.0K recent flow"}
+{"timestamp":"2026-07-07T15:39:57.489Z","type":"think","message":"Money flowing: \"Felix Auger-Aliassime vs. Novak Djokovic: Total Sets O…\" — $1.9K heavily buying, biggest trade $1.9K, 5s ago"}
+{"timestamp":"2026-07-07T15:39:57.489Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-07T15:39:57.695Z","cycle":18192,"ingestion":{"markets":0,"tradeVolume":39026,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":39026},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-07T15:40:04.613Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-07T15:39:57.691Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-07T15:39:57.691Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-07T15:39:57.691Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-07T15:39:57.691Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
