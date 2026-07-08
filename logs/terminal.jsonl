@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-08T04:40:00.391Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-08T04:40:00.391Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-08T04:45:00.084Z","type":"scan","message":"Cycle #18349 — 0 tennis markets | 1 active events | $537 recent flow"}
-{"timestamp":"2026-07-08T04:45:00.084Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Taylor Fritz vs Alexander Zverev\" — $537 heavily buying, biggest trade $537, 2m ago"}
-{"timestamp":"2026-07-08T04:45:00.084Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-08T04:45:00.311Z","cycle":18349,"ingestion":{"markets":0,"tradeVolume":537,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":537},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-08T04:45:07.235Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-08T04:45:00.305Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-08T04:45:00.305Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-08T04:45:00.305Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-08T04:45:00.305Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-08T04:50:00.099Z","type":"scan","message":"Cycle #18350 — 0 tennis markets | 1 active events | $537 recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-08T06:30:00.578Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-08T06:30:00.578Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-08T06:30:00.578Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-08T06:35:00.331Z","type":"scan","message":"Cycle #18371 — 0 tennis markets | 2 active events | $3.5K recent flow"}
+{"timestamp":"2026-07-08T06:35:00.331Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Taylor Fritz vs Alexander Zverev\" — $1.7K heavily buying, biggest trade $1.7K, 7m ago"}
+{"timestamp":"2026-07-08T06:35:00.331Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-08T06:35:00.540Z","cycle":18371,"ingestion":{"markets":0,"tradeVolume":3480,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":3480},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-08T06:35:07.460Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-08T06:35:00.536Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-08T06:35:00.536Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-08T06:35:00.536Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-08T06:35:00.536Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
