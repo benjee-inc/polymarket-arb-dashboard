@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-12T13:10:18.625Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-12T13:10:18.625Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-12T13:15:18.607Z","type":"scan","message":"Cycle #19603 — 0 tennis markets | 2 active events | $6.0K recent flow"}
-{"timestamp":"2026-07-12T13:15:18.607Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Jannik Sinner vs Alexander Zverev\" — $4.5K heavily buying, biggest trade $4.5K, 1m ago"}
-{"timestamp":"2026-07-12T13:15:18.607Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-12T13:15:18.817Z","cycle":19603,"ingestion":{"markets":0,"tradeVolume":6000,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":6000},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-12T13:15:25.903Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-12T13:15:18.813Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-12T13:15:18.813Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-12T13:15:18.813Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-12T13:15:18.813Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-12T13:20:18.405Z","type":"scan","message":"Cycle #19604 — 0 tennis markets | 2 active events | $6.0K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-12T15:00:18.699Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-12T15:00:18.699Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-12T15:00:18.699Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-12T15:05:18.516Z","type":"scan","message":"Cycle #19625 — 0 tennis markets | 2 active events | $87.2K recent flow"}
+{"timestamp":"2026-07-12T15:05:18.516Z","type":"think","message":"Money flowing: \"Wimbledon ATP: Jannik Sinner vs Alexander Zverev\" — $86.3K heavily buying, biggest trade $52.6K, 7s ago"}
+{"timestamp":"2026-07-12T15:05:18.516Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-12T15:05:18.731Z","cycle":19625,"ingestion":{"markets":0,"tradeVolume":87197,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":87197},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-12T15:05:25.736Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-12T15:05:18.727Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-12T15:05:18.727Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-12T15:05:18.727Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-12T15:05:18.727Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
