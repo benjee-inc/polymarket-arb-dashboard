@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-14T01:00:25.515Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-14T01:00:25.515Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-14T01:05:24.914Z","type":"scan","message":"Cycle #20033 — 0 tennis markets | 0 active events | $0 recent flow"}
-{"timestamp":"2026-07-14T01:05:24.914Z","type":"think","message":"All top signals on cooldown — markets stable, no fresh alpha."}
-{"timestamp":"2026-07-14T01:05:24.914Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-14T01:05:25.124Z","cycle":20033,"ingestion":{"markets":0,"tradeVolume":0,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":0,"totalVolume":0},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-14T01:05:32.130Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-14T01:05:25.119Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-14T01:05:25.119Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-14T01:05:25.119Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-14T01:05:25.119Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-14T01:10:24.821Z","type":"scan","message":"Cycle #20034 — 0 tennis markets | 0 active events | $0 recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-14T02:50:25.230Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-14T02:50:25.230Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-14T02:50:25.230Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-14T02:55:25.057Z","type":"scan","message":"Cycle #20055 — 0 tennis markets | 1 active events | $1.2K recent flow"}
+{"timestamp":"2026-07-14T02:55:25.057Z","type":"think","message":"Money flowing: \"Will the highest temperature in Shanghai be 34°C on Ju…\" — $1.2K heavily buying, biggest trade $1.2K, 8m ago"}
+{"timestamp":"2026-07-14T02:55:25.057Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-14T02:55:25.260Z","cycle":20055,"ingestion":{"markets":0,"tradeVolume":1199,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1199},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-14T02:55:32.212Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-14T02:55:25.257Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-14T02:55:25.257Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-14T02:55:25.257Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-14T02:55:25.257Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
