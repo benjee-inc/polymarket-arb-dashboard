@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-17T11:00:38.764Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-17T11:00:38.764Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-17T11:05:38.568Z","type":"scan","message":"Cycle #21017 — 0 tennis markets | 2 active events | $7.5K recent flow"}
-{"timestamp":"2026-07-17T11:05:38.568Z","type":"think","message":"Money flowing: \"Swiss Open: Arthur Rinderknech vs Stefanos Tsitsipas A…\" — $534 heavily buying, biggest trade $534, 10m ago"}
-{"timestamp":"2026-07-17T11:05:38.568Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-17T11:05:38.765Z","cycle":21017,"ingestion":{"markets":0,"tradeVolume":7534,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":7534},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-17T11:05:45.677Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-17T11:05:38.761Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-17T11:05:38.761Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-17T11:05:38.761Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-17T11:05:38.761Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-17T11:10:38.488Z","type":"scan","message":"Cycle #21018 — 0 tennis markets | 0 active events | $0 recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-17T12:50:38.784Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-17T12:50:38.784Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-17T12:50:38.784Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-17T12:55:38.676Z","type":"scan","message":"Cycle #21039 — 0 tennis markets | 2 active events | $2.7K recent flow"}
+{"timestamp":"2026-07-17T12:55:38.676Z","type":"think","message":"Money flowing: \"Yunnan Yukun FC vs. Shanghai Haigang FC: O/U 3.5\" — $2.0K heavily buying, biggest trade $2.0K, 47s ago"}
+{"timestamp":"2026-07-17T12:55:38.676Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-17T12:55:38.888Z","cycle":21039,"ingestion":{"markets":0,"tradeVolume":2682,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":2682},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-17T12:55:45.886Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-17T12:55:38.883Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-17T12:55:38.883Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-17T12:55:38.884Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-17T12:55:38.884Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
