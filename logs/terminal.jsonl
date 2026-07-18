@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-18T14:30:43.327Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-18T14:30:43.327Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-18T14:35:43.036Z","type":"scan","message":"Cycle #21347 — 0 tennis markets | 2 active events | $7.4K recent flow"}
-{"timestamp":"2026-07-18T14:35:43.036Z","type":"think","message":"Money flowing: \"Swedish Open: Andrey Rublev vs Alejandro Tabilo\" — $6.5K heavily buying, biggest trade $4.2K, 21s ago"}
-{"timestamp":"2026-07-18T14:35:43.036Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-18T14:35:43.237Z","cycle":21347,"ingestion":{"markets":0,"tradeVolume":7356,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":7356},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-18T14:35:50.130Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-18T14:35:43.231Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-18T14:35:43.232Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-18T14:35:43.232Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-18T14:35:43.232Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-18T14:40:43.063Z","type":"scan","message":"Cycle #21348 — 0 tennis markets | 2 active events | $7.4K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-18T16:20:43.693Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-18T16:20:43.693Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-18T16:20:43.693Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-18T16:25:43.589Z","type":"scan","message":"Cycle #21369 — 0 tennis markets | 1 active events | $71.3K recent flow"}
+{"timestamp":"2026-07-18T16:25:43.589Z","type":"think","message":"Money flowing: \"Swedish Open: Andrey Rublev vs Alejandro Tabilo\" — $71.3K heavily buying, biggest trade $50.0K, 2m ago"}
+{"timestamp":"2026-07-18T16:25:43.589Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-18T16:25:44.059Z","cycle":21369,"ingestion":{"markets":0,"tradeVolume":71289,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":71289},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-18T16:25:51.066Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-18T16:25:44.055Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-18T16:25:44.055Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-18T16:25:44.055Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-18T16:25:44.055Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
