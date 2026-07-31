@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-30T23:16:36.185Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-30T23:16:36.185Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-30T23:21:36.181Z","type":"scan","message":"Cycle #24907 — 0 tennis markets | 2 active events | $153.4K recent flow"}
-{"timestamp":"2026-07-30T23:21:36.181Z","type":"think","message":"Money flowing: \"Mubadala Citi DC Open: Ugo Humbert vs Ben Shelton\" — $151.5K heavily buying, biggest trade $45.9K, 1m ago"}
-{"timestamp":"2026-07-30T23:21:36.181Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-07-30T23:21:36.394Z","cycle":24907,"ingestion":{"markets":0,"tradeVolume":153446,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":153446},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-30T23:21:43.323Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-30T23:21:36.390Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-30T23:21:36.390Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-30T23:21:36.390Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-30T23:21:36.390Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-30T23:26:36.269Z","type":"scan","message":"Cycle #24908 — 0 tennis markets | 2 active events | $153.4K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-31T01:06:36.580Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-31T01:06:36.580Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-31T01:06:36.580Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-31T01:11:36.506Z","type":"scan","message":"Cycle #24929 — 0 tennis markets | 2 active events | $237.4K recent flow"}
+{"timestamp":"2026-07-31T01:11:36.506Z","type":"think","message":"Money flowing: \"Mubadala Citi DC Open: Ugo Humbert vs Ben Shelton\" — $234.3K heavily selling, biggest trade $209.6K, 58s ago"}
+{"timestamp":"2026-07-31T01:11:36.506Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-31T01:11:36.720Z","cycle":24929,"ingestion":{"markets":0,"tradeVolume":237449,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":237449},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-31T01:11:43.650Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-31T01:11:36.716Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-31T01:11:36.716Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-31T01:11:36.716Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-31T01:11:36.716Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
