@@ -1,12 +1,3 @@
-{"timestamp":"2026-07-31T00:36:36.473Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-07-31T00:36:36.473Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-07-31T00:41:36.297Z","type":"scan","message":"Cycle #24923 — 0 tennis markets | 3 active events | $122.6K recent flow"}
-{"timestamp":"2026-07-31T00:41:36.297Z","type":"think","message":"Money flowing: \"Pittsburgh Pirates vs. Cincinnati Reds: O/U 8.5\" — $94.0K heavily buying, biggest trade $26.9K, 6s ago"}
-{"timestamp":"2026-07-31T00:41:36.298Z","type":"decision","message":"Flow signal: \"Mubadala Citi DC Open: Ugo Humbert vs Ben Shelton\" — buyers dominating ($22.1K net), 5 traders, 21s ago"}
-{"type":"pipeline","timestamp":"2026-07-31T00:41:36.509Z","cycle":24923,"ingestion":{"markets":0,"tradeVolume":122620,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":3,"totalVolume":122620},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-07-31T00:41:43.482Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-07-31T00:41:36.504Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-07-31T00:41:36.504Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-31T00:41:36.504Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-31T00:41:36.504Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-07-31T00:46:36.319Z","type":"scan","message":"Cycle #24924 — 0 tennis markets | 3 active events | $122.6K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-07-31T02:26:37.153Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-07-31T02:26:37.153Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-07-31T02:26:37.153Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-07-31T02:31:37.054Z","type":"scan","message":"Cycle #24945 — 0 tennis markets | 1 active events | $638 recent flow"}
+{"timestamp":"2026-07-31T02:31:37.054Z","type":"think","message":"Money flowing: \"LoL: NRG Esports vs Winthrop University (BO3) - North …\" — $638 heavily selling, biggest trade $638, 3m ago"}
+{"timestamp":"2026-07-31T02:31:37.054Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-07-31T02:31:37.295Z","cycle":24945,"ingestion":{"markets":0,"tradeVolume":638,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":638},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-07-31T02:31:44.234Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-07-31T02:31:37.287Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-07-31T02:31:37.287Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-07-31T02:31:37.287Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-07-31T02:31:37.287Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
