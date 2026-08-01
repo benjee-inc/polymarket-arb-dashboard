@@ -1,12 +1,3 @@
-{"timestamp":"2026-08-01T01:26:41.419Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-08-01T01:26:41.419Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-08-01T01:31:41.259Z","type":"scan","message":"Cycle #25221 — 0 tennis markets | 2 active events | $7.9K recent flow"}
-{"timestamp":"2026-08-01T01:31:41.259Z","type":"think","message":"Money flowing: \"Chicago White Sox vs. Tampa Bay Rays AND Pittsburgh Pi…\" — $1.1K heavily selling, biggest trade $1.1K, 8m ago"}
-{"timestamp":"2026-08-01T01:31:41.259Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-08-01T01:31:41.454Z","cycle":25221,"ingestion":{"markets":0,"tradeVolume":7913,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":2,"totalVolume":7913},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-08-01T01:31:48.468Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-08-01T01:31:41.450Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-08-01T01:31:41.450Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-08-01T01:31:41.450Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-08-01T01:31:41.450Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-08-01T01:36:41.262Z","type":"scan","message":"Cycle #25222 — 0 tennis markets | 1 active events | $1.2K recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-08-01T03:16:41.834Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-08-01T03:16:41.834Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-08-01T03:16:41.834Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-08-01T03:21:41.575Z","type":"scan","message":"Cycle #25243 — 0 tennis markets | 1 active events | $21.5K recent flow"}
+{"timestamp":"2026-08-01T03:21:41.575Z","type":"think","message":"Money flowing: \"Mubadala Citi DC Open: Alejandro Tabilo vs Ben Shelton\" — $21.5K heavily buying, biggest trade $12.4K, 5m ago"}
+{"timestamp":"2026-08-01T03:21:41.575Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-08-01T03:21:41.776Z","cycle":25243,"ingestion":{"markets":0,"tradeVolume":21467,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":21467},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-08-01T03:21:48.677Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-08-01T03:21:41.772Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-08-01T03:21:41.772Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-08-01T03:21:41.772Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-08-01T03:21:41.773Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
