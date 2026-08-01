@@ -1,12 +1,3 @@
-{"timestamp":"2026-08-01T14:01:43.461Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
-{"timestamp":"2026-08-01T14:01:43.461Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
-{"timestamp":"2026-08-01T14:06:43.226Z","type":"scan","message":"Cycle #25372 — 0 tennis markets | 1 active events | $959 recent flow"}
-{"timestamp":"2026-08-01T14:06:43.226Z","type":"think","message":"Money flowing: \"Spread: Shanghai Haigang FC (-2.5)\" — $959 heavily buying, biggest trade $959, 1m ago"}
-{"timestamp":"2026-08-01T14:06:43.226Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
-{"type":"pipeline","timestamp":"2026-08-01T14:06:43.424Z","cycle":25372,"ingestion":{"markets":0,"tradeVolume":959,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":959},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
-{"timestamp":"2026-08-01T14:06:50.405Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
-{"timestamp":"2026-08-01T14:06:43.420Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
-{"timestamp":"2026-08-01T14:06:43.420Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-08-01T14:06:43.420Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-08-01T14:06:43.420Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
 {"timestamp":"2026-08-01T14:11:43.193Z","type":"scan","message":"Cycle #25373 — 0 tennis markets | 1 active events | $959 recent flow"}
@@ -198,3 +189,12 @@
 {"timestamp":"2026-08-01T15:51:44.027Z","type":"palpha","message":"Found 0 potential trades from scanner"}
 {"timestamp":"2026-08-01T15:51:44.027Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
 {"timestamp":"2026-08-01T15:51:44.027Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
+{"timestamp":"2026-08-01T15:56:43.804Z","type":"scan","message":"Cycle #25394 — 0 tennis markets | 1 active events | $1.5K recent flow"}
+{"timestamp":"2026-08-01T15:56:43.804Z","type":"think","message":"Money flowing: \"Counter-Strike: SPARTA vs Rune Eaters - Map 2 Winner\" — $1.5K heavily selling, biggest trade $1.5K, 2s ago"}
+{"timestamp":"2026-08-01T15:56:43.804Z","type":"decision","message":"No fresh edge — all top signals recently reported. Standing by."}
+{"type":"pipeline","timestamp":"2026-08-01T15:56:46.620Z","cycle":25394,"ingestion":{"markets":0,"tradeVolume":1499,"midpointsFetched":0},"signals":{"movers1h":0,"movers1d":0,"volumeSpikes":0,"catalysts":0,"deepValue":0,"tightRaces":0,"wideSpread":0},"tradeFlows":{"count":1,"totalVolume":1499},"midShifts":{"count":0},"enrichment":{"rawOpportunities":0,"enriched":0,"vetoed":0,"vetoReasons":{"all vetoed/filtered":0}},"execution":{"tradesExecuted":0,"skipped":0},"topSignals":[]}
+{"timestamp":"2026-08-01T15:56:55.297Z","type":"pnl","message":"Today: +$0.00 (+0.0%) · Portfolio $238 · 0 positions · 0 trades"}
+{"timestamp":"2026-08-01T15:56:46.616Z","type":"palpha","message":"[held] 32 positions excluded from opportunity search"}
+{"timestamp":"2026-08-01T15:56:46.616Z","type":"palpha","message":"Found 0 potential trades from scanner"}
+{"timestamp":"2026-08-01T15:56:46.616Z","type":"palpha","message":"0 active positions (32 dust ignored)"}
+{"timestamp":"2026-08-01T15:56:46.616Z","type":"palpha","message":"Evaluated 0 opportunities, 0 vetoed."}
